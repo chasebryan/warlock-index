@@ -26,6 +26,12 @@ Generated library pages include canonical URLs, index/follow robots metadata,
 and social preview metadata using `https://www.warlock-index.org/` as the
 canonical site origin.
 
+The homepage keeps `WARLOCK-INDEX` as the canonical brand and includes
+structured-data aliases for `Warlock-Index`, `warlock-index`, and
+`warlock index` to support search discovery for common phrase variants.
+The static search UI supports `?q=` URLs for structured `SearchAction`
+metadata.
+
 Before finishing a docs change, run the drift check:
 
 ```sh
@@ -40,6 +46,16 @@ changes with the docs update.
 After deployment and HTTPS certificate provisioning, submit
 `https://www.warlock-index.org/sitemap.xml` through search engine webmaster
 tools for faster discovery.
+
+The repository also includes an IndexNow key file and submitter:
+
+```sh
+node site/submit-indexnow.mjs --dry-run
+node site/submit-indexnow.mjs --live
+```
+
+The `Submit IndexNow` workflow runs after a successful site deploy and submits
+the live sitemap URLs to the IndexNow endpoint for Bing-family discovery.
 
 Current site requirements:
 
