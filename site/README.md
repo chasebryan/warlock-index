@@ -15,8 +15,16 @@ Run the document-library build after changing files under `docs/`:
 node site/build-library.mjs
 ```
 
-The build renders Markdown products into `site/library/` and refreshes
-`site/corpus.js` for the homepage navigator.
+The build renders Markdown products into `site/library/`, refreshes
+`site/corpus.js` for the homepage navigator, and updates search-discovery
+files:
+
+- `site/robots.txt` permits crawler access and points to the sitemap.
+- `site/sitemap.xml` lists the homepage and generated documentation pages.
+
+Generated library pages include canonical URLs, index/follow robots metadata,
+and social preview metadata using `https://www.warlock-index.org/` as the
+canonical site origin.
 
 Before finishing a docs change, run the drift check:
 
@@ -26,7 +34,12 @@ node site/check-library.mjs
 
 The check rebuilds the library and fails if that rebuild changes generated
 website output. When it fails, review and commit the refreshed
-`site/library/` and `site/corpus.js` changes with the docs update.
+`site/library/`, `site/corpus.js`, `site/robots.txt`, and `site/sitemap.xml`
+changes with the docs update.
+
+After deployment and HTTPS certificate provisioning, submit
+`https://www.warlock-index.org/sitemap.xml` through search engine webmaster
+tools for faster discovery.
 
 Current site requirements:
 

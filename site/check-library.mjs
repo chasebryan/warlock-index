@@ -8,6 +8,8 @@ const siteRoot = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(siteRoot, "..");
 const libraryRoot = path.join(siteRoot, "library");
 const corpusPath = path.join(siteRoot, "corpus.js");
+const robotsPath = path.join(siteRoot, "robots.txt");
+const sitemapPath = path.join(siteRoot, "sitemap.xml");
 const buildScript = path.join(siteRoot, "build-library.mjs");
 
 const normalizeSlash = (value) => value.split(path.sep).join("/");
@@ -46,9 +48,14 @@ async function hashFile(filePath) {
 }
 
 async function generatedSnapshot() {
+  const generatedRootFiles = [];
+  for (const filePath of [corpusPath, robotsPath, sitemapPath]) {
+    if (await fileExists(filePath)) generatedRootFiles.push(filePath);
+  }
+
   const files = [
     ...await collectFiles(libraryRoot),
-    ...(await fileExists(corpusPath) ? [corpusPath] : [])
+    ...generatedRootFiles
   ];
   const snapshot = new Map();
 

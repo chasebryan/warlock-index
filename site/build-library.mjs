@@ -7,6 +7,9 @@ const repoRoot = path.resolve(siteRoot, "..");
 const docsRoot = path.join(repoRoot, "docs");
 const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
+const siteOrigin = "https://www.warlock-index.org";
+const siteName = "WARLOCK-INDEX";
+const defaultShareImage = `${siteOrigin}/images/warlock-index-emblem.jpeg`;
 
 const preferredOrder = [
   "index.md",
@@ -39,7 +42,18 @@ const escapeHtml = (value) => String(value)
 
 const escapeAttr = (value) => escapeHtml(value).replace(/"/g, "&quot;");
 
+const escapeXml = (value) => String(value)
+  .replace(/&/g, "&amp;")
+  .replace(/</g, "&lt;")
+  .replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;");
+
 const stripTrailingWhitespace = (value) => value.replace(/[ \t]+$/gm, "");
+
+function absoluteUrl(outputRel = "index.html") {
+  const cleanRel = outputRel.replace(/^\/+/, "");
+  return cleanRel === "index.html" ? `${siteOrigin}/` : `${siteOrigin}/${cleanRel}`;
+}
 
 const titleCase = (value) => value
   .replace(/\.md$/i, "")
@@ -514,6 +528,7 @@ function renderPage(currentDoc, docs, relToOutput) {
   const rootJs = relativeUrl(currentDoc.outputRel, "library.js");
   const docsIndex = relativeUrl(currentDoc.outputRel, "library/index.html");
   const body = renderMarkdown(currentDoc.markdown, currentDoc, relToOutput);
+  const canonicalUrl = absoluteUrl(currentDoc.outputRel);
 
   return `<!doctype html>
 <html lang="en">
@@ -521,7 +536,19 @@ function renderPage(currentDoc, docs, relToOutput) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="${escapeAttr(currentDoc.summary)}">
-    <title>${escapeHtml(currentDoc.title)} | WARLOCK-INDEX</title>
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="${escapeAttr(canonicalUrl)}">
+    <meta property="og:title" content="${escapeAttr(`${currentDoc.title} | ${siteName}`)}">
+    <meta property="og:description" content="${escapeAttr(currentDoc.summary)}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="${escapeAttr(canonicalUrl)}">
+    <meta property="og:site_name" content="${escapeAttr(siteName)}">
+    <meta property="og:image" content="${escapeAttr(defaultShareImage)}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeAttr(`${currentDoc.title} | ${siteName}`)}">
+    <meta name="twitter:description" content="${escapeAttr(currentDoc.summary)}">
+    <meta name="twitter:image" content="${escapeAttr(defaultShareImage)}">
+    <title>${escapeHtml(currentDoc.title)} | ${siteName}</title>
     <link rel="stylesheet" href="${escapeAttr(rootCss)}">
   </head>
   <body>
@@ -627,7 +654,39 @@ async function build() {
     "utf8"
   );
 
-  console.log(`Generated ${docs.length} documentation pages and corpus.js`);
+  const sitemapUrls = [
+    { loc: absoluteUrl("index.html"), priority: "1.0" },
+    ...docs.map((doc) => ({
+      loc: absoluteUrl(doc.outputRel),
+      priority: doc.rel === "index.md" ? "0.9" : "0.7"
+    }))
+  ];
+
+  const sitemap = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...sitemapUrls.map((entry) => [
+      "  <url>",
+      `    <loc>${escapeXml(entry.loc)}</loc>`,
+      `    <priority>${entry.priority}</priority>`,
+      "  </url>"
+    ].join("\n")),
+    "</urlset>",
+    ""
+  ].join("\n");
+
+  const robots = [
+    "User-agent: *",
+    "Allow: /",
+    "",
+    `Sitemap: ${siteOrigin}/sitemap.xml`,
+    ""
+  ].join("\n");
+
+  await writeFile(path.join(siteRoot, "sitemap.xml"), sitemap, "utf8");
+  await writeFile(path.join(siteRoot, "robots.txt"), robots, "utf8");
+
+  console.log(`Generated ${docs.length} documentation pages, corpus.js, sitemap.xml, and robots.txt`);
 }
 
 await build();
