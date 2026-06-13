@@ -1,0 +1,66 @@
+name: Deploy Site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/deploy-site.yml"
+      - "docs/**"
+      - "site/**"
+      - "README.md"
+      - "STATUS.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Verify and publish static site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Verify generated site output
+        run: node site/check-library.mjs
+
+      - name: Publish site to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages
+
+          publish_dir="$(mktemp -d)"
+          git worktree add --detach "$publish_dir" origin/gh-pages
+
+          find "$publish_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -R site/. "$publish_dir"/
+
+          cd "$publish_dir"
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No site changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Deploy site from ${GITHUB_SHA}"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:gh-pages
