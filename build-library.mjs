@@ -39,6 +39,8 @@ const escapeHtml = (value) => String(value)
 
 const escapeAttr = (value) => escapeHtml(value).replace(/"/g, "&quot;");
 
+const stripTrailingWhitespace = (value) => value.replace(/[ \t]+$/gm, "");
+
 const titleCase = (value) => value
   .replace(/\.md$/i, "")
   .split(/[-_./\s]+/)
@@ -132,6 +134,54 @@ function trimSummary(value) {
   return cleaned.length > 190 ? `${cleaned.slice(0, 187).trim()}...` : cleaned;
 }
 
+function cleanMetadataValue(value) {
+  return value
+    .replace(/\*\*/g, "")
+    .replace(/`/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractField(markdown, labels) {
+  const lines = markdown.split("\n");
+  const labelPattern = labels.map((label) => label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
+  const startPattern = new RegExp(`^\\*\\*(?:${labelPattern}):\\*\\*\\s*(.*)$`, "i");
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const match = lines[index].trim().match(startPattern);
+    if (!match) continue;
+
+    const valueLines = [match[1].trim()].filter(Boolean);
+    for (let next = index + 1; next < lines.length; next += 1) {
+      const line = lines[next].trim();
+      if (!line || /^#{1,6}\s+/.test(line) || /^\*\*[^*]+:\*\*/.test(line)) break;
+      valueLines.push(line);
+    }
+
+    return cleanMetadataValue(valueLines.join(" "));
+  }
+
+  return "";
+}
+
+function extractProductId(markdown) {
+  return extractField(markdown, [
+    "Product ID",
+    "Profile ID",
+    "Tracker ID",
+    "Timeline ID",
+    "Matrix ID",
+    "Source Packet ID",
+    "Source Register ID",
+    "Standard ID"
+  ]);
+}
+
+function extractConfidence(markdown) {
+  const confidence = extractField(markdown, ["Analytic confidence"]);
+  return confidence.length > 128 ? `${confidence.slice(0, 125).trim()}...` : confidence;
+}
+
 function inferType(rel) {
   if (rel === "index.md") return "Navigation";
   if (posix.basename(rel) === "README.md") return "Directory";
@@ -189,12 +239,17 @@ function inferDomain(rel, type) {
 }
 
 function tagsFor(doc) {
+  const tokens = (value) => value.toLowerCase().split(/[^a-z0-9:-]+/);
   return [...new Set([
-    ...doc.title.toLowerCase().split(/[^a-z0-9]+/),
-    ...doc.rel.toLowerCase().replace(/\.md$/, "").split(/[^a-z0-9]+/),
+    ...tokens(doc.title),
+    ...tokens(doc.rel.replace(/\.md$/, "")),
     doc.type.toLowerCase(),
     doc.theater.toLowerCase(),
-    doc.domain.toLowerCase()
+    doc.domain.toLowerCase(),
+    ...tokens(doc.productId),
+    ...tokens(doc.preparedUtc),
+    ...tokens(doc.cutoffUtc),
+    ...tokens(doc.confidence)
   ].filter((tag) => tag.length > 1))];
 }
 
@@ -527,6 +582,10 @@ async function build() {
       markdown,
       title: extractTitle(markdown, rel),
       summary: extractSummary(markdown),
+      productId: extractProductId(markdown),
+      preparedUtc: extractField(markdown, ["Prepared UTC"]),
+      cutoffUtc: extractField(markdown, ["Information cutoff UTC"]),
+      confidence: extractConfidence(markdown),
       type,
       group: inferGroup(rel, type),
       theater: inferTheater(rel),
@@ -545,7 +604,7 @@ async function build() {
   for (const doc of docs) {
     const outputPath = path.join(siteRoot, doc.outputRel);
     await mkdir(path.dirname(outputPath), { recursive: true });
-    await writeFile(outputPath, renderPage(doc, docs, relToOutput), "utf8");
+    await writeFile(outputPath, stripTrailingWhitespace(renderPage(doc, docs, relToOutput)), "utf8");
   }
 
   const corpus = docs.map((doc) => ({
@@ -553,6 +612,10 @@ async function build() {
     type: doc.type,
     path: doc.outputRel,
     summary: doc.summary,
+    productId: doc.productId,
+    preparedUtc: doc.preparedUtc,
+    cutoffUtc: doc.cutoffUtc,
+    confidence: doc.confidence,
     theater: doc.theater,
     domain: doc.domain,
     tags: doc.tags
