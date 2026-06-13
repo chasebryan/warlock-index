@@ -1,8 +1,8 @@
-# Warlock Index
+# WARLOCK-INDEX
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Warlock Index is an open-source documentation repository for strategic defense
+WARLOCK-INDEX is an open-source documentation repository for strategic defense
 research, military-strategic assessment, and national security source
 organization from a United States decision-advantage perspective.
 
