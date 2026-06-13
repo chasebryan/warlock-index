@@ -42,7 +42,7 @@ Every product in this repository must remain within the following lane:
 
 ## Website Output
 
-Warlock-Index is managed on two fronts: canonical Markdown under `docs/` and
+WARLOCK-INDEX is managed on two fronts: canonical Markdown under `docs/` and
 generated website output under `site/library/` plus `site/corpus.js`.
 
 After changing `docs/`, run:

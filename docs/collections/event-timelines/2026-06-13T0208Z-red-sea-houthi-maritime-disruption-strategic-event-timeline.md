@@ -11,7 +11,7 @@
 **Source base:** 2026 ODNI Annual Threat Assessment; Federal Register
 Executive Order 14175 on Ansar Allah; White House Ansar Allah designation
 order text; UN Security Council Resolution 2722; public EU framing for
-EUNAVFOR ASPIDES; existing Warlock-Index Iran, Africa, foreign terrorist
+EUNAVFOR ASPIDES; existing WARLOCK-INDEX Iran, Africa, foreign terrorist
 organization, global maritime, cyber, space, and global assimilation products.
 
 **Analytic confidence:** Moderate to high for major public events, designation
@@ -78,7 +78,7 @@ the political choices of states outside Yemen.
 | 2025 | Strategic persistence | U.S. public reporting continued to treat Houthi maritime activity as a persistent threat to U.S., partner, and global maritime interests. | Reinforced the assessment that the Red Sea disruption lane remains structurally relevant even when attack tempo varies. | Federal Register EO 14175; official U.S. public reporting. | Moderate | Indicator watchlist |
 | 2026-03 | Intelligence assessment | ODNI assessed that the Huthis remain a resilient challenger to U.S. and partner interests in the region. | Provides the current Intelligence Community anchor for treating the group as durable rather than episodic. | 2026 ODNI Annual Threat Assessment. | High | Houthi actor profile |
 | 2026-03 | Intelligence assessment | ODNI assessed that the Huthis' military capabilities and Red Sea location allow them to try to extort concessions from the international community. | Places the Red Sea geography at the center of coercive leverage analysis and connects local capability to global political effects. | 2026 ODNI Annual Threat Assessment. | High | Maritime coercion assessment |
-| 2026-06 | Continuing research posture | The Red Sea file remains linked to Iran, Africa, Middle East conflict, global shipping, allied maritime response, and commercial-infrastructure resilience. | Sets the repository requirement for sustained source packets rather than a one-time crisis note. | Warlock-Index global assimilation matrix and theater baselines. | Moderate | Red Sea source packet series |
+| 2026-06 | Continuing research posture | The Red Sea file remains linked to Iran, Africa, Middle East conflict, global shipping, allied maritime response, and commercial-infrastructure resilience. | Sets the repository requirement for sustained source packets rather than a one-time crisis note. | WARLOCK-INDEX global assimilation matrix and theater baselines. | Moderate | Red Sea source packet series |
 
 ## Pattern Assessment
 
@@ -101,7 +101,7 @@ weapons-proliferation research, and Middle East escalation tracking.
 ### Allied And Multilateral Burden
 
 The crisis generated U.S., allied, EU, and UN response lanes. That matters for
-future Warlock-Index work because the Red Sea is a practical test of allied
+future WARLOCK-INDEX work because the Red Sea is a practical test of allied
 maritime capacity, legal authorities, commercial-risk tolerance, and the
 division of labor among U.S.-led, EU-led, and regional mechanisms.
 

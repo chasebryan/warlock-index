@@ -11,7 +11,7 @@
 **Source base:** NGA Maps for Download; USINDOPACOM Area of Responsibility
 page; State Department Taiwan and China country-area source family access
 checks; American Institute in Taiwan access checks; U.S. Code Taiwan
-Relations Act; Warlock-Index Theater Map Index; Warlock-Index Map and
+Relations Act; WARLOCK-INDEX Theater Map Index; WARLOCK-INDEX Map and
 Geospatial Reference Source Register; Taiwan Strait baseline; Taiwan Strait
 coercion timeline; Indo-Pacific allied posture source packet.
 
@@ -50,13 +50,13 @@ The safe architecture is three layers:
 - **Threat layer:** ODNI, DoD, DIA, CISA/FBI/NSA, Treasury, State, and allied
   assessment or advisory sources.
 
-Warlock-Index products should not let these layers blur. A map can show a
+WARLOCK-INDEX products should not let these layers blur. A map can show a
 publisher's public orientation. It does not prove threat intent, basing,
 access, force posture, operational feasibility, sovereignty, or control.
 
 ## Source Ledger
 
-| Source family | Current access status | Primary value | Warlock-Index use | Limits |
+| Source family | Current access status | Primary value | WARLOCK-INDEX use | Limits |
 | --- | --- | --- | --- | --- |
 | NGA Maps for Download | Verified 2026-06-13 | Public-release static maps, including Taiwan 2024 | Static theater-orientation map anchor | No overlays, targeting, live movement, or operational inference |
 | USINDOPACOM Area of Responsibility | Verified 2026-06-13 | Public U.S. command-area and theater framing | Command-area orientation and regional frame | No force posture, basing, access-right, or current-operation inference |

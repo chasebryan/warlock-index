@@ -10,7 +10,7 @@
 
 **Purpose:** Define source-routing rules for public map, geographic-name,
 topographic, nautical, command-area, and geospatial reference material used
-inside Warlock-Index.
+inside WARLOCK-INDEX.
 
 **Boundary:** This register supports strategic orientation and source
 provenance only. It does not create targeting maps, sensitive facility
@@ -27,7 +27,7 @@ orientation framing. It does not independently prove intent, capability,
 threat status, control, sovereignty, access, vulnerability, or operational
 feasibility.
 
-Warlock-Index products should keep these evidence types separate:
+WARLOCK-INDEX products should keep these evidence types separate:
 
 - Static public orientation maps.
 - Official command-area and theater maps.
@@ -76,7 +76,7 @@ Warlock-Index products should keep these evidence types separate:
   Geographic Names, and World Magnetic Model.
 - **Reliability note:** Authoritative for public product-family identity.
   Product existence does not imply public access to all underlying data,
-  suitability for Warlock-Index use, or permission to produce operational
+  suitability for WARLOCK-INDEX use, or permission to produce operational
   geospatial products.
 
 ### USGS The National Map
@@ -102,7 +102,7 @@ Warlock-Index products should keep these evidence types separate:
   NOAA Custom Chart, navigation update, historical chart, maritime boundary,
   and hydrographic-source routing.
 - **Reliability note:** Authoritative public U.S. charting source for
-  navigation products. Warlock-Index uses it for source provenance and broad
+  navigation products. WARLOCK-INDEX uses it for source provenance and broad
   maritime context, not voyage planning, route recommendation, or live
   movement analysis.
 
@@ -115,7 +115,7 @@ Warlock-Index products should keep these evidence types separate:
 - **Use:** Plain-language source for what a nautical chart depicts and why it
   matters for safe navigation.
 - **Reliability note:** Useful context for chart interpretation. Do not
-  convert safety-of-navigation material into Warlock-Index route-selection or
+  convert safety-of-navigation material into WARLOCK-INDEX route-selection or
   interdiction guidance.
 
 ### U.S. Board On Geographic Names
@@ -164,7 +164,7 @@ Warlock-Index products should keep these evidence types separate:
 
 ## Theater-Lane Routing
 
-| Warlock-Index lane | Priority map source families | Current use | Boundary note |
+| WARLOCK-INDEX lane | Priority map source families | Current use | Boundary note |
 | --- | --- | --- | --- |
 | Global strategic operating picture | NGA world maps, BGN, State, UN, USGS/NOAA where relevant | High-level orientation and naming caveats | No operational overlays |
 | Europe / Russia / Ukraine | NGA public maps, NATO public maps, EUCOM AOR source family, State, allied government maps, UN Geospatial source family | Theater orientation, alliance geography, command-area source routing, and boundary/naming caveats | No front-line tracking, target mapping, basing inference, operational overlays, route selection, or strike assessment |
@@ -185,14 +185,14 @@ Warlock-Index products should keep these evidence types separate:
 3. Treat combatant command maps as U.S. command-area framing, not proof of
    operations, control, basing, or access.
 4. Treat NOAA nautical charts and chart tools as navigation-source material,
-   not Warlock-Index route-selection or operational-planning sources.
+   not WARLOCK-INDEX route-selection or operational-planning sources.
 5. Treat USGS topographic and built-environment layers as public U.S.
    geospatial reference. Do not convert them into vulnerability maps or
    targetable infrastructure inventories.
 6. Use geographic-name sources to preserve source language. Do not silently
    normalize contested names or statuses.
 7. Do not combine public maps with live movement, sensitive facility,
-   collection, readiness, or exploitation layers inside Warlock-Index.
+   collection, readiness, or exploitation layers inside WARLOCK-INDEX.
 
 ## Prohibited Product Patterns
 
@@ -208,7 +208,7 @@ Warlock-Index products should keep these evidence types separate:
 
 ## Minimum Product Fields
 
-When a Warlock-Index product uses this register, include:
+When a WARLOCK-INDEX product uses this register, include:
 
 - Source family.
 - Publisher.

@@ -11,8 +11,8 @@
 **Source base:** NGA Maps for Download; NATO on the Map; NATO member-country
 page; U.S. European Command area-of-responsibility source-family access
 check; U.S. Department of State Ukraine and Russia country-area source-family
-access checks; UN Geospatial source-family access check; Warlock-Index
-Theater Map Index; Warlock-Index Map and Geospatial Reference Source
+access checks; UN Geospatial source-family access check; WARLOCK-INDEX
+Theater Map Index; WARLOCK-INDEX Map and Geospatial Reference Source
 Register; NATO allied capacity source packet; Russia actor classification;
 Ukraine War external support tracker; Ukraine War strategic event timeline.
 
@@ -26,7 +26,7 @@ use in this environment because direct access checks returned HTTP 403.
 
 **Purpose:** Establish safe map-source routing for Europe, NATO, Ukraine,
 Russia-adjacent Europe, and related alliance-geography products inside
-Warlock-Index.
+WARLOCK-INDEX.
 
 **Boundary:** This packet supports strategic orientation and source
 provenance only. It does not create front-line maps, targeting maps,
@@ -39,7 +39,7 @@ surveillance products, or legal advice.
 
 Europe, NATO, and Ukraine map references are high-risk for over-reading
 because static public maps sit close to an active war, alliance posture, and
-contested territory. Warlock-Index should use official public maps to answer
+contested territory. WARLOCK-INDEX should use official public maps to answer
 narrow source questions: who published the map, what geographic frame does it
 show, what date or title does it carry, and what caveats are needed before
 using it in a strategic product?
@@ -53,7 +53,7 @@ The safe architecture is four layers:
 - **Diplomatic source layer:** State country-area source families for Ukraine,
   Russia, Belarus, and affected allies after exact page refresh.
 - **Threat and war-evidence layer:** ODNI, DoD, NATO statements, allied
-  government sources, UN reporting, and Warlock-Index dated event products.
+  government sources, UN reporting, and WARLOCK-INDEX dated event products.
 
 These layers must not blur. A map can orient a reader to alliance geography or
 country-border context. It does not prove current control, unit location,
@@ -62,7 +62,7 @@ legal status, sovereignty, or operational feasibility.
 
 ## Source Ledger
 
-| Source family | Current access status | Primary value | Warlock-Index use | Limits |
+| Source family | Current access status | Primary value | WARLOCK-INDEX use | Limits |
 | --- | --- | --- | --- | --- |
 | NGA Maps for Download | Verified 2026-06-13 | Public-release map list including Ukraine Eastern Border Map 2023 and NATO Map 2024 | Static orientation anchor and map-title provenance | No front-line tracking, targeting, operational overlays, or current-control inference |
 | NATO on the Map | Verified 2026-06-13 | NATO interactive map showing member countries, partners, major activities, and NATO structures | Alliance issuer-perspective map source | Interactive source; no force posture, readiness, basing, or activity inference beyond NATO's public page language |
@@ -92,7 +92,7 @@ legal status, sovereignty, or operational feasibility.
    territories, NATO allies, NATO partners, the Black Sea, the Baltic Sea, and
    the High North.
 7. Pair map references with ODNI, DoD, NATO, allied, UN, or dated
-   Warlock-Index event products when making threat, war, coercion, military,
+   WARLOCK-INDEX event products when making threat, war, coercion, military,
    humanitarian, sanctions, or legal claims.
 8. Do not combine map sources with live battlefield, vessel, aircraft,
    facility, logistics, access-route, strike-range, collection, readiness,
@@ -133,7 +133,7 @@ legal status, sovereignty, or operational feasibility.
 
 | Product lane | Map-source role | Required companion source | Boundary |
 | --- | --- | --- | --- |
-| Russia actor profile | Use Europe/NATO/Ukraine map sources as theater orientation only | ODNI, DoD, NATO, State, Treasury, EU/allied sources, dated Warlock-Index Russia products | No target geography, front-line tracking, or posture inference |
+| Russia actor profile | Use Europe/NATO/Ukraine map sources as theater orientation only | ODNI, DoD, NATO, State, Treasury, EU/allied sources, dated WARLOCK-INDEX Russia products | No target geography, front-line tracking, or posture inference |
 | Ukraine war timeline | Add static map provenance for broad geography and border context | Dated official statements, UN/humanitarian sources, NATO/allied releases, high-reliability current-event sources | No tactical map, unit tracking, or strike assessment |
 | NATO allied capacity | Use NATO map and member-country pages for alliance geography | NATO declarations, defense expenditure data, allied ministry statements, GAO/CRS where relevant | No delivered-force or readiness inference from maps |
 | Europe/NATO posture future packet | Use NATO on the Map, NGA NATO map, EUCOM AOR, and allied government maps as issuer perspectives | NATO, EUCOM, DoD posture statements, allied defense strategies | No basing, access-route, deployment, or logistics vulnerability analysis |
@@ -150,7 +150,7 @@ legal status, sovereignty, or operational feasibility.
   unsupported layers or treating interface categories as operational evidence.
 - Public maps can encode policy, naming, boundary, recognition, projection, or
   source-age choices. Products should state those caveats rather than flattening
-  them into Warlock-Index judgments.
+  them into WARLOCK-INDEX judgments.
 - This packet does not replace ODNI, DoD, NATO, State, Treasury, UN, EU,
   allied, or high-reliability current-event sources for threat, war,
   humanitarian, sanctions, military, diplomatic, or legal claims.

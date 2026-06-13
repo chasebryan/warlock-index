@@ -14,7 +14,7 @@ family; Philippine Official Gazette Administrative Order No. 29 and Enhanced
 Defense Cooperation Agreement source-family access checks; Permanent Court
 of Arbitration South China Sea Arbitration case page; U.S. Department of
 State Limits in the Seas No. 150; U.S. Department of State Philippines
-country-area source family; Warlock-Index Theater Map Index; Warlock-Index
+country-area source family; WARLOCK-INDEX Theater Map Index; WARLOCK-INDEX
 Map and Geospatial Reference Source Register; Indo-Pacific and Taiwan map
 reference source packet; Indo-Pacific allied posture official source packet;
 Japan-Philippines-Australia allied posture profile.
@@ -29,7 +29,7 @@ are refreshed and captured.
 
 **Purpose:** Establish safe source routing for Philippines, South China Sea,
 West Philippine Sea, Luzon Strait, and allied-posture map references inside
-Warlock-Index.
+WARLOCK-INDEX.
 
 **Boundary:** This packet supports strategic orientation and source
 provenance only. It does not create targeting maps, sensitive facility
@@ -46,7 +46,7 @@ posture evidence. Public maps can orient the reader to the region and record
 publisher language, but they cannot prove sovereignty, control, intent,
 military access, basing availability, coercion, or operational feasibility.
 
-Warlock-Index should preserve source language around South China Sea, West
+WARLOCK-INDEX should preserve source language around South China Sea, West
 Philippine Sea, Kalayaan Island Group, Bajo de Masinloc, Luzon Strait, and
 adjacent geography. That language should be labeled as issuer perspective
 when it comes from a national mapping agency, diplomatic source, legal filing,
@@ -62,13 +62,13 @@ refresh and exact NAMRIA map products still require product-level capture.
 
 ## Source Ledger
 
-| Source family | Current access status | Primary value | Warlock-Index use | Limits |
+| Source family | Current access status | Primary value | WARLOCK-INDEX use | Limits |
 | --- | --- | --- | --- | --- |
 | NGA Maps for Download | Source family active in map register | Public-release static maps and map-title refresh point | Broad theater orientation and map-source routing | No operational overlays, targeting, movement tracking, or access inference |
 | USINDOPACOM Area of Responsibility | Verified 2026-06-13 | U.S. public command-area framing for Indo-Pacific geography | Command-area context and theater framing | No force posture, basing, current-operation, or access-right inference |
 | NAMRIA public source family | Verified 2026-06-13 as official mapping-agency homepage | Philippine national mapping and resource-information source family | Issuer-language routing for Philippine map products after exact page refresh | Homepage verification does not establish a specific map title, date, or boundary claim |
 | Philippine Official Gazette Administrative Order No. 29 | Access check returned Cloudflare challenge 2026-06-13 | Philippine government source family for West Philippine Sea naming and administrative language | Manual-refresh source for Philippine issuer terminology | Do not cite current page content until accessible and dated |
-| Permanent Court of Arbitration South China Sea Arbitration | Verified 2026-06-13 | Case metadata, procedural record, award records, and legal-document routing | Legal-source provenance around the 2013-2016 arbitration record | Not a map source; not Warlock-Index legal advice |
+| Permanent Court of Arbitration South China Sea Arbitration | Verified 2026-06-13 | Case metadata, procedural record, award records, and legal-document routing | Legal-source provenance around the 2013-2016 arbitration record | Not a map source; not WARLOCK-INDEX legal advice |
 | State Limits in the Seas No. 150 | Verified 2026-06-13 | U.S. legal-geographic analysis source family for PRC maritime claims in the South China Sea | Legal/source-reference companion to map and policy products | Not a navigation chart or operational maritime layer |
 | State Philippines country-area source family | Verified 2026-06-13 | U.S. diplomatic country-area source family | Diplomatic context refresh point | Country-area page does not replace map, legal, or threat sources |
 | Philippine Official Gazette EDCA materials | Access check returned Cloudflare challenge 2026-06-13; active in existing repo source stack | Philippine official source family for EDCA legal-political baseline | Companion source for access-architecture and allied-posture products | No basing, facility, movement, vulnerability, or deployment inference |
@@ -83,7 +83,7 @@ refresh and exact NAMRIA map products still require product-level capture.
    disputed maritime features as source language when they come from a named
    publisher.
 3. Treat the PCA arbitration record as a legal and procedural source layer,
-   not as cartographic proof or Warlock-Index legal advice.
+   not as cartographic proof or WARLOCK-INDEX legal advice.
 4. Treat State Limits in the Seas No. 150 as a legal-source companion to map
    products, not as a navigational chart or operational maritime layer.
 5. Treat USINDOPACOM's AOR page as command-area framing, not as evidence of
@@ -150,7 +150,7 @@ refresh and exact NAMRIA map products still require product-level capture.
   needed before citing current page content.
 - Public maps and legal-source pages can encode policy, naming, boundary,
   recognition, or source-age choices. Products should state those caveats
-  instead of flattening them into Warlock-Index judgments.
+  instead of flattening them into WARLOCK-INDEX judgments.
 - This packet does not replace ODNI, DoD, DIA, State, Coast Guard,
   Philippine government, allied, UN, or ASEAN-related sources for threat,
   coercion, law-enforcement, military, diplomatic, sanctions, or legal claims.

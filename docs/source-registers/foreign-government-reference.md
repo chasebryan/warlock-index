@@ -10,7 +10,7 @@
 
 **Purpose:** Define source-routing rules for foreign government leadership,
 officeholder, diplomatic, country, and official-government reference material
-used inside Warlock-Index.
+used inside WARLOCK-INDEX.
 
 **Boundary:** This register supports strategic reference and source
 organization only. It does not create personal dossiers, target packages,
@@ -26,7 +26,7 @@ or embassy source can support context, provenance, and dated source routing.
 It does not independently prove strategic intent, capability, command
 authority, legal status, or threat relevance.
 
-Warlock-Index products should keep these evidence types separate:
+WARLOCK-INDEX products should keep these evidence types separate:
 
 - Leadership and officeholder reference.
 - Diplomatic and bilateral framing.

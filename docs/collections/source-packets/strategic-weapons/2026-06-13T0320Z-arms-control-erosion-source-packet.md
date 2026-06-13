@@ -11,7 +11,7 @@
 **Source base:** Arms Control Association New START at a Glance; U.S.
 Department of State New START treaty archive; 2022 National Defense Strategy,
 Nuclear Posture Review, and Missile Defense Review; 2026 ODNI Annual Threat
-Assessment; NATO Washington Summit Declaration; existing Warlock-Index
+Assessment; NATO Washington Summit Declaration; existing WARLOCK-INDEX
 strategic weapons official source baseline packet, China strategic weapons
 packet, Russia profile, North Korea profile, Iran profile, NATO profile, and
 global assimilation matrix.
@@ -23,7 +23,7 @@ post-expiration restraint, verification substitutes, and multilateral prospects
 because these depend on state decisions and incomplete public evidence.
 
 **Purpose:** Provide a reusable source packet for arms-control erosion and
-strategic-stability research inside Warlock-Index.
+strategic-stability research inside WARLOCK-INDEX.
 
 **Scope:** This packet organizes open-source evidence on New START expiration,
 verification and transparency loss, treaty-status tracking, strategic weapons
@@ -49,7 +49,7 @@ and expired after Russia suspended implementation in 2023 and no successor
 agreement entered into force. Its expiration removes the last legally binding
 bilateral U.S.-Russia strategic nuclear arms limit and reduces treaty-based
 verification, transparency, and predictability. At the same time, official
-U.S., NATO, and Warlock-Index source lanes point to broader strategic-weapons
+U.S., NATO, and WARLOCK-INDEX source lanes point to broader strategic-weapons
 pressure from PRC nuclear expansion, Russian nuclear signaling, DPRK nuclear
 and missile development, Iran-related WMD concerns, missile defense, space,
 cyber, hypersonics, and conventional-nuclear ambiguity.
@@ -140,12 +140,12 @@ force posture.
 ### Information Discipline
 
 Treaty discourse can mix legal claims, political blame, technical systems,
-doctrine, and strategy. Warlock-Index products should maintain a source ledger
+doctrine, and strategy. WARLOCK-INDEX products should maintain a source ledger
 that identifies who made each claim, when, under which source class, and with
 what limits. Unsupported claims about cheating, breakout, or capability should
 not be carried as fact.
 
-## Assessment Uses Inside Warlock-Index
+## Assessment Uses Inside WARLOCK-INDEX
 
 | Use | Value | Boundary |
 | --- | --- | --- |
@@ -164,7 +164,7 @@ not be carried as fact.
 | INF And Intermediate-Range Systems Packet | Track INF withdrawal history, intermediate-range deployments, allied concern, and Indo-Pacific/Europe implications | State, NATO, CRS, ACA |
 | Open Skies And Conventional Transparency Packet | Track Open Skies, CFE, Vienna Document, and military-transparency erosion | State, OSCE, NATO, ACA |
 | Nuclear Testing And CTBT Packet | Track test moratoria, CTBT status, test-site rhetoric, and verification institutions | CTBTO, State, UN, ODNI |
-| Multilateral Strategic Stability Packet | Track China, Russia, United States, NATO, DPRK, and allied views on future arms-control formats | Official statements, UN, research sources |
+| Multilateral Strategic Stability Packet | Initial packet complete; future updates track P5 process, NPT review-cycle stress, PRC participation, NATO assurance, and emerging-technology risk-reduction language | Official statements, UN, NATO, ODNI, research sources |
 
 ## Information Gaps
 
@@ -188,6 +188,7 @@ not be carried as fact.
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [DPRK Strategic Weapons Source Packet](2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
 - [Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
+- [Multilateral Strategic Stability Source Packet](2026-06-13T2216Z-multilateral-strategic-stability-source-packet.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [Russia Strategic Actor Classification](../../../assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)
 - [North Korea Strategic Actor Classification](../../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)

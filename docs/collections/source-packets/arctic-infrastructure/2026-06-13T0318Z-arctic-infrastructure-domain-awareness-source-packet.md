@@ -11,7 +11,7 @@
 **Source base:** 2024 Department of Defense Arctic Strategy; 2022 National
 Strategy for the Arctic Region; White House ICE Pact announcement; Government
 of Canada Our North, Strong and Free defense policy; Government of Canada
-Arctic and Northern Policy Framework; existing Warlock-Index Arctic baseline,
+Arctic and Northern Policy Framework; existing WARLOCK-INDEX Arctic baseline,
 Arctic militarization timeline, NATO allied capacity profile, homeland
 baseline, cyber baseline, space baseline, defense industrial base baseline,
 and global assimilation matrix.
@@ -25,7 +25,7 @@ because public sources do not reveal sensitive infrastructure details or
 classified posture.
 
 **Purpose:** Provide a reusable source packet for Arctic infrastructure and
-domain-awareness analysis inside Warlock-Index.
+domain-awareness analysis inside WARLOCK-INDEX.
 
 **Scope:** This packet organizes open-source evidence on Arctic infrastructure,
 domain awareness, communications, icebreaking, climate effects, NORAD-linked
@@ -58,7 +58,7 @@ parallel northern-defense and community-infrastructure lens, while the ICE
 Pact makes icebreaking an industrial and allied-capacity lane.
 
 The source base supports high confidence that Arctic infrastructure and domain
-awareness should be a dedicated Warlock-Index source-packet series. It does
+awareness should be a dedicated WARLOCK-INDEX source-packet series. It does
 not support operational detail about facilities, routes, sensor performance,
 or vulnerabilities. The product boundary therefore stays at the level of
 strategic dependencies, source quality, indicators, and information gaps.
@@ -111,7 +111,7 @@ strategic dependencies, source quality, indicators, and information gaps.
 
 The Arctic domain-awareness file connects aerospace warning, aerospace
 control, maritime warning, NORAD, space support, communications, and northern
-approaches to the U.S. and Canadian homelands. Warlock-Index treatment should
+approaches to the U.S. and Canadian homelands. WARLOCK-INDEX treatment should
 identify the strategic dependency without describing sensor performance,
 network architecture, blind spots, or collection methods.
 
@@ -145,7 +145,7 @@ polar conditions.
 
 The DoD Arctic Strategy identifies PRC Arctic ambitions, Russian Arctic
 military infrastructure, and growing PRC-Russia cooperation as strategic
-concerns. Warlock-Index products should treat this as a convergence lane
+concerns. WARLOCK-INDEX products should treat this as a convergence lane
 linking China, Russia, energy, shipping, governance, military access, and
 information signaling. It should not imply a fully integrated alliance where
 sources show only selective cooperation.
@@ -170,7 +170,7 @@ from becoming a purely military map and keeps community context visible.
 | Community infrastructure | Canada, territorial and indigenous sources | Civil resilience, legitimacy, service gaps, safety | Avoid treating communities only as military enablers |
 | PRC-Russia activity | DoD, ODNI, allied sources | Selective alignment, energy, shipping, governance pressure | Separate cooperation from full alignment |
 
-## Assessment Uses Inside Warlock-Index
+## Assessment Uses Inside WARLOCK-INDEX
 
 | Use | Value | Boundary |
 | --- | --- | --- |

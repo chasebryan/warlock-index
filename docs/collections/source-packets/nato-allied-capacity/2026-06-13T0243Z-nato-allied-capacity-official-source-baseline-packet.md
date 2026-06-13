@@ -13,7 +13,7 @@ Declaration; NATO The Hague Summit Declaration; NATO Defence Expenditures and
 5 Percent Commitment public page; NATO Funding public page; NATO role in
 defence industry production public page; NATO Resilience, Civil Preparedness
 and Article 3 public page; NATO Cyber Defence public page; NATO support for
-Ukraine public page; existing Warlock-Index NATO profile, Ukraine support
+Ukraine public page; existing WARLOCK-INDEX NATO profile, Ukraine support
 tracker, strategic weapons official source baseline packet, defense industrial
 base baseline, cyber baseline, space baseline, Arctic baseline, Russia
 profile, and global assimilation matrix.
@@ -25,7 +25,7 @@ not fully reveal readiness, national caveats, classified capability targets,
 stockpile depth, industrial bottlenecks, or political durability.
 
 **Purpose:** Provide a reusable official-source baseline for NATO allied
-capacity and burden-sharing analysis inside Warlock-Index.
+capacity and burden-sharing analysis inside WARLOCK-INDEX.
 
 **Scope:** This packet organizes official NATO public sources for
 collective-defense architecture, defense investment, industrial production,
@@ -84,7 +84,7 @@ themselves.
 
 ## Extraction Matrix
 
-| Research question | Primary NATO source | Supporting source | Warlock-Index linkage |
+| Research question | Primary NATO source | Supporting source | WARLOCK-INDEX linkage |
 | --- | --- | --- | --- |
 | What is NATO's current burden-sharing framework? | The Hague Summit Declaration; Defence Expenditures and 5 Percent Commitment | Funding NATO | NATO profile; DIB baseline; global matrix |
 | How does spending connect to capability? | Defence Expenditures and 5 Percent Commitment | Funding NATO; Defence Industry Production | NATO profile; future national implementation packets |
@@ -100,7 +100,7 @@ themselves.
 
 NATO pledge language establishes political direction. It does not by itself
 prove deployable forces, stockpile depth, industrial throughput, mobility, or
-repair capacity. Warlock-Index products therefore treat declarations as
+repair capacity. WARLOCK-INDEX products therefore treat declarations as
 baseline commitments and require additional evidence for implementation.
 
 ### Spending Versus Output

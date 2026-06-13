@@ -12,7 +12,7 @@
 Declaration; NATO 2025 The Hague Summit Declaration; NATO Defence
 Expenditures and 5 Percent Commitment public page; NATO role in defence
 industry production public page; 2026 ODNI Annual Threat Assessment; existing
-Warlock-Index Russia, Ukraine, Arctic, defense industrial base, strategic
+WARLOCK-INDEX Russia, Ukraine, Arctic, defense industrial base, strategic
 weapons, cyber, space, and global assimilation products.
 
 **Analytic confidence:** High for NATO public doctrine, summit commitments,
@@ -48,7 +48,7 @@ The central analytic question is implementation. NATO declarations identify a
 more demanding security environment and a higher burden-sharing standard, but
 pledges convert into strategic effect only through forces, readiness,
 stockpiles, infrastructure, munitions, industrial output, civil preparedness,
-political cohesion, and credible sustainment over time. For Warlock-Index,
+political cohesion, and credible sustainment over time. For WARLOCK-INDEX,
 NATO is best treated as a capacity network with uneven national inputs rather
 than a single consolidated actor.
 
@@ -89,7 +89,7 @@ civil-preparedness, and political-cohesion lane.
    Europe.
 
 6. NATO's nuclear role is central to assurance and strategic stability, but
-   public Warlock-Index treatment remains strategic and non-operational. The
+   public WARLOCK-INDEX treatment remains strategic and non-operational. The
    relevant research lane is credibility, signaling, arms-control erosion,
    extended deterrence, and escalation management, not force employment.
 
@@ -126,7 +126,7 @@ space capability, economic leverage, and alliance-cohesion pressure. Iran and
 North Korea affect NATO through support to Russia, missile and UAS activity,
 WMD-related concerns, and sanctions-evasion networks.
 
-For Warlock-Index, NATO's deterrence profile is not a single theater file. It
+For WARLOCK-INDEX, NATO's deterrence profile is not a single theater file. It
 is a hub connecting the Russia file, strategic weapons timeline, Ukraine
 tracker, Arctic baseline, cyber baseline, space baseline, defense industrial
 base baseline, and allied posture profiles.
@@ -139,7 +139,7 @@ arms-control erosion, Russian nuclear signaling, China's nuclear expansion,
 North Korea's declared nuclear status, Iran-related WMD uncertainty, and the
 relationship between conventional war and nuclear risk.
 
-Warlock-Index treatment of this lane remains deliberately high level. Useful
+WARLOCK-INDEX treatment of this lane remains deliberately high level. Useful
 analysis distinguishes declaratory policy, alliance consultation, public
 summit language, arms-control status, and adversary signaling. It does not
 assess employment options, force packages, vulnerabilities, or operational
@@ -185,7 +185,7 @@ of Allied defense.
 
 Cyber and space are especially important because they cut across every theater
 and domain. Public NATO language treats cyber and space activity as potentially
-strategic in effect. Warlock-Index analysis separates strategic dependency
+strategic in effect. WARLOCK-INDEX analysis separates strategic dependency
 from technical exploitation, leaving technical details outside the product
 boundary.
 
@@ -201,13 +201,13 @@ The post-Hague burden-sharing model has three layers:
 
 The 2 percent era created a simple political benchmark. The 5 percent era
 creates a more complex analytic test. Spending totals matter, but the key
-Warlock-Index question is whether spending produces coherent capability
+WARLOCK-INDEX question is whether spending produces coherent capability
 against the Russia, Ukraine, Arctic, cyber, space, and industrial-base problem
 set.
 
 ## Theater Relevance
 
-| Theater | NATO relevance | Main Warlock-Index links |
+| Theater | NATO relevance | Main WARLOCK-INDEX links |
 | --- | --- | --- |
 | Europe and Russia | Direct collective-defense problem, eastern flank posture, Ukraine war pressure, sanctions, hybrid activity, nuclear signaling | Russia profile, Ukraine timeline, Ukraine support tracker, strategic weapons timeline |
 | Arctic and High North | Nordic enlargement, Russian northern posture, missile warning, maritime access, undersea infrastructure, energy, domain awareness | Arctic baseline, Arctic timeline, homeland baseline, space baseline |
@@ -259,7 +259,7 @@ U.S. defense decision-making because it clarifies:
   Russia support, technology, cyber, space, sanctions, and WMD-related files.
 - Why the 5 percent framework is a capability-conversion question rather than
   a budget statistic alone.
-- Which future Warlock-Index source packets can deepen national-level evidence
+- Which future WARLOCK-INDEX source packets can deepen national-level evidence
   without relying on classified assumptions.
 
 ## Indicators For Future Tracking

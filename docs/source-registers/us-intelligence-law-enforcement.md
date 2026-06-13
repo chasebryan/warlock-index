@@ -10,7 +10,7 @@
 
 **Purpose:** Organize official U.S. intelligence, homeland security, law
 enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and
-geospatial source families for Warlock-Index strategic threat analysis.
+geospatial source families for WARLOCK-INDEX strategic threat analysis.
 
 **Boundary:** This register supports public strategic research only. It does
 not provide recommendations, targeting support, collection tasking,
@@ -20,7 +20,7 @@ technical exploitation, or domestic political profiling.
 
 ## Framing Rule
 
-Warlock-Index does not create a political "enemies list." This register uses
+WARLOCK-INDEX does not create a political "enemies list." This register uses
 official public threat categories: foreign states, foreign intelligence
 services, terrorist organizations, nonstate armed networks, transnational
 criminal organizations, cyber actors, sanctions targets, border and maritime
@@ -73,7 +73,7 @@ identity, journalism, protest, or association as an intelligence target.
   official sources.
 - **Reliability note:** Strong historical reference value, but not a current
   country database after sunset. Maps are strategic reference artifacts only;
-  Warlock-Index does not use maps for targeting or operational planning.
+  WARLOCK-INDEX does not use maps for targeting or operational planning.
 - **Replacement note:** Use the Legacy Factbook Replacement Note for current
   field-by-field source routing.
 
@@ -98,7 +98,7 @@ identity, journalism, protest, or association as an intelligence target.
   economic espionage, malign foreign influence, insider threat, and
   counterintelligence risk.
 - **Reliability note:** Authoritative for FBI public mission framing. It does
-  not authorize Warlock-Index to identify persons, organizations, or
+  not authorize WARLOCK-INDEX to identify persons, organizations, or
   communities as intelligence threats absent official public evidence.
 
 ### FBI Cyber
@@ -109,7 +109,7 @@ identity, journalism, protest, or association as an intelligence target.
 - **Use:** Public FBI cyber threat framing, cybercrime categories, ransomware,
   cyber-enabled fraud, foreign cyber actor context, and reporting pathways.
 - **Reliability note:** Authoritative for FBI public cyber mission framing.
-  Warlock-Index uses it for strategic categorization and does not reproduce
+  WARLOCK-INDEX uses it for strategic categorization and does not reproduce
   exploit steps, evasion methods, malware procedures, or investigative tactics.
 
 ### FBI Internet Crime Complaint Center
@@ -132,7 +132,7 @@ identity, journalism, protest, or association as an intelligence target.
 - **Use:** Public law-enforcement framing for WMD terrorism, chemical,
   biological, radiological, nuclear, and explosive threat prevention at
   strategic level.
-- **Reliability note:** Authoritative for FBI public framing. Warlock-Index
+- **Reliability note:** Authoritative for FBI public framing. WARLOCK-INDEX
   must not provide materials, methods, recipes, deployment guidance, or
   vulnerability exploitation detail.
 
@@ -170,7 +170,7 @@ identity, journalism, protest, or association as an intelligence target.
   coordination with federal, state, local, tribal, territorial, and private
   partners.
 - **Reliability note:** Authoritative for DHS public organizational framing.
-  Warlock-Index must avoid sensitive collection, fusion center, or partner
+  WARLOCK-INDEX must avoid sensitive collection, fusion center, or partner
   operational detail.
 
 ### CISA Known Exploited Vulnerabilities Catalog
@@ -180,7 +180,7 @@ identity, journalism, protest, or association as an intelligence target.
 - **URL:** https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 - **Use:** Public exploited-vulnerability reference for strategic cyber risk,
   patch-priority awareness, and source-class mapping.
-- **Reliability note:** Authoritative CISA catalog. Warlock-Index may use it
+- **Reliability note:** Authoritative CISA catalog. WARLOCK-INDEX may use it
   for high-level vulnerability trend analysis, not exploit instructions,
   weaponization, evasion, scanning, or targeting.
 
@@ -202,7 +202,7 @@ identity, journalism, protest, or association as an intelligence target.
 - **URL:** https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/
 - **Use:** Public NSA cyber defense guidance and joint advisory source family.
 - **Reliability note:** Authoritative for public NSA defensive guidance.
-  Warlock-Index should extract actor, sector, and mitigation themes without
+  WARLOCK-INDEX should extract actor, sector, and mitigation themes without
   turning advisories into exploit manuals.
 
 ### State Department Foreign Terrorist Organizations
@@ -236,7 +236,7 @@ identity, journalism, protest, or association as an intelligence target.
   finance, cyber sanctions, narcotics finance, corruption, and illicit finance
   source family.
 - **Reliability note:** Authoritative for Treasury public sanctions and risk
-  framing. Warlock-Index must not provide sanctions evasion or compliance
+  framing. WARLOCK-INDEX must not provide sanctions evasion or compliance
   circumvention guidance.
 
 ### DEA National Drug Threat Assessment
@@ -247,7 +247,7 @@ identity, journalism, protest, or association as an intelligence target.
 - **Use:** Official U.S. law-enforcement source family for drug trafficking,
   synthetic opioids, cartels, illicit finance, precursor supply chains, and
   domestic public safety effects.
-- **Reliability note:** Authoritative for DEA public threat framing. Warlock-Index should use it for strategic source mapping, not trafficking methods,
+- **Reliability note:** Authoritative for DEA public threat framing. WARLOCK-INDEX should use it for strategic source mapping, not trafficking methods,
   concealment, production, or distribution guidance.
 
 ### ATF Firearms Commerce And Trafficking Sources
@@ -303,13 +303,13 @@ identity, journalism, protest, or association as an intelligence target.
 - **URL:** https://www.nga.mil/
 - **Use:** Public geospatial intelligence, maps, maritime safety, and open
   reference source family where released.
-- **Reliability note:** Authoritative for public NGA material. Warlock-Index
+- **Reliability note:** Authoritative for public NGA material. WARLOCK-INDEX
   uses maps only for strategic orientation and not for targeting,
   surveillance, facility vulnerability analysis, or operational movement.
 
 ## Threat Family To Source Mapping
 
-| Threat family | Primary official sources | Warlock-Index use | Boundary |
+| Threat family | Primary official sources | WARLOCK-INDEX use | Boundary |
 | --- | --- | --- | --- |
 | Foreign adversary states | ODNI, CIA World Leaders, DoD, DIA, State, Treasury | Strategic actor baselines and leadership context | No personal dossiers or targeting |
 | Foreign intelligence activity | FBI, ODNI/NCSC, DOJ NSD, Treasury | Counterintelligence source lane | No investigative guidance or identification of private persons |

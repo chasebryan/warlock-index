@@ -12,7 +12,7 @@
 
 **Purpose:** Track public-source arms-control erosion, treaty-status changes,
 verification loss, transparency gaps, and strategic-stability implications
-relevant to Warlock-Index strategic weapons, allied assurance, and actor
+relevant to WARLOCK-INDEX strategic weapons, allied assurance, and actor
 profile products.
 
 **Boundary:** This tracker does not recommend policy, military action,
@@ -24,9 +24,9 @@ technical system details.
 **Source base:** Arms Control Association New START at a Glance; U.S.
 Department of State New START archive; 2022 National Defense Strategy, Nuclear
 Posture Review, and Missile Defense Review; 2026 ODNI Annual Threat
-Assessment; NATO Washington Summit Declaration; current Warlock-Index
+Assessment; NATO Washington Summit Declaration; current WARLOCK-INDEX
 strategic weapons, Russia, China, North Korea, Iran, NATO, and allied posture
-products.
+products; multilateral strategic stability source packet.
 
 **Analytic confidence:** High for broad treaty-status categories where
 official or well-established research sources converge. Moderate for current
@@ -43,7 +43,7 @@ nuclear arms limit. That loss does not automatically prove immediate force
 expansion, but it does reduce treaty-based verification, data exchange,
 inspection rights, and predictability.
 
-Warlock-Index should track arms-control erosion by treaty function rather than
+WARLOCK-INDEX should track arms-control erosion by treaty function rather than
 by slogans. The important fields are legal status, parties, weapons or
 activities covered, verification mechanism, current transparency condition,
 actor relevance, strategic effect, confidence, and source gaps. This tracker
@@ -57,7 +57,7 @@ supports assessment continuity without recommending a policy response.
 | Main parties | States or institutions directly involved |
 | Current public status | Dated public-source status at information cutoff |
 | Verification or transparency function | What the instrument or lane helps reveal or constrain |
-| Strategic effect | Why the status matters for Warlock-Index analysis |
+| Strategic effect | Why the status matters for WARLOCK-INDEX analysis |
 | Confidence | High, moderate, low, or mixed |
 | Follow-on product | Source packet or assessment lane that should deepen the entry |
 
@@ -72,7 +72,7 @@ supports assessment continuity without recommending a policy response.
 | Conventional Forces in Europe / Vienna Document lane | OSCE states, NATO, Russia, Europe | Conventional transparency and confidence-building architecture is strained by Russia's war against Ukraine and wider security deterioration | Notifications, data, inspections, risk reduction, military-activity transparency | Erosion increases uncertainty around force posture, exercises, and escalation perception | Moderate | Conventional transparency source packet |
 | Nuclear testing and CTBT lane | Nuclear-armed states, CTBTO, UN members | CTBT has not entered into force; test moratoria and verification institutions remain strategically relevant | Norm against nuclear explosive testing and global monitoring | Test rhetoric or test resumption would affect modernization, signaling, and nonproliferation | High for CTBT non-entry into force; moderate for future behavior | Nuclear testing and CTBT packet |
 | NPT review and disarmament lane | NPT parties, UN, IAEA | NPT remains core legal framework, while arms-control erosion strains Article VI credibility and nonproliferation politics | Nonproliferation obligations, safeguards, disarmament framework, peaceful-use bargain | Major-power arms-control erosion can weaken diplomatic confidence in the nonproliferation regime | High for framework; moderate for political effects | NPT stress source packet |
-| Multilateral strategic arms-control lane | United States, Russia, China, NATO nuclear states, other nuclear-armed states | No comprehensive multilateral strategic arms-control framework limits all major nuclear arsenals | Potential future transparency or limits across more actors | PRC nuclear expansion and multipolar nuclear dynamics complicate successor frameworks | High for absence of current framework; low to moderate for prospects | Multilateral strategic stability packet |
+| Multilateral strategic arms-control lane | United States, Russia, China, NATO nuclear states, other nuclear-armed states | No comprehensive multilateral strategic arms-control framework limits all major nuclear arsenals | Potential future transparency or limits across more actors | PRC nuclear expansion and multipolar nuclear dynamics complicate successor frameworks | High for absence of current framework; low to moderate for prospects | Multilateral strategic stability packet complete; future P5 process and NPT stress updates |
 
 ## Actor-Domain Crosswalk
 
@@ -122,7 +122,7 @@ labels and confidence language.
 The prior U.S.-Russia bilateral model does not map cleanly onto a world with
 PRC nuclear expansion, DPRK nuclear development, Iran-related WMD uncertainty,
 counterspace competition, cyber dependencies, missile defense, hypersonics, and
-advanced conventional systems. Warlock-Index products should therefore track
+advanced conventional systems. WARLOCK-INDEX products should therefore track
 arms-control erosion alongside strategic weapons modernization rather than as
 a standalone treaty history file.
 
@@ -143,7 +143,9 @@ recommendations from it.
 | 2022 NDS/NPR/MDR | U.S. policy baseline for nuclear deterrence, missile defense, two-major-power stress, and strategic stability | Anchor for strategic-weapons policy context |
 | ODNI Annual Threat Assessment 2026 | Public IC frame for major actors, WMD, advanced delivery systems, and threat convergence | Anchor for actor-domain relevance |
 | NATO Washington Summit Declaration | Allied public concern over Russia, PRC nuclear expansion, DPRK and Iran support to Russia, and Alliance deterrence | Anchor for allied assurance and multiactor context |
-| Warlock strategic weapons source packet | Internal source-organization baseline for strategic weapons modernization | Internal cross-reference |
+| P5 joint statement on preventing nuclear war and avoiding arms races | Official P5 political statement on nuclear-war avoidance, NPT obligations, strategic-risk reduction, and bilateral or multilateral diplomatic approaches | Anchor for multilateral strategic-stability source work |
+| UN NPT historical archive | Official UN legal-historical NPT archive, including treaty purpose, signature, entry into force, and indefinite extension | Anchor for NPT legal-diplomatic context |
+| WARLOCK-INDEX strategic weapons source packet | Internal source-organization baseline for strategic weapons modernization | Internal cross-reference |
 
 ## Indicators To Monitor
 
@@ -182,6 +184,7 @@ recommendations from it.
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](../source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [DPRK Strategic Weapons Source Packet](../source-packets/strategic-weapons/2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
 - [Iran WMD And Missile-Relevance Source Packet](../source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
+- [Multilateral Strategic Stability Source Packet](../source-packets/strategic-weapons/2026-06-13T2216Z-multilateral-strategic-stability-source-packet.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [NATO Allied Capacity And Burden-Sharing Profile](../actor-profiles/nato-and-major-us-allies/2026-06-13T0233Z-nato-allied-capacity-burden-sharing-profile.md)
 - [Republic Of Korea Allied Posture Profile](../actor-profiles/indo-pacific-allies-and-partners/2026-06-13T0317Z-republic-of-korea-allied-posture-profile.md)
@@ -201,3 +204,9 @@ recommendations from it.
   `https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`
 - NATO, *Washington Summit Declaration*:
   `https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration`
+- White House archived site, *Joint Statement of the Leaders of the Five
+  Nuclear-Weapon States on Preventing Nuclear War and Avoiding Arms Races*:
+  `https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/01/03/p5-statement-on-preventing-nuclear-war-and-avoiding-arms-races/`
+- United Nations Audiovisual Library of International Law, *Treaty on the
+  Non-Proliferation of Nuclear Weapons*:
+  `https://legal.un.org/avl/ha/tnpt/tnpt.html`

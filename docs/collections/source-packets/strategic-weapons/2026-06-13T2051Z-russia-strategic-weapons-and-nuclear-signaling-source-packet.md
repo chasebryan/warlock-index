@@ -12,7 +12,7 @@
 Strategy, Nuclear Posture Review, and Missile Defense Review; NATO Washington
 Summit Declaration; U.S. Department of State New START treaty archive; Arms
 Control Association New START at a Glance; DIA Russia Military Power; existing
-Warlock-Index Russia profile, strategic weapons baseline packet, arms-control
+WARLOCK-INDEX Russia profile, strategic weapons baseline packet, arms-control
 erosion packet, arms-control tracker, Ukraine timeline, NATO profile, space
 baseline, homeland baseline, and global assimilation matrix.
 
@@ -25,7 +25,7 @@ future signaling patterns because public sources omit classified posture,
 readiness, decision thresholds, and intelligence sourcing.
 
 **Purpose:** Provide a reusable Russia-specific strategic-weapons source packet
-for Warlock-Index.
+for WARLOCK-INDEX.
 
 **Scope:** This packet organizes open-source evidence on Russia's strategic
 nuclear modernization, nonstrategic nuclear relevance, nuclear signaling,
@@ -47,7 +47,7 @@ classified-source inference.
 ## Bottom Line
 
 Russia is the most mature Russia-specific strategic-weapons lane in the current
-Warlock-Index corpus because it connects nuclear peer status, active war in
+WARLOCK-INDEX corpus because it connects nuclear peer status, active war in
 Ukraine, NATO deterrence and assurance, nonstrategic nuclear concern,
 arms-control erosion, advanced delivery systems, counterspace risk, and
 homeland missile-warning pressure.
@@ -55,7 +55,7 @@ homeland missile-warning pressure.
 The strongest public-source baseline comes from cross-reading ODNI's current
 threat frame, DoD's 2022 nuclear and missile-defense policy baseline, NATO's
 Alliance-level statement on Russian nuclear signaling and arms-control behavior,
-official New START treaty materials, and the Warlock-Index arms-control packet.
+official New START treaty materials, and the WARLOCK-INDEX arms-control packet.
 No single source is sufficient. ODNI provides the current public intelligence
 frame; DoD provides the nuclear-posture and missile-defense policy frame; NATO
 provides allied deterrence and assurance context; State provides the treaty
@@ -75,7 +75,7 @@ status-synthesis layer for New START.
 5. Keep nonstrategic nuclear-force discussion at strategic and source-framing
    level only.
 6. Cross-read Russia-specific claims with NATO, ODNI, DoD, State, and
-   Warlock-Index arms-control products before assigning high confidence.
+   WARLOCK-INDEX arms-control products before assigning high confidence.
 7. Mark future trajectory, post-New START restraint, and crisis-signaling
    judgments as moderate or lower unless current official public evidence is
    available.
@@ -90,7 +90,7 @@ status-synthesis layer for New START.
 | State Department New START Treaty Materials | A | Official treaty-text baseline for U.S.-Russia strategic offensive arms, central limits, definitions, verification architecture, and inspection concepts | Treaty identity, central limits, accountable systems, verification mechanisms, treaty architecture | Historical archive; does not itself prove current compliance, post-expiration behavior, or restraint |
 | Arms Control Association New START At A Glance | B | Current research synthesis of New START history, Russian suspension, 2026 expiration, central limits, and verification provisions | Signed date, entry into force, extension, suspension, expiration, key provisions, verification functions | Research source, not government source; major claims should be cross-read with official records |
 | DIA Russia Military Power | A | Older but durable defense-intelligence baseline on Russian military strategy, nuclear forces, modernization, cyber, space/counterspace, information operations, and defense industry | Historical Russian force-modernization context, doctrine background, defense-industry context, space/counterspace linkages | 2017 publication predates the 2022 full-scale invasion of Ukraine and requires newer source refresh |
-| Warlock-Index arms-control erosion packet and tracker | Internal derived product | Repository source discipline for New START expiration, verification loss, transparency gaps, and strategic-stability implications | Treaty-status fields, source classes, actor-domain linkages, follow-on lanes | Derived open-source product; later source packets can supersede or refine entries |
+| WARLOCK-INDEX arms-control erosion packet and tracker | Internal derived product | Repository source discipline for New START expiration, verification loss, transparency gaps, and strategic-stability implications | Treaty-status fields, source classes, actor-domain linkages, follow-on lanes | Derived open-source product; later source packets can supersede or refine entries |
 
 ## Extraction Matrix
 
@@ -113,7 +113,7 @@ diversification file, not only as a treaty-status file. The 2022 NDS/NPR/MDR
 frames Russia as emphasizing nuclear weapons, modernizing strategic systems,
 and maintaining nonstrategic nuclear forces outside New START's numerical
 limits. ODNI and NATO add later public framing on advanced delivery systems,
-force diversification, and missile-defense stress. Warlock-Index products
+force diversification, and missile-defense stress. WARLOCK-INDEX products
 should keep these claims high level and source-linked.
 
 ### Nonstrategic Nuclear Relevance
@@ -158,7 +158,7 @@ research syntheses, wartime rhetoric, and classified-source gaps. WARLOCK-INDEX
 should preserve source class, date, source issuer, and confidence level for
 each major claim.
 
-## Assessment Uses Inside Warlock-Index
+## Assessment Uses Inside WARLOCK-INDEX
 
 | Use | Value | Boundary |
 | --- | --- | --- |

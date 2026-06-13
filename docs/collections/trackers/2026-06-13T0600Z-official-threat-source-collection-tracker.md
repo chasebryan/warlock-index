@@ -10,7 +10,7 @@
 
 **Source base:** U.S. intelligence and law-enforcement source register; ODNI,
 CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA, ATF, CBP, Coast Guard,
-DOJ, and NGA public source families; existing Warlock-Index source registers
+DOJ, and NGA public source families; existing WARLOCK-INDEX source registers
 and assessments.
 
 **Analytic confidence:** High for collection architecture. Moderate for
@@ -18,7 +18,7 @@ source recency because dynamic agency pages and annual reports require dated
 refreshes.
 
 **Purpose:** Track the collection status of official U.S. threat-source
-families for future Warlock-Index expansion.
+families for future WARLOCK-INDEX expansion.
 
 **Boundary:** This tracker does not provide recommendations, targeting,
 investigative direction, collection tasking, operational guidance, route

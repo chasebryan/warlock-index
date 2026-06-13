@@ -13,7 +13,7 @@ Authority 2024 and 2025 annual navigation reports; UN Security Council
 Resolution 2722; Council of the European Union EUNAVFOR ASPIDES launch
 statement; Federal Register Executive Order 14175 on Ansar Allah; 2026 ODNI
 Annual Threat Assessment; Allianz Commercial Safety and Shipping Review 2025;
-existing Warlock-Index Red Sea maritime disruption timeline, Africa baseline,
+existing WARLOCK-INDEX Red Sea maritime disruption timeline, Africa baseline,
 Iran profile, nonstate armed-network profile, and global assimilation matrix.
 
 **Analytic confidence:** High for official source identity, Suez Canal
@@ -24,7 +24,7 @@ and future persistence because insurance pricing, shipper behavior, and
 incident tempo change quickly and public data often lags.
 
 **Purpose:** Provide a reusable source packet for Red Sea maritime economics
-and insurance research inside Warlock-Index.
+and insurance research inside WARLOCK-INDEX.
 
 **Scope:** This packet organizes open-source evidence on Suez Canal exposure,
 Red Sea and Gulf of Aden shipping disruption, freight-rate effects, marine
@@ -85,13 +85,13 @@ commercial decisions, live vessel behavior, or classified security operations.
 
 | Source | Source class | Main value | Key extraction fields | Limits |
 | --- | --- | --- | --- | --- |
-| UNCTAD Review of Maritime Transport 2024 | A | Multilateral baseline on maritime chokepoints, Red Sea and Suez disruption, freight-rate effects, ton-mile demand, insurance costs, port congestion, and vulnerable-economy exposure | Suez and Gulf of Aden capacity changes, Cape of Good Hope arrivals, freight-rate indicators, inflation projection, regional exposure, port-call effects | Includes policy language; Warlock-Index uses the data and framing without adopting institutional recommendations |
+| UNCTAD Review of Maritime Transport 2024 | A | Multilateral baseline on maritime chokepoints, Red Sea and Suez disruption, freight-rate effects, ton-mile demand, insurance costs, port congestion, and vulnerable-economy exposure | Suez and Gulf of Aden capacity changes, Cape of Good Hope arrivals, freight-rate indicators, inflation projection, regional exposure, port-call effects | Includes policy language; WARLOCK-INDEX uses the data and framing without adopting institutional recommendations |
 | Suez Canal Authority 2024 and 2025 Annual Navigation Reports | A | Official canal traffic baseline from the canal operator | Annual vessel count, daily average, net tonnage, monthly traffic, ship-type distribution, cargo direction | Canal traffic does not by itself explain shipper motive, insurance pricing, final cargo delay, or broader inflation |
 | UN Security Council Resolution 2722 | A | Legal-diplomatic baseline on Houthi attacks against merchant and commercial vessels and freedom of navigation | Date, UN language, release demands, maritime-security framing, diplomatic consensus and limits | Legal-diplomatic evidence, not traffic or insurance data |
 | Council of the European Union EUNAVFOR ASPIDES launch statement | A | Allied public framing for the EU maritime-security response | Mission purpose, legal mandate, allied burden-sharing, shipping-security concern | Mission description, not commercial dataset or incident-level proof |
 | Federal Register EO 14175 and ODNI ATA 2026 | A | U.S. legal and intelligence context for Houthi persistence, Iran support, regional coercion, and U.S. and partner-interest relevance | Designation language, Iran-linked network context, resilience assessment, Red Sea geography | U.S. policy and IC public framing; commercial impacts require separate economic sources |
 | Allianz Commercial Safety and Shipping Review 2025 | B | Industry insurance and maritime-risk framing | War insurance pressure, high-risk transit premium concern, political-risk claims exposure, shipping losses, casualty statistics, shadow-fleet context | Industry source; not official public policy and subject to commercial perspective |
-| Warlock-Index Red Sea timeline | Internal derived product | Dated repository event spine that connects security, economic, legal, allied, and source-packet lanes | Event classes, follow-on products, source families, confidence labels | Derived from open sources; source packets can refine or supersede entries |
+| WARLOCK-INDEX Red Sea timeline | Internal derived product | Dated repository event spine that connects security, economic, legal, allied, and source-packet lanes | Event classes, follow-on products, source families, confidence labels | Derived from open sources; source packets can refine or supersede entries |
 
 ## Source Extraction Matrix
 
@@ -123,7 +123,7 @@ The Suez Canal Authority annual reports provide the cleanest official traffic
 baseline. The 2025 annual report places 2024 traffic at 13,213 vessels and
 524.527 million net tons, then 2025 traffic at 12,758 vessels and 522.084
 million net tons. The same SCA historical series places 2023 at 26,434
-vessels and 1,568.257 million net tons. Warlock-Index uses these figures as
+vessels and 1,568.257 million net tons. WARLOCK-INDEX uses these figures as
 the authoritative canal-operator baseline while keeping revenue, causation,
 and commercial behavior separate unless a source directly supports those
 claims.
@@ -133,7 +133,7 @@ claims.
 UNCTAD connects route lengthening, higher fuel consumption, chartering,
 insurance, port congestion, and freight rates to broader price effects. The
 source is valuable because it ties maritime security to food security, energy
-supplies, vulnerable economies, and consumer-price pressure. Warlock-Index
+supplies, vulnerable economies, and consumer-price pressure. WARLOCK-INDEX
 products use this lane to show how a regional maritime-security crisis can
 become a global economic-security issue without implying a single direct
 price path for all goods or countries.
@@ -179,7 +179,7 @@ corridor.
 | Legal-diplomatic response | UN, EU, U.S., allied governments | Establishes international framing and response architecture | Does not quantify economic loss |
 | Humanitarian logistics | UN agencies, NGOs, port authorities | Shows Sudan, Yemen, East Africa, and aid-delivery effects | Humanitarian reporting can be incomplete or delayed |
 
-## Assessment Uses Inside Warlock-Index
+## Assessment Uses Inside WARLOCK-INDEX
 
 | Use | Value | Boundary |
 | --- | --- | --- |

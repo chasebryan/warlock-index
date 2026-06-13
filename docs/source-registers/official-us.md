@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-13T03:20:02Z
+**Prepared UTC:** 2026-06-13T22:16:47Z
 
 ## ODNI Annual Threat Assessment 2026
 
@@ -15,7 +15,8 @@
   homeland, major power competition, technology, cyber, space, WMD, and
   regional conflicts. Also used as a primary source for the Russia strategic
   weapons and nuclear signaling packet, the DPRK strategic weapons packet, and
-  the Iran WMD and missile-relevance packet.
+  the Iran WMD and missile-relevance packet, and as threat-context support for
+  the multilateral strategic stability packet.
 - **Reliability note:** Authoritative for the public IC assessment. It remains
   a public product with policy-era framing and release constraints.
 
@@ -292,9 +293,26 @@
 - **URL:** https://media.defense.gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.PDF
 - **Use:** Historical comparison for integrated deterrence, campaigning, and
   resilience concepts, and a nuclear-posture and missile-defense policy
-  baseline for Russia, DPRK, and Iran strategic-weapons source work.
+  baseline for Russia, DPRK, Iran, and multilateral strategic-stability source
+  work.
 - **Reliability note:** Superseded as current strategy by the 2026 NDS but
   still valuable for continuity analysis.
+
+## White House Arms Control Association Annual Forum Remarks
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2023-06-02
+- **Accessed UTC:** 2026-06-13T22:16:47Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/speeches-remarks/2023/06/02/remarks-by-national-security-advisor-jake-sullivan-for-the-arms-control-association-aca-annual-forum/
+- **Use:** Official public U.S. framing for post-New START risk reduction,
+  bilateral engagement with Russia and China, multilateral arms-control
+  efforts through the P5, PRC transparency concerns, and emerging-technology
+  strategic-stability questions.
+- **Reliability note:** Authoritative for archived White House public policy
+  framing. It is a speech, not treaty text, and WARLOCK-INDEX products treat
+  it as stated U.S. position rather than independent evidence of future
+  agreement.
 
 ## State Department New START Treaty Materials
 

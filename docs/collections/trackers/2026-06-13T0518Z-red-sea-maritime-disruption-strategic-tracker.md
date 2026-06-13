@@ -12,7 +12,7 @@
 Executive Order 14175 on Ansar Allah; UN Security Council Resolution 2722;
 Council of the European Union EUNAVFOR ASPIDES launch statement; UNCTAD
 Review of Maritime Transport 2024; Suez Canal Authority annual navigation
-reports; Allianz Commercial Safety and Shipping Review 2025; existing Warlock-Index Red Sea assessment, source packet, timeline, actor profile, Africa
+reports; Allianz Commercial Safety and Shipping Review 2025; existing WARLOCK-INDEX Red Sea assessment, source packet, timeline, actor profile, Africa
 baseline, Iran profile, and global operating picture.
 
 **Analytic confidence:** High for official source identity, source class, UN
@@ -21,7 +21,7 @@ commercial market persistence, insurance pricing, Houthi decision calculus,
 and future incident tempo.
 
 **Purpose:** Provide a strategic, aggregate tracker for the Red Sea maritime
-disruption lane inside Warlock-Index.
+disruption lane inside WARLOCK-INDEX.
 
 **Scope:** Source families, indicator categories, current baseline, confidence
 notes, analytic use, and product linkages. This tracker is not a live incident
@@ -39,7 +39,7 @@ than as a list of incidents alone. The key families are Houthi posture,
 Iran-linked support context, commercial shipping behavior, Suez Canal traffic,
 marine insurance, allied and multilateral response, humanitarian and port
 effects, and legal-designation changes. Each indicator moves at a different
-speed, so Warlock-Index should avoid false precision and keep all outputs at
+speed, so WARLOCK-INDEX should avoid false precision and keep all outputs at
 strategic level.
 
 ## Tracker Method
@@ -67,7 +67,7 @@ force employment.
 | Canal traffic and net tonnage | Existing source packet records SCA annual transits falling from 26,434 in 2023 to 13,213 in 2024 and 12,758 in 2025; net tonnage fell from 1,568.257 million tons in 2023 to 524.527 million in 2024 and 522.084 million in 2025 | Suez Canal Authority annual reports | High for SCA public statistics | Compare annual and monthly SCA statistics against UNCTAD and trade datasets | No route guidance or vessel movement inference |
 | Freight-rate and ton-mile pressure | UNCTAD reports route lengthening, higher ton-mile demand, and freight-rate pressure tied to Red Sea and related chokepoint disruption | UNCTAD | High for UNCTAD framing; moderate for lane-specific commercial effects | Track future UNCTAD, shipping analytics, and trade-source updates for persistence or normalization | No shipper decision direction |
 | Marine insurance and war cover | Allianz reports that geopolitical risk, war cover, premium sustainability, and accumulation risk are important to shipping insurance analysis | Allianz Commercial and future insurance sources | Moderate | Compare Allianz, IUMI, Lloyd's-linked, P&I club, and broker sources for aggregate risk-pricing signals | No proprietary pricing extraction, insurer advice, or route decision logic |
-| Humanitarian and port effects | Existing Warlock-Index products link Red Sea disruption to Yemen, Sudan, East Africa, Djibouti, Suez, and vulnerable economies | UNCTAD, Warlock Africa baseline, future UN OCHA/WFP/IMO sources | Moderate | Add dated humanitarian logistics and port-source packets when official or NGO evidence is collected | No convoy, aid-route, or movement planning |
+| Humanitarian and port effects | Existing WARLOCK-INDEX products link Red Sea disruption to Yemen, Sudan, East Africa, Djibouti, Suez, and vulnerable economies | UNCTAD, Warlock Africa baseline, future UN OCHA/WFP/IMO sources | Moderate | Add dated humanitarian logistics and port-source packets when official or NGO evidence is collected | No convoy, aid-route, or movement planning |
 | Iran-linked support context | U.S. public sources connect Houthi activity to Iranian support and wider Iran-linked network dynamics | ODNI, Federal Register, Iran profile | High for support framing; moderate for direct command detail | Track ODNI, Treasury, State, UN, and allied sources for support, transfer, financing, and sanctions evidence | Separate support from command; no targeting or interdiction detail |
 | Strategic-economic transmission | Red Sea disruption transmits through shipping time, insurance, fuel, emissions, port calls, food and energy exposure, and commercial confidence | UNCTAD, SCA, Allianz, source packet | Moderate to high | Compare transport, insurance, energy, food-security, and port indicators before making broad economic claims | No investment, insurance, or commercial recommendations |
 

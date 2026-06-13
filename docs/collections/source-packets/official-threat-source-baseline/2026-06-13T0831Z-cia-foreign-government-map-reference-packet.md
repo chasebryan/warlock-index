@@ -11,7 +11,7 @@
 **Source base:** CIA World Leaders; CIA World Leaders historical data; CIA
 World Factbook sunset notice; State Department country and area source family;
 NGA public site, products and services page, and public maps for download;
-existing Warlock-Index official U.S. source register, official threat source
+existing WARLOCK-INDEX official U.S. source register, official threat source
 baseline packet, source collection tracker, and assimilation matrix.
 
 **Analytic confidence:** High for CIA World Leaders identity, update cadence,
@@ -21,7 +21,7 @@ because the current access check returned a public technical-difficulties
 response.
 
 **Purpose:** Establish safe extraction rules for foreign government,
-leadership, country, and geospatial reference sources inside Warlock-Index.
+leadership, country, and geospatial reference sources inside WARLOCK-INDEX.
 
 **Scope:** Public official reference sources used to identify foreign
 government structures, leadership directories, historical leadership
@@ -35,7 +35,7 @@ investigative direction, or domestic political profiling.
 
 ## Bottom Line
 
-Warlock-Index should treat foreign government and map references as an
+WARLOCK-INDEX should treat foreign government and map references as an
 orientation layer, not as a threat list. CIA World Leaders can anchor current
 foreign leadership and cabinet reference. CIA historical leadership snapshots
 can support dated-change context. The former CIA World Factbook should be
@@ -75,7 +75,7 @@ personal-risk material.
 
 ## Source Ledger
 
-| Source family | Current access status | Primary value | Warlock-Index use | Limits |
+| Source family | Current access status | Primary value | WARLOCK-INDEX use | Limits |
 | --- | --- | --- | --- | --- |
 | CIA World Leaders | Verified 2026-06-13 | Foreign leadership, cabinet, ambassador, and permanent representative directory | Current government-reference layer for actor profiles and theater products | Not a threat list; no dossiers or targeting |
 | CIA World Leaders historical data | Verified 2026-06-13 | Dated leadership snapshots and archive continuity | Leadership-change context and source provenance | Snapshot date controls; no current claims from older archives |
@@ -123,7 +123,7 @@ personal-risk material.
 
 ## Map Use Rules
 
-Public maps in Warlock-Index are reference artifacts. They may show broad
+Public maps in WARLOCK-INDEX are reference artifacts. They may show broad
 theater orientation, country boundaries, alliance geography, chokepoints, or
 official map provenance. They must not add tactical layers, sensitive
 facilities, collection geometry, likely routes, interdiction points,

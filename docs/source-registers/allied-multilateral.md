@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-13T03:20:02Z
+**Prepared UTC:** 2026-06-13T22:16:47Z
 
 ## NATO 2022 Strategic Concept
 
@@ -30,10 +30,43 @@
   Russia, Indo-Pacific partner cooperation, and Russia strategic-weapons
   nuclear signaling source work. Also used for DPRK strategic-weapons
   Russia-support and nonproliferation source work and Iran WMD/missile
-  Russia-support source work.
+  Russia-support source work, and for multilateral strategic stability source
+  work involving arms control, nonproliferation, disarmament, IAMD/BMD, and
+  allied nuclear assurance.
 - **Reliability note:** Authoritative for NATO consensus language. It reflects
   alliance political agreement and is treated as official policy
   framing.
+
+## P5 Joint Statement On Preventing Nuclear War And Avoiding Arms Races
+
+- **Source class:** A
+- **Publisher:** White House archived site, carrying joint P5 statement
+- **Publication date:** 2022-01-03
+- **Accessed UTC:** 2026-06-13T22:16:47Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/01/03/p5-statement-on-preventing-nuclear-war-and-avoiding-arms-races/
+- **Use:** Official joint statement by China, France, Russia, the United
+  Kingdom, and the United States on nuclear-war avoidance, strategic-risk
+  reduction, NPT Article VI obligations, de-targeting, and bilateral and
+  multilateral diplomatic approaches.
+- **Reliability note:** Authoritative for the public joint statement as
+  archived by the White House. It is political language, not a verification
+  regime or binding arms-limit framework.
+
+## UN Treaty On The Non-Proliferation Of Nuclear Weapons Historical Archive
+
+- **Source class:** A
+- **Publisher:** United Nations Audiovisual Library of International Law
+- **Publication date:** NPT opened for signature 1968-07-01; entered into
+  force 1970-03-05; archive current as accessed
+- **Accessed UTC:** 2026-06-13T22:16:47Z
+- **URL:** https://legal.un.org/avl/ha/tnpt/tnpt.html
+- **Use:** Legal-historical baseline for the NPT's purpose, negotiation,
+  opening for signature, entry into force, indefinite extension, and
+  relationship to nonproliferation, peaceful uses, disarmament, and general
+  and complete disarmament.
+- **Reliability note:** Authoritative UN legal-historical archive. It does not
+  independently assess current compliance, safeguards disputes, force posture,
+  or state behavior.
 
 ## UN Security Council Resolution 2231 And Iran Nuclear Issue Background
 

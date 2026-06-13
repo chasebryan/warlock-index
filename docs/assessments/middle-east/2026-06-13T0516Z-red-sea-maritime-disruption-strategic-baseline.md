@@ -24,7 +24,7 @@ detail, vessel movement detail, or technical replication detail.
 Order 14175 on Ansar Allah; UN Security Council Resolution 2722; Council of
 the European Union EUNAVFOR ASPIDES launch statement; UNCTAD Review of
 Maritime Transport 2024; Suez Canal Authority annual navigation reports;
-Allianz Commercial Safety and Shipping Review 2025; existing Warlock-Index Red
+Allianz Commercial Safety and Shipping Review 2025; existing WARLOCK-INDEX Red
 Sea source packet, Red Sea timeline, Iran classification, Africa baseline,
 foreign terrorist organization profile, and global operating picture.
 
@@ -46,7 +46,7 @@ regional-conflict narrative, and the sensitivity of commercial shipping,
 insurance, naval presence, humanitarian logistics, and Suez-linked revenue to
 perceived risk.
 
-Warlock-Index should treat this lane as a standing strategic file rather than
+WARLOCK-INDEX should treat this lane as a standing strategic file rather than
 as a one-time incident chronology. The core analytic question is not only how
 many attacks occur in a given month. It is how sustained uncertainty around a
 maritime chokepoint changes freight flows, insurance behavior, allied maritime
@@ -96,7 +96,7 @@ economy exposure.
 
 ## Scope And Information Cutoff
 
-This baseline reflects public information available to Warlock-Index as of
+This baseline reflects public information available to WARLOCK-INDEX as of
 2026-06-13T05:16:07Z. It uses dated source packets and public-source registers
 already present in the repository, with additional current-source checks
 against official and specialist public pages. Later products should create a
@@ -159,7 +159,7 @@ important even if public incident tempo varies.
 
 The assessment does not remove uncertainty. Public sources cannot fully
 resolve internal Houthi decision calculus, factional debates, operational
-constraints, or direct external command relationships. For Warlock-Index, the
+constraints, or direct external command relationships. For WARLOCK-INDEX, the
 correct posture is to treat resilience, geography, and international leverage
 as the core public-source baseline while holding intent and command detail at
 lower confidence.
@@ -169,13 +169,13 @@ lower confidence.
 UNCTAD's 2024 maritime review frames the Red Sea, Suez Canal, and Panama Canal
 as chokepoints exposed to geopolitical and climate stress. It reports that
 route disruptions lengthened voyages, increased ton-mile demand, raised costs,
-and affected vulnerable economies. Warlock-Index should use this as a
+and affected vulnerable economies. WARLOCK-INDEX should use this as a
 strategic coupling source: a maritime-security incident can become a food,
 energy, insurance, emissions, and macroeconomic concern through the structure
 of commercial shipping.
 
 Suez Canal Authority annual navigation reports provide official canal traffic
-statistics. The existing Warlock-Index source packet records the SCA baseline
+statistics. The existing WARLOCK-INDEX source packet records the SCA baseline
 as 26,434 vessel transits in 2023, 13,213 in 2024, and 12,758 in 2025, with
 net tonnage falling from 1,568.257 million tons in 2023 to 524.527 million
 tons in 2024 and 522.084 million tons in 2025. Those figures should be read
@@ -187,7 +187,7 @@ each commercial decision or quantify final consumer-price effects.
 Allianz's Safety and Shipping Review 2025 is useful as an industry view, not
 as an official government source. It supports the judgment that geopolitical
 risk, political violence, war cover, and supply-chain interruption are
-important to maritime insurance analysis. Future Warlock-Index products should
+important to maritime insurance analysis. Future WARLOCK-INDEX products should
 separate government, multilateral, industry, broker, and media claims instead
 of blending them into a single risk narrative.
 
@@ -206,7 +206,7 @@ does not mean every actor agrees on method or mandate. It does mean that
 shipping-security pressure creates legal, diplomatic, naval, and commercial
 confidence questions for states beyond the immediate region.
 
-For Warlock-Index, allied response should be analyzed through strategic
+For WARLOCK-INDEX, allied response should be analyzed through strategic
 categories: public mandate, legal framing, scope of response, burden-sharing
 signals, commercial confidence, and interaction with U.S., EU, Gulf, African,
 and Indo-Pacific interests. The repository should not describe escort

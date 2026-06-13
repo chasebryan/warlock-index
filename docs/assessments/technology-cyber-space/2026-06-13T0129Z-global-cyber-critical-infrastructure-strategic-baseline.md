@@ -23,7 +23,7 @@ targeting support, or cyber operations guidance.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, 2026 National Defense
 Strategy, U.S. Department of Defense 2025 PRC military power report, current
-Warlock-Index actor classifications, and current Warlock-Index source
+WARLOCK-INDEX actor classifications, and current WARLOCK-INDEX source
 registers.
 
 **Analytic confidence:** High for actor-level public U.S. threat framing and
@@ -48,7 +48,7 @@ crises to domestic infrastructure; private-sector networks to military
 mobility; cloud and telecommunications to command resilience; ransomware to
 health care, energy, and local government continuity; and emerging technology
 to future offensive and defensive cyber capability. This makes cyber a
-standing integration lane for every Warlock-Index actor and theater product.
+standing integration lane for every WARLOCK-INDEX actor and theater product.
 
 This assessment is non-prescriptive. It provides strategic classification,
 actor comparison, infrastructure exposure categories, decision relevance, and
@@ -100,7 +100,7 @@ watch area.
    all affect future cyber risk because they change speed, scale, dependence,
    encryption, analysis, deception, and decision support.
 
-8. The most useful Warlock-Index approach is actor-domain fusion: every cyber
+8. The most useful WARLOCK-INDEX approach is actor-domain fusion: every cyber
    product connects actor intent, infrastructure sector, theater crisis,
    homeland relevance, defense industrial relevance, and source confidence.
 
@@ -122,7 +122,7 @@ defense, military readiness, crisis management, and public resilience.
 The DoD 2025 PRC military power report adds a China-specific reference point.
 It describes Chinese cyberespionage campaigns against U.S. critical
 infrastructure as relevant to potential disruption of U.S. military activity
-and American interests in a conflict. In Warlock-Index structure, that ties the
+and American interests in a conflict. In WARLOCK-INDEX structure, that ties the
 cyber baseline directly to Taiwan, the First Island Chain, Guam, military
 mobility, and domestic infrastructure.
 
@@ -297,7 +297,7 @@ influence activity.
 AI changes cyber risk by increasing scale, speed, analysis capacity, deception
 quality, and automation potential. ODNI's 2026 assessment identifies AI as a
 defining technology with military, intelligence, cyber, autonomy, and weapons
-design relevance. For Warlock-Index, AI belongs in the cyber file because it
+design relevance. For WARLOCK-INDEX, AI belongs in the cyber file because it
 can affect both attacker capability and defender workload.
 
 ### Quantum Computing

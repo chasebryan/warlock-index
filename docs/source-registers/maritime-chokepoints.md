@@ -24,7 +24,7 @@ instructions.
 3. Treat insurance and broker reporting as commercial-market evidence, not as
    official government assessment.
 4. Keep live movement data, sensitive operational details, and route-selection
-   logic out of Warlock-Index products.
+   logic out of WARLOCK-INDEX products.
 5. Create dated source packets when a chokepoint lane gains enough sources for
    high-confidence analysis.
 
@@ -67,7 +67,7 @@ instructions.
   disruption, freight-rate effects, ton-mile demand, insurance costs, port
   congestion, emissions, and vulnerable-economy exposure.
 - **Reliability note:** Authoritative for UNCTAD public analysis and data
-  presentation. It contains policy language; Warlock-Index uses it for data
+  presentation. It contains policy language; WARLOCK-INDEX uses it for data
   and framing without adopting recommendations.
 
 ### Suez Canal Authority Annual Navigation Reports
@@ -130,7 +130,7 @@ instructions.
 
 | Chokepoint lane | Priority source families | Current register status | Notes |
 | --- | --- | --- | --- |
-| Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current Warlock-Index lane |
+| Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current WARLOCK-INDEX lane |
 | Strait of Hormuz | EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue | Needed for Iran maritime and energy exposure analysis |
 | Malacca / Singapore | Singapore, Malaysia, Indonesia, ASEAN, UNCTAD, EIA/IEA, port authorities, insurance industry | Queue | Needed for Indo-Pacific trade, energy, and logistics concentration |
 | Panama Canal | Panama Canal Authority, UNCTAD, climate agencies, trade datasets, insurance industry | Queue | Needed for climate-infrastructure and canal-capacity analysis |

@@ -10,7 +10,7 @@
 
 **Purpose:** Define replacement-source routing for country, government,
 geographic, demographic, economic, and policy-reference fields that older
-Warlock-Index products might otherwise have sourced to the CIA World
+WARLOCK-INDEX products might otherwise have sourced to the CIA World
 Factbook.
 
 **Boundary:** This note supports source hygiene and strategic reference only.
@@ -21,7 +21,7 @@ or domestic political profiling.
 
 ## Bottom Line
 
-CIA announced on February 4, 2026, that The World Factbook had sunset. Warlock-Index should treat the Factbook as a legacy reference after that date. It can
+CIA announced on February 4, 2026, that The World Factbook had sunset. WARLOCK-INDEX should treat the Factbook as a legacy reference after that date. It can
 support historical context where a product clearly marks the archival cutoff,
 but it should not carry current country facts.
 
@@ -31,7 +31,7 @@ bilateral framing should route to State Department country and area sources
 when accessible. Economic and demographic indicators should route to current
 statistical publishers such as the World Bank, IMF, UN, and national
 statistical authorities. Maps, geography, and naming should route to the
-Warlock-Index map/geospatial register. Congressional and oversight context
+WARLOCK-INDEX map/geospatial register. Congressional and oversight context
 should route to CRS and GAO where those products directly address the country
 or issue.
 
@@ -62,7 +62,7 @@ or issue.
    legal status, or policy/oversight context.
 3. Preserve dataset definitions, units, vintages, and reporting years for
    statistical sources. A country statistic without its source definition is
-   not a usable Warlock-Index claim.
+   not a usable WARLOCK-INDEX claim.
 4. Treat State country pages as required diplomatic-source routing, but
    verify exact URLs during each dated product because the current access
    check returned a public technical-difficulties/forbidden response.
@@ -78,7 +78,7 @@ or issue.
 
 ## Current Access Ledger
 
-| Source family | Access status | Warlock-Index role | Note |
+| Source family | Access status | WARLOCK-INDEX role | Note |
 | --- | --- | --- | --- |
 | CIA World Factbook farewell story | Verified 2026-06-13 | Legacy-status control | CIA says the Factbook has sunset |
 | CIA World Leaders | Verified 2026-06-13 | Current leadership and officeholder reference | CIA states the online directory is updated weekly |
@@ -91,7 +91,7 @@ or issue.
 
 ## Minimum Product Fields
 
-When a Warlock-Index product replaces a Factbook-style claim, include:
+When a WARLOCK-INDEX product replaces a Factbook-style claim, include:
 
 - Former field type, if relevant.
 - Replacement source family.
@@ -114,7 +114,7 @@ When a Warlock-Index product replaces a Factbook-style claim, include:
 - National statistical offices and foreign government pages can be unstable,
   politicized, censored, inconsistently translated, or unavailable in crisis.
 - Factbook-style fields often mixed neutral reference, policy-sensitive
-  geography, and analytic context. Warlock-Index should split those into
+  geography, and analytic context. WARLOCK-INDEX should split those into
   separate evidence types instead of recreating a single omnibus country
   page.
 

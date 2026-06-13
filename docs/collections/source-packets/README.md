@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Source packets are curated evidence packages for Warlock-Index products. They
+Source packets are curated evidence packages for WARLOCK-INDEX products. They
 group official sources, source-class notes, analytic extraction rules,
 cross-links, and information gaps so later assessments can reuse evidence
 without flattening source quality.

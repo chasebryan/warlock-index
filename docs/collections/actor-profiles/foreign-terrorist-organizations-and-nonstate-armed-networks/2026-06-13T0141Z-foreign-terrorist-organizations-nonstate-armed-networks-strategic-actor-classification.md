@@ -24,7 +24,7 @@ guidance, operational concepts, tactical guidance, or support for violence.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, Treasury 2024 National
 Terrorist Financing Risk Assessment, 2026 U.S. Counterterrorism Strategy, 2025
-National Security Strategy, 2026 National Defense Strategy, current Warlock-Index Iran, homeland, cyber, TCO, and global operating-picture products.
+National Security Strategy, 2026 National Defense Strategy, current WARLOCK-INDEX Iran, homeland, cyber, TCO, and global operating-picture products.
 
 **Analytic confidence:** High for public U.S. strategic threat framing,
 terrorist-financing categories, and broad actor-family classification;
@@ -35,7 +35,7 @@ effects, and WMD-related intent.
 ## Bottom Line
 
 Foreign terrorist organizations and major nonstate armed networks are best
-classified in Warlock-Index as distributed coercive violence ecosystems. They
+classified in WARLOCK-INDEX as distributed coercive violence ecosystems. They
 are not a single actor class with one ideology, sponsor, method, or geography.
 They include jihadist networks, Iran-aligned armed groups, nationalist and
 separatist organizations, state-proxy militias, maritime disruption actors,
@@ -56,7 +56,7 @@ state-proxy competition.
 
 This classification is non-prescriptive. It defines the actor class, the
 strategic relevance to U.S. defense research, source-confidence limits, and
-indicator lanes for future Warlock-Index products.
+indicator lanes for future WARLOCK-INDEX products.
 
 ## Standing Classification
 
@@ -107,7 +107,7 @@ Hemisphere cross-theater actor family.
    personnel, disrupt maritime flows, support adversary narratives, stress
    migration systems, and create safe havens.
 
-6. Africa is an underbuilt Warlock-Index lane for terrorism and nonstate armed
+6. Africa is an underbuilt WARLOCK-INDEX lane for terrorism and nonstate armed
    networks. ISIS- and al-Qaida-linked affiliates in parts of Africa affect
    partner stability, humanitarian risk, resource competition, migration,
    Russian and Chinese influence, and U.S. overseas-security interests.
@@ -133,7 +133,7 @@ retain influence through ideology, media, local affiliates, attacks abroad,
 recruitment of isolated individuals, and exploitation of weak governance.
 
 ODNI's 2026 assessment highlights the continuing ability of ISIS messaging to
-inspire violence in the United States. For Warlock-Index, the ISIS lane links
+inspire violence in the United States. For WARLOCK-INDEX, the ISIS lane links
 homeland security, online mobilization, Africa, South Asia, the Middle East,
 Europe, foreign fighters, detention camps, partner capacity, and terrorist
 financing.
@@ -189,7 +189,7 @@ and maritime chokepoint files.
 ### African Insurgent And Terrorist Affiliates
 
 African affiliates and insurgent networks tied to ISIS, al-Qaida, or local
-armed movements deserve their own future baseline. The key Warlock-Index
+armed movements deserve their own future baseline. The key WARLOCK-INDEX
 frame is partner stability: weak governance, coups, resource competition,
 local grievances, Russian security influence, humanitarian pressure, and
 terrorist recruitment can interact in ways that create regional and global
@@ -206,7 +206,7 @@ travel or communication links.
 ### Designated Criminal-Terror Hybrids
 
 Some cartels and transnational gangs have entered terrorism-designation
-frameworks in current U.S. policy. Warlock-Index treats that as legal and
+frameworks in current U.S. policy. WARLOCK-INDEX treats that as legal and
 policy context while preserving analytic distinctions. Criminal-terror hybrid
 analysis belongs at the intersection of this file and the TCO file.
 
@@ -231,7 +231,7 @@ retaining such intent, although pressure has reduced some capabilities.
 
 State-proxy relationships can extend nonstate reach, improve access to weapons
 or training, support information operations, and complicate attribution.
-Iran-aligned groups are the central current example in the Warlock-Index
+Iran-aligned groups are the central current example in the WARLOCK-INDEX
 corpus, but state tolerance or exploitation of nonstate actors can occur in
 other regions.
 
@@ -241,7 +241,7 @@ Financing links ideology to action, sustainment, travel, media, recruitment,
 corruption, procurement, and family or prisoner support. Treasury's 2024
 assessment identifies banks, money transmitters, cash, virtual assets,
 nonprofits, crowdfunding, and online fundraising as relevant vulnerabilities
-and trends. Warlock-Index records these at strategic level only.
+and trends. WARLOCK-INDEX records these at strategic level only.
 
 ### Maritime And Chokepoint Disruption
 

@@ -27,7 +27,7 @@ technical instructions. It does not claim access to classified information.
 
 **Source base:** 2024 Department of Defense Arctic Strategy, ODNI 2026 Annual
 Threat Assessment, 2026 National Defense Strategy, 2025 National Security
-Strategy, and current Warlock-Index Russia, China, homeland, space,
+Strategy, and current WARLOCK-INDEX Russia, China, homeland, space,
 cyber/critical-infrastructure, defense-industrial-base, and global operating
 picture products.
 
@@ -41,7 +41,7 @@ climate-driven access.
 
 ## Bottom Line
 
-The Arctic and High North are a first-tier strategic theater for Warlock-Index because the region links the U.S. homeland, Canada, Greenland, NATO's
+The Arctic and High North are a first-tier strategic theater for WARLOCK-INDEX because the region links the U.S. homeland, Canada, Greenland, NATO's
 northern flank, Russia's Kola Peninsula, PRC-Russia cooperation, missile
 warning, undersea infrastructure, space architecture, energy, shipping, and
 defense logistics. It is not a remote niche file. It is a northern approach to
@@ -129,7 +129,7 @@ climate-access and austere-environment risk domain.
 
 10. Indigenous and Alaska Native communities are not background terrain. DoD
    strategy recognizes consultation, local knowledge, and community impacts as
-   part of the regional environment. Warlock-Index analysis treats community
+   part of the regional environment. WARLOCK-INDEX analysis treats community
    presence, sovereignty, subsistence, infrastructure, and resilience as
    strategic context without reducing them to military utility.
 
@@ -159,7 +159,7 @@ presence. It also describes Russia's Arctic coastline, icebreaker fleet,
 Northern Fleet, Kola Peninsula concentration, resource strategy, and PRC
 collaboration in the region.
 
-For Warlock-Index, the important shift is analytical integration. A future
+For WARLOCK-INDEX, the important shift is analytical integration. A future
 Arctic product cannot be only a Russia naval note, an icebreaker note, a
 shipping note, or a climate note. The Arctic theater is a combined problem of
 geography, warning, infrastructure, alliance systems, commercial access,
@@ -440,7 +440,7 @@ the rest of the repository. The region affects:
   as a homeland-defense, alliance, domain-awareness, climate-access, and
   monitor-and-respond problem.
 - **Reliability note:** Authoritative for public U.S. defense strategy. It is
-  policy evidence and contains departmental intent; Warlock-Index separates
+  policy evidence and contains departmental intent; WARLOCK-INDEX separates
   that policy record from independent analytic judgment.
 
 ### ODNI Annual Threat Assessment 2026
@@ -455,10 +455,10 @@ the rest of the repository. The region affects:
 - **Reliability note:** Authoritative for public IC threat framing. It remains
   a public product with release constraints and policy-era context.
 
-### Current Warlock-Index Corpus
+### Current WARLOCK-INDEX Corpus
 
 - **Source class:** B
-- **Publisher:** Warlock-Index
+- **Publisher:** WARLOCK-INDEX
 - **Use in this product:** Cross-product consistency for Russia, China,
   homeland, space, cyber/critical infrastructure, defense industrial base, and
   global operating-picture frames.

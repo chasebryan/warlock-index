@@ -12,7 +12,7 @@
 
 ## Standing Classification
 
-North Korea / DPRK is classified for Warlock-Index purposes as:
+North Korea / DPRK is classified for WARLOCK-INDEX purposes as:
 
 **Nuclear-armed regional adversary; hereditary party-state security regime;
 Korean Peninsula flashpoint actor; homeland-relevant missile and WMD threat;

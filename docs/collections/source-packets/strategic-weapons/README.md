@@ -21,3 +21,4 @@ instructions.
 - [2026-06-13T2051Z - Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [2026-06-13T2151Z - DPRK Strategic Weapons Source Packet](2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
 - [2026-06-13T2203Z - Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
+- [2026-06-13T2216Z - Multilateral Strategic Stability Source Packet](2026-06-13T2216Z-multilateral-strategic-stability-source-packet.md)

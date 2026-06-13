@@ -9,7 +9,7 @@
 **Information cutoff UTC:** 2026-06-13T03:16:36Z
 
 **Source base:** White House Washington Declaration; White House Camp David
-Principles; White House Spirit of Camp David joint statement; existing Warlock-Index North Korea, China, Taiwan, strategic weapons, cyber, space, defense
+Principles; White House Spirit of Camp David joint statement; existing WARLOCK-INDEX North Korea, China, Taiwan, strategic weapons, cyber, space, defense
 industrial base, Indo-Pacific allied posture, and global assimilation products.
 
 **Analytic confidence:** High for official public alliance framing,
@@ -69,7 +69,7 @@ economic-security and technology partner.
 2. U.S.-ROK extended deterrence is now a standing public-source lane because
    the Washington Declaration established the Nuclear Consultative Group and
    reaffirmed ROK reliance on U.S. extended deterrence and NPT obligations.
-   Warlock-Index treatment remains strategic and non-operational.
+   WARLOCK-INDEX treatment remains strategic and non-operational.
 
 3. The Camp David source set makes ROK posture inseparable from Japan and the
    United States for selected regional-security functions, including DPRK
@@ -100,7 +100,7 @@ economic-security and technology partner.
 The ROK faces a proximate DPRK threat with nuclear, missile, conventional,
 special operations, cyber, illicit-finance, and information dimensions. This
 proximity gives ROK posture a level of immediacy different from the Japan,
-Australia, and Philippines files. The Warlock-Index analytic lane is warning,
+Australia, and Philippines files. The WARLOCK-INDEX analytic lane is warning,
 deterrence architecture, resilience, and cross-domain pressure, not tactical
 defense planning.
 
@@ -111,7 +111,7 @@ extended deterrence consultation. It established the Nuclear Consultative Group
 and reaffirmed both U.S. extended deterrence commitments and ROK NPT
 obligations. This is an important source milestone because it makes alliance
 consultation, assurance, DPRK nuclear pressure, and strategic stability a
-visible open-source lane. Warlock-Index products do not assess employment
+visible open-source lane. WARLOCK-INDEX products do not assess employment
 options, nuclear force use, or contingency procedures.
 
 ### Trilateral Cooperation With Japan And The United States
@@ -135,7 +135,7 @@ replication detail.
 
 ## Actor Role Matrix
 
-| Role | Strategic relevance | Main Warlock-Index links |
+| Role | Strategic relevance | Main WARLOCK-INDEX links |
 | --- | --- | --- |
 | Peninsula ally | Direct DPRK threat exposure, combined defense posture, deterrence and assurance | North Korea profile, strategic weapons timeline, cyber baseline |
 | Extended deterrence partner | NCG, Washington Declaration, assurance and nonproliferation architecture | Arms-control tracker, strategic weapons packet |

@@ -24,7 +24,7 @@ criminal tradecraft, procurement details, or evasion guidance.
 **Source base:** ODNI 2026 Annual Threat Assessment, Treasury 2024 National
 Money Laundering Risk Assessment, 2025 National Security Strategy, 2026
 National Defense Strategy, 2025 White House order on cartel and transnational
-organization designations, and current Warlock-Index homeland and global
+organization designations, and current WARLOCK-INDEX homeland and global
 baseline products.
 
 **Analytic confidence:** High for broad public-source U.S. threat framing,
@@ -34,7 +34,7 @@ depth, revenue allocation, and cross-border adaptation timelines.
 
 ## Bottom Line
 
-Transnational criminal organizations are best classified in Warlock-Index as
+Transnational criminal organizations are best classified in WARLOCK-INDEX as
 homeland-coupled strategic pressure networks. They are not peer military
 competitors and are analytically distinct from state adversaries.
 Their strategic weight comes from persistence, adaptability, illicit revenue,
@@ -54,7 +54,7 @@ and the ability of democratic states to control strategic territory and flows.
 
 This classification is not an action plan. It defines the actor class, the
 strategic lanes that matter to U.S. research, the main uncertainties, and the
-public indicators future Warlock-Index products can track.
+public indicators future WARLOCK-INDEX products can track.
 
 ## Standing Classification
 
@@ -117,7 +117,7 @@ watch lane.
 
 7. The 2025 White House order designating certain cartels and transnational
    organizations as potential Foreign Terrorist Organizations or Specially
-   Designated Global Terrorists is important policy context, but Warlock-Index
+   Designated Global Terrorists is important policy context, but WARLOCK-INDEX
    treats designation status, criminal behavior, terrorism, and insurgency as
    analytically distinct unless evidence supports convergence.
 
@@ -163,7 +163,7 @@ confidence in state capacity.
 
 DTOs remain a core TCO subset. Treasury's 2024 assessment identifies Mexican
 DTOs, especially the Sinaloa Cartel and CJNG, as central actors in U.S.-linked
-drug trafficking. For Warlock-Index, DTO analysis belongs at the level of
+drug trafficking. For WARLOCK-INDEX, DTO analysis belongs at the level of
 actor classification, revenue, corruption, public harm, and strategic
 geography. It does not belong at the level of tactical movement or enforcement
 methods.

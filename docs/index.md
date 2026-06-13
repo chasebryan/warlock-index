@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This index is the working navigation hub for Warlock-Index.
+This index is the working navigation hub for WARLOCK-INDEX.
 
 ## Standards
 
@@ -83,6 +83,7 @@ This index is the working navigation hub for Warlock-Index.
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](collections/source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [DPRK Strategic Weapons Source Packet](collections/source-packets/strategic-weapons/2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
 - [Iran WMD And Missile-Relevance Source Packet](collections/source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
+- [Multilateral Strategic Stability Source Packet](collections/source-packets/strategic-weapons/2026-06-13T2216Z-multilateral-strategic-stability-source-packet.md)
 - [Event Timelines](collections/event-timelines)
 - [Ukraine War Strategic Event Timeline](collections/event-timelines/2026-06-13T0157Z-ukraine-war-strategic-event-timeline.md)
 - [Taiwan Strait Coercion Strategic Event Timeline](collections/event-timelines/2026-06-13T0203Z-taiwan-strait-coercion-strategic-event-timeline.md)

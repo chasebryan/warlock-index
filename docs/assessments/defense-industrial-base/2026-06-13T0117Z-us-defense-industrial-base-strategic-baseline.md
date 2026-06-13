@@ -25,7 +25,7 @@ instructions. It does not claim access to classified information.
 
 **Source base:** 2026 National Defense Strategy, 2025 National Security
 Strategy, ODNI 2026 Annual Threat Assessment, NATO The Hague Summit
-Declaration, official U.S. Industrial Base Policy public pages, current Warlock-Index global assessment, and current Warlock-Index source registers.
+Declaration, official U.S. Industrial Base Policy public pages, current WARLOCK-INDEX global assessment, and current WARLOCK-INDEX source registers.
 
 **Analytic confidence:** High for broad public strategic prioritization and
 core industrial-base categories; moderate for current production rates,
@@ -36,7 +36,7 @@ industrial integration.
 ## Bottom Line
 
 The U.S. defense industrial base is a strategic center of gravity for the
-Warlock-Index corpus. Public U.S. strategy now treats industrial capacity as
+WARLOCK-INDEX corpus. Public U.S. strategy now treats industrial capacity as
 one of the main pillars of national defense, not as an administrative support
 function. The 2026 National Defense Strategy identifies rebuilding and
 supercharging the defense industrial base as a central line of effort and links
@@ -56,7 +56,7 @@ North Korean low-cost missile and drone production, and global demand for air
 and missile defense all reinforce the same lesson: industrial throughput is a
 strategic variable.
 
-For Warlock-Index purposes, the U.S. DIB is classified as a national strategic
+For WARLOCK-INDEX purposes, the U.S. DIB is classified as a national strategic
 capacity system: a network of public and private actors whose performance
 affects homeland defense, Indo-Pacific deterrence, NATO and allied support,
 munitions endurance, technological advantage, crisis resilience, and the
@@ -126,7 +126,7 @@ rebuilding and adapting the military, and that it undergirds other strategy
 pillars. The strategy links weapons, equipment, transportation, distribution,
 sustainment, resupply, and materiel to the military options available to
 national leadership. This public framing makes the DIB a first-order analytic
-topic for Warlock-Index.
+topic for WARLOCK-INDEX.
 
 The global operating picture reinforces this treatment. China, Russia, Iran,
 and North Korea all affect the industrial problem in different ways. China is
@@ -158,7 +158,7 @@ both peak output and reliable output over time.
 
 Production matters because long-duration crisis can turn inventory into a
 countdown. Stockpiles buy time, but production determines recovery. Future
-Warlock-Index products separate production of new systems, rebuild of
+WARLOCK-INDEX products separate production of new systems, rebuild of
 used systems, maintenance capacity, repair throughput, software update speed,
 and ability to scale production under stress.
 
@@ -294,7 +294,7 @@ The issue includes construction of new ships and submarines, maintenance of
 existing fleets, public shipyard capacity, private yard health, suppliers,
 materials, design stability, software integration, dry docks, and skilled labor.
 
-For Warlock-Index, the shipbuilding lane includes both military and
+For WARLOCK-INDEX, the shipbuilding lane includes both military and
 commercial maritime capacity. Sealift, repair, ports, commercial yards, and
 merchant-mariner availability affect strategic mobility and sustainment.
 
@@ -452,7 +452,7 @@ defense decision-making because it clarifies:
 - U.S. Industrial Base Policy, **Industrial Base Resilience public page**,
   accessed 2026-06-13:
   https://www.businessdefense.gov/ibr/index.html
-- Warlock-Index, **Global Strategic Operating Picture**, 2026-06-13:
+- WARLOCK-INDEX, **Global Strategic Operating Picture**, 2026-06-13:
   ../global/2026-06-13T0049Z-global-strategic-operating-picture.md
-- Warlock-Index, **Global Actor-Domain Assimilation Matrix**, 2026-06-13:
+- WARLOCK-INDEX, **Global Actor-Domain Assimilation Matrix**, 2026-06-13:
   ../../collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md

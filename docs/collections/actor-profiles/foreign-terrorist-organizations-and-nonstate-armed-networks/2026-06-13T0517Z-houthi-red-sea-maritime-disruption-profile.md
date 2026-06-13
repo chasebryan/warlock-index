@@ -12,7 +12,7 @@
 Executive Order 14175 on Ansar Allah; UN Security Council Resolution 2722;
 Council of the European Union EUNAVFOR ASPIDES launch statement; UNCTAD
 Review of Maritime Transport 2024; Suez Canal Authority annual navigation
-reports; Allianz Commercial Safety and Shipping Review 2025; existing Warlock-Index Iran, Red Sea, foreign terrorist organization, Africa, and global
+reports; Allianz Commercial Safety and Shipping Review 2025; existing WARLOCK-INDEX Iran, Red Sea, foreign terrorist organization, Africa, and global
 maritime products.
 
 **Analytic confidence:** High for public source identity, U.S. designation
@@ -34,7 +34,7 @@ or technical instructions.
 
 ## Bottom Line
 
-The Houthis are strategically relevant to Warlock-Index because they connect
+The Houthis are strategically relevant to WARLOCK-INDEX because they connect
 local Yemeni conflict dynamics to Red Sea maritime pressure, Iran-linked
 regional networks, international shipping risk, marine insurance, Suez Canal
 exposure, humanitarian logistics, and allied naval burden-sharing. Public
@@ -77,7 +77,7 @@ The Houthi file is rooted in Yemen's internal conflict and political control,
 but its strategic impact extends beyond Yemen. A profile that ignores the
 local conflict risks flattening the actor into a maritime threat label. A
 profile that ignores global shipping and Iran-linked context misses the
-reason the actor matters to strategic defense analysis. Warlock-Index should
+reason the actor matters to strategic defense analysis. WARLOCK-INDEX should
 keep both layers visible.
 
 ### Iran-Linked Network Context

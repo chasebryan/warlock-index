@@ -45,7 +45,7 @@ operations, or diplomatic action.
 
 | Domain | Principal actors | Strategic relevance | Evidence priority |
 | --- | --- | --- | --- |
-| Nuclear and strategic deterrence | Russia, China, North Korea, United States, NATO, Iran-related WMD file | Homeland risk, escalation, assurance, arms control erosion, advanced delivery systems | Strategic weapons timeline, NATO assurance profile, official source baseline packet, China source packet, Russia source packet, DPRK source packet, Iran WMD/missile source packet, arms-control tracker, and arms-control source packet complete |
+| Nuclear and strategic deterrence | Russia, China, North Korea, United States, NATO, Iran-related WMD file | Homeland risk, escalation, assurance, arms control erosion, advanced delivery systems | Strategic weapons timeline, NATO assurance profile, official source baseline packet, China source packet, Russia source packet, DPRK source packet, Iran WMD/missile source packet, arms-control tracker, arms-control source packet, and multilateral strategic stability packet complete |
 | Conventional military balance | China, Russia, North Korea, Iran, NATO, U.S. allies | Regional deterrence, warfighting endurance, readiness, logistics, force posture | NATO profile, ROK posture profile, Indo-Pacific allied source packet, official NATO source packet, and Europe/NATO/Ukraine map packet complete; DoD reports, posture statements, allied defense documents |
 | Cyber and critical infrastructure | China, Russia, North Korea, Iran, cybercriminals | Espionage, pre-positioning, disruption, theft, revenue generation, infrastructure risk | Strategic baseline complete; ODNI, CISA, FBI, Treasury, allied advisories |
 | Space and counterspace | China, Russia, United States, allies, North Korea, Iran | ISR, communications, navigation, missile warning, economic services, counterspace risk | Strategic baseline and China strategic-weapons source packet complete; ODNI, DoD, Space Force, NATO, commercial SSA data |
@@ -108,6 +108,7 @@ operations, or diplomatic action.
 - `Russia Strategic Weapons And Nuclear Signaling`
 - `DPRK Strategic Weapons`
 - `Iran WMD And Missile Relevance`
+- `Multilateral Strategic Stability`
 - `Indo-Pacific Allied Posture`
 - `Republic Of Korea Allied Posture`
 - `Arctic Infrastructure`

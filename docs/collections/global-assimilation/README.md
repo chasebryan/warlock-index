@@ -4,7 +4,7 @@
 
 This collection holds cross-cutting matrices and synthesis tools that connect
 actors, theaters, domains, and source streams. These files exist to keep
-Warlock-Index from becoming a set of isolated country reports.
+WARLOCK-INDEX from becoming a set of isolated country reports.
 
 ## Current Products
 

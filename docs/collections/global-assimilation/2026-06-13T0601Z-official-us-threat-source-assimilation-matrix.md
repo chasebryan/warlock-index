@@ -9,13 +9,13 @@
 **Information cutoff UTC:** 2026-06-13T06:01:00Z
 
 **Source base:** ODNI, CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA,
-ATF, CBP, Coast Guard, DOJ, NGA, and existing Warlock-Index official-source
+ATF, CBP, Coast Guard, DOJ, NGA, and existing WARLOCK-INDEX official-source
 products.
 
 **Analytic confidence:** High for organizing logic; moderate for current
 source completeness pending dated source packets for each agency family.
 
-**Purpose:** Connect official U.S. agency source families to Warlock-Index
+**Purpose:** Connect official U.S. agency source families to WARLOCK-INDEX
 threat categories and safety boundaries.
 
 **Boundary:** This matrix does not produce an enemy list, targeting map,
@@ -35,7 +35,7 @@ geospatial reference at strategic level only.
 
 ## Assimilation Matrix
 
-| Threat category | Primary agencies | Supporting agencies | Warlock-Index products | Required boundary |
+| Threat category | Primary agencies | Supporting agencies | WARLOCK-INDEX products | Required boundary |
 | --- | --- | --- | --- | --- |
 | PRC strategic competition | ODNI, DoD, DIA, CIA World Leaders, State, Treasury | FBI, CISA, NSA, DOJ, Commerce | China baseline, PRC military modernization, cyber, space, DIB | No classified inference, targeting, or export-control evasion |
 | Russia strategic competition | ODNI, DoD, DIA, State, Treasury | FBI, CISA, NSA, DOJ, NATO sources | Russia profile, Ukraine timeline, Arctic, cyber, strategic weapons | No battlefield targeting or sanctions evasion |

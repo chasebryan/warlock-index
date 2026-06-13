@@ -22,7 +22,7 @@ employment guidance, or instructions for coercive activity.
 
 **Source base:** U.S. Department of Defense 2025 PRC military power report,
 ODNI 2026 Annual Threat Assessment, 2025 National Security Strategy, 2026
-National Defense Strategy, and existing Warlock-Index China and PRC
+National Defense Strategy, and existing WARLOCK-INDEX China and PRC
 modernization products.
 
 **Analytic confidence:** High for public U.S. strategic framing and broad
