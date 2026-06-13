@@ -36,6 +36,8 @@ future open-source defense assessments.
 - Nuclear and strategic deterrence.
 - Conventional force modernization.
 - Maritime power and sea control.
+- Maritime chokepoints, canal exposure, freight, insurance, and allied
+  maritime response.
 - Air and missile defense.
 - Uncrewed systems and counter-UAS.
 - Cyber operations and infrastructure risk.
@@ -58,12 +60,15 @@ future open-source defense assessments.
 - Tracker.
 - Indicator watchlist.
 - Actor-domain assimilation matrix.
+- Chokepoint assimilation matrix.
 - Assumption check.
 - Prior assessment update.
 
 ## Priority Source Families
 
 - U.S. statutory and strategy documents.
+- U.S. intelligence, homeland security, law-enforcement, sanctions, border,
+  maritime, cyber, and geospatial public source families.
 - U.S. Combatant Command public testimony and posture statements.
 - DoD annual military power reports.
 - ODNI and IC public threat assessments.

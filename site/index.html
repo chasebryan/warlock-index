@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A strategic open-source research corpus for assessments, source packets, timelines, trackers, and actor profiles."
+    >
+    <title>WARLOCK-INDEX</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#navigator">Skip to navigator</a>
+
+    <header class="site-header" data-elevated="false">
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="home-link" href="#top" aria-label="Home">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 4 29.2 18.8 44 24l-14.8 5.2L24 44l-5.2-14.8L4 24l14.8-5.2L24 4Z"></path>
+            <path d="M24 12v24M12 24h24"></path>
+          </svg>
+        </a>
+        <a href="library/assessments/">Assessments</a>
+        <a href="library/collections/coverage-map.html">Collections</a>
+        <a href="library/standards/product-standard.html">Standards</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas class="cosmos-canvas" id="cosmos-canvas" aria-hidden="true"></canvas>
+        <div class="hero-inner">
+          <div class="identity-panel">
+            <figure class="warlock-art" aria-label="Warlock artwork">
+              <img
+                src="images/warlock-index-emblem.jpeg"
+                alt="Project emblem"
+                onerror="this.closest('.warlock-art').classList.add('is-missing'); this.remove();"
+              >
+            </figure>
+            <div class="hero-copy">
+              <h1 id="hero-title">WARLOCK-INDEX</h1>
+              <p class="classification">UNCLASSIFIED//OPEN SOURCE</p>
+              <p>
+                Documentation navigator for strategic analysis, source packets,
+                timelines, trackers, and actor profiles.
+              </p>
+            </div>
+          </div>
+
+          <section class="terminal" id="navigator" aria-labelledby="navigator-title">
+            <div class="terminal-bar">
+              <div>
+                <h2 id="navigator-title">Navigator AI</h2>
+                <p>Local corpus terminal</p>
+              </div>
+              <span class="terminal-status">READY</span>
+            </div>
+            <form class="terminal-form" id="search-form">
+              <label class="visually-hidden" for="search-input">Search repository</label>
+              <span aria-hidden="true">wi:</span>
+              <input
+                id="search-input"
+                name="search"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Search Russia, Arctic, source packets, cyber, standards..."
+              >
+              <button type="submit">Search</button>
+            </form>
+            <div class="terminal-suggestions" aria-label="Common routes">
+              <button type="button" data-query="strategic weapons">Strategic weapons</button>
+              <button type="button" data-query="official sources">Official sources</button>
+              <button type="button" data-query="source packets">Source packets</button>
+              <button type="button" data-query="actor profiles">Actor profiles</button>
+            </div>
+            <div class="terminal-output" id="terminal-output" aria-live="polite"></div>
+          </section>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="corpus.js?v=20260613-official-threat"></script>
+    <script src="script.js?v=20260613-official-threat"></script>
+  </body>
+</html>

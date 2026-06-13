@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-13T03:20:02Z
 
 ## Completed
 
@@ -37,6 +37,12 @@
   official source baseline packet.
 - Added the NATO allied capacity official source baseline packet.
 - Added the China nuclear and missile modernization source packet.
+- Added the Red Sea maritime economics and insurance source packet.
+- Added the Indo-Pacific allied posture official source baseline packet.
+- Added the Republic of Korea allied posture profile.
+- Added the Arctic infrastructure and domain awareness source packet.
+- Added the arms-control erosion strategic tracker.
+- Added the arms-control erosion source packet.
 - Added the initial corpus coverage map.
 - Added the China strategic actor classification and actor profile.
 - Added the Iran strategic actor classification and actor profile.
@@ -58,10 +64,13 @@ The repository is in baseline-building mode. Products prioritize:
 ## Next Work Queue
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
-  Canada, the Republic of Korea, and India/Quad-related lanes.
-- Add source packet series for Red Sea maritime economics, Arctic
-  infrastructure, Indo-Pacific allied posture, arms-control erosion, and
-  remaining actor-specific strategic weapons lanes.
+  Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
+- Add follow-on implementation packets for U.S.-Japan-ROK trilateral
+  cooperation, Republic of Korea extended deterrence, AUKUS industrial
+  implementation, ICE Pact implementation, NORAD modernization, New START
+  post-expiration status, and Red Sea follow-on economics sublanes.
+- Add remaining actor-specific strategic weapons source packets for Russia,
+  North Korea, Iran, and multilateral strategic stability.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add a website information architecture once the document corpus is large

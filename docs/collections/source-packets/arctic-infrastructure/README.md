@@ -1,0 +1,16 @@
+# Arctic Infrastructure Source Packets
+
+**UNCLASSIFIED//OPEN SOURCE**
+
+This folder contains source packets for Arctic infrastructure, domain
+awareness, communications, icebreaking, civil resilience, and northern access
+issues relevant to strategic defense research.
+
+These packets support research organization only. They do not provide
+recommendations, targeting support, collection tasking, operational planning,
+tactical guidance, weapons employment guidance, infrastructure vulnerability
+analysis, deployment schedules, route guidance, or technical instructions.
+
+## Products
+
+- [2026-06-13T0318Z - Arctic Infrastructure And Domain Awareness Source Packet](2026-06-13T0318Z-arctic-infrastructure-domain-awareness-source-packet.md)
