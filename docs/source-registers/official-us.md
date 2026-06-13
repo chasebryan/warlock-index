@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-13T03:20:02Z
 
 ## ODNI Annual Threat Assessment 2026
 
@@ -53,6 +53,65 @@
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is
   a policy document, not a neutral outside assessment, and Warlock Index
   products separate departmental intent from independent analytic judgment.
+
+## White House Camp David Principles
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2023-08-18
+- **Accessed UTC:** 2026-06-13T03:16:36Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/08/18/camp-david-principles/
+- **Use:** Official public baseline for Japan, the Republic of Korea, and the
+  United States trilateral principles, including Indo-Pacific stability,
+  DPRK denuclearization language, Taiwan Strait stability, nonproliferation,
+  technology cooperation, and international-law framing.
+- **Reliability note:** Authoritative for archived White House public
+  statement language. It is historical policy framing and requires later
+  sources for implementation or current administration positions.
+
+## White House Spirit Of Camp David Joint Statement
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2023-08-18
+- **Accessed UTC:** 2026-06-13T03:16:36Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/08/18/the-spirit-of-camp-david-joint-statement-of-japan-the-republic-of-korea-and-the-united-states/
+- **Use:** Official public baseline for U.S.-Japan-ROK trilateral consultation,
+  annual meeting architecture, maritime security, DPRK missile-warning data
+  sharing, DPRK cyber-threat cooperation, economic security, technology,
+  critical minerals, semiconductors, AI, quantum, and supply-chain resilience.
+- **Reliability note:** Authoritative for archived joint statement language.
+  It does not independently prove future political continuity, readiness, or
+  implementation.
+
+## White House Washington Declaration
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2023-04-26
+- **Accessed UTC:** 2026-06-13T03:16:36Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/04/26/washington-declaration-2/
+- **Use:** Official public baseline for U.S.-ROK extended deterrence, the
+  Nuclear Consultative Group, ROK NPT reaffirmation, combined defense posture,
+  DPRK nuclear and missile threat framing, and strategic assurance analysis.
+- **Reliability note:** Authoritative for archived White House statement
+  language. Warlock Index products use it at strategic consultation level and
+  do not derive nuclear planning or operational detail from it.
+
+## White House ICE Pact Announcement
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2024-07-11
+- **Accessed UTC:** 2026-06-13T03:16:36Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/07/11/biden-harris-administration-announces-new-polar-partnership-ice-pact-alongside-finland-and-canada/
+- **Use:** Official public baseline for the U.S.-Canada-Finland Icebreaker
+  Collaboration Effort, polar icebreaker production, information exchange,
+  workforce development, allied purchasing, shipbuilding capacity, and polar
+  access infrastructure.
+- **Reliability note:** Authoritative for archived White House announcement
+  language. It is an initial arrangement source and requires later U.S.,
+  Canadian, Finnish, Coast Guard, and industry sources for implementation.
 
 ## U.S. Africa Command 2025 Posture Statement To Congress
 
