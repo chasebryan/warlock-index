@@ -38,7 +38,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | --- | --- | --- | --- | --- |
 | ODNI Annual Threat Assessment | Active in repo | Keep annual comparison packet current | High | No classified inference |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
-| CIA Factbook / CIA maps legacy | Registered as legacy | Map and country reference note | High for sunset status; moderate for archived access | No current claims without refresh |
+| CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
 | FBI terrorism | Registered | FBI/DHS terrorism source packet | High | No political profiling or tactics |
 | FBI cyber / IC3 | Registered | CISA/NSA/FBI cyber source packet | High | No exploit or evasion detail |
 | FBI counterintelligence | Registered | Foreign intelligence source packet | Moderate | No identification of private persons absent official legal source |
@@ -54,7 +54,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | CBP statistics | Registered | Border threat vector source packet | Moderate | No route or evasion guidance |
 | Coast Guard sources | Registered | Maritime homeland source packet | Moderate | No patrol or interdiction detail |
 | DOJ NSD | Registered | National security legal-action tracker | Moderate | Case-specific evidence only |
-| NGA public sources | Registered | Map and geospatial source packet | Moderate | No targeting or vulnerability maps |
+| NGA public sources | Map/geospatial register, theater map index, and Indo-Pacific/Taiwan map packet added | Europe/NATO/Ukraine map packet | Moderate | No targeting or vulnerability maps |
 
 ## Update Triggers
 
@@ -88,3 +88,6 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - [Official U.S. Threat Source Baseline Packet](../source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../source-registers/us-intelligence-law-enforcement.md)
+- [Legacy Factbook Replacement Note](../source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
+- [Theater Map Index](../source-notes/2026-06-13T1733Z-theater-map-index.md)
+- [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)

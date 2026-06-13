@@ -22,6 +22,8 @@ This index is the working navigation hub for Warlock Index.
 - [Research and Media Sources](source-registers/research-and-media.md)
 - [Maritime Chokepoints Source Register](source-registers/maritime-chokepoints.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](source-registers/us-intelligence-law-enforcement.md)
+- [Foreign Government Reference Source Register](source-registers/foreign-government-reference.md)
+- [Map And Geospatial Reference Source Register](source-registers/map-geospatial-reference.md)
 
 ## Assessments
 
@@ -56,6 +58,8 @@ This index is the working navigation hub for Warlock Index.
 - [Red Sea Maritime Disruption Strategic Tracker](collections/trackers/2026-06-13T0518Z-red-sea-maritime-disruption-strategic-tracker.md)
 - [Official Threat Source Collection Tracker](collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Source Notes](collections/source-notes)
+- [Legacy Factbook Replacement Note](collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
+- [Theater Map Index](collections/source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Source Packets](collections/source-packets)
 - [Arctic Infrastructure Source Packets](collections/source-packets/arctic-infrastructure)
 - [Arctic Infrastructure And Domain Awareness Source Packet](collections/source-packets/arctic-infrastructure/2026-06-13T0318Z-arctic-infrastructure-domain-awareness-source-packet.md)
@@ -65,6 +69,9 @@ This index is the working navigation hub for Warlock Index.
 - [NATO Allied Capacity Official Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
 - [Official U.S. Threat Source Baseline Source Packets](collections/source-packets/official-threat-source-baseline)
 - [Official U.S. Threat Source Baseline Packet](collections/source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
+- [CIA, State, And NGA Foreign Government And Map Reference Packet](collections/source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
+- [Theater Map Reference Source Packets](collections/source-packets/theater-map-reference)
+- [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Red Sea Maritime Economics Source Packets](collections/source-packets/red-sea-maritime-economics)
 - [Red Sea Maritime Economics And Insurance Source Packet](collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
 - [Strategic Weapons Source Packets](collections/source-packets/strategic-weapons)

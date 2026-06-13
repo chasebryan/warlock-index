@@ -74,6 +74,8 @@ identity, journalism, protest, or association as an intelligence target.
 - **Reliability note:** Strong historical reference value, but not a current
   country database after sunset. Maps are strategic reference artifacts only;
   Warlock Index does not use maps for targeting or operational planning.
+- **Replacement note:** Use the Legacy Factbook Replacement Note for current
+  field-by-field source routing.
 
 ### FBI Terrorism Program Public Page
 
@@ -326,4 +328,5 @@ identity, journalism, protest, or association as an intelligence target.
 - [Official U.S. Threat Source Baseline Packet](../collections/source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
 - [Official Threat Source Collection Tracker](../collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Official U.S. Threat Source Assimilation Matrix](../collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
+- [Legacy Factbook Replacement Note](../collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
 - [Official U.S. Sources](official-us.md)

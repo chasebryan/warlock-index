@@ -18,6 +18,16 @@ node site/build-library.mjs
 The build renders Markdown products into `site/library/` and refreshes
 `site/corpus.js` for the homepage navigator.
 
+Before finishing a docs change, run the drift check:
+
+```sh
+node site/check-library.mjs
+```
+
+The check rebuilds the library and fails if that rebuild changes generated
+website output. When it fails, review and commit the refreshed
+`site/library/` and `site/corpus.js` changes with the docs update.
+
 Current site requirements:
 
 - Browse by theater, actor, domain, and product date.

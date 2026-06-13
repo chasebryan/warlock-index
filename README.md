@@ -40,6 +40,20 @@ Every product in this repository must remain within the following lane:
   products by theater and domain.
 - [site](site) - future website/navigation layer.
 
+## Website Output
+
+Warlock Index is managed on two fronts: canonical Markdown under `docs/` and
+generated website output under `site/library/` plus `site/corpus.js`.
+
+After changing `docs/`, run:
+
+```sh
+node site/build-library.mjs
+node site/check-library.mjs
+```
+
+The check rebuilds the website and fails if generated output was stale.
+
 ## Product Standard
 
 The baseline standard is documented in
@@ -67,4 +81,3 @@ The initial source registers are deliberately official-source heavy:
 As the corpus grows, official documents should remain the anchor for major
 judgments, while current reporting and research should be used to update
 timelines, indicators, and uncertainty.
-

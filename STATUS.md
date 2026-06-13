@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T03:20:02Z
+**Prepared UTC:** 2026-06-13T18:10:00Z
 
 ## Completed
 
@@ -48,6 +48,14 @@
 - Added the Iran strategic actor classification and actor profile.
 - Added the North Korea strategic actor classification and actor profile.
 - Added the Russia strategic actor classification and actor profile.
+- Added the U.S. official threat source operating picture, baseline packet,
+  collection tracker, and source assimilation matrix.
+- Added the CIA, State, and NGA foreign government and map reference packet.
+- Added the foreign government reference source register.
+- Added the map and geospatial reference source register.
+- Added the legacy Factbook replacement source note.
+- Added the theater map index.
+- Added the Indo-Pacific and Taiwan map reference source packet.
 - Added a future website placeholder.
 
 ## Current Analytical Posture
@@ -73,5 +81,7 @@ The repository is in baseline-building mode. Products prioritize:
   North Korea, Iran, and multilateral strategic stability.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
+- Add remaining map-heavy theater source packets, starting with
+  Europe/NATO/Ukraine.
 - Add a website information architecture once the document corpus is large
   enough to justify navigation design.

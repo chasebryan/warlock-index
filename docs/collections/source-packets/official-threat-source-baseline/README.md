@@ -15,3 +15,4 @@ profiling.
 ## Products
 
 - [2026-06-13T0559Z - Official U.S. Threat Source Baseline Packet](2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
+- [2026-06-13T0831Z - CIA, State, And NGA Foreign Government And Map Reference Packet](2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
