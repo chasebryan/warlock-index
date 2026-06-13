@@ -1,0 +1,59 @@
+name: Enforce HTTPS
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+concurrency:
+  group: enforce-https
+  cancel-in-progress: true
+
+jobs:
+  enforce:
+    name: Enable GitHub Pages HTTPS when certificate is ready
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check and enforce HTTPS
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          page_json="$(gh api "repos/${GITHUB_REPOSITORY}/pages")"
+          cname="$(jq -r '.cname // ""' <<<"$page_json")"
+          status="$(jq -r '.status // ""' <<<"$page_json")"
+          https_enforced="$(jq -r '.https_enforced // false' <<<"$page_json")"
+
+          echo "Pages status: ${status}"
+          echo "Custom domain: ${cname:-none}"
+          echo "HTTPS enforced: ${https_enforced}"
+
+          if [[ "$https_enforced" == "true" ]]; then
+            echo "HTTPS is already enforced."
+            exit 0
+          fi
+
+          set +e
+          response="$(gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" -F https_enforced=true 2>&1)"
+          result=$?
+          set -e
+
+          echo "$response"
+
+          if [[ "$result" -eq 0 ]]; then
+            echo "HTTPS enforcement enabled."
+            exit 0
+          fi
+
+          if grep -qi "certificate does not exist yet" <<<"$response"; then
+            echo "GitHub Pages certificate is not ready yet; exiting cleanly."
+            exit 0
+          fi
+
+          exit "$result"
