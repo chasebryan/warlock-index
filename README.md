@@ -1,6 +1,6 @@
-# Warlock Index
+# Warlock Index 
 
-**UNCLASSIFIED//OPEN SOURCE**
+**UNCLASSIFIED//OPEN SOURCE** <img width="100" height="100" alt="warlock-index-emblem" src="https://github.com/user-attachments/assets/f43f80ad-0d3f-4861-a1c2-e4df12c98275" />
 
 Warlock Index is an open-source documentation repository for strategic defense
 research, military-strategic assessment, and national security source
@@ -67,5 +67,3 @@ The initial source registers are deliberately official-source heavy:
 As the corpus grows, official documents should remain the anchor for major
 judgments, while current reporting and research should be used to update
 timelines, indicators, and uncertainty.
-
-<img width="300" height="300" alt="warlock-index-emblem" src="https://github.com/user-attachments/assets/f43f80ad-0d3f-4861-a1c2-e4df12c98275" />
