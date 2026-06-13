@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T19:38:00Z
+**Prepared UTC:** 2026-06-13T20:36:02Z
 
 ## Completed
 
@@ -62,6 +62,8 @@
 - Added HTTPS enforcement, search-discovery metadata aliases, sitemap/robots
   verification, and IndexNow submission workflow support for the public
   website.
+- Added Google Search Console HTML-file ownership verification support for the
+  public website.
 
 ## Current Analytical Posture
 
