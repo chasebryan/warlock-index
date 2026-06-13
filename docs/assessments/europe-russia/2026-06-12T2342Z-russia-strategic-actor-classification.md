@@ -21,7 +21,7 @@ not identify targets, provide operational concepts, or offer tactical guidance.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, 2026 National Defense
 Strategy, NATO Washington and Hague summit declarations, DIA Russia Military
-Power report, and current Warlock Index source registers.
+Power report, and current Warlock-Index source registers.
 
 **Analytic confidence:** High for Russia's broad actor classification,
 nuclear-peer status, NATO threat role, and ongoing war centrality; moderate for
@@ -30,7 +30,7 @@ weapons production rates, and Moscow's crisis decision thresholds.
 
 ## Bottom Line
 
-Russia should be classified in Warlock Index as a revisionist nuclear peer
+Russia should be classified in Warlock-Index as a revisionist nuclear peer
 adversary and the principal military threat to Euro-Atlantic security. It is
 not the same type of competitor as China: Russia has a smaller economic base
 and weaker long-term demographic position, but it retains the world's largest
@@ -135,7 +135,7 @@ revealed operational weaknesses, corruption, manpower strain, tactical
 adaptation, battlefield innovation, and heavy attrition. It has also shown that
 Moscow can sustain a costly war under sanctions and diplomatic pressure.
 
-For Warlock Index purposes, Russia's Ukraine classification should include:
+For Warlock-Index purposes, Russia's Ukraine classification should include:
 
 - Active belligerent in a high-intensity European war.
 - Driver of NATO rearmament and Ukrainian military transformation.
@@ -350,7 +350,7 @@ This product does not recommend action. The decision relevance is analytical:
 
 ## Classification For Future Repository Use
 
-Future Warlock Index products use the following baseline label unless new
+Future Warlock-Index products use the following baseline label unless new
 evidence changes the assessment:
 
 **Russia / Russian Federation: revisionist nuclear peer adversary; principal

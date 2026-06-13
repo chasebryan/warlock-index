@@ -11,7 +11,7 @@
 **Source base:** Arms Control Association New START at a Glance; U.S.
 Department of State New START treaty archive; 2022 National Defense Strategy,
 Nuclear Posture Review, and Missile Defense Review; 2026 ODNI Annual Threat
-Assessment; NATO Washington Summit Declaration; existing Warlock Index
+Assessment; NATO Washington Summit Declaration; existing Warlock-Index
 strategic weapons official source baseline packet, China strategic weapons
 packet, Russia profile, North Korea profile, Iran profile, NATO profile, and
 global assimilation matrix.
@@ -23,7 +23,7 @@ post-expiration restraint, verification substitutes, and multilateral prospects
 because these depend on state decisions and incomplete public evidence.
 
 **Purpose:** Provide a reusable source packet for arms-control erosion and
-strategic-stability research inside Warlock Index.
+strategic-stability research inside Warlock-Index.
 
 **Scope:** This packet organizes open-source evidence on New START expiration,
 verification and transparency loss, treaty-status tracking, strategic weapons
@@ -49,7 +49,7 @@ and expired after Russia suspended implementation in 2023 and no successor
 agreement entered into force. Its expiration removes the last legally binding
 bilateral U.S.-Russia strategic nuclear arms limit and reduces treaty-based
 verification, transparency, and predictability. At the same time, official
-U.S., NATO, and Warlock Index source lanes point to broader strategic-weapons
+U.S., NATO, and Warlock-Index source lanes point to broader strategic-weapons
 pressure from PRC nuclear expansion, Russian nuclear signaling, DPRK nuclear
 and missile development, Iran-related WMD concerns, missile defense, space,
 cyber, hypersonics, and conventional-nuclear ambiguity.
@@ -140,12 +140,12 @@ force posture.
 ### Information Discipline
 
 Treaty discourse can mix legal claims, political blame, technical systems,
-doctrine, and strategy. Warlock Index products should maintain a source ledger
+doctrine, and strategy. Warlock-Index products should maintain a source ledger
 that identifies who made each claim, when, under which source class, and with
 what limits. Unsupported claims about cheating, breakout, or capability should
 not be carried as fact.
 
-## Assessment Uses Inside Warlock Index
+## Assessment Uses Inside Warlock-Index
 
 | Use | Value | Boundary |
 | --- | --- | --- |

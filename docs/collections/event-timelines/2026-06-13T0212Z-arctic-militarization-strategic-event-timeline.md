@@ -9,7 +9,7 @@
 **Information cutoff UTC:** 2026-06-13T02:12:17Z
 
 **Source base:** 2024 Department of Defense Arctic Strategy; 2026 ODNI Annual
-Threat Assessment; NATO Washington Summit Declaration; existing Warlock Index
+Threat Assessment; NATO Washington Summit Declaration; existing Warlock-Index
 Arctic, Russia, China, homeland, space, cyber, maritime, and global
 assimilation products.
 
@@ -71,11 +71,11 @@ NATO accession changed the High North military map.
 | 2024 | PRC-Russia activity | Public U.S. reporting identified increasing PRC-Russia cooperation and military-adjacent activity in and around the Arctic. | Demonstrated that Arctic analysis cannot treat China and Russia as separate files; cooperation can create simultaneity across maritime, air, information, and infrastructure domains. | 2024 DoD Arctic Strategy; 2026 ODNI Annual Threat Assessment. | Moderate to high | PRC-Russia Arctic tracker |
 | 2024 | Homeland warning | U.S. public strategy continued to frame the Arctic as central to aerospace warning, missile warning, and North American defense. | Connects the Arctic directly to homeland defense rather than only polar access, science, or resource competition. | 2024 DoD Arctic Strategy. | High | Homeland warning baseline |
 | 2024-2025 | Climate-access change | Reduced sea ice and changing environmental conditions continued to increase access, risk, and infrastructure exposure in the Arctic. | Climate effects are a strategic variable because they change activity levels, emergency-response burdens, infrastructure risk, and commercial interest. | 2024 DoD Arctic Strategy; ODNI climate and Arctic framing. | Moderate to high | Climate-security source packet |
-| 2025-2026 | Undersea and infrastructure relevance | Arctic and High North infrastructure, including undersea systems and remote communications, remained strategically important and difficult to monitor. | Links Arctic analysis to cyber, space, communications, undersea infrastructure, and resilience files. | 2024 DoD Arctic Strategy; Warlock Index cyber and space baselines. | Moderate | Undersea infrastructure tracker |
+| 2025-2026 | Undersea and infrastructure relevance | Arctic and High North infrastructure, including undersea systems and remote communications, remained strategically important and difficult to monitor. | Links Arctic analysis to cyber, space, communications, undersea infrastructure, and resilience files. | 2024 DoD Arctic Strategy; Warlock-Index cyber and space baselines. | Moderate | Undersea infrastructure tracker |
 | 2026-03 | Intelligence assessment | ODNI assessed that Russia and China are expanding Arctic interest and presence. | Provides the current Intelligence Community anchor for treating the Arctic as a live major-power competition theater. | 2026 ODNI Annual Threat Assessment. | High | Arctic warning baseline |
 | 2026-03 | Intelligence assessment | ODNI assessed that Russia's Arctic equities include bases, military assets, resources, and Northern Fleet access. | Confirms that Russia's Arctic posture remains strategically relevant despite the drain of the Ukraine war. | 2026 ODNI Annual Threat Assessment. | High | Russia Arctic posture file |
 | 2026-03 | Intelligence assessment | ODNI assessed that China sees the Arctic as a region where it can gain access, influence, and economic opportunity. | Confirms that PRC Arctic activity belongs in the China competition file even though China is not an Arctic state. | 2026 ODNI Annual Threat Assessment. | High | PRC Arctic source packet |
-| 2026-06 | Repository posture | Warlock Index linked the Arctic baseline to homeland, Europe-Russia, China, space, cyber, maritime, and defense-industrial-base files. | Establishes the Arctic as an integration lane rather than a stand-alone geography. | Warlock Index Arctic baseline and global assimilation matrix. | Moderate | Arctic source packet series |
+| 2026-06 | Repository posture | Warlock-Index linked the Arctic baseline to homeland, Europe-Russia, China, space, cyber, maritime, and defense-industrial-base files. | Establishes the Arctic as an integration lane rather than a stand-alone geography. | Warlock-Index Arctic baseline and global assimilation matrix. | Moderate | Arctic source packet series |
 
 ## Pattern Assessment
 

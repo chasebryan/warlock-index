@@ -1,4 +1,4 @@
-# Warlock Index Status
+# Warlock-Index Status
 
 **Current status:** Initial documentation architecture established.
 

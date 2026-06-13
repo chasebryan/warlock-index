@@ -12,7 +12,7 @@
 
 ## Standing Classification
 
-China / PRC is classified for Warlock Index purposes as:
+China / PRC is classified for Warlock-Index purposes as:
 
 **Principal U.S. peer competitor; CCP party-state; whole-of-nation PLA
 modernization challenge; primary Taiwan flashpoint actor; persistent

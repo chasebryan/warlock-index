@@ -8,7 +8,7 @@
 
 ## Source Classes
 
-Warlock Index uses four source classes:
+Warlock-Index uses four source classes:
 
 - `Class A`: Official U.S. Government, allied government, treaty organization,
   or statutory reporting.

@@ -12,7 +12,7 @@
 
 ## Standing Classification
 
-Iran is classified for Warlock Index purposes as:
+Iran is classified for Warlock-Index purposes as:
 
 **Adversarial regional power; regime-survival security state; asymmetric hybrid
 threat; elevated WMD-related compliance and recovery concern; persistent state

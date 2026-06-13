@@ -223,7 +223,7 @@
   and Suez disruption, freight-rate effects, ton-mile demand, insurance costs,
   port congestion, emissions, and vulnerable-economy exposure.
 - **Reliability note:** Authoritative for UNCTAD public analysis and data
-  presentation. It contains policy language, so Warlock Index products
+  presentation. It contains policy language, so Warlock-Index products
   separate data extraction from institutional advocacy.
 
 ## Suez Canal Authority Annual Navigation Reports

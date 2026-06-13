@@ -51,7 +51,7 @@
   climate-access, infrastructure, communications, missile-warning, and
   monitor-and-respond problem.
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is
-  a policy document, not a neutral outside assessment, and Warlock Index
+  a policy document, not a neutral outside assessment, and Warlock-Index
   products separate departmental intent from independent analytic judgment.
 
 ## White House Camp David Principles
@@ -95,7 +95,7 @@
   Nuclear Consultative Group, ROK NPT reaffirmation, combined defense posture,
   DPRK nuclear and missile threat framing, and strategic assurance analysis.
 - **Reliability note:** Authoritative for archived White House statement
-  language. Warlock Index products use it at strategic consultation level and
+  language. Warlock-Index products use it at strategic consultation level and
   do not derive nuclear planning or operational detail from it.
 
 ## White House ICE Pact Announcement
@@ -125,7 +125,7 @@
   Central and Southern Africa, critical minerals, China influence, maritime
   security, and crisis-response context.
 - **Reliability note:** Authoritative for AFRICOM's public command view. It is
-  congressional posture testimony, so Warlock Index products separate command
+  congressional posture testimony, so Warlock-Index products separate command
   priorities from independent analytic judgment.
 
 ## U.S. Africa Command Public Command Overview
@@ -153,7 +153,7 @@
   outside-state influence, and regional access.
 - **Reliability note:** Authoritative for stated U.S. national security
   strategy. It is a policy document, not a neutral outside assessment, and
-  is separated from analytic judgment in Warlock Index products.
+  is separated from analytic judgment in Warlock-Index products.
 
 ## U.S. Code Taiwan Relations Act
 
@@ -168,7 +168,7 @@
   capacity, and coercion concerns.
 - **Reliability note:** Authoritative for the published U.S. Code text. Legal
   text is policy and statutory evidence, not an independent intelligence
-  assessment, and Warlock Index products use it for policy architecture rather
+  assessment, and Warlock-Index products use it for policy architecture rather
   than predictive judgment.
 
 ## U.S. Industrial Base Policy Public Website
@@ -242,7 +242,7 @@
   Foreign Terrorist Organizations or Specially Designated Global Terrorists.
 - **Reliability note:** Authoritative for stated executive-branch policy and
   designation process context. It is policy language, not neutral analytic
-  judgment; Warlock Index products distinguish designation status from
+  judgment; Warlock-Index products distinguish designation status from
   independent classification of criminal, terrorist, insurgent, or state-proxy
   behavior.
 
@@ -258,8 +258,7 @@
   concerns, cartels and transnational gangs, legacy jihadist terrorism,
   domestic political violence framing, and WMD-related terrorism concerns.
 - **Reliability note:** Authoritative for stated executive-branch strategy and
-  policy priorities. It includes political and operational language; Warlock
-  Index products use it as policy-context evidence and separate it from
+  policy priorities. It includes political and operational language; Warlock-Index products use it as policy-context evidence and separate it from
   analytic judgment.
 
 ## Executive Order 14175: Designation Of Ansar Allah
@@ -275,7 +274,7 @@
   disruption, civilian deaths, rerouting, and global maritime-trade effects.
 - **Reliability note:** Authoritative for the published executive order and
   Federal Register metadata. It is policy and legal framing, not neutral
-  independent intelligence assessment; Warlock Index products separate the
+  independent intelligence assessment; Warlock-Index products separate the
   designation basis from broader analytic judgment.
 
 ## 2022 National Defense Strategy, Nuclear Posture Review, And Missile Defense Review

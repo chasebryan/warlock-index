@@ -126,7 +126,7 @@ function extractSummary(markdown) {
     return trimSummary(firstParagraphAfter(lines, index));
   }
 
-  return "Warlock Index documentation product.";
+  return "Warlock-Index documentation product.";
 }
 
 function trimSummary(value) {

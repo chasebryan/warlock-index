@@ -15,7 +15,7 @@ DHS Homeland Threat Assessment product family; CISA Known Exploited
 Vulnerabilities catalog and advisories; NSA cybersecurity advisories; State
 Department FTO and Country Reports on Terrorism source families; Treasury
 OFAC and illicit-finance sources; DEA, ATF, CBP, Coast Guard, DOJ NSD, and
-NGA public source families; existing Warlock Index official U.S. source
+NGA public source families; existing Warlock-Index official U.S. source
 registers, actor profiles, trackers, and baselines.
 
 **Analytic confidence:** High for source identity where current official pages
@@ -25,7 +25,7 @@ block automated verification, or point to product families rather than a
 single static PDF.
 
 **Purpose:** Provide a reusable baseline packet for official U.S. threat
-source collection inside Warlock Index.
+source collection inside Warlock-Index.
 
 **Scope:** Public official sources from intelligence, homeland security,
 law enforcement, sanctions, border, cyber, maritime, counterterrorism,
@@ -38,7 +38,7 @@ surveillance, cyber exploitation, route-selection, or enforcement guidance.
 
 ## Bottom Line
 
-Warlock Index now has enough official U.S. source structure to treat threat
+Warlock-Index now has enough official U.S. source structure to treat threat
 coverage as a disciplined source-collection problem rather than a loose list
 of adversaries. The correct model is an agency-source lattice: ODNI for
 public IC-wide threat framing; CIA for foreign leadership and legacy country
@@ -73,7 +73,7 @@ ethnicity, nationality, protest, journalism, or association.
 
 ## Agency Source Ledger
 
-| Agency/source family | Primary value | Use inside Warlock Index | Limits |
+| Agency/source family | Primary value | Use inside Warlock-Index | Limits |
 | --- | --- | --- | --- |
 | ODNI Annual Threat Assessment | IC-wide public threat baseline | Global operating picture, actor baselines, source packet anchors | Public release constraints and policy-era framing |
 | CIA World Leaders | Foreign government leadership reference | Leadership and government reference layer | Not a threat list or targeting source |
@@ -101,7 +101,7 @@ ethnicity, nationality, protest, journalism, or association.
 
 ODNI, CIA World Leaders, DoD, DIA, State, Treasury, and DOJ provide the
 primary official source families for foreign state actor coverage. The
-existing Warlock Index China, Russia, Iran, North Korea, Arctic, Taiwan,
+existing Warlock-Index China, Russia, Iran, North Korea, Arctic, Taiwan,
 strategic weapons, cyber, and space products already use parts of this lane.
 The next expansion should create a foreign leadership and government-source
 packet that pairs CIA World Leaders with State, ODNI, DoD, and sanctions
@@ -121,8 +121,7 @@ status.
 Domestic threat coverage belongs only where official public sources define
 violence, criminal activity, or terrorism categories. The FBI terrorism page
 distinguishes international and domestic terrorism and notes the civil
-liberties boundary between protected activity and criminal violence. Warlock
-Index should use that distinction as a structural rule: ideology is not
+liberties boundary between protected activity and criminal violence. Warlock-Index should use that distinction as a structural rule: ideology is not
 enough; lawful expression is not enough; source products must remain about
 violence, criminal conduct, official public definitions, and aggregate
 security trends.
@@ -131,7 +130,7 @@ security trends.
 
 CISA, FBI, NSA, ODNI, Treasury, and DOJ provide the core public cyber source
 families. CISA KEV and advisories are especially useful for defensive trend
-analysis and public-source actor/sector mapping. Warlock Index should extract
+analysis and public-source actor/sector mapping. Warlock-Index should extract
 actor names, sectors, vulnerability classes, and defensive themes at high
 level only. It must not reproduce exploit chains, scanning logic, malware
 operation, credential theft methods, or evasion techniques.
@@ -150,7 +149,7 @@ production steps, or enforcement evasion.
 
 CIA legacy maps, CIA World Leaders, State country pages, DoD command maps,
 NGA public geospatial references, USCG maritime regions, and CBP public
-statistics can support strategic geography. Warlock Index should use maps to
+statistics can support strategic geography. Warlock-Index should use maps to
 orient readers to theaters, governments, chokepoints, and official
 jurisdictions. It should not publish operational overlays, sensitive facility
 locations, live movement, patrol patterns, surveillance fields, vulnerability
@@ -176,7 +175,7 @@ maps, or targeting geospatial data.
 - DHS, DEA, ATF, CBP, and CISA pages can block automated checks while still
   remaining official web sources; manual date capture may be needed.
 - Public sources do not reveal classified intelligence, investigative methods,
-  sensitive collection, or operational details, and Warlock Index should not
+  sensitive collection, or operational details, and Warlock-Index should not
   infer those details.
 - Domestic threat products must keep civil liberties boundaries explicit.
 

@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains the static Warlock Index website/navigation layer for
+This folder contains the static Warlock-Index website/navigation layer for
 GitHub Pages-style hosting. It is intentionally static: the navigator terminal
 uses local client-side routing data and does not require a server, API key, or
 browser-exposed model credential.

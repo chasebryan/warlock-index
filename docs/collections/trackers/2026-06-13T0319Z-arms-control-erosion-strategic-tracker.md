@@ -12,7 +12,7 @@
 
 **Purpose:** Track public-source arms-control erosion, treaty-status changes,
 verification loss, transparency gaps, and strategic-stability implications
-relevant to Warlock Index strategic weapons, allied assurance, and actor
+relevant to Warlock-Index strategic weapons, allied assurance, and actor
 profile products.
 
 **Boundary:** This tracker does not recommend policy, military action,
@@ -24,7 +24,7 @@ technical system details.
 **Source base:** Arms Control Association New START at a Glance; U.S.
 Department of State New START archive; 2022 National Defense Strategy, Nuclear
 Posture Review, and Missile Defense Review; 2026 ODNI Annual Threat
-Assessment; NATO Washington Summit Declaration; current Warlock Index
+Assessment; NATO Washington Summit Declaration; current Warlock-Index
 strategic weapons, Russia, China, North Korea, Iran, NATO, and allied posture
 products.
 
@@ -43,7 +43,7 @@ nuclear arms limit. That loss does not automatically prove immediate force
 expansion, but it does reduce treaty-based verification, data exchange,
 inspection rights, and predictability.
 
-Warlock Index should track arms-control erosion by treaty function rather than
+Warlock-Index should track arms-control erosion by treaty function rather than
 by slogans. The important fields are legal status, parties, weapons or
 activities covered, verification mechanism, current transparency condition,
 actor relevance, strategic effect, confidence, and source gaps. This tracker
@@ -57,7 +57,7 @@ supports assessment continuity without recommending a policy response.
 | Main parties | States or institutions directly involved |
 | Current public status | Dated public-source status at information cutoff |
 | Verification or transparency function | What the instrument or lane helps reveal or constrain |
-| Strategic effect | Why the status matters for Warlock Index analysis |
+| Strategic effect | Why the status matters for Warlock-Index analysis |
 | Confidence | High, moderate, low, or mixed |
 | Follow-on product | Source packet or assessment lane that should deepen the entry |
 
@@ -122,7 +122,7 @@ labels and confidence language.
 The prior U.S.-Russia bilateral model does not map cleanly onto a world with
 PRC nuclear expansion, DPRK nuclear development, Iran-related WMD uncertainty,
 counterspace competition, cyber dependencies, missile defense, hypersonics, and
-advanced conventional systems. Warlock Index products should therefore track
+advanced conventional systems. Warlock-Index products should therefore track
 arms-control erosion alongside strategic weapons modernization rather than as
 a standalone treaty history file.
 

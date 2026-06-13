@@ -12,7 +12,7 @@
 Strategy, Nuclear Posture Review, and Missile Defense Review; 2025 Department
 of Defense report on military and security developments involving the People's
 Republic of China; State Department New START treaty materials; existing
-Warlock Index strategic weapons timeline, actor files, space baseline,
+Warlock-Index strategic weapons timeline, actor files, space baseline,
 homeland baseline, defense industrial base baseline, NATO profile, and global
 assimilation matrix.
 
@@ -22,7 +22,7 @@ judgments about source sufficiency because official public products differ in
 release cadence, policy context, classification limits, and methodology.
 
 **Purpose:** Provide the first reusable source packet for strategic weapons
-modernization research inside Warlock Index.
+modernization research inside Warlock-Index.
 
 **Scope:** This packet organizes official public sources for nuclear
 modernization, missile modernization, missile defense, counterspace
@@ -42,12 +42,11 @@ the current public Intelligence Community threat frame; the 2022 NDS/NPR/MDR
 provides the integrated U.S. defense, nuclear, and missile-defense policy
 baseline; the DoD PRC report provides actor-specific depth on China's nuclear,
 missile, space, and counterspace modernization; State Department New START
-materials provide the arms-control baseline; and Warlock Index timelines and
+materials provide the arms-control baseline; and Warlock-Index timelines and
 actor files connect those sources across theaters and domains. No single
 official source is sufficient by itself. The strongest strategic analysis
 comes from cross-reading threat assessments, policy documents, actor-specific
-military reports, treaty materials, allied declarations, and dated Warlock
-Index products.
+military reports, treaty materials, allied declarations, and dated Warlock-Index products.
 
 ## Packet Use Rules
 
@@ -74,11 +73,11 @@ Index products.
 | 2022 NDS/NPR/MDR | A | Integrated policy baseline for defense strategy, nuclear posture, missile defense, escalation dynamics, strategic stability, and allied assurance | Policy roles, deterrence framing, missile-defense framing, two-peer nuclear stress, North Korea and Iran relevance | Superseded as current defense strategy by 2026 NDS; still a core nuclear and missile-defense baseline unless replaced by later public posture reviews |
 | DoD 2025 PRC Military Power Report | A | Actor-specific depth on China's nuclear expansion, missile forces, early-warning architecture, counterspace, C4ISR, and strategic signaling | Nuclear estimates, EWCS indicators, missile and space architecture, Rocket Force changes, counterspace links | Annual congressional report; PRC intent and internal readiness remain partly inferred |
 | State Department New START Treaty Materials | A | Treaty text, central limits, protocol context, and arms-control baseline for U.S.-Russia strategic offensive arms | Treaty dates, central limits, definitions, verification architecture, treaty-baseline language | Historical treaty material; current status requires later State, ODNI, NATO, and congressional sources |
-| Warlock Index Strategic Weapons Timeline | Internal derived product | Dated event spine connecting official sources across nuclear, missile, counterspace, WMD, homeland, and arms-control lanes | Event classes, source basis, confidence labels, follow-on lanes, cross-links | Derived from open sources; later source packets can supersede or refine entries |
+| Warlock-Index Strategic Weapons Timeline | Internal derived product | Dated event spine connecting official sources across nuclear, missile, counterspace, WMD, homeland, and arms-control lanes | Event classes, source basis, confidence labels, follow-on lanes, cross-links | Derived from open sources; later source packets can supersede or refine entries |
 
 ## Source Extraction Matrix
 
-| Research question | Primary source | Supporting source | Warlock Index linkage |
+| Research question | Primary source | Supporting source | Warlock-Index linkage |
 | --- | --- | --- | --- |
 | What is the current public U.S. threat frame for strategic weapons? | ODNI 2026 ATA | 2022 NDS/NPR/MDR; NATO profile | Global operating picture; strategic weapons timeline |
 | How is China changing the strategic-weapons baseline? | DoD 2025 PRC report | ODNI 2026 ATA; 2022 NDS/NPR/MDR | China profile; Taiwan baseline; space baseline |
@@ -100,7 +99,7 @@ inside one public assessment.
 
 The limitation is release discipline. ODNI public language is compressed and
 does not provide detailed methodology, classified confidence sourcing, or
-technical performance data. Warlock Index products use ODNI for strategic
+technical performance data. Warlock-Index products use ODNI for strategic
 threat framing and then cross-read actor-specific sources before making high
 confidence claims about modernization detail.
 
@@ -123,7 +122,7 @@ The PRC report is the strongest official public source in this packet for
 China-specific strategic-weapons modernization. It provides detailed public
 coverage of nuclear expansion, missile forces, early-warning counterstrike
 architecture, space-based warning, C4ISR, counterspace, and the PLA Rocket
-Force. It also gives Warlock Index a yearly report series for trend tracking.
+Force. It also gives Warlock-Index a yearly report series for trend tracking.
 
 Its limitation is actor focus. It cannot by itself explain U.S.-Russia arms
 control, North Korea's program, Iran's WMD-related file, or NATO assurance.
@@ -168,7 +167,7 @@ congressional reporting for current-state analysis.
 - WMD-related claims are tagged separately from nuclear-armed status. Iran is
   WMD- and missile-relevant in this packet, not treated as a nuclear-armed
   state.
-- Derived Warlock Index judgments cite the source that supports the public
+- Derived Warlock-Index judgments cite the source that supports the public
   claim and identify the added analytic bridge.
 
 ## Follow-On Source Packet Queue

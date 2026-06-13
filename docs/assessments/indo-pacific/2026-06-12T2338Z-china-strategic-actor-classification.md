@@ -21,7 +21,7 @@ identify targets, provide operational concepts, or offer tactical guidance.
 
 **Source base:** U.S. Department of Defense 2025 PRC military power report,
 ODNI 2026 Annual Threat Assessment, 2026 National Defense Strategy, NATO
-Washington Summit Declaration, and current Warlock Index source registers.
+Washington Summit Declaration, and current Warlock-Index source registers.
 
 **Analytic confidence:** High for broad actor classification and enduring PLA
 modernization trends; moderate for timelines, crisis decision-making,
@@ -30,7 +30,7 @@ wartime pressure.
 
 ## Bottom Line
 
-China should be classified in Warlock Index as the United States' principal
+China should be classified in Warlock-Index as the United States' principal
 long-range peer competitor: a party-state great power with global economic and
 technological reach, a rapidly modernizing military, expanding nuclear and
 space capabilities, persistent cyber access ambitions, and a coercive approach
@@ -121,7 +121,7 @@ mobilization. DoD's 2025 report identifies CCP control as one of China's core
 interests and links Taiwan, sovereignty claims, and national rejuvenation to
 the party's legitimacy.
 
-For Warlock Index purposes, this means "China" analysis should avoid treating
+For Warlock-Index purposes, this means "China" analysis should avoid treating
 the PLA, the economy, technology policy, internal security, and information
 control as separate systems. They are analytically separable, but politically
 interlocked.
@@ -158,7 +158,7 @@ gray-zone maritime pressure, and crisis signaling.
 ### Cyber Classification: Persistent Homeland-Relevant State Cyber Threat
 
 China should be classified as the most significant state cyber threat in the
-Warlock Index corpus. ODNI's 2026 assessment states that China is the most
+Warlock-Index corpus. ODNI's 2026 assessment states that China is the most
 active and persistent cyber threat to U.S. government, private-sector, and
 critical infrastructure networks. DoD's 2025 PRC report highlights Chinese
 cyberespionage campaigns, including Volt Typhoon, as demonstrating capabilities
@@ -337,7 +337,7 @@ This product does not recommend action. The decision relevance is analytical:
 
 ## Classification For Future Repository Use
 
-Future Warlock Index products should use the following baseline label unless
+Future Warlock-Index products should use the following baseline label unless
 new evidence changes the assessment:
 
 **China / PRC: principal U.S. peer competitor; CCP party-state; whole-of-nation

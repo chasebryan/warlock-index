@@ -13,7 +13,7 @@ Strategy; 2026 ODNI Annual Threat Assessment; 2025 Department of Defense PRC
 military power report; U.S. State Department bilateral relationship pages for
 Japan, the Philippines, and Australia; Australian Submarine Agency AUKUS
 public pages; Philippine Official Gazette Enhanced Defense Cooperation
-Agreement materials; existing Warlock Index Taiwan, China, Indo-Pacific,
+Agreement materials; existing Warlock-Index Taiwan, China, Indo-Pacific,
 space, strategic weapons, and global assimilation products.
 
 **Analytic confidence:** Moderate to high for public alliance architecture,

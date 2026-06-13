@@ -10,7 +10,7 @@
 
 **Purpose:** Provide a reusable integration model for connecting actor
 profiles, theater assessments, source notes, event timelines, and domain files
-inside Warlock Index.
+inside Warlock-Index.
 
 **Boundary:** This matrix is a research organization aid. It does not
 recommend policy, military action, intelligence collection, targeting, cyber

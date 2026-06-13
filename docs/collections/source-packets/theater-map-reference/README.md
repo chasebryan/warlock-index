@@ -4,8 +4,7 @@
 
 This folder contains source packets for public theater-map and geospatial
 reference sources. These packets organize map anchors, source-class notes,
-safe extraction rules, cross-links, and information gaps for later Warlock
-Index products.
+safe extraction rules, cross-links, and information gaps for later Warlock-Index products.
 
 These products support strategic orientation and source organization only.
 They do not provide recommendations, targeting support, collection tasking,

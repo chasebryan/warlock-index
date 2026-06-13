@@ -21,8 +21,7 @@ operational planning, surveillance guidance, tactical instructions, exploit
 steps, route selection, or domestic political profiling.
 
 **Source base:** ODNI, CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA,
-ATF, CBP, Coast Guard, DOJ, NGA public source families, and existing Warlock
-Index official-source registers and assessments.
+ATF, CBP, Coast Guard, DOJ, NGA public source families, and existing Warlock-Index official-source registers and assessments.
 
 **Analytic confidence:** High for the source architecture and agency-source
 roles. Moderate for current document recency across dynamic public agency
@@ -30,7 +29,7 @@ pages because some product URLs change or block automated verification.
 
 ## Bottom Line
 
-The next stage of Warlock Index should treat official U.S. threat coverage as
+The next stage of Warlock-Index should treat official U.S. threat coverage as
 a structured source system. The corpus already has strong defense and IC
 baselines for major foreign adversaries. The gap is a wider, indexed source
 architecture for CIA, FBI, DHS, CISA, NSA, State, Treasury, DEA, ATF, CBP,
@@ -66,7 +65,7 @@ into threat labels.
 
 4. **CISA, NSA, FBI, Treasury, and DOJ should anchor cyber threat coverage.**
    Their public advisories and reports can support defensive strategic trend
-   analysis, but Warlock Index must avoid exploit, evasion, malware, scanning,
+   analysis, but Warlock-Index must avoid exploit, evasion, malware, scanning,
    or targeting detail.
 
 5. **Treasury, State, DOJ, DEA, ATF, CBP, and Coast Guard extend the threat
@@ -95,7 +94,7 @@ into threat labels.
 
 ## Domestic Threat Boundary
 
-Warlock Index may cover domestic terrorism and domestic violent extremism only
+Warlock-Index may cover domestic terrorism and domestic violent extremism only
 as official public legal and security categories tied to violence or criminal
 conduct. The source base should emphasize:
 
@@ -107,7 +106,7 @@ conduct. The source base should emphasize:
   speech and criminal violence.
 - Aggregate patterns, not personal or community targeting.
 
-Warlock Index must not:
+Warlock-Index must not:
 
 - Label lawful political opponents as enemies.
 - Treat ideology, religion, ethnicity, nationality, journalism, protest, or

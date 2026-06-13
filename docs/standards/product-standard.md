@@ -8,7 +8,7 @@
 
 ## Purpose
 
-This standard defines the minimum structure for Warlock Index analytical
+This standard defines the minimum structure for Warlock-Index analytical
 products. It is designed to keep the repository useful to defense researchers
 and decision-support readers while preventing drift into unsupported claims,
 policy advocacy, or operational instruction.
@@ -68,7 +68,7 @@ Assessment products should normally include:
 
 ## Prohibited Content
 
-Warlock Index products must not include:
+Warlock-Index products must not include:
 
 - Recommendations for U.S. or allied action.
 - Target packages, target prioritization, or target selection.

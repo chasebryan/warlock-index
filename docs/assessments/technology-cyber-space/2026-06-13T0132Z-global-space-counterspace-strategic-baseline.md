@@ -23,7 +23,7 @@ interference methods, or instructions for counterspace activity.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, U.S. Department of Defense
 2025 PRC military power report, 2026 National Defense Strategy, and current
-Warlock Index cyber, China, Taiwan, Russia, and global operating-picture
+Warlock-Index cyber, China, Taiwan, Russia, and global operating-picture
 products.
 
 **Analytic confidence:** High for broad public U.S. threat framing and PRC
@@ -49,7 +49,7 @@ services, close approach and proximity operations, ground-segment pressure,
 commercial constellation dependency, debris risk, nuclear escalation risk, and
 competition over cislunar presence and international norms.
 
-This baseline is non-prescriptive. It establishes the standing Warlock Index
+This baseline is non-prescriptive. It establishes the standing Warlock-Index
 space/counterspace frame so future country, theater, cyber, industrial, and
 timeline products can cross-reference the same domain logic.
 
@@ -100,7 +100,7 @@ risk watch area.
    nuclear confidence, military communications, public services, and economic
    systems. Ambiguity over intent and attribution is therefore a central risk.
 
-8. Warlock Index analysis connects space to every major theater: Taiwan and
+8. Warlock-Index analysis connects space to every major theater: Taiwan and
    the First Island Chain, Ukraine and NATO, homeland warning, Arctic access,
    undersea infrastructure, Middle East missile threats, and global commercial
    networks.

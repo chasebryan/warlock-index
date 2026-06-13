@@ -174,8 +174,7 @@ that Ukraine support, European rearmament, and NATO industrial expansion are
 now linked in public alliance policy.
 
 Open reporting in June 2026 suggests the battlefield remains dynamic and
-contested, with current claims requiring careful corroboration. For Warlock
-Index, the durable analytical lines are: attrition, long-range strike, air and
+contested, with current claims requiring careful corroboration. For Warlock-Index, the durable analytical lines are: attrition, long-range strike, air and
 missile defense demand, drone adaptation, electronic warfare, manpower, defense
 industrial output, sanctions effects, and the degree of external support Russia
 can draw from partners.

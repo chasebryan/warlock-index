@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This index is the working navigation hub for Warlock Index.
+This index is the working navigation hub for Warlock-Index.
 
 ## Standards
 

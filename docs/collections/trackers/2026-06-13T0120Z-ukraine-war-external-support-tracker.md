@@ -21,9 +21,9 @@ targeting, or operational planning. It does not identify routes, depots,
 shipment schedules, tactical vulnerabilities, or weapons employment guidance.
 
 **Source base:** NATO Washington Summit Declaration, NATO The Hague Summit
-Declaration, ODNI 2026 Annual Threat Assessment, current Warlock Index Russia,
+Declaration, ODNI 2026 Annual Threat Assessment, current Warlock-Index Russia,
 China, Iran, North Korea, global, and defense industrial base products, and
-current Warlock Index source registers.
+current Warlock-Index source registers.
 
 **Analytic confidence:** High for broad categories identified in official NATO
 and ODNI public sources; moderate for quantities, timelines, technical details,
@@ -50,7 +50,7 @@ sources also support high confidence that Allies created enduring support
 mechanisms for Ukraine, including NATO Security Assistance and Training for
 Ukraine and a long-term assistance pledge.
 
-For Warlock Index, the Ukraine external-support tracker is a central connector
+For Warlock-Index, the Ukraine external-support tracker is a central connector
 between the Russia actor file, the China cross-theater alignment file, the Iran
 and North Korea profiles, the defense industrial base baseline, NATO burden
 sharing, sanctions analysis, and future event timelines.
@@ -62,10 +62,10 @@ sharing, sanctions analysis, and future event timelines.
 | Actor | State, alliance, organization, or network involved in support or enabling |
 | Recipient | Russia, Ukraine, or supporting ecosystem |
 | Support category | Direct military, industrial enabling, economic support, political support, training, logistics, sanctions evasion, humanitarian, financial, or reconstruction |
-| Public-source basis | Official public source or Warlock Index product used for the tracker entry |
+| Public-source basis | Official public source or Warlock-Index product used for the tracker entry |
 | Confidence | High, moderate, low, or mixed |
 | Strategic effect | Why the support matters at strategic level |
-| Follow-on lane | Future Warlock Index product that deepens the entry |
+| Follow-on lane | Future Warlock-Index product that deepens the entry |
 
 ## Russia External Support And Enabling
 

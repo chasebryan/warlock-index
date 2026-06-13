@@ -8,7 +8,7 @@
 
 **Information cutoff UTC:** 2026-06-13T17:33:00Z
 
-**Purpose:** Link Warlock Index theater lanes to safe public map,
+**Purpose:** Link Warlock-Index theater lanes to safe public map,
 geospatial, command-area, nautical, topographic, and naming-source families.
 
 **Boundary:** This index supports strategic orientation and source routing
@@ -19,7 +19,7 @@ operational planning, surveillance products, or investigative direction.
 
 ## Bottom Line
 
-Theater maps in Warlock Index should answer a narrow question: which public
+Theater maps in Warlock-Index should answer a narrow question: which public
 source family can orient a reader to a theater without enabling operational
 misuse? The answer is different by lane. NGA public-release maps are the
 first stop for global and selected theater orientation. Combatant command
@@ -29,7 +29,7 @@ naming layers. NATO public map and member-country pages support alliance
 geography. State, foreign government, UN, and allied maps can add diplomatic
 or issuer-perspective context after dated refresh.
 
-This index does not bless every public map for Warlock Index use. It points
+This index does not bless every public map for Warlock-Index use. It points
 future products to safe source families and states what each family cannot be
 used to do.
 
@@ -62,7 +62,7 @@ used to do.
 
 ## Named Public Map Anchors
 
-| Map or source anchor | Publisher | Warlock Index lane | Use label |
+| Map or source anchor | Publisher | Warlock-Index lane | Use label |
 | --- | --- | --- | --- |
 | World Map 2025 | NGA | Global; Arctic; comparative theater products | Static public orientation map |
 | USA Map 2025 | NGA | Homeland / Western Hemisphere | Static public orientation map |
@@ -87,7 +87,7 @@ Before a theater product links or embeds a map, verify:
 
 - The map is public and official or clearly labeled as a non-official source.
 - The product needs orientation rather than operational detail.
-- The map has no added tactical overlays from Warlock Index.
+- The map has no added tactical overlays from Warlock-Index.
 - The product states publisher, URL, access date, title, and release date
   where available.
 - Naming, boundary, and recognition caveats are explicit.
@@ -140,7 +140,7 @@ targeting, or vulnerability products.
   layers.
 - Public maps can encode policy, naming, boundary, projection, recognition,
   or source-age choices. Products should state those caveats rather than
-  flattening them into Warlock Index judgments.
+  flattening them into Warlock-Index judgments.
 
 ## Source List
 

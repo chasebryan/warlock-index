@@ -24,9 +24,8 @@ guidance, describe interdiction methods, or provide investigative techniques.
 It does not claim access to classified information.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, 2026 National Defense
-Strategy, 2025 National Security Strategy, current Warlock Index global
-assessment, current Warlock Index actor classifications, and current Warlock
-Index source registers.
+Strategy, 2025 National Security Strategy, current Warlock-Index global
+assessment, current Warlock-Index actor classifications, and current Warlock-Index source registers.
 
 **Analytic confidence:** High for broad public-source threat taxonomy and
 official U.S. strategic prioritization; moderate for current criminal network
@@ -36,7 +35,7 @@ pre-positioning, Arctic military activity, and state-criminal overlap.
 ## Bottom Line
 
 The U.S. homeland and Western Hemisphere are now a primary strategic lane for
-Warlock Index. Public U.S. sources no longer treat the homeland as a protected
+Warlock-Index. Public U.S. sources no longer treat the homeland as a protected
 rear area separated from overseas military competition. ODNI's 2026 assessment
 places transnational organized crime, illicit drug trafficking, migration,
 terrorism, major-power competition, WMD threats, Arctic activity, and advanced
@@ -128,14 +127,14 @@ capacity and governance resilience theater.**
 10. The corpus distinguishes official policy language from analytic
    judgment. The 2025 NSS and 2026 NDS are authoritative for stated U.S.
    policy priorities, while ODNI provides the public intelligence threat
-   taxonomy. Warlock Index products do not turn either into operational
+   taxonomy. Warlock-Index products do not turn either into operational
    guidance.
 
 ## Strategic Context
 
 The 2026 National Defense Strategy places homeland defense first in its public
 strategic approach and explicitly links homeland defense to Western Hemisphere
-interests. This is a major organizing fact for Warlock Index. It means the
+interests. This is a major organizing fact for Warlock-Index. It means the
 homeland and hemisphere files no longer sit behind Indo-Pacific,
 Europe, or Middle East files. They form the strategic foundation from which
 overseas commitments, industrial production, critical infrastructure, alliance
@@ -255,7 +254,7 @@ international. ODNI's 2026 assessment identifies Mexico-based TCOs as dominant
 producers and suppliers for the U.S. market and notes continuing relevance of
 foreign precursor chemicals and pill-pressing equipment.
 
-For Warlock Index, the drug lane is strategic when it affects public health,
+For Warlock-Index, the drug lane is strategic when it affects public health,
 border systems, partner stability, corruption, finance, supply chains, and
 foreign-state leverage. The lane avoids tactical interdiction details and
 focus on actor networks, source countries, financial flows, shifts in public
@@ -475,7 +474,7 @@ analysis matters to U.S. defense decision-making because it clarifies:
 - White House, **National Security Strategy of the United States of America**,
   November 2025:
   https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf
-- Warlock Index, **Global Strategic Operating Picture**, 2026-06-13:
+- Warlock-Index, **Global Strategic Operating Picture**, 2026-06-13:
   ../global/2026-06-13T0049Z-global-strategic-operating-picture.md
-- Warlock Index, **Global Actor-Domain Assimilation Matrix**, 2026-06-13:
+- Warlock-Index, **Global Actor-Domain Assimilation Matrix**, 2026-06-13:
   ../../collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md

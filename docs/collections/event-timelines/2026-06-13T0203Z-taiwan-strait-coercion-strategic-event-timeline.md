@@ -11,7 +11,7 @@
 **Source base:** 2025 Department of Defense annual report on military and
 security developments involving the People's Republic of China; 2026 ODNI
 Annual Threat Assessment; U.S. Code Taiwan Relations Act text; existing
-Warlock Index China, Taiwan Strait, Indo-Pacific, cyber, space, and global
+Warlock-Index China, Taiwan Strait, Indo-Pacific, cyber, space, and global
 assimilation products.
 
 **Analytic confidence:** Moderate to high for broad strategic patterns and
@@ -100,7 +100,7 @@ Public sources require careful treatment of the 2027 date. The DoD report
 describes PLA goals linked to Taiwan, strategic counterbalance against the
 United States, and regional control. ODNI separately assesses that Chinese
 leaders do not currently plan to execute an invasion in 2027 and have no fixed
-timeline for unification. Warlock Index products therefore preserve the
+timeline for unification. Warlock-Index products therefore preserve the
 distinction between capability-development milestones and leadership intent.
 
 ### First Island Chain Coupling

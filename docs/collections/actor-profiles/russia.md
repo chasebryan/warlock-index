@@ -12,7 +12,7 @@
 
 ## Standing Classification
 
-Russia / Russian Federation is classified for Warlock Index purposes as:
+Russia / Russian Federation is classified for Warlock-Index purposes as:
 
 **Revisionist nuclear peer adversary; principal Euro-Atlantic military threat;
 authoritarian presidential security state; active Ukraine war belligerent;

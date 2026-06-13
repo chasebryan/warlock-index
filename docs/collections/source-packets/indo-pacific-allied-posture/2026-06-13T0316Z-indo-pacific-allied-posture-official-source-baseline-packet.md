@@ -11,7 +11,7 @@
 **Source base:** White House Camp David Principles; White House Spirit of Camp
 David joint statement; White House Washington Declaration; Australian
 Submarine Agency AUKUS public page; Philippine Official Gazette Enhanced
-Defense Cooperation Agreement materials; existing Warlock Index
+Defense Cooperation Agreement materials; existing Warlock-Index
 Japan-Philippines-Australia allied posture profile, China profile, Taiwan
 baseline, North Korea profile, strategic weapons timeline, cyber baseline,
 space baseline, defense industrial base baseline, and global assimilation
@@ -24,7 +24,7 @@ classified readiness, contingency planning, access arrangements, stockpile
 depth, or political behavior under crisis conditions.
 
 **Purpose:** Provide a reusable official-source baseline for Indo-Pacific
-allied posture analysis inside Warlock Index.
+allied posture analysis inside Warlock-Index.
 
 **Scope:** This packet organizes official public evidence on Japan, the
 Republic of Korea, the Philippines, Australia, AUKUS, EDCA, U.S.-Japan-ROK
@@ -52,12 +52,12 @@ technology standards, and consultation. The Washington Declaration provides a
 separate U.S.-ROK extended-deterrence and Nuclear Consultative Group baseline.
 The AUKUS and EDCA files anchor the Australia and Philippines access,
 industrial, undersea, and archipelagic posture lanes already present in the
-Warlock Index allied profile.
+Warlock-Index allied profile.
 
 The source stack supports a high-confidence assessment that allied posture is
 moving from isolated bilateral alliance management toward more connected
 minilateral architecture. It does not prove operational availability,
-readiness, local political durability, or crisis behavior. Warlock Index
+readiness, local political durability, or crisis behavior. Warlock-Index
 products should therefore separate official commitments, implementation
 signals, capacity indicators, and analytic judgment.
 
@@ -107,7 +107,7 @@ signals, capacity indicators, and analytic judgment.
 
 The Camp David source set shows Japan, the Republic of Korea, and the United
 States treating trilateral coordination as a standing architecture rather than
-episodic summitry. The useful Warlock Index extraction is not a prediction of
+episodic summitry. The useful Warlock-Index extraction is not a prediction of
 automatic coordination in every crisis. It is the creation of recurring leader,
 minister, national security, Indo-Pacific, commerce, industry, finance, and
 development-policy tracks that can thicken the political and bureaucratic
@@ -119,7 +119,7 @@ The Camp David and Washington Declaration source sets connect DPRK nuclear and
 missile threats, real-time missile-warning cooperation, DPRK cyber-enabled
 sanctions evasion, and U.S. extended deterrence consultation. This creates a
 strategic crosswalk among the North Korea profile, strategic weapons timeline,
-cyber baseline, and ROK profile. Warlock Index products should keep this lane
+cyber baseline, and ROK profile. Warlock-Index products should keep this lane
 at strategic-warning and alliance-management level.
 
 ### Taiwan Strait And Maritime Rules
@@ -153,10 +153,10 @@ The Indo-Pacific allied posture file includes technology, finance, supply
 chains, critical minerals, batteries, semiconductors, biotechnology, AI, and
 quantum. These are not secondary topics. They affect military-industrial
 capacity, crisis resilience, export-control pressure, and alliance cohesion.
-Warlock Index products should cross-link this lane with the defense industrial
+Warlock-Index products should cross-link this lane with the defense industrial
 base and emerging technology files.
 
-## Assessment Uses Inside Warlock Index
+## Assessment Uses Inside Warlock-Index
 
 | Use | Value | Boundary |
 | --- | --- | --- |

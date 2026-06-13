@@ -23,7 +23,7 @@ weapons employment guidance.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, NATO Washington Summit
 Declaration, NATO The Hague Summit Declaration, UN General Assembly emergency
-special session resolutions on Ukraine, current Warlock Index Russia actor
+special session resolutions on Ukraine, current Warlock-Index Russia actor
 classification, Ukraine external-support tracker, defense-industrial-base
 baseline, global operating picture, cyber baseline, space baseline, and allied
 source registers.
@@ -36,7 +36,7 @@ effects.
 ## Bottom Line
 
 Russia's war against Ukraine is the central Euro-Atlantic conflict timeline
-for Warlock Index. The timeline is not only a sequence of battlefield events.
+for Warlock-Index. The timeline is not only a sequence of battlefield events.
 It is a record of how Russia's full-scale invasion changed NATO, European
 defense spending, U.S. and allied industrial demand, sanctions architecture,
 adversary cooperation, nuclear signaling, drone and missile warfare,
@@ -62,7 +62,7 @@ targeting detail, force-employment guidance, and operational advice.
 | Strategic significance | Why the event matters for U.S. defense research |
 | Source basis | Primary source family used for the entry |
 | Confidence | High, moderate, low, or mixed |
-| Follow-on lane | Future Warlock Index product or source packet |
+| Follow-on lane | Future Warlock-Index product or source packet |
 
 ## Strategic Event Timeline
 
@@ -143,7 +143,7 @@ this phase.
 
 ## Strategic Effects Ledger
 
-| Effect | Timeline evidence | Warlock Index relevance |
+| Effect | Timeline evidence | Warlock-Index relevance |
 | --- | --- | --- |
 | NATO transformation | Washington 2024 and Hague 2025 declarations | Allied burden-sharing, defense spending, industrial cooperation, Ukraine support |
 | Defense industrial demand | Attrition phase, air defense, artillery, drones, repair, sustainment | DIB baseline, munitions, air defense, drones, energetics, workforce |
@@ -261,10 +261,10 @@ this phase.
 - **Reliability note:** Authoritative for UN resolution text and voting record.
   These resolutions are legal-diplomatic evidence, not battlefield reporting.
 
-### Current Warlock Index Corpus
+### Current Warlock-Index Corpus
 
 - **Source class:** B
-- **Publisher:** Warlock Index
+- **Publisher:** Warlock-Index
 - **Use in this timeline:** Cross-product consistency with the Russia actor
   classification, Ukraine external-support tracker, global operating picture,
   defense industrial base baseline, cyber baseline, space baseline, and

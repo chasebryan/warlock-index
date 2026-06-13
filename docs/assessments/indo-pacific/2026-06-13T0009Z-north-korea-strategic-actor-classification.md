@@ -20,7 +20,7 @@ military, intelligence, cyber, diplomatic, or economic action. It does not
 identify targets, provide operational concepts, or offer tactical guidance.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, 2026 National Defense
-Strategy, NATO Washington Summit Declaration, and current Warlock Index source
+Strategy, NATO Washington Summit Declaration, and current Warlock-Index source
 registers.
 
 **Analytic confidence:** High for broad actor classification, nuclear and
@@ -31,7 +31,7 @@ extreme pressure.
 
 ## Bottom Line
 
-North Korea is classified in Warlock Index as a nuclear-armed regional
+North Korea is classified in Warlock-Index as a nuclear-armed regional
 adversary with direct U.S. homeland relevance and acute Korean Peninsula
 flashpoint risk. The DPRK is not a great-power peer of the United States, but it
 is one of the most dangerous strategic actors in the Indo-Pacific because it
@@ -142,7 +142,7 @@ restricted information environment. The regime treats external pressure,
 internal dissent, foreign media, elite cohesion, and military readiness as
 linked survival questions.
 
-For Warlock Index purposes, North Korea is not usefully analyzed as a normal
+For Warlock-Index purposes, North Korea is not usefully analyzed as a normal
 policy bureaucracy in which military, economic, and diplomatic interests can be
 cleanly separated. Weapons programs are tied to regime legitimacy. Sanctions
 evasion is tied to elite sustainment. Cyber theft is tied to state financing.
@@ -267,7 +267,7 @@ technology validation.
 
 This signaling style creates interpretive risk. Some DPRK activity is designed
 to be visible and politically loud. Some activity may be technical testing.
-Some may be internal regime theater. Some may be preparatory. Warlock Index
+Some may be internal regime theater. Some may be preparatory. Warlock-Index
 products need clear separation between observed behavior, official claims, external
 assessment, and analytic inference.
 
@@ -334,7 +334,7 @@ strategic adaptation.
 
 ## Indicators To Monitor
 
-Future Warlock Index collection lanes include the following public indicators
+Future Warlock-Index collection lanes include the following public indicators
 at strategic level:
 
 - DPRK nuclear messaging, warhead claims, uranium-enrichment publicity, and
@@ -379,7 +379,7 @@ lanes for future public-source analysis.
 
 ## Classification For Future Repository Use
 
-When North Korea appears in future Warlock Index products, use this standing
+When North Korea appears in future Warlock-Index products, use this standing
 classification unless a later dated product supersedes it:
 
 **North Korea / DPRK: nuclear-armed regional adversary; hereditary party-state

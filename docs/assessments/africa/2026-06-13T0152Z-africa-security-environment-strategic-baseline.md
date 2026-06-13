@@ -27,7 +27,7 @@ information.
 **Source base:** ODNI 2026 Annual Threat Assessment, U.S. Africa Command 2025
 Posture Statement to Congress, U.S. Africa Command public command overview,
 2026 National Defense Strategy, 2025 National Security Strategy, and current
-Warlock Index global, homeland, terrorism/nonstate armed-network, China,
+Warlock-Index global, homeland, terrorism/nonstate armed-network, China,
 Russia, Middle East, cyber, space, and defense-industrial-base products.
 
 **Analytic confidence:** High for broad official U.S. framing of Africa as a
@@ -58,7 +58,7 @@ U.S. Africa Command publicly describes Africa as a "nexus theater" where
 global interests converge. ODNI's 2026 Annual Threat Assessment identifies
 Africa as the primary growth environment for al-Qaida and ISIS affiliates in
 recent years and describes those groups as important to overseas threats
-against U.S. interests. Warlock Index therefore treats Africa as a global
+against U.S. interests. Warlock-Index therefore treats Africa as a global
 security integration lane rather than a secondary annex to Middle East or
 Europe files.
 
@@ -146,7 +146,7 @@ response, and partner-enabled security outcomes.
 ODNI's 2026 assessment places Africa in the terrorism and regional-challenges
 frames. It identifies Africa as the primary recent growth environment for
 al-Qaida and ISIS affiliates and highlights the overseas relevance of groups
-operating in Africa, the Middle East, and South Asia. The Warlock Index
+operating in Africa, the Middle East, and South Asia. The Warlock-Index
 analytic frame therefore separates two questions: which African conflicts are
 locally or regionally severe, and which have pathways to U.S. homeland or
 global-system relevance.
@@ -174,7 +174,7 @@ persistent presence in the Sahel and changed monitoring conditions.
 The analytic issue is not a single country. It is the corridor effect:
 pressure in Mali, Niger, Burkina Faso, and neighboring areas can affect Benin,
 Cote d'Ivoire, Ghana, Togo, Nigeria, the Gulf of Guinea, migration routes,
-and maritime security. Future Warlock Index products can split this lane into
+and maritime security. Future Warlock-Index products can split this lane into
 Sahel armed-network growth, coastal-state resilience, Gulf of Guinea maritime
 security, and outside-security-provider influence.
 
@@ -190,7 +190,7 @@ exposure around the Red Sea and Gulf of Aden.
 The Horn of Africa is also where Middle East and Africa files meet. Houthi
 activity in Yemen, Iranian network dynamics, Red Sea shipping pressure,
 Somalia-based terrorist organizations, and regional state competition can
-interact. Warlock Index treats this as a seam between AFRICOM and CENTCOM
+interact. Warlock-Index treats this as a seam between AFRICOM and CENTCOM
 frames rather than as a purely African issue.
 
 ### North Africa And Mediterranean Interface
@@ -264,7 +264,7 @@ security failure and political breakdown can become mutually reinforcing.
 Partner capacity is not only military training. It includes civil-military
 relations, logistics, maritime law enforcement, border administration,
 judicial integrity, anti-corruption, public trust, and the ability to provide
-basic services. Warlock Index records partner capacity as a strategic
+basic services. Warlock-Index records partner capacity as a strategic
 condition, not as a program endorsement.
 
 ### Maritime Security
@@ -469,7 +469,7 @@ This baseline supports future products by linking Africa to:
   nexus theater, subregional threat environment, partner-capacity space,
   maritime-security lane, critical-minerals file, and China influence concern.
 - **Reliability note:** Authoritative for AFRICOM's public command view. It is
-  congressional posture testimony, so Warlock Index separates command
+  congressional posture testimony, so Warlock-Index separates command
   priorities from independent analytic judgment.
 
 ### U.S. Africa Command Public Command Overview

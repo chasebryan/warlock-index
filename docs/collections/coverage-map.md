@@ -4,7 +4,7 @@
 
 **Prepared UTC:** 2026-06-12T23:20:35Z
 
-This map defines the initial archive architecture for Warlock Index. It is not
+This map defines the initial archive architecture for Warlock-Index. It is not
 a list of recommendations. It is a research coverage model for organizing
 future open-source defense assessments.
 

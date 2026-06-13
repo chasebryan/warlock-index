@@ -12,7 +12,7 @@
 Defense report on military and security developments involving the People's
 Republic of China; 2022 National Defense Strategy, Nuclear Posture Review,
 and Missile Defense Review; NATO Washington Summit Declaration; existing
-Warlock Index China, Taiwan, space, strategic-weapons, and global assimilation
+Warlock-Index China, Taiwan, space, strategic-weapons, and global assimilation
 products.
 
 **Analytic confidence:** High for official public source identity, publication
@@ -22,7 +22,7 @@ health, and future force trajectory because public reporting omits classified
 collection, detailed methodology, and PRC internal decision records.
 
 **Purpose:** Provide an actor-specific source packet for PRC nuclear and
-missile modernization research inside Warlock Index.
+missile modernization research inside Warlock-Index.
 
 **Scope:** This packet organizes official public evidence on PRC nuclear
 expansion, missile modernization, early-warning counterstrike, PLA Rocket
@@ -54,8 +54,7 @@ frame, and NATO's Washington declaration shows that PRC nuclear expansion,
 space activity, and Russia-defense-industrial support now carry Euro-Atlantic
 security significance.
 
-This packet is a source-organization product. It supports future Warlock
-Index assessments by distinguishing official source fact, source inference,
+This packet is a source-organization product. It supports future Warlock-Index assessments by distinguishing official source fact, source inference,
 and Warlock analytic judgment while avoiding operational use cases.
 
 ## Packet Use Rules
@@ -83,7 +82,7 @@ and Warlock analytic judgment while avoiding operational use cases.
 | DoD 2025 PRC Military Power Report | A | Most detailed public U.S. defense baseline for PRC nuclear, missile, Rocket Force, space, counterspace, and information-force modernization | Nuclear expansion, early-warning counterstrike, silo and ICBM indicators, missile industry, hypersonic systems, PLA reorganization, Aerospace Force missile-warning role | Annual congressional report; PRC internal intent and readiness are partly inferred |
 | 2022 NDS/NPR/MDR | A | Integrated defense, nuclear, and missile-defense policy baseline for the two-major-power deterrence problem | PRC as pacing challenge, nuclear modernization, space/counterspace/cyber integration, escalation and strategic-stability stress | Policy source from 2022; current strategy documents and later posture statements can alter emphasis |
 | NATO Washington Summit Declaration | A | Allied public framing that PRC nuclear expansion, space activity, cyber/hybrid activity, and Russia-defense-industrial support affect Euro-Atlantic security | Alliance concern, PRC-Russia linkage, nuclear expansion and delivery-system language, cross-regional impact | Consensus declaration; detailed intelligence, estimates, and allied disagreement are not visible |
-| Warlock Index strategic-weapons timeline and China files | Internal derived products | Dated internal crosswalk between official sources, actor files, Taiwan baseline, space baseline, and strategic-weapons modernization | Event anchors, cross-domain tags, source-class labels, follow-on packet queue | Derived products; later source packets can supersede or refine analytic lines |
+| Warlock-Index strategic-weapons timeline and China files | Internal derived products | Dated internal crosswalk between official sources, actor files, Taiwan baseline, space baseline, and strategic-weapons modernization | Event anchors, cross-domain tags, source-class labels, follow-on packet queue | Derived products; later source packets can supersede or refine analytic lines |
 
 ## Source Extraction Matrix
 
@@ -104,7 +103,7 @@ and Warlock analytic judgment while avoiding operational use cases.
 ODNI and NATO both place PRC nuclear modernization in the strategic-competition
 category. The DoD PRC report supplies the deeper China-specific evidence
 base, including nuclear force expansion, delivery-system diversification, and
-public U.S. assessment language on modernization direction. Warlock Index
+public U.S. assessment language on modernization direction. Warlock-Index
 products use these sources to characterize China as a growing nuclear peer
 problem for U.S. defense planning without treating public-source estimates as
 complete visibility into readiness, alert posture, command resilience, or
@@ -138,7 +137,7 @@ deterrence. The DoD PRC report also records the 2024 dissolution of the
 Strategic Support Force and the emergence of the Aerospace Force, Cyberspace
 Force, and Information Support Force as relevant to space, missile warning,
 cyber, information operations, strategic communications, and joint operations.
-For Warlock Index, the core research point is institutional convergence:
+For Warlock-Index, the core research point is institutional convergence:
 missile forces, aerospace warning, information support, cyber, and
 counterspace activity are increasingly tied inside PRC joint-war architecture.
 
@@ -168,11 +167,11 @@ Official public sources contain uncertainty. DoD reporting also notes
 leadership, readiness, and anti-corruption concerns relevant to PRC strategic
 forces. These concerns reduce confidence in any simple linear modernization
 story, but they do not erase the broader official consensus that PRC nuclear
-and missile capabilities are expanding and diversifying. Warlock Index
+and missile capabilities are expanding and diversifying. Warlock-Index
 products retain both points: modernization is strategically significant, and
 public sources do not provide a full readiness picture.
 
-## Assessment Uses Inside Warlock Index
+## Assessment Uses Inside Warlock-Index
 
 | Use | Value | Boundary |
 | --- | --- | --- |

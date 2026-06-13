@@ -19,7 +19,7 @@ intelligence, cyber, diplomatic, or military action. It does not identify
 targets, provide operational concepts, or offer tactical guidance.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, 2026 National Defense
-Strategy, DIA Iran Military Power report, and current Warlock Index source
+Strategy, DIA Iran Military Power report, and current Warlock-Index source
 registers.
 
 **Analytic confidence:** Moderate. Public official sources are strong for
@@ -29,7 +29,7 @@ leadership cohesion, and the pace of post-conflict recovery.
 
 ## Bottom Line
 
-Iran should be classified in Warlock Index as an adversarial regional power
+Iran should be classified in Warlock-Index as an adversarial regional power
 under severe strategic stress, with enduring asymmetric reach, WMD-related
 risk, cyber capability, proxy-network influence, maritime disruption capacity,
 and a regime-survival security structure centered on the Islamic Revolutionary
@@ -142,7 +142,7 @@ DIA's enduring assessment emphasizes that Iran relies on unconventional
 warfare elements and asymmetric capabilities to deter and project power, while
 its conventional military emphasizes niche capabilities and guerrilla-style
 tactics against technologically superior adversaries. This classification should
-guide future Warlock Index products: Iran's power is not measured only by tanks,
+guide future Warlock-Index products: Iran's power is not measured only by tanks,
 aircraft, or naval tonnage, but by the interaction of missiles, terrain,
 networks, political will, and willingness to absorb costs.
 
@@ -298,7 +298,7 @@ This product does not recommend action. The decision relevance is analytical:
 
 ## Classification For Future Repository Use
 
-Future Warlock Index products should use the following baseline label unless
+Future Warlock-Index products should use the following baseline label unless
 new evidence changes the assessment:
 
 **Iran: adversarial regional power; regime-survival security state; asymmetric

@@ -22,8 +22,7 @@ does not claim access to classified information.
 
 **Source base:** ODNI 2026 Annual Threat Assessment, 2026 National Defense
 Strategy, NATO Washington Summit Declaration, NATO The Hague Summit
-Declaration, current Warlock Index actor classifications, and current Warlock
-Index source registers.
+Declaration, current Warlock-Index actor classifications, and current Warlock-Index source registers.
 
 **Analytic confidence:** High for broad strategic structure and actor
 classification; moderate for cross-theater timing, crisis interaction,
@@ -58,7 +57,7 @@ leverage from U.S. distraction, Iran and North Korea gain relevance and
 possible reciprocal support, and U.S. allies face higher demands across
 multiple theaters.
 
-Warlock Index therefore uses a global assimilation model. Every new product is
+Warlock-Index therefore uses a global assimilation model. Every new product is
 filed not only by country or theater, but also by how it affects
 homeland defense, alliance credibility, industrial capacity, cyber exposure,
 space dependency, WMD risk, maritime flow, sanctions resilience, and adversary
@@ -347,13 +346,13 @@ transportation infrastructure.
 Information activity affects public trust, alliance cohesion, mobilization,
 elections, civil preparedness, recruitment, and perceptions of escalation.
 Russia, China, Iran, and extremist networks all use information channels for
-strategic effects, though methods and goals differ. Warlock Index products need
+strategic effects, though methods and goals differ. Warlock-Index products need
 to separate propaganda content, platform behavior, state attribution, audience
 effects, and policy claims.
 
 ## Global Interaction Model
 
-Warlock Index will use the following model to integrate future material.
+Warlock-Index will use the following model to integrate future material.
 
 | Interaction | Description | Current priority |
 | --- | --- | --- |
@@ -442,7 +441,7 @@ operating picture matters to U.S. defense decision-making because it clarifies:
   https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration
 - NATO, **The Hague Summit Declaration**, 2025-06-25:
   https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration
-- Warlock Index, **Strategic Environment Baseline, 2026**:
+- Warlock-Index, **Strategic Environment Baseline, 2026**:
   ../../assessments/global/2026-06-12T2320Z-strategic-environment-baseline.md
-- Warlock Index actor classifications for China, Russia, Iran, and North
+- Warlock-Index actor classifications for China, Russia, Iran, and North
   Korea, current as of this product's information cutoff.

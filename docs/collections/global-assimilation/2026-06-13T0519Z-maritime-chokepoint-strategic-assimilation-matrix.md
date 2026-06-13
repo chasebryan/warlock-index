@@ -13,7 +13,7 @@ Authority annual navigation reports; UN Security Council Resolution 2722;
 Council of the European Union EUNAVFOR ASPIDES launch statement; Federal
 Register Executive Order 14175 on Ansar Allah; 2026 ODNI Annual Threat
 Assessment; Allianz Commercial Safety and Shipping Review 2025; existing
-Warlock Index Red Sea, Arctic, Africa, Iran, China, Russia, homeland, global
+Warlock-Index Red Sea, Arctic, Africa, Iran, China, Russia, homeland, global
 operating picture, and source-register products.
 
 **Analytic confidence:** High for source organization and Red Sea/Suez source
@@ -37,7 +37,7 @@ Maritime chokepoints should be treated as strategic integration nodes rather
 than as isolated geography. Each chokepoint links actors, legal regimes,
 commercial flows, energy or commodity exposure, insurance confidence, allied
 response, infrastructure resilience, and escalation risk. The Red Sea/Suez
-lane now has the strongest Warlock Index source packet. The remaining lanes
+lane now has the strongest Warlock-Index source packet. The remaining lanes
 should be expanded through separate dated source packets before the repository
 uses them for high-confidence comparative judgments.
 
@@ -49,13 +49,13 @@ uses them for high-confidence comparative judgments.
 3. Do not derive or publish routing advice, movement forecasts, escort logic,
    live-risk maps, or tactical procedures.
 4. Distinguish official data, multilateral analysis, industry reporting,
-   professional media, and internal Warlock Index synthesis.
+   professional media, and internal Warlock-Index synthesis.
 5. Treat every chokepoint as a social, legal, economic, military, and
    infrastructure system, not as a map point alone.
 
 ## Comparative Matrix
 
-| Chokepoint lane | Primary strategic exposure | Actor pressure | Commercial and economic coupling | Allied and multilateral lane | Current Warlock Index source maturity | Boundary |
+| Chokepoint lane | Primary strategic exposure | Actor pressure | Commercial and economic coupling | Allied and multilateral lane | Current Warlock-Index source maturity | Boundary |
 | --- | --- | --- | --- | --- | --- | --- |
 | Red Sea / Bab al-Mandeb / Suez | Europe-Asia commerce, Suez traffic, energy and container flows, East Africa and Yemen humanitarian logistics | Houthi maritime disruption; Iran-linked support context; regional conflict spillover | Freight rates, ton-mile demand, insurance, canal revenue, port calls, emissions, vulnerable economies | UN Security Council Resolution 2722; EU ASPIDES; U.S. and partner maritime-security framing | High for current repository: source packet, timeline, baseline, tracker, actor profile | No route guidance, escort detail, or vessel movement analysis |
 | Strait of Hormuz | Energy transit, Gulf security, Iran escalation, U.S. and partner interests | Iran state pressure; IRGC maritime activity; proxy and missile/UAS context | Oil and LNG market confidence, insurance, shipping risk, Gulf port continuity | U.S., Gulf, allied, and international maritime security frameworks | Moderate in repository through Iran assessment; needs dedicated source packet | No operational maritime-security or tanker-route guidance |
