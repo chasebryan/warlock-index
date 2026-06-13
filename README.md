@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains the static Warlock-Index website/navigation layer for
+This folder contains the static WARLOCK-INDEX website/navigation layer for
 GitHub Pages-style hosting. It is intentionally static: the navigator terminal
 uses local client-side routing data and does not require a server, API key, or
 browser-exposed model credential.
@@ -25,6 +25,10 @@ files:
 Generated library pages include canonical URLs, index/follow robots metadata,
 and social preview metadata using `https://www.warlock-index.org/` as the
 canonical site origin.
+
+The browser and bookmark icon uses the same compass-style navigator mark shown
+in the site header. Keep `favicon.svg`, `apple-touch-icon.png`, and
+`site.webmanifest` published at the site root.
 
 The homepage keeps `WARLOCK-INDEX` as the canonical brand and includes
 structured-data aliases for `Warlock-Index`, `warlock-index`, and

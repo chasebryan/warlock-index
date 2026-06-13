@@ -140,7 +140,7 @@ function extractSummary(markdown) {
     return trimSummary(firstParagraphAfter(lines, index));
   }
 
-  return "Warlock-Index documentation product.";
+  return "WARLOCK-INDEX documentation product.";
 }
 
 function trimSummary(value) {
@@ -538,6 +538,11 @@ function renderPage(currentDoc, docs, relToOutput) {
     <meta name="description" content="${escapeAttr(currentDoc.summary)}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="${escapeAttr(canonicalUrl)}">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="mask-icon" href="/favicon.svg" color="#d9ff2d">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#020303">
     <meta property="og:title" content="${escapeAttr(`${currentDoc.title} | ${siteName}`)}">
     <meta property="og:description" content="${escapeAttr(currentDoc.summary)}">
     <meta property="og:type" content="article">
