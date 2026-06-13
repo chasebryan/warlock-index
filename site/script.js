@@ -171,11 +171,22 @@ function setActiveRoute(query) {
   });
 }
 
+function updateSearchUrl(query) {
+  const url = new URL(window.location.href);
+  if (query.trim()) {
+    url.searchParams.set("q", query.trim());
+  } else {
+    url.searchParams.delete("q");
+  }
+  window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+}
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const query = input.value;
   renderResults(query, searchCorpus(query));
   setActiveRoute(query);
+  updateSearchUrl(query);
 });
 
 suggestionButtons.forEach((button) => {
@@ -184,6 +195,7 @@ suggestionButtons.forEach((button) => {
     input.value = button.dataset.query;
     renderResults(input.value, searchCorpus(input.value));
     setActiveRoute(input.value);
+    updateSearchUrl(input.value);
     input.focus();
   });
 });
@@ -194,7 +206,12 @@ window.addEventListener("scroll", () => {
     .setAttribute("data-elevated", String(window.scrollY > 12));
 }, { passive: true });
 
-renderResults("", defaultResults);
+const initialQuery = new URLSearchParams(window.location.search).get("q") || "";
+if (initialQuery) {
+  input.value = initialQuery;
+}
+renderResults(initialQuery, searchCorpus(initialQuery));
+setActiveRoute(initialQuery);
 
 function createCosmos(canvas) {
   if (!canvas) return;

@@ -54,6 +54,12 @@ node site/check-library.mjs
 
 The check rebuilds the website and fails if generated output was stale.
 
+The public website is published at `https://www.warlock-index.org/`.
+The canonical brand is `WARLOCK-INDEX`; site metadata also includes
+search-discovery aliases for `Warlock-Index`, `warlock-index`, and
+`warlock index` so browser search engines can associate common phrase variants
+with the same project.
+
 ## Product Standard
 
 The baseline standard is documented in

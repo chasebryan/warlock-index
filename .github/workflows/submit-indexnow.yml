@@ -1,0 +1,34 @@
+name: Submit IndexNow
+
+on:
+  workflow_run:
+    workflows:
+      - Deploy Site
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: submit-indexnow
+  cancel-in-progress: true
+
+jobs:
+  submit:
+    name: Submit deployed sitemap URLs to IndexNow
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Submit live sitemap URLs
+        run: node site/submit-indexnow.mjs --live

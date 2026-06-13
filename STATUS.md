@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T18:56:00Z
+**Prepared UTC:** 2026-06-13T19:33:00Z
 
 ## Completed
 
@@ -58,6 +58,9 @@
 - Added the Indo-Pacific and Taiwan map reference source packet.
 - Added the Philippines and South China Sea map reference source packet.
 - Added a future website placeholder.
+- Added HTTPS enforcement, search-discovery metadata aliases, sitemap/robots
+  verification, and IndexNow submission workflow support for the public
+  website.
 
 ## Current Analytical Posture
 
