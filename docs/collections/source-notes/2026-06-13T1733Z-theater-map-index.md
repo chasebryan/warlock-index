@@ -52,7 +52,7 @@ used to do.
 | Theater lane | Priority public map sources | Use | Exclusions |
 | --- | --- | --- | --- |
 | Global strategic operating picture | NGA World Map 2025; NGA Products and Services; BGN; State; UN | World orientation, naming basis, and source-family routing | No global targeting layer or actor-control inference |
-| Europe / Russia / Ukraine | NGA NATO Map 2024; NGA Ukraine Eastern Border Map 2023; NATO on the Map; NATO member-country page; State and allied government maps | Alliance geography, theater orientation, and boundary/naming caveats | No front-line tracking, target mapping, basing inference, or route selection |
+| Europe / Russia / Ukraine | NGA NATO Map 2024; NGA Ukraine Eastern Border Map 2023; NATO on the Map; NATO member-country page; EUCOM AOR source family; State and allied government maps; UN Geospatial source family | Alliance geography, theater orientation, command-area source routing, and boundary/naming caveats | No front-line tracking, target mapping, basing inference, operational overlays, or route selection |
 | Indo-Pacific / Taiwan / first island chain | NGA Taiwan 2024; USINDOPACOM Area of Responsibility; allied government maps; BGN | Regional orientation and U.S. command-area framing | No movement tracking, basing inference, access-route analysis, or operational overlays |
 | Philippines / South China Sea / West Philippine Sea | NGA public maps; USINDOPACOM AOR; NAMRIA source family; PCA South China Sea Arbitration; State Limits in the Seas No. 150; Philippine Official Gazette source family | Broad orientation, issuer-language caveats, legal-source routing, and allied-posture context | No vessel routing, interdiction, basing inference, access-route analysis, legal advice, or maritime operational guidance |
 | Middle East / Red Sea / Hormuz | NGA Israel and Surrounding Region 2024; NGA CENTCOM 2023; CENTCOM AOR; NOAA maritime chart source families | Regional orientation, chokepoint context, and command-area framing | No vessel routing, interdiction points, patrol patterns, live maritime layers, or targeting |
@@ -69,6 +69,8 @@ used to do.
 | USA Map 2025 | NGA | Homeland / Western Hemisphere | Static public orientation map |
 | NATO Map 2024 | NGA | Europe / NATO / allied posture | Static public alliance-orientation map |
 | Ukraine Eastern Border Map 2023 | NGA | Europe / Russia / Ukraine | Static public theater-orientation map |
+| NATO on the Map | NATO | Europe / NATO / allied posture | Interactive alliance map reference |
+| NATO member countries | NATO | Europe / NATO / allied posture | Alliance membership source reference |
 | Taiwan 2024 | NGA | Indo-Pacific / Taiwan / first island chain | Static public theater-orientation map |
 | NAMRIA public source family | Philippine National Mapping and Resource Information Authority | Philippines / South China Sea / West Philippine Sea | Issuer-language and national mapping source-family routing |
 | The South China Sea Arbitration | Permanent Court of Arbitration | Philippines / South China Sea / West Philippine Sea | Legal-source provenance, not a map source |
@@ -145,6 +147,9 @@ targeting, or vulnerability products.
 - Philippines and South China Sea products require source-language discipline
   because map, legal, diplomatic, and issuer-perspective sources may use
   different labels for the same geography.
+- Europe/NATO/Ukraine products require additional active-war caveats: maps
+  must not be used for front-line tracking, target selection, strike
+  assessment, basing inference, or route analysis.
 - Public maps can encode policy, naming, boundary, projection, recognition,
   or source-age choices. Products should state those caveats rather than
   flattening them into Warlock-Index judgments.
@@ -153,6 +158,9 @@ targeting, or vulnerability products.
 
 - National Geospatial-Intelligence Agency, NGA Maps For Download: `https://www.nga.mil/resources/NGA_Maps_for_Download.html`
 - National Geospatial-Intelligence Agency, Products And Services: `https://www.nga.mil/resources/Products_%26_Services.html`
+- NATO, NATO on the Map: `https://www.nato.int/en/about-us/organization/nato-on-the-map`
+- NATO, NATO Member Countries: `https://www.nato.int/en/about-us/organization/nato-member-countries`
+- U.S. European Command, Area of Responsibility source family: `https://www.eucom.mil/about/area-of-responsibility`
 - U.S. Indo-Pacific Command, Area of Responsibility: `https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/`
 - National Mapping and Resource Information Authority: `https://www.namria.gov.ph/`
 - Permanent Court of Arbitration, The South China Sea Arbitration: `https://pca-cpa.org/en/cases/7/`
@@ -172,6 +180,7 @@ targeting, or vulnerability products.
 
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [Europe, NATO, And Ukraine Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
 - [Map And Geospatial Reference Source Register](../../source-registers/map-geospatial-reference.md)
 - [CIA, State, And NGA Foreign Government And Map Reference Packet](../source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
 - [Legacy Factbook Replacement Note](2026-06-13T0938Z-legacy-factbook-replacement-note.md)

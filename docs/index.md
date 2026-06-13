@@ -73,6 +73,7 @@ This index is the working navigation hub for Warlock-Index.
 - [Theater Map Reference Source Packets](collections/source-packets/theater-map-reference)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [Europe, NATO, And Ukraine Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
 - [Red Sea Maritime Economics Source Packets](collections/source-packets/red-sea-maritime-economics)
 - [Red Sea Maritime Economics And Insurance Source Packet](collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
 - [Strategic Weapons Source Packets](collections/source-packets/strategic-weapons)

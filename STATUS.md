@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T19:33:00Z
+**Prepared UTC:** 2026-06-13T19:38:00Z
 
 ## Completed
 
@@ -57,6 +57,7 @@
 - Added the theater map index.
 - Added the Indo-Pacific and Taiwan map reference source packet.
 - Added the Philippines and South China Sea map reference source packet.
+- Added the Europe, NATO, and Ukraine map reference source packet.
 - Added a future website placeholder.
 - Added HTTPS enforcement, search-discovery metadata aliases, sitemap/robots
   verification, and IndexNow submission workflow support for the public
@@ -85,7 +86,6 @@ The repository is in baseline-building mode. Products prioritize:
   North Korea, Iran, and multilateral strategic stability.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
-- Add remaining map-heavy theater source packets, continuing with
-  Europe/NATO/Ukraine.
+- Add additional map-heavy theater source packets as needed.
 - Add a website information architecture once the document corpus is large
   enough to justify navigation design.

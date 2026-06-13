@@ -16,3 +16,4 @@ live movement tracking, patrol-pattern analysis, or technical instructions.
 
 - [2026-06-13T1810Z - Indo-Pacific And Taiwan Map Reference Source Packet](2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [2026-06-13T1856Z - Philippines And South China Sea Map Reference Source Packet](2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [2026-06-13T1938Z - Europe, NATO, And Ukraine Map Reference Source Packet](2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)

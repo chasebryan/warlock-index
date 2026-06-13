@@ -137,6 +137,7 @@ Warlock-Index products should keep these evidence types separate:
 - **Accessed UTC:** 2026-06-13T09:33:00Z
 - **Representative URLs:**
   - https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/
+  - https://www.eucom.mil/about/area-of-responsibility
   - https://www.centcom.mil/AREA-OF-RESPONSIBILITY/
   - https://www.africom.mil/area-of-responsibility
   - https://www.southcom.mil/About/Area-of-Responsibility/
@@ -166,7 +167,7 @@ Warlock-Index products should keep these evidence types separate:
 | Warlock-Index lane | Priority map source families | Current use | Boundary note |
 | --- | --- | --- | --- |
 | Global strategic operating picture | NGA world maps, BGN, State, UN, USGS/NOAA where relevant | High-level orientation and naming caveats | No operational overlays |
-| Europe / Russia / Ukraine | NGA public maps, NATO public maps, State, allied government maps | Theater orientation and alliance geography | No front-line tracking or target mapping |
+| Europe / Russia / Ukraine | NGA public maps, NATO public maps, EUCOM AOR source family, State, allied government maps, UN Geospatial source family | Theater orientation, alliance geography, command-area source routing, and boundary/naming caveats | No front-line tracking, target mapping, basing inference, operational overlays, route selection, or strike assessment |
 | Indo-Pacific / Taiwan / first island chain | NGA public maps, DoD command maps, allied government maps, BGN | Regional orientation and boundary/naming caveats | No basing, route, or movement inference |
 | Philippines / South China Sea / West Philippine Sea | NGA public maps, USINDOPACOM AOR, NAMRIA, Philippine Official Gazette source family, PCA legal-source record, State Limits in the Seas | Broad orientation, issuer-language caveats, legal-source routing, and allied-posture context | No vessel routing, interdiction, basing inference, access-route analysis, legal advice, or maritime operational guidance |
 | Middle East / Red Sea / Hormuz | NGA public maps, CENTCOM AOR pages, NOAA maritime chart families, State | Chokepoint and command-area context | No vessel routing, interdiction, or live maritime layer |
@@ -232,6 +233,9 @@ When a Warlock-Index product uses this register, include:
 - Philippines and South China Sea products should keep national map sources,
   legal-source records, diplomatic source families, and threat sources in
   separate layers.
+- Europe/NATO/Ukraine products should keep static maps, alliance geography,
+  command-area framing, diplomatic sources, active-war evidence, and legal
+  claims in separate layers.
 - This register does not replace ODNI, DoD, DIA, Treasury, State, DOJ, CISA,
   FBI, UN, NATO, or allied sources for threat, legal, sanctions, military, or
   operational claims.
@@ -240,6 +244,9 @@ When a Warlock-Index product uses this register, include:
 
 - National Geospatial-Intelligence Agency, NGA Maps For Download: `https://www.nga.mil/resources/NGA_Maps_for_Download.html`
 - National Geospatial-Intelligence Agency, Products And Services: `https://www.nga.mil/resources/Products_%26_Services.html`
+- NATO, NATO on the Map: `https://www.nato.int/en/about-us/organization/nato-on-the-map`
+- NATO, NATO Member Countries: `https://www.nato.int/en/about-us/organization/nato-member-countries`
+- U.S. European Command, Area of Responsibility source family: `https://www.eucom.mil/about/area-of-responsibility`
 - U.S. Geological Survey, The National Map: `https://www.usgs.gov/programs/national-geospatial-program/national-map`
 - NOAA Office of Coast Survey: `https://nauticalcharts.noaa.gov/`
 - NOAA National Ocean Service, What Is A Nautical Chart?: `https://oceanservice.noaa.gov/facts/nautical_chart.html`
@@ -258,6 +265,7 @@ When a Warlock-Index product uses this register, include:
 - [Theater Map Index](../collections/source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [Europe, NATO, And Ukraine Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
 - [CIA, State, And NGA Foreign Government And Map Reference Packet](../collections/source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
 - [Foreign Government Reference Source Register](foreign-government-reference.md)
 - [Maritime Chokepoints Source Register](maritime-chokepoints.md)
