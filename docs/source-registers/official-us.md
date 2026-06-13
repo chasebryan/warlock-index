@@ -14,7 +14,7 @@
 - **Use:** Baseline U.S. Intelligence Community view of threats to the
   homeland, major power competition, technology, cyber, space, WMD, and
   regional conflicts. Also used as a primary source for the Russia strategic
-  weapons and nuclear signaling packet.
+  weapons and nuclear signaling packet and the DPRK strategic weapons packet.
 - **Reliability note:** Authoritative for the public IC assessment. It remains
   a public product with policy-era framing and release constraints.
 
@@ -37,6 +37,8 @@
 - **URL:** https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF
 - **Use:** Baseline public U.S. defense strategy framing: homeland defense,
   Indo-Pacific deterrence, ally burden-sharing, and defense industrial base.
+  Also used for DPRK threat framing involving the ROK, Japan, and the U.S.
+  homeland.
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is a
   policy document, not a neutral outside assessment.
 
@@ -80,7 +82,8 @@
 - **Use:** Official public baseline for U.S.-Japan-ROK trilateral consultation,
   annual meeting architecture, maritime security, DPRK missile-warning data
   sharing, DPRK cyber-threat cooperation, economic security, technology,
-  critical minerals, semiconductors, AI, quantum, and supply-chain resilience.
+  critical minerals, semiconductors, AI, quantum, supply-chain resilience, and
+  DPRK strategic-weapons source work.
 - **Reliability note:** Authoritative for archived joint statement language.
   It does not independently prove future political continuity, readiness, or
   implementation.
@@ -94,7 +97,8 @@
 - **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/04/26/washington-declaration-2/
 - **Use:** Official public baseline for U.S.-ROK extended deterrence, the
   Nuclear Consultative Group, ROK NPT reaffirmation, combined defense posture,
-  DPRK nuclear and missile threat framing, and strategic assurance analysis.
+  DPRK nuclear and missile threat framing, strategic assurance analysis, and
+  DPRK strategic-weapons source work.
 - **Reliability note:** Authoritative for archived White House statement
   language. Warlock-Index products use it at strategic consultation level and
   do not derive nuclear planning or operational detail from it.
@@ -287,7 +291,7 @@
 - **URL:** https://media.defense.gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.PDF
 - **Use:** Historical comparison for integrated deterrence, campaigning, and
   resilience concepts, and a nuclear-posture and missile-defense policy
-  baseline for Russia strategic-weapons source work.
+  baseline for Russia and DPRK strategic-weapons source work.
 - **Reliability note:** Superseded as current strategy by the 2026 NDS but
   still valuable for continuity analysis.
 

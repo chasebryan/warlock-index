@@ -42,3 +42,4 @@ operations threat; selective adversary-alignment actor.**
 ## Linked Products
 
 - [2026-06-13T0009Z - North Korea Strategic Actor Classification](../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)
+- [2026-06-13T2151Z - DPRK Strategic Weapons Source Packet](../source-packets/strategic-weapons/2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)

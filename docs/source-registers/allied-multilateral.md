@@ -28,10 +28,38 @@
 - **Use:** Baseline NATO position on Russia, Ukraine, defense spending,
   deterrence and defense, PRC-Russia alignment, DPRK and Iranian support to
   Russia, Indo-Pacific partner cooperation, and Russia strategic-weapons
-  nuclear signaling source work.
+  nuclear signaling source work. Also used for DPRK strategic-weapons
+  Russia-support and nonproliferation source work.
 - **Reliability note:** Authoritative for NATO consensus language. It reflects
   alliance political agreement and is treated as official policy
   framing.
+
+## UN Security Council Resolution 1718
+
+- **Source class:** A
+- **Publisher:** United Nations Security Council
+- **Publication date:** 2006-10-14
+- **Accessed UTC:** 2026-06-13T21:51:45Z
+- **URL:** https://undocs.org/S/RES/1718(2006)
+- **Use:** Legal-diplomatic baseline for the Security Council response to
+  DPRK nuclear testing, sanctions architecture, ballistic-missile restrictions,
+  and the 1718 sanctions committee.
+- **Reliability note:** Authoritative for the resolution text and UN Security
+  Council action. It is a legal baseline and does not independently measure
+  current compliance, enforcement, or evasion.
+
+## UN Security Council Resolution 2397
+
+- **Source class:** A
+- **Publisher:** United Nations Security Council
+- **Publication date:** 2017-12-22
+- **Accessed UTC:** 2026-06-13T21:51:45Z
+- **URL:** https://undocs.org/S/RES/2397(2017)
+- **Use:** Legal-diplomatic baseline for sanctions tightening after the DPRK
+  Hwasong-15 ICBM launch and for strategic-weapons nonproliferation context.
+- **Reliability note:** Authoritative for the resolution text and UN Security
+  Council action. It requires later official and research sources for current
+  sanctions implementation or evasion analysis.
 
 ## NATO The Hague Summit Declaration
 
