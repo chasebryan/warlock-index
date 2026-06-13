@@ -136,6 +136,7 @@ Warlock-Index products should keep these evidence types separate:
 - **Publisher:** U.S. combatant commands
 - **Accessed UTC:** 2026-06-13T09:33:00Z
 - **Representative URLs:**
+  - https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/
   - https://www.centcom.mil/AREA-OF-RESPONSIBILITY/
   - https://www.africom.mil/area-of-responsibility
   - https://www.southcom.mil/About/Area-of-Responsibility/
@@ -145,6 +146,21 @@ Warlock-Index products should keep these evidence types separate:
   infer current operations, basing, patrol patterns, force posture, access,
   or operational priorities from AOR maps alone.
 
+### National Mapping And Resource Information Authority
+
+- **Source class:** A
+- **Publisher:** National Mapping and Resource Information Authority,
+  Republic of the Philippines
+- **Accessed UTC:** 2026-06-13T18:56:00Z
+- **URL:** https://www.namria.gov.ph/
+- **Use:** Philippine national mapping and resource-information source-family
+  routing, especially for Philippine issuer-language and map-product refresh
+  around South China Sea, West Philippine Sea, and adjacent geography.
+- **Reliability note:** Authoritative for Philippine national mapping source
+  identity. Homepage verification does not establish a specific product title,
+  publication date, boundary position, or current map content; exact map pages
+  require product-level refresh before dated use.
+
 ## Theater-Lane Routing
 
 | Warlock-Index lane | Priority map source families | Current use | Boundary note |
@@ -152,6 +168,7 @@ Warlock-Index products should keep these evidence types separate:
 | Global strategic operating picture | NGA world maps, BGN, State, UN, USGS/NOAA where relevant | High-level orientation and naming caveats | No operational overlays |
 | Europe / Russia / Ukraine | NGA public maps, NATO public maps, State, allied government maps | Theater orientation and alliance geography | No front-line tracking or target mapping |
 | Indo-Pacific / Taiwan / first island chain | NGA public maps, DoD command maps, allied government maps, BGN | Regional orientation and boundary/naming caveats | No basing, route, or movement inference |
+| Philippines / South China Sea / West Philippine Sea | NGA public maps, USINDOPACOM AOR, NAMRIA, Philippine Official Gazette source family, PCA legal-source record, State Limits in the Seas | Broad orientation, issuer-language caveats, legal-source routing, and allied-posture context | No vessel routing, interdiction, basing inference, access-route analysis, legal advice, or maritime operational guidance |
 | Middle East / Red Sea / Hormuz | NGA public maps, CENTCOM AOR pages, NOAA maritime chart families, State | Chokepoint and command-area context | No vessel routing, interdiction, or live maritime layer |
 | Africa | AFRICOM AOR pages, NGA public maps, State, UN/AU maps | Theater and subregion orientation | Avoid sensitive facility, route, or conflict-zone tactical detail |
 | Homeland / Western Hemisphere | USGS The National Map, NOAA charts, SOUTHCOM/NORTHCOM public pages, State | U.S. and hemisphere orientation | No domestic surveillance or vulnerability mapping |
@@ -212,6 +229,9 @@ When a Warlock-Index product uses this register, include:
   current diplomatic map or country-context sources.
 - Many official map products carry policy, naming, boundary, recognition, or
   projection choices. Products should preserve those caveats.
+- Philippines and South China Sea products should keep national map sources,
+  legal-source records, diplomatic source families, and threat sources in
+  separate layers.
 - This register does not replace ODNI, DoD, DIA, Treasury, State, DOJ, CISA,
   FBI, UN, NATO, or allied sources for threat, legal, sanctions, military, or
   operational claims.
@@ -224,6 +244,11 @@ When a Warlock-Index product uses this register, include:
 - NOAA Office of Coast Survey: `https://nauticalcharts.noaa.gov/`
 - NOAA National Ocean Service, What Is A Nautical Chart?: `https://oceanservice.noaa.gov/facts/nautical_chart.html`
 - U.S. Board on Geographic Names: `https://www.usgs.gov/us-board-on-geographic-names`
+- U.S. Indo-Pacific Command, Area of Responsibility: `https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/`
+- National Mapping and Resource Information Authority: `https://www.namria.gov.ph/`
+- Permanent Court of Arbitration, The South China Sea Arbitration: `https://pca-cpa.org/en/cases/7/`
+- U.S. Department of State, Limits in the Seas No. 150: `https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/`
+- Philippine Official Gazette, Administrative Order No. 29: `https://www.officialgazette.gov.ph/2012/09/05/administrative-order-no-29-s-2012/`
 - U.S. Central Command, Area Of Responsibility: `https://www.centcom.mil/AREA-OF-RESPONSIBILITY/`
 - U.S. Africa Command, Area Of Responsibility: `https://www.africom.mil/area-of-responsibility`
 - U.S. Southern Command, Area Of Responsibility: `https://www.southcom.mil/About/Area-of-Responsibility/`
@@ -232,6 +257,7 @@ When a Warlock-Index product uses this register, include:
 
 - [Theater Map Index](../collections/source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
+- [Philippines And South China Sea Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [CIA, State, And NGA Foreign Government And Map Reference Packet](../collections/source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
 - [Foreign Government Reference Source Register](foreign-government-reference.md)
 - [Maritime Chokepoints Source Register](maritime-chokepoints.md)

@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T18:10:00Z
+**Prepared UTC:** 2026-06-13T18:56:00Z
 
 ## Completed
 
@@ -56,6 +56,7 @@
 - Added the legacy Factbook replacement source note.
 - Added the theater map index.
 - Added the Indo-Pacific and Taiwan map reference source packet.
+- Added the Philippines and South China Sea map reference source packet.
 - Added a future website placeholder.
 
 ## Current Analytical Posture
@@ -81,7 +82,7 @@ The repository is in baseline-building mode. Products prioritize:
   North Korea, Iran, and multilateral strategic stability.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
-- Add remaining map-heavy theater source packets, starting with
+- Add remaining map-heavy theater source packets, continuing with
   Europe/NATO/Ukraine.
 - Add a website information architecture once the document corpus is large
   enough to justify navigation design.

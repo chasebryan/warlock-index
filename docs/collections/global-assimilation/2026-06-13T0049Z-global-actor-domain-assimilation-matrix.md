@@ -34,7 +34,7 @@ operations, or diplomatic action.
 | Theater | Primary actors | Main strategic issues | Cross-links |
 | --- | --- | --- | --- |
 | Homeland and Western Hemisphere | TCOs, foreign terrorist networks, China, Russia, North Korea, Iran-linked cyber actors | Border security, drugs, cyber, WMD, critical infrastructure, maritime approaches, Arctic access, foreign influence | Cyber, TCOs, Arctic, ports, advanced delivery systems |
-| Indo-Pacific | China, North Korea, Russia-Pacific, U.S. allies and partners | Taiwan, First Island Chain, Korean Peninsula, South China Sea, East China Sea, Guam, Japan, Republic of Korea, Philippines, Australia, India, Pacific Islands | Taiwan baseline and timeline complete; Japan-Philippines-Australia posture profile, Republic of Korea posture profile, and Indo-Pacific allied posture source packet complete; semiconductors, shipbuilding, missiles, undersea, cyber, space |
+| Indo-Pacific | China, North Korea, Russia-Pacific, U.S. allies and partners | Taiwan, First Island Chain, Korean Peninsula, South China Sea, East China Sea, Guam, Japan, Republic of Korea, Philippines, Australia, India, Pacific Islands | Taiwan baseline and timeline complete; Japan-Philippines-Australia posture profile, Republic of Korea posture profile, Indo-Pacific allied posture source packet, Indo-Pacific/Taiwan map packet, and Philippines/South China Sea map packet complete; semiconductors, shipbuilding, missiles, undersea, cyber, space |
 | Europe and Russia | Russia, NATO, Ukraine, Belarus, China, Iran, North Korea | Ukraine war, NATO defense spending, munitions, sanctions, hybrid pressure, nuclear signaling, Arctic | NATO profile complete; defense industrial base, drones, EW, air defense, sanctions |
 | Middle East | Iran, Israel, Gulf states, terrorist groups, nonstate armed networks, Russia, China | Missile and UAS proliferation, maritime chokepoints, proxies, WMD-related concerns, terrorism, energy, partner security | Red Sea timeline complete; Hormuz, cyber, sanctions, Russia support |
 | Arctic and High North | Russia, China, NATO allies, United States, Canada, Nordic states | Missile warning, undersea infrastructure, energy, shipping, domain awareness, Russian posture, Chinese access | Strategic baseline, timeline, and Arctic infrastructure source packet complete; homeland, Europe, space, maritime |
@@ -49,7 +49,7 @@ operations, or diplomatic action.
 | Conventional military balance | China, Russia, North Korea, Iran, NATO, U.S. allies | Regional deterrence, warfighting endurance, readiness, logistics, force posture | NATO profile, ROK posture profile, Indo-Pacific allied source packet, and official NATO source packet complete; DoD reports, posture statements, allied defense documents |
 | Cyber and critical infrastructure | China, Russia, North Korea, Iran, cybercriminals | Espionage, pre-positioning, disruption, theft, revenue generation, infrastructure risk | Strategic baseline complete; ODNI, CISA, FBI, Treasury, allied advisories |
 | Space and counterspace | China, Russia, United States, allies, North Korea, Iran | ISR, communications, navigation, missile warning, economic services, counterspace risk | Strategic baseline and China strategic-weapons source packet complete; ODNI, DoD, Space Force, NATO, commercial SSA data |
-| Maritime and chokepoints | China, Iran, Russia, Houthis, TCOs, commercial shipping actors | Taiwan Strait, South China Sea, Hormuz, Red Sea, Black Sea, Arctic, Panama Canal, undersea cables | Red Sea timeline and maritime economics source packet complete; official statements, shipping data, maritime security reporting |
+| Maritime and chokepoints | China, Iran, Russia, Houthis, TCOs, commercial shipping actors | Taiwan Strait, South China Sea, Hormuz, Red Sea, Black Sea, Arctic, Panama Canal, undersea cables | Red Sea timeline, maritime economics source packet, theater map index, and Philippines/South China Sea map packet complete; official statements, shipping data, maritime security reporting |
 | Defense industrial base | United States, NATO, China, Russia, Iran, North Korea, allies | Production, replacement rates, surge capacity, munitions, shipbuilding, drones, energetics, icebreakers, critical minerals | U.S. DIB baseline, NATO profile, NATO source packet, Indo-Pacific allied source packet, and Arctic infrastructure source packet complete; DoD, NATO, GAO, CRS, industry filings, allied ministries |
 | Emerging technology | China, United States, Russia, allies, commercial firms | AI, quantum, semiconductors, autonomy, hypersonics, biotechnology, cyber tooling | Official strategies, export controls, research institutions |
 | Information operations | Russia, China, Iran, extremist networks, criminal influence actors | Alliance cohesion, public confidence, elections, crisis perception, mobilization | ODNI, State, platform reports, allied intelligence releases |
@@ -117,6 +117,7 @@ operations, or diplomatic action.
 - `Arctic Militarization`
 - `Maritime Chokepoints`
 - `Taiwan Strait Coercion`
+- `Philippines South China Sea Map Reference`
 - `Red Sea Maritime Disruption`
 - `Red Sea Maritime Economics`
 - `WMD`

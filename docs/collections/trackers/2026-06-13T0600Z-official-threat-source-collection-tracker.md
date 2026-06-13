@@ -54,7 +54,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | CBP statistics | Registered | Border threat vector source packet | Moderate | No route or evasion guidance |
 | Coast Guard sources | Registered | Maritime homeland source packet | Moderate | No patrol or interdiction detail |
 | DOJ NSD | Registered | National security legal-action tracker | Moderate | Case-specific evidence only |
-| NGA public sources | Map/geospatial register, theater map index, and Indo-Pacific/Taiwan map packet added | Europe/NATO/Ukraine map packet | Moderate | No targeting or vulnerability maps |
+| NGA public sources | Map/geospatial register, theater map index, Indo-Pacific/Taiwan map packet, and Philippines/South China Sea map packet added | Europe/NATO/Ukraine map packet | Moderate | No targeting or vulnerability maps |
 
 ## Update Triggers
 
@@ -91,3 +91,4 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - [Legacy Factbook Replacement Note](../source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
 - [Theater Map Index](../source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
+- [Philippines And South China Sea Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)

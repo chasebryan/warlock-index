@@ -54,6 +54,7 @@ used to do.
 | Global strategic operating picture | NGA World Map 2025; NGA Products and Services; BGN; State; UN | World orientation, naming basis, and source-family routing | No global targeting layer or actor-control inference |
 | Europe / Russia / Ukraine | NGA NATO Map 2024; NGA Ukraine Eastern Border Map 2023; NATO on the Map; NATO member-country page; State and allied government maps | Alliance geography, theater orientation, and boundary/naming caveats | No front-line tracking, target mapping, basing inference, or route selection |
 | Indo-Pacific / Taiwan / first island chain | NGA Taiwan 2024; USINDOPACOM Area of Responsibility; allied government maps; BGN | Regional orientation and U.S. command-area framing | No movement tracking, basing inference, access-route analysis, or operational overlays |
+| Philippines / South China Sea / West Philippine Sea | NGA public maps; USINDOPACOM AOR; NAMRIA source family; PCA South China Sea Arbitration; State Limits in the Seas No. 150; Philippine Official Gazette source family | Broad orientation, issuer-language caveats, legal-source routing, and allied-posture context | No vessel routing, interdiction, basing inference, access-route analysis, legal advice, or maritime operational guidance |
 | Middle East / Red Sea / Hormuz | NGA Israel and Surrounding Region 2024; NGA CENTCOM 2023; CENTCOM AOR; NOAA maritime chart source families | Regional orientation, chokepoint context, and command-area framing | No vessel routing, interdiction points, patrol patterns, live maritime layers, or targeting |
 | Africa | AFRICOM Area of Responsibility; NGA public maps where available; State; UN/AU maps; BGN | Subregion orientation and U.S. command-area framing | No sensitive facility overlays, route analysis, or conflict-zone tactical detail |
 | Homeland / Western Hemisphere | USGS The National Map; NOAA Office of Coast Survey; SOUTHCOM AOR; NGA USA Map 2025; NGA Latin America 2025; BGN | U.S. topographic, maritime, hemisphere, and naming context | No domestic surveillance, protest mapping, vulnerability mapping, or route selection |
@@ -69,6 +70,9 @@ used to do.
 | NATO Map 2024 | NGA | Europe / NATO / allied posture | Static public alliance-orientation map |
 | Ukraine Eastern Border Map 2023 | NGA | Europe / Russia / Ukraine | Static public theater-orientation map |
 | Taiwan 2024 | NGA | Indo-Pacific / Taiwan / first island chain | Static public theater-orientation map |
+| NAMRIA public source family | Philippine National Mapping and Resource Information Authority | Philippines / South China Sea / West Philippine Sea | Issuer-language and national mapping source-family routing |
+| The South China Sea Arbitration | Permanent Court of Arbitration | Philippines / South China Sea / West Philippine Sea | Legal-source provenance, not a map source |
+| Limits in the Seas No. 150 | U.S. Department of State | Philippines / South China Sea / West Philippine Sea | Legal-geographic source reference, not a navigation chart |
 | Israel and Surrounding Region 2024 | NGA | Middle East / Red Sea / regional context | Static public theater-orientation map |
 | United States Central Command 2023 | NGA | Middle East / CENTCOM context | Static public command-region orientation map |
 | Latin America 2025 | NGA | Homeland / Western Hemisphere | Static public regional-orientation map |
@@ -138,6 +142,9 @@ targeting, or vulnerability products.
 - Some official maps are interactive or JavaScript-dependent. Products should
   preserve access limitations and avoid silently extracting unsupported map
   layers.
+- Philippines and South China Sea products require source-language discipline
+  because map, legal, diplomatic, and issuer-perspective sources may use
+  different labels for the same geography.
 - Public maps can encode policy, naming, boundary, projection, recognition,
   or source-age choices. Products should state those caveats rather than
   flattening them into Warlock-Index judgments.
@@ -147,6 +154,10 @@ targeting, or vulnerability products.
 - National Geospatial-Intelligence Agency, NGA Maps For Download: `https://www.nga.mil/resources/NGA_Maps_for_Download.html`
 - National Geospatial-Intelligence Agency, Products And Services: `https://www.nga.mil/resources/Products_%26_Services.html`
 - U.S. Indo-Pacific Command, Area of Responsibility: `https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/`
+- National Mapping and Resource Information Authority: `https://www.namria.gov.ph/`
+- Permanent Court of Arbitration, The South China Sea Arbitration: `https://pca-cpa.org/en/cases/7/`
+- U.S. Department of State, Limits in the Seas No. 150: `https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/`
+- Philippine Official Gazette, Administrative Order No. 29: `https://www.officialgazette.gov.ph/2012/09/05/administrative-order-no-29-s-2012/`
 - U.S. Central Command, Area Of Responsibility: `https://www.centcom.mil/AREA-OF-RESPONSIBILITY/`
 - U.S. Africa Command, Area Of Responsibility: `https://www.africom.mil/area-of-responsibility`
 - U.S. Southern Command, Area Of Responsibility: `https://www.southcom.mil/About/Area-of-Responsibility/`
@@ -160,6 +171,7 @@ targeting, or vulnerability products.
 ## Cross References
 
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
+- [Philippines And South China Sea Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [Map And Geospatial Reference Source Register](../../source-registers/map-geospatial-reference.md)
 - [CIA, State, And NGA Foreign Government And Map Reference Packet](../source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
 - [Legacy Factbook Replacement Note](2026-06-13T0938Z-legacy-factbook-replacement-note.md)
