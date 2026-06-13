@@ -9,3 +9,5 @@ Warlock Index from becoming a set of isolated country reports.
 ## Current Products
 
 - [2026-06-13T0049Z - Global Actor-Domain Assimilation Matrix](2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
+- [2026-06-13T0519Z - Maritime Chokepoint Strategic Assimilation Matrix](2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
+- [2026-06-13T0601Z - Official U.S. Threat Source Assimilation Matrix](2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)

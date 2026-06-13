@@ -7,8 +7,16 @@ const suggestionButtons = document.querySelectorAll("[data-query]");
 const defaultResults = corpus.slice(0, 4);
 const cosmosCanvas = document.querySelector("#cosmos-canvas");
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 function normalize(value) {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  return String(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
 function itemHaystack(item) {
@@ -18,14 +26,33 @@ function itemHaystack(item) {
     item.summary,
     item.theater,
     item.domain,
+    item.productId,
+    item.preparedUtc,
+    item.cutoffUtc,
+    item.confidence,
     item.tags.join(" ")
   ].join(" "));
+}
+
+function routeTypeForTerms(terms) {
+  const joined = terms.join(" ");
+  const routes = {
+    "source packets": "source packet",
+    "actor profiles": "actor profile",
+    assessments: "assessment",
+    trackers: "tracker",
+    timelines: "timeline",
+    standards: "standard",
+    matrices: "matrix"
+  };
+  return routes[joined] || "";
 }
 
 function scoreItem(item, terms) {
   const haystack = itemHaystack(item);
   const title = normalize(item.title);
   const tagText = normalize(item.tags.join(" "));
+  const routeType = routeTypeForTerms(terms);
   let score = 0;
 
   terms.forEach((term) => {
@@ -36,6 +63,16 @@ function scoreItem(item, terms) {
 
   if (terms.length > 1 && haystack.includes(terms.join(" "))) {
     score += 5;
+  }
+
+  if (routeType && normalize(item.type) === routeType) {
+    score += 14;
+  }
+
+  if (terms.includes("official") && terms.includes("sources")) {
+    if (normalize(item.type) === "source register") score += 12;
+    if (title.includes("official") || title.includes("intelligence and law enforcement")) score += 8;
+    if (haystack.includes("threat source")) score += 8;
   }
 
   return score;
@@ -69,39 +106,84 @@ function routeLine(query, results) {
   return `Matched "${query}" across ${results.length} route${results.length === 1 ? "" : "s"}: ${types}.`;
 }
 
+function findTitleIncludes(value) {
+  const needle = normalize(value);
+  return corpus.find((item) => normalize(item.title).includes(needle));
+}
+
+function formatUtcDate(value) {
+  if (!value) return "";
+  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  return match ? `${match[1]}-${match[2]}-${match[3]}` : value;
+}
+
+function confidenceLabel(value) {
+  if (!value) return "";
+  const match = String(value).match(/^(high|moderate(?:\s+to\s+high)?|low)\b/i);
+  return match ? match[1].replace(/\b\w/g, (letter) => letter.toUpperCase()) : value;
+}
+
+function resultFacts(item) {
+  return [
+    item.preparedUtc ? `Prepared ${formatUtcDate(item.preparedUtc)}` : "",
+    item.confidence ? `Confidence ${confidenceLabel(item.confidence)}` : "",
+    item.productId || ""
+  ].filter(Boolean);
+}
+
+function renderCard(item) {
+  const facts = resultFacts(item);
+  return `
+    <a class="result-card" href="${escapeHtml(item.path)}">
+      <span class="result-meta">
+        <span>${escapeHtml(item.type)}</span>
+        <span>${escapeHtml(item.theater)}</span>
+        <span>${escapeHtml(item.domain)}</span>
+      </span>
+      <strong>${escapeHtml(item.title)}</strong>
+      ${facts.length ? `
+        <span class="result-facts">
+          ${facts.map((fact) => `<span>${escapeHtml(fact)}</span>`).join("")}
+        </span>
+      ` : ""}
+      <p>${escapeHtml(item.summary)}</p>
+    </a>
+  `;
+}
+
 function renderResults(query, results) {
   const fallback = results.length ? results : [
     corpus[0],
-    corpus.find((item) => item.title === "Official U.S. Sources"),
-    corpus.find((item) => item.title === "Source Evaluation Standard")
+    findTitleIncludes("Official U.S."),
+    findTitleIncludes("Source Evaluation Standard")
   ].filter(Boolean);
 
   output.innerHTML = `
-    <p class="agent-line"><strong>wi</strong> ${routeLine(query, results)}</p>
-    ${fallback.map((item) => `
-      <a class="result-card" href="${item.path}">
-        <span class="result-meta">
-          <span>${item.type}</span>
-          <span>${item.theater}</span>
-          <span>${item.domain}</span>
-        </span>
-        <strong>${item.title}</strong>
-        <p>${item.summary}</p>
-      </a>
-    `).join("")}
+    <p class="agent-line"><strong>wi</strong> ${escapeHtml(routeLine(query, results))}</p>
+    ${fallback.map(renderCard).join("")}
   `;
+}
+
+function setActiveRoute(query) {
+  const normalized = normalize(query);
+  suggestionButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(normalize(button.dataset.query) === normalized));
+  });
 }
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const query = input.value;
   renderResults(query, searchCorpus(query));
+  setActiveRoute(query);
 });
 
 suggestionButtons.forEach((button) => {
+  button.setAttribute("aria-pressed", "false");
   button.addEventListener("click", () => {
     input.value = button.dataset.query;
     renderResults(input.value, searchCorpus(input.value));
+    setActiveRoute(input.value);
     input.focus();
   });
 });

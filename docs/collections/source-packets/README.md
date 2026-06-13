@@ -17,5 +17,6 @@ analysis, deployment schedules, or technical instructions.
 - [Arctic Infrastructure Source Packets](arctic-infrastructure)
 - [Indo-Pacific Allied Posture Source Packets](indo-pacific-allied-posture)
 - [NATO Allied Capacity Source Packets](nato-allied-capacity)
+- [Official U.S. Threat Source Baseline Source Packets](official-threat-source-baseline)
 - [Red Sea Maritime Economics Source Packets](red-sea-maritime-economics)
 - [Strategic Weapons Source Packets](strategic-weapons)

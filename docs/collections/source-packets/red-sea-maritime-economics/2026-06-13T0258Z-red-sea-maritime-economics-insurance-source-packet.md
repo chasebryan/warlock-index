@@ -217,6 +217,11 @@ corridor.
 
 ## Cross References
 
+- [Red Sea Maritime Disruption Strategic Baseline](../../../assessments/middle-east/2026-06-13T0516Z-red-sea-maritime-disruption-strategic-baseline.md)
+- [Houthi Red Sea Maritime Disruption Profile](../../actor-profiles/foreign-terrorist-organizations-and-nonstate-armed-networks/2026-06-13T0517Z-houthi-red-sea-maritime-disruption-profile.md)
+- [Red Sea Maritime Disruption Strategic Tracker](../../trackers/2026-06-13T0518Z-red-sea-maritime-disruption-strategic-tracker.md)
+- [Maritime Chokepoint Strategic Assimilation Matrix](../../global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
+- [Maritime Chokepoints Source Register](../../../source-registers/maritime-chokepoints.md)
 - [Red Sea And Houthi Maritime Disruption Strategic Event Timeline](../../event-timelines/2026-06-13T0208Z-red-sea-houthi-maritime-disruption-strategic-event-timeline.md)
 - [Iran Strategic Actor Classification](../../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 - [Africa Security Environment Strategic Baseline](../../../assessments/africa/2026-06-13T0152Z-africa-security-environment-strategic-baseline.md)

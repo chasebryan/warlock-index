@@ -412,6 +412,12 @@ svg {
   color: var(--muted);
 }
 
+.terminal-suggestions button[aria-pressed="true"] {
+  border-color: rgba(217, 255, 45, 0.52);
+  background: rgba(217, 255, 45, 0.14);
+  color: var(--rune);
+}
+
 .terminal-output {
   display: grid;
   gap: 0.72rem;
@@ -463,6 +469,20 @@ svg {
   font-family: var(--mono);
   font-size: 0.72rem;
   text-transform: uppercase;
+}
+
+.result-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  color: rgba(217, 255, 45, 0.82);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+
+.result-facts span {
+  overflow-wrap: anywhere;
 }
 
 @media (min-width: 1051px) {

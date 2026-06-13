@@ -13,6 +13,7 @@ understanding and research continuity, not for operational direction.
 ## Homeland/Hemisphere
 
 - [2026-06-13T0110Z - U.S. Homeland And Western Hemisphere Strategic Baseline](homeland-hemisphere/2026-06-13T0110Z-us-homeland-western-hemisphere-strategic-baseline.md)
+- [2026-06-13T0558Z - U.S. Official Threat Source Operating Picture](homeland-hemisphere/2026-06-13T0558Z-us-official-threat-source-operating-picture.md)
 
 ## Arctic/High North
 
@@ -32,6 +33,7 @@ understanding and research continuity, not for operational direction.
 ## Middle East
 
 - [2026-06-12T2333Z - Iran Strategic Actor Classification](middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
+- [2026-06-13T0516Z - Red Sea Maritime Disruption Strategic Baseline](middle-east/2026-06-13T0516Z-red-sea-maritime-disruption-strategic-baseline.md)
 
 ## Africa
 

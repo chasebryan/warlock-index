@@ -31,6 +31,7 @@ guidance, or instructions for evasion, recruitment, financing, or violence.
 ## Current Products
 
 - [2026-06-13T0141Z - Foreign Terrorist Organizations And Nonstate Armed Networks Strategic Actor Classification](2026-06-13T0141Z-foreign-terrorist-organizations-nonstate-armed-networks-strategic-actor-classification.md)
+- [2026-06-13T0517Z - Houthi Red Sea Maritime Disruption Profile](2026-06-13T0517Z-houthi-red-sea-maritime-disruption-profile.md)
 
 ## Organizational Tags
 
