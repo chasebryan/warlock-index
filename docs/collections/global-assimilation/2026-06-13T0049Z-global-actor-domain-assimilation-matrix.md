@@ -20,13 +20,13 @@ operations, or diplomatic action.
 
 | Actor | Standing classification | Primary strategic relevance | Current repository status |
 | --- | --- | --- | --- |
-| China / PRC | Principal U.S. peer competitor; CCP party-state; whole-of-nation PLA modernization challenge | Global-scale military, economic, industrial, cyber, space, nuclear, maritime, and technology competitor | Actor profile and strategic classification complete |
+| China / PRC | Principal U.S. peer competitor; CCP party-state; whole-of-nation PLA modernization challenge | Global-scale military, economic, industrial, cyber, space, nuclear, maritime, and technology competitor | Actor profile, strategic classification, and strategic-weapons source packet complete |
 | Russia | Revisionist nuclear peer adversary; principal Euro-Atlantic military threat; active Ukraine war belligerent | Nuclear peer, active warfighting state, NATO threat, hybrid pressure actor, selective alignment hub | Actor profile and strategic classification complete |
 | Iran | Adversarial regional power; regime-survival security state; asymmetric hybrid threat | Middle East missile, UAS, maritime, proxy, cyber, sanctions, and WMD-related risk actor | Actor profile and strategic classification complete |
 | North Korea / DPRK | Nuclear-armed regional adversary; Korean Peninsula flashpoint actor; cyber-finance and sanctions-evasion actor | Homeland-relevant missile and WMD threat, peninsula crisis actor, Russia-war support partner | Actor profile and strategic classification complete |
 | Transnational criminal organizations | Homeland-coupled criminal pressure networks | Drug flows, financial crime, human smuggling, money laundering, corruption, violence, cyber overlap | Strategic actor classification complete |
 | Foreign terrorist organizations | Nonstate violence and ideological mobilization networks | Homeland and overseas attack intent, partner instability, information operations, safe havens | Strategic actor classification complete |
-| NATO and major U.S. allies | Allied capacity and burden-sharing network | Deterrence, industrial capacity, posture, Ukraine support, Indo-Pacific balancing, resilience | Indo-Pacific allied posture profile complete; NATO profile lane open |
+| NATO and major U.S. allies | Allied capacity and burden-sharing network | Deterrence, industrial capacity, posture, Ukraine support, Indo-Pacific balancing, resilience | Indo-Pacific allied posture profile, NATO allied capacity profile, and NATO official source baseline packet complete |
 | U.S. defense industrial base | Strategic capacity foundation | Munitions, shipbuilding, air and missile defense, innovation, logistics, labor, critical inputs | Strategic baseline complete |
 
 ## Theater Crosswalk
@@ -35,7 +35,7 @@ operations, or diplomatic action.
 | --- | --- | --- | --- |
 | Homeland and Western Hemisphere | TCOs, foreign terrorist networks, China, Russia, North Korea, Iran-linked cyber actors | Border security, drugs, cyber, WMD, critical infrastructure, maritime approaches, Arctic access, foreign influence | Cyber, TCOs, Arctic, ports, advanced delivery systems |
 | Indo-Pacific | China, North Korea, Russia-Pacific, U.S. allies and partners | Taiwan, First Island Chain, Korean Peninsula, South China Sea, East China Sea, Guam, Japan, Philippines, Australia, India, Pacific Islands | Taiwan baseline and timeline complete; Japan-Philippines-Australia posture profile complete; semiconductors, shipbuilding, missiles, undersea, cyber, space |
-| Europe and Russia | Russia, NATO, Ukraine, Belarus, China, Iran, North Korea | Ukraine war, NATO defense spending, munitions, sanctions, hybrid pressure, nuclear signaling, Arctic | Defense industrial base, drones, EW, air defense, sanctions |
+| Europe and Russia | Russia, NATO, Ukraine, Belarus, China, Iran, North Korea | Ukraine war, NATO defense spending, munitions, sanctions, hybrid pressure, nuclear signaling, Arctic | NATO profile complete; defense industrial base, drones, EW, air defense, sanctions |
 | Middle East | Iran, Israel, Gulf states, terrorist groups, nonstate armed networks, Russia, China | Missile and UAS proliferation, maritime chokepoints, proxies, WMD-related concerns, terrorism, energy, partner security | Red Sea timeline complete; Hormuz, cyber, sanctions, Russia support |
 | Arctic and High North | Russia, China, NATO allies, United States, Canada, Nordic states | Missile warning, undersea infrastructure, energy, shipping, domain awareness, Russian posture, Chinese access | Strategic baseline and timeline complete; homeland, Europe, space, maritime |
 | Africa | Terrorist networks, Russia-linked security actors, China, regional governments, TCOs | State fragility, coups, terrorism, critical minerals, maritime security, migration, influence competition | Strategic baseline complete; Middle East, Europe, Red Sea timeline, global south diplomacy |
@@ -45,12 +45,12 @@ operations, or diplomatic action.
 
 | Domain | Principal actors | Strategic relevance | Evidence priority |
 | --- | --- | --- | --- |
-| Nuclear and strategic deterrence | Russia, China, North Korea, United States, NATO, Iran-related WMD file | Homeland risk, escalation, assurance, arms control erosion, advanced delivery systems | Strategic weapons timeline complete; official U.S., NATO, IAEA, treaty data, military power reports |
-| Conventional military balance | China, Russia, North Korea, Iran, NATO, U.S. allies | Regional deterrence, warfighting endurance, readiness, logistics, force posture | DoD reports, posture statements, allied defense documents |
+| Nuclear and strategic deterrence | Russia, China, North Korea, United States, NATO, Iran-related WMD file | Homeland risk, escalation, assurance, arms control erosion, advanced delivery systems | Strategic weapons timeline, NATO assurance profile, official source baseline packet, and China source packet complete |
+| Conventional military balance | China, Russia, North Korea, Iran, NATO, U.S. allies | Regional deterrence, warfighting endurance, readiness, logistics, force posture | NATO profile and official source packet complete; DoD reports, posture statements, allied defense documents |
 | Cyber and critical infrastructure | China, Russia, North Korea, Iran, cybercriminals | Espionage, pre-positioning, disruption, theft, revenue generation, infrastructure risk | Strategic baseline complete; ODNI, CISA, FBI, Treasury, allied advisories |
-| Space and counterspace | China, Russia, United States, allies, North Korea, Iran | ISR, communications, navigation, missile warning, economic services, counterspace risk | Strategic baseline complete; ODNI, DoD, Space Force, NATO, commercial SSA data |
+| Space and counterspace | China, Russia, United States, allies, North Korea, Iran | ISR, communications, navigation, missile warning, economic services, counterspace risk | Strategic baseline and China strategic-weapons source packet complete; ODNI, DoD, Space Force, NATO, commercial SSA data |
 | Maritime and chokepoints | China, Iran, Russia, Houthis, TCOs, commercial shipping actors | Taiwan Strait, South China Sea, Hormuz, Red Sea, Black Sea, Arctic, Panama Canal, undersea cables | Red Sea timeline complete; official statements, shipping data, maritime security reporting |
-| Defense industrial base | United States, NATO, China, Russia, Iran, North Korea | Production, replacement rates, surge capacity, munitions, shipbuilding, drones, energetics, critical minerals | DoD, NATO, GAO, CRS, industry filings, allied ministries |
+| Defense industrial base | United States, NATO, China, Russia, Iran, North Korea | Production, replacement rates, surge capacity, munitions, shipbuilding, drones, energetics, critical minerals | U.S. DIB baseline, NATO profile, and NATO source packet complete; DoD, NATO, GAO, CRS, industry filings, allied ministries |
 | Emerging technology | China, United States, Russia, allies, commercial firms | AI, quantum, semiconductors, autonomy, hypersonics, biotechnology, cyber tooling | Official strategies, export controls, research institutions |
 | Information operations | Russia, China, Iran, extremist networks, criminal influence actors | Alliance cohesion, public confidence, elections, crisis perception, mobilization | ODNI, State, platform reports, allied intelligence releases |
 | Sanctions and illicit finance | Russia, Iran, North Korea, TCOs, procurement brokers | War sustainment, weapons programs, procurement, elite survival, evasion networks | Treasury, State, UN, allied sanctions notices, shipping data |
@@ -75,10 +75,10 @@ operations, or diplomatic action.
 
 | Priority | Product | Rationale |
 | --- | --- | --- |
-| 1 | NATO Allied Capacity And Burden-Sharing Profile | Required allied context for Europe, Russia, Ukraine, Arctic, nuclear assurance, and industrial capacity |
-| 2 | Strategic Weapons Source Packet Series | Required source depth for nuclear modernization, missile defense, counterspace, arms-control erosion, and WMD-related concerns |
-| 3 | Red Sea Maritime Economics And Insurance Source Packet | Required strategic-economic context for Suez exposure, shipping risk, port effects, and commercial resilience |
-| 4 | Arctic Source Packet Series | Required source depth for Russia posture, PRC access, Nordic enlargement, indigenous context, and infrastructure exposure |
+| 1 | Red Sea Maritime Economics And Insurance Source Packet | Required strategic-economic context for Suez exposure, shipping risk, port effects, and commercial resilience |
+| 2 | Indo-Pacific Allied Posture Source Packet Series | Required source depth for Japan, Philippines, Australia, AUKUS, EDCA, basing politics, and allied industrial capacity |
+| 3 | Arctic Source Packet Series | Required source depth for Russia posture, PRC access, Nordic enlargement, indigenous context, and infrastructure exposure |
+| 4 | Arms-Control Erosion Source Packet | Required source depth for treaty status, verification disruption, compliance claims, expiration, suspension, and strategic-stability effects |
 
 ## Source Families To Assimilate
 
@@ -103,7 +103,11 @@ operations, or diplomatic action.
 - `Iran Regional Strategic Risk`
 - `DPRK Nuclear-Armed Regional Adversary`
 - `Strategic Weapons Modernization`
+- `Strategic Weapons Official Source Baseline`
+- `China Nuclear And Missile Modernization`
 - `Indo-Pacific Allied Posture`
+- `NATO Allied Capacity`
+- `NATO Official Source Baseline`
 - `Defense Industrial Base`
 - `Cyber And Critical Infrastructure`
 - `Space And Counterspace`

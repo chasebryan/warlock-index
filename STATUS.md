@@ -32,6 +32,11 @@
 - Added the Arctic militarization strategic event timeline.
 - Added the strategic weapons modernization strategic event timeline.
 - Added the Japan-Philippines-Australia allied posture profile.
+- Added the NATO allied capacity and burden-sharing profile.
+- Created the source packets collection and added the strategic weapons
+  official source baseline packet.
+- Added the NATO allied capacity official source baseline packet.
+- Added the China nuclear and missile modernization source packet.
 - Added the initial corpus coverage map.
 - Added the China strategic actor classification and actor profile.
 - Added the Iran strategic actor classification and actor profile.
@@ -52,9 +57,11 @@ The repository is in baseline-building mode. Products prioritize:
 
 ## Next Work Queue
 
-- Add allied posture profiles for NATO and other major U.S. allies.
-- Add source packet series for strategic weapons, Red Sea maritime economics,
-  Arctic infrastructure, and Indo-Pacific allied posture.
+- Add allied posture profiles for other major U.S. allies, including Europe,
+  Canada, the Republic of Korea, and India/Quad-related lanes.
+- Add source packet series for Red Sea maritime economics, Arctic
+  infrastructure, Indo-Pacific allied posture, arms-control erosion, and
+  remaining actor-specific strategic weapons lanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add a website information architecture once the document corpus is large

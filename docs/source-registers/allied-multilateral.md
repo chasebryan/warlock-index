@@ -4,6 +4,20 @@
 
 **Prepared UTC:** 2026-06-12T23:20:35Z
 
+## NATO 2022 Strategic Concept
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** 2022-06-29
+- **Accessed UTC:** 2026-06-13T02:33:47Z
+- **URL:** https://www.nato.int/en/about-us/official-texts-and-resources/strategic-concepts/nato-2022-strategic-concept
+- **Use:** Baseline NATO doctrine for collective defense, the 360-degree
+  approach, the three core tasks, Russia threat framing, China challenge
+  framing, nuclear assurance, resilience, cyber, space, arms control, and
+  cooperative security.
+- **Reliability note:** Authoritative for NATO strategic concept language. It
+  is consensus doctrine and not an independent implementation audit.
+
 ## NATO Washington Summit Declaration
 
 - **Source class:** A
@@ -30,6 +44,92 @@
   defense industrial cooperation.
 - **Reliability note:** Authoritative for NATO declaration language. It does
   not independently verify implementation.
+
+## NATO Defence Expenditures And 5 Percent Commitment
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** Public page updated 2026-04-10
+- **Accessed UTC:** 2026-06-13T02:33:47Z
+- **URL:** https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment
+- **Use:** Baseline NATO public explanation of the agreed defense expenditure
+  definition, Hague 5 percent framework, 3.5 percent core defense component,
+  up to 1.5 percent defense and security-related component, 2025 2 percent
+  attainment, and annual defense expenditure data series.
+- **Reliability note:** Authoritative for NATO definitions, public spending
+  framework, and compendium structure. It is not a country-level readiness or
+  industrial-output assessment.
+
+## NATO Role In Defence Industry Production
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** Public page updated 2025-06-26
+- **Accessed UTC:** 2026-06-13T02:33:47Z
+- **URL:** https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-defence-industry-production
+- **Use:** Baseline NATO public framing for defense industry production,
+  NATO's standard-setting and demand-aggregation role, Defence Production
+  Action Plan, Industrial Capacity Expansion Pledge, stockpile replenishment,
+  Ukraine support, supply-chain resilience, and interoperability.
+- **Reliability note:** Authoritative for NATO public industrial policy and
+  production-coordination framing. It does not independently measure national
+  production rates or bottlenecks.
+
+## NATO Funding
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** Public page current as accessed
+- **Accessed UTC:** 2026-06-13T02:43:41Z
+- **URL:** https://www.nato.int/en/what-we-do/introduction-to-nato/funding-nato
+- **Use:** Baseline NATO public explanation of common funding, national
+  defense investment, burden-sharing logic, non-U.S. spending trends, and
+  U.S.-provided capability dependencies.
+- **Reliability note:** Authoritative for NATO public funding concepts and
+  burden-sharing framing. It does not measure country-level readiness or
+  delivered capability by itself.
+
+## NATO Resilience, Civil Preparedness And Article 3
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** Public page updated 2024-11-13
+- **Accessed UTC:** 2026-06-13T02:43:41Z
+- **URL:** https://www.nato.int/en/what-we-do/deterrence-and-defence/resilience-civil-preparedness-and-article-3
+- **Use:** Baseline NATO public framing for Article 3 resilience, civil
+  preparedness, continuity of government, essential services, civil support to
+  military operations, and civil-commercial dependencies.
+- **Reliability note:** Authoritative for NATO public resilience framing. It
+  requires national sources for country-level implementation assessment.
+
+## NATO Cyber Defence
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** Public page updated 2024-07-30
+- **Accessed UTC:** 2026-06-13T02:43:41Z
+- **URL:** https://www.nato.int/en/what-we-do/deterrence-and-defence/cyber-defence
+- **Use:** Baseline NATO public framing for cyber defence as part of
+  deterrence and defence, Alliance resilience, consultation, information
+  sharing, cyber defence pledge activity, VCISC, and the NATO Integrated Cyber
+  Defence Centre.
+- **Reliability note:** Authoritative for NATO public cyber-policy framing. It
+  is not a technical incident or network-defense source.
+
+## NATO Support For Ukraine
+
+- **Source class:** A
+- **Publisher:** North Atlantic Treaty Organization
+- **Publication date:** Dynamic public page, accessed 2026-06-13
+- **Accessed UTC:** 2026-06-13T02:43:41Z
+- **URL:** https://www.nato.int/en/what-we-do/partnerships-and-cooperation/natos-support-for-ukraine
+- **Use:** Baseline NATO public framing for Allied aid coordination, PURL,
+  NSATU, training, equipment assistance, long-duration support, and Ukraine
+  support as an Alliance capacity stress test.
+- **Reliability note:** Authoritative for NATO public support framing and
+  stated coordination mechanisms. Dynamic aid-flow claims require later dated
+  corroboration from NATO, national governments, EU, Ukraine, or research
+  datasets.
 
 ## UN General Assembly Resolution ES-11/1: Aggression Against Ukraine
 
