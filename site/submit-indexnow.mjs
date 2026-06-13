@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const siteRoot = path.dirname(fileURLToPath(import.meta.url));
 const siteOrigin = "https://www.warlock-index.org";
 const host = "www.warlock-index.org";
-const key = "8f1b4a36-2f20-4dd5-b8a7-5e3e877ff926";
+const key = "8f1b4a362f204dd5b8a75e3e877ff926";
 const keyLocation = `${siteOrigin}/${key}.txt`;
 const endpoint = "https://api.indexnow.org/indexnow";
 const args = new Set(process.argv.slice(2));
