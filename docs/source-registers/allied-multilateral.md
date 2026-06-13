@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-13T03:20:02Z
 
 ## NATO 2022 Strategic Concept
 
@@ -211,6 +211,65 @@
   approaches.
 - **Reliability note:** Authoritative for EU Council public framing and
   mandate language. It does not independently verify incident-level reporting.
+
+## UNCTAD Review Of Maritime Transport 2024
+
+- **Source class:** A
+- **Publisher:** United Nations Trade and Development
+- **Publication date:** 2024-10-22
+- **Accessed UTC:** 2026-06-13T02:58:21Z
+- **URL:** https://unctad.org/publication/review-maritime-transport-2024
+- **Use:** Multilateral source for maritime chokepoint vulnerability, Red Sea
+  and Suez disruption, freight-rate effects, ton-mile demand, insurance costs,
+  port congestion, emissions, and vulnerable-economy exposure.
+- **Reliability note:** Authoritative for UNCTAD public analysis and data
+  presentation. It contains policy language, so Warlock Index products
+  separate data extraction from institutional advocacy.
+
+## Suez Canal Authority Annual Navigation Reports
+
+- **Source class:** A
+- **Publisher:** Suez Canal Authority
+- **Publication date:** Annual reports for 2024 and 2025
+- **Accessed UTC:** 2026-06-13T02:58:21Z
+- **URL:** https://www.suezcanal.gov.eg/English/Navigation/Pages/NavigationStatistics.aspx
+- **Use:** Official canal-operator source for Suez Canal vessel counts, net
+  tonnage, monthly traffic, ship-type distribution, cargo direction, and annual
+  navigation report downloads.
+- **Reliability note:** Authoritative for Suez Canal Authority public
+  statistics. Canal traffic data does not independently prove shipper motive,
+  insurance pricing, or final cargo-delay effects.
+
+## Government Of Canada Our North, Strong And Free
+
+- **Source class:** A
+- **Publisher:** Government of Canada / National Defence
+- **Publication date:** 2024-05-03
+- **Accessed UTC:** 2026-06-13T03:16:36Z
+- **URL:** https://www.canada.ca/en/department-national-defence/corporate/reports-publications/north-strong-free-2024.html
+- **Use:** Allied government source for Canadian defense policy, Arctic and
+  northern defense, North American defense, NORAD modernization, defense
+  investment, procurement, digital transformation, and defense-industrial
+  capacity.
+- **Reliability note:** Authoritative for Canadian defense-policy framing. It
+  is not an independent readiness audit and requires later budget,
+  parliamentary, NORAD, and implementation sources for delivery assessment.
+
+## Government Of Canada Arctic And Northern Policy Framework
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Crown-Indigenous Relations and
+  Northern Affairs Canada
+- **Publication date:** 2019 framework; dynamic public page
+- **Accessed UTC:** 2026-06-13T03:16:36Z
+- **URL:** https://www.rcaanc-cirnac.gc.ca/eng/1560523306861/1560523330587
+- **Use:** Allied government source for Canadian Arctic and northern
+  infrastructure, transportation, energy, communications, community
+  resilience, indigenous and territorial priorities, climate effects, safety,
+  security, defense, and international Arctic leadership.
+- **Reliability note:** Authoritative for Canadian framework language and
+  partner context. It is broad policy guidance and requires later
+  implementation sources for project-level assessment.
 
 ## Australian Submarine Agency AUKUS Agreement Page
 

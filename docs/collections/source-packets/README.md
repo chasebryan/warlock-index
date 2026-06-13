@@ -14,5 +14,8 @@ analysis, deployment schedules, or technical instructions.
 
 ## Current Source Packet Series
 
+- [Arctic Infrastructure Source Packets](arctic-infrastructure)
+- [Indo-Pacific Allied Posture Source Packets](indo-pacific-allied-posture)
 - [NATO Allied Capacity Source Packets](nato-allied-capacity)
+- [Red Sea Maritime Economics Source Packets](red-sea-maritime-economics)
 - [Strategic Weapons Source Packets](strategic-weapons)
