@@ -51,7 +51,8 @@ Google Search Console ownership verification uses the static HTML file
 `google1f03f3c72b45053d.html` at the site root. Keep this file published after
 verification so ownership remains valid.
 
-The repository also includes an IndexNow key file and submitter:
+The repository also includes an IndexNow key file and submitter. The active
+key file is `8f1b4a362f204dd5b8a75e3e877ff926.txt`.
 
 ```sh
 node site/submit-indexnow.mjs --dry-run
