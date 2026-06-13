@@ -10,7 +10,7 @@ const keyLocation = `${siteOrigin}/${key}.txt`;
 const endpoint = "https://api.indexnow.org/indexnow";
 const args = new Set(process.argv.slice(2));
 const liveMode = args.has("--live");
-const maxAttempts = Number(process.env.INDEXNOW_ATTEMPTS ?? (liveMode ? 6 : 1));
+const maxAttempts = Number(process.env.INDEXNOW_ATTEMPTS ?? (liveMode ? 12 : 1));
 const retryDelayMs = Number(process.env.INDEXNOW_RETRY_DELAY_MS ?? 60000);
 const retryStatuses = new Set([403, 429, 500, 502, 503, 504]);
 const requestHeaders = {
@@ -81,42 +81,57 @@ if (args.has("--dry-run")) {
   process.exit(0);
 }
 
-if (liveMode) {
-  await verifyLiveKey();
-  console.log(`Verified live IndexNow key at ${keyLocation}`);
-}
-
 let lastStatus = 0;
+let lastError = "";
 
 for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
-  const response = await fetch(endpoint, {
-    method: "POST",
-    headers: {
-      ...requestHeaders,
-      "content-type": "application/json; charset=utf-8"
-    },
-    body: JSON.stringify(payload)
-  });
+  try {
+    if (liveMode) {
+      await verifyLiveKey();
+      console.log(`Verified live IndexNow key at ${keyLocation}`);
+    }
 
-  lastStatus = response.status;
-  const body = await response.text();
-  console.log(`IndexNow response: ${response.status} ${response.statusText}`);
-  if (body.trim()) console.log(body);
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        ...requestHeaders,
+        "content-type": "application/json; charset=utf-8"
+      },
+      body: JSON.stringify(payload)
+    });
 
-  if ([200, 202].includes(response.status)) {
-    process.exit(0);
+    lastStatus = response.status;
+    const body = await response.text();
+    console.log(`IndexNow response: ${response.status} ${response.statusText}`);
+    if (body.trim()) console.log(body);
+
+    if ([200, 202].includes(response.status)) {
+      process.exit(0);
+    }
+
+    if (!retryStatuses.has(response.status)) {
+      break;
+    }
+  } catch (error) {
+    lastError = error instanceof Error ? error.message : String(error);
+    console.log(`IndexNow preflight failed: ${lastError}`);
+    if (!liveMode) {
+      break;
+    }
   }
 
-  if (!liveMode || attempt === maxAttempts || !retryStatuses.has(response.status)) {
+  if (!liveMode || attempt === maxAttempts) {
     break;
   }
 
   console.log(
     `Retrying IndexNow submission in ${Math.round(retryDelayMs / 1000)}s ` +
-      `(attempt ${attempt + 1}/${maxAttempts}) after HTTP ${response.status}.`
+      `(attempt ${attempt + 1}/${maxAttempts})` +
+      (lastStatus ? ` after HTTP ${lastStatus}.` : ".")
   );
   await sleep(retryDelayMs);
 }
 
-console.error(`IndexNow submission failed after ${maxAttempts} attempt(s); last status ${lastStatus}.`);
+const finalReason = lastStatus ? `last status ${lastStatus}` : `last error: ${lastError}`;
+console.error(`IndexNow submission failed after ${maxAttempts} attempt(s); ${finalReason}.`);
 process.exit(1);
