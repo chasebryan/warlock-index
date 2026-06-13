@@ -47,6 +47,10 @@ After deployment and HTTPS certificate provisioning, submit
 `https://www.warlock-index.org/sitemap.xml` through search engine webmaster
 tools for faster discovery.
 
+Google Search Console ownership verification uses the static HTML file
+`google1f03f3c72b45053d.html` at the site root. Keep this file published after
+verification so ownership remains valid.
+
 The repository also includes an IndexNow key file and submitter:
 
 ```sh
