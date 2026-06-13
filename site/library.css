@@ -250,6 +250,11 @@ svg {
   gap: 0.4rem;
 }
 
+.doc-group[hidden],
+.doc-link[hidden] {
+  display: none !important;
+}
+
 .doc-group h2 {
   margin: 0;
   color: var(--brass);

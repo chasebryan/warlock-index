@@ -7,13 +7,17 @@ function normalize(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function tokensFor(value) {
+  return normalize(value).split(" ").filter(Boolean);
+}
+
 function applyFilter() {
-  const query = normalize(filterInput?.value || "");
+  const queryTokens = tokensFor(filterInput?.value || "");
   let visibleCount = 0;
 
   links.forEach((link) => {
-    const haystack = normalize(link.textContent);
-    const isVisible = !query || haystack.includes(query);
+    const haystack = normalize(`${link.textContent} ${link.getAttribute("href") || ""}`);
+    const isVisible = !queryTokens.length || queryTokens.every((token) => haystack.includes(token));
     link.hidden = !isVisible;
     if (isVisible) visibleCount += 1;
   });
