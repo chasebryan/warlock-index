@@ -49,12 +49,15 @@ future open-source defense assessments.
 ## Product Types
 
 - Strategic baseline.
+- Global operating picture.
 - Actor profile.
 - Theater profile.
 - Event timeline.
 - Capability profile.
 - Source packet.
+- Tracker.
 - Indicator watchlist.
+- Actor-domain assimilation matrix.
 - Assumption check.
 - Prior assessment update.
 
@@ -71,8 +74,8 @@ future open-source defense assessments.
 
 ## Quality Gate For New Products
 
-Before a new assessment is considered part of the finished corpus, it should
-have:
+Before a new assessment is considered part of the finished corpus, the core
+metadata set includes:
 
 - A clear product ID.
 - A UTC preparation time.
@@ -83,4 +86,3 @@ have:
   judgments.
 - A no-recommendations and no-operational-guidance boundary.
 - A source list that a later researcher can follow.
-

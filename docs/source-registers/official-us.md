@@ -39,6 +39,186 @@
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is a
   policy document, not a neutral outside assessment.
 
+## 2024 Department Of Defense Arctic Strategy
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense
+- **Publication date:** 2024-06-21 memorandum; public PDF released July 2024
+- **Accessed UTC:** 2026-06-13T01:48:56Z
+- **URL:** https://media.defense.gov/2024/Jul/22/2003507411/-1/-1/0/DOD-ARCTIC-STRATEGY-2024.PDF
+- **Use:** Current public U.S. defense strategy framing for the Arctic as a
+  homeland-defense, alliance, domain-awareness, PRC-Russia cooperation,
+  climate-access, infrastructure, communications, missile-warning, and
+  monitor-and-respond problem.
+- **Reliability note:** Authoritative for stated U.S. defense strategy. It is
+  a policy document, not a neutral outside assessment, and Warlock Index
+  products separate departmental intent from independent analytic judgment.
+
+## U.S. Africa Command 2025 Posture Statement To Congress
+
+- **Source class:** A
+- **Publisher:** U.S. Africa Command
+- **Publication date:** 2025-04-03
+- **Accessed UTC:** 2026-06-13T01:52:27Z
+- **URL:** https://www.africom.mil/document/35820/2025-sasc-posture-statementpdf
+- **Use:** Public command testimony for Africa as a nexus theater, including
+  terrorism, partner capacity, East Africa, North Africa, West Africa,
+  Central and Southern Africa, critical minerals, China influence, maritime
+  security, and crisis-response context.
+- **Reliability note:** Authoritative for AFRICOM's public command view. It is
+  congressional posture testimony, so Warlock Index products separate command
+  priorities from independent analytic judgment.
+
+## U.S. Africa Command Public Command Overview
+
+- **Source class:** A
+- **Publisher:** U.S. Africa Command
+- **Accessed UTC:** 2026-06-13T01:52:27Z
+- **URL:** https://www.africom.mil/about-the-command
+- **Use:** Baseline public command description for AFRICOM's area of
+  responsibility, mission, personnel, partner architecture, and component
+  structure.
+- **Reliability note:** Authoritative for public command description. The site
+  is dynamic, so dated captures and direct page links are required for
+  time-sensitive claims.
+
+## 2025 National Security Strategy
+
+- **Source class:** A
+- **Publisher:** White House
+- **Publication date:** November 2025
+- **Accessed UTC:** 2026-06-13T01:10:07Z
+- **URL:** https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf
+- **Use:** Baseline public U.S. strategy framing for vital interests, Western
+  Hemisphere prioritization, strategic geography, critical supply chains,
+  outside-state influence, and regional access.
+- **Reliability note:** Authoritative for stated U.S. national security
+  strategy. It is a policy document, not a neutral outside assessment, and
+  is separated from analytic judgment in Warlock Index products.
+
+## U.S. Code Taiwan Relations Act
+
+- **Source class:** A
+- **Publisher:** Office of the Law Revision Counsel, U.S. House of
+  Representatives
+- **Publication date:** Current U.S. Code chapter view, accessed 2026-06-13
+- **Accessed UTC:** 2026-06-13T02:03:36Z
+- **URL:** https://uscode.house.gov/view.xhtml?path=/prelim@title22/chapter48&edition=prelim
+- **Use:** Baseline statutory text for U.S. policy interests involving
+  Taiwan, Western Pacific peace and stability, unofficial relations, defensive
+  capacity, and coercion concerns.
+- **Reliability note:** Authoritative for the published U.S. Code text. Legal
+  text is policy and statutory evidence, not an independent intelligence
+  assessment, and Warlock Index products use it for policy architecture rather
+  than predictive judgment.
+
+## U.S. Industrial Base Policy Public Website
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense / Department of War Industrial Base
+  Policy
+- **Accessed UTC:** 2026-06-13T01:17:09Z
+- **URL:** https://www.businessdefense.gov/
+- **Use:** Current public official framing for Industrial Base Policy mission,
+  organization, priorities, production, productivity, and public announcements.
+- **Reliability note:** Authoritative for public Industrial Base Policy
+  messaging and organizational framing. The site is dynamic, so dated captures
+  and direct page links are used for time-sensitive claims.
+
+## U.S. Industrial Base Resilience Public Page
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense / Department of War Industrial Base
+  Policy
+- **Accessed UTC:** 2026-06-13T01:17:09Z
+- **URL:** https://www.businessdefense.gov/ibr/index.html
+- **Use:** Current public official framing for Industrial Base Resilience,
+  supply-chain vulnerability analysis, Defense Production Act and Industrial
+  Base Fund investment activity, and sub-tier supplier risk mitigation.
+- **Reliability note:** Authoritative for public Industrial Base Resilience
+  organizational framing. The site is dynamic, so dated captures and direct
+  page links are used for time-sensitive claims.
+
+## Treasury 2024 National Money Laundering Risk Assessment
+
+- **Source class:** A
+- **Publisher:** U.S. Department of the Treasury
+- **Publication date:** February 2024
+- **Accessed UTC:** 2026-06-13T01:39:11Z
+- **URL:** https://home.treasury.gov/system/files/136/2024-National-Money-Laundering-Risk-Assessment.pdf
+- **Use:** Baseline public U.S. framing for money laundering threats,
+  including fraud, drug trafficking, cybercrime, professional money laundering,
+  corruption, human trafficking, human smuggling, cash, virtual assets, and
+  financial-system vulnerabilities.
+- **Reliability note:** Authoritative for public Treasury risk framing and
+  useful for strategic illicit-finance analysis. It is not a live operational
+  map and benefits from cross-reading with later Treasury, DOJ, DEA, DHS, and allied
+  releases for current cases.
+
+## Treasury 2024 National Terrorist Financing Risk Assessment
+
+- **Source class:** A
+- **Publisher:** U.S. Department of the Treasury
+- **Publication date:** February 2024
+- **Accessed UTC:** 2026-06-13T01:39:11Z
+- **URL:** https://home.treasury.gov/system/files/136/2024-National-Terrorist-Financing-Risk-Assessment.pdf
+- **Use:** Baseline public U.S. framing for terrorist financing threats,
+  vulnerabilities, and trends involving ISIS, al-Qaida, Hizballah, Hamas,
+  domestic violent extremism, transnational racially or ethnically motivated
+  violent extremism, money services businesses, cash, banks, virtual assets,
+  nonprofits, and online fundraising.
+- **Reliability note:** Authoritative for public Treasury terrorist-financing
+  risk framing. Because it reflects a 2022-2023 review period, current claims
+  require later ODNI, Treasury, State, FBI, DHS, DOJ, UN, or allied updates.
+
+## 2025 White House Cartel And Transnational Organization Designation Order
+
+- **Source class:** A
+- **Publisher:** White House
+- **Publication date:** 2025-01-20
+- **Accessed UTC:** 2026-06-13T01:39:11Z
+- **URL:** https://www.whitehouse.gov/presidential-actions/2025/01/designating-cartels-and-other-organizations-as-foreign-terrorist-organizations-and-specially-designated-global-terrorists/
+- **Use:** Public U.S. policy context for designation processes involving
+  certain international cartels and transnational organizations as potential
+  Foreign Terrorist Organizations or Specially Designated Global Terrorists.
+- **Reliability note:** Authoritative for stated executive-branch policy and
+  designation process context. It is policy language, not neutral analytic
+  judgment; Warlock Index products distinguish designation status from
+  independent classification of criminal, terrorist, insurgent, or state-proxy
+  behavior.
+
+## 2026 U.S. Counterterrorism Strategy
+
+- **Source class:** A
+- **Publisher:** White House
+- **Publication date:** May 2026
+- **Accessed UTC:** 2026-06-13T01:41:46Z
+- **URL:** https://www.whitehouse.gov/wp-content/uploads/2026/05/2026-USCT-Strategy-1.pdf
+- **Use:** Current public U.S. counterterrorism strategy framing for threat
+  families, homeland emphasis, regional prioritization, terrorist-financing
+  concerns, cartels and transnational gangs, legacy jihadist terrorism,
+  domestic political violence framing, and WMD-related terrorism concerns.
+- **Reliability note:** Authoritative for stated executive-branch strategy and
+  policy priorities. It includes political and operational language; Warlock
+  Index products use it as policy-context evidence and separate it from
+  analytic judgment.
+
+## Executive Order 14175: Designation Of Ansar Allah
+
+- **Source class:** A
+- **Publisher:** Federal Register / Executive Office of the President
+- **Publication date:** 2025-01-31
+- **Accessed UTC:** 2026-06-13T02:08:52Z
+- **URL:** https://www.federalregister.gov/documents/2025/01/31/2025-02103/designation-of-ansar-allah-as-a-foreign-terrorist-organization
+- **Use:** Public U.S. legal and policy framing for Ansar Allah, also known
+  as the Houthis, including designation process, Iran support language,
+  attacks against U.S. Navy warships and commercial vessels, Bab al-Mandeb
+  disruption, civilian deaths, rerouting, and global maritime-trade effects.
+- **Reliability note:** Authoritative for the published executive order and
+  Federal Register metadata. It is policy and legal framing, not neutral
+  independent intelligence assessment; Warlock Index products separate the
+  designation basis from broader analytic judgment.
+
 ## 2022 National Defense Strategy, Nuclear Posture Review, And Missile Defense Review
 
 - **Source class:** A
@@ -51,6 +231,21 @@
 - **Reliability note:** Superseded as current strategy by the 2026 NDS but
   still valuable for continuity analysis.
 
+## State Department New START Treaty Materials
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Publication date:** 2010 treaty materials; archived State Department
+  access path
+- **Accessed UTC:** 2026-06-13T02:15:18Z
+- **URL:** https://2009-2017.state.gov/t/avc/trty/126118.htm
+- **Use:** Historical official U.S. source for New START treaty text,
+  protocol context, central-limit framing, and arms-control baseline analysis.
+- **Reliability note:** Authoritative for archived State Department treaty
+  materials. It is a historical treaty source and requires later ODNI, DoD,
+  State, NATO, and congressional sources for current status and compliance
+  claims.
+
 ## 2025 Report To Congress On Military And Security Developments Involving The PRC
 
 - **Source class:** A
@@ -61,7 +256,7 @@
 - **Use:** Primary unclassified baseline on PLA strategy, capabilities,
   modernization, Taiwan pressure, and PRC military technology.
 - **Reliability note:** Authoritative U.S. defense assessment for public use.
-  It is focused on U.S. security concerns and should be cross-read with allied,
+  It is focused on U.S. security concerns and is cross-read with allied,
   academic, and PRC primary sources where appropriate.
 
 ## DIA Iran Military Power
@@ -78,7 +273,7 @@
   structure.
 - **Reliability note:** Authoritative U.S. defense intelligence baseline for
   public use. Because the information cutoff is August 2019, current capability
-  claims should be refreshed with newer ODNI, DoD, IAEA, congressional, allied,
+  claims are refreshed with newer ODNI, DoD, IAEA, congressional, allied,
   or reputable research sources.
 
 ## DIA Russia Military Power
@@ -94,5 +289,5 @@
   defense industry.
 - **Reliability note:** Authoritative U.S. defense intelligence baseline for
   public use. Because the report predates Russia's 2022 full-scale invasion of
-  Ukraine, current capability claims should be refreshed with newer ODNI, DoD,
+  Ukraine, current capability claims are refreshed with newer ODNI, DoD,
   NATO, congressional, allied, or reputable research sources.
