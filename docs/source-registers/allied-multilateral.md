@@ -27,7 +27,8 @@
 - **URL:** https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration
 - **Use:** Baseline NATO position on Russia, Ukraine, defense spending,
   deterrence and defense, PRC-Russia alignment, DPRK and Iranian support to
-  Russia, and Indo-Pacific partner cooperation.
+  Russia, Indo-Pacific partner cooperation, and Russia strategic-weapons
+  nuclear signaling source work.
 - **Reliability note:** Authoritative for NATO consensus language. It reflects
   alliance political agreement and is treated as official policy
   framing.

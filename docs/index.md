@@ -80,6 +80,7 @@ This index is the working navigation hub for Warlock-Index.
 - [Strategic Weapons Official Source Baseline Packet](collections/source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)
 - [China Nuclear And Missile Modernization Source Packet](collections/source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
 - [Arms-Control Erosion Source Packet](collections/source-packets/strategic-weapons/2026-06-13T0320Z-arms-control-erosion-source-packet.md)
+- [Russia Strategic Weapons And Nuclear Signaling Source Packet](collections/source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [Event Timelines](collections/event-timelines)
 - [Ukraine War Strategic Event Timeline](collections/event-timelines/2026-06-13T0157Z-ukraine-war-strategic-event-timeline.md)
 - [Taiwan Strait Coercion Strategic Event Timeline](collections/event-timelines/2026-06-13T0203Z-taiwan-strait-coercion-strategic-event-timeline.md)

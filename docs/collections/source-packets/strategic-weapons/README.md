@@ -18,3 +18,4 @@ instructions.
 - [2026-06-13T0239Z - Strategic Weapons Official Source Baseline Packet](2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)
 - [2026-06-13T0250Z - China Nuclear And Missile Modernization Source Packet](2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
 - [2026-06-13T0320Z - Arms-Control Erosion Source Packet](2026-06-13T0320Z-arms-control-erosion-source-packet.md)
+- [2026-06-13T2051Z - Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)

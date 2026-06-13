@@ -78,7 +78,7 @@ supports assessment continuity without recommending a policy response.
 
 | Actor | Arms-control relevance | Main Warlock links | Source caution |
 | --- | --- | --- | --- |
-| Russia | New START suspension and expiration, nuclear signaling, Ukraine-war context, strategic and nonstrategic nuclear forces | Russia profile, strategic weapons packet, NATO profile, Ukraine tracker | Public sources omit classified posture and decision thresholds |
+| Russia | New START suspension and expiration, nuclear signaling, Ukraine-war context, strategic and nonstrategic nuclear forces | Russia profile, Russia strategic-weapons packet, strategic weapons packet, NATO profile, Ukraine tracker | Public sources omit classified posture and decision thresholds |
 | China | Nuclear expansion, missile modernization, reluctance or absence in legacy U.S.-Russia frameworks | China strategic weapons packet, Taiwan baseline, global matrix | Public estimates vary and official PRC transparency is limited |
 | North Korea | Nuclear and missile development outside major arms-control frameworks; DPRK cyber finance and Russia support links | DPRK profile, ROK profile, cyber baseline | Public claims require strong sourcing and date discipline |
 | Iran | WMD-related uncertainty, missile and UAS activity, regional proliferation concern | Iran profile, Middle East lane, FTO/nonstate networks | Separate nuclear, missile, UAS, and proxy claims carefully |
@@ -179,6 +179,7 @@ recommendations from it.
 - [Arms-Control Erosion Source Packet](../source-packets/strategic-weapons/2026-06-13T0320Z-arms-control-erosion-source-packet.md)
 - [Strategic Weapons Official Source Baseline Packet](../source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)
 - [China Nuclear And Missile Modernization Source Packet](../source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
+- [Russia Strategic Weapons And Nuclear Signaling Source Packet](../source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [NATO Allied Capacity And Burden-Sharing Profile](../actor-profiles/nato-and-major-us-allies/2026-06-13T0233Z-nato-allied-capacity-burden-sharing-profile.md)
 - [Republic Of Korea Allied Posture Profile](../actor-profiles/indo-pacific-allies-and-partners/2026-06-13T0317Z-republic-of-korea-allied-posture-profile.md)

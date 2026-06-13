@@ -13,7 +13,8 @@
 - **URL:** https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf
 - **Use:** Baseline U.S. Intelligence Community view of threats to the
   homeland, major power competition, technology, cyber, space, WMD, and
-  regional conflicts.
+  regional conflicts. Also used as a primary source for the Russia strategic
+  weapons and nuclear signaling packet.
 - **Reliability note:** Authoritative for the public IC assessment. It remains
   a public product with policy-era framing and release constraints.
 
@@ -285,7 +286,8 @@
 - **Accessed UTC:** 2026-06-12T23:20:35Z
 - **URL:** https://media.defense.gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.PDF
 - **Use:** Historical comparison for integrated deterrence, campaigning, and
-  resilience concepts.
+  resilience concepts, and a nuclear-posture and missile-defense policy
+  baseline for Russia strategic-weapons source work.
 - **Reliability note:** Superseded as current strategy by the 2026 NDS but
   still valuable for continuity analysis.
 
@@ -298,7 +300,8 @@
 - **Accessed UTC:** 2026-06-13T02:15:18Z
 - **URL:** https://2009-2017.state.gov/t/avc/trty/126118.htm
 - **Use:** Historical official U.S. source for New START treaty text,
-  protocol context, central-limit framing, and arms-control baseline analysis.
+  protocol context, central-limit framing, arms-control baseline analysis, and
+  Russia strategic-weapons treaty-status source work.
 - **Reliability note:** Authoritative for archived State Department treaty
   materials. It is a historical treaty source and requires later ODNI, DoD,
   State, NATO, and congressional sources for current status and compliance
@@ -344,7 +347,9 @@
 - **Use:** Durable baseline on Russian defense strategy, military
   modernization, nuclear forces, information operations, cyber, electronic
   warfare, indirect action, space/counterspace, denial and deception, and
-  defense industry.
+  defense industry. Used as older background in the Russia strategic weapons
+  and nuclear signaling packet, with current claims refreshed through ODNI,
+  DoD, NATO, State, and research sources.
 - **Reliability note:** Authoritative U.S. defense intelligence baseline for
   public use. Because the report predates Russia's 2022 full-scale invasion of
   Ukraine, current capability claims are refreshed with newer ODNI, DoD,

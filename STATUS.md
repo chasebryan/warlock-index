@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T20:36:02Z
+**Prepared UTC:** 2026-06-13T20:51:37Z
 
 ## Completed
 
@@ -64,6 +64,13 @@
   website.
 - Added Google Search Console HTML-file ownership verification support for the
   public website.
+- Verified Google Search Console ownership, submitted the public sitemap, and
+  requested homepage indexing while keeping search aliases out of visible hero
+  copy.
+- Repaired IndexNow key validation with a plain hex key and verified accepted
+  submission workflow behavior.
+- Added the Russia strategic weapons and nuclear signaling source packet with
+  website-facing discovery wiring.
 
 ## Current Analytical Posture
 
@@ -84,8 +91,8 @@ The repository is in baseline-building mode. Products prioritize:
   cooperation, Republic of Korea extended deterrence, AUKUS industrial
   implementation, ICE Pact implementation, NORAD modernization, New START
   post-expiration status, and Red Sea follow-on economics sublanes.
-- Add remaining actor-specific strategic weapons source packets for Russia,
-  North Korea, Iran, and multilateral strategic stability.
+- Add remaining actor-specific strategic weapons source packets for North Korea,
+  Iran, and multilateral strategic stability.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add additional map-heavy theater source packets as needed.

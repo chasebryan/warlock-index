@@ -176,7 +176,7 @@ congressional reporting for current-state analysis.
 | --- | --- | --- |
 | Arms-Control Erosion Source Packet | Separate treaty text, compliance findings, verification status, expiration, suspension, and diplomatic statements | State, ODNI, NATO, CRS, UN |
 | China Nuclear And Missile Modernization Source Packet | Initial packet complete; future updates deepen PRC nuclear, missile, early-warning, Rocket Force, counterspace, and C4ISR evidence | DoD PRC reports, ODNI, allied defense documents |
-| Russia Strategic Weapons And Nuclear Signaling Source Packet | Deepen Russia nuclear modernization, arms-control behavior, Ukraine-war signaling, and counterspace links | ODNI, DIA, NATO, State, congressional testimony |
+| Russia Strategic Weapons And Nuclear Signaling Source Packet | Initial packet complete; future updates deepen post-New START behavior, CTBT signaling, counterspace links, and nonstrategic nuclear source discipline | ODNI, DIA, NATO, State, congressional testimony |
 | DPRK Strategic Weapons Source Packet | Deepen DPRK nuclear, missile, Russia-support, sanctions, and homeland missile-warning evidence | ODNI, DoD, State, UN, ROK/Japan sources |
 | Iran WMD And Missile-Relevance Source Packet | Separate nuclear-obligation concerns, missile development, UAS proliferation, CBW concerns, and regional deterrence effects | ODNI, DIA, IAEA, State, Treasury |
 | Missile Defense And Homeland Warning Source Packet | Connect missile threat growth, sensor architecture, industrial pressure, and homeland defense | ODNI, MDR, MDA, NORTHCOM, Space Force, GAO/CRS |
@@ -203,6 +203,7 @@ congressional reporting for current-state analysis.
 - [U.S. Homeland And Western Hemisphere Strategic Baseline](../../../assessments/homeland-hemisphere/2026-06-13T0110Z-us-homeland-western-hemisphere-strategic-baseline.md)
 - [China Strategic Actor Classification](../../../assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.md)
 - [Russia Strategic Actor Classification](../../../assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)
+- [Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [North Korea Strategic Actor Classification](../../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)
 - [Iran Strategic Actor Classification](../../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 - [NATO Allied Capacity And Burden-Sharing Profile](../../actor-profiles/nato-and-major-us-allies/2026-06-13T0233Z-nato-allied-capacity-burden-sharing-profile.md)

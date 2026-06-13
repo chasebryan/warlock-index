@@ -48,7 +48,8 @@ official-source baselines and graded explicitly.
 - **URL:** https://www.armscontrol.org/factsheets/new-start-glance
 - **Use:** Research source for New START treaty history, central limits,
   verification provisions, Russian suspension, 2026 expiration, and
-  post-expiration arms-control context.
+  post-expiration arms-control context. Used as a Class B synthesis source in
+  the Russia strategic weapons and nuclear signaling packet.
 - **Reliability note:** Specialist arms-control research source with clear
   sourcing and useful synthesis. It is not an official government source and
   should be cross-read with treaty texts, State, DoD, NATO, UN, CRS, and
