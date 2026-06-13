@@ -12,7 +12,7 @@
 
 ## Standing Classification
 
-Iran is classified for Warlock-Index purposes as:
+Iran is classified for WARLOCK-INDEX purposes as:
 
 **Adversarial regional power; regime-survival security state; asymmetric hybrid
 threat; elevated WMD-related compliance and recovery concern; persistent state
@@ -36,4 +36,4 @@ actor.**
 ## Linked Products
 
 - [2026-06-12T2333Z - Iran Strategic Actor Classification](../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
-
+- [2026-06-13T2203Z - Iran WMD And Missile-Relevance Source Packet](../source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)

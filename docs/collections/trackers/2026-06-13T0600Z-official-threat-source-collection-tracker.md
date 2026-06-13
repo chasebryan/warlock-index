@@ -36,7 +36,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 
 | Source family | Current status | Next product | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
-| ODNI Annual Threat Assessment | Active in repo; used in Russia and DPRK strategic-weapons packets | Keep annual comparison packet current | High | No classified inference |
+| ODNI Annual Threat Assessment | Active in repo; used in Russia, DPRK, and Iran strategic-weapons packets | Keep annual comparison packet current | High | No classified inference |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
 | CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
 | FBI terrorism | Registered | FBI/DHS terrorism source packet | High | No political profiling or tactics |
@@ -95,3 +95,4 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - [Europe, NATO, And Ukraine Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](../source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [DPRK Strategic Weapons Source Packet](../source-packets/strategic-weapons/2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
+- [Iran WMD And Missile-Relevance Source Packet](../source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)

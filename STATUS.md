@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T21:51:45Z
+**Prepared UTC:** 2026-06-13T22:03:29Z
 
 ## Completed
 
@@ -73,6 +73,8 @@
   website-facing discovery wiring.
 - Added the DPRK strategic weapons source packet with website-facing discovery
   wiring.
+- Added the Iran WMD and missile-relevance source packet with website-facing
+  discovery wiring.
 
 ## Current Analytical Posture
 
@@ -93,8 +95,7 @@ The repository is in baseline-building mode. Products prioritize:
   cooperation, Republic of Korea extended deterrence, AUKUS industrial
   implementation, ICE Pact implementation, NORAD modernization, New START
   post-expiration status, and Red Sea follow-on economics sublanes.
-- Add remaining actor-specific strategic weapons source packets for Iran and
-  multilateral strategic stability.
+- Add the remaining multilateral strategic stability source packet.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add additional map-heavy theater source packets as needed.

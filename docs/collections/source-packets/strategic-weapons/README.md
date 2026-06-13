@@ -20,3 +20,4 @@ instructions.
 - [2026-06-13T0320Z - Arms-Control Erosion Source Packet](2026-06-13T0320Z-arms-control-erosion-source-packet.md)
 - [2026-06-13T2051Z - Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [2026-06-13T2151Z - DPRK Strategic Weapons Source Packet](2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
+- [2026-06-13T2203Z - Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)

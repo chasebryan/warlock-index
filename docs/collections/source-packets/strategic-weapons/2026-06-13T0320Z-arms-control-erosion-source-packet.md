@@ -187,6 +187,7 @@ not be carried as fact.
 - [China Nuclear And Missile Modernization Source Packet](2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [DPRK Strategic Weapons Source Packet](2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
+- [Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [Russia Strategic Actor Classification](../../../assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)
 - [North Korea Strategic Actor Classification](../../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)

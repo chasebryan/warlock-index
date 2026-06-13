@@ -14,7 +14,8 @@
 - **Use:** Baseline U.S. Intelligence Community view of threats to the
   homeland, major power competition, technology, cyber, space, WMD, and
   regional conflicts. Also used as a primary source for the Russia strategic
-  weapons and nuclear signaling packet and the DPRK strategic weapons packet.
+  weapons and nuclear signaling packet, the DPRK strategic weapons packet, and
+  the Iran WMD and missile-relevance packet.
 - **Reliability note:** Authoritative for the public IC assessment. It remains
   a public product with policy-era framing and release constraints.
 
@@ -38,7 +39,7 @@
 - **Use:** Baseline public U.S. defense strategy framing: homeland defense,
   Indo-Pacific deterrence, ally burden-sharing, and defense industrial base.
   Also used for DPRK threat framing involving the ROK, Japan, and the U.S.
-  homeland.
+  homeland and for Iran post-conflict reconstitution and nuclear-risk framing.
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is a
   policy document, not a neutral outside assessment.
 
@@ -54,7 +55,7 @@
   climate-access, infrastructure, communications, missile-warning, and
   monitor-and-respond problem.
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is
-  a policy document, not a neutral outside assessment, and Warlock-Index
+  a policy document, not a neutral outside assessment, and WARLOCK-INDEX
   products separate departmental intent from independent analytic judgment.
 
 ## White House Camp David Principles
@@ -100,7 +101,7 @@
   DPRK nuclear and missile threat framing, strategic assurance analysis, and
   DPRK strategic-weapons source work.
 - **Reliability note:** Authoritative for archived White House statement
-  language. Warlock-Index products use it at strategic consultation level and
+  language. WARLOCK-INDEX products use it at strategic consultation level and
   do not derive nuclear planning or operational detail from it.
 
 ## White House ICE Pact Announcement
@@ -130,7 +131,7 @@
   Central and Southern Africa, critical minerals, China influence, maritime
   security, and crisis-response context.
 - **Reliability note:** Authoritative for AFRICOM's public command view. It is
-  congressional posture testimony, so Warlock-Index products separate command
+  congressional posture testimony, so WARLOCK-INDEX products separate command
   priorities from independent analytic judgment.
 
 ## U.S. Africa Command Public Command Overview
@@ -158,7 +159,7 @@
   outside-state influence, and regional access.
 - **Reliability note:** Authoritative for stated U.S. national security
   strategy. It is a policy document, not a neutral outside assessment, and
-  is separated from analytic judgment in Warlock-Index products.
+  is separated from analytic judgment in WARLOCK-INDEX products.
 
 ## U.S. Code Taiwan Relations Act
 
@@ -173,7 +174,7 @@
   capacity, and coercion concerns.
 - **Reliability note:** Authoritative for the published U.S. Code text. Legal
   text is policy and statutory evidence, not an independent intelligence
-  assessment, and Warlock-Index products use it for policy architecture rather
+  assessment, and WARLOCK-INDEX products use it for policy architecture rather
   than predictive judgment.
 
 ## U.S. Industrial Base Policy Public Website
@@ -247,7 +248,7 @@
   Foreign Terrorist Organizations or Specially Designated Global Terrorists.
 - **Reliability note:** Authoritative for stated executive-branch policy and
   designation process context. It is policy language, not neutral analytic
-  judgment; Warlock-Index products distinguish designation status from
+  judgment; WARLOCK-INDEX products distinguish designation status from
   independent classification of criminal, terrorist, insurgent, or state-proxy
   behavior.
 
@@ -263,7 +264,7 @@
   concerns, cartels and transnational gangs, legacy jihadist terrorism,
   domestic political violence framing, and WMD-related terrorism concerns.
 - **Reliability note:** Authoritative for stated executive-branch strategy and
-  policy priorities. It includes political and operational language; Warlock-Index products use it as policy-context evidence and separate it from
+  policy priorities. It includes political and operational language; WARLOCK-INDEX products use it as policy-context evidence and separate it from
   analytic judgment.
 
 ## Executive Order 14175: Designation Of Ansar Allah
@@ -279,7 +280,7 @@
   disruption, civilian deaths, rerouting, and global maritime-trade effects.
 - **Reliability note:** Authoritative for the published executive order and
   Federal Register metadata. It is policy and legal framing, not neutral
-  independent intelligence assessment; Warlock-Index products separate the
+  independent intelligence assessment; WARLOCK-INDEX products separate the
   designation basis from broader analytic judgment.
 
 ## 2022 National Defense Strategy, Nuclear Posture Review, And Missile Defense Review
@@ -291,7 +292,7 @@
 - **URL:** https://media.defense.gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.PDF
 - **Use:** Historical comparison for integrated deterrence, campaigning, and
   resilience concepts, and a nuclear-posture and missile-defense policy
-  baseline for Russia and DPRK strategic-weapons source work.
+  baseline for Russia, DPRK, and Iran strategic-weapons source work.
 - **Reliability note:** Superseded as current strategy by the 2026 NDS but
   still valuable for continuity analysis.
 
@@ -335,7 +336,8 @@
 - **Use:** Durable baseline on Iranian military doctrine, regime-survival
   logic, IRGC/Qods Force role, ballistic missile forces, maritime denial,
   unconventional operations, cyber, intelligence, and military-industrial
-  structure.
+  structure. Used as durable background in the Iran WMD and missile-relevance
+  packet, with current claims refreshed through newer official sources.
 - **Reliability note:** Authoritative U.S. defense intelligence baseline for
   public use. Because the information cutoff is August 2019, current capability
   claims are refreshed with newer ODNI, DoD, IAEA, congressional, allied,

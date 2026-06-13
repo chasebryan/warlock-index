@@ -29,10 +29,28 @@
   deterrence and defense, PRC-Russia alignment, DPRK and Iranian support to
   Russia, Indo-Pacific partner cooperation, and Russia strategic-weapons
   nuclear signaling source work. Also used for DPRK strategic-weapons
-  Russia-support and nonproliferation source work.
+  Russia-support and nonproliferation source work and Iran WMD/missile
+  Russia-support source work.
 - **Reliability note:** Authoritative for NATO consensus language. It reflects
   alliance political agreement and is treated as official policy
   framing.
+
+## UN Security Council Resolution 2231 And Iran Nuclear Issue Background
+
+- **Source class:** A
+- **Publisher:** United Nations Security Council
+- **Publication date:** 2015-07-20 resolution; background page current as
+  accessed
+- **Accessed UTC:** 2026-06-13T22:03:29Z
+- **URL:** https://main.un.org/securitycouncil/en/content/2231/background
+- **Resolution URL:** https://undocs.org/S/RES/2231(2015)
+- **Use:** Legal-diplomatic baseline for JCPOA endorsement, Iran nuclear issue
+  background, snapback process, re-application of prior Iran-related Security
+  Council provisions, and Iran WMD/missile source work.
+- **Reliability note:** Authoritative for UN Security Council public background
+  and resolution links. It is legal-diplomatic evidence and does not
+  independently measure current compliance, enforcement, or technical nuclear
+  status.
 
 ## UN Security Council Resolution 1718
 
@@ -252,7 +270,7 @@
   and Suez disruption, freight-rate effects, ton-mile demand, insurance costs,
   port congestion, emissions, and vulnerable-economy exposure.
 - **Reliability note:** Authoritative for UNCTAD public analysis and data
-  presentation. It contains policy language, so Warlock-Index products
+  presentation. It contains policy language, so WARLOCK-INDEX products
   separate data extraction from institutional advocacy.
 
 ## Suez Canal Authority Annual Navigation Reports
