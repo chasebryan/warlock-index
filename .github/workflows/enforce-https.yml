@@ -21,9 +21,18 @@ jobs:
     steps:
       - name: Check and enforce HTTPS
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_ADMIN_TOKEN: ${{ secrets.PAGES_ADMIN_TOKEN }}
         run: |
           set -euo pipefail
+
+          if [[ -n "${PAGES_ADMIN_TOKEN:-}" ]]; then
+            export GH_TOKEN="$PAGES_ADMIN_TOKEN"
+            echo "Using PAGES_ADMIN_TOKEN for Pages settings update."
+          else
+            export GH_TOKEN="$GITHUB_TOKEN"
+            echo "PAGES_ADMIN_TOKEN is not configured; using GITHUB_TOKEN."
+          fi
 
           page_json="$(gh api "repos/${GITHUB_REPOSITORY}/pages")"
           cname="$(jq -r '.cname // ""' <<<"$page_json")"
@@ -53,6 +62,11 @@ jobs:
 
           if grep -qi "certificate does not exist yet" <<<"$response"; then
             echo "GitHub Pages certificate is not ready yet; exiting cleanly."
+            exit 0
+          fi
+
+          if grep -qi "Resource not accessible by integration" <<<"$response"; then
+            echo "::notice::GITHUB_TOKEN cannot update GitHub Pages settings. Add a PAGES_ADMIN_TOKEN repository secret with permission to update Pages settings for full automatic enforcement."
             exit 0
           fi
 
