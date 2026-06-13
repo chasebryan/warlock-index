@@ -36,6 +36,11 @@ structured-data aliases for `Warlock-Index`, `warlock-index`, and
 The static search UI supports `?q=` URLs for structured `SearchAction`
 metadata.
 
+The `wi/` path publishes the installable WARLOCK-INDEX browser app. It has a
+scoped manifest and service worker so installing from `/wi/` opens the app
+instead of the homepage. Keep `site/downloads/wi-browser-app.zip` refreshed
+from the same `site/wi/` files whenever the app shell changes.
+
 Before finishing a docs change, run the drift check:
 
 ```sh

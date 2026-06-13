@@ -485,7 +485,18 @@ function navGroups(docs) {
 }
 
 function renderDocNav(currentDoc, docs) {
-  return navGroups(docs).map(([group, entries]) => `
+  const wiApp = relativeUrl(currentDoc.outputRel, "wi/index.html");
+  const siteRoutes = `
+    <section class="doc-group site-routes">
+      <h2>Site</h2>
+      <a class="doc-link site-route-link" href="${escapeAttr(wiApp)}" data-site-route="wi" data-filter="wi browser app install download application pwa android apple ios ipad macos windows linux">
+        <strong>wi Browser App</strong>
+        <span>Install / download</span>
+      </a>
+    </section>
+  `;
+
+  return siteRoutes + navGroups(docs).map(([group, entries]) => `
     <section class="doc-group">
       <h2>${escapeHtml(group)}</h2>
       ${entries.map((doc) => `
@@ -504,6 +515,7 @@ function headerHtml(currentDoc) {
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
   const collections = relativeUrl(currentDoc.outputRel, "library/collections/coverage-map.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
+  const wiApp = relativeUrl(currentDoc.outputRel, "wi/index.html");
 
   return `
     <header class="site-header">
@@ -518,6 +530,7 @@ function headerHtml(currentDoc) {
         <a href="${escapeAttr(assessments)}">Assessments</a>
         <a href="${escapeAttr(collections)}">Collections</a>
         <a href="${escapeAttr(standards)}">Standards</a>
+        <a href="${escapeAttr(wiApp)}">wi</a>
       </nav>
     </header>
   `;
@@ -661,6 +674,7 @@ async function build() {
 
   const sitemapUrls = [
     { loc: absoluteUrl("index.html"), priority: "1.0" },
+    { loc: `${siteOrigin}/wi/`, priority: "0.85" },
     ...docs.map((doc) => ({
       loc: absoluteUrl(doc.outputRel),
       priority: doc.rel === "index.md" ? "0.9" : "0.7"

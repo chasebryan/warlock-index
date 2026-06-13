@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#020303">
+    <meta name="application-name" content="wi">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="wi">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-TileColor" content="#020303">
+    <meta name="msapplication-TileImage" content="icons/wi-144.png">
+    <meta
+      name="description"
+      content="wi is a standalone browser app for navigating the WARLOCK-INDEX open-source research corpus."
+    >
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://www.warlock-index.org/wi/">
+    <meta property="og:title" content="wi | WARLOCK-INDEX browser app">
+    <meta
+      property="og:description"
+      content="Install or download wi, the standalone WARLOCK-INDEX browser app for navigating the open-source research corpus."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.warlock-index.org/wi/">
+    <meta property="og:site_name" content="WARLOCK-INDEX">
+    <meta property="og:image" content="https://www.warlock-index.org/wi/icons/wi-512.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="wi | WARLOCK-INDEX browser app">
+    <meta
+      name="twitter:description"
+      content="Install or download wi, the standalone WARLOCK-INDEX browser app for navigating the open-source research corpus."
+    >
+    <meta name="twitter:image" content="https://www.warlock-index.org/wi/icons/wi-512.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "wi",
+        "alternateName": "WARLOCK-INDEX browser app",
+        "url": "https://www.warlock-index.org/wi/",
+        "applicationCategory": "ReferenceApplication",
+        "operatingSystem": "Android, iOS, iPadOS, macOS, Windows, Linux",
+        "isAccessibleForFree": true,
+        "downloadUrl": "https://www.warlock-index.org/downloads/wi-browser-app.zip",
+        "browserRequirements": "Requires a modern browser with JavaScript enabled."
+      }
+    </script>
+    <title>wi | WARLOCK-INDEX browser</title>
+    <link rel="icon" href="icons/wi-icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <svg class="icon-defs" aria-hidden="true">
+      <symbol id="icon-star" viewBox="0 0 48 48">
+        <path d="M24 4 29.2 18.8 44 24l-14.8 5.2L24 44l-5.2-14.8L4 24l14.8-5.2L24 4Z"></path>
+        <path d="M24 12v24M12 24h24"></path>
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="m16.2 16.2 4 4"></path>
+      </symbol>
+      <symbol id="icon-open" viewBox="0 0 24 24">
+        <path d="M14 4h6v6"></path>
+        <path d="m10 14 10-10"></path>
+        <path d="M20 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h5"></path>
+      </symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24">
+        <path d="M12 5v14M5 12h14"></path>
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 13 4 4L19 7"></path>
+      </symbol>
+      <symbol id="icon-install" viewBox="0 0 24 24">
+        <path d="M12 3v12"></path>
+        <path d="m7 10 5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </symbol>
+      <symbol id="icon-package" viewBox="0 0 24 24">
+        <path d="M4 8 12 4l8 4-8 4-8-4Z"></path>
+        <path d="M4 8v8l8 4 8-4V8"></path>
+        <path d="M12 12v8"></path>
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24">
+        <path d="M6 6 18 18M18 6 6 18"></path>
+      </symbol>
+    </svg>
+
+    <main class="app-shell" id="app" data-ready="false">
+      <header class="topbar" aria-label="Application bar">
+        <a class="brand" href="#workspace" aria-label="wi home">
+          <span class="brand-mark">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#icon-star"></use></svg>
+          </span>
+          <span>
+            <strong>wi</strong>
+            <em>WARLOCK-INDEX</em>
+          </span>
+        </a>
+
+        <form class="command" id="search-form" role="search">
+          <label class="visually-hidden" for="search-input">Search corpus</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-search"></use></svg>
+          <input
+            id="search-input"
+            type="search"
+            autocomplete="off"
+            spellcheck="false"
+            value="strategic weapons"
+            placeholder="Search corpus"
+          >
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="status-strip" aria-label="Corpus status">
+          <button class="install-button" type="button" id="install-app" title="Install wi" aria-label="Install wi" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-install"></use></svg>
+          </button>
+          <a class="install-button" href="../downloads/wi-browser-app.zip" download="wi-browser-app.zip" title="Download wi" aria-label="Download wi">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
+          </a>
+          <span>UNCLASSIFIED//OPEN SOURCE</span>
+          <strong id="corpus-count">0 records</strong>
+        </div>
+      </header>
+
+      <section class="workspace" id="workspace">
+        <aside class="route-rail" aria-label="Corpus routes">
+          <div class="rail-head">
+            <span>Local corpus browser</span>
+            <strong id="active-scope-label">All records</strong>
+          </div>
+          <nav class="route-list" id="route-list"></nav>
+          <div class="rail-meter" aria-label="Corpus shape">
+            <span>index integrity</span>
+            <meter min="0" max="100" value="100">100%</meter>
+            <strong>source-linked</strong>
+          </div>
+        </aside>
+
+        <section class="result-pane" aria-labelledby="results-heading">
+          <div class="pane-head">
+            <div>
+              <p>Query route</p>
+              <h1 id="results-heading">Strategic weapons</h1>
+            </div>
+            <div class="result-count" id="result-count">0 matches</div>
+          </div>
+
+          <div class="quick-routes" id="quick-routes" aria-label="Quick routes"></div>
+
+          <div class="result-table" role="list" id="result-list" aria-label="Corpus results"></div>
+        </section>
+
+        <aside class="inspector" aria-label="Selected document">
+          <section class="preview" id="preview-panel"></section>
+          <section class="queue-panel" aria-labelledby="queue-heading">
+            <div class="queue-head">
+              <h2 id="queue-heading">Queue</h2>
+              <button class="icon-button" type="button" id="clear-queue" title="Clear queue" aria-label="Clear queue">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-x"></use></svg>
+              </button>
+            </div>
+            <div class="queue-list" id="queue-list"></div>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script src="corpus.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

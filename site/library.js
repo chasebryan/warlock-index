@@ -1,5 +1,19 @@
 const filterInput = document.querySelector("#doc-filter");
 const sidebar = document.querySelector(".reader-sidebar");
+const docNav = document.querySelector(".doc-nav");
+
+if (docNav && !docNav.querySelector("[data-site-route='wi']")) {
+  docNav.insertAdjacentHTML("afterbegin", `
+    <section class="doc-group site-routes">
+      <h2>Site</h2>
+      <a class="doc-link site-route-link" href="/wi/" data-site-route="wi" data-filter="wi browser app install download application pwa android apple ios ipad macos windows linux">
+        <strong>wi Browser App</strong>
+        <span>Install / download</span>
+      </a>
+    </section>
+  `);
+}
+
 const links = [...document.querySelectorAll(".doc-link")];
 const groups = [...document.querySelectorAll(".doc-group")];
 
