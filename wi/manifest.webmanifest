@@ -1,0 +1,47 @@
+{
+  "id": "wi",
+  "name": "wi",
+  "short_name": "wi",
+  "description": "Standalone browser app for navigating WARLOCK-INDEX.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "background_color": "#020303",
+  "theme_color": "#020303",
+  "orientation": "any",
+  "categories": ["productivity", "utilities", "education"],
+  "icons": [
+    {
+      "src": "icons/wi-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/wi-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/wi-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/wi-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search corpus",
+      "short_name": "Search",
+      "url": "./?q=strategic%20weapons"
+    }
+  ]
+}
