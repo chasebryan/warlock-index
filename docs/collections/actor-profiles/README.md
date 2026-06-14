@@ -2,9 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Actor profiles belong here. Profiles cover stated objectives,
-capabilities, constraints, behavior patterns, leadership signals, and source
-confidence.
+Actor Profiles compares strategic actors by objectives, capabilities,
+constraints, behavior patterns, leadership signals, and source confidence.
 
 ## Profiles
 

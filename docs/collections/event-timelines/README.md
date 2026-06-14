@@ -2,9 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Event timelines belong here. Each timeline includes dated events,
-source references, uncertainty notes, and links to assessments that used the
-timeline.
+Event Timelines records dated sequences, source references, uncertainty notes,
+and links to the assessments that use each timeline.
 
 ## Current Timelines
 

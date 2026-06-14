@@ -2,10 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Source packets are curated evidence packages for WARLOCK-INDEX products. They
-group official sources, source-class notes, analytic extraction rules,
-cross-links, and information gaps so later assessments can reuse evidence
-without flattening source quality.
+Source Packets are reusable evidence packages that preserve official sources,
+source-class notes, extraction rules, cross-links, and information gaps.
 
 These products support research organization only. They do not provide
 recommendations, targeting support, collection tasking, operational planning,

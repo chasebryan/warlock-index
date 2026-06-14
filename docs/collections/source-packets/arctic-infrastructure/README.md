@@ -2,9 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains source packets for Arctic infrastructure, domain
-awareness, communications, icebreaking, civil resilience, and northern access
-issues relevant to strategic defense research.
+Arctic Infrastructure Source Packets organize public evidence on northern
+infrastructure, domain awareness, communications, icebreaking, and resilience.
 
 These packets support research organization only. They do not provide
 recommendations, targeting support, collection tasking, operational planning,

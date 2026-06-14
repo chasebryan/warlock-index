@@ -6,6 +6,10 @@
 
 **Information cutoff UTC:** 2026-06-13T01:35:35Z
 
+This lane organizes strategic actor work on terrorist groups, nonstate armed
+networks, state proxies, illicit finance, foreign fighters, and disruption
+patterns.
+
 **Purpose:** Organize future profiles, source notes, timelines, and indicator
 watchlists for foreign terrorist organizations and major nonstate armed
 networks affecting U.S. homeland security, overseas personnel, partner

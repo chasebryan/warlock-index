@@ -244,10 +244,10 @@
   preserving no-exploit-steps, no-malware-procedures, no-scanning,
   no-IOC-tables, no-victim-targeting, no-incident-response-playbooks, and
   no-operational-guidance boundaries.
-- Added the Maps directory and map-resource hub with NGA, USGS, NOAA,
-  BGN, combatant-command AOR, NATO, Library of Congress, State, NAMRIA, and
-  internal theater-map product routing, plus docs-index, coverage-map, and
-  generated library navigation wiring while preserving no-targeting,
+- Added the Maps directory and public map-source navigation lane with NGA,
+  USGS, NOAA, BGN, combatant-command AOR, NATO, Library of Congress, State,
+  NAMRIA, and internal theater-map product routing, plus docs-index,
+  coverage-map, and generated library navigation wiring while preserving no-targeting,
   no-sensitive-overlays, no-route-selection, no-live-tracking,
   no-interdiction, no-collection-geometry, no-legal-advice, and
   no-operational-guidance boundaries.

@@ -2,10 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains curated source packets for strategic weapons
-modernization, nuclear deterrence, missile defense, arms-control erosion,
-counterspace convergence, WMD-related concerns, and homeland missile-warning
-research.
+Strategic Weapons Source Packets organize public evidence on modernization,
+deterrence, missile defense, arms control, counterspace, WMD concerns, and
+warning.
 
 These packets organize evidence for strategic analysis. They do not provide
 recommendations, targeting support, collection tasking, operational planning,

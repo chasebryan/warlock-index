@@ -2,9 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This series contains source packets for Indo-Pacific adversary and competitor
-posture lanes. These packets organize official and high-reliability public
-sources for strategic research only.
+Indo-Pacific Adversary Posture Source Packets organize official and
+high-reliability public sources on adversary and competitor posture across
+the regional research lane.
 
 They do not provide recommendations, targeting support, collection tasking,
 operational planning, tactical guidance, weapons employment guidance,

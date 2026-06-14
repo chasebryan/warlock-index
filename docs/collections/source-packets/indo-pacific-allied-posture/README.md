@@ -2,9 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains source packets for allied and partner posture in the
-Indo-Pacific. These packets organize official public sources, source-class
-notes, extraction rules, cross-links, and information gaps for later WARLOCK-INDEX assessments.
+Indo-Pacific Allied Posture Source Packets organize official public sources
+on regional allies and partners for later assessments.
 
 These products support strategic research only. They do not provide
 recommendations, targeting support, collection tasking, operational planning,

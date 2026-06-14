@@ -2,9 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains curated source packets for Red Sea maritime economics,
-Suez Canal exposure, freight-rate effects, port throughput, marine insurance,
-commercial risk, energy-transit context, and humanitarian logistics effects.
+Red Sea Maritime Economics Source Packets organize public evidence on Suez
+exposure, freight rates, ports, marine insurance, commercial risk, energy
+transit, and humanitarian logistics.
 
 These packets organize evidence for strategic analysis. They do not provide
 recommendations, targeting support, collection tasking, operational planning,

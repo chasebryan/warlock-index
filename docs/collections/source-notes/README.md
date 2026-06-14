@@ -2,8 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Working source notes belong here. Notes should preserve date, URL, source class,
-and why the source matters.
+Source Notes preserves short provenance records for sources that need context
+before they are reused. Each note records date, URL, source class, and why the
+source matters.
 
 ## Products
 

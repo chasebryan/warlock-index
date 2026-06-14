@@ -2,9 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains source packets for official U.S. intelligence,
-homeland-security, law-enforcement, sanctions, border, maritime, cyber,
-counterterrorism, counternarcotics, and geospatial reference sources.
+Official U.S. Threat Source Baseline packets organize public intelligence,
+homeland-security, law-enforcement, sanctions, border, maritime, cyber, and
+geospatial reference sources.
 
 These packets support strategic source organization only. They do not provide
 recommendations, targeting support, collection tasking, investigative

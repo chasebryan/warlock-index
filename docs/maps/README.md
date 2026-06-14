@@ -11,8 +11,8 @@
 **Purpose:** Provide a single navigation home for public map resources used
 by WARLOCK-INDEX.
 
-**Boundary:** This directory supports strategic orientation and source
-provenance only. It does not provide targeting maps, sensitive facility
+**Boundary:** Maps supports strategic orientation and source provenance only.
+It does not provide targeting maps, sensitive facility
 overlays, infrastructure vulnerability maps, live movement layers,
 route-selection tools, collection geometry, patrol-pattern analysis,
 interdiction guidance, operational planning, surveillance products,
@@ -20,18 +20,15 @@ investigative direction, or legal advice.
 
 ## Bottom Line
 
-Maps belong in their own navigation lane. WARLOCK-INDEX should link to
-public map sources from official or high-reliability publishers while keeping
-map evidence separate from analytic conclusions. A map can orient a reader,
-preserve publisher language, record command-area framing, or route a later
-source packet. It does not independently prove sovereignty, control, threat
+Maps is the WARLOCK-INDEX hub for public map and geospatial references:
+official map portals, charting sources, geographic-name references, and
+theater map packets.
+
+Use maps for orientation and source provenance. They can preserve publisher
+language, record command-area framing, and point readers to the right source
+packet, but they do not by themselves establish sovereignty, control, threat
 intent, military access, basing availability, vulnerability, or operational
 feasibility.
-
-This directory is the map-resource hub. It favors public map sources and map
-portals over generated illustrations. When a map touches contested geography
-or current conflict, products must preserve source language and state the
-map's publisher, access date, product date where available, and intended use.
 
 ## Map Resource Ledger
 

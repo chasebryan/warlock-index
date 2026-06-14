@@ -2,10 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains curated source packets for NATO allied capacity,
-burden-sharing, defense investment, resilience, civil preparedness, Ukraine
-support, defense-industrial scaling, cyber defence, and implementation
-evidence.
+NATO Allied Capacity Source Packets organize public evidence on allied
+capacity, burden-sharing, investment, resilience, Ukraine support, cyber
+defence, and implementation signals.
 
 These packets organize evidence for strategic analysis. They do not provide
 recommendations, targeting support, collection tasking, operational planning,

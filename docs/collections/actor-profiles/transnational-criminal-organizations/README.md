@@ -6,6 +6,10 @@
 
 **Information cutoff UTC:** 2026-06-13T01:35:35Z
 
+This lane organizes strategic actor work on transnational criminal
+organizations, illicit finance, narcotics, ports, cybercrime, corruption, and
+foreign-state exploitation.
+
 **Purpose:** Organize future profiles, source notes, timelines, and indicator
 watchlists for transnational criminal organizations affecting U.S. homeland
 security, border security, illicit finance, narcotics flows, corruption,

@@ -2,9 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains source packets for public theater-map and geospatial
-reference sources. These packets organize map anchors, source-class notes,
-safe extraction rules, cross-links, and information gaps for later WARLOCK-INDEX products.
+Theater Map Reference Source Packets organize public map and geospatial
+sources with anchors, source-class notes, extraction rules, cross-links, and
+gaps.
 
 These products support strategic orientation and source organization only.
 They do not provide recommendations, targeting support, collection tasking,

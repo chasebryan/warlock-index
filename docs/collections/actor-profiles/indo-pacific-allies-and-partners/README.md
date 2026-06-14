@@ -2,9 +2,11 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Profiles in this folder cover allied and partner posture in the Indo-Pacific.
-They are strategic research products and do not recommend policy, military
-action, targeting, intelligence collection, or operational activity.
+Indo-Pacific Allies And Partners tracks public posture, capacity, constraints,
+and source confidence for regional allies and partners.
+
+These products do not recommend policy, military action, targeting,
+intelligence collection, or operational activity.
 
 ## Current Products
 

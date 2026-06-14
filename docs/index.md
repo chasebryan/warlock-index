@@ -2,7 +2,9 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This index is the working navigation hub for WARLOCK-INDEX.
+Use this index to move through WARLOCK-INDEX standards, source registers,
+maps, assessments, actor profiles, source packets, timelines, trackers, and
+synthesis matrices.
 
 ## Standards
 

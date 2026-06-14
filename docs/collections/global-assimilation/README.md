@@ -2,9 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This collection holds cross-cutting matrices and synthesis tools that connect
-actors, theaters, domains, and source streams. These files exist to keep
-WARLOCK-INDEX from becoming a set of isolated country reports.
+Global Assimilation connects actors, theaters, domains, and source streams
+through cross-cutting matrices and synthesis tools.
 
 ## Current Products
 

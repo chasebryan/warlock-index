@@ -2,10 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-This folder contains strategic actor and allied-capacity profiles for NATO and
-major U.S. allies. These products assess alliance architecture, burden-sharing,
-industrial capacity, resilience, geographic relevance, and public-source
-implementation signals.
+NATO And Major U.S. Allies tracks alliance architecture, burden-sharing,
+industrial capacity, resilience, geography, and implementation signals.
 
 These are strategic research products. They do not provide recommendations,
 targeting support, collection tasking, operational planning, tactical guidance,
