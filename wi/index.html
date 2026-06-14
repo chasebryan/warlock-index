@@ -13,24 +13,24 @@
     <meta name="msapplication-TileImage" content="icons/wi-144.png">
     <meta
       name="description"
-      content="wi is a standalone browser app for navigating the WARLOCK-INDEX open-source research corpus."
+      content="wi is a WARLOCK-INDEX workspace for browsing the open-source corpus and downloading selected records."
     >
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.warlock-index.org/wi/">
-    <meta property="og:title" content="wi | WARLOCK-INDEX browser app">
+    <meta property="og:title" content="wi | WARLOCK-INDEX workspace">
     <meta
       property="og:description"
-      content="Install or download wi, the standalone WARLOCK-INDEX browser app for navigating the open-source research corpus."
+      content="Use wi as a WARLOCK-INDEX workspace to browse the corpus, open records on the site, and download selected files."
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.warlock-index.org/wi/">
     <meta property="og:site_name" content="WARLOCK-INDEX">
     <meta property="og:image" content="https://www.warlock-index.org/wi/icons/wi-512.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="wi | WARLOCK-INDEX browser app">
+    <meta name="twitter:title" content="wi | WARLOCK-INDEX workspace">
     <meta
       name="twitter:description"
-      content="Install or download wi, the standalone WARLOCK-INDEX browser app for navigating the open-source research corpus."
+      content="Use wi as a WARLOCK-INDEX workspace to browse the corpus, open records on the site, and download selected files."
     >
     <meta name="twitter:image" content="https://www.warlock-index.org/wi/icons/wi-512.png">
     <script type="application/ld+json">
@@ -38,16 +38,16 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "wi",
-        "alternateName": "WARLOCK-INDEX browser app",
+        "alternateName": "WARLOCK-INDEX workspace",
         "url": "https://www.warlock-index.org/wi/",
         "applicationCategory": "ReferenceApplication",
         "operatingSystem": "Android, iOS, iPadOS, macOS, Windows, Linux",
         "isAccessibleForFree": true,
-        "downloadUrl": "https://www.warlock-index.org/downloads/wi-browser-app.zip",
+        "downloadUrl": "https://www.warlock-index.org/downloads/wi-workspace.zip",
         "browserRequirements": "Requires a modern browser with JavaScript enabled."
       }
     </script>
-    <title>wi | WARLOCK-INDEX browser</title>
+    <title>wi | WARLOCK-INDEX workspace</title>
     <link rel="icon" href="icons/wi-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
@@ -91,7 +91,7 @@
 
     <main class="app-shell" id="app" data-ready="false">
       <header class="topbar" aria-label="Application bar">
-        <a class="brand" href="#workspace" aria-label="wi home">
+        <a class="brand" href="../#navigator" aria-label="WARLOCK-INDEX home navigator">
           <span class="brand-mark">
             <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#icon-star"></use></svg>
           </span>
@@ -119,7 +119,7 @@
           <button class="install-button" type="button" id="install-app" title="Install wi" aria-label="Install wi" hidden>
             <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-install"></use></svg>
           </button>
-          <a class="install-button" href="../downloads/wi-browser-app.zip" download="wi-browser-app.zip" title="Download wi" aria-label="Download wi">
+          <a class="install-button" href="../downloads/wi-workspace.zip" download="wi-workspace.zip" title="Download wi workspace" aria-label="Download wi workspace">
             <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
           </a>
           <span>UNCLASSIFIED//OPEN SOURCE</span>
@@ -130,7 +130,7 @@
       <section class="workspace" id="workspace">
         <aside class="route-rail" aria-label="Corpus routes">
           <div class="rail-head">
-            <span>Local corpus browser</span>
+            <span>Workspace browse</span>
             <strong id="active-scope-label">All records</strong>
           </div>
           <nav class="route-list" id="route-list"></nav>

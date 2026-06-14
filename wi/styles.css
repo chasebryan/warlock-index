@@ -589,7 +589,7 @@ svg {
 
 .preview-actions {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   gap: 0.55rem;
 }
 
@@ -809,8 +809,12 @@ svg {
 
   .workspace {
     grid-template-columns: 1fr;
-    grid-template-rows: auto minmax(520px, auto) auto;
+    grid-template-rows: auto minmax(420px, 68vh) auto;
     padding: 0.75rem;
+  }
+
+  .result-pane {
+    height: clamp(420px, 68vh, 640px);
   }
 
   .route-rail {
