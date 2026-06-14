@@ -216,7 +216,7 @@ claims.
 
 | Packet | Purpose | Primary sources |
 | --- | --- | --- |
-| Republic of Korea Extended Deterrence Packet | Track NCG, SCM communiques, ROK defense white papers, and DPRK threat language | White House, DOD/DOW, ROK MND, ODNI |
+| ROK-U.S. NCG Implementation And Defense White Paper Verification Packet | Track NCG, SCM communiques, ROK defense white papers, MND/DAPA direct documents, and DPRK threat language | White House, DOD/DOW, ROK MND, ROK MOFA, DAPA, ODNI |
 | U.S.-Japan-ROK 2025-2026 Refresh Note | Refresh annual dialogue, ministerial meeting, Freedom Edge, and TSCF public implementation sources | State, DOD/DOW, Japan MOFA/MOD, ROK MOFA/MND, USINDOPACOM |
 | Indo-Pacific Economic Security Packet | Track semiconductors, batteries, critical minerals, AI, quantum, standards, export controls, and supply-chain resilience | State, Commerce, Japan METI/MOFA, ROK ministries, research sources |
 | South China Sea Maritime Law-Enforcement Cooperation Packet | Track capacity-building, law-enforcement support, UNCLOS framing, and partner-government statements | State, Japan MOFA, ROK MOFA, Philippines sources, ASEAN sources |

@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-14T00:21:47Z
+**Prepared UTC:** 2026-06-14T02:19:34Z
 
 ## Completed
 
@@ -79,6 +79,31 @@
   website-facing discovery wiring.
 - Added the U.S.-Japan-ROK trilateral implementation source packet with
   website-facing discovery wiring.
+- Added the United Kingdom official defense and security source baseline
+  packet with allied register wiring.
+- Added the allied official source collection tracker to extend the U.S.-style
+  official-source workflow across major allied country lanes.
+- Added the official allied source assimilation matrix for country-level and
+  multilateral source integration.
+- Added the Australia official defence and AUKUS source baseline packet with
+  allied register, tracker, matrix, and Indo-Pacific source-packet wiring.
+- Added the Canada/NORAD Arctic and continental defense source packet with
+  allied register, tracker, matrix, and Arctic source-packet wiring.
+- Added the Japan official defense and security source baseline packet with
+  MOD, MOFA, NCO, ATLA, tracker, matrix, and Indo-Pacific source-packet
+  wiring.
+- Added the Republic of Korea official defense and extended deterrence source
+  packet with ROK MOFA, Washington Declaration, Camp David, trilateral
+  ministerial, tracker, matrix, and Indo-Pacific source-packet wiring while
+  preserving MND/DAPA direct-document verification gaps.
+- Added the France official defense and security source baseline packet with
+  SGDSN RNS, Légifrance LPM, Élysée deterrence, ANSSI cyber, allied register,
+  tracker, matrix, and NATO source-packet wiring.
+- Added the Germany official defense and security source baseline packet with
+  the Federal Government National Security Strategy, BMVg Defence Policy
+  Guidelines, BMVg 2026 investment page, China Strategy, cyber source-family
+  access note, allied register, tracker, matrix, and NATO source-packet
+  wiring.
 
 ## Current Analytical Posture
 
@@ -95,10 +120,16 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
+- Add follow-on official allied country source packets for Nordic/High North
+  allies and EU security-defense sources.
 - Add follow-on implementation packets for Republic of Korea extended
-  deterrence, AUKUS industrial implementation, ICE Pact implementation, NORAD
-  modernization, New START post-expiration status, and Red Sea follow-on
-  economics sublanes.
+  deterrence/NCG and defense white-paper verification, AUKUS industrial
+  implementation, France LPM implementation and nuclear/cyber/Indo-Pacific
+  follow-on lanes, Germany defense investment/budget implementation,
+  Bundeswehr force-design/readiness evidence, defense-industrial/procurement,
+  cyber/resilience, and China/economic-security follow-on lanes, ICE Pact
+  implementation, NORAD modernization, New START post-expiration status, and
+  Red Sea follow-on economics sublanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add additional map-heavy theater source packets as needed.

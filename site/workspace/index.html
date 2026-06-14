@@ -160,10 +160,17 @@
           <section class="queue-panel" aria-labelledby="queue-heading">
             <div class="queue-head">
               <h2 id="queue-heading">Queue</h2>
-              <button class="icon-button" type="button" id="clear-queue" title="Clear queue" aria-label="Clear queue">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-x"></use></svg>
-              </button>
+              <div class="queue-actions">
+                <button class="queue-download-button" type="button" id="download-queue" title="Download queued reader packet" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
+                  <span>Packet</span>
+                </button>
+                <button class="icon-button" type="button" id="clear-queue" title="Clear queue" aria-label="Clear queue">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-x"></use></svg>
+                </button>
+              </div>
             </div>
+            <p class="queue-status" id="queue-status" role="status" aria-live="polite"></p>
             <div class="queue-list" id="queue-list"></div>
           </section>
         </aside>

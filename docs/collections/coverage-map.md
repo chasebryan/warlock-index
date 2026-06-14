@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-14T02:19:34Z
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing
@@ -72,7 +72,9 @@ future open-source defense assessments.
 - U.S. Combatant Command public testimony and posture statements.
 - DoD annual military power reports.
 - ODNI and IC public threat assessments.
-- NATO and allied government strategy documents.
+- NATO and allied government strategy documents, including national security
+  strategies, defense reviews, cyber/space strategies, resilience frameworks,
+  industrial strategies, budgets, and audit sources.
 - Congressional Research Service and Government Accountability Office reports.
 - Reputable research institutions with transparent methods.
 - Professional media reporting used for current-event context.

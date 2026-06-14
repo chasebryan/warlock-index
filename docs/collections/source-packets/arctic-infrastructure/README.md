@@ -14,3 +14,4 @@ analysis, deployment schedules, route guidance, or technical instructions.
 ## Products
 
 - [2026-06-13T0318Z - Arctic Infrastructure And Domain Awareness Source Packet](2026-06-13T0318Z-arctic-infrastructure-domain-awareness-source-packet.md)
+- [2026-06-14T0138Z - Canada/NORAD Arctic And Continental Defense Source Packet](2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.md)
