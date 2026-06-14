@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T02:19:34Z
+**Prepared UTC:** 2026-06-14T05:23:13Z
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing
@@ -72,9 +72,25 @@ future open-source defense assessments.
 - U.S. Combatant Command public testimony and posture statements.
 - DoD annual military power reports.
 - ODNI and IC public threat assessments.
+- China/PLA official and issuer-perspective source stacks, including DoD PRC
+  military power reporting, ODNI China threat framing, DIA historical
+  baselines, PRC State Council/MND/PLA official-media source families,
+  Taiwan MND source-family routing, allied/regional defense white papers,
+  cyber advisories, South China Sea legal sources, and China-specific
+  tracker/matrix products.
+- ODNI declassified WMD, biosecurity, foreign-laboratory, and
+  threat-reduction disclosures where handled as issuer-perspective source
+  events with explicit no-methods and no-facility-detail boundaries.
+- WMD/biosecurity public source families, including biodefense strategy,
+  DTRA/threat-reduction, FBI WMD, select-agent oversight, BWC treaty routing,
+  emerging biotechnology security, Ukraine biolab claim reconciliation, and
+  other claim-reconciliation lanes.
 - NATO and allied government strategy documents, including national security
   strategies, defense reviews, cyber/space strategies, resilience frameworks,
   industrial strategies, budgets, and audit sources.
+- Nordic and High North allied national source stacks, including Norway,
+  Finland, and Sweden as the first dedicated Nordic baselines and Denmark
+  and Iceland as follow-on country lanes.
 - Congressional Research Service and Government Accountability Office reports.
 - Reputable research institutions with transparent methods.
 - Professional media reporting used for current-event context.

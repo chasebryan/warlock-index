@@ -4,7 +4,7 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-FGOV-2026-0001
 
-**Prepared UTC:** 2026-06-13T09:28:00Z
+**Prepared UTC:** 2026-06-14T05:37:41Z
 
 **Information cutoff UTC:** 2026-06-13T09:28:00Z
 
@@ -125,6 +125,67 @@ WARLOCK-INDEX products should keep these evidence types separate:
   propaganda, censorship, legal, recognition, or wartime constraints where
   relevant.
 
+### PRC State Council And National Defense White Paper Source Family
+
+- **Source class:** A for issuer perspective.
+- **Publisher:** State Council Information Office / State Council English
+  site.
+- **Accessed UTC:** 2026-06-14T05:23:13Z
+- **URLs:** https://english.www.gov.cn/archive/whitepaper/ ; https://english.www.gov.cn/archive/whitepaper/201907/24/content_WS5d3941ddc6d08408f502283d.html ; https://english.www.gov.cn/statecouncil/ministries/201907/24/content_WS5d37ca73c6d00d362f668c58.html ; https://english.www.gov.cn/policies/policywatch/201907/24/content_WS5d384696c6d08408f5022800.html
+- **Use:** PRC issuer-perspective source family for national-defense
+  white-paper identity, defense-policy claims, reform narrative, expenditure
+  framing, missions of the armed forces, international military cooperation
+  language, and official white-paper archive routing.
+- **Reliability note:** Authoritative for what the PRC publicly states. It
+  is not independent evidence of transparency, restraint, capability,
+  readiness, or intent. Cross-read with DoD, ODNI, Taiwan, allied, legal, and
+  research sources.
+
+### PRC State Council Cyber, Space, Counterterrorism, And Global-Narrative White Papers
+
+- **Source class:** A for issuer perspective.
+- **Publisher:** State Council Information Office / State Council English
+  site.
+- **Accessed UTC:** 2026-06-14T05:37:41Z
+- **URLs:** https://english.www.gov.cn/archive/whitepaper/202303/16/content_WS6489542ec6d0868f4e8dcd56.html ; https://english.www.gov.cn/archive/whitepaper/202211/04/content_WS63647de9c6d0a757729e249d.html ; https://english.www.gov.cn/archive/whitepaper/202401/23/content_WS65af2a50c6d0868f4e8e3665.html ; https://english.www.gov.cn/news/202309/26/content_WS6512703dc6d0868f4e8dfc37.html
+- **Use:** PRC issuer-language source family for cyberspace governance,
+  BeiDou/space-navigation public framing, counterterrorism law framing, and
+  global-order or "shared future" diplomatic narrative.
+- **Reliability note:** Authoritative for PRC public issuer language only.
+  These sources do not independently prove cyber behavior, space/counterspace
+  capability, legal compliance, counterterrorism practice, or strategic
+  intent. Technical, legal, military, and human-rights claims require
+  external cross-checks.
+
+### PRC Ministry Of National Defense And PLA Official-Media Source Family
+
+- **Source class:** A/B issuer perspective depending on page authentication,
+  translation status, and archive stability.
+- **Publisher:** PRC Ministry of National Defense; China Military Online /
+  PLA-linked official media.
+- **Accessed UTC:** 2026-06-14T05:23:13Z
+- **URLs:** http://eng.mod.gov.cn/ ; http://eng.chinamil.com.cn/
+- **Use:** PRC issuer-perspective routing for defense ministry statements,
+  spokesperson language, white paper routing, PLA reform announcements,
+  military diplomacy, exercises, and party-military messaging.
+- **Reliability note:** Important for issuer language and public signaling,
+  but propagandistic and dynamic. Do not treat as independent verification
+  of capability, readiness, restraint, or legal claims.
+
+### Taiwan Ministry Of National Defense Source Family
+
+- **Source class:** A for issuer perspective.
+- **Publisher:** Taiwan Ministry of National Defense.
+- **Accessed UTC:** 2026-06-14T05:23:13Z
+- **URL:** https://www.mnd.gov.tw/english/
+- **Use:** Taiwan official source-family routing for national defense
+  reports, PLA activity reporting, cross-Strait defense framing, press
+  releases, and future Taiwan pressure source packets.
+- **Reliability note:** Authoritative for Taiwan issuer perspective. Do not
+  convert activity reporting into live tracking, targeting, route planning,
+  unit-disposition analysis, or operational assessments without safe dated
+  source-treatment rules.
+
 ### Embassy And Mission Source Family
 
 - **Source class:** A for official embassy/mission pages; B where archive or
@@ -142,6 +203,7 @@ WARLOCK-INDEX products should keep these evidence types separate:
 | Actor lane | CIA World Leaders route | State route status | Official-government source role | Required caution |
 | --- | --- | --- | --- | --- |
 | China | `https://www.cia.gov/resources/world-leaders/foreign-governments/china/` | State China page returned technical-difficulties response in this environment | Use PRC State Council, foreign ministry, defense ministry, party-state, central bank, and embassy pages as issuer-perspective sources where needed | Separate state, party, military, Hong Kong, Macau, Taiwan, and sanctions/legal evidence |
+| Taiwan | State and AIT source families require per-page refresh | State/AIT access status varies by page and environment | Use Taiwan MND, government, presidential, foreign ministry, legislature, and statistical sources as issuer-perspective sources where appropriate | Preserve U.S./Taiwan/PRC naming and recognition caveats; no live tracking or operational military extraction |
 | Russia | `https://www.cia.gov/resources/world-leaders/foreign-governments/russia/` | State Russia page returned technical-difficulties response in this environment | Use Kremlin, government, foreign ministry, defense ministry, central bank, parliament, and embassy pages as issuer-perspective sources where needed | Separate official Russian claims from ODNI/DoD/NATO threat assessments and legal evidence |
 | Iran | `https://www.cia.gov/resources/world-leaders/foreign-governments/iran/` | State country page requires manual refresh | Use presidency, supreme-leader office, foreign ministry, central bank, parliament, and mission sources as issuer-perspective sources where needed | Note CIA no-diplomatic-exchange marking and separate officeholder reference from sanctions, terrorism, nuclear, or proxy analysis |
 | North Korea | `https://www.cia.gov/resources/world-leaders/foreign-governments/korea-north/` | State country page requires manual refresh | Use official DPRK state/media material only as issuer-perspective evidence and cross-read with U.S., UN, ROK, Japanese, and allied sources | High propaganda and access constraints; avoid inferring command detail beyond public source |
@@ -206,6 +268,15 @@ When an actor profile or theater product uses this register, include:
 - Central Intelligence Agency, World Leaders Historical Data: `https://www.cia.gov/resources/world-leaders/historical-data/`
 - Central Intelligence Agency, World Leaders Key To Abbreviations: `https://www.cia.gov/resources/world-leaders/key-to-abbreviations/`
 - Central Intelligence Agency, China World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/china/`
+- State Council English site, white-paper archive: `https://english.www.gov.cn/archive/whitepaper/`
+- State Council English site, *China's National Defense in the New Era*: `https://english.www.gov.cn/archive/whitepaper/201907/24/content_WS5d3941ddc6d08408f502283d.html`
+- State Council English site, *China's Law-Based Cyberspace Governance in the New Era*: `https://english.www.gov.cn/archive/whitepaper/202303/16/content_WS6489542ec6d0868f4e8dcd56.html`
+- State Council English site, *China's BeiDou Navigation Satellite System in the New Era*: `https://english.www.gov.cn/archive/whitepaper/202211/04/content_WS63647de9c6d0a757729e249d.html`
+- State Council English site, *China's Legal Framework and Measures for Counterterrorism*: `https://english.www.gov.cn/archive/whitepaper/202401/23/content_WS65af2a50c6d0868f4e8e3665.html`
+- State Council English site, *A Global Community of Shared Future: China's Proposals and Actions*: `https://english.www.gov.cn/news/202309/26/content_WS6512703dc6d0868f4e8dfc37.html`
+- PRC Ministry of National Defense English source family: `http://eng.mod.gov.cn/`
+- China Military Online English source family: `http://eng.chinamil.com.cn/`
+- Taiwan Ministry of National Defense English source family: `https://www.mnd.gov.tw/english/`
 - Central Intelligence Agency, Russia World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/russia/`
 - Central Intelligence Agency, Iran World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/iran/`
 - Central Intelligence Agency, Korea, North World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/korea-north/`

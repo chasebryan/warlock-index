@@ -40,4 +40,7 @@ alignment actor.**
 
 - [2026-06-12T2338Z - China Strategic Actor Classification](../../assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.md)
 - [2026-06-12T2320Z - PRC Military Modernization Strategic Baseline](../../assessments/indo-pacific/2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)
-
+- [2026-06-14T0523Z - China/PLA Official Military And Security Source Baseline Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
+- [2026-06-14T0537Z - PRC Official Doctrine And Issuer-Language Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
+- [2026-06-14T0605Z - DoD/DIA China Military Power Extraction Map](../source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [2026-06-14T0523Z - China/PLA Source Collection Tracker](../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)

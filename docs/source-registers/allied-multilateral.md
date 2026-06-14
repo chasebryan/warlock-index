@@ -2,7 +2,52 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T02:19:34Z
+**Prepared UTC:** 2026-06-14T05:02:58Z
+
+## UNODA Biological Weapons Convention Treaty Database
+
+- **Source class:** A
+- **Publisher:** United Nations Office for Disarmament Affairs
+- **Accessed UTC:** 2026-06-14T03:58:59Z
+- **URL:** https://treaties.unoda.org/t/bwc
+- **Access note:** The page returned a JavaScript/anti-bot barrier in this
+  environment.
+- **Use:** Multilateral treaty source routing for Biological Weapons
+  Convention text, status, and future treaty/compliance source packets.
+- **Reliability note:** Correct UN treaty source family, but exact treaty
+  text, party-status, or meeting-document claims require later successful
+  document access or alternate official UN document paths.
+
+## UN Security Council Ukraine Biological-Weapons Allegation Source Family
+
+- **Source class:** A
+- **Publisher:** United Nations
+- **Accessed UTC:** 2026-06-14T04:12:00Z
+- **URL:** https://www.un.org/press/en/2022/sc14827.doc.htm
+- **Access note:** The official UN press URL returned a forbidden response in
+  this environment.
+- **Use:** Multilateral routing source for Security Council meeting records
+  and UN disarmament statements concerning Ukraine biological-weapons
+  allegations.
+- **Reliability note:** Correct UN source family, but exact quotations,
+  meeting claims, and legal or evidentiary conclusions require later
+  successful access to the UN press release, official meeting record, or
+  UN document-system equivalent.
+
+## Ukraine Official Biological Threat Reduction Source Family
+
+- **Source class:** A/B pending document-level refresh
+- **Publisher:** Ukrainian official source families, including foreign
+  ministry, health, security-service, agriculture/veterinary, and treaty
+  reporting lanes
+- **Accessed UTC:** 2026-06-14T04:12:00Z
+- **Use:** Partner-government routing for ownership, operation,
+  public-health, denial/response, BWC reporting, and claim-reconciliation
+  context involving Ukraine biological threat reduction and biolab claims.
+- **Reliability note:** Required for balanced reconciliation, but this pass
+  did not complete document-level Ukrainian official URL refresh. Use only as
+  a queued source family until exact official pages or archived official
+  captures are collected.
 
 ## UK Strategic Defence Review 2025
 
@@ -1430,3 +1475,811 @@
 - **Reliability note:** Authoritative for the Philippine government text of
   the agreement. It is legal text and requires later government statements for
   implementation status.
+
+## Norway Ministry Of Defence Portal
+
+- **Source class:** A
+- **Publisher:** Norwegian Ministry of Defence
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/dep/fd/id380/
+- **Use:** Official Norwegian defense-ministry routing source for defense
+  policy, the long-term defense plan, acquisition documents, Ukraine support,
+  Nordic cooperation, defense-industrial material, and defense-sector news.
+- **Reliability note:** Authoritative for ministry identity and official
+  document routing. It is a portal, not a substitute for direct document,
+  budget, procurement, or delivery evidence.
+
+## Norway Long-Term Defence Plan 2025-2036
+
+- **Source class:** A
+- **Publisher:** Norwegian Ministry of Defence
+- **Publication date:** 2024-04-05
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/documents/the-norwegian-defence-pledge/id3032809/
+- **Use:** Official source for Norway's 2025-2036 long-term defense plan,
+  defense-spending frame, force-development ambitions, personnel growth,
+  maritime/air/land/home guard modernization, and NATO/allied source work.
+- **Reliability note:** Authoritative for Norwegian Government planning
+  language. It does not prove delivered capability, readiness, procurement
+  success, or industrial output.
+
+## Norway Long-Term Defence Plan Press Release
+
+- **Source class:** A
+- **Publisher:** Office of the Prime Minister; Ministry of Defence; Ministry of
+  Finance
+- **Publication date:** 2024-04-05
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/whats-new/new-norwegian-long-term-plan-on-defence-a-historic-plan/id3032878/
+- **Use:** Government summary of the long-term defense plan, including public
+  spending increase, total 2036 defense-spending frame, Navy, air defense,
+  Army, and Home Guard modernization language.
+- **Reliability note:** Authoritative for government public communications.
+  Use the plan, budgets, Storting material, audit sources, and procurement
+  records for implementation judgments.
+
+## Norway Future Acquisitions For The Defence Sector 2026-2033
+
+- **Source class:** A
+- **Publisher:** Norwegian Ministry of Defence
+- **Publication date:** 2026-02-10
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/documents/future-acquisitions-for-the-defence-sector-faf-20262033/id3143079/
+- **Use:** Official public source for planned Norwegian defense-sector
+  materiel and facility investments, acquisition planning, allied
+  cooperation, defense industry, and project-approval framework source work.
+- **Reliability note:** Authoritative for public acquisition planning. Planned
+  projects carry uncertainty and are not proof of approval, delivery,
+  readiness, industrial output, or schedule performance.
+
+## Norway Defence Industry Production-Capacity Roadmap
+
+- **Source class:** A
+- **Publisher:** Norwegian Ministry of Defence
+- **Publication date:** 2025-03-24
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/documents/roadmap-for-expanding-production-capacity-in-the-defence-industry/id3058492/
+- **Use:** Official source lane for Norwegian defense-industrial capacity,
+  production expansion, supply security, industry-state coordination, and
+  defense-industrial follow-on collection.
+- **Reliability note:** Authoritative for Norwegian Government industrial
+  policy framing. Delivery, output, cost, and bottleneck claims require
+  budget, contract, audit, industry, and implementation evidence.
+
+## Norway Drone Strategy For The Defence Sector
+
+- **Source class:** A
+- **Publisher:** Norwegian Ministry of Defence
+- **Publication date:** 2025-12-01
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/documents/drone-strategy-for-the-defence-sector/id3141461/
+- **Use:** Official source lane for Norwegian defense-sector drone,
+  autonomy, innovation, acquisition, training, interoperability, and
+  emerging-technology source work.
+- **Reliability note:** Authoritative for Norwegian policy framing. Treatment
+  must remain strategic and must not extract operational drone tactics,
+  targeting guidance, evasion, or vulnerability detail.
+
+## Norway Nordic Defence Cooperation Joint Statement
+
+- **Source class:** A
+- **Publisher:** Norwegian Government
+- **Publication date:** 2026-05-06
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/whats-new/joint-statement-nordic-defence-cooperation/id3158727/
+- **Use:** Official source for Nordic defense cooperation, High North and
+  regional security framing, NATO regional-plan implementation context, and
+  Nordic-allied source routing.
+- **Reliability note:** Authoritative for statement language and source
+  identity. It does not replace national budgets, force-structure sources, or
+  implementation evidence from each Nordic country.
+
+## Norway Public Threat And Risk Assessments 2026 Presentation
+
+- **Source class:** A
+- **Publisher:** Norwegian Ministry of Defence; Norwegian Ministry of Justice
+  and Public Security
+- **Publication date:** 2026-02-06
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.regjeringen.no/en/whats-new/la-frem-arets-apne-trussel-og-risikovurderinger/id3148007/
+- **Use:** Official routing source connecting the 2026 public NIS *Focus*, PST
+  National Threat Assessment, and NSM *Risiko* source families for external
+  threat, domestic security threat, protective security, resilience, and Total
+  Defence source work.
+- **Reliability note:** Authoritative for government presentation and source
+  routing. The underlying NIS, PST, and NSM reports carry the product-specific
+  analytic detail.
+
+## Norway Intelligence Service Focus 2026
+
+- **Source class:** A
+- **Publisher:** Norwegian Intelligence Service
+- **Publication date:** 2026-02-06
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.etterretningstjenesten.no/publikasjoner/focus
+- **Use:** Official public foreign-intelligence threat assessment for external
+  threat, Norway's high-priority interests, alliance-support context, and
+  annual security-environment source routing.
+- **Reliability note:** Authoritative for NIS public assessment language. It
+  is unclassified public threat analysis and must not be treated as
+  intelligence tasking, collection guidance, or operational detail.
+
+## Norway PST National Threat Assessment 2026
+
+- **Source class:** A
+- **Publisher:** Norwegian Police Security Service
+- **Publication date:** 2026-02-06
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.pst.no/trusselbilde/norsk-trusselvurdering/
+- **Use:** Official PST public source for expected domestic security threats,
+  state actors, extremist threats, threats against dignitaries, national
+  preparedness, and protective-security source work.
+- **Reliability note:** Authoritative for PST public assessment framing.
+  Treatment must avoid investigative tactics, target selection, or
+  operationally sensitive detail.
+
+## Norway PST National Threat Assessment 2026 PDF
+
+- **Source class:** A
+- **Publisher:** Norwegian Police Security Service
+- **Publication date:** 2026-02-06
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://www.pst.no/wp-content/uploads/2026/02/National-Threat-Assessment-2026.pdf
+- **Use:** English PDF source for PST's 2026 National Threat Assessment,
+  including purpose, threat-landscape structure, probability terminology,
+  state-actor, extremism, and dignitary-threat source fields.
+- **Reliability note:** Authoritative for PST public English-language report
+  text. It remains a public assessment and must not be used to reproduce
+  investigative methods, targeting, or tactical guidance.
+
+## Norway NSM Risiko 2026
+
+- **Source class:** A
+- **Publisher:** Norwegian National Security Authority
+- **Publication date:** 2026-02-06
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://nsm.no/aktuelt/risiko-2026
+- **Use:** Official public source for Norwegian protective security, security
+  management, vulnerability trends, preventive security, digital security,
+  physical security, personnel security, and resilience source routing.
+- **Reliability note:** Authoritative for NSM public risk framing. NSM advice
+  should be treated as source evidence for this corpus, not converted into
+  WARLOCK-INDEX policy recommendations or technical procedures.
+
+## Norway NSM ICT Security Principles
+
+- **Source class:** A
+- **Publisher:** Norwegian National Security Authority
+- **Publication date:** 2024-06-18; page edited 2024-08-27
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://nsm.no/advice-and-guidance/publications/nsm-ict-security-principles
+- **Use:** Official defensive ICT-security framework source for identifying
+  high-level protective-control families and cyber-resilience source routing.
+- **Reliability note:** Authoritative for NSM defensive framework language.
+  Do not convert the principles into exploit, evasion, or offensive technical
+  guidance.
+
+## Norway NSM Institutional Role
+
+- **Source class:** A
+- **Publisher:** Norwegian National Security Authority
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T03:19:09Z
+- **URL:** https://nsm.no/about-nsm/about-the-norwegian-national-security-authority/
+- **Use:** Official source for NSM's protective-security role, including
+  espionage, sabotage, terrorism, hybrid-threat countermeasures, national
+  cyber coordination, classified-information protection, and institutional
+  relationship to justice and defense authorities.
+- **Reliability note:** Authoritative for agency mission and role. It is not a
+  substitute for incident, risk, audit, or implementation evidence.
+
+## Finland Ministry Of Defence Portal
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/frontpage
+- **Use:** Official Finnish defense-ministry routing source for NATO
+  membership, defense policy, DCA, Nordic defense cooperation, budget,
+  materiel, and current defense-sector releases.
+- **Reliability note:** Authoritative for ministry identity and public
+  document routing. It is a portal, not a substitute for direct report,
+  budget, procurement, parliamentary, audit, or delivery evidence.
+
+## Finland Government Defence Report 2024 Routing Source
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** Government Defence Report 2024 approved 2024-12-19
+  per ministry page
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/publications/defence-policy-reports
+- **Use:** Official routing source for Finland's post-NATO defense-policy
+  report, planning guidance into the 2030s, Russia-threat framing,
+  deterrence, national defense, and NATO integration source work.
+- **Reliability note:** Authoritative for ministry routing and report
+  identity. Detailed report claims require direct PDF/report extraction and
+  later budget, parliamentary, and implementation evidence.
+
+## Finland NATO Membership Source
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/areas-of-expertise/finland-s-membership-in-nato
+- **Use:** Official source for Finland's NATO membership, national-defense
+  continuity, NATO Defense Planning Process, collective-defense integration,
+  MCLCC, Forward Land Forces Finland, host-nation-support source routing, and
+  nuclear-policy caveats.
+- **Reliability note:** Authoritative for public policy framing. It does not
+  disclose classified NATO plans, readiness, force-generation detail,
+  facility status, sensor coverage, or nuclear posture.
+
+## Finland-U.S. Defence Cooperation Agreement Source Family
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence; Ministry for Foreign Affairs of
+  Finland
+- **Publication date:** DCA entered into force 2024-09-01 per ministry page
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/areas-of-expertise/international-defence-cooperation/international-conventions/defence-cooperation-agreement-with-the-united-states-dca-
+- **Use:** Official source family for the Finland-U.S. DCA, NATO-supplement
+  framing, training/cooperation/prepositioning language, sovereignty/legal
+  safeguards, implementation documents, and future host-nation-support source
+  routing.
+- **Reliability note:** Authoritative for issuer framing and legal-document
+  routing. Do not infer base access, movement routes, logistics procedures,
+  facility vulnerabilities, or U.S. operational posture from this public
+  source family.
+
+## Finland-U.S. Signed DCA PDF
+
+- **Source class:** A
+- **Publisher:** Ministry for Foreign Affairs of Finland
+- **Publication date:** Signed agreement PDF
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://um.fi/documents/35732/0/DCA%20Finland%20Prime%20English_signed.pdf/2f5d41c2-1385-8626-0559-a059154c990a?t=1702985096702
+- **Use:** Official legal-text source for future DCA provision checks and
+  treaty/source-family reconciliation.
+- **Reliability note:** Authoritative for the signed text. Legal provisions
+  require careful interpretation and do not by themselves prove posture,
+  access, movement, facility status, or implementation outcomes.
+
+## Finland Nordic Defence Cooperation Source
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/areas-of-expertise/international-defence-cooperation/nordic-defence-cooperation
+- **Use:** Official source for Finland's NORDEFCO/Nordic defense cooperation
+  lane, including operative planning, defence-policy dialogue, capabilities,
+  security of supply, defence industry, military mobility, NATO
+  complementarity, and Finland's 2025 chairmanship.
+- **Reliability note:** Authoritative for cooperation framing. Do not extract
+  route, movement, logistics, or operational details from public cooperation
+  language.
+
+## Finland Defence Materiel And Defence Industry Source
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/areas-of-expertise/defence-materiel-and-the-defence-industry
+- **Use:** Official source lane for Finnish defense materiel policy,
+  long-term capability, security of supply, domestic industrial expertise,
+  industrial cooperation, and EU/NORDEFCO/NATO cooperation.
+- **Reliability note:** Authoritative for policy framing and source routing.
+  Delivery, industrial output, bottlenecks, supplier risk, and capability
+  claims require budget, program, procurement, audit, and industry evidence.
+
+## Finland Defence Budget Source
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/ministry-of-defence/economy-and-activities/defence-budget
+- **Use:** Official budget and expenditure routing source for Finnish
+  defense-investment and implementation follow-on work.
+- **Reliability note:** Budget pages support fiscal context but do not prove
+  delivered capability, readiness, schedule performance, or industrial output.
+
+## Finnish Defence Forces And NATO Source
+
+- **Source class:** A
+- **Publisher:** Finnish Defence Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://puolustusvoimat.fi/en/natoen
+- **Use:** Official Defence Forces source for NATO integration, national
+  defense continuity, personnel in NATO structures, planning/training/legal
+  adaptation, exercises, surveillance responsibility, and base/nuclear caveats.
+- **Reliability note:** Authoritative for public FDF integration framing. It
+  does not provide classified planning, force-generation, sensor coverage, or
+  readiness evidence.
+
+## Finnish Defence Forces National Defence Source
+
+- **Source class:** A
+- **Publisher:** Finnish Defence Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://puolustusvoimat.fi/en/conscription/finlands-defence
+- **Use:** Official source for FDF statutory tasks, national military defense,
+  participation in NATO collective defense, support to other authorities,
+  international assistance/crisis-management, and reserve framing.
+- **Reliability note:** Authoritative for high-level institutional framing.
+  Do not convert public task descriptions into mobilization procedures,
+  tactical guidance, or operational planning.
+
+## Finnish Defence Forces Strategic Capability Projects Source
+
+- **Source class:** A
+- **Publisher:** Finnish Defence Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://puolustusvoimat.fi/en/strategic-capability-projects
+- **Use:** Official routing source for Finnish strategic capability projects,
+  including the F-35 Programme and Squadron 2020/Pohjanmaa-class source
+  lanes.
+- **Reliability note:** Authoritative for program routing. Delivery,
+  operational availability, schedule, and performance claims require direct
+  program, budget, procurement, and oversight evidence.
+
+## Finland F-35 Programme Source
+
+- **Source class:** A
+- **Publisher:** Finnish Defence Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://puolustusvoimat.fi/en/hx-fighter-program
+- **Use:** Official source lane for Finland's F-35/F/A-18 replacement program,
+  public milestone framing, and air-capability modernization follow-on work.
+- **Reliability note:** Authoritative for public program framing. Do not
+  infer tactical employment, basing, performance, readiness, or operational
+  effect from the public program page.
+
+## Finland Squadron 2020 Source
+
+- **Source class:** A
+- **Publisher:** Finnish Defence Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://puolustusvoimat.fi/en/squadron-2020
+- **Use:** Official source lane for Squadron 2020, Pohjanmaa-class corvettes,
+  naval capability replacement, and maritime-capability follow-on work.
+- **Reliability note:** Authoritative for public program framing. Delivery
+  timing, operational availability, and maritime posture require refreshed
+  program, budget, procurement, and oversight evidence.
+
+## Finland Forward Land Forces And Cold Response 26 Source Family
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** 2026-03-16
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/-/defence-ministers-of-finland-sweden-and-norway-at-cold-response-26-implementation-of-flf-finland-progressing-rapidly
+- **Use:** Official source family for Forward Land Forces Finland, Cold
+  Response 26, Nordic/High North NATO integration, and public implementation
+  milestone routing.
+- **Reliability note:** Authoritative for ministry communications. Do not
+  extract unit disposition, movement route, exercise detail, base/facility
+  vulnerability, or operational-plan information.
+
+## Finland FLF Joint Statement Source
+
+- **Source class:** A
+- **Publisher:** Finnish Ministry of Defence
+- **Publication date:** 2026-03-16
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://defmin.fi/en/-/joint-statement-on-cold-response-26-and-nato-s-forward-land-forces-in-finland-by-the-ministers-of-defence-of-finland-sweden-and-norway
+- **Use:** Official multinational statement source for FLF Finland, High
+  North deterrence/defence framing, Sweden framework-nation language, and
+  Nordic/allied participation routing.
+- **Reliability note:** Statement-level source. It is not force-generation,
+  readiness, route, facility, or operational posture evidence.
+
+## Finland Supo National Security Overview
+
+- **Source class:** A
+- **Publisher:** Finnish Security and Intelligence Service (Supo)
+- **Publication date:** Annual overview page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://supo.fi/en/overview
+- **Use:** Official source lane for Finnish national-security overview,
+  Russia, Baltic Sea tensions, China, critical minerals, digital
+  independence/clouds, espionage/influencing, terrorism, and agency-year
+  source routing.
+- **Reliability note:** Authoritative for Supo public assessment framing.
+  Treatment must avoid investigative tactics, intelligence collection
+  guidance, target selection, or operationally sensitive detail.
+
+## Finland Supo Intelligence Role
+
+- **Source class:** A
+- **Publisher:** Finnish Security and Intelligence Service (Supo)
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://supo.fi/en/intelligence
+- **Use:** Official institutional source for Supo's national-security
+  intelligence role, legal civilian-intelligence authorities, and support to
+  top-level government decision-making.
+- **Reliability note:** Authoritative for role framing. It must not be used
+  as intelligence tasking, collection-method instruction, investigative
+  procedure, or operational guidance.
+
+## Finland National Cyber Security Centre Source
+
+- **Source class:** A
+- **Publisher:** Finnish Transport and Communications Agency Traficom /
+  National Cyber Security Centre Finland
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://www.kyberturvallisuuskeskus.fi/en
+- **Use:** Official source lane for Finnish cyber-security situational
+  awareness, communications-network and service reliability/security, cyber
+  weather, and cyber-resilience source routing.
+- **Reliability note:** Authoritative for defensive agency source routing.
+  Do not convert public cyber material into exploit, scanning, intrusion,
+  incident-response, or vulnerability procedures.
+
+## Finland National Emergency Supply Agency Source
+
+- **Source class:** A
+- **Publisher:** National Emergency Supply Agency
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://www.huoltovarmuuskeskus.fi/en
+- **Use:** Official source lane for Finnish security of supply, preparedness,
+  resilience, and future "Shockproof Finland" strategy source work.
+- **Reliability note:** Authoritative for agency identity and source-family
+  routing. Implementation claims require direct strategy, sector, budget,
+  audit, and agency documents.
+
+## NATO Relations With Finland
+
+- **Source class:** A
+- **Publisher:** NATO
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T04:27:32Z
+- **URL:** https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-finland
+- **Use:** NATO source cross-check for Finland's Alliance relationship,
+  accession framing, and Finland-NATO source routing.
+- **Reliability note:** Authoritative for NATO public framing. It cannot
+  replace Finnish national budget, capability, legal, or implementation
+  evidence.
+
+## Sweden Military Defence Portal
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/military-defence/
+- **Use:** Official Swedish military-defence routing source for military
+  defence, civil-defence coordination, total-defence service, defence
+  materiel, military budget, Sweden-Finland cooperation, Nordic cooperation,
+  Defence Resolution 2025-2030, and current defense-sector releases.
+- **Reliability note:** Authoritative for ministry identity and source-family
+  routing. It is not a substitute for direct bill, budget, Riksdag, audit,
+  procurement, agency, or delivery evidence.
+
+## Sweden Defence Resolution 2025-2030
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/total-defence/defence-resolution-2025-20302/
+- **Use:** Official policy source for Sweden's 2025-2030 total-defence
+  reinforcement, military capability growth, civil-defence investment, NATO
+  capability targets, war-organisation development, logistics,
+  infrastructure, personnel, innovation, and Sweden-as-an-Ally source work.
+- **Reliability note:** Authoritative for government policy framing. It does
+  not prove delivery, readiness, schedule, industrial output, or NATO
+  implementation performance.
+
+## Sweden Total Defence Resolution Press Release
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden / Ministry of Defence
+- **Publication date:** 2024-10-15
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/press-releases/2024/10/new-total-defence-resolution-for-a-stronger-sweden/
+- **Use:** Official summary source for the Total Defence Bill 2025-2030,
+  military and civil defence funding direction, conscript growth, brigade
+  development, and total-defence rebuilding language.
+- **Reliability note:** Government communication source. Detailed claims
+  require direct bill text, Riksdag decisions, budget documents, annual
+  reports, audit material, procurement evidence, and delivery records.
+
+## Sweden Military Budget Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/military-budget/
+- **Use:** Official budget and expenditure routing source for Swedish
+  military-defence appropriations, NATO GDP-share framing, and central
+  government budget follow-on work.
+- **Reliability note:** Budget pages support fiscal context but do not prove
+  delivered capability, readiness, schedule performance, or industrial output.
+
+## Sweden In NATO Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/sweden-in-nato/
+- **Use:** Official source family for Sweden's NATO accession, responsible
+  ministries, NATO policy routing, and current NATO-related government
+  releases.
+- **Reliability note:** Authoritative for Swedish Government public framing.
+  Detailed integration claims require direct subpages, legal sources, NATO
+  cross-checks, budget, and implementation evidence.
+
+## Sweden Role In NATO Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Updated 2026-03-24
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/sweden-in-nato/swedens-role-in-nato/
+- **Use:** Official source for Sweden's NATO membership rationale, collective
+  defence, defence planning, capability planning, NATO contributions,
+  framework-nation role for FLF Finland, host-nation support, civil
+  preparedness, Nordic implications, and NATO legal-adaptation routing.
+- **Reliability note:** Public FAQ/policy source. Do not infer classified
+  NATO plans, routes, force-generation detail, facility status, sensor
+  coverage, readiness, or nuclear posture.
+
+## Sweden FLF Finland Framework-Nation Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden / Ministry of Defence
+- **Publication date:** 2026-06-05
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/press-releases/2026/06/swedish-troops-to-be-placed-under-nato-command-in-flf-finland/
+- **Use:** Official source for Sweden's framework-nation role in FLF Finland,
+  NATO command-transfer milestone, northeastern-flank reinforcement framing,
+  and High North/Nordic NATO integration source work.
+- **Reliability note:** Authoritative for ministry communications. Do not
+  extract unit disposition, movement route, facility dependency,
+  vulnerability, or operational-plan detail.
+
+## Sweden-Finland Defence Cooperation Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/defence-cooperation-between-sweden-and-finland/
+- **Use:** Official source for Sweden-Finland defence cooperation, shared
+  security-policy perspective, capability cooperation, joint-operation
+  source routing, Baltic Sea region framing, and NATO/NORDEFCO/EU/UN
+  cooperation context.
+- **Reliability note:** Public cooperation source. Do not convert references
+  to infrastructure, communications, ports, air bases, surveillance, or joint
+  operational capability into operational guidance.
+
+## Sweden Nordic Defence Cooperation Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/nordic-defence-cooperation/
+- **Use:** Official source for NORDEFCO, Nordic defence-capability
+  cooperation, joint action in crisis, revised MoU routing after Finland and
+  Sweden joined NATO, and Vision 2030 source work.
+- **Reliability note:** Authoritative for cooperation framing. Do not extract
+  route, movement, logistics, or operational details from public cooperation
+  language.
+
+## Sweden International Defence Cooperation Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/international-defence-cooperation/
+- **Use:** Official source for Swedish bilateral and multilateral defence
+  cooperation, NATO as cornerstone, Finland as farthest-reaching bilateral
+  defence cooperation, strategic allies, EU, NORDEFCO, and JEF source
+  routing.
+- **Reliability note:** Source-routing page. Implementation claims require
+  direct agreement text, budget, Riksdag, agency, and operational-source
+  refresh.
+
+## Sweden Total Defence Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/total-defence/
+- **Use:** Official total-defence source for Sweden's whole-of-society
+  defence model, military/civil defence distinction, sovereignty and
+  territorial-integrity framing, NATO commitments, heightened-alert routing,
+  and Defence Commission source work.
+- **Reliability note:** Strategic policy source. Do not extract mobilization,
+  continuity, facility-dependency, or operational preparedness procedures.
+
+## Sweden Civil Defence Source
+
+- **Source class:** A
+- **Publisher:** Government Offices of Sweden
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.government.se/government-policy/civil-defence/
+- **Use:** Official civil-defence source for population protection, critical
+  societal functions, crisis-preparedness foundation, support to the Swedish
+  Armed Forces, and civil-defence policy routing.
+- **Reliability note:** Strategic policy source. It is not a detailed
+  operational preparedness checklist or mobilization procedure.
+
+## Swedish Armed Forces Front Page
+
+- **Source class:** A
+- **Publisher:** Swedish Armed Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.forsvarsmakten.se/en/
+- **Use:** Official Armed Forces portal for mission language, Sweden/NATO
+  routing, defending Sweden and allies, and current Armed Forces source work.
+- **Reliability note:** Portal and public communications source. Direct
+  claims require page-specific extraction and implementation evidence.
+
+## Swedish Armed Forces Defending Sweden Source
+
+- **Source class:** A
+- **Publisher:** Swedish Armed Forces
+- **Publication date:** Updated 2025-11-27
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.forsvarsmakten.se/en/about-the-swedish-armed-forces/defending-sweden/
+- **Use:** Official mission source for Swedish military defence, surveillance,
+  total defence, alliances, cyber-defence source routing, exercises, and
+  strengthened defence capability.
+- **Reliability note:** Strategic public source. Do not infer patrol
+  patterns, sensor coverage, force readiness, or operational posture.
+
+## Swedish Armed Forces And NATO Source
+
+- **Source class:** A
+- **Publisher:** Swedish Armed Forces
+- **Publication date:** Updated 2026-05-13
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.forsvarsmakten.se/en/about-the-swedish-armed-forces/defending-sweden/tasks/military-cooperation/sweden-and-nato/
+- **Use:** Official Armed Forces source for NATO integration, Article 3
+  resilience, Article 5 collective defence, host-nation support, Swedish NATO
+  contributions, FLF Latvia, FLF Finland, JLSG/NATO signal-battalion routing,
+  and NATO staffing.
+- **Reliability note:** Public integration source. No classified planning,
+  route guidance, force-generation detail, facility status, readiness, or
+  sensor-coverage inference.
+
+## Swedish Armed Forces Official Information Source
+
+- **Source class:** A
+- **Publisher:** Swedish Armed Forces
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.forsvarsmakten.se/en/about-the-swedish-armed-forces/official-information/
+- **Use:** Official public-information routing source for Swedish Armed
+  Forces weapons/vehicles, ranks, history, and institutional source families.
+- **Reliability note:** Routing source. Capability or implementation claims
+  require direct pages, program records, budgets, and oversight evidence.
+
+## Swedish Armed Forces Procurements Source
+
+- **Source class:** A
+- **Publisher:** Swedish Armed Forces
+- **Publication date:** Updated 2026-02-18
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.forsvarsmakten.se/en/rules-and-permits/procurements/
+- **Use:** Official procurement-source routing for Armed Forces contracting,
+  Swedish procurement legal frameworks, e-Avrop/TED notice routing, and
+  security-protected procurement caveats.
+- **Reliability note:** Administrative source only. Do not turn it into
+  procurement advice; specific implementation claims require direct notices,
+  contracts, agency reporting, and oversight.
+
+## Swedish Civil Defence And Resilience Agency Front Page
+
+- **Source class:** A
+- **Publisher:** Swedish Civil Defence and Resilience Agency
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.mcf.se/en/
+- **Use:** Official civil-defence/resilience portal for MCF, CERT-SE,
+  Krisinformation, publications, Ukraine support, strategic environment
+  routing, and public resilience source families.
+- **Reliability note:** Portal only. Document-level claims require direct
+  publication extraction and defensive/source-family treatment.
+
+## Swedish Civil Defence And Resilience Agency Mission Source
+
+- **Source class:** A
+- **Publisher:** Swedish Civil Defence and Resilience Agency
+- **Publication date:** Latest reviewed 2025-12-19
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.mcf.se/en/about-us/our-mission/
+- **Use:** Official MCF mission source for civil-defence coordination,
+  crisis preparedness, total-defence goals, critical public services,
+  support to NATO collective defence, population protection, and resilience.
+- **Reliability note:** Strategic institution source. Do not convert into
+  operational continuity, facility, or mobilization procedures.
+
+## Swedish Civil Defence And Resilience Agency NATO Ally Source
+
+- **Source class:** A
+- **Publisher:** Swedish Civil Defence and Resilience Agency
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.mcf.se/en/about-us/international-cooperation/sweden-as-a-nato-ally/
+- **Use:** Official source for Sweden's civil-preparedness role in NATO,
+  NATO baseline requirements, civil preparedness as a collective-defence
+  enabler, CPG/EADRCC roles, EU/NATO resilience cooperation, and MCF
+  coordination responsibilities.
+- **Reliability note:** Source-routing and institutional-role source. Do not
+  convert into detailed civil-preparedness tasking or operational procedures.
+
+## Swedish Cybersecurity Coordination Source
+
+- **Source class:** A
+- **Publisher:** Swedish Civil Defence and Resilience Agency
+- **Publication date:** Latest reviewed 2026-05-20
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.mcf.se/en/about-us/international-cooperation/the-swedish-national-coordination-centre-for-cybersecurity-research-and-innovation/
+- **Use:** Official source for Sweden's National Coordination Centre for
+  cybersecurity research and innovation, EU cyber funding/routing, Digital
+  Europe, Horizon Europe, cybersecurity capability, and skills-development
+  source work.
+- **Reliability note:** Research and funding source. Do not reproduce
+  technical indicators, vulnerability procedures, exploit steps, or
+  incident-response playbooks.
+
+## Swedish Total Defence Public Information Source
+
+- **Source class:** A
+- **Publisher:** Swedish Civil Defence and Resilience Agency
+- **Publication date:** Latest reviewed 2026-03-11
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.mcf.se/en/advice-for-individuals/swedish-defence/total-defence--you-are-part-of-swedens-overall-emergency-preparedness/
+- **Use:** Official public source for Sweden's total-defence explanation,
+  civil/military defence distinction, total-defence duty, civil-defence
+  objectives, and NATO membership demands.
+- **Reliability note:** Public information source. Use for source routing and
+  institutional framing, not prescriptive preparedness instruction.
+
+## Swedish Total Defence Planning Assumptions Source
+
+- **Source class:** A
+- **Publisher:** Swedish Civil Defence and Resilience Agency
+- **Publication date:** Public publication page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.mcf.se/sv/publikationer/the-strategic-environment-and-planning-assumptions-for-swedish-total-defence-20252030-/
+- **Use:** Official routing source for MCF strategic-environment and
+  planning-assumptions material for Swedish total defence 2025-2030.
+- **Reliability note:** Swedish-language publication routing source. Direct
+  document extraction and terminology review remain follow-on.
+
+## NATO Relations With Sweden
+
+- **Source class:** A
+- **Publisher:** NATO
+- **Publication date:** Page current as accessed
+- **Accessed UTC:** 2026-06-14T05:02:58Z
+- **URL:** https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-sweden
+- **Use:** NATO source cross-check for Sweden's Alliance relationship,
+  accession framing, and Sweden-NATO source routing.
+- **Reliability note:** Authoritative for NATO public framing. It cannot
+  replace Swedish national budget, capability, legal, or implementation
+  evidence.

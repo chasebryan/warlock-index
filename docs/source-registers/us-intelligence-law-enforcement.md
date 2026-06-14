@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-USILE-2026-0001
 
-**Prepared UTC:** 2026-06-13T05:56:38Z
+**Prepared UTC:** 2026-06-14T05:23:13Z
 
-**Information cutoff UTC:** 2026-06-13T05:56:38Z
+**Information cutoff UTC:** 2026-06-14T04:12:00Z
 
 **Purpose:** Organize official U.S. intelligence, homeland security, law
 enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and
@@ -46,6 +46,25 @@ identity, journalism, protest, or association as an intelligence target.
 - **Reliability note:** Authoritative for public IC framing. It is a public
   assessment with release constraints and should be cross-read with agency
   source packets for domain detail.
+
+### ODNI Global Biolab Program Disclosure
+
+- **Source class:** A
+- **Publisher:** Office of the Director of National Intelligence
+- **Publication date:** 2026-06-12
+- **URL:** https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2026/4163-pr-10-26
+- **Linked evidence artifact:** https://www.dni.gov/files/BIOLAB_Slides.pdf
+- **Use:** Official public ODNI source event for biolab, biosecurity,
+  Ukraine-war, WMD/proliferation, oversight, and information-resilience source
+  treatment.
+- **Reliability note:** Authoritative for ODNI issuer perspective and the
+  existence of the public release. It does not by itself settle individual
+  facility, research, funding, legality, safety, or disinformation claims.
+  WARLOCK-INDEX should use the dedicated source-treatment note before
+  incorporating this disclosure into later products.
+- **Boundary:** Do not reproduce biological methods, biological-material
+  lists, facility tables, contractor details, site identifiers, vulnerability
+  analysis, targeting support, or collection guidance.
 
 ### CIA World Leaders
 
@@ -136,6 +155,55 @@ identity, journalism, protest, or association as an intelligence target.
   must not provide materials, methods, recipes, deployment guidance, or
   vulnerability exploitation detail.
 
+### Federal Select Agent Program
+
+- **Source class:** A
+- **Publisher:** Centers for Disease Control and Prevention / USDA Animal and
+  Plant Health Inspection Service
+- **URL:** https://www.selectagents.gov/
+- **Use:** Public U.S. source family for select-agent oversight, inspection,
+  compliance, biosafety, and biosecurity source routing.
+- **Reliability note:** Authoritative for public oversight framing. WARLOCK-INDEX may use this source family for governance and regulatory context only;
+  do not reproduce controlled lists, quantities, facility-sensitive details,
+  or compliance workarounds.
+
+### White House National Biodefense Strategy And Implementation Plan
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **URL:** https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/National-Biodefense-Strategy-and-Implementation-Plan-Final.pdf
+- **Use:** Whole-of-government biodefense, biological-risk, preparedness,
+  response, recovery, biosecurity, and global health-security source family.
+- **Reliability note:** Authoritative for public strategy framing. It is not a
+  technical laboratory or facility source.
+
+### Defense Threat Reduction Agency
+
+- **Source class:** A
+- **Publisher:** Defense Threat Reduction Agency
+- **URLs:** https://www.dtra.mil/ ; https://www.dtra.mil/Portals/125/Documents/Media-Kit/DTRA-HQC-Fact-Sheet-FINAL-02052025-v1.pdf
+- **Use:** DoD WMD and emerging-threat reduction source family, including
+  future Cooperative Threat Reduction and biological-threat-reduction source
+  packets.
+- **Reliability note:** Authoritative for DTRA public mission framing. General
+  mission pages do not validate specific foreign-laboratory, contract, or
+  partner-country claims without follow-on document-level sources.
+
+### DoD BTRP Ukraine Fact Sheet And Embassy Source Family
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense; U.S. Embassy in Ukraine
+- **URLs:** https://media.defense.gov/2022/Mar/11/2002954612/-1/-1/0/FACT-SHEET-THE-DEPARTMENT-OF-DEFENSE%27S-COOPERATIVE-THREAT-REDUCTION-PROGRAM-BIOLOGICAL-THREAT-REDUCTION-PROGRAM-ACTIVITIES-IN-UKRAINE.PDF ; https://ua.usembassy.gov/embassy/kyiv/sections-offices/defense-threat-reduction-office/biological-threat-reduction-program/ ; https://ua.usembassy.gov/u-s-ukraine-partnership-to-reduce-biological-threats/
+- **Use:** Official DoD and embassy routing for Ukraine biological threat
+  reduction claims, including the DoD March 2022 public BTRP fact sheet and
+  access-caveated embassy source-family pages.
+- **Reliability note:** The DoD fact sheet is verified as a public DoD
+  issuer-position source. The embassy pages returned access barriers in this
+  environment and require later refresh before direct extraction.
+- **Boundary:** Use for source reconciliation only. Do not reproduce facility
+  lists, local site identifiers, biological-material details, sample-handling
+  direction, vulnerability analysis, or operational implications.
+
 ### NCTC Terrorist Groups Public Guide
 
 - **Source class:** A
@@ -204,6 +272,24 @@ identity, journalism, protest, or association as an intelligence target.
 - **Reliability note:** Authoritative for public NSA defensive guidance.
   WARLOCK-INDEX should extract actor, sector, and mitigation themes without
   turning advisories into exploit manuals.
+
+### PRC State-Sponsored Cyber Advisory Source Family
+
+- **Source class:** A
+- **Publishers:** CISA, NSA, FBI, and allied cyber agencies where jointly
+  listed on specific advisories.
+- **Accessed UTC:** 2026-06-14T05:23:13Z
+- **URLs:** https://www.cisa.gov/news-events/cybersecurity-advisories ; https://www.nsa.gov/Press-Room/Cybersecurity-Advisories/
+- **Use:** Defensive public source family for PRC state-sponsored cyber
+  activity, critical-infrastructure risk, espionage, actor naming, sector
+  exposure, and allied advisory coordination. The China/PLA source baseline
+  uses this as a routing lane pending a dedicated PRC cyber source packet.
+- **Reliability note:** Authoritative for public defensive advisory framing.
+  Individual advisories require dated extraction before claim-level use.
+  WARLOCK-INDEX should summarize actor, sector, and defensive themes only.
+- **Boundary:** No exploit steps, command syntax, scanning procedure,
+  indicator-for-misuse tables, malware operation, credential theft workflow,
+  victim-specific guidance, or evasion detail.
 
 ### State Department Foreign Terrorist Organizations
 
@@ -317,7 +403,7 @@ identity, journalism, protest, or association as an intelligence target.
 | Domestic terrorism and violent extremism | FBI, DHS, DOJ, Treasury | Legal/security category source lane | No political enemies list or protected-speech profiling |
 | Cyber threats | CISA, FBI, NSA, ODNI, Treasury, DOJ | Defensive strategic cyber source lane | No exploit steps, scanning, evasion, or targeting |
 | Transnational criminal organizations | DEA, Treasury, FBI, DHS/HSI, CBP, Coast Guard, ATF | TCO, narcotics, firearms, border, maritime, finance source lane | No trafficking, concealment, procurement, or enforcement tactics |
-| WMD and proliferation | FBI WMD, State, Treasury, ODNI, DoD, DHS, IAEA/UN sources | Proliferation and terrorism risk source lane | No materials, methods, or vulnerability detail |
+| WMD and proliferation | FBI WMD, State, Treasury, ODNI, DoD/DTRA, DHS, FSAP, IAEA/UN sources | Proliferation, terrorism risk, biosecurity, Ukraine biolab claim reconciliation, and official disclosure source lane | No materials, methods, facility tables, device, site mapping, or vulnerability detail |
 | Border and maritime threat vectors | DHS, CBP, Coast Guard, DEA, FBI, Treasury | Aggregate strategic source lane | No route selection, evasion, or live movement analysis |
 | Maps and geospatial context | CIA legacy maps, CIA World Leaders, NGA, State, DoD command AOR maps | Strategic orientation and source indexing | No targeting, surveillance, or infrastructure vulnerability mapping |
 
@@ -328,4 +414,7 @@ identity, journalism, protest, or association as an intelligence target.
 - [Official Threat Source Collection Tracker](../collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Official U.S. Threat Source Assimilation Matrix](../collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Legacy Factbook Replacement Note](../collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
+- [ODNI Global Biolab Disclosure Source-Treatment Note](../collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)
+- [Ukraine Biolab Claim-Reconciliation Source Note](../collections/source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.md)
+- [WMD/Biosecurity Public Source Baseline Packet](../collections/source-packets/official-threat-source-baseline/2026-06-14T0358Z-wmd-biosecurity-public-source-baseline-packet.md)
 - [Official U.S. Sources](official-us.md)

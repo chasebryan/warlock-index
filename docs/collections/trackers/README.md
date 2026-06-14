@@ -13,3 +13,4 @@ and do not provide operational guidance.
 - [2026-06-13T0518Z - Red Sea Maritime Disruption Strategic Tracker](2026-06-13T0518Z-red-sea-maritime-disruption-strategic-tracker.md)
 - [2026-06-13T0600Z - Official Threat Source Collection Tracker](2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [2026-06-14T0118Z - Allied Official Source Collection Tracker](2026-06-14T0118Z-allied-official-source-collection-tracker.md)
+- [2026-06-14T0523Z - China/PLA Source Collection Tracker](2026-06-14T0523Z-china-pla-source-collection-tracker.md)

@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T00:21:47Z
+**Prepared UTC:** 2026-06-14T06:05:33Z
 
 ## ODNI Annual Threat Assessment 2026
 
@@ -29,6 +29,158 @@
 - **URL:** https://www.dni.gov/files/ODNI/documents/assessments/ATA-2025-Unclassified-Report.pdf
 - **Use:** Prior-year comparison for threat framing and actor continuity.
 - **Reliability note:** Useful for trend comparison against the 2026 ATA.
+
+## ODNI Global Biolab Program Disclosure
+
+- **Source class:** A
+- **Publisher:** Office of the Director of National Intelligence
+- **Publication date:** 2026-06-12
+- **Accessed UTC:** 2026-06-14T03:47:22Z
+- **URL:** https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2026/4163-pr-10-26
+- **Linked evidence artifact:** https://www.dni.gov/files/BIOLAB_Slides.pdf
+- **Use:** Official public ODNI disclosure source for U.S.-funded foreign
+  biolab claims, Ukraine-war compromise-risk framing, biosecurity oversight
+  concerns, and future WMD/biosecurity source-treatment work.
+- **Reliability note:** Authoritative for what ODNI publicly stated and
+  released. WARLOCK-INDEX treats the underlying facility, funding,
+  biological-material, research-characterization, and oversight claims as
+  requiring cross-reading with DoD Cooperative Threat Reduction, State
+  Department, congressional, Ukrainian, treaty-organization, technical
+  biosecurity, and independent oversight sources. Do not reproduce granular
+  biological, facility, contractor, or vulnerability detail.
+
+## White House National Biodefense Strategy And Implementation Plan
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** October 2022
+- **Accessed UTC:** 2026-06-14T03:58:59Z
+- **URL:** https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/10/National-Biodefense-Strategy-and-Implementation-Plan-Final.pdf
+- **Use:** Whole-of-government public biodefense strategy baseline for
+  naturally occurring, accidental, and deliberate biological threats,
+  preparedness, response, recovery, One Health framing, biosecurity, and
+  global health-security source routing.
+- **Reliability note:** Authoritative for 2022 U.S. strategy framing. It is
+  policy guidance, not a facility-level, laboratory-level, or scientific
+  adjudication source.
+
+## Defense Threat Reduction Agency Public Mission And Fact Sheet
+
+- **Source class:** A
+- **Publisher:** Defense Threat Reduction Agency
+- **Publication date:** February 2025 fact sheet; public mission page dynamic
+- **Accessed UTC:** 2026-06-14T03:58:59Z
+- **URLs:** https://www.dtra.mil/ ; https://www.dtra.mil/Portals/125/Documents/Media-Kit/DTRA-HQC-Fact-Sheet-FINAL-02052025-v1.pdf
+- **Use:** Public DoD source family for WMD and emerging-threat reduction,
+  DTRA mission framing, and future Cooperative Threat Reduction source work.
+- **Reliability note:** Authoritative for DTRA public mission framing. It does
+  not validate specific foreign-laboratory, funding, contractor, or
+  partner-country claims without document-level follow-on sources.
+
+## Department Of Defense BTRP Ukraine Fact Sheet
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense
+- **Publication date:** 2022-03-11
+- **Accessed UTC:** 2026-06-14T04:12:00Z
+- **URL:** https://media.defense.gov/2022/Mar/11/2002954612/-1/-1/0/FACT-SHEET-THE-DEPARTMENT-OF-DEFENSE%27S-COOPERATIVE-THREAT-REDUCTION-PROGRAM-BIOLOGICAL-THREAT-REDUCTION-PROGRAM-ACTIVITIES-IN-UKRAINE.PDF
+- **Use:** Official DoD source for Cooperative Threat Reduction / Biological
+  Threat Reduction Program activities in Ukraine, including DoD's public
+  framing of peaceful public-health, biosafety, biosecurity, surveillance,
+  partner-ownership, war-zone compromise-risk, disinformation, and BWC
+  compliance claims.
+- **Reliability note:** Authoritative for DoD's March 2022 public position.
+  It should be cross-read with ODNI 2026, State/BWC, Ukrainian, congressional,
+  and oversight sources before any stronger claim about facilities, funding,
+  contractors, legality, safety, or intent.
+
+## U.S. Embassy In Ukraine Biological Threat Reduction Program Source Family
+
+- **Source class:** A
+- **Publisher:** U.S. Embassy in Ukraine
+- **Accessed UTC:** 2026-06-14T04:12:00Z
+- **URLs:** https://ua.usembassy.gov/embassy/kyiv/sections-offices/defense-threat-reduction-office/biological-threat-reduction-program/ ; https://ua.usembassy.gov/u-s-ukraine-partnership-to-reduce-biological-threats/
+- **Access note:** Both pages returned technical-difficulties/forbidden
+  responses in this environment.
+- **Use:** Official embassy source-family routing for U.S.-Ukraine biological
+  threat reduction public explanations and future Ukraine claim-reconciliation
+  refresh work.
+- **Reliability note:** Correct official source family, but exact page
+  contents require later successful access or archived official capture before
+  direct extraction.
+
+## Federal Select Agent Program
+
+- **Source class:** A
+- **Publisher:** Centers for Disease Control and Prevention / USDA Animal and
+  Plant Health Inspection Service
+- **Page last reviewed:** 2026-06-09
+- **Accessed UTC:** 2026-06-14T03:58:59Z
+- **URL:** https://www.selectagents.gov/
+- **Use:** U.S. select-agent oversight, inspection, compliance, regulation,
+  biosafety, and biosecurity source routing for strategic WMD/biosecurity
+  research.
+- **Reliability note:** Authoritative for public oversight framing. WARLOCK-INDEX should not reproduce controlled lists, permissible quantities,
+  entity-specific security details, or compliance workarounds.
+
+## State Department Biological Weapons Convention Source Family
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Accessed UTC:** 2026-06-14T03:58:59Z
+- **URL:** https://www.state.gov/biological-weapons-convention/
+- **Access note:** The page returned a technical-difficulties/forbidden
+  response in this environment.
+- **Use:** U.S. diplomatic and arms-control routing for Biological Weapons
+  Convention context and future treaty/compliance source packets.
+- **Reliability note:** Correct official source family, but exact current-use
+  claims require later successful page or document access.
+
+## State Department U.S.-Ukraine Biological Threat Reduction Agreement
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Publication date:** 2005-08-29 agreement; State PDF access path archived
+  under 2019 upload structure
+- **Accessed UTC:** 2026-06-14T04:12:00Z
+- **URL:** https://www.state.gov/wp-content/uploads/2019/02/05-829-Ukraine-Weapons.pdf
+- **Access note:** The PDF URL returned a technical-difficulties/forbidden
+  response in this environment.
+- **Use:** Official legal/diplomatic source-family routing for the bilateral
+  U.S.-Ukraine biological threat reduction assistance frame.
+- **Reliability note:** Correct official source family, but treaty/agreement
+  terms should not be quoted or summarized from this path until a later access
+  refresh or archived official capture succeeds.
+
+## State Department BWC Article V Response To Russia
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Publication date:** September 2022 PDF path
+- **Accessed UTC:** 2026-06-14T04:12:00Z
+- **URL:** https://www.state.gov/wp-content/uploads/2022/09/Response-of-the-United-States-to-Questions-Posed-by-the-Russian-Federation.pdf
+- **Access note:** The PDF URL returned a technical-difficulties/forbidden
+  response in this environment.
+- **Use:** Official U.S. diplomatic response source family for Russian
+  Federation questions under the Biological and Toxin Weapons Convention
+  Article V process.
+- **Reliability note:** Correct official source family, but exact U.S.
+  response language and detailed claim reconciliation require later successful
+  document access.
+
+## National Security Commission On Emerging Biotechnology Final Report
+
+- **Source class:** A
+- **Publisher:** National Security Commission on Emerging Biotechnology
+- **Publication date:** April 2025
+- **Accessed UTC:** 2026-06-14T03:58:59Z
+- **URL:** https://www.biotech.senate.gov/final-report/
+- **Use:** Congressional commission source for emerging biotechnology,
+  biological data, defense relevance, industrial base, allied collaboration,
+  and national-security framing.
+- **Reliability note:** Authoritative for commission findings and
+  recommendations. It is not a laboratory-oversight finding or WMD allegation
+  by itself.
 
 ## 2026 National Defense Strategy
 
@@ -387,13 +539,46 @@
 - **Source class:** A
 - **Publisher:** U.S. Department of Defense
 - **Publication date:** 2025-12-23
-- **Accessed UTC:** 2026-06-12T23:20:35Z
+- **Accessed UTC:** 2026-06-14T06:05:33Z
 - **URL:** https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF
 - **Use:** Primary unclassified baseline on PLA strategy, capabilities,
-  modernization, Taiwan pressure, and PRC military technology.
+  modernization, Taiwan pressure, PRC military technology, force employment,
+  defense spending, defense industry, and DoD/DIA China military-power
+  extraction-map routing.
 - **Reliability note:** Authoritative U.S. defense assessment for public use.
   It is focused on U.S. security concerns and is cross-read with allied,
   academic, and PRC primary sources where appropriate.
+
+## 2024 Report To Congress On Military And Security Developments Involving The PRC
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense
+- **Publication date:** 2024-12-18
+- **Accessed UTC:** 2026-06-14T06:05:33Z
+- **URL:** https://media.defense.gov/2024/Dec/18/2003615520/-1/-1/0/MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2024.PDF
+- **Use:** Prior-year comparator for the 2025 DoD PRC military-power report,
+  useful for continuity checks, section-drift notes, and changes in public
+  U.S. defense framing.
+- **Reliability note:** Authoritative public U.S. defense assessment for its
+  publication year, but current dynamic claims should be refreshed through
+  the 2025 report and later official releases.
+
+## DIA China Military Power
+
+- **Source class:** A
+- **Publisher:** Defense Intelligence Agency
+- **Publication date:** 2019
+- **Accessed UTC:** 2026-06-14T06:05:33Z
+- **URL:** https://www.dia.mil/Portals/110/Images/News/Military_Powers_Publications/China_Military_Power_FINAL_5MB_20190103.pdf
+- **Use:** Historical U.S. defense-intelligence baseline on China's military
+  modernization, PLA missions, services, doctrine, force structure,
+  technology, defense industry, and regional military ambitions. Used as
+  background for the China/PLA official source baseline, with current claims
+  refreshed through the 2025 DoD PRC report, ODNI 2026, and allied sources.
+- **Reliability note:** Authoritative U.S. defense-intelligence public
+  product for its publication period. Because the product is older and the
+  PLA has reorganized since 2019, current force-structure, readiness,
+  technology, and leadership claims require newer source confirmation.
 
 ## DIA Iran Military Power
 

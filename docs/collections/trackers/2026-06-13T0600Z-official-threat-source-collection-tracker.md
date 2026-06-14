@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRACKER-US-THREAT-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-13T06:00:00Z
+**Prepared UTC:** 2026-06-14T06:05:33Z
 
-**Information cutoff UTC:** 2026-06-13T06:00:00Z
+**Information cutoff UTC:** 2026-06-14T06:05:33Z
 
 **Source base:** U.S. intelligence and law-enforcement source register; ODNI,
 CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA, ATF, CBP, Coast Guard,
@@ -37,12 +37,17 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | Source family | Current status | Next product | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
 | ODNI Annual Threat Assessment | Active in repo; used in Russia, DPRK, and Iran strategic-weapons packets | Keep annual comparison packet current | High | No classified inference |
+| DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, and China/PLA source tracker added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, cyber, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, issuer-claim laundering, or export-control evasion |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
 | CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
 | FBI terrorism | Registered | FBI/DHS terrorism source packet | High | No political profiling or tactics |
 | FBI cyber / IC3 | Registered | CISA/NSA/FBI cyber source packet | High | No exploit or evasion detail |
 | FBI counterintelligence | Registered | Foreign intelligence source packet | Moderate | No identification of private persons absent official legal source |
-| FBI WMD | Registered | WMD public-source packet | Moderate | No materials, methods, or vulnerability detail |
+| FBI WMD | Registered; WMD/biosecurity source packet added | Maintain WMD public-source packet | Moderate | No materials, methods, or vulnerability detail |
+| ODNI global biolab disclosure | Source-treatment note, WMD/biosecurity source packet, and Ukraine claim-reconciliation note added | Declassification and information-resilience source note | High for ODNI release; moderate to low for uncorroborated underlying claims | No biological methods, facility table, site mapping, or vulnerability detail |
+| DTRA / Cooperative Threat Reduction | DTRA mission, fact sheet, and DoD BTRP Ukraine fact sheet registered; document-level CTR work still needed | DoD Cooperative Threat Reduction source packet | Moderate | No foreign facility inference from general mission pages |
+| Federal Select Agent Program | Registered; WMD/biosecurity source packet added | Select Agent oversight source packet | High for source family | No controlled lists, quantities, facility-sensitive detail, or compliance workarounds |
+| State / UNODA BWC sources | Source families registered with access caveats | BWC treaty and compliance source packet | Moderate pending access refresh | No legal conclusion without current text/status verification |
 | NCTC groups | Registered as historical | Terrorism group source refresh | Moderate to low for current status | Do not reproduce tactics |
 | DHS Homeland Threat Assessment | Registered as product family | DHS HTA packet with dated URL verification | Moderate | No domestic political enemies framing |
 | CISA KEV/advisories | Registered | Defensive cyber advisory packet | High | No offensive cyber instruction |
@@ -59,6 +64,10 @@ boundaries must be preserved before the corpus makes stronger judgments.
 ## Update Triggers
 
 - ODNI releases a new Annual Threat Assessment.
+- DoD releases a new PRC military power report, DIA refreshes China military
+  power material, or major China/PLA official-source collections change.
+- ODNI releases new declassified WMD, biosecurity, foreign-laboratory, or
+  threat-reduction material requiring claim-treatment controls.
 - DHS releases a new Homeland Threat Assessment.
 - FBI releases a new IC3 annual report or strategic terrorism/cyber/WMD
   assessment.
@@ -81,6 +90,16 @@ boundaries must be preserved before the corpus makes stronger judgments.
   in trend claims.
 - Cyber advisories can include technical detail that must be summarized safely.
 - Domestic threat products require explicit civil liberties boundary review.
+- The Ukraine biolab claim-reconciliation note reduces the immediate
+  issuer-layering gap, but DoD Cooperative Threat Reduction, State Department
+  arms-control/BWC, congressional, Ukrainian, treaty-organization, technical
+  biosecurity, and independent oversight sources still need document-level
+  collection before stronger judgments are made.
+- State and UNODA BWC source pages need successful access refresh before
+  carrying exact treaty-status or current U.S. diplomatic claims.
+- DTRA Cooperative Threat Reduction needs document-level source collection;
+  the current packet only registers the public mission/fact-sheet source
+  family.
 
 ## Cross References
 
@@ -89,6 +108,13 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - [Official U.S. Threat Source Assimilation Matrix](../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../source-registers/us-intelligence-law-enforcement.md)
 - [Legacy Factbook Replacement Note](../source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
+- [ODNI Global Biolab Disclosure Source-Treatment Note](../source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)
+- [Ukraine Biolab Claim-Reconciliation Source Note](../source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.md)
+- [WMD/Biosecurity Public Source Baseline Packet](../source-packets/official-threat-source-baseline/2026-06-14T0358Z-wmd-biosecurity-public-source-baseline-packet.md)
+- [China/PLA Official Military And Security Source Baseline Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
+- [PRC Official Doctrine And Issuer-Language Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
+- [DoD/DIA China Military Power Extraction Map](../source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [China/PLA Source Collection Tracker](2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [Theater Map Index](../source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)

@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRACKER-ALLY-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-14T02:19:34Z
+**Prepared UTC:** 2026-06-14T05:02:58Z
 
-**Information cutoff UTC:** 2026-06-14T02:19:34Z
+**Information cutoff UTC:** 2026-06-14T05:02:58Z
 
 **Source base:** Existing WARLOCK-INDEX NATO and allied source registers,
 NATO allied capacity source packet, Indo-Pacific allied posture source packet,
@@ -17,12 +17,15 @@ defence/AUKUS source baseline packet, Canada/NORAD Arctic and continental
 defense source packet, Japan official defense/security source baseline
 packet, Republic of Korea official defense/extended deterrence source
 packet, France official defense/security source baseline packet, Germany
-official defense/security source baseline packet, and
+official defense/security source baseline packet, Norway official
+defense/security/High North source packet, Finland official defense/security
+and NATO integration source packet, Sweden official defense/security and NATO
+integration source packet, and
 official public national strategy source families for major U.S. allies and
 strategic partners.
 
 **Analytic confidence:** High for collection architecture and already
-registered UK/Australia/Canada/Japan/ROK/France/Germany/NATO source
+registered UK/Australia/Canada/Japan/ROK/France/Germany/Norway/Finland/Sweden/NATO source
 families. Moderate for the wider ally queue because each remaining national
 lane still needs its own dated verification and source packet.
 
@@ -40,7 +43,7 @@ force deployment instructions.
 
 The allied-source lane should expand through national and multilateral
 official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan,
-the Republic of Korea, France, and Germany are now the first country or
+the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or
 continental-defense lanes to receive U.S.-style official source baselines.
 NATO provides the shared Alliance frame, while country lanes should capture
 national strategy, defense review, budget/procurement evidence, industrial
@@ -65,7 +68,10 @@ source base can support them.
 | Canada and NORAD | Canada/NORAD Arctic and continental defense source packet complete; Arctic and High North lane now has dedicated country/continental-defense source baseline | NORAD modernization implementation packet and Canada defense investment/delivery packet | High for source identity; moderate for modernization and delivery evidence | No northern infrastructure vulnerability mapping, sensor coverage analysis, command procedures, or military route guidance |
 | France | Official defense/security source baseline packet complete; SGDSN RNS 2025/2022, Légifrance LPM, Élysée deterrence, ANSSI cyber, and France Diplomatie routing entries added to allied register | France LPM implementation packet, nuclear deterrence/strategic stability packet, cyber/hybrid packet, and Indo-Pacific/overseas security packet | High for SGDSN/Légifrance/Élysée/ANSSI source identity; moderate for Ministry of Armed Forces/DGA implementation and delivery evidence pending direct source refresh | No nuclear targeting, operational deterrence inference, basing exploitation, cyber technical detail, readiness scoring, or route guidance |
 | Germany | Official defense/security source baseline packet complete; National Security Strategy, Defence Policy Guidelines 2023, BMVg investment, China Strategy, and cyber source-family access note added to allied register | Germany defense investment/budget implementation packet, Bundeswehr force-design/readiness evidence packet, defense-industrial/procurement packet, cyber/resilience packet, and China/economic-security packet | High for Federal Government/BMVg/Federal Foreign Office source identity; moderate for budget execution, delivery, readiness, cyber, and industrial evidence pending direct implementation-source refresh | No readiness rankings, military mobility route guidance, basing vulnerability, cyber technical detail, or procurement advice |
-| Nordic and High North allies | Arctic queue identifies additional Nordic/High North lanes | Finland, Sweden, Norway, Denmark, Iceland total-defense and NATO integration packet | Moderate pending dated official refresh | No infrastructure vulnerability, mobilization procedure, or route detail |
+| Norway | Official defense/security/High North source packet complete; Norwegian Defence Pledge, FAF 2026-2033, NIS/PST/NSM public assessment triad, NSM ICT principles, Nordic cooperation, drone strategy, and defense-industry source lanes added to allied register | Norway defense investment/budget implementation packet, High North/Nordic NATO integration packet, defense-industrial/acquisition packet, and cyber/protective-security/total-defense packet | High for Norwegian Government, NIS, PST, and NSM source identity; moderate for delivery, readiness, industrial output, cyber implementation, and total-defense evidence pending direct implementation-source refresh | No High North route guidance, sensor coverage analysis, infrastructure vulnerability mapping, cyber technical detail, readiness scoring, or mobilization procedures |
+| Finland | Official defense/security/NATO integration source packet complete; Ministry of Defence NATO, Defence Report 2024 routing, DCA, Nordic cooperation, materiel/budget, FDF NATO/defense/capability, Supo, NCSC-FI, NESA, and FLF Finland source lanes added to allied register | Finland defense investment/budget implementation packet, NATO FLF/MCLCC and host-nation-support packet, total-defense/cyber/resilience packet, and defense-industrial/capability-delivery packet | High for Finnish MOD, FDF, Supo, NCSC-FI, NESA, and NATO source identity; moderate for delivery, readiness, implementation, industrial output, cyber maturity, and host-nation-support evidence pending direct implementation-source refresh | No route guidance, host-nation-support procedures, basing vulnerability, sensor coverage analysis, nuclear posture inference, cyber technical detail, readiness scoring, or mobilization procedures |
+| Sweden | Official defense/security/NATO integration source packet complete; Government Defence Resolution 2025-2030, military budget, Sweden-in-NATO, FLF Finland framework-nation, Sweden-Finland cooperation, Nordic cooperation, total/civil defence, Swedish Armed Forces NATO/mission/procurement, MCF/CERT-SE/cyber/resilience, and NATO source lanes added to allied register | Sweden defence-resolution implementation packet, NATO FLF/host-nation-support packet, total-defence/civil-defence/resilience packet, and defense-industrial/capability-delivery packet | High for Government Offices, Swedish Armed Forces, MCF, and NATO source identity; moderate for delivery, readiness, implementation, industrial output, cyber maturity, and host-nation-support evidence pending direct implementation-source refresh | No route guidance, host-nation-support procedures, basing vulnerability, sensor coverage analysis, nuclear posture inference, cyber technical detail, readiness scoring, or mobilization procedures |
+| Nordic and High North allies | Norway, Finland, and Sweden baselines complete; Arctic queue still identifies additional Nordic/High North lanes | Denmark and Iceland total-defense and NATO integration packets; Nordic implementation crosswalk | Moderate pending dated official refresh | No infrastructure vulnerability, mobilization procedure, facility mapping, or route detail |
 | European Union security and defense | EU/NATO source overlap not yet structured | EU Strategic Compass, defense industrial, sanctions, cyber, and resilience packet | Moderate pending dated official refresh | EU sources are not interchangeable with NATO or national force evidence |
 | India/Quad partner lane | Identified in queue as partner-related, not a treaty-allied lane | Quad/India official strategic-partner source packet | Moderate pending dated official refresh | Keep "ally" and "partner" terminology separate |
 | Philippines and other Indo-Pacific treaty allies | Map and posture source packets exist for Philippines/South China Sea context | Philippines official defense and maritime source packet | Moderate pending dated official refresh | No basing, patrol, or maritime tactical guidance |
@@ -123,6 +129,9 @@ source base can support them.
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
 - [France Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)
 - [Germany Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.md)
+- [Norway Official Defense, Security, And High North Source Packet](../source-packets/arctic-infrastructure/2026-06-14T0319Z-norway-official-defense-security-high-north-source-packet.md)
+- [Finland Official Defense, Security, And NATO Integration Source Packet](../source-packets/arctic-infrastructure/2026-06-14T0427Z-finland-official-defense-security-nato-integration-source-packet.md)
+- [Sweden Official Defense, Security, And NATO Integration Source Packet](../source-packets/arctic-infrastructure/2026-06-14T0502Z-sweden-official-defense-security-nato-integration-source-packet.md)
 - [Official Allied Source Assimilation Matrix](../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [NATO Allied Capacity Official Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
 - [Indo-Pacific Allied Posture Official Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.md)

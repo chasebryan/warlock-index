@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-14T02:19:34Z
+**Prepared UTC:** 2026-06-14T06:05:33Z
 
 ## Completed
 
@@ -104,6 +104,85 @@
   Guidelines, BMVg 2026 investment page, China Strategy, cyber source-family
   access note, allied register, tracker, matrix, and NATO source-packet
   wiring.
+- Added the Norway official defense, security, and High North source packet
+  with Norwegian Defence Pledge, FAF 2026-2033, defense industry, drone
+  strategy, Nordic cooperation, NIS/PST/NSM public assessment triad, NSM ICT
+  principles, allied register, tracker, matrix, and Arctic source-packet
+  wiring.
+- Added the ODNI global biolab disclosure source-treatment note with official
+  U.S. source-register, intelligence/law-enforcement register, threat-source
+  tracker, U.S. threat-source matrix, coverage-map, source-note README, and
+  docs-index wiring while preserving no-biological-methods and no-facility
+  detail boundaries.
+- Added the WMD/biosecurity public source baseline packet with ODNI, White
+  House biodefense strategy, DTRA, FBI WMD, Federal Select Agent Program,
+  State BWC access-note, UNODA BWC access-note, emerging-biotechnology
+  commission, official U.S. register, intelligence/law-enforcement register,
+  allied/multilateral register, threat-source tracker, U.S. threat-source
+  matrix, coverage-map, source-packet README, and docs-index wiring while
+  preserving no-methods, no-controlled-lists, and no-facility-detail
+  boundaries.
+- Added the Ukraine biolab claim-reconciliation source note with ODNI, DoD
+  BTRP Ukraine fact sheet, U.S. Embassy/State/UN/UNODA access-caveated source
+  families, Ukrainian official source-family queueing, official U.S. register,
+  intelligence/law-enforcement register, allied/multilateral register,
+  threat-source tracker, U.S. threat-source matrix, coverage-map, source-note
+  README, and docs-index wiring while preserving no-biological-methods,
+  no-facility-directory, no-site-mapping, and no-operational-guidance
+  boundaries.
+- Added the Finland official defense, security, and NATO integration source
+  packet with Finnish Ministry of Defence NATO, Defence Report 2024 routing,
+  DCA, Nordic cooperation, materiel/budget, Finnish Defence Forces NATO,
+  national-defense, F-35, Squadron 2020, Supo, NCSC-FI, NESA, FLF Finland,
+  allied register, tracker, matrix, coverage-map, global matrix, and Arctic
+  source-packet wiring while preserving no-route-guidance,
+  no-host-nation-support-procedures, no-facility-mapping,
+  no-nuclear-posture-inference, no-cyber-technical-detail, and
+  no-operational-guidance boundaries.
+- Added the Sweden official defense, security, and NATO integration source
+  packet with Government Offices Defence Resolution 2025-2030, military
+  budget, Sweden in NATO, FLF Finland framework-nation, Sweden-Finland
+  cooperation, Nordic cooperation, total/civil defence, Swedish Armed Forces
+  NATO/mission/procurement, Swedish Civil Defence and Resilience Agency,
+  CERT-SE/cyber/resilience, NATO, allied register, tracker, matrix,
+  coverage-map, global matrix, and Arctic source-packet wiring while
+  preserving no-route-guidance, no-host-nation-support-procedures,
+  no-facility-mapping, no-nuclear-posture-inference,
+  no-cyber-technical-detail, and no-operational-guidance boundaries.
+- Added the China/PLA official military and security source baseline packet
+  plus China/PLA source collection tracker, creating a broad source spine for
+  DoD PRC military power reporting, ODNI China threat framing, DIA historical
+  China military baseline, PRC State Council/MND/PLA official issuer-source
+  lanes, Taiwan MND routing, Japan/Australia/Philippines/South China Sea
+  cross-check lanes, CISA/NSA/FBI cyber source families, foreign-government
+  and official U.S. register wiring, source-packet/index/tracker/matrix
+  wiring, and follow-on queues for PRC doctrine, PLA services/arms, Taiwan
+  pressure, South China Sea, cyber, space/counterspace, defense-industrial,
+  and PRC-Russia support packets while preserving no-targeting,
+  no-contingency-planning, no-cyber-exploitation, no-live-tracking,
+  no-facility-mapping, no-route-selection, no-export-control-evasion, and
+  no-operational-guidance boundaries.
+- Added the PRC official doctrine and issuer-language source packet with
+  State Council/SCIO white-paper archive routing, national-defense white
+  paper source treatment, cyberspace-governance, BeiDou, counterterrorism,
+  global-community/shared-future, PRC MND, China Military Online,
+  foreign-government register, China/PLA tracker, source-packet README,
+  China profile, docs-index, global matrix, and official-threat tracker
+  wiring while preserving issuer-perspective, propaganda/translation caveats,
+  no-targeting, no-contingency-planning, no-cyber-methods, no-censorship
+  instruction, no-counterterrorism-methods, no-live-tracking, and
+  no-operational-guidance boundaries.
+- Added the DoD/DIA China military power extraction map with DoD 2025 PRC
+  military-power report, DoD 2024 comparator report, DIA 2019 historical
+  baseline, section-level extraction lanes for PLA strategy/capabilities,
+  C4ISR, cyber, space, nuclear, Taiwan, South China Sea, defense spending,
+  defense industry, emerging technology, U.S.-PRC defense contacts, official
+  U.S. register, China/PLA tracker, source-packet README, China profile,
+  docs-index, official U.S. threat-source matrix, global matrix, and
+  cross-packet wiring while preserving no-targeting,
+  no-contingency-planning, no-cyber-methods, no-facility-mapping,
+  no-route-selection, no-export-control-evasion, and no-operational-guidance
+  boundaries.
 
 ## Current Analytical Posture
 
@@ -120,16 +199,33 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
-- Add follow-on official allied country source packets for Nordic/High North
-  allies and EU security-defense sources.
+- Add follow-on official allied country source packets for Denmark, Iceland,
+  and EU security-defense sources.
+- Add follow-on China/PLA source packets for PRC MND/PLA official-media
+  dated capture, PLA services and arms, Taiwan pressure and cross-Strait
+  coercion, South China Sea coercion/legal-source treatment, PRC cyber and
+  critical infrastructure, PRC space/counterspace and information support,
+  PRC defense-industrial and emerging technology, DoD 2025 to PRC
+  issuer-language claim crosswalk, and PRC-Russia defense-industrial support.
+- Add follow-on DoD Cooperative Threat Reduction, BWC treaty/compliance,
+  Ukraine official-source, select-agent oversight, emerging biotechnology
+  security, and declassification/information-resilience source packets from
+  the WMD/biosecurity source baseline and Ukraine claim-reconciliation queues.
 - Add follow-on implementation packets for Republic of Korea extended
   deterrence/NCG and defense white-paper verification, AUKUS industrial
   implementation, France LPM implementation and nuclear/cyber/Indo-Pacific
   follow-on lanes, Germany defense investment/budget implementation,
   Bundeswehr force-design/readiness evidence, defense-industrial/procurement,
-  cyber/resilience, and China/economic-security follow-on lanes, ICE Pact
-  implementation, NORAD modernization, New START post-expiration status, and
-  Red Sea follow-on economics sublanes.
+  cyber/resilience, and China/economic-security follow-on lanes, Norway
+  defense investment/budget implementation, High North/Nordic NATO
+  integration, defense-industrial/acquisition, cyber/protective-security/total
+  defense follow-on lanes, Finland defense investment/budget implementation,
+  NATO FLF/MCLCC and host-nation-support, total-defense/cyber/resilience,
+  and defense-industrial/capability-delivery follow-on lanes, Sweden
+  defence-resolution implementation, NATO FLF/host-nation-support,
+  total-defence/civil-defence/resilience, and defense-industrial/capability
+  delivery follow-on lanes, ICE Pact implementation, NORAD modernization,
+  New START post-expiration status, and Red Sea follow-on economics sublanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add additional map-heavy theater source packets as needed.
