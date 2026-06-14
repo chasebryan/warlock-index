@@ -171,7 +171,7 @@ base and emerging technology files.
 
 | Packet | Purpose | Primary sources |
 | --- | --- | --- |
-| U.S.-Japan-ROK Trilateral Implementation Packet | Track annual meetings, Indo-Pacific Dialogue, missile warning, maritime security, and economic security | White House archives, State, Japan MOFA, ROK MOFA, DoD |
+| [U.S.-Japan-ROK Trilateral Implementation Packet](2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.md) | Initial packet complete; future updates refresh annual meetings, Indo-Pacific Dialogue, missile warning, maritime security, economic security, and political durability | White House archives, State, Japan MOFA, ROK MOFA, DoD/DOW |
 | Republic of Korea Extended Deterrence Packet | Track NCG, SCM communiques, ROK defense white papers, and DPRK threat language | White House, DoD, ROK MND, ODNI |
 | Philippines EDCA And Maritime Security Packet | Track EDCA implementation, maritime law enforcement, South China Sea incidents, and local political constraints | Philippine Official Gazette, U.S./Philippine releases, allied statements |
 | AUKUS Industrial Implementation Packet | Track workforce, shipbuilding, export controls, nuclear stewardship, schedule, and industrial bottlenecks | Australian Submarine Agency, U.S./UK/Australian releases, GAO/CRS |

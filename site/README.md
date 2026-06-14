@@ -36,10 +36,13 @@ structured-data aliases for `Warlock-Index`, `warlock-index`, and
 The static search UI supports `?q=` URLs for structured `SearchAction`
 metadata.
 
-The `wi/` path publishes the installable WARLOCK-INDEX workspace. It has a
-scoped manifest and service worker so installing from `/wi/` opens the workspace
-instead of the homepage. Keep `site/downloads/wi-workspace.zip` refreshed from
-the same `site/wi/` files whenever the app shell changes.
+The `workspace/` path publishes the installable WARLOCK-INDEX Workspace. It has
+a scoped manifest and service worker so installing from `/workspace/` opens the
+workspace instead of the homepage. Keep `site/downloads/workspace.zip` refreshed
+from the same `site/workspace/` files whenever the app shell changes.
+
+The legacy `wi/` path is a redirect-only compatibility route. Keep it lightweight
+so old bookmarks move to `/workspace/` without presenting a second app identity.
 
 Before finishing a docs change, run the drift check:
 

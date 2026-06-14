@@ -109,7 +109,7 @@ window.WARLOCK_INDEX_CORPUS = [
     "path": "library/source-registers/official-us.html",
     "summary": "WARLOCK-INDEX documentation product.",
     "productId": "",
-    "preparedUtc": "2026-06-13T22:16:47Z",
+    "preparedUtc": "2026-06-14T00:21:47Z",
     "cutoffUtc": "",
     "confidence": "",
     "theater": "Global",
@@ -123,7 +123,7 @@ window.WARLOCK_INDEX_CORPUS = [
       "source register",
       "global",
       "sources",
-      "2026-06-13t22:16:47z"
+      "2026-06-14t00:21:47z"
     ]
   },
   {
@@ -132,7 +132,7 @@ window.WARLOCK_INDEX_CORPUS = [
     "path": "library/source-registers/allied-multilateral.html",
     "summary": "WARLOCK-INDEX documentation product.",
     "productId": "",
-    "preparedUtc": "2026-06-13T22:16:47Z",
+    "preparedUtc": "2026-06-14T00:21:47Z",
     "cutoffUtc": "",
     "confidence": "",
     "theater": "Global",
@@ -148,7 +148,7 @@ window.WARLOCK_INDEX_CORPUS = [
       "source register",
       "global",
       "sources",
-      "2026-06-13t22:16:47z"
+      "2026-06-14t00:21:47z"
     ]
   },
   {
@@ -2573,6 +2573,47 @@ window.WARLOCK_INDEX_CORPUS = [
       "readme",
       "directory",
       "theater map reference"
+    ]
+  },
+  {
+    "title": "U.S.-Japan-ROK Trilateral Implementation Source Packet",
+    "type": "Source Packet",
+    "path": "library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.html",
+    "summary": "The public implementation record shows Camp David moving from leader-level principles into a standing but still source-limited architecture. The strongest official evidence is institution...",
+    "productId": "WI-SOURCEPACKET-INDOPAC-ALLY-2026-0002",
+    "preparedUtc": "2026-06-14T00:21:47Z",
+    "cutoffUtc": "2026-06-14T00:21:47Z",
+    "confidence": "High for official source identity, the Camp David framework, the inaugural Trilateral Indo-Pacific Dialogue, the July 2024 de...",
+    "theater": "Collections",
+    "domain": "Source Packets",
+    "tags": [
+      "-japan-rok",
+      "trilateral",
+      "implementation",
+      "source",
+      "packet",
+      "collections",
+      "source-packets",
+      "indo-pacific-allied-posture",
+      "2026-06-14t0021z-us-japan-rok-trilateral-implementation-source-packet",
+      "source packet",
+      "source packets",
+      "wi-sourcepacket-indopac-ally-2026-0002",
+      "2026-06-14t00:21:47z",
+      "high",
+      "for",
+      "official",
+      "identity",
+      "the",
+      "camp",
+      "david",
+      "framework",
+      "inaugural",
+      "indo-pacific",
+      "dialogue",
+      "july",
+      "2024",
+      "de"
     ]
   },
   {

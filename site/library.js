@@ -2,12 +2,12 @@ const filterInput = document.querySelector("#doc-filter");
 const sidebar = document.querySelector(".reader-sidebar");
 const docNav = document.querySelector(".doc-nav");
 
-if (docNav && !docNav.querySelector("[data-site-route='wi']")) {
+if (docNav && !docNav.querySelector("[data-site-route='workspace']")) {
   docNav.insertAdjacentHTML("afterbegin", `
     <section class="doc-group site-routes">
       <h2>Site</h2>
-      <a class="doc-link site-route-link" href="/wi/" data-site-route="wi" data-filter="wi workspace browse records download application pwa android apple ios ipad macos windows linux">
-        <strong>wi Workspace</strong>
+      <a class="doc-link site-route-link" href="/workspace/" data-site-route="workspace" data-filter="workspace wi browse records download application pwa android apple ios ipad macos windows linux">
+        <strong>Workspace</strong>
         <span>Browse / download</span>
       </a>
     </section>

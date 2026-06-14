@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-13T22:16:47Z
+**Prepared UTC:** 2026-06-14T00:21:47Z
 
 ## NATO 2022 Strategic Concept
 
@@ -17,6 +17,37 @@
   cooperative security.
 - **Reliability note:** Authoritative for NATO strategic concept language. It
   is consensus doctrine and not an independent implementation audit.
+
+## Japan Ministry Of Foreign Affairs Camp David Summit Page
+
+- **Source class:** A
+- **Publisher:** Ministry of Foreign Affairs of Japan
+- **Publication date:** 2023-08-18
+- **Accessed UTC:** 2026-06-14T00:21:47Z
+- **URL:** https://www.mofa.go.jp/a_o/na2/page1e_000744.html
+- **Use:** Japanese official public framing for the Japan-U.S.-ROK Camp David
+  summit, released Camp David documents, trilateral security cooperation,
+  extended deterrence language, DPRK, UNSC coordination, free and open
+  Indo-Pacific cooperation, economic security, critical and emerging
+  technology, supply-chain resilience, and annual meeting architecture.
+- **Reliability note:** Authoritative for Japan MOFA public framing. It is an
+  issuer-perspective diplomatic source and does not independently verify U.S.
+  or ROK implementation.
+
+## Republic Of Korea Ministry Of Foreign Affairs Camp David Summit Page
+
+- **Source class:** A
+- **Publisher:** Ministry of Foreign Affairs, Republic of Korea
+- **Publication date:** 2023-08-22
+- **Accessed UTC:** 2026-06-14T00:21:47Z
+- **URL:** https://www.mofa.go.kr/eng/brd/m_5674/view.do?seq=320862
+- **Use:** ROK official public routing for the ROK-U.S.-Japan Camp David
+  summit, leadership remarks, institutional-foundation language, and joint
+  statement material used in U.S.-Japan-ROK trilateral implementation source
+  work.
+- **Reliability note:** Authoritative for ROK MOFA public framing. It is an
+  issuer-perspective diplomatic source and requires later ROK official
+  refresh for current domestic political or implementation claims.
 
 ## NATO Washington Summit Declaration
 

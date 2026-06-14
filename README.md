@@ -2,14 +2,13 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-WARLOCK-INDEX is an open-source documentation repository for strategic defense
-research, military-strategic assessment, and national security source
-organization from a United States decision-advantage perspective.
+WARLOCK-INDEX is an open-source strategic research corpus for dated
+assessments, source packets, trackers, timelines, actor profiles, and source
+registers.
 
-The repository is intended to become a disciplined collection of dated,
-sourced, high-quality analytical products. It is not a policy shop, target
-package, operational playbook, intelligence tasking system, or substitute for
-classified government analysis.
+The project is built for source discipline and research continuity. It is not
+a policy shop, target package, operational playbook, intelligence tasking
+system, or substitute for classified government analysis.
 
 ## Operating Boundary
 
@@ -38,12 +37,19 @@ Every product in this repository must remain within the following lane:
   profile material.
 - [docs/assessments](docs/assessments) - finished and in-progress analytical
   products by theater and domain.
-- [site](site) - future website/navigation layer.
+- [site](site) - static public website, generated library, search data, and
+  installable Workspace app.
 
-## Website Output
+## Website And Workspace
 
 WARLOCK-INDEX is managed on two fronts: canonical Markdown under `docs/` and
-generated website output under `site/library/` plus `site/corpus.js`.
+public website output under `site/`.
+
+- `site/index.html` is the public homepage and search entry point.
+- `site/library/` is generated from the canonical Markdown corpus.
+- `site/corpus.js` powers client-side search and route suggestions.
+- `site/workspace/` publishes the installable Workspace app for browsing and
+  downloading selected corpus records.
 
 After changing `docs/`, run:
 
@@ -55,10 +61,10 @@ node site/check-library.mjs
 The check rebuilds the website and fails if generated output was stale.
 
 The public website is published at `https://www.warlock-index.org/`.
-The canonical brand is `WARLOCK-INDEX`; site metadata also includes
-search-discovery aliases for `Warlock-Index`, `warlock-index`, and
-`warlock index` so browser search engines can associate common phrase variants
-with the same project.
+The canonical brand is `WARLOCK-INDEX`. Site metadata also includes
+search-discovery aliases for `Warlock-Index`, `warlock-index`, and `warlock
+index` so browser search engines can associate common phrase variants with the
+same project.
 
 ## Product Standard
 

@@ -65,6 +65,7 @@ This index is the working navigation hub for WARLOCK-INDEX.
 - [Arctic Infrastructure And Domain Awareness Source Packet](collections/source-packets/arctic-infrastructure/2026-06-13T0318Z-arctic-infrastructure-domain-awareness-source-packet.md)
 - [Indo-Pacific Allied Posture Source Packets](collections/source-packets/indo-pacific-allied-posture)
 - [Indo-Pacific Allied Posture Official Source Baseline Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.md)
+- [U.S.-Japan-ROK Trilateral Implementation Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.md)
 - [NATO Allied Capacity Source Packets](collections/source-packets/nato-allied-capacity)
 - [NATO Allied Capacity Official Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
 - [Official U.S. Threat Source Baseline Source Packets](collections/source-packets/official-threat-source-baseline)

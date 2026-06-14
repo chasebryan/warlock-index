@@ -14,3 +14,4 @@ infrastructure vulnerability analysis, or technical instructions.
 ## Products
 
 - [2026-06-13T0316Z - Indo-Pacific Allied Posture Official Source Baseline Packet](2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.md)
+- [2026-06-14T0021Z - U.S.-Japan-ROK Trilateral Implementation Source Packet](2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.md)

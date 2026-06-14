@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-13T22:16:47Z
+**Prepared UTC:** 2026-06-14T00:21:47Z
 
 ## ODNI Annual Threat Assessment 2026
 
@@ -89,6 +89,58 @@
 - **Reliability note:** Authoritative for archived joint statement language.
   It does not independently prove future political continuity, readiness, or
   implementation.
+
+## State Department Trilateral U.S.-Japan-ROK Indo-Pacific Dialogue
+
+- **Source class:** A with archive note
+- **Publisher:** U.S. Department of State, archived by Internet Archive
+- **Publication date:** 2024-01-06
+- **Accessed UTC:** 2026-06-14T00:21:47Z
+- **URL:** https://web.archive.org/web/20240107034113/https://www.state.gov/joint-statement-on-the-trilateral-united-states-japan-republic-of-korea-indo-pacific-dialogue/
+- **Current URL checked:** https://www.state.gov/joint-statement-on-the-trilateral-united-states-japan-republic-of-korea-indo-pacific-dialogue/
+- **Use:** Official public evidence for the inaugural Trilateral
+  United States-Japan-Republic of Korea Indo-Pacific Dialogue, including
+  dialogue date, participants, annual intent, ASEAN and Pacific Islands
+  cooperation, economic security, cybersecurity, emerging technology,
+  maritime security and law-enforcement cooperation, South China Sea language,
+  DPRK, Russia-DPRK cooperation, Taiwan Strait stability, and foreign
+  information manipulation.
+- **Reliability note:** Authoritative for the archived State Department page
+  text. The current State page returned a technical-difficulties/forbidden
+  response in this environment, so current-use claims require later official
+  refresh.
+
+## Department Of Defense / Department Of War Trilateral Ministerial Statement
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense / Department of War public release
+- **Publication date:** 2024-07-27
+- **Accessed UTC:** 2026-06-14T00:21:47Z
+- **URL:** https://www.defense.gov/News/Releases/Release/Article/3852146/japan-united-states-republic-of-korea-trilateral-ministerial-joint-press-statem/
+- **Use:** Official public evidence for the July 2024 Japan-United
+  States-Republic of Korea Trilateral Ministerial Meeting, Freedom Edge,
+  the Memorandum of Cooperation on the Trilateral Security Cooperation
+  Framework, senior-level policy consultations, information sharing,
+  trilateral exercises, defense exchange, rotational ministerial meeting
+  intent, and DPRK/Russia-DPRK concern language.
+- **Reliability note:** Authoritative for the public defense ministerial
+  statement. It is not a readiness, technical, exercise-performance, or
+  classified implementation source.
+
+## Department Of Defense / Department Of War Indo-Pacific Trip Release
+
+- **Source class:** A
+- **Publisher:** U.S. Department of Defense / Department of War public release
+- **Publication date:** 2024-07-31
+- **Accessed UTC:** 2026-06-14T00:21:47Z
+- **URL:** https://www.defense.gov/News/Releases/Release/Article/3856333/secretary-of-defense-lloyd-j-austin-iii-concludes-eleventh-visit-to-the-indo-pa/
+- **Use:** Official public context for the July 2024 Indo-Pacific trip,
+  U.S.-Japan alliance modernization, U.S.-Japan extended deterrence
+  consultation, the first Trilateral Ministerial Meeting held in Japan or the
+  ROK, and the signing of the Trilateral Security Cooperation Framework.
+- **Reliability note:** Authoritative for the public trip summary and meeting
+  sequence. The ministerial statement remains the more specific source for
+  TSCF fields.
 
 ## White House Washington Declaration
 

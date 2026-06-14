@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-13T22:16:47Z
+**Prepared UTC:** 2026-06-14T00:21:47Z
 
 ## Completed
 
@@ -77,6 +77,8 @@
   discovery wiring.
 - Added the multilateral strategic stability source packet with
   website-facing discovery wiring.
+- Added the U.S.-Japan-ROK trilateral implementation source packet with
+  website-facing discovery wiring.
 
 ## Current Analytical Posture
 
@@ -93,10 +95,10 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
-- Add follow-on implementation packets for U.S.-Japan-ROK trilateral
-  cooperation, Republic of Korea extended deterrence, AUKUS industrial
-  implementation, ICE Pact implementation, NORAD modernization, New START
-  post-expiration status, and Red Sea follow-on economics sublanes.
+- Add follow-on implementation packets for Republic of Korea extended
+  deterrence, AUKUS industrial implementation, ICE Pact implementation, NORAD
+  modernization, New START post-expiration status, and Red Sea follow-on
+  economics sublanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add additional map-heavy theater source packets as needed.

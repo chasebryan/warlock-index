@@ -542,9 +542,23 @@ svg {
 
 @media (max-width: 640px) {
   .site-header {
-    height: 56px;
+    height: auto;
     min-height: 56px;
-    padding: 0 0.75rem;
+    padding: 0.55rem 0.75rem;
+  }
+
+  .primary-nav {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3rem 0.5rem;
+    overflow-x: visible;
+    font-size: 0.62rem;
+    line-height: 1.15;
+  }
+
+  .primary-nav a {
+    padding: 0.25rem 0;
   }
 
   .home-link {
