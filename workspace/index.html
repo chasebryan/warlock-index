@@ -51,7 +51,7 @@
     <link rel="icon" href="icons/wi-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=20260613-workspace">
+    <link rel="stylesheet" href="styles.css?v=20260613-reader-packet-fix">
   </head>
   <body>
     <svg class="icon-defs" aria-hidden="true">
@@ -161,8 +161,8 @@
             <div class="queue-head">
               <h2 id="queue-heading">Queue</h2>
               <div class="queue-actions">
-                <button class="queue-download-button" type="button" id="download-queue" title="Download queued reader packet" disabled>
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
+                <button class="queue-download-button" type="button" id="download-queue" title="Download queued reader packet" aria-label="Download queued reader packet" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true" style="width:16px;height:16px"><use href="#icon-package"></use></svg>
                   <span>Packet</span>
                 </button>
                 <button class="icon-button" type="button" id="clear-queue" title="Clear queue" aria-label="Clear queue">
@@ -178,6 +178,6 @@
     </main>
 
     <script src="corpus.js"></script>
-    <script src="app.js?v=20260613-workspace"></script>
+    <script src="app.js?v=20260613-reader-packet-fix"></script>
   </body>
 </html>

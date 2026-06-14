@@ -681,6 +681,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 0.75rem;
   padding: 0.8rem 1rem;
 }
@@ -695,7 +696,9 @@ svg {
 .queue-actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 0.45rem;
+  flex: 0 0 auto;
 }
 
 .queue-download-button {
@@ -703,14 +706,20 @@ svg {
   grid-template-columns: 16px auto;
   align-items: center;
   gap: 0.35rem;
+  width: auto;
+  max-width: 100%;
   min-height: 32px;
   padding: 0 0.55rem;
   font-size: 0.68rem;
 }
 
-.queue-download-button svg {
+.queue-download-button svg,
+.queue-panel button svg {
+  flex: 0 0 auto;
   width: 16px;
   height: 16px;
+  max-width: 16px;
+  max-height: 16px;
 }
 
 .icon-button {
