@@ -121,6 +121,10 @@ function pathUrl(path) {
   }
 }
 
+function fileNameFromPath(path) {
+  return String(path || "warlock-index-record.html").split("/").filter(Boolean).pop() || "warlock-index-record.html";
+}
+
 function routeById(id) {
   return routes.find((route) => route.id === id) || routes[0];
 }
@@ -367,6 +371,10 @@ function renderPreview(item) {
         <a class="action-button" href="${escapeHtml(pathUrl(item.path))}" target="_blank" rel="noreferrer">
           <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-open"></use></svg>
           <span>Open on site</span>
+        </a>
+        <a class="action-button" href="${escapeHtml(pathUrl(item.path))}" download="${escapeHtml(fileNameFromPath(item.path))}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-install"></use></svg>
+          <span>Download file</span>
         </a>
         <button class="action-button" type="button" id="queue-selected">
           <svg viewBox="0 0 24 24" aria-hidden="true"><use href="${queued ? "#icon-check" : "#icon-plus"}"></use></svg>

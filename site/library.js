@@ -6,9 +6,9 @@ if (docNav && !docNav.querySelector("[data-site-route='wi']")) {
   docNav.insertAdjacentHTML("afterbegin", `
     <section class="doc-group site-routes">
       <h2>Site</h2>
-      <a class="doc-link site-route-link" href="/wi/" data-site-route="wi" data-filter="wi browser app install download application pwa android apple ios ipad macos windows linux">
-        <strong>wi Browser App</strong>
-        <span>Install / download</span>
+      <a class="doc-link site-route-link" href="/wi/" data-site-route="wi" data-filter="wi workspace browse records download application pwa android apple ios ipad macos windows linux">
+        <strong>wi Workspace</strong>
+        <span>Browse / download</span>
       </a>
     </section>
   `);

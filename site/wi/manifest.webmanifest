@@ -2,7 +2,7 @@
   "id": "wi",
   "name": "wi",
   "short_name": "wi",
-  "description": "Standalone browser app for navigating WARLOCK-INDEX.",
+  "description": "Workspace app for browsing WARLOCK-INDEX and downloading selected records.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
