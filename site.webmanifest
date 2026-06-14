@@ -1,12 +1,18 @@
 {
   "name": "WARLOCK-INDEX",
   "short_name": "WARLOCK-INDEX",
-  "description": "Strategic open-source research corpus.",
+  "description": "Open-source strategic research corpus for dated assessments and source records.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#020303",
   "theme_color": "#020303",
   "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
     {
       "src": "/favicon.svg",
       "sizes": "any",

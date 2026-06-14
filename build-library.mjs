@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -10,6 +11,7 @@ const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
 const defaultShareImage = `${siteOrigin}/images/warlock-index-emblem.jpeg`;
+const libraryAssetVersion = "20260613-workspace-route";
 
 const preferredOrder = [
   "index.md",
@@ -68,6 +70,8 @@ const titleCase = (value) => value
   .join(" ");
 
 const normalizeSlash = (value) => value.split(path.sep).join("/");
+
+const shortHash = (value) => createHash("sha256").update(value).digest("hex").slice(0, 12);
 
 async function collectMarkdownFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -485,12 +489,12 @@ function navGroups(docs) {
 }
 
 function renderDocNav(currentDoc, docs) {
-  const wiApp = relativeUrl(currentDoc.outputRel, "wi/index.html");
+  const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
   const siteRoutes = `
     <section class="doc-group site-routes">
       <h2>Site</h2>
-      <a class="doc-link site-route-link" href="${escapeAttr(wiApp)}" data-site-route="wi" data-filter="wi workspace browse records download application pwa android apple ios ipad macos windows linux">
-        <strong>wi Workspace</strong>
+      <a class="doc-link site-route-link" href="${escapeAttr(workspaceApp)}" data-site-route="workspace" data-filter="workspace wi browse records download application pwa android apple ios ipad macos windows linux">
+        <strong>Workspace</strong>
         <span>Browse / download</span>
       </a>
     </section>
@@ -515,7 +519,7 @@ function headerHtml(currentDoc) {
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
   const collections = relativeUrl(currentDoc.outputRel, "library/collections/coverage-map.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
-  const wiApp = relativeUrl(currentDoc.outputRel, "wi/index.html");
+  const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
 
   return `
     <header class="site-header">
@@ -530,15 +534,15 @@ function headerHtml(currentDoc) {
         <a href="${escapeAttr(assessments)}">Assessments</a>
         <a href="${escapeAttr(collections)}">Collections</a>
         <a href="${escapeAttr(standards)}">Standards</a>
-        <a href="${escapeAttr(wiApp)}">wi</a>
+        <a href="${escapeAttr(workspaceApp)}">Workspace</a>
       </nav>
     </header>
   `;
 }
 
 function renderPage(currentDoc, docs, relToOutput) {
-  const rootCss = relativeUrl(currentDoc.outputRel, "library.css");
-  const rootJs = relativeUrl(currentDoc.outputRel, "library.js");
+  const rootCss = `${relativeUrl(currentDoc.outputRel, "library.css")}?v=${libraryAssetVersion}`;
+  const rootJs = `${relativeUrl(currentDoc.outputRel, "library.js")}?v=${libraryAssetVersion}`;
   const docsIndex = relativeUrl(currentDoc.outputRel, "library/index.html");
   const body = renderMarkdown(currentDoc.markdown, currentDoc, relToOutput);
   const canonicalUrl = absoluteUrl(currentDoc.outputRel);
@@ -551,7 +555,9 @@ function renderPage(currentDoc, docs, relToOutput) {
     <meta name="description" content="${escapeAttr(currentDoc.summary)}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="${escapeAttr(canonicalUrl)}">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="180x180">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/favicon.svg" color="#d9ff2d">
     <link rel="manifest" href="/site.webmanifest">
@@ -666,15 +672,29 @@ async function build() {
     tags: doc.tags
   }));
 
+  const corpusScript = `window.WARLOCK_INDEX_CORPUS = ${JSON.stringify(corpus, null, 2)};\n`;
+  await writeFile(path.join(siteRoot, "corpus.js"), corpusScript, "utf8");
+  await writeFile(path.join(siteRoot, "workspace", "corpus.js"), corpusScript, "utf8");
+
+  const workspaceShellHashSource = [
+    corpusScript,
+    ...await Promise.all(["index.html", "styles.css", "app.js", "manifest.webmanifest"]
+      .map((file) => readFile(path.join(siteRoot, "workspace", file), "utf8")))
+  ].join("\n");
+  const serviceWorkerPath = path.join(siteRoot, "workspace", "service-worker.js");
+  const serviceWorker = await readFile(serviceWorkerPath, "utf8");
   await writeFile(
-    path.join(siteRoot, "corpus.js"),
-    `window.WARLOCK_INDEX_CORPUS = ${JSON.stringify(corpus, null, 2)};\n`,
+    serviceWorkerPath,
+    serviceWorker.replace(
+      /const CACHE_NAME = "(?:wi|workspace)-pwa-[^"]+";/,
+      `const CACHE_NAME = "workspace-pwa-${shortHash(workspaceShellHashSource)}";`
+    ),
     "utf8"
   );
 
   const sitemapUrls = [
     { loc: absoluteUrl("index.html"), priority: "1.0" },
-    { loc: `${siteOrigin}/wi/`, priority: "0.85" },
+    { loc: `${siteOrigin}/workspace/`, priority: "0.85" },
     ...docs.map((doc) => ({
       loc: absoluteUrl(doc.outputRel),
       priority: doc.rel === "index.md" ? "0.9" : "0.7"
