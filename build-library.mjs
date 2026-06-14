@@ -21,13 +21,15 @@ const preferredOrder = [
   "standards/source-evaluation.md",
   "source-registers/official-us.md",
   "source-registers/allied-multilateral.md",
-  "source-registers/research-and-media.md"
+  "source-registers/research-and-media.md",
+  "maps/README.md"
 ];
 
 const groupOrder = [
   "Navigation",
   "Assessments",
   "Collections",
+  "Maps",
   "Actor Profiles",
   "Source Packets",
   "Trackers",
@@ -202,6 +204,7 @@ function extractConfidence(markdown) {
 
 function inferType(rel) {
   if (rel === "index.md") return "Navigation";
+  if (rel.startsWith("maps/")) return "Map Resource";
   if (posix.basename(rel) === "README.md") return "Directory";
   if (rel.startsWith("assessments/")) return "Assessment";
   if (rel.startsWith("source-registers/")) return "Source Register";
@@ -218,6 +221,7 @@ function inferType(rel) {
 function inferGroup(rel, type) {
   if (rel === "index.md") return "Navigation";
   if (rel.startsWith("assessments/")) return "Assessments";
+  if (rel.startsWith("maps/")) return "Maps";
   if (rel.includes("/actor-profiles/")) return "Actor Profiles";
   if (rel.includes("/source-packets/")) return "Source Packets";
   if (rel.includes("/trackers/")) return "Trackers";
@@ -232,6 +236,7 @@ function inferGroup(rel, type) {
 function inferTheater(rel) {
   const parts = rel.split("/");
   if (rel === "index.md") return "Global";
+  if (parts[0] === "maps") return "Global";
   if (parts[0] === "assessments" && parts[1] && parts[1] !== "README.md") return titleCase(parts[1]);
   if (parts.includes("indo-pacific-allies-and-partners")) return "Indo-Pacific";
   if (parts.includes("nato-and-major-us-allies")) return "NATO / Allies";
@@ -244,6 +249,7 @@ function inferTheater(rel) {
 function inferDomain(rel, type) {
   const parts = rel.split("/");
   if (rel === "index.md") return "Corpus";
+  if (parts[0] === "maps") return "Maps";
   if (posix.basename(rel) === "README.md") {
     const dirParts = parts.slice(0, -1);
     return titleCase(dirParts[dirParts.length - 1] || parts[0] || "Corpus");
@@ -518,6 +524,7 @@ function headerHtml(currentDoc) {
   const docsIndex = relativeUrl(currentDoc.outputRel, "library/index.html");
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
   const collections = relativeUrl(currentDoc.outputRel, "library/collections/coverage-map.html");
+  const maps = relativeUrl(currentDoc.outputRel, "library/maps/index.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
 
@@ -533,6 +540,7 @@ function headerHtml(currentDoc) {
         <a href="${escapeAttr(docsIndex)}">Index</a>
         <a href="${escapeAttr(assessments)}">Assessments</a>
         <a href="${escapeAttr(collections)}">Collections</a>
+        <a href="${escapeAttr(maps)}">Maps</a>
         <a href="${escapeAttr(standards)}">Standards</a>
         <a href="${escapeAttr(workspaceApp)}">Workspace</a>
       </nav>
