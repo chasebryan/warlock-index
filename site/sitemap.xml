@@ -41,6 +41,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/maps/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/actor-profiles/index.html</loc>
     <priority>0.7</priority>
   </url>
@@ -261,6 +265,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.html</loc>
     <priority>0.7</priority>
   </url>
@@ -337,6 +345,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -361,6 +381,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -370,6 +394,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0502Z-sweden-official-defense-security-nato-integration-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

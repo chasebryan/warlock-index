@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-USILE-2026-0001
 
-**Prepared UTC:** 2026-06-14T05:23:13Z
+**Prepared UTC:** 2026-06-14T19:56:06Z
 
-**Information cutoff UTC:** 2026-06-14T04:12:00Z
+**Information cutoff UTC:** 2026-06-14T19:56:06Z
 
 **Purpose:** Organize official U.S. intelligence, homeland security, law
 enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and
@@ -278,18 +278,41 @@ identity, journalism, protest, or association as an intelligence target.
 - **Source class:** A
 - **Publishers:** CISA, NSA, FBI, and allied cyber agencies where jointly
   listed on specific advisories.
-- **Accessed UTC:** 2026-06-14T05:23:13Z
-- **URLs:** https://www.cisa.gov/news-events/cybersecurity-advisories ; https://www.nsa.gov/Press-Room/Cybersecurity-Advisories/
+- **Accessed UTC:** 2026-06-14T19:56:06Z
+- **URLs:** https://www.cisa.gov/news-events/cybersecurity-advisories ; https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a ; https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a ; https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/ ; https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical
 - **Use:** Defensive public source family for PRC state-sponsored cyber
   activity, critical-infrastructure risk, espionage, actor naming, sector
-  exposure, and allied advisory coordination. The China/PLA source baseline
-  uses this as a routing lane pending a dedicated PRC cyber source packet.
+  exposure, allied advisory coordination, and DOJ/FBI disruption-source event
+  routing. The China/PLA source baseline and PRC cyber defensive packet use
+  this as the main defensive source-family lane.
 - **Reliability note:** Authoritative for public defensive advisory framing.
   Individual advisories require dated extraction before claim-level use.
   WARLOCK-INDEX should summarize actor, sector, and defensive themes only.
+  Some specific advisory pages need later page-level refresh because the
+  current pass relies on source-family routing and DOJ cross-links for some
+  advisory identities.
 - **Boundary:** No exploit steps, command syntax, scanning procedure,
   indicator-for-misuse tables, malware operation, credential theft workflow,
   victim-specific guidance, or evasion detail.
+
+### DOJ PRC Botnet Disruption Source Event
+
+- **Source class:** A law-enforcement source event.
+- **Publisher:** U.S. Department of Justice.
+- **Publication date:** 2024-01-31; archived page updated 2025-02-06.
+- **Accessed UTC:** 2026-06-14T19:56:06Z
+- **URL:** https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical
+- **Use:** Public DOJ source event for the U.S. Government disruption of a
+  PRC-linked botnet used to conceal hacking of critical infrastructure,
+  including source routing to CISA advisory material and FBI/DOJ critical
+  infrastructure framing.
+- **Reliability note:** Authoritative for DOJ's public account of the
+  court-authorized disruption and government source links. It is not a
+  complete actor map, victim inventory, technical remediation playbook, or
+  operational cyber source.
+- **Boundary:** Do not reproduce malware procedures, botnet operation,
+  router-targeting guidance, commands, indicators, victim data, or disruption
+  methods.
 
 ### State Department Foreign Terrorist Organizations
 

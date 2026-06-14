@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-14T06:05:33Z
+**Prepared UTC:** 2026-06-14T20:37:05Z
 
 ## Completed
 
@@ -183,6 +183,74 @@
   no-contingency-planning, no-cyber-methods, no-facility-mapping,
   no-route-selection, no-export-control-evasion, and no-operational-guidance
   boundaries.
+- Added the PRC MND and PLA official-media dated capture packet with Xinhua
+  April 19, 2024 Information Support Force and defense-spokesperson source
+  captures, MND/China Military source-family access caveats, State Council
+  defense white-paper routing, foreign-government register, China/PLA
+  tracker, source-packet README, China profile, docs-index, coverage-map, and
+  global matrix wiring while preserving issuer-perspective, no-targeting,
+  no-contingency-planning, no-cyber-methods, no-live-tracking,
+  no-facility-mapping, no-route-selection, and no-operational-guidance
+  boundaries.
+- Added the DoD 2025 to PRC issuer-language claim crosswalk with source-voice
+  separation across DoD 2025, State Council defense-policy sources, Xinhua
+  PLA reorganization items, PRC MND/China Military source families, China/PLA
+  tracker, foreign-government register, source-packet README, China profile,
+  docs-index, coverage-map, and global matrix wiring while preserving
+  no-targeting, no-contingency-planning, no-cyber-methods,
+  no-facility-mapping, no-route-selection, no-export-control-evasion, and
+  no-operational-guidance boundaries.
+- Added the PLA services and arms source packet with source-family separation
+  for PLA Ground Force, Navy, Air Force, Rocket Force, Aerospace Force,
+  Cyberspace Force, Information Support Force, Joint Logistics Support Force,
+  People's Armed Police, China Coast Guard, and militia/maritime militia
+  lanes, plus China/PLA tracker, source-packet README, China profile,
+  docs-index, coverage-map, global matrix, and cross-packet wiring while
+  preserving no-targeting, no-contingency-planning, no-cyber-methods,
+  no-live-tracking, no-facility-mapping, no-route-selection, no-basing
+  analysis, and no-operational-guidance boundaries.
+- Added the Taiwan pressure and cross-Strait coercion source packet with
+  safe source-family treatment for DoD 2025, ODNI 2026, the Taiwan Relations
+  Act, State/AIT access-caveated source families, Taiwan MND access-caveated
+  source family, PRC State Council/Taiwan Affairs Office/SCIO 2022 Taiwan
+  white-paper issuer lane, Indo-Pacific allied cross-checks, map-reference
+  boundaries, China/PLA tracker, official-U.S. and foreign-government
+  registers, source-packet README, China profile, docs-index, coverage-map,
+  global matrix, Taiwan baseline/timeline/map cross-links, and cross-packet
+  wiring while preserving no-targeting, no-contingency-planning,
+  no-live-tracking,
+  no-facility-mapping, no-route-selection, no-blockade-mechanics,
+  no-cyber-methods, and no-operational-guidance boundaries.
+- Added the South China Sea coercion and legal-source packet with source
+  separation for DoD 2025, PCA arbitration routing, State Limits in the Seas
+  routing, BFAR/Philippine issuer-source incident material, NAMRIA and
+  Official Gazette source-family caveats, PRC issuer claims, China Coast
+  Guard, maritime militia, PLA Navy overwatch, map-reference boundaries,
+  maritime chokepoint context, China/PLA tracker, official-U.S.,
+  foreign-government, maritime, and map-register wiring, source-packet
+  README, China profile, docs-index, coverage-map, global matrix, and
+  cross-packet wiring while preserving no-legal-advice, no-navigation,
+  no-interdiction, no-patrol-planning, no-live-tracking,
+  no-facility-mapping, no-route-selection, and no-operational-guidance
+  boundaries.
+- Added the PRC cyber and critical infrastructure defensive source packet
+  with source separation for ODNI 2026, DoD 2025, CISA/NSA/FBI defensive
+  advisory source families, DOJ Volt Typhoon / KV Botnet disruption source
+  event routing, PRC State Council cyberspace-governance issuer claims,
+  allied cyber-agency cross-check lanes, infrastructure-sector exposure
+  categories, China/PLA tracker, official-U.S., USILE, and
+  foreign-government register wiring, source-packet README, China profile,
+  docs-index, coverage-map, global matrix, and cross-packet wiring while
+  preserving no-exploit-steps, no-malware-procedures, no-scanning,
+  no-IOC-tables, no-victim-targeting, no-incident-response-playbooks, and
+  no-operational-guidance boundaries.
+- Added the Maps directory and map-resource hub with NGA, USGS, NOAA,
+  BGN, combatant-command AOR, NATO, Library of Congress, State, NAMRIA, and
+  internal theater-map product routing, plus docs-index, coverage-map, and
+  generated library navigation wiring while preserving no-targeting,
+  no-sensitive-overlays, no-route-selection, no-live-tracking,
+  no-interdiction, no-collection-geometry, no-legal-advice, and
+  no-operational-guidance boundaries.
 
 ## Current Analytical Posture
 
@@ -201,12 +269,16 @@ The repository is in baseline-building mode. Products prioritize:
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
 - Add follow-on official allied country source packets for Denmark, Iceland,
   and EU security-defense sources.
-- Add follow-on China/PLA source packets for PRC MND/PLA official-media
-  dated capture, PLA services and arms, Taiwan pressure and cross-Strait
-  coercion, South China Sea coercion/legal-source treatment, PRC cyber and
-  critical infrastructure, PRC space/counterspace and information support,
-  PRC defense-industrial and emerging technology, DoD 2025 to PRC
-  issuer-language claim crosswalk, and PRC-Russia defense-industrial support.
+- Add follow-on China/PLA source packets for PRC space/counterspace and
+  information support, PRC defense-industrial and emerging technology, PRC
+  defense white-paper deep extraction, Taiwan MND direct source capture,
+  State/AIT Taiwan policy source refresh, PRC MND press conference archive
+  capture, Philippine WPS direct source capture, PRC Coast Guard and
+  maritime lawfare source capture, ASEAN/claimant-state South China Sea
+  cross-checks, PRC cyber advisory page-level refresh, Salt
+  Typhoon/telecommunications defensive source treatment, PRC cyber-governance
+  issuer-language refresh, critical-infrastructure sector source crosswalk,
+  allied PRC cyber cross-checks, and PRC-Russia defense-industrial support.
 - Add follow-on DoD Cooperative Threat Reduction, BWC treaty/compliance,
   Ukraine official-source, select-agent oversight, emerging biotechnology
   security, and declassification/information-resilience source packets from

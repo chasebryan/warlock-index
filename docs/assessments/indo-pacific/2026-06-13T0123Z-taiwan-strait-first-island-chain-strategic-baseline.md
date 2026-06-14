@@ -357,6 +357,7 @@ This section identifies research relevance, not action guidance.
 - [PRC Military Modernization And Indo-Pacific Balance](2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)
 - [China Strategic Actor Classification](2026-06-12T2338Z-china-strategic-actor-classification.md)
 - [China Actor Profile](../../collections/actor-profiles/china.md)
+- [Taiwan Pressure And Cross-Strait Coercion Source Packet](../../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [Global Strategic Operating Picture](../global/2026-06-13T0049Z-global-strategic-operating-picture.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [Global Actor-Domain Assimilation Matrix](../../collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)

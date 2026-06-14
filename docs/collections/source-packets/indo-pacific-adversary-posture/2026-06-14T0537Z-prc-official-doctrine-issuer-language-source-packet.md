@@ -170,9 +170,8 @@ and English titles, translation status, and source-caveat notes.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
-| PRC MND And PLA Official-Media Dated Capture Packet | Capture MND press conference pages, spokesperson statements, China Military Online service/arm pages, and PLA reorganization announcements | MND, China Military Online, State Council, DoD PRC report |
 | PRC Defense White Paper Deep Extraction Packet | Extract the 2019 national-defense white paper attachment and any newer defense white papers or defense-policy documents with section-level source notes | State Council/SCIO, MND, PRC official attachments |
-| PRC Cyber Governance Source Packet | Build safe issuer-language lane for cyber governance, data/security law, cyber sovereignty, and defensive cyber cross-checks | State Council, CAC where source-classed, ODNI, CISA/NSA/FBI |
+| PRC MND Press Conference Archive Capture | Capture defense ministry press conference pages and spokesperson statements with Chinese/English and access-status notes | MND, China Military Online, Xinhua |
 | PRC Space/BeiDou Issuer-Language Packet | Separate BeiDou, space/navigation, civil-space, dual-use, and counterspace cross-check source lanes | State Council, CNSA/BeiDou sources, DoD, ODNI, Space Force |
 | PRC Global-Order And Security Narrative Packet | Track "shared future," Global Security Initiative, BRI, UN language, and diplomatic narratives as issuer claims | State Council, MFA, UN, allied statements |
 
@@ -180,8 +179,9 @@ and English titles, translation status, and source-caveat notes.
 
 - The full attachment text for several State Council white-paper pages was
   not extracted in this environment; direct attachment capture remains needed.
-- MND and China Military Online source families need successful direct access,
-  exact page capture, and translation-status notes before claim-level use.
+- MND and China Military Online source families need broader archive-level
+  direct access, exact page capture, and translation-status notes before
+  claim-level use beyond the initial April 19, 2024 official-media capture.
 - Chinese-language originals should control where official terminology,
   slogans, or legal phrasing matters.
 - PRC issuer-language does not provide classified decision-making, operational
@@ -194,6 +194,10 @@ and English titles, translation status, and source-caveat notes.
 
 - [China/PLA Official Military And Security Source Baseline Packet](2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [DoD/DIA China Military Power Extraction Map](2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [PRC MND And PLA Official-Media Dated Capture Packet](2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.md)
+- [DoD 2025 To PRC Issuer-Language Claim Crosswalk](2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.md)
+- [PLA Services And Arms Source Packet](2026-06-14T1933Z-pla-services-and-arms-source-packet.md)
+- [PRC Cyber And Critical Infrastructure Defensive Source Packet](2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [China/PLA Source Collection Tracker](../../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [China Actor Profile](../../actor-profiles/china.md)
 - [PRC Military Modernization Strategic Baseline](../../../assessments/indo-pacific/2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)

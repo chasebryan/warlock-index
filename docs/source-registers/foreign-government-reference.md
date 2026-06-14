@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-FGOV-2026-0001
 
-**Prepared UTC:** 2026-06-14T05:37:41Z
+**Prepared UTC:** 2026-06-14T19:46:19Z
 
-**Information cutoff UTC:** 2026-06-13T09:28:00Z
+**Information cutoff UTC:** 2026-06-14T19:46:19Z
 
 **Purpose:** Define source-routing rules for foreign government leadership,
 officeholder, diplomatic, country, and official-government reference material
@@ -162,29 +162,93 @@ WARLOCK-INDEX products should keep these evidence types separate:
 - **Source class:** A/B issuer perspective depending on page authentication,
   translation status, and archive stability.
 - **Publisher:** PRC Ministry of National Defense; China Military Online /
-  PLA-linked official media.
-- **Accessed UTC:** 2026-06-14T05:23:13Z
-- **URLs:** http://eng.mod.gov.cn/ ; http://eng.chinamil.com.cn/
+  PLA-linked official media; Xinhua where it carries defense-spokesperson or
+  PLA establishment coverage.
+- **Accessed UTC:** 2026-06-14T19:27:19Z
+- **URLs:** https://eng.mod.gov.cn/ ; https://eng.chinamil.com.cn/ ; https://eng.chinamil.com.cn/CHINA_209163/TopStories_209189/16302105.html ; https://english.news.cn/20240419/2b64c22c5e8742d4949e0a923f6dc68f/c.html ; https://english.news.cn/20240419/58e7b3a4d1f043858a0d29fce5da4cf4/c.html
 - **Use:** PRC issuer-perspective routing for defense ministry statements,
   spokesperson language, white paper routing, PLA reform announcements,
   military diplomacy, exercises, and party-military messaging.
 - **Reliability note:** Important for issuer language and public signaling,
-  but propagandistic and dynamic. Do not treat as independent verification
-  of capability, readiness, restraint, or legal claims.
+  but propagandistic and dynamic. Direct MND and China Military Online page
+  access was unstable in the 2026-06-14T19:27Z pass; accessible Xinhua April
+  19, 2024 items preserve the defense-spokesperson and Information Support
+  Force establishment lanes. Do not treat any of these sources as independent
+  verification of capability, readiness, restraint, or legal claims.
+
+### PRC MND / PLA Official-Media 2024 Reorganization Source Family
+
+- **Source class:** A for issuer perspective where the page is official and
+  directly accessible; B where page access is unstable or routed through
+  official-media summaries.
+- **Publisher:** Xinhua; China Military Online; PRC Ministry of National
+  Defense.
+- **Accessed UTC:** 2026-06-14T19:27:19Z
+- **URLs:** https://english.news.cn/20240419/2b64c22c5e8742d4949e0a923f6dc68f/c.html ; https://english.news.cn/20240419/58e7b3a4d1f043858a0d29fce5da4cf4/c.html ; https://eng.chinamil.com.cn/CHINA_209163/TopStories_209189/16302105.html
+- **Use:** Dated issuer-source capture for the April 19, 2024 Information
+  Support Force establishment, public PLA services/arms taxonomy, Strategic
+  Support Force designation cancellation, party/CMC command language, and
+  aerospace/cyberspace/information-support public rationale. Also supports
+  source-family separation for the PLA services and arms packet.
+- **Reliability note:** Useful for what PRC official and official-media
+  channels publicly said in April 2024. This source family does not
+  independently validate force effectiveness, command resilience, cyber/space
+  capabilities, readiness, legality, or intent. Cross-read with DoD, ODNI,
+  Taiwan, allied, legal, and research sources before analytic use.
 
 ### Taiwan Ministry Of National Defense Source Family
 
 - **Source class:** A for issuer perspective.
 - **Publisher:** Taiwan Ministry of National Defense.
-- **Accessed UTC:** 2026-06-14T05:23:13Z
+- **Access check UTC:** 2026-06-14T19:38:22Z
 - **URL:** https://www.mnd.gov.tw/english/
 - **Use:** Taiwan official source-family routing for national defense
   reports, PLA activity reporting, cross-Strait defense framing, press
   releases, and future Taiwan pressure source packets.
-- **Reliability note:** Authoritative for Taiwan issuer perspective. Do not
-  convert activity reporting into live tracking, targeting, route planning,
-  unit-disposition analysis, or operational assessments without safe dated
-  source-treatment rules.
+- **Reliability note:** Authoritative for Taiwan issuer perspective where
+  directly accessible. The English source-family URL returned a not-found
+  response in the 2026-06-14T19:38Z pass and requires manual refresh before
+  claim-level use. Do not convert activity reporting into live tracking,
+  targeting, route planning, unit-disposition analysis, or operational
+  assessments.
+
+### PRC Taiwan Affairs And Reunification Claim Source Family
+
+- **Source class:** A for issuer perspective.
+- **Publisher:** Taiwan Affairs Office of the State Council / State Council
+  Information Office / State Council English site / Xinhua.
+- **Accessed UTC:** 2026-06-14T19:38:22Z
+- **URL:** https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html
+- **Use:** PRC issuer-perspective source family for Taiwan status claims,
+  "one China" language, reunification claims, external-interference claims,
+  "one country, two systems" framing, and use-of-force reservation language.
+- **Reliability note:** Authoritative for what PRC official and official-media
+  channels publicly claim. It is not independent evidence of legal status,
+  restraint, peaceful intent, inevitability, capability, or Taiwan public
+  consent. Cross-read with Taiwan, U.S., allied, legal, and research sources
+  before analytic use.
+
+### Philippine Government West Philippine Sea And South China Sea Source Family
+
+- **Source class:** A for Philippine issuer perspective where directly
+  accessible.
+- **Publisher:** Bureau of Fisheries and Aquatic Resources; National Mapping
+  and Resource Information Authority; Philippine Official Gazette; Philippine
+  Coast Guard, Department of Foreign Affairs, and other Philippine official
+  pages where later captured.
+- **Accessed UTC:** 2026-06-14T19:46:19Z
+- **URLs:** https://www.bfar.da.gov.ph/2024/10/15/press-release-on-the-sideswiping-of-brp-datu-cabaylo-mmov-3001-by-a-chinese-maritime-militia-vessel-on-11-october-2024-in-the-vicinity-waters-of-pag-asa-sandy-cay-4/ ; https://www.namria.gov.ph/ ; https://www.officialgazette.gov.ph/2012/09/05/administrative-order-no-29-s-2012/ ; https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/
+- **Use:** Philippine issuer-perspective source family for West Philippine
+  Sea terminology, South China Sea incident reports, maritime patrol and
+  fisheries-agency framing, national map-source routing, and future
+  Philippines/WPS direct source capture.
+- **Reliability note:** Authoritative for what the Philippine government
+  publicly states where pages are directly accessible. BFAR October 15, 2024
+  content was accessible in the 2026-06-14T19:46Z pass; NAMRIA homepage was
+  already active in the map register; Official Gazette AO 29 and EDCA pages
+  previously returned access challenges and require manual refresh before
+  direct content extraction. Do not convert issuer statements into legal
+  advice, patrol guidance, live tracking, or operational maritime analysis.
 
 ### Embassy And Mission Source Family
 
@@ -208,7 +272,7 @@ WARLOCK-INDEX products should keep these evidence types separate:
 | Iran | `https://www.cia.gov/resources/world-leaders/foreign-governments/iran/` | State country page requires manual refresh | Use presidency, supreme-leader office, foreign ministry, central bank, parliament, and mission sources as issuer-perspective sources where needed | Note CIA no-diplomatic-exchange marking and separate officeholder reference from sanctions, terrorism, nuclear, or proxy analysis |
 | North Korea | `https://www.cia.gov/resources/world-leaders/foreign-governments/korea-north/` | State country page requires manual refresh | Use official DPRK state/media material only as issuer-perspective evidence and cross-read with U.S., UN, ROK, Japanese, and allied sources | High propaganda and access constraints; avoid inferring command detail beyond public source |
 | NATO and major U.S. allies | Use individual CIA country pages for national leadership | State country pages require per-page refresh | Use national ministries, parliaments, statistics offices, central banks, and embassies | Do not collapse alliance membership, public pledge, budget authority, and delivered capability |
-| Indo-Pacific allies and partners | Use individual CIA country pages for Japan, Republic of Korea, Australia, Philippines, India, and others | State country pages require per-page refresh | Use national government, defense, foreign ministry, and parliamentary sources | Distinguish diplomatic statement, legal authority, budget, basing/access language, and operational implementation |
+| Indo-Pacific allies and partners | Use individual CIA country pages for Japan, Republic of Korea, Australia, Philippines, India, and others | State country pages require per-page refresh | Use national government, defense, foreign ministry, parliamentary, mapping, fisheries, and coast guard sources | Distinguish diplomatic statement, legal authority, issuer incident account, budget, basing/access language, and operational implementation |
 | Africa and regional state lanes | Use individual CIA country pages as leadership anchor | State country pages require per-page refresh | Use national government, AU/regional, election, mining, port, and security ministry sources where official and public | Avoid over-weighting weak or captured official sources; cross-read with UN, AU, ECOWAS/SADC/IGAD, and reputable research |
 
 ## Extraction Rules
@@ -277,6 +341,14 @@ When an actor profile or theater product uses this register, include:
 - PRC Ministry of National Defense English source family: `http://eng.mod.gov.cn/`
 - China Military Online English source family: `http://eng.chinamil.com.cn/`
 - Taiwan Ministry of National Defense English source family: `https://www.mnd.gov.tw/english/`
+- Bureau of Fisheries and Aquatic Resources, BRP Datu Cabaylo press release:
+  `https://www.bfar.da.gov.ph/2024/10/15/press-release-on-the-sideswiping-of-brp-datu-cabaylo-mmov-3001-by-a-chinese-maritime-militia-vessel-on-11-october-2024-in-the-vicinity-waters-of-pag-asa-sandy-cay-4/`
+- National Mapping and Resource Information Authority:
+  `https://www.namria.gov.ph/`
+- Philippine Official Gazette, Administrative Order No. 29:
+  `https://www.officialgazette.gov.ph/2012/09/05/administrative-order-no-29-s-2012/`
+- Philippine Official Gazette, Enhanced Defense Cooperation Agreement:
+  `https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/`
 - Central Intelligence Agency, Russia World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/russia/`
 - Central Intelligence Agency, Iran World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/iran/`
 - Central Intelligence Agency, Korea, North World Leaders page: `https://www.cia.gov/resources/world-leaders/foreign-governments/korea-north/`

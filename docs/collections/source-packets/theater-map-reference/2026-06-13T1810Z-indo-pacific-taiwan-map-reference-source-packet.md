@@ -147,5 +147,6 @@ access, force posture, operational feasibility, sovereignty, or control.
 - [Map And Geospatial Reference Source Register](../../../source-registers/map-geospatial-reference.md)
 - [Taiwan Strait And First Island Chain Strategic Baseline](../../../assessments/indo-pacific/2026-06-13T0123Z-taiwan-strait-first-island-chain-strategic-baseline.md)
 - [Taiwan Strait Coercion Strategic Event Timeline](../../event-timelines/2026-06-13T0203Z-taiwan-strait-coercion-strategic-event-timeline.md)
+- [Taiwan Pressure And Cross-Strait Coercion Source Packet](../indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [Indo-Pacific Allied Posture Official Source Baseline Packet](../indo-pacific-allied-posture/2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.md)
 - [CIA, State, And NGA Foreign Government And Map Reference Packet](../official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)

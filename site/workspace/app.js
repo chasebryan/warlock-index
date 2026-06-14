@@ -10,6 +10,7 @@ const EXPORT_STYLE_VERSION = "20260613-reader-packet";
 const routes = [
   { id: "all", label: "All records", match: () => true },
   { id: "assessments", label: "Assessments", match: (item) => item.type === "Assessment" },
+  { id: "maps", label: "Maps", match: (item) => item.type === "Map Resource" || String(item.path || "").startsWith("library/maps/") },
   { id: "source-packets", label: "Source packets", match: (item) => item.type === "Source Packet" },
   { id: "trackers", label: "Trackers", match: (item) => item.type === "Tracker" },
   { id: "matrices", label: "Matrices", match: (item) => /matrix/i.test(item.type) },
@@ -23,6 +24,7 @@ const routes = [
 const quickRoutes = [
   "Strategic weapons",
   "Official sources",
+  "Maps",
   "Source packets",
   "Actor profiles",
   "Arctic",

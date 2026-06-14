@@ -157,6 +157,7 @@ economic-resilience research.
 ## Cross References
 
 - [Taiwan Strait And First Island Chain Strategic Baseline](../../assessments/indo-pacific/2026-06-13T0123Z-taiwan-strait-first-island-chain-strategic-baseline.md)
+- [Taiwan Pressure And Cross-Strait Coercion Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [China Strategic Actor Classification](../../assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.md)
 - [PRC Military Modernization Strategic Baseline](../../assessments/indo-pacific/2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)
 - [Global Cyber And Critical Infrastructure Strategic Baseline](../../assessments/technology-cyber-space/2026-06-13T0129Z-global-cyber-critical-infrastructure-strategic-baseline.md)

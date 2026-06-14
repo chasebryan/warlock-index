@@ -25,6 +25,15 @@ This index is the working navigation hub for WARLOCK-INDEX.
 - [Foreign Government Reference Source Register](source-registers/foreign-government-reference.md)
 - [Map And Geospatial Reference Source Register](source-registers/map-geospatial-reference.md)
 
+## Maps
+
+- [Maps](maps/README.md)
+- [Theater Map Index](collections/source-notes/2026-06-13T1733Z-theater-map-index.md)
+- [Map And Geospatial Reference Source Register](source-registers/map-geospatial-reference.md)
+- [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
+- [Philippines And South China Sea Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [Europe, NATO, And Ukraine Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
+
 ## Assessments
 
 - [Assessment Index](assessments/README.md)
@@ -70,6 +79,12 @@ This index is the working navigation hub for WARLOCK-INDEX.
 - [China/PLA Official Military And Security Source Baseline Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [PRC Official Doctrine And Issuer-Language Source Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
 - [DoD/DIA China Military Power Extraction Map](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [PRC MND And PLA Official-Media Dated Capture Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.md)
+- [DoD 2025 To PRC Issuer-Language Claim Crosswalk](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.md)
+- [PLA Services And Arms Source Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.md)
+- [Taiwan Pressure And Cross-Strait Coercion Source Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
+- [South China Sea Coercion And Legal-Source Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
+- [PRC Cyber And Critical Infrastructure Defensive Source Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [Arctic Infrastructure Source Packets](collections/source-packets/arctic-infrastructure)
 - [Arctic Infrastructure And Domain Awareness Source Packet](collections/source-packets/arctic-infrastructure/2026-06-13T0318Z-arctic-infrastructure-domain-awareness-source-packet.md)
 - [Canada/NORAD Arctic And Continental Defense Source Packet](collections/source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.md)

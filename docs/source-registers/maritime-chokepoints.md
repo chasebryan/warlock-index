@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-MARITIME-2026-0001
 
-**Prepared UTC:** 2026-06-13T05:20:00Z
+**Prepared UTC:** 2026-06-14T19:46:19Z
 
-**Information cutoff UTC:** 2026-06-13T05:20:00Z
+**Information cutoff UTC:** 2026-06-14T19:46:19Z
 
 **Purpose:** Organize source families for maritime chokepoint analysis across
 Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.
@@ -131,6 +131,7 @@ instructions.
 | Chokepoint lane | Priority source families | Current register status | Notes |
 | --- | --- | --- | --- |
 | Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current WARLOCK-INDEX lane |
+| South China Sea / West Philippine Sea | DoD 2025, PCA, State Limits in the Seas, Philippines official sources, PRC issuer sources, NAMRIA, NGA/USINDOPACOM, allied statements, shipping/economic sources for later trade context | Active map packet and coercion/legal-source packet exist | Legal/coercion source lane is active; trade, energy, fisheries, and insurance context remains follow-on |
 | Strait of Hormuz | EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue | Needed for Iran maritime and energy exposure analysis |
 | Malacca / Singapore | Singapore, Malaysia, Indonesia, ASEAN, UNCTAD, EIA/IEA, port authorities, insurance industry | Queue | Needed for Indo-Pacific trade, energy, and logistics concentration |
 | Panama Canal | Panama Canal Authority, UNCTAD, climate agencies, trade datasets, insurance industry | Queue | Needed for climate-infrastructure and canal-capacity analysis |
@@ -155,6 +156,8 @@ instructions.
 - [Red Sea Maritime Disruption Strategic Tracker](../collections/trackers/2026-06-13T0518Z-red-sea-maritime-disruption-strategic-tracker.md)
 - [Maritime Chokepoint Strategic Assimilation Matrix](../collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
 - [Red Sea Maritime Economics And Insurance Source Packet](../collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
+- [Philippines And South China Sea Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [South China Sea Coercion And Legal-Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
 - [Allied And Multilateral Source Register](allied-multilateral.md)
 - [Official U.S. Sources](official-us.md)
 - [Research And Media Source Register](research-and-media.md)

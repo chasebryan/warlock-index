@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T05:23:13Z
+**Prepared UTC:** 2026-06-14T20:37:05Z
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing
@@ -69,15 +69,23 @@ future open-source defense assessments.
 - U.S. statutory and strategy documents.
 - U.S. intelligence, homeland security, law-enforcement, sanctions, border,
   maritime, cyber, and geospatial public source families.
+- Public map source families, including NGA maps, USGS topographic
+  sources, NOAA nautical-chart sources, BGN geographic-name sources,
+  combatant-command AOR pages, NATO public maps, Library of Congress maps,
+  foreign national mapping agencies, and the WARLOCK-INDEX Maps directory.
 - U.S. Combatant Command public testimony and posture statements.
 - DoD annual military power reports.
 - ODNI and IC public threat assessments.
 - China/PLA official and issuer-perspective source stacks, including DoD PRC
   military power reporting, ODNI China threat framing, DIA historical
   baselines, PRC State Council/MND/PLA official-media source families,
-  Taiwan MND source-family routing, allied/regional defense white papers,
-  cyber advisories, South China Sea legal sources, and China-specific
-  tracker/matrix products.
+  PRC MND and PLA official-media dated capture, DoD-to-PRC issuer-language
+  crosswalks, PLA services and arms source-family separation, Taiwan MND
+  source-family routing, Taiwan pressure and cross-Strait coercion source
+  treatment, allied/regional defense white papers, cyber advisories, South
+  China Sea legal sources, South China Sea coercion/legal-source treatment,
+  PRC cyber and critical-infrastructure defensive source treatment, and
+  China-specific tracker/matrix products.
 - ODNI declassified WMD, biosecurity, foreign-laboratory, and
   threat-reduction disclosures where handled as issuer-perspective source
   events with explicit no-methods and no-facility-detail boundaries.

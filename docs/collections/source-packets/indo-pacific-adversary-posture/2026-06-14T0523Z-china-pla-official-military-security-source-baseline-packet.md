@@ -197,20 +197,16 @@ prove readiness, output quality, schedule, or wartime sustainment.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
-| PRC Official Doctrine And Issuer-Language Packet | Collect PRC State Council, MND, white paper, National People's Congress, and PLA official-media source lanes with translation and propaganda caveats | PRC State Council, MND, China Military Online, NPC, official speeches |
-| PLA Services And Arms Source Packet | Separate Ground Force, Navy, Air Force, Rocket Force, Aerospace Force, Cyberspace Force, Information Support Force, Joint Logistics Support Force, PAP, and China Coast Guard source lanes | DoD PRC report, DIA baseline, PRC issuer sources, allied white papers |
-| Taiwan Pressure And Cross-Strait Coercion Source Packet | Expand Taiwan pressure, air/maritime activity, legal language, political signaling, and regional reactions safely | DoD, ODNI, Taiwan MND, State/AIT, Japan MOD, Philippines/Australia sources |
-| South China Sea Coercion And Legal-Source Packet | Combine PRC claims, PCA, State Limits in the Seas, Philippines, Coast Guard, allied statements, and map-source caveats | PCA, State, Philippine sources, DoD, ODNI, map register |
-| PRC Cyber And Critical Infrastructure Source Packet | Build safe defensive source lane for PRC cyber, critical infrastructure, pre-positioning, espionage, and law-enforcement/cyber advisories | ODNI, CISA, NSA, FBI, allied cyber agencies |
 | PRC Space, Counterspace, And Information-Support Packet | Connect space/counterspace, aerospace force, missile warning, C4ISR, and information support source lanes | DoD, ODNI, Space Force, PRC issuer sources, NATO/allied sources |
 | PRC Defense-Industrial And Emerging-Technology Packet | Organize defense industry, military-civil fusion, AI, biotechnology, semiconductors, hypersonics, shipbuilding, talent, espionage, and export-control evidence | DoD, Commerce, Treasury, DOJ, CRS/GAO where added, allied sources |
 | PRC-Russia Defense-Industrial Support Packet | Track public evidence of PRC support to Russia's defense industrial base and cross-theater implications | NATO, ODNI, Treasury, State, Commerce, allied sanctions sources |
 
 ## Information Gaps
 
-- Direct PRC MND, PLA Daily/China Military Online, National People's
-  Congress, and Chinese-language policy-source capture needs a dedicated
-  translation and issuer-perspective pass.
+- Direct PRC MND press conference, PLA Daily/China Military Online archive,
+  National People's Congress, and Chinese-language policy-source capture needs
+  dedicated translation and issuer-perspective passes beyond the initial
+  Xinhua/MND/China Military source-family capture.
 - Current Taiwan MND defense report and daily/periodic PLA activity data need
   careful source-family capture without creating live tracking, route,
   targeting, or operational products.
@@ -238,6 +234,12 @@ prove readiness, output quality, schedule, or wartime sustainment.
 - [China/PLA Source Collection Tracker](../../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [PRC Official Doctrine And Issuer-Language Source Packet](2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
 - [DoD/DIA China Military Power Extraction Map](2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [PRC MND And PLA Official-Media Dated Capture Packet](2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.md)
+- [DoD 2025 To PRC Issuer-Language Claim Crosswalk](2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.md)
+- [PLA Services And Arms Source Packet](2026-06-14T1933Z-pla-services-and-arms-source-packet.md)
+- [Taiwan Pressure And Cross-Strait Coercion Source Packet](2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
+- [South China Sea Coercion And Legal-Source Packet](2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
+- [PRC Cyber And Critical Infrastructure Defensive Source Packet](2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Global Actor-Domain Assimilation Matrix](../../global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
 - [Official U.S. Sources](../../../source-registers/official-us.md)

@@ -104,14 +104,14 @@ where a claim needs source diversity.
 | China's strategy and U.S.-China relations | National strategy, PRC perception of external environment, Taiwan rhetoric, defense contacts | China actor profile; PRC issuer-language crosswalk | PRC State Council/MFA/MND, Taiwan, State/AIT, allied statements | No prediction of leadership decisions from rhetoric alone |
 | PLA strategy and capabilities | 2027 objectives, doctrine, operational concepts, readiness, leadership, modernization developments | PLA services/arms packet queue; PRC modernization baseline refresh | DIA 2019, PRC white papers, allied reports | No unit-level disposition or contingency planning |
 | PLA C4ISR developments | Source lane for command, control, communications, computers, intelligence, surveillance, and reconnaissance modernization framing | Space/counterspace and information-support packet queue | PRC issuer-language, DoD space sources, allied space/cyber sources | No sensor coverage or network targeting detail |
-| PLA cyber developments | Public U.S. defense framing for PRC cyber modernization and operational relevance | PRC cyber defensive source packet queue; USILE register crosswalk | CISA/NSA/FBI advisories, ODNI, allied cyber agencies | No exploit chains, intrusion steps, malware logic, or vulnerability detail |
+| PLA cyber developments | Public U.S. defense framing for PRC cyber modernization and operational relevance | PRC cyber and critical infrastructure defensive source packet; USILE register crosswalk | CISA/NSA/FBI advisories, ODNI, allied cyber agencies | No exploit chains, intrusion steps, malware logic, or vulnerability detail |
 | PLA space developments | Public U.S. defense framing for PLA space and counterspace modernization | PRC space/counterspace packet queue; space baseline | ODNI, Space Force, PRC BeiDou/space issuer sources, allied sources | No orbital vulnerability or interference methods |
 | PLA nuclear capabilities | Current DoD nuclear and strategic-domain assessment lane | Strategic-weapons refresh; arms-control tracker | ODNI, State arms-control, strategic-weapons packet, PRC nuclear policy issuer sources | No targeting, weapons employment, or posture optimization |
 | PLA corruption developments | Public source lane for corruption, procurement, leadership, and discipline implications | China actor profile and defense-industrial queue | PRC issuer sources, congressional/research sources where source-classed | No personal dossiering or unverified individual allegations |
 | Paramilitary forces | PAP, China Coast Guard, and maritime pressure source lane | South China Sea and Taiwan pressure queues | Taiwan, Philippines, Japan, Coast Guard/legal/map sources | No patrol routing, interdiction, or live tracking |
 | PLA force employment in 2024 | Dated exercises, operations, foreign-military exercises, and regional pressure framing | Taiwan pressure, South China Sea, and global-presence queues | Taiwan MND, Japan MOD, Philippines, allied statements | No operational lessons, route selection, or live movement tracking |
 | Taiwan Strait section | Dated strategic source lane for pressure campaign framing and military/political coercion | Taiwan pressure and cross-Strait coercion packet queue | Taiwan MND, AIT/State, Japan, Australia, legal sources | No contingency planning or target packages |
-| South China Sea section | Strategic source lane for coercion, maritime law-enforcement pressure, and regional disputes | South China Sea coercion/legal-source packet queue | Philippines official/legal sources, UNCLOS, allied statements | No navigation guidance or operational route advice |
+| South China Sea section | Strategic source lane for coercion, maritime law-enforcement pressure, and regional disputes | South China Sea coercion/legal-source packet | Philippines official/legal sources, PCA, State Limits in the Seas, allied statements | No navigation guidance, legal advice, or operational route advice |
 | Overseas influence operations | Source lane for influence, information, and political warfare framing | Information operations queue | State, ODNI, allied intelligence, PRC issuer sources | No influence-playbook or amplification guidance |
 | Defense spending and resources | Budget, public spending, and resourcing source lane | Defense-industrial and DIB crosswalk | PRC budget/NPC, SIPRI where source-classed, allied reports | No procurement evasion or acquisition advice |
 | Defense industry and technology | Missile, naval/shipbuilding, aviation, ground systems, AI, biotech, hypersonics, and chokepoint technology lanes | PRC defense-industrial and emerging-technology packet queue | Commerce/export-control sources, NSCEB, allied industrial documents | No technical replication, export-control evasion, or procurement guidance |
@@ -134,31 +134,33 @@ where a claim needs source diversity.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
-| PLA Services And Arms Source Packet | Separate Ground Force, Navy, Air Force, Rocket Force, Aerospace Force, Cyberspace Force, Information Support Force, Joint Logistics Support Force, PAP, and China Coast Guard source lanes | DoD 2025, DIA 2019, PRC MND, China Military Online, Taiwan/allied sources |
-| Taiwan Pressure And Cross-Strait Coercion Source Packet | Extract Taiwan pressure, exercises, political warfare, legal claims, and allied/Taiwan cross-check lanes safely | DoD 2025, Taiwan MND, State/AIT, Japan, Australia, PRC issuer sources |
-| South China Sea Coercion And Legal-Source Packet | Separate maritime coercion, law-enforcement pressure, legal rulings, map/geospatial references, and allied statements | DoD 2025, Philippines, UNCLOS/legal sources, Japan/Australia, PRC issuer sources |
-| PRC Cyber Defensive Source Packet | Pair DoD cyber-development framing with defensive cyber advisories and attribution/source-treatment rules | DoD 2025, ODNI, CISA/NSA/FBI, allied cyber agencies |
 | PRC Space/Counterspace And Information-Support Packet | Split space, counterspace, BeiDou, C4ISR, information support, and source-treatment lanes | DoD 2025, ODNI, Space Force, PRC State Council/BeiDou, PRC MND |
 | PRC Defense-Industrial And Emerging-Technology Packet | Extract defense spending, shipbuilding, missiles, aviation, AI, biotech, hypersonics, and technology-acquisition lanes | DoD 2025, Commerce, congressional sources, allied industrial sources |
-| DoD 2025 To PRC Issuer-Language Claim Crosswalk | Pair selected U.S. assessment categories with PRC white-paper/MND/State Council issuer claims | DoD 2025, PRC issuer-language packet, State Council, MND |
 
 ## Information Gaps
 
-- PRC MND and China Military Online pages need successful direct dated
-  captures before claim-level official-media extraction.
+- PRC MND press conference pages and broader China Military Online archive
+  pages need successful direct dated captures before claim-level
+  official-media extraction beyond the initial April 19, 2024 source capture.
 - The DoD 2025 report should be refreshed when a newer annual report, formal
   correction, or updated official release appears.
 - DIA 2019 is historical and should not be used as a current-only force
   structure source without refresh.
 - Taiwan, Philippines, Japan, Australia, and other allied/regional sources are
   needed before local coercion lanes are strengthened.
-- Cyber, space, nuclear, and defense-industrial topics require separate
+- Space, nuclear, and defense-industrial topics require separate
   safety-bounded packets before more detailed extraction.
 
 ## Cross References
 
+- [South China Sea Coercion And Legal-Source Packet](2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
+- [PRC Cyber And Critical Infrastructure Defensive Source Packet](2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [China/PLA Official Military And Security Source Baseline Packet](2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [PRC Official Doctrine And Issuer-Language Source Packet](2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
+- [PRC MND And PLA Official-Media Dated Capture Packet](2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.md)
+- [DoD 2025 To PRC Issuer-Language Claim Crosswalk](2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.md)
+- [PLA Services And Arms Source Packet](2026-06-14T1933Z-pla-services-and-arms-source-packet.md)
+- [Taiwan Pressure And Cross-Strait Coercion Source Packet](2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [China/PLA Source Collection Tracker](../../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [China Actor Profile](../../actor-profiles/china.md)
 - [PRC Military Modernization Strategic Baseline](../../../assessments/indo-pacific/2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)

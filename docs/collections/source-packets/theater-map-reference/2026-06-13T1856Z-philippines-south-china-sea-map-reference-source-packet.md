@@ -134,7 +134,7 @@ refresh and exact NAMRIA map products still require product-level capture.
 | Product lane | Map-source role | Required companion source | Boundary |
 | --- | --- | --- | --- |
 | Philippines allied posture | Add issuer-language and broad geography caveats | EDCA source family, State, Philippine official sources, DoD/allied statements | No basing, facility, access-route, or deployment inference |
-| South China Sea future assessment | Separate map, legal, coercion, and maritime-security layers | PCA, State Limits in the Seas, DoD PRC report, ODNI, Philippine official sources, allied statements | No vessel routing, interdiction, or patrol analysis |
+| South China Sea coercion/legal-source packet | Separate map, legal, coercion, and maritime-security layers | PCA, State Limits in the Seas, DoD PRC report, Philippine official sources, PRC issuer sources, allied statements | No vessel routing, interdiction, patrol analysis, or legal advice |
 | Taiwan and First Island Chain products | Use Philippines/South China Sea packet as southern-approach source routing | Indo-Pacific/Taiwan map packet, Taiwan baseline, DoD/ODNI sources | No contingency planning or access-route analysis |
 | China actor profile | Use South China Sea maps only as broad theater context | DoD PRC report, ODNI ATA, State, Treasury, DOJ, allied sources | No military target or facility mapping |
 | Maritime chokepoint lane | Use South China Sea references as regional context, not a route tool | Maritime chokepoint register, NOAA/NGA/State/UN or authority sources as relevant | No voyage planning, evasion, or interdiction guidance |
@@ -185,3 +185,4 @@ refresh and exact NAMRIA map products still require product-level capture.
 - [Japan-Philippines-Australia Allied Posture Profile](../../actor-profiles/indo-pacific-allies-and-partners/2026-06-13T0222Z-japan-philippines-australia-allied-posture-profile.md)
 - [Taiwan Strait And First Island Chain Strategic Baseline](../../../assessments/indo-pacific/2026-06-13T0123Z-taiwan-strait-first-island-chain-strategic-baseline.md)
 - [Maritime Chokepoints Source Register](../../../source-registers/maritime-chokepoints.md)
+- [South China Sea Coercion And Legal-Source Packet](../indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)

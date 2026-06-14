@@ -392,6 +392,7 @@ This section identifies analytical relevance, not action guidance.
 - [U.S. Homeland And Western Hemisphere Strategic Baseline](../homeland-hemisphere/2026-06-13T0110Z-us-homeland-western-hemisphere-strategic-baseline.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [Taiwan Strait And First Island Chain Strategic Baseline](../indo-pacific/2026-06-13T0123Z-taiwan-strait-first-island-chain-strategic-baseline.md)
+- [PRC Cyber And Critical Infrastructure Defensive Source Packet](../../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [Global Actor-Domain Assimilation Matrix](../../collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
 - [China Actor Profile](../../collections/actor-profiles/china.md)
 - [Russia Actor Profile](../../collections/actor-profiles/russia.md)

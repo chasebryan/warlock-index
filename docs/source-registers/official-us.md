@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T06:05:33Z
+**Prepared UTC:** 2026-06-14T19:56:06Z
 
 ## ODNI Annual Threat Assessment 2026
 
@@ -371,8 +371,8 @@
 - **Source class:** A
 - **Publisher:** Office of the Law Revision Counsel, U.S. House of
   Representatives
-- **Publication date:** Current U.S. Code chapter view, accessed 2026-06-13
-- **Accessed UTC:** 2026-06-13T02:03:36Z
+- **Publication date:** Current U.S. Code chapter view, accessed 2026-06-14
+- **Accessed UTC:** 2026-06-14T19:38:22Z
 - **URL:** https://uscode.house.gov/view.xhtml?path=/prelim@title22/chapter48&edition=prelim
 - **Use:** Baseline statutory text for U.S. policy interests involving
   Taiwan, Western Pacific peace and stability, unofficial relations, defensive
@@ -381,6 +381,19 @@
   text is policy and statutory evidence, not an independent intelligence
   assessment, and WARLOCK-INDEX products use it for policy architecture rather
   than predictive judgment.
+
+## State Department And AIT Taiwan Policy Source Family
+
+- **Source class:** A where directly accessible.
+- **Publisher:** U.S. Department of State; American Institute in Taiwan.
+- **Access check UTC:** 2026-06-14T19:38:22Z
+- **URLs:** https://www.state.gov/u-s-relations-with-taiwan/ ; https://www.ait.org.tw/policy-history/u-s-taiwan-relations/
+- **Use:** U.S. diplomatic-policy source family for Taiwan, the unofficial
+  U.S.-Taiwan relationship, Taiwan Strait peace and stability, and policy
+  history.
+- **Reliability note:** Required official source family, but both tested pages
+  returned public technical-difficulties/forbidden responses in this
+  environment. Refresh exact page access before current-use claims.
 
 ## U.S. Industrial Base Policy Public Website
 
@@ -539,15 +552,32 @@
 - **Source class:** A
 - **Publisher:** U.S. Department of Defense
 - **Publication date:** 2025-12-23
-- **Accessed UTC:** 2026-06-14T06:05:33Z
+- **Accessed UTC:** 2026-06-14T19:38:22Z
 - **URL:** https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF
 - **Use:** Primary unclassified baseline on PLA strategy, capabilities,
   modernization, Taiwan pressure, PRC military technology, force employment,
-  defense spending, defense industry, and DoD/DIA China military-power
-  extraction-map routing.
+  South China Sea coercion, PRC cyber modernization, defense spending,
+  defense industry, and DoD/DIA China military-power extraction-map, Taiwan
+  pressure, South China Sea coercion/legal-source, and PRC cyber defensive
+  source-packet routing.
 - **Reliability note:** Authoritative U.S. defense assessment for public use.
   It is focused on U.S. security concerns and is cross-read with allied,
   academic, and PRC primary sources where appropriate.
+
+## State Department Limits In The Seas No. 150
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Publication date:** January 2022
+- **Accessed UTC:** 2026-06-14T19:46:19Z
+- **URL:** https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/
+- **Use:** Official U.S. legal-geographic source family for PRC maritime
+  claims in the South China Sea, supporting the Philippines/South China Sea
+  map packet and the South China Sea coercion/legal-source packet.
+- **Reliability note:** Authoritative for U.S. Department of State public
+  legal-geographic analysis and source routing. WARLOCK-INDEX does not treat
+  it as a navigation chart, legal advice, enforcement guidance, or
+  operational maritime layer.
 
 ## 2024 Report To Congress On Military And Security Developments Involving The PRC
 
