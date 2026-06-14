@@ -40,6 +40,9 @@ The `workspace/` path publishes the installable WARLOCK-INDEX Workspace. It has
 a scoped manifest and service worker so installing from `/workspace/` opens the
 workspace instead of the homepage. Keep `site/downloads/workspace.zip` refreshed
 from the same `site/workspace/` files whenever the app shell changes.
+The workspace's record-download controls generate self-contained reader packets
+from selected records. Keep those exports calm, print-friendly, and free of the
+full site navigation shell so downloaded files remain readable from disk.
 
 The legacy `wi/` path is a redirect-only compatibility route. Keep it lightweight
 so old bookmarks move to `/workspace/` without presenting a second app identity.

@@ -204,6 +204,7 @@ svg {
 .quick-routes button,
 .icon-button,
 .install-button,
+.queue-download-button,
 .queue-item button {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -608,10 +609,20 @@ svg {
 .action-button:focus-visible,
 .icon-button:hover,
 .icon-button:focus-visible,
+.queue-download-button:hover,
+.queue-download-button:focus-visible,
 .queue-item button:hover,
 .queue-item button:focus-visible {
   border-color: var(--line-strong);
   background: rgba(217, 255, 45, 0.12);
+}
+
+.action-button:disabled,
+.queue-download-button:disabled {
+  border-color: rgba(201, 192, 174, 0.14);
+  background: rgba(255, 255, 255, 0.025);
+  color: rgba(201, 192, 174, 0.42);
+  cursor: not-allowed;
 }
 
 .preview-body {
@@ -663,7 +674,7 @@ svg {
 
 .queue-panel {
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-rows: auto auto minmax(0, 1fr);
 }
 
 .queue-head {
@@ -679,6 +690,27 @@ svg {
   font-family: var(--mono);
   font-size: 0.92rem;
   text-transform: uppercase;
+}
+
+.queue-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.queue-download-button {
+  display: inline-grid;
+  grid-template-columns: 16px auto;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 32px;
+  padding: 0 0.55rem;
+  font-size: 0.68rem;
+}
+
+.queue-download-button svg {
+  width: 16px;
+  height: 16px;
 }
 
 .icon-button {
@@ -701,6 +733,31 @@ svg {
   overflow: auto;
   padding: 0.8rem;
   scrollbar-color: rgba(217, 255, 45, 0.36) rgba(255, 255, 255, 0.035);
+}
+
+.queue-status {
+  min-height: 1.7rem;
+  margin: 0;
+  padding: 0.45rem 1rem 0;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.queue-status:empty {
+  min-height: 0;
+  padding: 0;
+}
+
+.queue-status[data-tone="success"] {
+  color: var(--olive);
+}
+
+.queue-status[data-tone="warning"],
+.queue-status[data-tone="error"] {
+  color: var(--danger);
 }
 
 .queue-item {

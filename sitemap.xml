@@ -181,6 +181,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</loc>
     <priority>0.7</priority>
   </url>
@@ -229,6 +233,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -245,6 +257,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -258,6 +278,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -293,6 +317,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -314,6 +342,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -342,6 +374,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/templates/assessment-template.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
