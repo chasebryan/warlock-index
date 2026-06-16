@@ -18,3 +18,5 @@ analysis, deployment schedules, route guidance, or technical instructions.
 - [2026-06-14T0319Z - Norway Official Defense, Security, And High North Source Packet](2026-06-14T0319Z-norway-official-defense-security-high-north-source-packet.md)
 - [2026-06-14T0427Z - Finland Official Defense, Security, And NATO Integration Source Packet](2026-06-14T0427Z-finland-official-defense-security-nato-integration-source-packet.md)
 - [2026-06-14T0502Z - Sweden Official Defense, Security, And NATO Integration Source Packet](2026-06-14T0502Z-sweden-official-defense-security-nato-integration-source-packet.md)
+- [2026-06-16T0328Z - Denmark Official Defense, Security, And Arctic Source Packet](2026-06-16T0328Z-denmark-official-defense-security-arctic-source-packet.md)
+- [2026-06-16T0329Z - Iceland Official Security, Defense, And NATO Source Packet](2026-06-16T0329Z-iceland-official-security-defense-nato-source-packet.md)

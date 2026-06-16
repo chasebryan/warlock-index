@@ -269,6 +269,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0328Z-denmark-official-defense-security-arctic-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.html</loc>
     <priority>0.7</priority>
   </url>
@@ -278,6 +282,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T2151Z-dprk-strategic-weapons-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -294,6 +302,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0329Z-iceland-official-security-defense-nato-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

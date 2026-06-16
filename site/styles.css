@@ -355,6 +355,37 @@ svg {
   font-size: 0.72rem;
 }
 
+.terminal-indicators,
+.traffic-pill {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.42rem;
+  min-width: 0;
+}
+
+.traffic-pill {
+  padding: 0.28rem 0.5rem;
+  border: 1px solid rgba(114, 31, 203, 0.55);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.24);
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.traffic-pill strong {
+  color: var(--olive);
+  font-weight: 600;
+}
+
+.traffic-pill[data-traffic-state="connected"] {
+  border-color: rgba(217, 255, 45, 0.44);
+}
+
 .terminal-form {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
@@ -671,8 +702,19 @@ svg {
   }
 
   .terminal-bar {
-    min-height: 52px;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    gap: 0.45rem;
+    min-height: 96px;
     padding: 0.62rem 0.72rem;
+  }
+
+  .terminal-indicators {
+    align-self: stretch;
+    justify-content: flex-start;
+    width: 100%;
   }
 
   .terminal-bar h2 {
@@ -680,7 +722,8 @@ svg {
   }
 
   .terminal-bar p,
-  .terminal-status {
+  .terminal-status,
+  .traffic-pill {
     font-size: 0.64rem;
   }
 

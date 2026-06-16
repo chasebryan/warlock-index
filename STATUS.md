@@ -274,6 +274,31 @@
   no-command-procedure-description, no-facility-vulnerability-analysis,
   no-basing-exploitation, no-military-route-guidance, no-cyber-technical
   detail, and no-operational-guidance boundaries.
+- Added the Denmark official defense, security, and Arctic source packet with
+  Danish Defence Agreement 2024-2033, Arctic/North Atlantic, NATO, EU,
+  NORDEFCO, cyber, Home Guard/emergency-management, equipment/industry,
+  allied register, tracker, matrix, coverage-map, Arctic source-packet README,
+  and docs-index wiring while preserving no-Arctic-route-guidance,
+  no-sensor-coverage-analysis, no-Greenland/Faroe-facility-mapping,
+  no-basing-vulnerability, no-cyber-technical-detail, no-readiness-scoring,
+  and no-operational-guidance boundaries.
+- Added the Iceland official security, defense, and NATO source packet with
+  Government of Iceland, Ministry for Foreign Affairs, security/defence, NATO,
+  Arctic, Icelandic Coast Guard, NATO air-policing, parliamentary/budget,
+  cyber/civil-security source-family routing, allied register, tracker,
+  matrix, coverage-map, Arctic source-packet README, and docs-index wiring
+  while preserving no-air-policing-procedures, no-sensor-coverage-analysis,
+  no-base-vulnerability, no-facility-mapping, no-route-guidance,
+  no-cyber-technical-detail, no-readiness-scoring, and
+  no-operational-guidance boundaries.
+- Added the EU security and defense source packet with Strategic Compass,
+  CSDP, EDIS, Readiness 2030, EDIP, SAFE, military mobility, cyber/resilience,
+  sanctions, EDA, allied register, tracker, matrix, coverage-map, NATO
+  source-packet README, and docs-index wiring while preserving
+  no-EU/NATO-source-conflation, no-military-mobility-route-guidance,
+  no-procurement-advice, no-sanctions-evasion-guidance,
+  no-cyber-technical-detail, no-readiness-scoring, and
+  no-operational-guidance boundaries.
 
 ## Current Analytical Posture
 
@@ -290,8 +315,12 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
-- Add follow-on official allied country source packets for Denmark, Iceland,
-  and EU security-defense sources.
+- Add follow-on Denmark defense investment/delivery, Denmark Arctic/North
+  Atlantic implementation, Iceland NATO/air-policing, Iceland Coast
+  Guard/maritime-security, Iceland legal/budget/oversight, EU Readiness 2030
+  implementation, EU military mobility/infrastructure, EU defense-industrial
+  and Ukraine-support, EU cyber/resilience/hybrid-threat, and EU sanctions
+  source packets.
 - Add follow-on China/PLA source packets for PRC space/counterspace and
   information support, PRC defense-industrial and emerging technology, PRC
   defense white-paper deep extraction, Taiwan MND direct source capture,

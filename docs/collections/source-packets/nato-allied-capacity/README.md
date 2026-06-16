@@ -18,3 +18,4 @@ instructions.
 - [2026-06-14T0118Z - United Kingdom Official Defense And Security Source Baseline Packet](2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
 - [2026-06-14T0208Z - France Official Defense And Security Source Baseline Packet](2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)
 - [2026-06-14T0219Z - Germany Official Defense And Security Source Baseline Packet](2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.md)
+- [2026-06-16T0330Z - EU Security And Defense Source Packet](2026-06-16T0330Z-eu-security-defense-source-packet.md)

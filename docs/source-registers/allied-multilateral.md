@@ -2,7 +2,160 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T05:02:58Z
+**Prepared UTC:** 2026-06-16T03:30:00Z
+
+## Danish Defence Agreement 2024-2033
+
+- **Source class:** A
+- **Publisher:** Danish Ministry of Defence
+- **Publication status:** Public topic page current as accessed
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URL:** https://www.fmn.dk/en/topics/agreements-and-economi/2024-2033-danish-defence-agreement/
+- **Use:** Official Danish defense-policy and investment baseline for the
+  2024-2033 framework, NATO spending commitment, conscription/personnel,
+  equipment, Arctic/North Atlantic sub-agreements, and geographic-focus source
+  work.
+- **Reliability note:** Authoritative for Danish government public policy
+  framing. It is not proof of delivery, readiness, procurement completion, or
+  operational availability.
+
+## Danish Arctic And North Atlantic Source Family
+
+- **Source class:** A
+- **Publisher:** Danish Ministry of Defence
+- **Publication status:** Public topic page current as accessed
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URL:** https://www.fmn.dk/en/topics/national-tasks/arctic/
+- **Use:** Official routing source for Denmark, Greenland, Faroe Islands,
+  Arctic, North Atlantic, allied exercise, surveillance, maritime, and
+  regional-defense source work.
+- **Reliability note:** Source-routing and strategic-policy source. Do not
+  infer routes, facility vulnerabilities, sensor coverage, basing exposure, or
+  operational posture.
+
+## Danish NATO, EU, And NORDEFCO Source Families
+
+- **Source class:** A
+- **Publisher:** Danish Ministry of Defence
+- **Publication status:** Public topic pages current as accessed
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URLs:**
+  - https://www.fmn.dk/en/topics/international-cooperation/nato/
+  - https://www.fmn.dk/en/topics/international-cooperation/eu/
+  - https://www.fmn.dk/en/topics/international-cooperation/nordefco/
+- **Use:** Official routing sources for Denmark's NATO, EU security-defense,
+  and Nordic defense-cooperation source lanes.
+- **Reliability note:** Institutional source-family routing. Country-level
+  implementation, readiness, and capability claims require Danish national
+  budgets, parliamentary records, procurement records, audit material, and
+  armed-forces source evidence.
+
+## Danish Cyber, Home Guard, Emergency Management, And Equipment Source Families
+
+- **Source class:** A
+- **Publisher:** Danish Ministry of Defence
+- **Publication status:** Public topic pages current as accessed
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URLs:**
+  - https://www.fmn.dk/en/topics/cyber-security/
+  - https://www.fmn.dk/en/topics/cyber-security/danish-national-strategy/
+  - https://www.fmn.dk/en/topics/national-tasks/danish-defence-home-guard-and-emergency-management/
+  - https://www.fmn.dk/en/topics/equipment/equipment-and-industri/
+- **Use:** Danish official source-family routing for cyber security, national
+  strategy, Home Guard/emergency-management, equipment, industry, procurement,
+  and total-security follow-on work.
+- **Reliability note:** Strategic source-routing only. Do not convert into
+  cyber procedures, mobilization instructions, procurement advice, supplier
+  vulnerability mapping, or facility analysis.
+
+## Iceland Government Security, Defense, NATO, And Arctic Source Families
+
+- **Source class:** A
+- **Publisher:** Government of Iceland
+- **Publication status:** Public source families; page-level direct refresh
+  remains follow-on for this pass
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URLs:**
+  - https://www.government.is/ministries/ministry-for-foreign-affairs/
+  - https://www.government.is/topics/foreign-affairs/security-and-defence/
+  - https://www.government.is/topics/foreign-affairs/nato/
+  - https://www.government.is/topics/foreign-affairs/arctic-region/
+- **Use:** Icelandic government source routing for national security and
+  defense policy, NATO, Arctic policy, foreign affairs, and North Atlantic
+  security context.
+- **Reliability note:** Correct official source family, but page-level wording
+  and document extraction require follow-on direct browser/manual refresh.
+  Do not infer capability, air-policing, infrastructure, or resilience
+  implementation without direct official evidence.
+
+## Icelandic Coast Guard Security And Defense Source Family
+
+- **Source class:** A
+- **Publisher:** Icelandic Coast Guard
+- **Publication status:** Public source family; page-level direct refresh
+  remains follow-on for this pass
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URLs:**
+  - https://www.lhg.is/english
+  - https://www.lhg.is/english/security-and-defence/
+- **Use:** Icelandic Coast Guard source routing for maritime security, search
+  and rescue, air-defense source family, Keflavik/North Atlantic context, and
+  Icelandic institutional roles.
+- **Reliability note:** Use for strategic source routing only. Do not extract
+  sensor coverage, air-policing procedures, facility dependencies, or
+  operational vulnerability detail.
+
+## EU Strategic Compass For Security And Defence
+
+- **Source class:** A
+- **Publisher:** European External Action Service
+- **Publication date:** 2022-03-18
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URL:** https://www.eeas.europa.eu/eeas/strategic-compass-security-and-defence_en
+- **Use:** EU official security-defense baseline for Strategic Compass source
+  routing, CSDP context, capability framing, partner language, and EU-level
+  strategic policy.
+- **Reliability note:** Authoritative for EU institutional framing. It is not
+  NATO readiness evidence or member-state implementation proof.
+
+## EU Defence Industrial Strategy And Readiness 2030 Source Families
+
+- **Source class:** A
+- **Publisher:** European Commission and High Representative source families
+- **Publication status:** Public EU source pages current as accessed
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URLs:**
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/edis-our-common-defence-industrial-strategy_en
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/white-paper-european-defence-readiness-2030_en
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/edip-forging-europes-defence_en
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/safe-security-action-europe_en
+- **Use:** EU defense-industrial and readiness source routing for EDIS,
+  Readiness 2030, EDIP, SAFE, military mobility, capability gaps, Ukraine
+  support, investment instruments, and member-state implementation follow-on.
+- **Reliability note:** Strong for EU policy and instrument identity.
+  Implementation, disbursement, member-state uptake, production capacity,
+  delivery, and readiness claims require follow-on legal, budget, EDA,
+  Council, Parliament, and national-source evidence.
+
+## EU CSDP, Cyber, Sanctions, And EDA Source Families
+
+- **Source class:** A
+- **Publisher:** EEAS, European Commission, ENISA, Council of the European
+  Union, European Defence Agency
+- **Publication status:** Public source families current as accessed
+- **Accessed UTC:** 2026-06-16T03:27:43Z
+- **URLs:**
+  - https://www.eeas.europa.eu/eeas/military-and-civilian-missions-and-operations_en
+  - https://www.enisa.europa.eu/
+  - https://www.consilium.europa.eu/en/policies/sanctions/
+  - https://eda.europa.eu/
+- **Use:** EU source-family routing for CSDP missions and operations,
+  cyber/resilience, sanctions/restrictive measures, and defense capability
+  development.
+- **Reliability note:** Use for institutional source routing and strategic
+  context. Do not extract mission tactics, sanctions-evasion guidance,
+  military movement routes, cyber procedures, or infrastructure vulnerability
+  detail.
 
 ## UNODA Biological Weapons Convention Treaty Database
 

@@ -109,8 +109,9 @@ future open-source defense assessments.
   command-procedure, facility-vulnerability, route-guidance, or readiness
   inference.
 - Nordic and High North allied national source stacks, including Norway,
-  Finland, and Sweden as the first dedicated Nordic baselines and Denmark
-  and Iceland as follow-on country lanes.
+  Finland, Sweden, Denmark, and Iceland as dedicated Nordic/North Atlantic
+  baselines, with EU security-defense sources providing the adjacent
+  multilateral layer.
 - Congressional Research Service and Government Accountability Office reports.
 - Reputable research institutions with transparent methods.
 - Professional media reporting used for current-event context.
