@@ -3,7 +3,7 @@ const corpus = Array.isArray(window.WARLOCK_INDEX_CORPUS)
   : [];
 
 const SITE_ROOT = "https://www.warlock-index.org/";
-const STORAGE_KEY = "wi.queue.paths";
+const LEGACY_QUEUE_STORAGE_KEY = "wi.queue.paths";
 const DEFAULT_QUERY = "strategic weapons";
 const EXPORT_STYLE_VERSION = "20260613-reader-packet";
 
@@ -44,7 +44,7 @@ const state = {
   query: initialQuery(),
   scope: "all",
   selectedPath: "",
-  queue: readQueue(),
+  queue: initialQueue(),
   exporting: false,
   exportStatus: ""
 };
@@ -261,17 +261,20 @@ function selectItem(path) {
   render();
 }
 
-function readQueue() {
+function clearLegacyQueueStorage() {
   try {
-    const paths = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
-    return Array.isArray(paths) ? paths.filter(Boolean) : [];
+    localStorage.removeItem(LEGACY_QUEUE_STORAGE_KEY);
   } catch {
-    return [];
   }
 }
 
-function writeQueue() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state.queue));
+function initialQueue() {
+  clearLegacyQueueStorage();
+  return [];
+}
+
+function syncQueueStorage() {
+  clearLegacyQueueStorage();
 }
 
 function toggleQueue(path) {
@@ -281,19 +284,19 @@ function toggleQueue(path) {
   } else {
     state.queue = [path, ...state.queue].slice(0, 18);
   }
-  writeQueue();
+  syncQueueStorage();
   render();
 }
 
 function removeQueueItem(path) {
   state.queue = state.queue.filter((entry) => entry !== path);
-  writeQueue();
+  syncQueueStorage();
   render();
 }
 
 function clearQueue() {
   state.queue = [];
-  writeQueue();
+  syncQueueStorage();
   render();
 }
 
