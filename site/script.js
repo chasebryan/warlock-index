@@ -6,7 +6,7 @@ const output = document.querySelector("#terminal-output");
 const suggestionButtons = document.querySelectorAll("[data-query]");
 const defaultResults = corpus.slice(0, 4);
 const cosmosCanvas = document.querySelector("#cosmos-canvas");
-const trafficEndpoint = "assets/cloudflare-traffic.json";
+const trafficEndpoint = "assets/traffic-summary.json";
 const trafficWidgets = document.querySelectorAll("[data-traffic-state]");
 
 function escapeHtml(value) {

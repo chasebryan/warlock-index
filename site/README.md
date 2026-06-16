@@ -44,13 +44,12 @@ or a reader packet from queued records. Keep those exports calm, print-friendly,
 and free of the full site navigation shell so downloaded files remain readable
 from disk.
 
-The homepage and Workspace show a Cloudflare website counter surface for
+The homepage and Workspace show a provider-neutral website counter surface for
 viewers and active viewers. Keep the public UI backed by
-`site/assets/cloudflare-traffic.json` or an equivalent same-origin JSON export;
-do not commit Cloudflare API tokens, account IDs, or private dashboard data.
-Cloudflare Web Analytics can collect visits/page views automatically for
-proxied or Pages-hosted sites, or through Cloudflare's official beacon snippet
-when a public site token is configured in the Cloudflare dashboard.
+`site/assets/traffic-summary.json` or an equivalent same-origin JSON export;
+do not commit analytics API tokens, account IDs, provider names, or private
+dashboard data. The JSON file should be populated by a private export job or
+deployment step, not by client-side calls to an analytics API.
 
 The legacy `wi/` path is a redirect-only compatibility route. Keep it lightweight
 so old bookmarks move to `/workspace/` without presenting a second app identity.

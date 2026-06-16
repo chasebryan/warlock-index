@@ -6,7 +6,7 @@ const SITE_ROOT = "https://www.warlock-index.org/";
 const LEGACY_QUEUE_STORAGE_KEY = "wi.queue.paths";
 const DEFAULT_QUERY = "strategic weapons";
 const EXPORT_STYLE_VERSION = "20260613-reader-packet";
-const TRAFFIC_SUMMARY_URL = "../assets/cloudflare-traffic.json";
+const TRAFFIC_SUMMARY_URL = "../assets/traffic-summary.json";
 
 const routes = [
   { id: "all", label: "All records", match: () => true },

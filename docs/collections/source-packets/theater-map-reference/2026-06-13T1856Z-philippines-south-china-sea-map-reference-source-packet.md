@@ -23,7 +23,7 @@ Japan-Philippines-Australia allied posture profile.
 command-area framing, and State Limits in the Seas source-family identity.
 High for NAMRIA as the Philippine national mapping source family. Moderate
 for exact Philippine Official Gazette page refresh because current direct
-access checks returned a Cloudflare challenge instead of page content.
+access checks returned an access challenge instead of page content.
 Moderate for exact NAMRIA map-product use until specific map or catalog pages
 are refreshed and captured.
 
@@ -67,11 +67,11 @@ refresh and exact NAMRIA map products still require product-level capture.
 | NGA Maps for Download | Source family active in map register | Public-release static maps and map-title refresh point | Broad theater orientation and map-source routing | No operational overlays, targeting, movement tracking, or access inference |
 | USINDOPACOM Area of Responsibility | Verified 2026-06-13 | U.S. public command-area framing for Indo-Pacific geography | Command-area context and theater framing | No force posture, basing, current-operation, or access-right inference |
 | NAMRIA public source family | Verified 2026-06-13 as official mapping-agency homepage | Philippine national mapping and resource-information source family | Issuer-language routing for Philippine map products after exact page refresh | Homepage verification does not establish a specific map title, date, or boundary claim |
-| Philippine Official Gazette Administrative Order No. 29 | Access check returned Cloudflare challenge 2026-06-13 | Philippine government source family for West Philippine Sea naming and administrative language | Manual-refresh source for Philippine issuer terminology | Do not cite current page content until accessible and dated |
+| Philippine Official Gazette Administrative Order No. 29 | Access check returned an access challenge 2026-06-13 | Philippine government source family for West Philippine Sea naming and administrative language | Manual-refresh source for Philippine issuer terminology | Do not cite current page content until accessible and dated |
 | Permanent Court of Arbitration South China Sea Arbitration | Verified 2026-06-13 | Case metadata, procedural record, award records, and legal-document routing | Legal-source provenance around the 2013-2016 arbitration record | Not a map source; not WARLOCK-INDEX legal advice |
 | State Limits in the Seas No. 150 | Verified 2026-06-13 | U.S. legal-geographic analysis source family for PRC maritime claims in the South China Sea | Legal/source-reference companion to map and policy products | Not a navigation chart or operational maritime layer |
 | State Philippines country-area source family | Verified 2026-06-13 | U.S. diplomatic country-area source family | Diplomatic context refresh point | Country-area page does not replace map, legal, or threat sources |
-| Philippine Official Gazette EDCA materials | Access check returned Cloudflare challenge 2026-06-13; active in existing repo source stack | Philippine official source family for EDCA legal-political baseline | Companion source for access-architecture and allied-posture products | No basing, facility, movement, vulnerability, or deployment inference |
+| Philippine Official Gazette EDCA materials | Access check returned an access challenge 2026-06-13; active in existing repo source stack | Philippine official source family for EDCA legal-political baseline | Companion source for access-architecture and allied-posture products | No basing, facility, movement, vulnerability, or deployment inference |
 | Theater Map Index | Active internal product | Repository-level map-source routing | Universal map-use rules and future product routing | Internal derived routing; not external evidence |
 | Map and Geospatial Reference Source Register | Active internal product | Map extraction rules and prohibited-use boundaries | Standard boundary source for geospatial products | Does not replace source-specific refresh |
 
@@ -145,7 +145,7 @@ refresh and exact NAMRIA map products still require product-level capture.
 - Exact NAMRIA West Philippine Sea or South China Sea map-product pages were
   not captured in this packet. Future updates should identify map title,
   publication date, URL, access date, and boundary or naming caveats.
-- Philippine Official Gazette AO 29 and EDCA pages returned a Cloudflare
+- Philippine Official Gazette AO 29 and EDCA pages returned an access
   challenge during this packet's access check. Manual browser refresh is
   needed before citing current page content.
 - Public maps and legal-source pages can encode policy, naming, boundary,

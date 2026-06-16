@@ -151,7 +151,7 @@ function extractSummary(markdown) {
 
 function trimSummary(value) {
   const cleaned = value.replace(/\*\*/g, "").replace(/`/g, "").trim();
-  return cleaned.length > 190 ? `${cleaned.slice(0, 187).trim()}...` : cleaned;
+  return cleaned;
 }
 
 function cleanMetadataValue(value) {
@@ -199,7 +199,7 @@ function extractProductId(markdown) {
 
 function extractConfidence(markdown) {
   const confidence = extractField(markdown, ["Analytic confidence"]);
-  return confidence.length > 128 ? `${confidence.slice(0, 125).trim()}...` : confidence;
+  return confidence;
 }
 
 function inferType(rel) {
