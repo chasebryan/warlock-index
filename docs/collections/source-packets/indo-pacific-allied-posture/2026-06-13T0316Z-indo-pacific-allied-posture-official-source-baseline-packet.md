@@ -174,7 +174,7 @@ base and emerging technology files.
 | [U.S.-Japan-ROK Trilateral Implementation Packet](2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.md) | Initial packet complete; future updates refresh annual meetings, Indo-Pacific Dialogue, missile warning, maritime security, economic security, and political durability | White House archives, State, Japan MOFA, ROK MOFA, DoD/DOW |
 | ROK-U.S. NCG Implementation And Defense White Paper Verification Packet | Track NCG, SCM communiques, ROK defense white papers, MND/DAPA direct documents, and DPRK threat language | White House, DoD, ROK MND, ROK MOFA, DAPA, ODNI |
 | Philippines EDCA And Maritime Security Packet | Track EDCA implementation, maritime law enforcement, South China Sea incidents, and local political constraints | Philippine Official Gazette, U.S./Philippine releases, allied statements |
-| AUKUS Industrial Implementation Packet | Track workforce, shipbuilding, export controls, nuclear stewardship, schedule, and industrial bottlenecks | Australian Submarine Agency, U.S./UK/Australian releases, GAO/CRS |
+| [AUKUS Industrial Implementation Packet](2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md) | Initial implementation-source packet complete; future updates refresh workforce, shipbuilding, export controls, nuclear stewardship, schedule, and industrial bottlenecks | Australian Submarine Agency, U.S./UK/Australian releases, GAO/CRS |
 | Indo-Pacific Economic Security Packet | Track semiconductors, batteries, critical minerals, AI, quantum, standards, and supply-chain resilience | Camp David source set, Commerce, allied ministries, research sources |
 
 ## Information Gaps
@@ -200,6 +200,7 @@ base and emerging technology files.
 - [Taiwan Strait And First Island Chain Strategic Baseline](../../../assessments/indo-pacific/2026-06-13T0123Z-taiwan-strait-first-island-chain-strategic-baseline.md)
 - [Global Cyber And Critical Infrastructure Strategic Baseline](../../../assessments/technology-cyber-space/2026-06-13T0129Z-global-cyber-critical-infrastructure-strategic-baseline.md)
 - [Global Actor-Domain Assimilation Matrix](../../global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
+- [AUKUS Industrial Implementation Source Packet](2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 
 ## Source Base
 

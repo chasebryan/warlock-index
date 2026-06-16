@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRACKER-ALLY-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-14T05:02:58Z
+**Prepared UTC:** 2026-06-16T02:21:36Z
 
-**Information cutoff UTC:** 2026-06-14T05:02:58Z
+**Information cutoff UTC:** 2026-06-16T02:21:36Z
 
 **Source base:** Existing WARLOCK-INDEX NATO and allied source registers,
 NATO allied capacity source packet, Indo-Pacific allied posture source packet,
@@ -20,14 +20,16 @@ packet, France official defense/security source baseline packet, Germany
 official defense/security source baseline packet, Norway official
 defense/security/High North source packet, Finland official defense/security
 and NATO integration source packet, Sweden official defense/security and NATO
-integration source packet, and
-official public national strategy source families for major U.S. allies and
-strategic partners.
+integration source packet, AUKUS industrial implementation source packet,
+NORAD modernization implementation source packet, and official public
+national strategy source families for major U.S. allies and strategic
+partners.
 
 **Analytic confidence:** High for collection architecture and already
-registered UK/Australia/Canada/Japan/ROK/France/Germany/Norway/Finland/Sweden/NATO source
-families. Moderate for the wider ally queue because each remaining national
-lane still needs its own dated verification and source packet.
+registered UK, Australia, AUKUS, Canada/NORAD, NORAD modernization, Japan,
+ROK, France, Germany, Norway, Finland, Sweden, and NATO source families.
+Moderate for the wider ally queue because each remaining national lane still
+needs its own dated verification and source packet.
 
 **Purpose:** Track official allied source collection status so allied
 documentation grows like the existing U.S. official-source lane: dated source
@@ -43,8 +45,9 @@ force deployment instructions.
 
 The allied-source lane should expand through national and multilateral
 official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan,
-the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or
-continental-defense lanes to receive U.S.-style official source baselines.
+the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now
+the first country or continental-defense lanes to receive U.S.-style official
+source baselines.
 NATO provides the shared Alliance frame, while country lanes should capture
 national strategy, defense review, budget/procurement evidence, industrial
 policy, nuclear or extended-deterrence sources where applicable, cyber
@@ -54,7 +57,9 @@ evidence.
 The next useful pattern is repeatable: register the official source families,
 write a dated country source packet, wire that packet into this tracker and
 the allied assimilation matrix, then add implementation packets only where the
-source base can support them.
+source base can support them. The AUKUS industrial implementation and NORAD
+modernization implementation packets are now the first allied follow-on
+implementation packets in this lane.
 
 ## Collection Matrix
 
@@ -64,8 +69,8 @@ source base can support them.
 | United Kingdom | Official defense/security source baseline packet complete; UK entries added to allied register | UK defense investment/readiness implementation packet | High for source identity; moderate for delivery evidence | No operational nuclear, basing, cyber, or mobilization detail |
 | Japan | Japan official defense/security source baseline packet complete; active in Indo-Pacific allied posture packet and Camp David trilateral implementation packet | Japan defense buildup implementation packet and Japan-U.S. alliance modernization packet | High for source identity; moderate for delivery and crisis-behavior evidence | Keep constitutional, budget, and posture claims source-bound; no basing, missile-employment, cyber, or operational planning detail |
 | Republic of Korea | Official defense and extended-deterrence source packet complete; ROK MOFA, Washington Declaration, Camp David, and trilateral ministerial source lanes registered; MND/DAPA direct-document verification remains follow-on | ROK Defense White Paper/Budget Verification Packet and ROK-U.S. NCG implementation packet | High for MOFA, Washington, Camp David, and trilateral ministerial source identity; moderate for MND/DAPA implementation and defense delivery evidence | No peninsula targeting, escalation, nuclear planning, missile-defense sensor/network analysis, cyber technical detail, or operational planning |
-| Australia | Official defence/AUKUS source baseline packet complete; active in Japan-Philippines-Australia posture profile | AUKUS industrial implementation packet and Australia investment/delivery packet | High for source identity; moderate for delivery evidence | No basing exploitation, submarine operational detail, infrastructure vulnerability mapping, or AUKUS technical guidance |
-| Canada and NORAD | Canada/NORAD Arctic and continental defense source packet complete; Arctic and High North lane now has dedicated country/continental-defense source baseline | NORAD modernization implementation packet and Canada defense investment/delivery packet | High for source identity; moderate for modernization and delivery evidence | No northern infrastructure vulnerability mapping, sensor coverage analysis, command procedures, or military route guidance |
+| Australia / AUKUS | Official defence/AUKUS source baseline packet complete; AUKUS industrial implementation packet complete; active in Japan-Philippines-Australia posture profile | Australia investment/delivery packet; future AUKUS industrial implementation refreshes | High for source identity and public implementation-source architecture; moderate for delivery evidence | No basing exploitation, submarine operational detail, infrastructure vulnerability mapping, AUKUS technical guidance, supplier-vulnerability mapping, or controlled-data workarounds |
+| Canada and NORAD | Canada/NORAD Arctic and continental defense source packet complete; NORAD modernization implementation source packet complete; Arctic and High North lane now has dedicated country/continental-defense and implementation-source baselines | Canada defense investment/delivery packet and NORAD modernization oversight refresh | High for source identity and public implementation-source architecture; moderate for modernization delivery evidence | No northern infrastructure vulnerability mapping, sensor coverage analysis, command procedures, military route guidance, readiness scoring, or cyber technical detail |
 | France | Official defense/security source baseline packet complete; SGDSN RNS 2025/2022, Légifrance LPM, Élysée deterrence, ANSSI cyber, and France Diplomatie routing entries added to allied register | France LPM implementation packet, nuclear deterrence/strategic stability packet, cyber/hybrid packet, and Indo-Pacific/overseas security packet | High for SGDSN/Légifrance/Élysée/ANSSI source identity; moderate for Ministry of Armed Forces/DGA implementation and delivery evidence pending direct source refresh | No nuclear targeting, operational deterrence inference, basing exploitation, cyber technical detail, readiness scoring, or route guidance |
 | Germany | Official defense/security source baseline packet complete; National Security Strategy, Defence Policy Guidelines 2023, BMVg investment, China Strategy, and cyber source-family access note added to allied register | Germany defense investment/budget implementation packet, Bundeswehr force-design/readiness evidence packet, defense-industrial/procurement packet, cyber/resilience packet, and China/economic-security packet | High for Federal Government/BMVg/Federal Foreign Office source identity; moderate for budget execution, delivery, readiness, cyber, and industrial evidence pending direct implementation-source refresh | No readiness rankings, military mobility route guidance, basing vulnerability, cyber technical detail, or procurement advice |
 | Norway | Official defense/security/High North source packet complete; Norwegian Defence Pledge, FAF 2026-2033, NIS/PST/NSM public assessment triad, NSM ICT principles, Nordic cooperation, drone strategy, and defense-industry source lanes added to allied register | Norway defense investment/budget implementation packet, High North/Nordic NATO integration packet, defense-industrial/acquisition packet, and cyber/protective-security/total-defense packet | High for Norwegian Government, NIS, PST, and NSM source identity; moderate for delivery, readiness, industrial output, cyber implementation, and total-defense evidence pending direct implementation-source refresh | No High North route guidance, sensor coverage analysis, infrastructure vulnerability mapping, cyber technical detail, readiness scoring, or mobilization procedures |
@@ -101,9 +106,9 @@ source base can support them.
   materially changes implementation evidence.
 - An allied cyber, space, intelligence, terrorism, or resilience agency
   publishes a major annual report, threat assessment, or strategy.
-- AUKUS, NORAD modernization, NATO northern defense, EU defense industrial
-  policy, or Ukraine-support mechanisms receive new official implementation
-  documents.
+- AUKUS, NORAD modernization oversight, ICE Pact, NATO northern defense, EU
+  defense industrial policy, or Ukraine-support mechanisms receive new
+  official implementation documents.
 
 ## Information Gaps
 
@@ -124,7 +129,9 @@ source base can support them.
 
 - [United Kingdom Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
 - [Australia Official Defence And AUKUS Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.md)
+- [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 - [Canada/NORAD Arctic And Continental Defense Source Packet](../source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.md)
+- [NORAD Modernization Implementation Source Packet](../source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.md)
 - [Japan Official Defense And Security Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.md)
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
 - [France Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)

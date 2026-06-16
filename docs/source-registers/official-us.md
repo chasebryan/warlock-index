@@ -196,6 +196,39 @@
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is a
   policy document, not a neutral outside assessment.
 
+## White House AUKUS Nuclear-Powered Submarine Fact Sheet
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2023-03-13
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/03/13/fact-sheet-trilateral-australia-uk-us-partnership-on-nuclear-powered-submarines/
+- **Use:** U.S. official public baseline for the AUKUS nuclear-powered
+  submarine optimal pathway, embedded personnel, SRF-West, Virginia-class
+  sale, SSN-AUKUS, nuclear stewardship, nonproliferation commitments,
+  industrial-base uplift, workforce, and trilateral supply-chain source
+  routing.
+- **Reliability note:** Authoritative for the 2023 U.S. public statement and
+  partner-pathway framing. It is historical archive material and requires
+  later official, budget, congressional, and allied refresh for current
+  implementation claims.
+
+## CRS RL32418 Navy Virginia-Class Submarine Program And AUKUS Submarine Project
+
+- **Source class:** A
+- **Publisher:** Congressional Research Service / Congress.gov
+- **Publication date:** CRS product current on Congress.gov as accessed
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.congress.gov/crs-product/RL32418
+- **Use:** U.S. congressional source for Virginia-class submarine production,
+  AUKUS Pillar 1 implementation issues, replacement-boat logic, U.S.
+  submarine industrial-base stress, force-level effects, CBO/CRS estimates,
+  and congressional oversight questions.
+- **Reliability note:** Authoritative congressional research product for
+  public understanding and oversight context. It is not executive-branch
+  policy and should be used for uncertainty, industrial-base, and
+  congressional-issues framing rather than operational submarine analysis.
+
 ## 2024 Department Of Defense Arctic Strategy
 
 - **Source class:** A
@@ -210,6 +243,21 @@
 - **Reliability note:** Authoritative for stated U.S. defense strategy. It is
   a policy document, not a neutral outside assessment, and WARLOCK-INDEX
   products separate departmental intent from independent analytic judgment.
+
+## NORAD And USNORTHCOM Strategy
+
+- **Source class:** A
+- **Publisher:** U.S. Northern Command
+- **Publication date:** Official public strategy page current as accessed
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.northcom.mil/Strategy/
+- **Use:** Official U.S. command strategy source for NORAD/USNORTHCOM shared
+  strategic environment, all-domain awareness, information advantage,
+  decision advantage, global integration, Arctic competition, and defense of
+  the United States and Canada.
+- **Reliability note:** Authoritative for public command strategy framing.
+  It is not an implementation audit, sensor-performance source,
+  command-procedure source, or classified posture source.
 
 ## White House Camp David Principles
 

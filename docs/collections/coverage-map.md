@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T20:37:05Z
+**Prepared UTC:** 2026-06-16T02:21:36Z
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing
@@ -96,6 +96,18 @@ future open-source defense assessments.
 - NATO and allied government strategy documents, including national security
   strategies, defense reviews, cyber/space strategies, resilience frameworks,
   industrial strategies, budgets, and audit sources.
+- AUKUS industrial implementation source families, including Australian
+  Submarine Agency program, industry, build, sustainment, workforce,
+  security, Henderson, Osborne, SRF-West, and SRF-West infrastructure pages;
+  U.S. official AUKUS and CRS submarine-industrial-base sources; and UK
+  nuclear-enterprise and SSN-AUKUS contract sources.
+- NORAD modernization implementation source families, including Canada
+  project-timeline and funding fact sheets, Our North Strong and Free Annex
+  C, DND departmental planning, Canada budget chapters, Canada-U.S. joint
+  statements, NORAD mission/agreement pages, NORAD/USNORTHCOM strategy, and
+  DoD Arctic Strategy sources, handled without sensor-performance,
+  command-procedure, facility-vulnerability, route-guidance, or readiness
+  inference.
 - Nordic and High North allied national source stacks, including Norway,
   Finland, and Sweden as the first dedicated Nordic baselines and Denmark
   and Iceland as follow-on country lanes.

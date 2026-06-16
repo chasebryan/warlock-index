@@ -4,14 +4,16 @@
 
 **Matrix ID:** WI-MATRIX-ALLY-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-14T05:02:58Z
+**Prepared UTC:** 2026-06-16T02:21:36Z
 
-**Information cutoff UTC:** 2026-06-14T05:02:58Z
+**Information cutoff UTC:** 2026-06-16T02:21:36Z
 
 **Source base:** NATO allied capacity official source packet; United Kingdom
 official defense/security source baseline packet; Australia official
-defence/AUKUS source baseline packet; Canada/NORAD Arctic and continental
-defense source packet; Japan official defense/security source baseline
+defence/AUKUS source baseline packet; AUKUS industrial implementation source
+packet; Canada/NORAD Arctic and continental defense source packet; NORAD
+modernization implementation source packet; Japan
+official defense/security source baseline
 packet; Republic of Korea official defense/extended deterrence source packet;
 France official defense/security source baseline packet; Germany official
 defense/security source baseline packet; Norway official defense/security/High
@@ -24,9 +26,10 @@ multilateral source register; existing WARLOCK-INDEX cyber, space,
 strategic-weapons, defense-industrial-base, Arctic, Europe/Russia, and
 Indo-Pacific products.
 
-**Analytic confidence:** High for assimilation logic and existing
-UK/Australia/Canada/Japan/ROK/France/Germany/Norway/Finland/Sweden/NATO source routing. Moderate
-for broader allied-country coverage pending dated country packets and
+**Analytic confidence:** High for assimilation logic and existing UK,
+Australia, AUKUS, Canada/NORAD, NORAD modernization, Japan, ROK, France,
+Germany, Norway, Finland, Sweden, and NATO source routing. Moderate for
+broader allied-country coverage pending dated country packets and
 source-register expansion.
 
 **Purpose:** Connect official allied source families to WARLOCK-INDEX theaters,
@@ -44,11 +47,13 @@ Allied official-source coverage requires both multilateral and national
 layers. NATO sources establish consensus Alliance language, but national
 sources are needed for country-level defense policy, budgets, procurement,
 industrial capacity, cyber, space, resilience, and political implementation.
-The UK, Australia, Canada/NORAD, Japan, ROK, France, Germany, Norway, Finland, and Sweden lanes are now the
-first full national or continental-defense allied baselines. Future country
-packets should follow the same model: source ledger, extraction matrix,
-domain treatment, information gaps, source register entries, tracker wiring,
-and matrix wiring.
+The UK, Australia, Canada/NORAD, Japan, ROK, France, Germany, Norway, Finland,
+and Sweden lanes are now the first full national or continental-defense allied
+baselines, and the AUKUS industrial and NORAD modernization packets are the
+first follow-on implementation source packets in the allied lane. Future
+country and implementation packets should follow the same model: source
+ledger, extraction matrix, domain treatment, information gaps, source register
+entries, tracker wiring, and matrix wiring.
 
 ## Assimilation Matrix
 
@@ -56,12 +61,13 @@ and matrix wiring.
 | --- | --- | --- | --- | --- |
 | NATO collective defense and burden-sharing | NATO Strategic Concept, summit declarations, defense expenditure pages, funding pages | National defense budgets, parliamentary records, EU defense sources | NATO profile, NATO source packet, allied source tracker | Spending commitments are not readiness proof |
 | UK defense and security policy | SDR 2025, IR2021, IR Refresh 2023, Defence Command Papers | NATO sources, Parliament, NAO, MOD annual reports | UK source packet, Europe/Russia, DIB, cyber, space | No operational planning or readiness scoring |
-| Euro-Atlantic allied posture | UK, France, Germany, Norway, Finland, Sweden, Nordics, Canada, NATO sources | EU, national parliaments, defense ministries, NORAD public pages, SGDSN, Légifrance, Élysée, ANSSI, German National Security Strategy, BMVg Defence Policy Guidelines, Norwegian Defence Pledge, Finnish Defence Report/NATO/DCA source lanes, Swedish Defence Resolution/NATO/MCF source lanes, Nordic defense cooperation, Bundestag/Bundeshaushalt/Storting/Eduskunta/Riksdag follow-on sources | Europe/NATO/Ukraine map packet, NATO capacity lane, UK source packet, France source packet, Germany source packet, Canada/NORAD source packet, Norway source packet, Finland source packet, Sweden source packet | No basing vulnerability, sensor coverage analysis, operational deterrence inference, host-nation-support procedures, or movement-route detail |
-| Indo-Pacific allied posture | Japan, ROK, Australia, Philippines, NATO partner statements | U.S. official sources, ASEAN, Quad partner sources, MOFA, MOD, NCO, ATLA, ROK MOFA, MND follow-on sources | Indo-Pacific allied posture packet, U.S.-Japan-ROK packet, Australia official source packet, Japan official source packet, ROK source packet | Separate ally and partner terminology; preserve Japan and ROK source terminology |
+| Euro-Atlantic allied posture | UK, France, Germany, Norway, Finland, Sweden, Nordics, Canada, NATO sources | EU, national parliaments, defense ministries, NORAD public pages, SGDSN, Légifrance, Élysée, ANSSI, German National Security Strategy, BMVg Defence Policy Guidelines, Norwegian Defence Pledge, Finnish Defence Report/NATO/DCA source lanes, Swedish Defence Resolution/NATO/MCF source lanes, Nordic defense cooperation, Bundestag/Bundeshaushalt/Storting/Eduskunta/Riksdag follow-on sources | Europe/NATO/Ukraine map packet, NATO capacity lane, UK source packet, France source packet, Germany source packet, Canada/NORAD source packet, NORAD modernization implementation packet, Norway source packet, Finland source packet, Sweden source packet | No basing vulnerability, sensor coverage analysis, operational deterrence inference, host-nation-support procedures, or movement-route detail |
+| Canada/NORAD continental defense | Canada NORAD modernization project timelines, funding fact sheet, ONSAF Annex C, DND Departmental Plan 2025-26, Budget 2024/2025, NORAD mission/agreement pages, NORAD/USNORTHCOM strategy, DoD Arctic Strategy | Parliament, Auditor General, PBO, estimates, public accounts, U.S. congressional/GAO/CRS follow-on sources, procurement releases, Indigenous/territorial public records | Canada/NORAD source packet, NORAD modernization implementation packet, Arctic/High North, homeland, cyber, space, DIB | No sensor coverage analysis, command procedures, facility vulnerability mapping, route guidance, readiness scoring, or cyber technical detail |
+| Indo-Pacific allied posture | Japan, ROK, Australia, Philippines, NATO partner statements, ASA AUKUS implementation sources | U.S. official sources, ASEAN, Quad partner sources, MOFA, MOD, NCO, ATLA, ROK MOFA, MND follow-on sources, U.S. and UK AUKUS source families | Indo-Pacific allied posture packet, U.S.-Japan-ROK packet, Australia official source packet, AUKUS industrial implementation packet, Japan official source packet, ROK source packet | Separate ally and partner terminology; preserve Japan and ROK source terminology; no submarine operational detail |
 | Nuclear and extended deterrence | UK nuclear enterprise, NATO nuclear assurance, France RNS/LPM/Élysée deterrence sources, ROK/Japan extended-deterrence statements, Washington Declaration, ROK MOFA DPRK nuclear page | P5, NPT, IAEA, UN, U.S. sources, future NCG/SCM sources | Strategic weapons lane, multilateral strategic stability packet, France source packet, ROK source packet | No targeting, patrol, weapons employment, nuclear planning, operational deterrence inference, or posture inference |
-| Defense industrial base | UK DSIS, France RNS/LPM/BITD source lane, Germany Defence Policy Guidelines and BMVg investment source lane, Norway FAF/production-capacity/drone source lane, Finland MOD materiel/budget/F-35/Squadron 2020 source lane, Sweden Defence Resolution/military budget/Armed Forces procurement source lane, Australia Defence Industry Development Strategy, ASA AUKUS industry sources, Canada defense budget/policy sources, Japan Defense Buildup Program, ATLA Defense Technology Guideline, ROK DAPA follow-on sources, NATO industry pages, national industrial strategies, AUKUS/NORAD/GCAP sources | Industry filings, parliamentary audit, NAO/GAO/CRS/ANAO/Cour des comptes/Bundesrechnungshof/Auditor General/Board of Audit/National Assembly/Storting/Eduskunta/Riksdag where applicable | DIB baseline, NATO source packet, UK source packet, France source packet, Germany source packet, Australia source packet, Canada/NORAD source packet, Japan source packet, ROK source packet, Norway source packet, Finland source packet, Sweden source packet | No procurement advice or sensitive supplier vulnerability mapping |
+| Defense industrial base | UK DSIS, France RNS/LPM/BITD source lane, Germany Defence Policy Guidelines and BMVg investment source lane, Norway FAF/production-capacity/drone source lane, Finland MOD materiel/budget/F-35/Squadron 2020 source lane, Sweden Defence Resolution/military budget/Armed Forces procurement source lane, Australia Defence Industry Development Strategy, ASA AUKUS industry/build/sustainment/workforce/security/Henderson/Osborne/SRF-West sources, Canada defense budget/policy and NORAD modernization source families, Japan Defense Buildup Program, ATLA Defense Technology Guideline, ROK DAPA follow-on sources, NATO industry pages, national industrial strategies, AUKUS/NORAD/GCAP sources | Industry filings, parliamentary audit, NAO/GAO/CRS/ANAO/Cour des comptes/Bundesrechnungshof/Auditor General/Board of Audit/National Assembly/Storting/Eduskunta/Riksdag where applicable | DIB baseline, NATO source packet, UK source packet, France source packet, Germany source packet, Australia source packet, AUKUS industrial implementation packet, Canada/NORAD source packet, NORAD modernization implementation packet, Japan source packet, ROK source packet, Norway source packet, Finland source packet, Sweden source packet | No procurement advice, supplier vulnerability mapping, controlled-data workarounds, technical propulsion detail, or sensitive infrastructure analysis |
 | Cyber and critical infrastructure | UK National Cyber Strategy, France ANSSI cyber-threat source lane, Germany National Security Strategy and BMI/BSI follow-on source lane, Norway NSM/PST/NIS source lane, Finland Supo/NCSC-FI/NESA source lane, Sweden MCF/CERT-SE/NCC-SE/Armed Forces cyber source lane, Australia Cyber Security Strategy, Canada National Cyber Threat Assessment, Japan National Cybersecurity Office, ROK MOFA DPRK cyber-threat list, NCSC/GCHQ, ASD/ACSC, Cyber Centre/CSE, allied cyber agencies, NATO cyber | CISA/NSA/FBI, EU cyber, sector regulators, ROK follow-on cyber agency sources, SGDSN/Viginum follow-on sources, BSI/BMI follow-on sources, NSM ICT Security Principles, NCSC-FI, Supo, NESA, MCF, CERT-SE | Cyber baseline, allied tracker, UK source packet, France source packet, Germany source packet, Australia source packet, Canada/NORAD source packet, Japan source packet, ROK source packet, Norway source packet, Finland source packet, Sweden source packet | No exploit steps, indicators for misuse, sanctions-evasion instruction, or vulnerability procedures |
-| Space and counterspace | UK National Space Strategy, UK Defence Space Strategy, France RNS/LPM space and technology source lane, Germany National Security Strategy and Defence Policy Guidelines space/technology source lane, Australia NDS/IIP, Canada/NORAD aerospace warning public sources, Japan Space Domain Defense Guidelines, allied space commands/agencies, NATO space | U.S. Space Force, commercial SSA, research sources, French Ministry of Armed Forces follow-on sources, German space and Bundeswehr follow-on sources | Space baseline, UK source packet, France source packet, Germany source packet, Australia source packet, Canada/NORAD source packet, Japan source packet | No orbital targeting, sensor performance analysis, or infrastructure vulnerability mapping |
+| Space and counterspace | UK National Space Strategy, UK Defence Space Strategy, France RNS/LPM space and technology source lane, Germany National Security Strategy and Defence Policy Guidelines space/technology source lane, Australia NDS/IIP, Canada/NORAD aerospace warning and NORAD modernization public sources, Japan Space Domain Defense Guidelines, allied space commands/agencies, NATO space | U.S. Space Force, commercial SSA, research sources, French Ministry of Armed Forces follow-on sources, German space and Bundeswehr follow-on sources | Space baseline, UK source packet, France source packet, Germany source packet, Australia source packet, Canada/NORAD source packet, NORAD modernization implementation packet, Japan source packet | No orbital targeting, sensor performance analysis, or infrastructure vulnerability mapping |
 | Resilience and civil preparedness | UK NRR, UK Resilience Framework, Germany National Security Strategy integrated-security and civil-protection lane, Norway NIS/PST/NSM public assessment triad and Total Defence source lane, Finland Supo/NCSC-FI/NESA and security-of-supply source lane, Sweden total-defence/civil-defence/MCF/NATO civil-preparedness source lane, Canada Arctic and Northern Policy Framework, NATO Article 3, Nordic total-defense sources | EU resilience, national emergency agencies, Canadian territorial/Indigenous policy sources, BMI/BSI/BBK follow-on sources, Norwegian Ministry of Justice/NSM follow-on sources, Finnish Ministry of Interior/NESA follow-on sources, Swedish MCF and Riksdag follow-on sources | Arctic, homeland, cyber, DIB, NATO capacity, Germany source packet, Canada/NORAD source packet, Norway source packet, Finland source packet, Sweden source packet | No mobilization procedures, route guidance, host-nation-support procedures, or facility vulnerability detail |
 | Terrorism and nonstate armed networks | UK CONTEST, allied terrorism strategies, NATO and UN sources | State CT reports, Treasury/OFAC, Europol where relevant | FTO/nonstate actor profiles, Red Sea, homeland | No tactics, recruitment, financing, target selection, or investigative guidance |
 | Biological and WMD security | UK Biological Security Strategy, allied biosecurity and WMD prevention sources | WHO, IAEA, OPCW, UN, U.S. official WMD sources | WMD and biosecurity future lane | No materials, methods, device, or pathogen handling detail |
@@ -114,7 +120,9 @@ and matrix wiring.
 - [Allied Official Source Collection Tracker](../trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [United Kingdom Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
 - [Australia Official Defence And AUKUS Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.md)
+- [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 - [Canada/NORAD Arctic And Continental Defense Source Packet](../source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.md)
+- [NORAD Modernization Implementation Source Packet](../source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.md)
 - [Japan Official Defense And Security Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.md)
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
 - [France Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)

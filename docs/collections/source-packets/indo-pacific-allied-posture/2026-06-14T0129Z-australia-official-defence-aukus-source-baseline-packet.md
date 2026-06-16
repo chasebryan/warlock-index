@@ -160,7 +160,7 @@ space, or northern infrastructure.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
-| AUKUS Industrial Implementation Packet | Track submarine industrial-base uplift, workforce, supply chains, shipyards, SRF-West, Henderson, Osborne, stewardship, and schedule evidence | ASA, Defence, UK MOD, U.S. Navy/DoD, Congress/CRS, Parliament, ANAO |
+| [AUKUS Industrial Implementation Packet](2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md) | Initial implementation-source packet complete; future updates should refresh submarine industrial-base uplift, workforce, supply chains, shipyards, SRF-West, Henderson, Osborne, stewardship, and schedule evidence | ASA, Defence, UK MOD, U.S. Navy/DoD, Congress/CRS, Parliament, ANAO |
 | Australia Investment And Delivery Packet | Separate NDS/IIP priorities from budget, contracts, annual reports, acquisition reform, and delivered capability | NDS/IIP, Defence budgets, annual reports, ANAO, Parliament |
 | Australia Cyber And Critical Infrastructure Packet | Organize Home Affairs cyber strategy, ASD/ACSC threat reporting, critical-infrastructure policy, and cyber resilience evidence | Home Affairs, ASD, ACSC, CISC, NDS/IIP |
 | Australia Space And Long-Range Strike Packet | Track official public space, missile, ISR, communications, and long-range-strike investment lanes at strategic level | NDS/IIP, Defence annual reports, service releases, allied sources |
@@ -184,6 +184,7 @@ space, or northern infrastructure.
 ## Cross References
 
 - [Indo-Pacific Allied Posture Official Source Baseline Packet](2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.md)
+- [AUKUS Industrial Implementation Source Packet](2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 - [Allied Official Source Collection Tracker](../../trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [Official Allied Source Assimilation Matrix](../../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [Allied And Multilateral Source Register](../../../source-registers/allied-multilateral.md)

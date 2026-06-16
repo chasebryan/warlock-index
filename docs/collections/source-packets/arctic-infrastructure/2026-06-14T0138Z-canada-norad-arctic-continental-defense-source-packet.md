@@ -155,7 +155,7 @@ guidance.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
-| NORAD Modernization Implementation Packet | Track public modernization, warning, surveillance, command, investment, parliamentary, and budget evidence at strategic level | Canada DND, NORAD, U.S. DoD, Parliament, Auditor General, budgets, annual reports |
+| NORAD Modernization Implementation Packet | Complete: track public modernization, warning, surveillance, command, investment, parliamentary, and budget evidence at strategic level | Canada DND project-timeline and funding pages, NORAD, U.S. DoD, Parliament, Auditor General, budgets, annual reports |
 | Canada Defense Investment And Delivery Packet | Separate policy commitments from budgets, procurement, annual reporting, industrial-base evidence, and delivered capability | *Our North, Strong and Free*, budgets, DND plans/reports, procurement releases, Parliament |
 | Canada Cyber And Critical Infrastructure Packet | Organize Cyber Centre threat assessments, cyber strategy/advisories, critical-infrastructure policy, and resilience evidence | Cyber Centre, CSE, Public Safety Canada, sector regulators, allied cyber agencies |
 | ICE Pact And Arctic Industrial Packet | Track U.S.-Canada-Finland icebreaker collaboration, shipbuilding, workforce, procurement, and polar industrial capacity | Canada, United States, Finland, Coast Guards, shipbuilding/industrial sources |
@@ -180,6 +180,7 @@ guidance.
 ## Cross References
 
 - [Arctic Infrastructure And Domain Awareness Source Packet](2026-06-13T0318Z-arctic-infrastructure-domain-awareness-source-packet.md)
+- [NORAD Modernization Implementation Source Packet](2026-06-16T0221Z-norad-modernization-implementation-source-packet.md)
 - [Allied Official Source Collection Tracker](../../trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [Official Allied Source Assimilation Matrix](../../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [Allied And Multilateral Source Register](../../../source-registers/allied-multilateral.md)

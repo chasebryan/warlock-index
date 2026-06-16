@@ -485,7 +485,7 @@
 - **Source class:** A
 - **Publisher:** Australian Department of Defence
 - **Publication date:** 2026 public page current as accessed
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.defence.gov.au/about/strategic-planning/2026-national-defence-strategy-2026-integrated-investment-program
 - **Use:** Current Australian official public source anchor for National
   Defence, strategy of denial, self-reliance, sovereign defense-industrial
@@ -501,7 +501,7 @@
 - **Source class:** A
 - **Publisher:** Australian Department of Defence
 - **Publication date:** 2024 public page current as accessed
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.defence.gov.au/about/strategic-planning/2024-national-defence-strategy-2024-integrated-investment-program
 - **Use:** Australian official baseline for National Defence, strategy of
   denial, integrated focused force transition, and 2024 investment-program
@@ -514,7 +514,7 @@
 - **Source class:** A
 - **Publisher:** Australian Department of Defence
 - **Publication date:** 2023 public review page current as accessed
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.defence.gov.au/about/reviews-inquiries/defence-strategic-review
 - **Use:** Reform baseline for Australia's National Defence strategy sequence,
   focused-force transition, force posture, and Indo-Pacific defense planning.
@@ -542,7 +542,7 @@
 - **Source class:** A
 - **Publisher:** Australian Submarine Agency
 - **Publication date:** Dynamic public page current as accessed
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.asa.gov.au/aukus-agreement
 - **Use:** Official Australian public source for AUKUS, Optimal Pathway,
   SSN-AUKUS, trilateral industrial capacity, undersea presence,
@@ -557,7 +557,7 @@
 - **Source class:** A
 - **Publisher:** Australian Submarine Agency
 - **Publication date:** Page last updated 2025-03-05
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.asa.gov.au/business-industry/australias-aukus-submarine-industry-strategy
 - **Use:** Official Australian source for submarine industrial-base uplift,
   Collins sustainment, workforce, demand clarity, investment attractiveness,
@@ -571,7 +571,7 @@
 - **Source class:** A
 - **Publisher:** Australian Submarine Agency
 - **Publication date:** Dynamic public project page current as accessed
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.asa.gov.au/projects/henderson-defence-precinct
 - **Use:** Official source for Henderson Defence Precinct, continuous naval
   shipbuilding and sustainment, depot-level maintenance, graving docks,
@@ -586,7 +586,7 @@
 - **Source class:** A
 - **Publisher:** Australian Submarine Agency
 - **Publication date:** Dynamic public project page current as accessed
-- **Accessed UTC:** 2026-06-14T01:29:53Z
+- **Accessed UTC:** 2026-06-16T01:53:21Z
 - **URL:** https://www.asa.gov.au/aukus/submarine-rotational-force-west
 - **Use:** Official Australian public source for SRF-West, rotational UK and
   U.S. nuclear-powered submarine presence, Australian sovereign-ready learning,
@@ -636,6 +636,108 @@
   safety regulation.
 - **Reliability note:** Authoritative for public budget routing. Budget
   authority and planned spending do not prove delivered output.
+
+## Australian Submarine Agency Build Page
+
+- **Source class:** A
+- **Publisher:** Australian Submarine Agency
+- **Publication date:** Dynamic public page current as accessed
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.asa.gov.au/business-industry/build
+- **Use:** Official Australian source for ASC, BAE Systems, Australian Naval
+  Infrastructure, collaborative alliance, future incorporated joint venture,
+  Osborne build preparation, and SSN-AUKUS build source routing.
+- **Reliability note:** Authoritative for public build-partner framing. It
+  does not independently measure design maturity, construction throughput,
+  supplier readiness, schedule performance, or delivered capability.
+
+## Australian Submarine Agency Sustainment Page
+
+- **Source class:** A
+- **Publisher:** Australian Submarine Agency
+- **Publication date:** Dynamic public page current as accessed
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.asa.gov.au/business-industry/sustainment
+- **Use:** Official Australian source for ASC as sovereign sustainment
+  partner, Collins sustainment inheritance, SRF-West sustainment learning,
+  UK/U.S. shipyard placements, and Australian sustainment workforce source
+  routing.
+- **Reliability note:** Authoritative for public sustainment-partner framing.
+  It does not prove nuclear-sustainment certification, maintenance maturity,
+  availability, or operational performance.
+
+## Australian Submarine Agency Industry And Workforce Page
+
+- **Source class:** A
+- **Publisher:** Australian Submarine Agency
+- **Publication date:** Dynamic public page current as accessed
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.asa.gov.au/business-industry/industry-workforce
+- **Use:** Official Australian source for AUKUS industry opportunities, DIVQ,
+  trilateral submarine supply-chain qualification, workforce scale,
+  traineeships, apprenticeships, and skills-pipeline source routing.
+- **Reliability note:** Authoritative for public workforce and supplier
+  qualification framing. WARLOCK-INDEX products should not reproduce protected
+  supplier data, controlled technical-data pathways, qualification procedures,
+  or security workarounds.
+
+## Australian Submarine Agency Industry Security Program
+
+- **Source class:** A
+- **Publisher:** Australian Submarine Agency
+- **Publication date:** Dynamic public page current as accessed
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.asa.gov.au/business-industry/industry-security-program
+- **Use:** Official Australian source for AUKUS-ready security and data
+  governance at strategic level, including defense-industry security,
+  protective-security, university foreign-interference, and cyber-worthiness
+  source routing.
+- **Reliability note:** Authoritative for public security-program framing.
+  It must not be used for compliance bypass, security procedure reproduction,
+  cyber exploitation, or sensitive technical-data handling guidance.
+
+## Australian Submarine Agency Osborne Submarine Construction Yard
+
+- **Source class:** A
+- **Publisher:** Australian Submarine Agency
+- **Publication date:** Page last updated 2026-04-02
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.asa.gov.au/projects/osborne-submarine-construction-yard
+- **Use:** Official Australian source for Osborne Submarine Construction
+  Yard, South Australia SSN-AUKUS build preparation, strategic assessment,
+  approval decision, Australian Naval Infrastructure role, and planning /
+  environmental source routing.
+- **Reliability note:** Authoritative for public project and approval-source
+  identity. It must not be used for site vulnerability, route, targeting,
+  construction-output, or operational readiness analysis.
+
+## Australian Submarine Agency SRF-West Infrastructure Project
+
+- **Source class:** A
+- **Publisher:** Australian Submarine Agency
+- **Publication date:** Dynamic public page current as accessed
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.asa.gov.au/projects/submarine-rotational-force-west-infrastructure-project
+- **Use:** Official Australian source for HMAS Stirling infrastructure
+  preparation, SRF-West support, and Defence/ASA/AUKUS partner project
+  routing.
+- **Reliability note:** Authoritative for public infrastructure-project
+  framing. It must not be used for facility mapping, vulnerability analysis,
+  movement routes, sensitive timing, or live posture extraction.
+
+## UK AUKUS Detailed Design And Long-Lead Contracts
+
+- **Source class:** A
+- **Publisher:** UK Ministry of Defence
+- **Publication date:** 2023-10-01
+- **Accessed UTC:** 2026-06-16T01:53:21Z
+- **URL:** https://www.gov.uk/government/news/4-billion-uk-contracts-progresses-aukus-submarine-design
+- **Use:** Official UK source for SSN-AUKUS detailed-design and long-lead
+  contracting with BAE Systems, Rolls-Royce, and Babcock, plus Barrow and
+  Raynesway industrial-base source routing.
+- **Reliability note:** Authoritative for the public contract announcement.
+  It does not prove later design maturity, delivery schedule, workforce
+  availability, industrial output, or Australian build readiness.
 
 ## Canada Our North, Strong And Free
 
@@ -750,6 +852,108 @@
 - **Reliability note:** Authoritative for public budget framing. It requires
   departmental plans, departmental results reports, procurement records,
   parliamentary evidence, and audit sources for implementation judgments.
+
+## Canada NORAD Modernization Project Timelines
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Department of National Defence
+- **Publication date:** Page modified 2024-11-22
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.canada.ca/en/department-national-defence/services/operations/allies-partners/norad/norad-modernization-project-timelines.html
+- **Use:** Current official Canadian project-timeline spine for public NORAD
+  modernization investment areas, project names, definition-phase markers,
+  initial-operational-capability markers, full-operational-capability
+  markers, and post-2022 implementation source routing.
+- **Reliability note:** Authoritative for Canadian public project-timeline
+  framing. It does not prove delivered capability, project maturity, cost
+  stability, operational effect, sensor performance, or readiness.
+
+## Canada NORAD Modernization Funding Fact Sheet
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Department of National Defence
+- **Publication date:** Page modified 2022-07-21
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.canada.ca/en/department-national-defence/services/operations/allies-partners/norad/facesheet-funding-norad-modernization.html
+- **Use:** Official Canadian funding-source baseline for continental defense
+  and NORAD modernization investment categories, cash/accrual framing,
+  fiscal-year range, and accounting definitions.
+- **Reliability note:** Authoritative for funding announcement and accounting
+  framing. Funding language does not prove appropriation execution,
+  contracting, delivery, readiness, or operational effect.
+
+## Canada Our North Strong And Free Annex C NORAD Modernization Plan
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Department of National Defence
+- **Publication date:** Annex page dated 2024-04-17
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.canada.ca/en/department-national-defence/corporate/reports-publications/north-strong-free-2024/annex-c-canada-norad-modernization-plan.html
+- **Use:** Official Canadian defense-policy annex for NORAD modernization
+  rationale, investment categories, Arctic/northern defense context,
+  Canada-U.S. priority alignment, and schedule-language source routing.
+- **Reliability note:** Authoritative for public policy framing. It requires
+  project-timeline, departmental-results, procurement, parliamentary, and
+  audit evidence before delivery claims.
+
+## Canada Departmental Plan 2025-26
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Department of National Defence
+- **Publication date:** 2025 departmental plan
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.canada.ca/en/department-national-defence/corporate/reports-publications/departmental-plans/departmental-plan-2025-26.html
+- **Use:** Departmental planning source for NORAD modernization, Arctic
+  sovereignty, continental operations, planned results, indicators, resource
+  framing, and links to modernization project/funding pages.
+- **Reliability note:** Forward-looking departmental plan. It should be paired
+  with future departmental results reports, public accounts, procurement
+  records, parliamentary records, and audit sources for execution judgments.
+
+## Canada-U.S. Joint Statement On NORAD Modernization
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Department of National Defence; U.S.
+  Department of Defense
+- **Publication date:** 2021-08-14
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.canada.ca/en/department-national-defence/news/2021/08/joint-statement-on-norad-modernization.html
+- **Use:** Binational priority-source baseline for NORAD modernization
+  requirements, persistent awareness, northern and maritime approaches,
+  command/control modernization, infrastructure, and research/development.
+- **Reliability note:** Authoritative for public Canada-U.S. strategic
+  alignment. It is not a project schedule, acquisition record, readiness
+  report, or operational-procedure source.
+
+## Prime Minister Trudeau And President Biden Joint Statement
+
+- **Source class:** A
+- **Publisher:** Prime Minister of Canada
+- **Publication date:** 2023-03-24
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.pm.gc.ca/en/news/statements/2023/03/24/prime-minister-trudeau-and-president-biden-joint-statement
+- **Use:** Leader-level Canada-U.S. statement for NORAD modernization
+  commitments, surveillance investment language, northern infrastructure
+  source routing, and broader Canada-U.S. defense/security cooperation.
+- **Reliability note:** Authoritative for public leader-level commitment
+  language. It is not an implementation audit, readiness report, or technical
+  source.
+
+## NORAD And USNORTHCOM Strategy
+
+- **Source class:** A
+- **Publisher:** U.S. Northern Command
+- **Publication date:** Official public strategy page current as accessed
+- **Accessed UTC:** 2026-06-16T02:21:36Z
+- **URL:** https://www.northcom.mil/Strategy/
+- **Use:** Official public strategy source for NORAD/USNORTHCOM shared
+  strategic environment, all-domain awareness, information advantage,
+  decision advantage, global integration, Arctic threat context, and defense
+  of the United States and Canada.
+- **Reliability note:** Authoritative for public command strategy framing.
+  It does not authorize operational planning, command-procedure
+  reconstruction, sensor-performance analysis, infrastructure vulnerability
+  mapping, or classified posture inference.
 
 ## Japan Ministry Of Defense Defense Policy
 

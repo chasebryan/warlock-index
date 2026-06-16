@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-14T20:37:05Z
+**Prepared UTC:** 2026-06-16T02:21:36Z
 
 ## Completed
 
@@ -251,6 +251,29 @@
   no-sensitive-overlays, no-route-selection, no-live-tracking,
   no-interdiction, no-collection-geometry, no-legal-advice, and
   no-operational-guidance boundaries.
+- Added the AUKUS industrial implementation source packet with ASA AUKUS
+  agreement, industry strategy, build, sustainment, industry/workforce,
+  industry-security, Henderson, Osborne, SRF-West, SRF-West infrastructure,
+  White House AUKUS fact sheet, UK Defence Nuclear Enterprise, UK AUKUS
+  detailed-design/long-lead contract, CRS RL32418, allied register,
+  official-U.S. register, allied tracker, official allied matrix, global
+  matrix, coverage-map, source-packet README, parent AUKUS packet, and
+  docs-index wiring while preserving no-submarine-operational-detail,
+  no-base-vulnerability-analysis, no-technical-propulsion-detail,
+  no-controlled-data-workarounds, no-supplier-vulnerability-mapping,
+  no-live-posture, and no-operational-guidance boundaries.
+- Added the NORAD modernization implementation source packet with Canada
+  project-timeline and funding fact sheets, Our North Strong and Free Annex
+  C, DND Departmental Plan 2025-26, Budget 2024/2025 defense and security
+  chapters, 2021 Canada-U.S. Joint Statement on NORAD Modernization, 2023
+  Prime Minister-President joint statement, NORAD mission and agreement
+  pages, NORAD/USNORTHCOM Strategy, DoD Arctic Strategy, allied register,
+  official-U.S. register, allied tracker, official allied matrix, global
+  matrix, coverage-map, source-packet README, parent Canada/NORAD packet, and
+  docs-index wiring while preserving no-sensor-performance-analysis,
+  no-command-procedure-description, no-facility-vulnerability-analysis,
+  no-basing-exploitation, no-military-route-guidance, no-cyber-technical
+  detail, and no-operational-guidance boundaries.
 
 ## Current Analytical Posture
 
@@ -285,7 +308,8 @@ The repository is in baseline-building mode. Products prioritize:
   the WMD/biosecurity source baseline and Ukraine claim-reconciliation queues.
 - Add follow-on implementation packets for Republic of Korea extended
   deterrence/NCG and defense white-paper verification, AUKUS industrial
-  implementation, France LPM implementation and nuclear/cyber/Indo-Pacific
+  implementation refreshes, Australia investment/delivery, France LPM
+  implementation and nuclear/cyber/Indo-Pacific
   follow-on lanes, Germany defense investment/budget implementation,
   Bundeswehr force-design/readiness evidence, defense-industrial/procurement,
   cyber/resilience, and China/economic-security follow-on lanes, Norway
@@ -296,8 +320,8 @@ The repository is in baseline-building mode. Products prioritize:
   and defense-industrial/capability-delivery follow-on lanes, Sweden
   defence-resolution implementation, NATO FLF/host-nation-support,
   total-defence/civil-defence/resilience, and defense-industrial/capability
-  delivery follow-on lanes, ICE Pact implementation, NORAD modernization,
-  New START post-expiration status, and Red Sea follow-on economics sublanes.
+  delivery follow-on lanes, ICE Pact implementation, New START
+  post-expiration status, and Red Sea follow-on economics sublanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.
 - Add additional map-heavy theater source packets as needed.
