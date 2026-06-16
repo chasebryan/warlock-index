@@ -6,7 +6,6 @@ const SITE_ROOT = "https://www.warlock-index.org/";
 const LEGACY_QUEUE_STORAGE_KEY = "wi.queue.paths";
 const DEFAULT_QUERY = "strategic weapons";
 const EXPORT_STYLE_VERSION = "20260613-reader-packet";
-const TRAFFIC_SUMMARY_URL = "../assets/traffic-summary.json";
 
 const routes = [
   { id: "all", label: "All records", match: () => true },
@@ -68,8 +67,7 @@ const els = {
   queue: document.querySelector("#queue-list"),
   clearQueue: document.querySelector("#clear-queue"),
   downloadQueue: document.querySelector("#download-queue"),
-  queueStatus: document.querySelector("#queue-status"),
-  trafficWidgets: document.querySelectorAll("[data-traffic-state]")
+  queueStatus: document.querySelector("#queue-status")
 };
 
 function escapeHtml(value) {
@@ -124,47 +122,6 @@ function confidenceLabel(value) {
   if (!value) return "Unstated";
   const match = String(value).match(/^(high|moderate(?:\s+to\s+high)?|low)\b/i);
   return match ? match[1].replace(/\b\w/g, (letter) => letter.toUpperCase()) : value;
-}
-
-function metricNumber(value) {
-  return Number.isFinite(Number(value)) ? Number(value) : null;
-}
-
-function formatMetric(value) {
-  const number = metricNumber(value);
-  return number === null ? "--" : new Intl.NumberFormat("en-US").format(number);
-}
-
-function renderTrafficSummary(summary) {
-  const viewers = summary?.viewers ?? summary?.totalViewers ?? summary?.visits;
-  const active = summary?.activeViewers ?? summary?.active ?? summary?.realtimeViewers;
-  const isConnected = metricNumber(viewers) !== null || metricNumber(active) !== null;
-  const trafficState = isConnected ? "connected" : (summary?.status || "pending");
-
-  els.trafficWidgets.forEach((widget) => {
-    widget.dataset.trafficState = trafficState;
-    widget.hidden = !isConnected;
-    widget.querySelectorAll('[data-traffic-value="viewers"]').forEach((node) => {
-      node.textContent = formatMetric(viewers);
-    });
-    widget.querySelectorAll('[data-traffic-value="active"]').forEach((node) => {
-      node.textContent = formatMetric(active);
-    });
-    if (summary?.updatedUtc) {
-      widget.title = `Updated ${summary.updatedUtc}`;
-    }
-  });
-}
-
-async function loadTrafficSummary() {
-  if (!els.trafficWidgets.length) return;
-  try {
-    const response = await fetch(TRAFFIC_SUMMARY_URL, { cache: "no-store" });
-    if (!response.ok) throw new Error(`Traffic summary unavailable: ${response.status}`);
-    renderTrafficSummary(await response.json());
-  } catch {
-    renderTrafficSummary({ status: "pending" });
-  }
 }
 
 function pathUrl(path) {
@@ -1178,4 +1135,3 @@ els.input.value = state.query;
 setupInstallPrompt();
 registerServiceWorker();
 render();
-loadTrafficSummary();

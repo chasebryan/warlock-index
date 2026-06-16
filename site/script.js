@@ -6,8 +6,6 @@ const output = document.querySelector("#terminal-output");
 const suggestionButtons = document.querySelectorAll("[data-query]");
 const defaultResults = corpus.slice(0, 4);
 const cosmosCanvas = document.querySelector("#cosmos-canvas");
-const trafficEndpoint = "assets/traffic-summary.json";
-const trafficWidgets = document.querySelectorAll("[data-traffic-state]");
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -125,47 +123,6 @@ function confidenceLabel(value) {
   return match ? match[1].replace(/\b\w/g, (letter) => letter.toUpperCase()) : value;
 }
 
-function metricNumber(value) {
-  return Number.isFinite(Number(value)) ? Number(value) : null;
-}
-
-function formatMetric(value) {
-  const number = metricNumber(value);
-  return number === null ? "--" : new Intl.NumberFormat("en-US").format(number);
-}
-
-function renderTrafficSummary(summary) {
-  const viewers = summary?.viewers ?? summary?.totalViewers ?? summary?.visits;
-  const active = summary?.activeViewers ?? summary?.active ?? summary?.realtimeViewers;
-  const isConnected = metricNumber(viewers) !== null || metricNumber(active) !== null;
-  const state = isConnected ? "connected" : (summary?.status || "pending");
-
-  trafficWidgets.forEach((widget) => {
-    widget.dataset.trafficState = state;
-    widget.hidden = !isConnected;
-    widget.querySelectorAll('[data-traffic-value="viewers"]').forEach((node) => {
-      node.textContent = formatMetric(viewers);
-    });
-    widget.querySelectorAll('[data-traffic-value="active"]').forEach((node) => {
-      node.textContent = formatMetric(active);
-    });
-    if (summary?.updatedUtc) {
-      widget.title = `Updated ${summary.updatedUtc}`;
-    }
-  });
-}
-
-async function loadTrafficSummary() {
-  if (!trafficWidgets.length) return;
-  try {
-    const response = await fetch(trafficEndpoint, { cache: "no-store" });
-    if (!response.ok) throw new Error(`Traffic summary unavailable: ${response.status}`);
-    renderTrafficSummary(await response.json());
-  } catch {
-    renderTrafficSummary({ status: "pending" });
-  }
-}
-
 function resultFacts(item) {
   return [
     item.preparedUtc ? `Prepared ${formatUtcDate(item.preparedUtc)}` : "",
@@ -255,7 +212,6 @@ if (initialQuery) {
 }
 renderResults(initialQuery, searchCorpus(initialQuery));
 setActiveRoute(initialQuery);
-loadTrafficSummary();
 
 function createCosmos(canvas) {
   if (!canvas) return;
