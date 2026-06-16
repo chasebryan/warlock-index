@@ -38,11 +38,19 @@ metadata.
 
 The `workspace/` path publishes the installable WARLOCK-INDEX Workspace. It has
 a scoped manifest and service worker so installing from `/workspace/` opens the
-workspace instead of the homepage. Keep `site/downloads/workspace.zip` refreshed
-from the same `site/workspace/` files whenever the app shell changes.
-The workspace's record-download controls generate self-contained reader packets
-from selected records. Keep those exports calm, print-friendly, and free of the
-full site navigation shell so downloaded files remain readable from disk.
+workspace instead of the homepage.
+The workspace can generate a self-contained reader file for the selected record
+or a reader packet from queued records. Keep those exports calm, print-friendly,
+and free of the full site navigation shell so downloaded files remain readable
+from disk.
+
+The homepage and Workspace show a Cloudflare website counter surface for
+viewers and active viewers. Keep the public UI backed by
+`site/assets/cloudflare-traffic.json` or an equivalent same-origin JSON export;
+do not commit Cloudflare API tokens, account IDs, or private dashboard data.
+Cloudflare Web Analytics can collect visits/page views automatically for
+proxied or Pages-hosted sites, or through Cloudflare's official beacon snippet
+when a public site token is configured in the Cloudflare dashboard.
 
 The legacy `wi/` path is a redirect-only compatibility route. Keep it lightweight
 so old bookmarks move to `/workspace/` without presenting a second app identity.

@@ -1,0 +1,8 @@
+{
+  "status": "pending",
+  "source": "Cloudflare Web Analytics dashboard export",
+  "window": "viewers: configured export window; activeViewers: configured realtime window",
+  "updatedUtc": null,
+  "viewers": null,
+  "activeViewers": null
+}
