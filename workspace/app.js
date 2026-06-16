@@ -143,6 +143,7 @@ function renderTrafficSummary(summary) {
 
   els.trafficWidgets.forEach((widget) => {
     widget.dataset.trafficState = trafficState;
+    widget.hidden = !isConnected;
     widget.querySelectorAll('[data-traffic-value="viewers"]').forEach((node) => {
       node.textContent = formatMetric(viewers);
     });

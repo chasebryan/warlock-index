@@ -142,6 +142,7 @@ function renderTrafficSummary(summary) {
 
   trafficWidgets.forEach((widget) => {
     widget.dataset.trafficState = state;
+    widget.hidden = !isConnected;
     widget.querySelectorAll('[data-traffic-value="viewers"]').forEach((node) => {
       node.textContent = formatMetric(viewers);
     });
