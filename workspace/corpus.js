@@ -43,7 +43,7 @@ window.WARLOCK_INDEX_CORPUS = [
     "path": "library/collections/coverage-map.html",
     "summary": "This map defines the initial archive architecture for WARLOCK-INDEX. It is not a list of recommendations. It is a research coverage model for organizing future open-source defense assessm...",
     "productId": "",
-    "preparedUtc": "2026-06-14T20:37:05Z",
+    "preparedUtc": "2026-06-16T02:21:36Z",
     "cutoffUtc": "",
     "confidence": "",
     "theater": "Collections",
@@ -55,7 +55,7 @@ window.WARLOCK_INDEX_CORPUS = [
       "coverage-map",
       "document",
       "coverage map",
-      "2026-06-14t20:37:05z"
+      "2026-06-16t02:21:36z"
     ]
   },
   {
@@ -1305,8 +1305,8 @@ window.WARLOCK_INDEX_CORPUS = [
     "path": "library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html",
     "summary": "profiles, theater assessments, source notes, event timelines, and domain files inside WARLOCK-INDEX.",
     "productId": "WI-MATRIX-GLOBAL-2026-0001",
-    "preparedUtc": "2026-06-14T19:56:06Z",
-    "cutoffUtc": "2026-06-14T19:56:06Z",
+    "preparedUtc": "2026-06-16T02:21:36Z",
+    "cutoffUtc": "2026-06-16T02:21:36Z",
     "confidence": "",
     "theater": "Collections",
     "domain": "Global Assimilation",
@@ -1320,7 +1320,7 @@ window.WARLOCK_INDEX_CORPUS = [
       "2026-06-13t0049z-global-actor-domain-assimilation-matrix",
       "global assimilation",
       "wi-matrix-global-2026-0001",
-      "2026-06-14t19:56:06z"
+      "2026-06-16t02:21:36z"
     ]
   },
   {
@@ -1459,9 +1459,9 @@ window.WARLOCK_INDEX_CORPUS = [
     "path": "library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html",
     "summary": "Allied official-source coverage requires both multilateral and national layers. NATO sources establish consensus Alliance language, but national sources are needed for country-level defen...",
     "productId": "WI-MATRIX-ALLY-SOURCES-2026-0001",
-    "preparedUtc": "2026-06-14T05:02:58Z",
-    "cutoffUtc": "2026-06-14T05:02:58Z",
-    "confidence": "High for assimilation logic and existing UK/Australia/Canada/Japan/ROK/France/Germany/Norway/Finland/Sweden/NATO source routi...",
+    "preparedUtc": "2026-06-16T02:21:36Z",
+    "cutoffUtc": "2026-06-16T02:21:36Z",
+    "confidence": "High for assimilation logic and existing UK, Australia, AUKUS, Canada/NORAD, NORAD modernization, Japan, ROK, France, Germany...",
     "theater": "Collections",
     "domain": "Global Assimilation",
     "tags": [
@@ -1475,7 +1475,7 @@ window.WARLOCK_INDEX_CORPUS = [
       "2026-06-14t0118z-official-allied-source-assimilation-matrix",
       "global assimilation",
       "wi-matrix-ally-sources-2026-0001",
-      "2026-06-14t05:02:58z",
+      "2026-06-16t02:21:36z",
       "high",
       "for",
       "logic",
@@ -1483,16 +1483,14 @@ window.WARLOCK_INDEX_CORPUS = [
       "existing",
       "uk",
       "australia",
+      "aukus",
       "canada",
+      "norad",
+      "modernization",
       "japan",
       "rok",
       "france",
-      "germany",
-      "norway",
-      "finland",
-      "sweden",
-      "nato",
-      "routi"
+      "germany"
     ]
   },
   {
@@ -1955,6 +1953,46 @@ window.WARLOCK_INDEX_CORPUS = [
       "described",
       "by",
       "cur"
+    ]
+  },
+  {
+    "title": "AUKUS Industrial Implementation Source Packet",
+    "type": "Source Packet",
+    "path": "library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.html",
+    "summary": "AUKUS industrial implementation should be treated as a multi-lane source problem rather than a single submarine-acquisition milestone. The official Australian source stack now separates p...",
+    "productId": "WI-SOURCEPACKET-AUKUS-INDUSTRIAL-2026-0001",
+    "preparedUtc": "2026-06-16T01:53:21Z",
+    "cutoffUtc": "2026-06-16T01:53:21Z",
+    "confidence": "High for official source identity and declared public program architecture. Moderate for implementation status because offici...",
+    "theater": "Collections",
+    "domain": "Source Packets",
+    "tags": [
+      "aukus",
+      "industrial",
+      "implementation",
+      "source",
+      "packet",
+      "collections",
+      "source-packets",
+      "indo-pacific-allied-posture",
+      "2026-06-16t0153z-aukus-industrial-implementation-source-packet",
+      "source packet",
+      "source packets",
+      "wi-sourcepacket-aukus-industrial-2026-0001",
+      "2026-06-16t01:53:21z",
+      "high",
+      "for",
+      "official",
+      "identity",
+      "and",
+      "declared",
+      "public",
+      "program",
+      "architecture",
+      "moderate",
+      "status",
+      "because",
+      "offici"
     ]
   },
   {
@@ -2782,6 +2820,47 @@ window.WARLOCK_INDEX_CORPUS = [
       "readme",
       "directory",
       "nato allied capacity"
+    ]
+  },
+  {
+    "title": "NORAD Modernization Implementation Source Packet",
+    "type": "Source Packet",
+    "path": "library/collections/source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.html",
+    "summary": "NORAD modernization is now mature enough in public official sources to support a dedicated implementation-source lane. Canada has published a project-timeline fact sheet, a funding fact s...",
+    "productId": "WI-SOURCEPACKET-NORAD-MOD-2026-0001",
+    "preparedUtc": "2026-06-16T02:21:36Z",
+    "cutoffUtc": "2026-06-16T02:21:36Z",
+    "confidence": "High for official public source identity, investment category names, declared implementation-source architecture, and mission...",
+    "theater": "Arctic / High North",
+    "domain": "Source Packets",
+    "tags": [
+      "norad",
+      "modernization",
+      "implementation",
+      "source",
+      "packet",
+      "collections",
+      "source-packets",
+      "arctic-infrastructure",
+      "2026-06-16t0221z-norad-modernization-implementation-source-packet",
+      "source packet",
+      "arctic / high north",
+      "source packets",
+      "wi-sourcepacket-norad-mod-2026-0001",
+      "2026-06-16t02:21:36z",
+      "high",
+      "for",
+      "official",
+      "public",
+      "identity",
+      "investment",
+      "category",
+      "names",
+      "declared",
+      "implementation-source",
+      "architecture",
+      "and",
+      "mission"
     ]
   },
   {
@@ -3829,9 +3908,9 @@ window.WARLOCK_INDEX_CORPUS = [
     "path": "library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html",
     "summary": "The allied-source lane should expand through national and multilateral official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan, the Republic of Korea, France, Germany,...",
     "productId": "WI-TRACKER-ALLY-SOURCES-2026-0001",
-    "preparedUtc": "2026-06-14T05:02:58Z",
-    "cutoffUtc": "2026-06-14T05:02:58Z",
-    "confidence": "High for collection architecture and already registered UK/Australia/Canada/Japan/ROK/France/Germany/Norway/Finland/Sweden/NA...",
+    "preparedUtc": "2026-06-16T02:21:36Z",
+    "cutoffUtc": "2026-06-16T02:21:36Z",
+    "confidence": "High for collection architecture and already registered UK, Australia, AUKUS, Canada/NORAD, NORAD modernization, Japan, ROK,...",
     "theater": "Collections",
     "domain": "Trackers",
     "tags": [
@@ -3844,7 +3923,7 @@ window.WARLOCK_INDEX_CORPUS = [
       "trackers",
       "2026-06-14t0118z-allied-official-source-collection-tracker",
       "wi-tracker-ally-sources-2026-0001",
-      "2026-06-14t05:02:58z",
+      "2026-06-16t02:21:36z",
       "high",
       "for",
       "architecture",
@@ -3853,15 +3932,12 @@ window.WARLOCK_INDEX_CORPUS = [
       "registered",
       "uk",
       "australia",
+      "aukus",
       "canada",
+      "norad",
+      "modernization",
       "japan",
-      "rok",
-      "france",
-      "germany",
-      "norway",
-      "finland",
-      "sweden",
-      "na"
+      "rok"
     ]
   },
   {
