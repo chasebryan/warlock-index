@@ -245,28 +245,6 @@ svg {
   font-weight: 600;
 }
 
-.traffic-badge {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 0.42rem;
-  min-width: 0;
-  padding: 0.28rem 0.48rem;
-  border: 1px solid rgba(114, 31, 203, 0.55);
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.24);
-  color: var(--dim);
-}
-
-.traffic-badge strong {
-  color: var(--olive);
-}
-
-.traffic-badge[data-traffic-state="connected"] {
-  border-color: rgba(217, 255, 45, 0.44);
-}
-
 .install-button {
   display: grid;
   width: 34px;
