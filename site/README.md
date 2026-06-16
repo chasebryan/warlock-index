@@ -44,12 +44,13 @@ or a reader packet from queued records. Keep those exports calm, print-friendly,
 and free of the full site navigation shell so downloaded files remain readable
 from disk.
 
-The homepage and Workspace show a provider-neutral website counter surface for
-viewers and active viewers. Keep the public UI backed by
-`site/assets/traffic-summary.json` or an equivalent same-origin JSON export;
-do not commit analytics API tokens, account IDs, provider names, or private
-dashboard data. The JSON file should be populated by a private export job or
-deployment step, not by client-side calls to an analytics API.
+The homepage and Workspace include a provider-neutral website counter surface
+for viewers and active viewers, but the surface stays hidden until numeric data
+is present. Keep the public UI backed by `site/assets/traffic-summary.json` or
+an equivalent same-origin JSON export; do not commit analytics API tokens,
+account IDs, provider names, or private dashboard data. The JSON file should be
+populated by a private export job or deployment step, not by client-side calls
+to an analytics API.
 
 The legacy `wi/` path is a redirect-only compatibility route. Keep it lightweight
 so old bookmarks move to `/workspace/` without presenting a second app identity.
