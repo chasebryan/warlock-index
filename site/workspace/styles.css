@@ -798,6 +798,9 @@ svg {
   display: grid;
   gap: 0.65rem;
   padding: 0.85rem 1rem;
+  max-height: 12rem;
+  overflow-y: auto;
+  scrollbar-color: var(--chrome-dark) var(--panel-soft);
 }
 
 .preview-title {
@@ -814,9 +817,12 @@ svg {
 }
 
 .preview-actions {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  display: flex;
+  flex-wrap: nowrap;
   gap: 0.45rem;
+  overflow-x: auto;
+  scrollbar-color: var(--chrome-dark) var(--panel-soft);
+  padding-bottom: 4px;
 }
 
 .action-button {
@@ -828,6 +834,7 @@ svg {
   min-height: 34px;
   padding: 0.38rem 0.56rem;
   font-size: 0.68rem;
+  flex: 0 0 auto;
 }
 
 .action-button:disabled,
@@ -1230,6 +1237,6 @@ svg {
   }
 
   .preview-actions {
-    grid-template-columns: 1fr;
+    flex-wrap: wrap;
   }
 }
