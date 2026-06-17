@@ -51,7 +51,7 @@
     <link rel="icon" href="icons/wi-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=20260617-sitewide-nav">
+    <link rel="stylesheet" href="styles.css?v=20260617-workspace-polish-3">
   </head>
   <body>
     <svg class="icon-defs" aria-hidden="true">
@@ -168,6 +168,16 @@
               <h1 id="results-heading">Strategic weapons</h1>
             </div>
             <div class="result-tools">
+              <div class="result-actions" aria-label="Selected record actions">
+                <button class="pane-action-button" type="button" id="queue-current" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-plus"></use></svg>
+                  <span>Queue</span>
+                </button>
+                <button class="pane-action-button" type="button" id="download-current" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
+                  <span>Reader file</span>
+                </button>
+              </div>
               <label class="sort-control">
                 <span>Sort</span>
                 <select id="sort-mode">
@@ -189,7 +199,7 @@
           <section class="preview" id="preview-panel"></section>
           <section class="queue-panel" aria-labelledby="queue-heading">
             <div class="queue-head">
-              <h2 id="queue-heading">Queue</h2>
+              <h2 id="queue-heading">Queue <span id="queue-count" hidden>0</span></h2>
               <div class="queue-actions">
                 <button class="queue-download-button" type="button" id="download-queue" title="Download queued reader packet (HTML)" aria-label="Download queued reader packet" disabled>
                   <svg viewBox="0 0 24 24" aria-hidden="true" style="width:16px;height:16px"><use href="#icon-package"></use></svg>
@@ -215,6 +225,6 @@
     </div>
 
     <script src="corpus.js?v=20260616-full-summaries"></script>
-    <script src="app.js?v=20260616-dashboard-cleanup"></script>
+    <script src="app.js?v=20260617-workspace-polish-3"></script>
   </body>
 </html>

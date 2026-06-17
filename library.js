@@ -30,7 +30,7 @@ function applyFilter() {
   let visibleCount = 0;
 
   links.forEach((link) => {
-    const haystack = normalize(`${link.textContent} ${link.getAttribute("href") || ""}`);
+    const haystack = normalize(`${link.textContent} ${link.dataset.filter || ""} ${link.getAttribute("href") || ""}`);
     const isVisible = !queryTokens.length || queryTokens.every((token) => haystack.includes(token));
     link.hidden = !isVisible;
     if (isVisible) visibleCount += 1;
