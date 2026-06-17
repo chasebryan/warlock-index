@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WARLOCK-INDEX</title>
+  <subtitle>Open-source strategic research corpus</subtitle>
+  <link href="https://www.warlock-index.org/" />
+  <link rel="self" href="https://www.warlock-index.org/feed.xml" />
+  <id>https://www.warlock-index.org/</id>
+  <updated>2026-06-16T03:30:00.000Z</updated>
+  <author><name>WARLOCK-INDEX</name></author>
+  <rights>UNCLASSIFIED//OPEN SOURCE. For research continuity only.</rights>
+  <entry>
+    <title>Allied And Multilateral Source Register</title>
+    <link href="https://www.warlock-index.org/library/source-registers/allied-multilateral.html" />
+    <id>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</id>
+    <updated>2026-06-16T03:30:00.000Z</updated>
+    <summary>WARLOCK-INDEX documentation product.</summary>
+    <category term="Source Register" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>EU Security And Defense Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.html</id>
+    <updated>2026-06-16T03:30:00.000Z</updated>
+    <summary>EU security-defense sources are essential for European allied analysis, but they are not interchangeable with NATO or national force evidence. The Strategic Compass provides an EU-level security and defense framework; EDIS and Readiness 2030 provide defense-industrial, capability-gap, procurement, and investment-source...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Iceland Official Security, Defense, And NATO Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0329Z-iceland-official-security-defense-nato-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0329Z-iceland-official-security-defense-nato-source-packet.html</id>
+    <updated>2026-06-16T03:29:00.000Z</updated>
+    <summary>Iceland is a small but strategically important North Atlantic allied source lane. Its public source treatment should not be forced into a conventional standing-military template. The Ministry for Foreign Affairs is the primary government source family for national security and defense policy, while the Icelandic Coast ...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Denmark Official Defense, Security, And Arctic Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0328Z-denmark-official-defense-security-arctic-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0328Z-denmark-official-defense-security-arctic-source-packet.html</id>
+    <updated>2026-06-16T03:28:00.000Z</updated>
+    <summary>Denmark's official source lane should be treated as both a NATO/EU allied capacity lane and a High North/North Atlantic lane. The 2024-2033 Danish Defence Agreement provides the public planning spine: a ten-year framework, NATO spending commitment, force-development ambitions, conscription and personnel changes, and a ...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Coverage Map</title>
+    <link href="https://www.warlock-index.org/library/collections/coverage-map.html" />
+    <id>https://www.warlock-index.org/library/collections/coverage-map.html</id>
+    <updated>2026-06-16T02:21:36.000Z</updated>
+    <summary>This map defines the initial archive architecture for WARLOCK-INDEX. It is not a list of recommendations. It is a research coverage model for organizing future open-source defense assessments.</summary>
+    <category term="Document" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Global Actor-Domain Assimilation Matrix</title>
+    <link href="https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html" />
+    <id>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</id>
+    <updated>2026-06-16T02:21:36.000Z</updated>
+    <summary>profiles, theater assessments, source notes, event timelines, and domain files inside WARLOCK-INDEX.</summary>
+    <category term="Matrix" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Official Allied Source Assimilation Matrix</title>
+    <link href="https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html" />
+    <id>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</id>
+    <updated>2026-06-16T02:21:36.000Z</updated>
+    <summary>Allied official-source coverage requires both multilateral and national layers. NATO sources establish consensus Alliance language, but national sources are needed for country-level defense policy, budgets, procurement, industrial capacity, cyber, space, resilience, and political implementation. The UK, Australia, Cana...</summary>
+    <category term="Matrix" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>NORAD Modernization Implementation Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.html</id>
+    <updated>2026-06-16T02:21:36.000Z</updated>
+    <summary>NORAD modernization is now mature enough in public official sources to support a dedicated implementation-source lane. Canada has published a project-timeline fact sheet, a funding fact sheet, departmental planning language, and budget chapters that separate modernization into surveillance, command/control and communic...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Allied Official Source Collection Tracker</title>
+    <link href="https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html" />
+    <id>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html</id>
+    <updated>2026-06-16T02:21:36.000Z</updated>
+    <summary>The allied-source lane should expand through national and multilateral official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan, the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or continental-defense lanes to receive U.S.-style official source baselines. D...</summary>
+    <category term="Tracker" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>AUKUS Industrial Implementation Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.html</id>
+    <updated>2026-06-16T01:53:21.000Z</updated>
+    <summary>AUKUS industrial implementation should be treated as a multi-lane source problem rather than a single submarine-acquisition milestone. The official Australian source stack now separates program pathway, industrial strategy, build partner structure, sustainment partner structure, supplier qualification, workforce develo...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Maps</title>
+    <link href="https://www.warlock-index.org/library/maps/index.html" />
+    <id>https://www.warlock-index.org/library/maps/index.html</id>
+    <updated>2026-06-14T20:37:05.000Z</updated>
+    <summary>Maps is the WARLOCK-INDEX hub for public map and geospatial references: official map portals, charting sources, geographic-name references, and theater map packets.</summary>
+    <category term="Map Resource" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>Official U.S. Source Register</title>
+    <link href="https://www.warlock-index.org/library/source-registers/official-us.html" />
+    <id>https://www.warlock-index.org/library/source-registers/official-us.html</id>
+    <updated>2026-06-14T19:56:06.000Z</updated>
+    <summary>WARLOCK-INDEX documentation product.</summary>
+    <category term="Source Register" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>PRC Cyber And Critical Infrastructure Defensive Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</id>
+    <updated>2026-06-14T19:56:06.000Z</updated>
+    <summary>PRC cyber is now a dedicated defensive source lane rather than a broad &quot;future cyber packet&quot; queue item. ODNI 2026 provides the current public IC strategic frame: China is described as the most active and persistent cyber threat to U.S. government, private-sector, and critical-infrastructure networks, while multiple st...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
+    <link href="https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html" />
+    <id>https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</id>
+    <updated>2026-06-14T19:56:06.000Z</updated>
+    <summary>enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for WARLOCK-INDEX strategic threat analysis.</summary>
+    <category term="Source Register" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>China/PLA Source Collection Tracker</title>
+    <link href="https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html" />
+    <id>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</id>
+    <updated>2026-06-14T19:56:06.000Z</updated>
+    <summary>U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial, technology, and WARLOCK-INDEX derived products.</summary>
+    <category term="Tracker" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>South China Sea Coercion And Legal-Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</id>
+    <updated>2026-06-14T19:46:19.000Z</updated>
+    <summary>The South China Sea lane now needs three source layers kept separate at all times: coercion evidence, legal-source provenance, and map/issuer-language orientation. DoD 2025 provides the public U.S. defense assessment spine for China Coast Guard, China Maritime Militia, PLA Navy overwatch, lawfare, Philippines-focused p...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Foreign Government Reference Source Register</title>
+    <link href="https://www.warlock-index.org/library/source-registers/foreign-government-reference.html" />
+    <id>https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</id>
+    <updated>2026-06-14T19:46:19.000Z</updated>
+    <summary>officeholder, diplomatic, country, and official-government reference material used inside WARLOCK-INDEX.</summary>
+    <category term="Source Register" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>Map And Geospatial Reference Source Register</title>
+    <link href="https://www.warlock-index.org/library/source-registers/map-geospatial-reference.html" />
+    <id>https://www.warlock-index.org/library/source-registers/map-geospatial-reference.html</id>
+    <updated>2026-06-14T19:46:19.000Z</updated>
+    <summary>topographic, nautical, command-area, and geospatial reference material used inside WARLOCK-INDEX.</summary>
+    <category term="Source Register" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>Maritime Chokepoints Source Register</title>
+    <link href="https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html" />
+    <id>https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</id>
+    <updated>2026-06-14T19:46:19.000Z</updated>
+    <summary>Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</summary>
+    <category term="Source Register" />
+    <category term="Global" />
+  </entry>
+  <entry>
+    <title>Taiwan Pressure And Cross-Strait Coercion Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.html</id>
+    <updated>2026-06-14T19:38:22.000Z</updated>
+    <summary>Taiwan pressure is now a standing source lane rather than a single event file. DoD 2025 provides the current public U.S. defense assessment spine for PLA pressure, Taiwan Strait and South China Sea context, force-employment categories, and coercion-special-topic routing. ODNI 2026 provides the public intelligence cavea...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>PLA Services And Arms Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.html</id>
+    <updated>2026-06-14T19:33:34.000Z</updated>
+    <summary>China/PLA analysis now needs a stable service-and-arm routing layer. DoD 2025 is the current public U.S. defense anchor for PLA strategy, capability lanes, C4ISR, cyber, space, nuclear, Taiwan, South China Sea, paramilitary forces, and defense-industrial topics. DIA 2019 remains useful as a historical baseline, but it ...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>DoD 2025 To PRC Issuer-Language Claim Crosswalk</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.html</id>
+    <updated>2026-06-14T19:27:19.000Z</updated>
+    <summary>The DoD 2025 report and PRC issuer-language sources should be read against one another, not blended. DoD 2025 is the current public U.S. defense assessment spine for China and the PLA. PRC State Council, MND, China Military Online, and Xinhua military-publication sources are issuer-perspective evidence for how Beijing ...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>PRC MND And PLA Official-Media Dated Capture Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.html</id>
+    <updated>2026-06-14T19:27:19.000Z</updated>
+    <summary>The PRC MND and PLA official-media lane is now usable as a dated issuer-source capture, but with explicit access caveats. The most reliable direct content in this pass is the April 19, 2024 Xinhua publication set: one item carries a PRC defense spokesperson's description of the Information Support Force and the PLA's r...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Official U.S. Threat Source Assimilation Matrix</title>
+    <link href="https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html" />
+    <id>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</id>
+    <updated>2026-06-14T06:05:33.000Z</updated>
+    <summary>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide des...</summary>
+    <category term="Matrix" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>DoD/DIA China Military Power Extraction Map</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.html</id>
+    <updated>2026-06-14T06:05:33.000Z</updated>
+    <summary>The DoD 2025 PRC military-power report is the current primary public U.S. defense source for China/PLA strategic and military modernization questions. It is strongest as a sectioned evidence router: national strategy, PLA strategy and capabilities, force employment, Taiwan pressure, South China Sea coercion, global inf...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Official Threat Source Collection Tracker</title>
+    <link href="https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html" />
+    <id>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</id>
+    <updated>2026-06-14T06:05:33.000Z</updated>
+    <summary>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</summary>
+    <category term="Tracker" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>PRC Official Doctrine And Issuer-Language Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.html</id>
+    <updated>2026-06-14T05:37:41.000Z</updated>
+    <summary>PRC official doctrine and issuer-language sources are necessary for China/PLA research, but they are a different evidence class from U.S., Taiwan, allied, legal, cyber-advisory, audit, or independent research sources. The State Council/SCIO white-paper lane is useful for identifying Beijing's public language around nat...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>China/PLA Official Military And Security Source Baseline Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.html</id>
+    <updated>2026-06-14T05:23:13.000Z</updated>
+    <summary>The China/PLA lane now needs a broad official-source spine in addition to the existing China assessments and China strategic-weapons packet. The DoD PRC military power report remains the main public U.S. defense source for PLA strategy, capability modernization, Taiwan pressure, South China Sea activity, defense spendi...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Sweden Official Defense, Security, And NATO Integration Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0502Z-sweden-official-defense-security-nato-integration-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0502Z-sweden-official-defense-security-nato-integration-source-packet.html</id>
+    <updated>2026-06-14T05:02:58.000Z</updated>
+    <summary>Sweden's official source lane should be treated as both a new NATO ally integration file and a total-defence rebuilding file. Government Offices of Sweden pages frame the 2025-2030 defence resolution as a major reinforcement of both military and civil defence, with Sweden's national capability presented as part of NATO...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Finland Official Defense, Security, And NATO Integration Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0427Z-finland-official-defense-security-nato-integration-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0427Z-finland-official-defense-security-nato-integration-source-packet.html</id>
+    <updated>2026-06-14T04:27:32.000Z</updated>
+    <summary>Finland's official source lane is a high-value Nordic and High North allied baseline because Finnish sources pair a strong national-defense frame with a new NATO collective-defense integration frame. Ministry of Defence and Finnish Defence Forces pages establish that Finland is a NATO member, that national defense rema...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Ukraine Biolab Claim-Reconciliation Source Note</title>
+    <link href="https://www.warlock-index.org/library/collections/source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.html" />
+    <id>https://www.warlock-index.org/library/collections/source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.html</id>
+    <updated>2026-06-14T04:12:00.000Z</updated>
+    <summary>The Ukraine biolab lane contains at least five separable source layers: ODNI's 2026 disclosure, earlier DoD/U.S. Embassy public threat-reduction framing, State Department and BWC treaty/diplomatic framing, Ukrainian government public statements, and Russian/PRC/information-environment claims. WARLOCK-INDEX should not c...</summary>
+    <category term="Document" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>WMD/Biosecurity Public Source Baseline Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-14T0358Z-wmd-biosecurity-public-source-baseline-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-14T0358Z-wmd-biosecurity-public-source-baseline-packet.html</id>
+    <updated>2026-06-14T03:58:59.000Z</updated>
+    <summary>WARLOCK-INDEX should treat WMD/biosecurity as a source-discipline problem before it treats it as an analytic-judgment problem. The public source lane is fragmented across intelligence disclosure, biodefense strategy, defense threat reduction, law-enforcement prevention, select-agent oversight, arms-control/treaty gover...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>ODNI Global Biolab Disclosure Source-Treatment Note</title>
+    <link href="https://www.warlock-index.org/library/collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.html" />
+    <id>https://www.warlock-index.org/library/collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.html</id>
+    <updated>2026-06-14T03:47:22.000Z</updated>
+    <summary>ODNI released a June 12, 2026 public statement and linked declassified slides asserting longstanding U.S. Government funding for more than 120 foreign biolabs in more than 30 countries, including Ukraine. The ODNI statement also asserted that some laboratories may present oversight, compromise, hazardous research, and ...</summary>
+    <category term="Document" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Norway Official Defense, Security, And High North Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0319Z-norway-official-defense-security-high-north-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0319Z-norway-official-defense-security-high-north-source-packet.html</id>
+    <updated>2026-06-14T03:19:09.000Z</updated>
+    <summary>Norway's official source lane should be treated as both a High North allied defense file and a whole-of-society security/resilience file. The long-term defense plan establishes the public modernization frame through 2036 and links maritime, land, air, home guard, personnel, and alliance obligations. The 2026 acquisitio...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Germany Official Defense And Security Source Baseline Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.html</id>
+    <updated>2026-06-14T02:19:34.000Z</updated>
+    <summary>Germany's official-source lane should be treated as a Euro-Atlantic allied capacity file, a NATO/EU burden-sharing file, a defense-investment and industrial-capacity file, and an integrated-security/resilience file. The National Security Strategy provides the whole-of-government frame: Germany describes security as rob...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>France Official Defense And Security Source Baseline Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.html</id>
+    <updated>2026-06-14T02:08:02.000Z</updated>
+    <summary>France's official-source lane should be treated as a nuclear-armed European ally file, a Euro-Atlantic defense file, and a sovereignty/industrial-base file. The current top-level source is the 2025 update to the National Strategic Review, which SGDSN says was commanded by the President and complements the 2022 review. ...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Republic Of Korea Official Defense And Extended Deterrence Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.html</id>
+    <updated>2026-06-14T01:58:34.000Z</updated>
+    <summary>The ROK source lane should be treated as a peninsula-front-line allied file with an extended-deterrence spine and a trilateral Indo-Pacific branch. The strongest verified public sources in this packet are ROK MOFA diplomatic sources, the Washington Declaration, Camp David source material, and the July 2024 trilateral d...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Japan Official Defense And Security Source Baseline Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.html</id>
+    <updated>2026-06-14T01:47:45.000Z</updated>
+    <summary>Japan's official-source lane should be treated as a whole-of-government Indo-Pacific allied posture file. The Ministry of Defense defense-policy page anchors the 2022 three strategic documents: the National Security Strategy, National Defense Strategy, and Defense Buildup Program. Those documents connect Japan's severe...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+  <entry>
+    <title>Canada/NORAD Arctic And Continental Defense Source Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.html</id>
+    <updated>2026-06-14T01:38:22.000Z</updated>
+    <summary>Canada/NORAD official-source coverage should be treated as both an allied country lane and a continental-defense lane. Canada's *Our North, Strong and Free* page is the current public defense-policy anchor for Arctic sovereignty, defense of Canada, defense of North America, and NORAD modernization source work. The arch...</summary>
+    <category term="Source Packet" />
+    <category term="Arctic / High North" />
+  </entry>
+  <entry>
+    <title>Australia Official Defence And AUKUS Source Baseline Packet</title>
+    <link href="https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.html" />
+    <id>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.html</id>
+    <updated>2026-06-14T01:29:53.000Z</updated>
+    <summary>Australia's official-source lane should be treated as both an Indo-Pacific allied posture file and an industrial-transformation file. The 2026 National Defence Strategy and Integrated Investment Program page is the current official public source anchor: it says the 2026 NDS builds on the 2023 Defence Strategic Review a...</summary>
+    <category term="Source Packet" />
+    <category term="Collections" />
+  </entry>
+</feed>

@@ -45,3 +45,54 @@ function applyFilter() {
 
 filterInput?.addEventListener("input", applyFilter);
 applyFilter();
+
+// Cite this support
+(function initCite() {
+  const articleHead = document.querySelector(".article-head");
+  if (!articleHead) return;
+
+  const citeBtn = articleHead.querySelector(".cite-button");
+  const details = articleHead.querySelector(".cite-box");
+  const pre = articleHead.querySelector(".cite-text");
+  const copyBtn = articleHead.querySelector(".copy-cite");
+
+  if (!citeBtn || !details || !pre) return;
+
+  const title = document.querySelector(".article-head h1")?.textContent?.trim() || document.title;
+  const sourcePathEl = articleHead.querySelector(".source-path");
+  const sourcePath = sourcePathEl ? sourcePathEl.textContent.trim() : "";
+  const metaEls = Array.from(articleHead.querySelectorAll(".article-meta span"));
+  const type = metaEls[0]?.textContent?.trim() || "";
+  const theater = metaEls[1]?.textContent?.trim() || "";
+  const prepared = Array.from(document.querySelectorAll(".markdown-body strong, .markdown-body p, .markdown-body li"))
+    .map(el => el.textContent || "")
+    .find(t => /Prepared UTC/i.test(t)) || "";
+
+  const url = location.href.split("#")[0];
+  const today = new Date().toISOString().slice(0, 10);
+
+  const citation = `WARLOCK-INDEX. "${title}". ${type ? type + ", " : ""}${theater ? theater + ". " : ""}Prepared ${prepared ? prepared.replace(/^.*Prepared UTC:\s*/i, "").trim() : "unstated"}. ${url} Accessed ${today}. UNCLASSIFIED//OPEN SOURCE.`;
+
+  pre.textContent = citation;
+
+  citeBtn.addEventListener("click", () => {
+    details.hidden = !details.hidden;
+    if (!details.hidden) details.open = true;
+  });
+
+  copyBtn?.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(pre.textContent);
+      const orig = copyBtn.textContent;
+      copyBtn.textContent = "Copied";
+      setTimeout(() => { copyBtn.textContent = orig; }, 1400);
+    } catch (e) {
+      // fallback select
+      const range = document.createRange();
+      range.selectNodeContents(pre);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
+  });
+})();

@@ -494,6 +494,59 @@ svg {
   overflow-wrap: anywhere;
 }
 
+.recent {
+  margin-top: 1.1rem;
+  padding: 0 1rem 0.6rem;
+  border-top: 1px solid rgba(217, 255, 45, 0.12);
+}
+
+.recent h2 {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin: 0.6rem 0 0.45rem;
+}
+
+.recent-list {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.recent-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  color: var(--text);
+  padding: 0.2rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.recent-item:last-child {
+  border-bottom: none;
+}
+
+.recent-item a {
+  color: inherit;
+}
+
+.recent-item .date {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--dim);
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+.recent-feed {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--dim);
+  text-transform: uppercase;
+}
+
 @media (min-width: 1051px) {
   .hero-inner {
     align-items: center;
@@ -542,6 +595,31 @@ svg {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+@media print {
+  .site-header,
+  #cosmos-canvas,
+  .terminal,
+  .recent,
+  .skip-link,
+  .warlock-art {
+    display: none !important;
+  }
+
+  .hero-inner {
+    display: block;
+  }
+
+  main {
+    padding: 1rem;
+    background: #fff;
+    color: #000;
+  }
+
+  h1 {
+    color: #000;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

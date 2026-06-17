@@ -49,7 +49,8 @@ async function hashFile(filePath) {
 
 async function generatedSnapshot() {
   const generatedRootFiles = [];
-  for (const filePath of [corpusPath, robotsPath, sitemapPath]) {
+  const feedPath = path.join(siteRoot, "feed.xml");
+  for (const filePath of [corpusPath, robotsPath, sitemapPath, feedPath]) {
     if (await fileExists(filePath)) generatedRootFiles.push(filePath);
   }
 

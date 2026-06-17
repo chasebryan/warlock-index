@@ -58,6 +58,7 @@
     </script>
     <title>WARLOCK-INDEX</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" type="application/atom+xml" title="WARLOCK-INDEX Updates" href="/feed.xml">
   </head>
   <body>
     <a class="skip-link" href="#search-input">Skip to search</a>
@@ -75,6 +76,7 @@
         <a href="library/maps/">Maps</a>
         <a href="library/standards/product-standard.html">Standards</a>
         <a href="workspace/">Workspace</a>
+        <a href="feed.xml" rel="alternate" type="application/atom+xml">Feed</a>
       </nav>
     </header>
 
@@ -131,6 +133,12 @@
               <button type="button" data-query="actor profiles">Actor profiles</button>
             </div>
             <div class="terminal-output" id="terminal-output" aria-live="polite"></div>
+          </section>
+
+          <section class="recent" id="recent-section" aria-labelledby="recent-title">
+            <h2 id="recent-title">Recent updates</h2>
+            <div class="recent-list" id="recent-list"></div>
+            <a class="recent-feed" href="/feed.xml">Subscribe via Atom feed</a>
           </section>
         </div>
       </section>

@@ -34,7 +34,7 @@ The homepage keeps `WARLOCK-INDEX` as the canonical brand and includes
 structured-data aliases for `Warlock-Index`, `warlock-index`, and
 `warlock index` to support search discovery for common phrase variants.
 The static search UI supports `?q=` URLs for structured `SearchAction`
-metadata.
+metadata. A recent updates block and Atom feed (`/feed.xml`) aid ongoing discovery.
 
 The `workspace/` path publishes the installable WARLOCK-INDEX Workspace. It has
 a scoped manifest and service worker so installing from `/workspace/` opens the
@@ -89,6 +89,7 @@ Current site requirements:
 - Show information cutoff and confidence at the top of each product.
 - Preserve source lists.
 - Make prior versions discoverable.
+- Provide "Cite" support and Atom feed (/feed.xml).
 - Avoid visual styling that makes the repository look like a marketing page.
 
 ## Assets

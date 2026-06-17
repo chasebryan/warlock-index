@@ -2,7 +2,8 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-16T02:21:36Z
+**Prepared UTC:** 2026-06-17 (tool-assisted enhancements)
+**Last tool update UTC:** 2026-06-17T12:xxZ
 
 ## Completed
 
@@ -283,6 +284,7 @@
   no-basing-vulnerability, no-cyber-technical-detail, no-readiness-scoring,
   and no-operational-guidance boundaries.
 - Added the Iceland official security, defense, and NATO source packet with
+- Added Atom feed generation (/feed.xml), recent updates block on homepage, date-aware search boosting and sort options (homepage + Workspace), "Cite this" on document pages, text bundle export in Workspace, print-optimized styles, CONTRIBUTING.md, and issue templates. Build and check now track feed.xml.
   Government of Iceland, Ministry for Foreign Affairs, security/defence, NATO,
   Arctic, Icelandic Coast Guard, NATO air-policing, parliamentary/budget,
   cyber/civil-security source-family routing, allied register, tracker,
