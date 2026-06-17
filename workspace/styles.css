@@ -107,7 +107,7 @@ svg {
 
 .app-shell {
   display: grid;
-  grid-template-rows: 64px minmax(0, 1fr);
+  grid-template-rows: 64px minmax(0, 1fr) auto;
   height: 100vh;
   min-height: 620px;
 }
@@ -269,6 +269,21 @@ svg {
   gap: 1rem;
   min-height: 0;
   padding: 1rem;
+}
+
+.workspace-maintainer {
+  padding: 0.35rem 0.75rem;
+  border-top: 1px solid var(--line-cool);
+  background: rgba(13, 11, 15, 0.96);
+  color: var(--olive);
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.workspace-maintainer p {
+  margin: 0;
 }
 
 .route-rail,
