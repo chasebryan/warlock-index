@@ -157,8 +157,8 @@
           .primary-nav a:hover,
           .primary-nav a:focus-visible {
             border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-            background: #dfd5ea;
-            color: var(--purple);
+            background: var(--panel);
+            color: var(--green);
             outline: none;
           }
 

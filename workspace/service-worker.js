@@ -1,4 +1,4 @@
-const CACHE_NAME = "workspace-pwa-de9022bfa130";
+const CACHE_NAME = "workspace-pwa-0c093e405ada";
 const APP_SHELL = [
   "./",
   "./index.html",

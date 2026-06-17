@@ -183,8 +183,8 @@ button {
 .primary-nav a:hover,
 .primary-nav a:focus-visible {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
@@ -307,8 +307,8 @@ button {
 .about-terse-list a[rel~="me"]:hover,
 .about-terse-list a[rel~="me"]:focus-visible {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
@@ -415,8 +415,8 @@ button {
 .terminal-form button:hover,
 .terminal-form button:focus-visible {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
@@ -440,7 +440,7 @@ button {
 }
 
 .terminal-suggestions button[aria-pressed="true"] {
-  color: var(--purple);
+  color: var(--green);
 }
 
 .terminal-suggestions button:hover,

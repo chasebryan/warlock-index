@@ -194,8 +194,8 @@ svg {
 .primary-nav a:hover,
 .primary-nav a:focus-visible {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
@@ -329,8 +329,8 @@ svg {
 .queue-item button:hover,
 .queue-item button:focus-visible {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
@@ -511,14 +511,14 @@ svg {
 .route-link[aria-current="true"] {
   border: 2px solid var(--chrome);
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
 .route-link[aria-current="true"] span {
-  border-color: rgba(85, 26, 139, 0.42);
-  color: var(--purple);
+  border-color: var(--line-strong);
+  color: var(--green);
 }
 
 .rail-meter {
@@ -606,8 +606,8 @@ svg {
 .pane-action-button:focus-visible,
 .pane-action-button[aria-pressed="true"] {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
   outline: none;
 }
 
@@ -666,8 +666,8 @@ svg {
 
 .quick-routes button[aria-pressed="true"] {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: #dfd5ea;
-  color: var(--purple);
+  background: var(--panel);
+  color: var(--green);
 }
 
 .result-table {
