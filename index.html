@@ -10,13 +10,14 @@
     <meta name="keywords" content="WARLOCK-INDEX, Warlock-Index, warlock-index, warlock index, strategic assessment, source packets, defense research">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.warlock-index.org/">
-    <link rel="icon" href="/favicon.png" type="image/png" sizes="180x180">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
+    <link rel="icon" href="/favicon.png?v=20260617-netscape-lite" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=20260617-netscape-lite" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=20260617-netscape-lite" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="mask-icon" href="/favicon.svg" color="#d9ff2d">
+    <link rel="mask-icon" href="/favicon.svg?v=20260617-netscape-lite" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#020303">
+    <meta name="theme-color" content="#c0c0c0">
     <meta property="og:title" content="WARLOCK-INDEX | Strategic assessment corpus">
     <meta
       property="og:description"
@@ -25,14 +26,12 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.warlock-index.org/">
     <meta property="og:site_name" content="WARLOCK-INDEX">
-    <meta property="og:image" content="https://www.warlock-index.org/images/warlock-index-emblem.jpeg">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="WARLOCK-INDEX | Strategic assessment corpus">
     <meta
       name="twitter:description"
       content="WARLOCK-INDEX is an open-source strategic research corpus for dated assessments, source packets, trackers, timelines, actor profiles, and source registers."
     >
-    <meta name="twitter:image" content="https://www.warlock-index.org/images/warlock-index-emblem.jpeg">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -57,95 +56,138 @@
       }
     </script>
     <title>WARLOCK-INDEX</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="alternate" type="application/atom+xml" title="WARLOCK-INDEX Updates" href="/feed.xml">
+    <link rel="stylesheet" href="styles.css?v=20260617-netscape-lite">
   </head>
   <body>
     <a class="skip-link" href="#search-input">Skip to search</a>
 
-    <header class="site-header" data-elevated="false">
-      <nav class="primary-nav" aria-label="Primary navigation">
-        <a class="home-link" href="#top" aria-label="Home">
-          <svg viewBox="0 0 48 48" aria-hidden="true">
-            <path d="M24 4 29.2 18.8 44 24l-14.8 5.2L24 44l-5.2-14.8L4 24l14.8-5.2L24 4Z"></path>
-            <path d="M24 12v24M12 24h24"></path>
-          </svg>
+    <div class="page-shell" id="top">
+      <header class="site-header" data-elevated="false">
+        <a class="brand-panel" href="#top" aria-label="WARLOCK-INDEX home">
+          <span class="brand-copy">
+            <strong>WARLOCK-INDEX</strong>
+            <span>UNCLASSIFIED//OPEN SOURCE</span>
+            <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
+          </span>
         </a>
+        <div class="status-terminal" aria-label="Local corpus terminal status">
+          <p>LOCAL CORPUS TERMINAL</p>
+          <p>STATUS: ONLINE</p>
+          <p>MODE: READ-ONLY</p>
+          <p>UPDATED: <time id="status-updated" datetime="">LOADING</time></p>
+        </div>
+      </header>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="is-active" href="#top" aria-current="page">Home</a>
         <a href="library/assessments/">Assessments</a>
         <a href="library/collections/coverage-map.html">Collections</a>
         <a href="library/maps/">Maps</a>
         <a href="library/standards/product-standard.html">Standards</a>
+        <a href="feed.xml">Feed</a>
         <a href="workspace/">Workspace</a>
-        <a href="feed.xml" rel="alternate" type="application/atom+xml">Feed</a>
+        <a class="nav-ai" href="#navigator">Navigator AI</a>
       </nav>
-    </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <canvas class="cosmos-canvas" id="cosmos-canvas" aria-hidden="true"></canvas>
-        <div class="hero-inner">
-          <div class="identity-panel">
-            <figure class="warlock-art" aria-label="Warlock artwork">
-              <img
-                src="images/warlock-index-emblem.jpeg"
-                alt="Project emblem"
-                onerror="this.closest('.warlock-art').classList.add('is-missing'); this.remove();"
-              >
-            </figure>
-            <div class="hero-copy">
-              <h1 id="hero-title">WARLOCK-INDEX</h1>
-              <p class="classification">UNCLASSIFIED//OPEN SOURCE</p>
-              <p>
-                Open-source strategic research corpus for dated assessments,
-                source packets, trackers, timelines, actor profiles, and
-                source registers.
-              </p>
-            </div>
-          </div>
+      <main>
+        <section class="route-search-panel" id="navigator" aria-labelledby="navigator-title">
+          <nav class="route-list" aria-label="Core corpus routes">
+            <h2>Core Corpus Routes</h2>
+            <a href="library/assessments/">Assessments</a>
+            <a href="library/collections/coverage-map.html">Collections</a>
+            <a href="library/maps/">Maps</a>
+            <a href="library/standards/product-standard.html">Standards</a>
+            <a href="feed.xml">Feed (RSS)</a>
+            <a href="workspace/">Workspace</a>
+            <a href="#navigator">Navigator AI</a>
+          </nav>
 
-          <section class="terminal" id="navigator" aria-labelledby="navigator-title">
-            <div class="terminal-bar">
-              <div>
-                <h2 id="navigator-title">Navigator AI</h2>
-                <p>Local corpus terminal</p>
-              </div>
-              <div class="terminal-indicators" aria-label="Dashboard status">
-                <span class="terminal-status">READY</span>
-              </div>
-            </div>
+          <section class="search-console" aria-labelledby="navigator-title">
+            <h1 id="navigator-title">Search the corpus</h1>
             <form class="terminal-form" id="search-form">
-              <label class="visually-hidden" for="search-input">Search repository</label>
-              <span aria-hidden="true">wi:</span>
+              <label class="visually-hidden" for="search-input">Search documents</label>
               <input
                 id="search-input"
                 name="search"
                 type="search"
                 autocomplete="off"
                 spellcheck="false"
-                placeholder="Search Russia, Arctic, source packets, cyber, standards..."
+                placeholder="Search documents, assessments, collections, maps, standards..."
               >
               <button type="submit">Search</button>
             </form>
-            <div class="terminal-suggestions" aria-label="Common routes">
-              <button type="button" data-query="strategic weapons">Strategic weapons</button>
-              <button type="button" data-query="official sources">Official sources</button>
-              <button type="button" data-query="source packets">Source packets</button>
-              <button type="button" data-query="actor profiles">Actor profiles</button>
+            <div class="terminal-suggestions" aria-label="Example searches">
+              <span>Examples:</span>
+              <button type="button" data-query="iran nuclear">iran nuclear</button>
+              <b aria-hidden="true">•</b>
+              <button type="button" data-query="gaza humanitarian">gaza humanitarian</button>
+              <b aria-hidden="true">•</b>
+              <button type="button" data-query="nato doctrine">nato doctrine</button>
+              <b aria-hidden="true">•</b>
+              <button type="button" data-query="energy security">energy security</button>
             </div>
-            <div class="terminal-output" id="terminal-output" aria-live="polite"></div>
           </section>
+        </section>
 
-          <section class="recent" id="recent-section" aria-labelledby="recent-title">
-            <h2 id="recent-title">Recent updates</h2>
-            <div class="recent-list" id="recent-list"></div>
-            <a class="recent-feed" href="/feed.xml">Subscribe via Atom feed</a>
+        <section class="results-shell" aria-label="Corpus search and recent updates">
+          <aside class="latest-panel" aria-labelledby="latest-title">
+            <h2 id="latest-title">Recent Corpus Updates</h2>
+            <div class="latest-list" id="latest-list"></div>
+            <a class="feed-link" href="feed.xml">View full feed (RSS)</a>
+          </aside>
+
+          <section class="results-panel" aria-labelledby="results-title">
+            <div class="results-heading">
+              <h2 id="results-title">Search Results</h2>
+              <p id="result-status" aria-live="polite"></p>
+            </div>
+            <div class="result-table-wrap">
+              <table class="result-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Collection</th>
+                    <th scope="col">Format</th>
+                  </tr>
+                </thead>
+                <tbody id="terminal-output"></tbody>
+              </table>
+            </div>
+            <div class="results-footer">
+              <p id="result-count"></p>
+              <nav class="pager" aria-label="Result pages">
+                <span class="is-current">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>...</span>
+                <span>Next »</span>
+              </nav>
+            </div>
           </section>
-        </div>
-      </section>
+        </section>
+      </main>
 
-    </main>
+      <footer class="site-footer">
+        <nav aria-label="Footer navigation">
+          <a href="library/index.html">About</a>
+          <span>|</span>
+          <a href="library/standards/source-evaluation.html">Method</a>
+          <span>|</span>
+          <a href="https://github.com/chasebryan/warlock-index">GitHub</a>
+          <span>|</span>
+          <a href="https://github.com/chasebryan/warlock-index/issues">Contact</a>
+          <span>|</span>
+          <a href="library/standards/product-standard.html">Disclaimer</a>
+        </nav>
+        <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
+      </footer>
+    </div>
 
-    <script src="corpus.js?v=20260616-full-summaries"></script>
-    <script src="script.js?v=20260616-dashboard-cleanup"></script>
+    <script src="corpus.js?v=20260617-netscape-lite" defer></script>
+    <script src="script.js?v=20260617-netscape-lite" defer></script>
   </body>
 </html>

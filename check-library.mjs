@@ -8,6 +8,9 @@ const siteRoot = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(siteRoot, "..");
 const libraryRoot = path.join(siteRoot, "library");
 const corpusPath = path.join(siteRoot, "corpus.js");
+const workspaceCorpusPath = path.join(siteRoot, "workspace", "corpus.js");
+const workspaceServiceWorkerPath = path.join(siteRoot, "workspace", "service-worker.js");
+const feedPath = path.join(siteRoot, "feed.xml");
 const robotsPath = path.join(siteRoot, "robots.txt");
 const sitemapPath = path.join(siteRoot, "sitemap.xml");
 const buildScript = path.join(siteRoot, "build-library.mjs");
@@ -49,8 +52,7 @@ async function hashFile(filePath) {
 
 async function generatedSnapshot() {
   const generatedRootFiles = [];
-  const feedPath = path.join(siteRoot, "feed.xml");
-  for (const filePath of [corpusPath, robotsPath, sitemapPath, feedPath]) {
+  for (const filePath of [corpusPath, workspaceCorpusPath, workspaceServiceWorkerPath, feedPath, robotsPath, sitemapPath]) {
     if (await fileExists(filePath)) generatedRootFiles.push(filePath);
   }
 
@@ -111,7 +113,7 @@ const driftCount = drift.added.length + drift.changed.length + drift.removed.len
 if (driftCount > 0) {
   console.error("");
   console.error("Generated website output was stale.");
-  console.error("The build has refreshed site/library and site/corpus.js; review and commit those changes with the docs update.");
+  console.error("The build has refreshed generated site output; review and commit those changes with the docs update.");
   printList("Added", drift.added);
   printList("Changed", drift.changed);
   printList("Removed", drift.removed);

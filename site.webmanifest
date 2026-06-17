@@ -4,8 +4,8 @@
   "description": "Open-source strategic research corpus for dated assessments and source records.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#020303",
-  "theme_color": "#020303",
+  "background_color": "#c0c0c0",
+  "theme_color": "#c0c0c0",
   "icons": [
     {
       "src": "/favicon.png",
