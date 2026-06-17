@@ -181,11 +181,19 @@ button {
 }
 
 .primary-nav a:hover,
-.primary-nav a:focus-visible,
-.primary-nav .is-active {
+.primary-nav a:focus-visible {
   border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
   background: #dfd5ea;
   color: var(--purple);
+  outline: none;
+}
+
+.primary-nav .is-active,
+.primary-nav a[aria-current="page"] {
+  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+  background: var(--panel);
+  color: var(--green);
+  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.18);
   outline: none;
 }
 
@@ -277,6 +285,31 @@ button {
   color: var(--green);
   text-decoration: underline;
   text-underline-offset: 0.18em;
+}
+
+.about-terse-list a[rel~="me"] {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 2rem;
+  padding: 0.16rem 0.48rem;
+  border: 2px solid var(--chrome);
+  border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
+  background: #fff;
+  color: var(--green);
+  font-family: var(--mono);
+  font-weight: 700;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.about-terse-list a[rel~="me"]:hover,
+.about-terse-list a[rel~="me"]:focus-visible {
+  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+  background: #dfd5ea;
+  color: var(--purple);
+  outline: none;
 }
 
 .route-list {

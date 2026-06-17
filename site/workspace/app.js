@@ -3,9 +3,10 @@ const corpus = Array.isArray(window.WARLOCK_INDEX_CORPUS)
   : [];
 
 const SITE_ROOT = "https://www.warlock-index.org/";
-const LEGACY_QUEUE_STORAGE_KEY = "wi.queue.paths";
+const STORAGE_KEY = "wi.queue.paths";
 const DEFAULT_QUERY = "strategic weapons";
 const EXPORT_STYLE_VERSION = "20260613-reader-packet";
+const MAX_QUEUE_ITEMS = 18;
 
 const routes = [
   { id: "all", label: "All records", match: () => true },
@@ -45,9 +46,10 @@ const state = {
   scope: "all",
   sort: "relevance",
   selectedPath: "",
-  queue: initialQueue(),
+  queue: readQueue(),
   exporting: false,
-  exportStatus: ""
+  exportStatus: "",
+  exportTone: ""
 };
 
 let deferredInstallPrompt = null;
@@ -66,9 +68,12 @@ const els = {
   resultList: document.querySelector("#result-list"),
   preview: document.querySelector("#preview-panel"),
   queue: document.querySelector("#queue-list"),
+  queueCurrent: document.querySelector("#queue-current"),
+  downloadCurrent: document.querySelector("#download-current"),
   clearQueue: document.querySelector("#clear-queue"),
   downloadQueue: document.querySelector("#download-queue"),
   downloadText: document.querySelector("#download-text"),
+  queueCount: document.querySelector("#queue-count"),
   queueStatus: document.querySelector("#queue-status"),
   sortMode: document.querySelector("#sort-mode")
 };
@@ -294,28 +299,45 @@ function selectItem(path) {
   render();
 }
 
-function clearLegacyQueueStorage() {
+function validQueuePath(path) {
+  return typeof path === "string" && corpus.some((item) => item.path === path);
+}
+
+function readQueue() {
   try {
-    localStorage.removeItem(LEGACY_QUEUE_STORAGE_KEY);
+    const paths = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+    if (!Array.isArray(paths)) return [];
+
+    const seen = new Set();
+    return paths
+      .filter(validQueuePath)
+      .filter((path) => {
+        if (seen.has(path)) return false;
+        seen.add(path);
+        return true;
+      })
+      .slice(0, MAX_QUEUE_ITEMS);
   } catch {
+    return [];
   }
 }
 
-function initialQueue() {
-  clearLegacyQueueStorage();
-  return [];
-}
-
 function syncQueueStorage() {
-  clearLegacyQueueStorage();
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.queue));
+  } catch {
+    // Queueing still works for the session if storage is blocked.
+  }
 }
 
 function toggleQueue(path) {
   if (!path) return;
   if (state.queue.includes(path)) {
     state.queue = state.queue.filter((entry) => entry !== path);
+    setExportStatus("Removed selected record from queue.", "success");
   } else {
-    state.queue = [path, ...state.queue].slice(0, 18);
+    state.queue = [path, ...state.queue].slice(0, MAX_QUEUE_ITEMS);
+    setExportStatus("Queued selected record.", "success");
   }
   syncQueueStorage();
   render();
@@ -323,22 +345,32 @@ function toggleQueue(path) {
 
 function removeQueueItem(path) {
   state.queue = state.queue.filter((entry) => entry !== path);
+  setExportStatus("Removed record from queue.", "success");
   syncQueueStorage();
   render();
 }
 
 function clearQueue() {
   state.queue = [];
+  setExportStatus("Queue cleared.", "success");
   syncQueueStorage();
   render();
 }
 
 function setExportStatus(message, tone = "") {
   state.exportStatus = message;
+  state.exportTone = tone;
   if (els.queueStatus) {
     els.queueStatus.textContent = message;
     els.queueStatus.dataset.tone = tone;
   }
+}
+
+function actionButtonContent(iconId, label) {
+  return `
+    <svg viewBox="0 0 24 24" aria-hidden="true"><use href="${escapeAttr(iconId)}"></use></svg>
+    <span>${escapeHtml(label)}</span>
+  `;
 }
 
 function exportSourceUrls(path) {
@@ -467,7 +499,7 @@ function readerPacketStyles() {
       --radius: 8px;
       --serif: Georgia, "Times New Roman", serif;
       --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      --mono: "Courier New", Courier, monospace;
     }
 
     * { box-sizing: border-box; }
@@ -861,6 +893,26 @@ ${records}
 `;
 }
 
+function fallbackDocumentForExport(item, error) {
+  const root = document.createElement("div");
+  const source = pathUrl(item.path);
+
+  root.innerHTML = `
+    <p>${escapeHtml(item.summary || "This record is available on the WARLOCK-INDEX site.")}</p>
+    <p><strong>Source path:</strong> <a href="${escapeAttr(source)}">${escapeHtml(item.path || source)}</a></p>
+    <p><strong>Export note:</strong> The workspace could not fetch the formatted body for this record during packet assembly${error?.message ? ` (${escapeHtml(error.message)})` : ""}. Use the source path above to open the live record.</p>
+  `;
+
+  return {
+    item,
+    sourceUrl: source,
+    title: item.title,
+    summary: item.summary || "",
+    body: root,
+    fallback: true
+  };
+}
+
 function downloadHtml(filename, html) {
   const blob = new Blob([html], { type: "text/html;charset=utf-8" });
   const url = URL.createObjectURL(blob);
@@ -934,13 +986,21 @@ async function exportReaderPacket(paths) {
   render();
 
   try {
-    const documents = await Promise.all(items.map(fetchDocumentForExport));
+    const documents = await Promise.all(items.map((item) =>
+      fetchDocumentForExport(item).catch((error) => fallbackDocumentForExport(item, error))
+    ));
     documents.forEach((document, index) => {
       document.id = `record-${index + 1}-${slugify(document.title).slice(0, 52)}`;
     });
 
     downloadHtml(exportFileName(items), renderReaderPacket(documents));
-    setExportStatus(`Downloaded ${formatCount(items.length, "record")}.`, "success");
+    const fallbackCount = documents.filter((document) => document.fallback).length;
+    setExportStatus(
+      fallbackCount
+        ? `Downloaded ${formatCount(items.length, "record")}; ${fallbackCount} used source-link fallback.`
+        : `Downloaded ${formatCount(items.length, "record")}.`,
+      "success"
+    );
   } catch (error) {
     console.error(error);
     setExportStatus("Could not build packet. Open the hosted workspace or run the site from the repository root.", "error");
@@ -1151,17 +1211,36 @@ function render() {
   state.selectedPath = bestInitialSelection(results);
   const selected = corpus.find((item) => item.path === state.selectedPath);
   const route = routeById(state.scope);
+  const queueSize = uniqueItemsForPaths(state.queue).length;
 
   els.corpusCount.textContent = formatCount(corpus.length, "record");
   els.activeScopeLabel.textContent = route.label;
   els.heading.textContent = state.query || route.label;
   els.resultCount.textContent = formatCount(results.length, "match");
+  if (els.queueCount) {
+    els.queueCount.textContent = String(queueSize);
+    els.queueCount.hidden = queueSize === 0;
+  }
 
   renderRoutes();
   renderQuickRoutes();
   renderResults(results);
   renderPreview(selected);
   renderQueue();
+  if (els.queueCurrent) {
+    const queued = selected && state.queue.includes(selected.path);
+    els.queueCurrent.disabled = !selected || state.exporting;
+    els.queueCurrent.innerHTML = actionButtonContent(queued ? "#icon-check" : "#icon-plus", queued ? "Queued" : "Queue");
+    els.queueCurrent.title = queued ? "Remove selected record from queue" : "Queue selected record";
+    els.queueCurrent.setAttribute("aria-label", queued ? "Remove selected record from queue" : "Queue selected record");
+    els.queueCurrent.setAttribute("aria-pressed", queued ? "true" : "false");
+  }
+  if (els.downloadCurrent) {
+    els.downloadCurrent.disabled = !selected || state.exporting;
+    els.downloadCurrent.innerHTML = actionButtonContent("#icon-package", "Reader file");
+    els.downloadCurrent.title = "Download selected reader file";
+    els.downloadCurrent.setAttribute("aria-label", "Download selected reader file");
+  }
   if (els.downloadQueue) {
     els.downloadQueue.disabled = !state.queue.length || state.exporting;
   }
@@ -1170,7 +1249,7 @@ function render() {
   }
   if (els.queueStatus) {
     els.queueStatus.textContent = state.exportStatus;
-    els.queueStatus.dataset.tone = state.exportStatus ? (els.queueStatus.dataset.tone || "") : "";
+    els.queueStatus.dataset.tone = state.exportStatus ? state.exportTone : "";
   }
   els.app.dataset.ready = "true";
 }
@@ -1213,6 +1292,12 @@ els.queue.addEventListener("click", (event) => {
 });
 
 els.clearQueue.addEventListener("click", clearQueue);
+els.queueCurrent?.addEventListener("click", () => {
+  if (!state.exporting) toggleQueue(state.selectedPath);
+});
+els.downloadCurrent?.addEventListener("click", () => {
+  if (state.selectedPath && !state.exporting) exportReaderPacket([state.selectedPath]);
+});
 els.downloadQueue?.addEventListener("click", () => exportReaderPacket(state.queue));
 els.downloadText?.addEventListener("click", () => exportTextBundle(state.queue));
 

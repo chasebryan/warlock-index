@@ -10,8 +10,8 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260617-sitewide-nav";
-const feedAssetVersion = "20260617-sitewide-nav";
+const libraryAssetVersion = "20260617-library-filter-coverage";
+const feedAssetVersion = "20260617-pressed-nav";
 const feedItemLimit = 40;
 
 const preferredOrder = [
@@ -551,13 +551,31 @@ function renderDocNav(currentDoc, docs) {
     <section class="doc-group">
       <h2>${escapeHtml(group)}</h2>
       ${entries.map((doc) => `
-        <a class="doc-link${doc.rel === currentDoc.rel ? " is-active" : ""}" href="${escapeAttr(relativeUrl(currentDoc.outputRel, doc.outputRel))}"${doc.rel === currentDoc.rel ? ' aria-current="page"' : ""}>
+        <a class="doc-link${doc.rel === currentDoc.rel ? " is-active" : ""}" href="${escapeAttr(relativeUrl(currentDoc.outputRel, doc.outputRel))}" data-filter="${escapeAttr(filterTextForDoc(doc))}"${doc.rel === currentDoc.rel ? ' aria-current="page"' : ""}>
           <strong>${escapeHtml(doc.title)}</strong>
           <span>${escapeHtml(doc.type)} ${escapeHtml(doc.theater)}</span>
         </a>
       `).join("")}
     </section>
   `).join("");
+}
+
+function filterTextForDoc(doc) {
+  return [
+    doc.title,
+    doc.type,
+    doc.group,
+    doc.theater,
+    doc.domain,
+    doc.summary,
+    doc.productId,
+    doc.preparedUtc,
+    doc.cutoffUtc,
+    doc.confidence,
+    doc.rel,
+    doc.outputRel,
+    ...(doc.tags || [])
+  ].filter(Boolean).join(" ");
 }
 
 function headerHtml(currentDoc) {
@@ -569,6 +587,8 @@ function headerHtml(currentDoc) {
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
   const feedUrl = relativeUrl(currentDoc.outputRel, "feed.xml");
+  const activeSection = primaryNavSection(currentDoc.outputRel);
+  const navAttrs = (section) => section === activeSection ? ' class="is-active" aria-current="page"' : "";
   return `
     <header class="site-header">
       <a class="brand-panel" href="${escapeAttr(home)}" aria-label="WARLOCK-INDEX home">
@@ -588,14 +608,23 @@ function headerHtml(currentDoc) {
     <nav class="primary-nav" aria-label="Primary navigation">
       <a href="${escapeAttr(home)}">Home</a>
       <a href="${escapeAttr(about)}">About</a>
-      <a href="${escapeAttr(assessments)}">Assessments</a>
-      <a href="${escapeAttr(collections)}">Collections</a>
-      <a href="${escapeAttr(maps)}">Maps</a>
-      <a href="${escapeAttr(standards)}">Standards</a>
+      <a${navAttrs("assessments")} href="${escapeAttr(assessments)}">Assessments</a>
+      <a${navAttrs("collections")} href="${escapeAttr(collections)}">Collections</a>
+      <a${navAttrs("maps")} href="${escapeAttr(maps)}">Maps</a>
+      <a${navAttrs("standards")} href="${escapeAttr(standards)}">Standards</a>
       <a href="${escapeAttr(feedUrl)}">Feed</a>
       <a href="${escapeAttr(workspaceApp)}">Workspace</a>
     </nav>
   `;
+}
+
+function primaryNavSection(outputRel) {
+  if (outputRel.startsWith("library/assessments/")) return "assessments";
+  if (outputRel.startsWith("library/maps/")) return "maps";
+  if (outputRel.startsWith("library/standards/")) return "standards";
+  if (outputRel.startsWith("library/collections/")) return "collections";
+  if (outputRel.startsWith("library/source-registers/")) return "collections";
+  return "";
 }
 
 function renderPage(currentDoc, docs, relToOutput) {

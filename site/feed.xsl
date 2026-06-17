@@ -25,7 +25,7 @@
             --purple: #551a8b;
             --line: rgba(0, 0, 0, 0.18);
             --line-purple: rgba(85, 26, 139, 0.26);
-            --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            --mono: "Courier New", Courier, monospace;
             --sans: Arial, Helvetica, sans-serif;
             --serif: Georgia, "Times New Roman", serif;
           }
@@ -155,11 +155,19 @@
           }
 
           .primary-nav a:hover,
-          .primary-nav a:focus-visible,
-          .primary-nav .is-active {
+          .primary-nav a:focus-visible {
             border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
             background: #dfd5ea;
             color: var(--purple);
+            outline: none;
+          }
+
+          .primary-nav .is-active,
+          .primary-nav a[aria-current="page"] {
+            border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+            background: var(--panel);
+            color: var(--green);
+            box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.18);
             outline: none;
           }
 
