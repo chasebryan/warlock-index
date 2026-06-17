@@ -414,12 +414,14 @@ svg {
 .result-pane,
 .inspector {
   min-height: 0;
+  height: 100%;
 }
 
 .route-rail {
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
   overflow: hidden;
+  height: 100%;
 }
 
 .rail-head,
@@ -546,6 +548,7 @@ svg {
   display: grid;
   grid-template-rows: auto auto minmax(0, 1fr);
   overflow: hidden;
+  height: 100%;
 }
 
 .pane-head {
@@ -771,6 +774,9 @@ svg {
   grid-template-rows: minmax(0, 1.25fr) minmax(220px, 0.75fr);
   gap: 0;
   min-width: 0;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
   background: var(--panel);
 }
 
@@ -778,6 +784,7 @@ svg {
 .queue-panel {
   overflow: hidden;
   border-right: 0;
+  min-height: 0;
 }
 
 .preview {
@@ -1084,6 +1091,9 @@ svg {
     grid-column: 1 / -1;
     grid-template-columns: minmax(0, 1fr) 320px;
     grid-template-rows: minmax(360px, auto);
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
   }
 }
 
@@ -1154,6 +1164,8 @@ svg {
   .inspector {
     grid-template-columns: 1fr;
     grid-template-rows: minmax(360px, auto) minmax(220px, auto);
+    height: 100%;
+    min-height: 0;
   }
 }
 

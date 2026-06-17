@@ -10,6 +10,12 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title><xsl:value-of select="/rss/channel/title"/></title>
+        <link rel="icon" href="/favicon.png?v=20260617-green-press" type="image/png" sizes="180x180"/>
+        <link rel="icon" href="/favicon.svg?v=20260617-green-press" type="image/svg+xml"/>
+        <link rel="shortcut icon" href="/favicon.png?v=20260617-green-press" type="image/png"/>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+        <link rel="mask-icon" href="/favicon.svg?v=20260617-green-press" color="#006b2b"/>
+        <link rel="manifest" href="/site.webmanifest"/>
         <style>
           :root {
             color-scheme: light;

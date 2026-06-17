@@ -1142,14 +1142,6 @@ function renderPreview(item) {
           <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-open"></use></svg>
           <span>Open on site</span>
         </a>
-        <button class="action-button" type="button" id="download-selected"${state.exporting ? " disabled" : ""}>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
-          <span>Reader file</span>
-        </button>
-        <button class="action-button" type="button" id="queue-selected">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="${queued ? "#icon-check" : "#icon-plus"}"></use></svg>
-          <span>${queued ? "Queued" : "Queue"}</span>
-        </button>
       </div>
     </div>
     <div class="preview-body">
@@ -1275,13 +1267,7 @@ els.resultList.addEventListener("click", (event) => {
 });
 
 els.preview.addEventListener("click", (event) => {
-  if (event.target.closest("#download-selected")) {
-    exportReaderPacket([state.selectedPath]);
-  }
-
-  if (event.target.closest("#queue-selected")) {
-    toggleQueue(state.selectedPath);
-  }
+  // open link handled by <a>, no other actions now (queue/reader moved to result-tools)
 });
 
 els.queue.addEventListener("click", (event) => {
