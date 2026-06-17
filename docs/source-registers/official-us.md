@@ -2,7 +2,71 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-14T19:56:06Z
+**Prepared UTC:** 2026-06-16T05:12:39Z
+
+## State Department Quad Source Family
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URLs:**
+  - https://www.state.gov/quad/
+  - https://www.state.gov/releases/office-of-the-spokesperson/2026/05/joint-statement-from-the-quad-foreign-ministers-meeting-in-new-delhi/
+- **Access note:** Current State Department Quad pages returned
+  technical-difficulties/forbidden responses in this environment.
+- **Use:** U.S. official source-family routing for Quad diplomatic statements,
+  factsheets, ministerial meetings, and future India/Quad strategic-partner
+  source refresh.
+- **Reliability note:** Correct official source family, but exact current
+  State text should not be summarized until later successful access or an
+  archived official capture.
+
+## White House Spirit Of The Quad
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2021-03-12
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2021/03/12/quad-leaders-joint-statement-the-spirit-of-the-quad/
+- **Use:** Foundational U.S. official public source for Quad leader-level
+  cooperation, free and open Indo-Pacific framing, international-law language,
+  vaccine/health, climate, critical technology, maritime cooperation, and
+  annual ministerial/leader engagement.
+- **Reliability note:** Authoritative for the March 2021 U.S. archival text.
+  It is historical archive material and should be cross-read with current Quad
+  and partner-national sources for implementation claims.
+
+## White House U.S.-India iCET Fact Sheet
+
+- **Source class:** A
+- **Publisher:** White House archived site
+- **Publication date:** 2023-01-31
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URL:** https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/01/31/fact-sheet-united-states-and-india-elevate-strategic-partnership-with-the-initiative-on-critical-and-emerging-technology-icet/
+- **Use:** U.S. official source for iCET, U.S.-India strategic technology
+  partnership, defense industrial cooperation, AI, quantum, advanced wireless,
+  semiconductors, space, regulatory barriers, and innovation-bridge source
+  routing.
+- **Reliability note:** Authoritative for the 2023 U.S. statement and
+  mechanism identity. It is not proof of current delivery, funding execution,
+  transfer approval, or technical implementation without follow-on U.S. and
+  Indian official evidence.
+
+## U.S. Indo-Pacific Command INDUS-X Launch Release
+
+- **Source class:** A
+- **Publisher:** U.S. Indo-Pacific Command
+- **Publication date:** 2023-06-22
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URL:** https://www.pacom.mil/Media/News/Article/3436228/launch-of-the-india-us-defense-acceleration-ecosystem-indus-x/
+- **Use:** U.S. DoD source for the India-U.S. Defense Acceleration Ecosystem,
+  defense innovation, defense-industrial cooperation, startup/academic
+  participation, public-private initiatives, and India/Quad partner
+  technology-lane routing.
+- **Reliability note:** Authoritative for U.S. DoD launch framing. It does not
+  prove procurement, delivered capability, technology transfer, or technical
+  detail and should not be used for procurement advice or controlled-data
+  workarounds.
 
 ## ODNI Annual Threat Assessment 2026
 

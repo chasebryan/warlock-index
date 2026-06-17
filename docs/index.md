@@ -2,9 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-Use this index to move through WARLOCK-INDEX standards, source registers,
-maps, assessments, actor profiles, source packets, timelines, trackers, and
-synthesis matrices.
+Use this index to move through standards, source registers, maps, assessments,
+actor profiles, source packets, timelines, trackers, and synthesis matrices.
 
 ## Standards
 
@@ -101,6 +100,7 @@ synthesis matrices.
 - [U.S.-Japan-ROK Trilateral Implementation Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0021Z-us-japan-rok-trilateral-implementation-source-packet.md)
 - [Australia Official Defence And AUKUS Source Baseline Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.md)
 - [AUKUS Industrial Implementation Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
+- [India/Quad Strategic-Partner Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-16T0512Z-india-quad-strategic-partner-source-packet.md)
 - [Japan Official Defense And Security Source Baseline Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.md)
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
 - [NATO Allied Capacity Source Packets](collections/source-packets/nato-allied-capacity)

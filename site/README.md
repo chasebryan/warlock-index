@@ -21,6 +21,9 @@ files:
 
 - `site/robots.txt` permits crawler access and points to the sitemap.
 - `site/sitemap.xml` lists the homepage and generated documentation pages.
+- `site/feed.xml` is an RSS feed for recent dated corpus entries. It references
+  `site/feed.xsl` so browsers render a readable recent-updates page at the
+  same URL while RSS clients still receive XML.
 
 Generated library pages include canonical URLs, index/follow robots metadata,
 and social preview metadata using `https://www.warlock-index.org/` as the
@@ -86,6 +89,8 @@ the live sitemap URLs to the IndexNow endpoint for Bing-family discovery.
 Current site requirements:
 
 - Browse by theater, actor, domain, and product date.
+- Provide a human-readable recent-updates feed at `/feed.xml` without
+  breaking RSS-reader compatibility.
 - Show information cutoff and confidence at the top of each product.
 - Preserve source lists.
 - Make prior versions discoverable.

@@ -10,8 +10,9 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const defaultShareImage = `${siteOrigin}/images/warlock-index-emblem.jpeg`;
-const libraryAssetVersion = "20260613-workspace-route";
+const libraryAssetVersion = "20260617-netscape-lite";
+const feedAssetVersion = "20260617-netscape-lite";
+const feedItemLimit = 40;
 
 const preferredOrder = [
   "index.md",
@@ -59,65 +60,28 @@ function absoluteUrl(outputRel = "index.html") {
   return cleanRel === "index.html" ? `${siteOrigin}/` : `${siteOrigin}/${cleanRel}`;
 }
 
-function parsePreparedDate(value) {
-  if (!value) return null;
-  // Accept "2026-06-12T23:20:35Z" or compact variants or filename-style
-  const cleaned = String(value).replace(/[^0-9T:-]/g, "").replace(/T(\d{2})(\d{2})Z/i, "T$1:$2:00Z");
-  const d = new Date(cleaned.length > 10 ? cleaned : value);
-  return isNaN(d.getTime()) ? null : d;
+function parseUtcDate(value) {
+  const source = String(value || "");
+  const match = source.match(/(\d{4})-(\d{2})-(\d{2})(?:[T\s](\d{2}):?(\d{2})?(?::?(\d{2}))?Z?)?/);
+  if (!match) return null;
+
+  const [, year, month, day, hour = "00", minute = "00", second = "00"] = match;
+  const date = new Date(Date.UTC(
+    Number(year),
+    Number(month) - 1,
+    Number(day),
+    Number(hour),
+    Number(minute || "00"),
+    Number(second || "00")
+  ));
+
+  return Number.isNaN(date.getTime()) ? null : date;
 }
 
-function formatRfc3339(d) {
-  return d.toISOString();
-}
-
-function generateAtomFeed(docs, generatedUtc) {
-  const siteTitle = "WARLOCK-INDEX";
-  const feedUrl = `${siteOrigin}/feed.xml`;
-  const feedId = siteOrigin + "/";
-
-  const items = docs
-    .map((doc) => ({ doc, date: parsePreparedDate(doc.preparedUtc) }))
-    .filter((e) => e.date)
-    .sort((a, b) => b.date.getTime() - a.date.getTime())
-    .slice(0, 40);
-
-  const entries = items.map(({ doc, date }) => {
-    const entryUrl = absoluteUrl(doc.outputRel);
-    const updated = formatRfc3339(date);
-    const rawSummary = (doc.summary || doc.title).slice(0, 320);
-    const summary = escapeXml(rawSummary.length < (doc.summary || "").length ? rawSummary + "..." : rawSummary);
-    const title = escapeXml(doc.title);
-    return [
-      "  <entry>",
-      `    <title>${title}</title>`,
-      `    <link href="${escapeXml(entryUrl)}" />`,
-      `    <id>${escapeXml(entryUrl)}</id>`,
-      `    <updated>${updated}</updated>`,
-      `    <summary>${summary}</summary>`,
-      `    <category term="${escapeXml(doc.type)}" />`,
-      `    <category term="${escapeXml(doc.theater)}" />`,
-      "  </entry>"
-    ].join("\n");
-  }).join("\n");
-
-  const feedUpdated = items.length > 0 ? formatRfc3339(items[0].date) : formatRfc3339(new Date(generatedUtc));
-
-  return [
-    '<?xml version="1.0" encoding="utf-8"?>',
-    '<feed xmlns="http://www.w3.org/2005/Atom">',
-    `  <title>${siteTitle}</title>`,
-    `  <subtitle>Open-source strategic research corpus</subtitle>`,
-    `  <link href="${escapeXml(siteOrigin)}/" />`,
-    `  <link rel="self" href="${escapeXml(feedUrl)}" />`,
-    `  <id>${feedId}</id>`,
-    `  <updated>${feedUpdated}</updated>`,
-    `  <author><name>WARLOCK-INDEX</name></author>`,
-    "  <rights>UNCLASSIFIED//OPEN SOURCE. For research continuity only.</rights>",
-    entries,
-    "</feed>",
-    ""
-  ].join("\n");
+function feedDateForDoc(doc) {
+  return parseUtcDate(doc.preparedUtc)
+    || parseUtcDate(doc.cutoffUtc)
+    || parseUtcDate(doc.rel);
 }
 
 const titleCase = (value) => value
@@ -197,6 +161,9 @@ function extractSummary(markdown) {
   const candidate = bottomLine >= 0 ? firstParagraphAfter(lines, bottomLine + 1) : "";
   if (candidate) return trimSummary(candidate);
 
+  const fieldCandidate = extractField(markdown, ["Purpose", "Summary", "Use"]);
+  if (fieldCandidate) return trimSummary(fieldCandidate);
+
   for (let index = 0; index < lines.length; index += 1) {
     const line = lines[index].trim();
     if (!line || /^#{1,6}\s+/.test(line)) continue;
@@ -215,6 +182,13 @@ function trimSummary(value) {
   return cleaned;
 }
 
+function displaySummary(value) {
+  return String(value ?? "")
+    .replace(/\bWARLOCK-INDEX\b/g, "the corpus")
+    .replace(/\bWarlock-Index\b/g, "the corpus")
+    .replace(/\bwarlock-index\b/g, "the corpus");
+}
+
 function cleanMetadataValue(value) {
   return value
     .replace(/\*\*/g, "")
@@ -226,7 +200,8 @@ function cleanMetadataValue(value) {
 function extractField(markdown, labels) {
   const lines = markdown.split("\n");
   const labelPattern = labels.map((label) => label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
-  const startPattern = new RegExp(`^\\*\\*(?:${labelPattern}):\\*\\*\\s*(.*)$`, "i");
+  const startPattern = new RegExp(`^(?:[-*+]\\s+)?\\*\\*(?:${labelPattern}):\\*\\*\\s*(.*)$`, "i");
+  const fieldPattern = /^(?:[-*+]\s+)?\*\*[^*]+:\*\*/;
 
   for (let index = 0; index < lines.length; index += 1) {
     const match = lines[index].trim().match(startPattern);
@@ -235,7 +210,7 @@ function extractField(markdown, labels) {
     const valueLines = [match[1].trim()].filter(Boolean);
     for (let next = index + 1; next < lines.length; next += 1) {
       const line = lines[next].trim();
-      if (!line || /^#{1,6}\s+/.test(line) || /^\*\*[^*]+:\*\*/.test(line)) break;
+      if (!line || /^#{1,6}\s+/.test(line) || fieldPattern.test(line)) break;
       valueLines.push(line);
     }
 
@@ -557,12 +532,17 @@ function navGroups(docs) {
 
 function renderDocNav(currentDoc, docs) {
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
+  const feedUrl = relativeUrl(currentDoc.outputRel, "feed.xml");
   const siteRoutes = `
     <section class="doc-group site-routes">
       <h2>Site</h2>
       <a class="doc-link site-route-link" href="${escapeAttr(workspaceApp)}" data-site-route="workspace" data-filter="workspace wi browse records download application pwa android apple ios ipad macos windows linux">
         <strong>Workspace</strong>
         <span>Browse / download</span>
+      </a>
+      <a class="doc-link site-route-link" href="${escapeAttr(feedUrl)}" data-site-route="feed" data-filter="feed rss latest updates new recent source packets assessments trackers">
+        <strong>Updates Feed</strong>
+        <span>Recent updates</span>
       </a>
     </section>
   `;
@@ -588,23 +568,24 @@ function headerHtml(currentDoc) {
   const maps = relativeUrl(currentDoc.outputRel, "library/maps/index.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
+  const feedUrl = relativeUrl(currentDoc.outputRel, "feed.xml");
 
   return `
     <header class="site-header">
+      <a class="brand-lockup" href="${escapeAttr(home)}" aria-label="WARLOCK-INDEX home">
+        <span>
+          <strong>WARLOCK-INDEX</strong>
+          <em>Open-source corpus</em>
+        </span>
+      </a>
       <nav class="primary-nav" aria-label="Primary navigation">
-        <a class="home-link" href="${escapeAttr(home)}" aria-label="Home">
-          <svg viewBox="0 0 48 48" aria-hidden="true">
-            <path d="M24 4 29.2 18.8 44 24l-14.8 5.2L24 44l-5.2-14.8L4 24l14.8-5.2L24 4Z"></path>
-            <path d="M24 12v24M12 24h24"></path>
-          </svg>
-        </a>
         <a href="${escapeAttr(docsIndex)}">Index</a>
         <a href="${escapeAttr(assessments)}">Assessments</a>
         <a href="${escapeAttr(collections)}">Collections</a>
         <a href="${escapeAttr(maps)}">Maps</a>
         <a href="${escapeAttr(standards)}">Standards</a>
+        <a href="${escapeAttr(feedUrl)}">Feed</a>
         <a href="${escapeAttr(workspaceApp)}">Workspace</a>
-        <a href="${siteOrigin}/feed.xml" rel="alternate">Feed</a>
       </nav>
     </header>
   `;
@@ -625,26 +606,24 @@ function renderPage(currentDoc, docs, relToOutput) {
     <meta name="description" content="${escapeAttr(currentDoc.summary)}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="${escapeAttr(canonicalUrl)}">
-    <link rel="icon" href="/favicon.png" type="image/png" sizes="180x180">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
+    <link rel="icon" href="/favicon.png?v=20260617-netscape-lite" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=20260617-netscape-lite" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=20260617-netscape-lite" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="mask-icon" href="/favicon.svg" color="#d9ff2d">
+    <link rel="mask-icon" href="/favicon.svg?v=20260617-netscape-lite" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#020303">
+    <meta name="theme-color" content="#c0c0c0">
     <meta property="og:title" content="${escapeAttr(`${currentDoc.title} | ${siteName}`)}">
     <meta property="og:description" content="${escapeAttr(currentDoc.summary)}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="${escapeAttr(canonicalUrl)}">
     <meta property="og:site_name" content="${escapeAttr(siteName)}">
-    <meta property="og:image" content="${escapeAttr(defaultShareImage)}">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="${escapeAttr(`${currentDoc.title} | ${siteName}`)}">
     <meta name="twitter:description" content="${escapeAttr(currentDoc.summary)}">
-    <meta name="twitter:image" content="${escapeAttr(defaultShareImage)}">
     <title>${escapeHtml(currentDoc.title)} | ${siteName}</title>
     <link rel="stylesheet" href="${escapeAttr(rootCss)}">
-    <link rel="alternate" type="application/atom+xml" title="WARLOCK-INDEX Updates" href="${siteOrigin}/feed.xml">
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
@@ -652,7 +631,7 @@ function renderPage(currentDoc, docs, relToOutput) {
     <main class="reader-shell">
       <aside class="reader-sidebar" aria-label="Document map">
         <div class="sidebar-head">
-          <div class="sidebar-mark">WARLOCK-INDEX</div>
+          <div class="sidebar-mark">Corpus index</div>
           <p>Documentation corpus</p>
           <label class="sidebar-search" for="doc-filter">
             <span aria-hidden="true">wi:</span>
@@ -673,16 +652,10 @@ function renderPage(currentDoc, docs, relToOutput) {
             <span class="source-path">docs/${escapeHtml(currentDoc.rel)}</span>
           </div>
           <h1>${escapeHtml(currentDoc.title)}</h1>
-          <p class="article-summary">${escapeHtml(currentDoc.summary)}</p>
+          <p class="article-summary">${escapeHtml(displaySummary(currentDoc.summary))}</p>
           <div class="article-actions">
             <a href="${escapeAttr(docsIndex)}">Full Index</a>
-            <button type="button" class="cite-button" data-cite-for="${escapeAttr(currentDoc.outputRel)}">Cite</button>
           </div>
-          <details class="cite-box" hidden>
-            <summary>Citation</summary>
-            <pre class="cite-text" data-cite-text></pre>
-            <button type="button" class="copy-cite">Copy</button>
-          </details>
         </header>
         <div class="markdown-body">
 ${body}
@@ -693,6 +666,51 @@ ${body}
   </body>
 </html>
 `;
+}
+
+function latestFeedDocs(docs) {
+  return docs
+    .map((doc) => ({ ...doc, feedDate: feedDateForDoc(doc) }))
+    .filter((doc) => doc.feedDate)
+    .sort((a, b) => b.feedDate.getTime() - a.feedDate.getTime() || a.title.localeCompare(b.title))
+    .slice(0, feedItemLimit);
+}
+
+function renderFeed(docs) {
+  const items = latestFeedDocs(docs);
+  const latestDate = items[0]?.feedDate || new Date(Date.UTC(2026, 5, 13, 0, 0, 0));
+
+  return [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    `<?xml-stylesheet type="text/xsl" href="/feed.xsl?v=${feedAssetVersion}"?>`,
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+    "  <channel>",
+    `    <title>${escapeXml(siteName)} Recent Corpus Updates</title>`,
+    `    <link>${escapeXml(siteOrigin)}/</link>`,
+    `    <atom:link href="${escapeXml(`${siteOrigin}/feed.xml`)}" rel="self" type="application/rss+xml"/>`,
+    "    <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>",
+    "    <language>en-us</language>",
+    `    <lastBuildDate>${latestDate.toUTCString()}</lastBuildDate>`,
+    "    <generator>WARLOCK-INDEX static site generator</generator>",
+    ...items.map((doc) => {
+      const url = absoluteUrl(doc.outputRel);
+      return [
+        "    <item>",
+        `      <title>${escapeXml(doc.title)}</title>`,
+        `      <link>${escapeXml(url)}</link>`,
+        `      <guid isPermaLink="true">${escapeXml(url)}</guid>`,
+        `      <pubDate>${doc.feedDate.toUTCString()}</pubDate>`,
+        `      <category>${escapeXml(doc.type)}</category>`,
+        `      <category>${escapeXml(doc.theater)}</category>`,
+        `      <category>${escapeXml(doc.domain)}</category>`,
+        `      <description>${escapeXml(displaySummary(doc.summary))}</description>`,
+        "    </item>"
+      ].join("\n");
+    }),
+    "  </channel>",
+    "</rss>",
+    ""
+  ].join("\n");
 }
 
 async function build() {
@@ -749,13 +767,9 @@ async function build() {
     tags: doc.tags
   }));
 
-  const corpusScript = `window.WARLOCK_INDEX_CORPUS = ${JSON.stringify(corpus, null, 2)};\n`;
+  const corpusScript = `window.WARLOCK_INDEX_CORPUS=${JSON.stringify(corpus)};\n`;
   await writeFile(path.join(siteRoot, "corpus.js"), corpusScript, "utf8");
   await writeFile(path.join(siteRoot, "workspace", "corpus.js"), corpusScript, "utf8");
-
-  // Generate Atom feed from dated products
-  const feedXml = generateAtomFeed(docs, new Date().toISOString());
-  await writeFile(path.join(siteRoot, "feed.xml"), feedXml, "utf8");
 
   const workspaceShellHashSource = [
     corpusScript,
@@ -805,6 +819,7 @@ async function build() {
 
   await writeFile(path.join(siteRoot, "sitemap.xml"), sitemap, "utf8");
   await writeFile(path.join(siteRoot, "robots.txt"), robots, "utf8");
+  await writeFile(path.join(siteRoot, "feed.xml"), renderFeed(docs), "utf8");
 
   console.log(`Generated ${docs.length} documentation pages, corpus.js, feed.xml, sitemap.xml, and robots.txt`);
 }

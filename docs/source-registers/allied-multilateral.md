@@ -2,7 +2,90 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-16T03:30:00Z
+**Prepared UTC:** 2026-06-16T05:12:39Z
+
+## Australian DFAT Quad Source Hub
+
+- **Source class:** A
+- **Publisher:** Australian Department of Foreign Affairs and Trade
+- **Publication status:** Public source page current as accessed
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URL:** https://www.dfat.gov.au/international-relations/regional-architecture/quad
+- **Use:** Official Quad source-family routing for partner terminology,
+  meeting architecture, key publications, priority areas, ASEAN/Pacific/Indian
+  Ocean coordination, and India/Quad strategic-partner source work.
+- **Reliability note:** Authoritative for Australian official public framing
+  of the Quad and useful as a source hub. It is not Indian, U.S., Japanese, or
+  implementation evidence by itself.
+
+## Quad New Delhi 2026 Ministerial Source Package
+
+- **Source class:** A
+- **Publisher:** Australian Minister for Foreign Affairs
+- **Publication date:** 2026-05-26
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URLs:**
+  - https://www.foreignminister.gov.au/minister/penny-wong/media-release/quad-foreign-ministers-meeting-joint-statement
+  - https://www.foreignminister.gov.au/minister/penny-wong/media-release/factsheet-quad-foreign-ministers-meeting-new-delhi-may-2026
+- **Use:** Current official Quad ministerial baseline for New Delhi 2026,
+  including maritime and transnational security, critical minerals, energy
+  security, ports, cables, digital standards, AI/agriculture, HADR, health
+  security, and partner-coordination source routing.
+- **Reliability note:** Authoritative for the joint statement and factsheet
+  text as published by Australia. Implementation, funding, and program-delivery
+  claims require partner-national, legal, budget, and program evidence.
+
+## Quad Critical Minerals And Energy Source Families
+
+- **Source class:** A
+- **Publisher:** Australian Minister for Foreign Affairs
+- **Publication date:** 2026-05-26
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URLs:**
+  - https://www.foreignminister.gov.au/minister/penny-wong/media-release/quad-critical-minerals-initiative-framework-among-united-states-japan-australia-and-india
+  - https://www.foreignminister.gov.au/minister/penny-wong/media-release/quad-statement-indo-pacific-energy-security
+- **Use:** Official Quad routing for critical minerals, investment/project
+  development, regulatory alignment, recycling/recovery, Indo-Pacific energy
+  security, energy resilience, and economic-security follow-on work.
+- **Reliability note:** Source-family and framework evidence only. Do not
+  convert into investment advice, route guidance, sanctions or export-control
+  evasion, procurement recommendations, or implementation claims without
+  follow-on source checks.
+
+## India MEA Foreign-Policy And Media Source Families
+
+- **Source class:** A
+- **Publisher:** Ministry of External Affairs, Government of India
+- **Publication status:** Dynamic official source-family pages current as
+  accessed
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URLs:**
+  - https://www.mea.gov.in/foreign-relations
+  - https://www.mea.gov.in/bilateral-documents
+  - https://www.mea.gov.in/press-releases
+  - https://www.mea.gov.in/annualreports
+- **Use:** Indian official source-family routing for bilateral briefs,
+  regional organizations, bilateral/multilateral documents, press releases,
+  annual reports, India-U.S. relations, Quad, and Indo-Pacific strategic
+  partner follow-on work.
+- **Reliability note:** Correct official source families, but the pages use
+  dynamic listings. Product-level extraction should refresh exact documents,
+  PDFs, or official captures before making stronger claims.
+
+## India PIB U.S.-India AI And Quantum Call
+
+- **Source class:** A
+- **Publisher:** Press Information Bureau, Government of India / Ministry of
+  Science and Technology
+- **Publication date:** 2023-07-18
+- **Accessed UTC:** 2026-06-16T05:12:39Z
+- **URL:** https://www.pib.gov.in/PressReleasePage.aspx?PRID=1940458&reg=48&lang=2
+- **Use:** Indian official routing for U.S.-India critical and emerging
+  technology collaboration, AI, quantum, USISTEF, applied R&D proposals, and
+  iCET follow-on evidence.
+- **Reliability note:** Authoritative for the Indian government release and
+  program-launch framing. Awards, delivery, commercial outcomes, and technical
+  implementation require later official and program evidence.
 
 ## Danish Defence Agreement 2024-2033
 

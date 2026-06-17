@@ -1,21 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">WARLOCK-INDEX navigator mark</title>
-  <rect width="64" height="64" rx="14" fill="#020303"/>
-  <circle cx="32" cy="32" r="24" fill="none" stroke="#465112" stroke-width="2"/>
-  <path
-    d="M32 7 39.1 24.9 57 32l-17.9 7.1L32 57l-7.1-17.9L7 32l17.9-7.1L32 7Z"
-    fill="none"
-    stroke="#d9ff2d"
-    stroke-linecap="square"
-    stroke-linejoin="miter"
-    stroke-width="3"
-  />
-  <path
-    d="M32 17v30M17 32h30"
-    fill="none"
-    stroke="#f4ead3"
-    stroke-linecap="square"
-    stroke-linejoin="miter"
-    stroke-width="2"
-  />
+  <title id="title">WARLOCK-INDEX corpus document mark</title>
+  <rect width="64" height="64" fill="#777777"/>
+  <rect x="5" y="5" width="54" height="54" fill="#c0c0c0"/>
+  <path d="M5 59V5h54" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M59 5v54H5" fill="none" stroke="#6f6f6f" stroke-width="3"/>
+  <rect x="12" y="12" width="40" height="40" fill="#f7f7ef" stroke="#090909" stroke-width="2"/>
+  <rect x="12" y="12" width="40" height="8" fill="#006b2b"/>
+  <rect x="44" y="12" width="8" height="8" fill="#551a8b"/>
+  <path d="M18 28h28M18 34h28M18 40h20" fill="none" stroke="#090909" stroke-width="3"/>
+  <path d="M18 47h28" fill="none" stroke="#006b2b" stroke-width="3"/>
 </svg>

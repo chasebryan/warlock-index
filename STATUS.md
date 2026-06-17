@@ -2,8 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-17 (tool-assisted enhancements)
-**Last tool update UTC:** 2026-06-17T12:xxZ
+**Prepared UTC:** 2026-06-17 (tool-assisted site/feed update)
 
 ## Completed
 
@@ -284,7 +283,6 @@
   no-basing-vulnerability, no-cyber-technical-detail, no-readiness-scoring,
   and no-operational-guidance boundaries.
 - Added the Iceland official security, defense, and NATO source packet with
-- Added Atom feed generation (/feed.xml), recent updates block on homepage, date-aware search boosting and sort options (homepage + Workspace), "Cite this" on document pages, text bundle export in Workspace, print-optimized styles, CONTRIBUTING.md, and issue templates. Build and check now track feed.xml.
   Government of Iceland, Ministry for Foreign Affairs, security/defence, NATO,
   Arctic, Icelandic Coast Guard, NATO air-policing, parliamentary/budget,
   cyber/civil-security source-family routing, allied register, tracker,
@@ -301,6 +299,20 @@
   no-procurement-advice, no-sanctions-evasion-guidance,
   no-cyber-technical-detail, no-readiness-scoring, and
   no-operational-guidance boundaries.
+- Added the India/Quad strategic-partner source packet with DFAT Quad hub,
+  2026 New Delhi Quad ministerial joint statement/factsheet, Quad critical
+  minerals and energy-security source families, 2024 and 2021 Quad leader
+  statements, White House iCET, USINDOPACOM INDUS-X, Indian PIB AI/quantum,
+  MEA source-family routing, allied register, official-U.S. register, allied
+  tracker, official allied matrix, global matrix, coverage-map, Indo-Pacific
+  source-packet README, and docs-index wiring while preserving partner-not-ally
+  terminology, no-maritime-route-guidance, no-patrol-planning,
+  no-procurement-advice, no-technology-transfer-workarounds,
+  no-cyber-technical-detail, and no-operational-guidance boundaries.
+- Updated the public website toward a lighter old-school corpus interface,
+  added a browser-readable RSS feed at `/feed.xml`, refreshed favicon assets,
+  retained recent-update discovery surfaces, and reduced image/cache weight on
+  the main public pages.
 
 ## Current Analytical Posture
 
@@ -339,7 +351,9 @@ The repository is in baseline-building mode. Products prioritize:
   the WMD/biosecurity source baseline and Ukraine claim-reconciliation queues.
 - Add follow-on implementation packets for Republic of Korea extended
   deterrence/NCG and defense white-paper verification, AUKUS industrial
-  implementation refreshes, Australia investment/delivery, France LPM
+  implementation refreshes, Australia investment/delivery, India defense
+  policy/budget verification, Quad critical-minerals/energy implementation,
+  U.S.-India iCET/INDUS-X implementation, France LPM
   implementation and nuclear/cyber/Indo-Pacific
   follow-on lanes, Germany defense investment/budget implementation,
   Bundeswehr force-design/readiness evidence, defense-industrial/procurement,

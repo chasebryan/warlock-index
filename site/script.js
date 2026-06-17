@@ -3,13 +3,11 @@ const corpus = window.WARLOCK_INDEX_CORPUS || [];
 const form = document.querySelector("#search-form");
 const input = document.querySelector("#search-input");
 const output = document.querySelector("#terminal-output");
+const latestList = document.querySelector("#latest-list");
+const resultStatus = document.querySelector("#result-status");
+const resultCount = document.querySelector("#result-count");
+const statusUpdated = document.querySelector("#status-updated");
 const suggestionButtons = document.querySelectorAll("[data-query]");
-const defaultResults = [...corpus]
-  .map((item) => ({ item, d: parseDate(item.preparedUtc) }))
-  .sort((a, b) => (b.d ? b.d.getTime() : 0) - (a.d ? a.d.getTime() : 0))
-  .slice(0, 4)
-  .map((e) => e.item);
-const cosmosCanvas = document.querySelector("#cosmos-canvas");
 
 function escapeHtml(value) {
   return String(value ?? "")
@@ -24,16 +22,39 @@ function normalize(value) {
 }
 
 function parseDate(value) {
-  if (!value) return null;
-  const cleaned = String(value).replace(/[^0-9T:-]/g, "").replace(/T(\d{2})(\d{2})Z?$/i, "T$1:$2:00Z");
-  const d = new Date(cleaned);
-  return isNaN(d.getTime()) ? null : d;
+  const source = String(value || "");
+  const match = source.match(/(\d{4})-(\d{2})-(\d{2})(?:[T\s](\d{2}):?(\d{2})?(?::?(\d{2}))?Z?)?/);
+  if (!match) return null;
+
+  const [, year, month, day, hour = "00", minute = "00", second = "00"] = match;
+  const date = new Date(Date.UTC(
+    Number(year),
+    Number(month) - 1,
+    Number(day),
+    Number(hour),
+    Number(minute || "00"),
+    Number(second || "00")
+  ));
+
+  return Number.isNaN(date.getTime()) ? null : date;
 }
 
-function formatShortDate(d) {
-  if (!d) return "";
-  return d.toISOString().slice(0, 10);
+function itemDate(item) {
+  return parseDate(item.preparedUtc) || parseDate(item.cutoffUtc) || parseDate(item.path);
 }
+
+function isProduct(item) {
+  return item
+    && item.path
+    && !["Directory", "Navigation"].includes(item.type)
+    && itemDate(item);
+}
+
+const productItems = corpus
+  .filter(isProduct)
+  .sort((a, b) => itemDate(b).getTime() - itemDate(a).getTime() || a.title.localeCompare(b.title));
+
+const defaultResults = productItems.slice(0, 5);
 
 function itemHaystack(item) {
   return normalize([
@@ -56,10 +77,12 @@ function routeTypeForTerms(terms) {
     "source packets": "source packet",
     "actor profiles": "actor profile",
     assessments: "assessment",
+    collections: "document",
     trackers: "tracker",
     timelines: "timeline",
     standards: "standard",
-    matrices: "matrix"
+    matrices: "matrix",
+    maps: "map resource"
   };
   return routes[joined] || "";
 }
@@ -72,23 +95,26 @@ function scoreItem(item, terms) {
   let score = 0;
 
   terms.forEach((term) => {
-    if (title.includes(term)) score += 6;
-    if (tagText.includes(term)) score += 4;
+    if (title.includes(term)) score += 8;
+    if (tagText.includes(term)) score += 5;
     if (haystack.includes(term)) score += 2;
   });
 
   if (terms.length > 1 && haystack.includes(terms.join(" "))) {
-    score += 5;
+    score += 7;
   }
 
   if (routeType && normalize(item.type) === routeType) {
-    score += 14;
+    score += 16;
   }
 
   if (terms.includes("official") && terms.includes("sources")) {
     if (normalize(item.type) === "source register") score += 12;
-    if (title.includes("official") || title.includes("intelligence and law enforcement")) score += 8;
-    if (haystack.includes("threat source")) score += 8;
+    if (title.includes("official") || haystack.includes("threat source")) score += 8;
+  }
+
+  if (itemDate(item)) {
+    score += 1;
   }
 
   return score;
@@ -101,112 +127,121 @@ function searchCorpus(query) {
   }
 
   const terms = normalized.split(" ").filter(Boolean);
-  return corpus
-    .map((item) => ({ item, score: scoreItem(item, terms), date: parseDate(item.preparedUtc) }))
+  return productItems
+    .map((item) => ({ item, score: scoreItem(item, terms) }))
     .filter((entry) => entry.score > 0)
-    .sort((a, b) => {
-      if (b.score !== a.score) return b.score - a.score;
-      const da = a.date ? a.date.getTime() : 0;
-      const db = b.date ? b.date.getTime() : 0;
-      if (db !== da) return db - da;
-      return a.item.title.localeCompare(b.item.title);
-    })
-    .slice(0, 6)
+    .sort((a, b) => b.score - a.score || itemDate(b.item).getTime() - itemDate(a.item).getTime())
+    .slice(0, 5)
     .map((entry) => entry.item);
 }
 
 function routeLine(query, results) {
   if (!query.trim()) {
-    return "Standing by with core corpus routes.";
+    return "Default: recent indexed entries.";
   }
 
   if (results.length === 0) {
-    return `No direct hit for "${query}". Routing to the documentation index and source registers.`;
+    return `No direct hit for "${query}".`;
   }
 
   const types = [...new Set(results.map((item) => item.type))].slice(0, 3).join(", ");
   return `Matched "${query}" across ${results.length} route${results.length === 1 ? "" : "s"}: ${types}.`;
 }
 
-function findTitleIncludes(value) {
-  const needle = normalize(value);
-  return corpus.find((item) => normalize(item.title).includes(needle));
+function formatShortDate(value) {
+  const date = value instanceof Date ? value : parseDate(value);
+  if (!date) return "UNDATE";
+
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  const month = date.toLocaleString("en-US", { month: "short", timeZone: "UTC" }).toUpperCase();
+  return `${day} ${month} ${date.getUTCFullYear()}`;
 }
 
-function formatUtcDate(value) {
-  if (!value) return "";
-  const match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
-  return match ? `${match[1]}-${match[2]}-${match[3]}` : value;
-}
-
-function confidenceLabel(value) {
-  if (!value) return "";
-  const match = String(value).match(/^(high|moderate(?:\s+to\s+high)?|low)\b/i);
-  return match ? match[1].replace(/\b\w/g, (letter) => letter.toUpperCase()) : value;
-}
-
-function resultFacts(item) {
+function formatStatusDate(date) {
+  if (!date) return "";
+  const pad = (value) => String(value).padStart(2, "0");
   return [
-    item.preparedUtc ? `Prepared ${formatUtcDate(item.preparedUtc)}` : "",
-    item.confidence ? `Confidence ${confidenceLabel(item.confidence)}` : "",
-    item.productId || ""
-  ].filter(Boolean);
+    date.getUTCFullYear(),
+    "-",
+    pad(date.getUTCMonth() + 1),
+    "-",
+    pad(date.getUTCDate()),
+    " ",
+    pad(date.getUTCHours()),
+    ":",
+    pad(date.getUTCMinutes()),
+    ":",
+    pad(date.getUTCSeconds()),
+    "Z"
+  ].join("");
 }
 
-function renderCard(item) {
-  const facts = resultFacts(item);
+function displaySummary(value) {
+  return String(value ?? "")
+    .replace(/\bWARLOCK-INDEX\b/g, "the corpus")
+    .replace(/\bWarlock-Index\b/g, "the corpus")
+    .replace(/\bwarlock-index\b/g, "the corpus");
+}
+
+function trimSummary(value, maxLength = 180) {
+  const summary = displaySummary(value).replace(/\s+/g, " ").trim();
+  if (summary.length <= maxLength) return summary;
+  return `${summary.slice(0, maxLength - 1).trim()}…`;
+}
+
+function collectionLabel(item) {
+  const path = item.path || "";
+  if (path.includes("/assessments/")) return "Assessments";
+  if (path.includes("/collections/")) return "Collections";
+  if (path.includes("/source-registers/")) return "Sources";
+  if (path.includes("/standards/")) return "Standards";
+  if (path.includes("/maps/")) return "Maps";
+  return item.domain || item.theater || "Corpus";
+}
+
+function renderResultRow(item) {
+  const date = itemDate(item);
   return `
-    <a class="result-card" href="${escapeHtml(item.path)}">
-      <span class="result-meta">
-        <span>${escapeHtml(item.type)}</span>
-        <span>${escapeHtml(item.theater)}</span>
-        <span>${escapeHtml(item.domain)}</span>
-      </span>
-      <strong>${escapeHtml(item.title)}</strong>
-      ${facts.length ? `
-        <span class="result-facts">
-          ${facts.map((fact) => `<span>${escapeHtml(fact)}</span>`).join("")}
-        </span>
-      ` : ""}
-      <p>${escapeHtml(item.summary)}</p>
-    </a>
+    <tr>
+      <td>
+        <div class="result-title-cell">
+          <span class="doc-glyph" aria-hidden="true"></span>
+          <div>
+            <a class="result-title" href="${escapeHtml(item.path)}">${escapeHtml(item.title)}</a>
+            <p class="result-summary">${escapeHtml(trimSummary(item.summary))}</p>
+          </div>
+        </div>
+      </td>
+      <td>${escapeHtml(item.type || "Document")}</td>
+      <td>${escapeHtml(formatShortDate(date))}</td>
+      <td>${escapeHtml(collectionLabel(item))}</td>
+      <td>HTML</td>
+    </tr>
   `;
 }
 
 function renderResults(query, results) {
-  const fallback = results.length ? results : [
-    corpus[0],
-    findTitleIncludes("Official U.S."),
-    findTitleIncludes("Source Evaluation Standard")
-  ].filter(Boolean);
-
-  output.innerHTML = `
-    <p class="agent-line"><strong>wi</strong> ${escapeHtml(routeLine(query, results))}</p>
-    ${fallback.map(renderCard).join("")}
-  `;
+  const fallback = results.length ? results : defaultResults;
+  output.innerHTML = fallback.map(renderResultRow).join("");
+  resultStatus.textContent = routeLine(query, results);
+  resultCount.textContent = `Showing results 1-${fallback.length} of ${productItems.length}`;
 }
 
-function renderRecent() {
-  const recentEl = document.getElementById("recent-list");
-  if (!recentEl) return;
-
-  const dated = corpus
-    .map((item) => ({ item, d: parseDate(item.preparedUtc) }))
-    .filter((e) => e.d)
-    .sort((a, b) => b.d.getTime() - a.d.getTime())
-    .slice(0, 6);
-
-  if (!dated.length) {
-    recentEl.innerHTML = `<p style="color:var(--dim);font-size:0.85rem">No dated products yet.</p>`;
-    return;
-  }
-
-  recentEl.innerHTML = dated.map(({ item, d }) => `
-    <div class="recent-item">
-      <span class="date">${escapeHtml(formatShortDate(d))}</span>
-      <a href="${escapeAttr(item.path)}">${escapeHtml(item.title)}</a>
-    </div>
+function renderLatest() {
+  latestList.innerHTML = productItems.slice(0, 5).map((item) => `
+    <article class="latest-item">
+      <time class="latest-date" datetime="${escapeHtml(itemDate(item)?.toISOString() || "")}">
+        ${escapeHtml(formatShortDate(itemDate(item)))}
+      </time>
+      <a href="${escapeHtml(item.path)}">${escapeHtml(item.title)}</a>
+    </article>
   `).join("");
+
+  const latest = itemDate(productItems[0]);
+  if (latest && statusUpdated) {
+    statusUpdated.dateTime = latest.toISOString();
+    statusUpdated.textContent = formatStatusDate(latest);
+  }
 }
 
 function setActiveRoute(query) {
@@ -245,11 +280,7 @@ suggestionButtons.forEach((button) => {
   });
 });
 
-window.addEventListener("scroll", () => {
-  document
-    .querySelector(".site-header")
-    .setAttribute("data-elevated", String(window.scrollY > 12));
-}, { passive: true });
+renderLatest();
 
 const initialQuery = new URLSearchParams(window.location.search).get("q") || "";
 if (initialQuery) {
@@ -257,271 +288,3 @@ if (initialQuery) {
 }
 renderResults(initialQuery, searchCorpus(initialQuery));
 setActiveRoute(initialQuery);
-renderRecent();
-
-function createCosmos(canvas) {
-  if (!canvas) return;
-
-  const ctx = canvas.getContext("2d", { alpha: true });
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let width = 0;
-  let height = 0;
-  let dpr = 1;
-  let stars = [];
-  let lights = [];
-  let landPoints = [];
-  let animationId = 0;
-  let start = performance.now();
-
-  const rand = (seed) => {
-    let value = seed;
-    return () => {
-      value = (value * 1664525 + 1013904223) >>> 0;
-      return value / 4294967296;
-    };
-  };
-
-  const random = rand(2149);
-
-  function resize() {
-    const rect = canvas.getBoundingClientRect();
-    dpr = Math.min(window.devicePixelRatio || 1, 2);
-    width = Math.max(1, Math.floor(rect.width));
-    height = Math.max(1, Math.floor(rect.height));
-    canvas.width = Math.floor(width * dpr);
-    canvas.height = Math.floor(height * dpr);
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-
-    stars = Array.from({ length: Math.round(Math.min(width * height / 6500, 150)) }, () => ({
-      x: random() * width,
-      y: random() * height * 0.78,
-      r: 0.24 + random() * 0.5,
-      phase: random() * Math.PI * 2,
-      speed: 0.35 + random() * 0.85,
-      hue: random() > 0.84 ? "rune" : random() > 0.72 ? "violet" : "warm"
-    }));
-
-    landPoints = makeLandPoints();
-    lights = makeCityLights();
-  }
-
-  function makeLandPoints() {
-    const localRandom = rand(4817);
-    const clusters = [
-      { lat: 50, lon: -104, sx: 54, sy: 24, n: 92 },
-      { lat: 37, lon: -82, sx: 34, sy: 18, n: 62 },
-      { lat: -15, lon: -59, sx: 30, sy: 34, n: 58 },
-      { lat: 51, lon: 12, sx: 36, sy: 18, n: 82 },
-      { lat: 4, lon: 21, sx: 32, sy: 42, n: 82 },
-      { lat: 25, lon: 44, sx: 32, sy: 18, n: 48 },
-      { lat: 24, lon: 79, sx: 30, sy: 22, n: 74 },
-      { lat: 34, lon: 105, sx: 42, sy: 24, n: 96 },
-      { lat: 1, lon: 109, sx: 34, sy: 18, n: 46 },
-      { lat: -25, lon: 135, sx: 28, sy: 14, n: 42 }
-    ];
-
-    return clusters.flatMap((cluster) => Array.from({ length: cluster.n }, () => ({
-      lat: Math.max(-68, Math.min(74, cluster.lat + (localRandom() - 0.5) * cluster.sy)),
-      lon: cluster.lon + (localRandom() - 0.5) * cluster.sx,
-      size: 0.45 + localRandom() * 0.92
-    })));
-  }
-
-  function makeCityLights() {
-    const localRandom = rand(9283);
-    const clusters = [
-      { lat: 40.7, lon: -74, sx: 10, sy: 7, n: 26, size: 0.82, tone: "warm" },
-      { lat: 34.1, lon: -118.2, sx: 11, sy: 7, n: 18, size: 0.72, tone: "warm" },
-      { lat: 41.9, lon: -87.6, sx: 12, sy: 8, n: 18, size: 0.68, tone: "warm" },
-      { lat: 19.4, lon: -99.1, sx: 9, sy: 8, n: 16, size: 0.66, tone: "rune" },
-      { lat: -23.6, lon: -46.6, sx: 13, sy: 9, n: 22, size: 0.72, tone: "warm" },
-      { lat: -34.6, lon: -58.4, sx: 10, sy: 7, n: 14, size: 0.62, tone: "warm" },
-      { lat: 51.5, lon: -0.1, sx: 12, sy: 8, n: 30, size: 0.86, tone: "warm" },
-      { lat: 48.9, lon: 2.3, sx: 10, sy: 7, n: 26, size: 0.82, tone: "warm" },
-      { lat: 52.5, lon: 13.4, sx: 13, sy: 8, n: 24, size: 0.72, tone: "rune" },
-      { lat: 41.9, lon: 12.5, sx: 10, sy: 8, n: 15, size: 0.64, tone: "warm" },
-      { lat: 30.1, lon: 31.2, sx: 8, sy: 12, n: 20, size: 0.68, tone: "rune" },
-      { lat: 6.5, lon: 3.4, sx: 10, sy: 8, n: 16, size: 0.62, tone: "warm" },
-      { lat: 25.2, lon: 55.3, sx: 10, sy: 7, n: 16, size: 0.66, tone: "rune" },
-      { lat: 28.6, lon: 77.2, sx: 12, sy: 10, n: 28, size: 0.82, tone: "warm" },
-      { lat: 19.1, lon: 72.9, sx: 10, sy: 9, n: 20, size: 0.74, tone: "warm" },
-      { lat: 39.9, lon: 116.4, sx: 14, sy: 8, n: 30, size: 0.84, tone: "rune" },
-      { lat: 31.2, lon: 121.5, sx: 12, sy: 8, n: 34, size: 0.88, tone: "warm" },
-      { lat: 22.5, lon: 114.1, sx: 10, sy: 7, n: 22, size: 0.76, tone: "warm" },
-      { lat: 35.7, lon: 139.7, sx: 11, sy: 7, n: 30, size: 0.84, tone: "warm" },
-      { lat: 37.6, lon: 127, sx: 9, sy: 7, n: 20, size: 0.72, tone: "rune" },
-      { lat: 1.3, lon: 103.8, sx: 9, sy: 7, n: 18, size: 0.7, tone: "warm" },
-      { lat: -6.2, lon: 106.8, sx: 12, sy: 9, n: 18, size: 0.64, tone: "warm" },
-      { lat: -33.9, lon: 151.2, sx: 12, sy: 8, n: 20, size: 0.72, tone: "warm" }
-    ];
-
-    return clusters.flatMap((cluster) => Array.from({ length: cluster.n }, () => ({
-      lat: cluster.lat + (localRandom() - 0.5) * cluster.sy,
-      lon: cluster.lon + (localRandom() - 0.5) * cluster.sx,
-      size: cluster.size * (0.55 + localRandom() * 0.85),
-      pulse: localRandom() * Math.PI * 2,
-      tone: cluster.tone
-    })));
-  }
-
-  function project(lat, lon, rotation, cx, cy, radius) {
-    const phi = lat * Math.PI / 180;
-    const theta = (lon + rotation) * Math.PI / 180;
-    const x = Math.cos(phi) * Math.sin(theta);
-    const y = Math.sin(phi);
-    const z = Math.cos(phi) * Math.cos(theta);
-    if (z < -0.12) return null;
-
-    const perspective = 0.84 + z * 0.16;
-    return {
-      x: cx + x * radius * perspective,
-      y: cy - y * radius * perspective,
-      z,
-      alpha: Math.max(0, Math.min(1, (z + 0.12) / 1.12))
-    };
-  }
-
-  function drawStars(time) {
-    stars.forEach((star) => {
-      const twinkle = 0.38 + Math.sin(time * star.speed + star.phase) * 0.22 + 0.28;
-      const colors = {
-        warm: `rgba(244, 234, 219, ${0.34 * twinkle})`,
-        rune: `rgba(217, 255, 45, ${0.4 * twinkle})`,
-        violet: `rgba(139, 53, 255, ${0.32 * twinkle})`
-      };
-      ctx.beginPath();
-      ctx.fillStyle = colors[star.hue];
-      ctx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
-      ctx.fill();
-    });
-  }
-
-  function strokeProjectedLine(points, style, widthPx) {
-    ctx.beginPath();
-    let started = false;
-    points.forEach((point) => {
-      if (!point) {
-        started = false;
-        return;
-      }
-      if (!started) {
-        ctx.moveTo(point.x, point.y);
-        started = true;
-      } else {
-        ctx.lineTo(point.x, point.y);
-      }
-    });
-    ctx.strokeStyle = style;
-    ctx.lineWidth = widthPx;
-    ctx.stroke();
-  }
-
-  function drawGlobe(time) {
-    const isCompact = width <= 900;
-    const radius = isCompact ? Math.min(width * 0.22, 108) : Math.min(width * 0.16, height * 0.34, 280);
-    const cx = width > 900 ? width * 0.91 : width * 0.86;
-    const cy = width > 900 ? height * 0.49 : height * 0.18;
-    const rotation = reducedMotion ? -24 : ((time * 6.2) - 24) % 360;
-
-    const glow = ctx.createRadialGradient(cx, cy, radius * 0.7, cx, cy, radius * 1.55);
-    glow.addColorStop(0, "rgba(93, 23, 189, 0)");
-    glow.addColorStop(0.62, "rgba(93, 23, 189, 0.075)");
-    glow.addColorStop(1, "rgba(0, 0, 0, 0)");
-    ctx.fillStyle = glow;
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius * 1.55, 0, Math.PI * 2);
-    ctx.fill();
-
-    const sphere = ctx.createRadialGradient(cx + radius * 0.16, cy + radius * 0.12, radius * 0.08, cx, cy, radius);
-    sphere.addColorStop(0, "rgba(9, 11, 10, 0.86)");
-    sphere.addColorStop(0.42, "rgba(5, 8, 7, 0.92)");
-    sphere.addColorStop(0.78, "rgba(5, 4, 8, 0.97)");
-    sphere.addColorStop(1, "rgba(1, 1, 1, 0.98)");
-    ctx.fillStyle = sphere;
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
-    ctx.fill();
-
-    ctx.save();
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
-    ctx.clip();
-
-    [-60, -35, -15, 0, 15, 35, 60].forEach((lat) => {
-      const points = [];
-      for (let lon = -180; lon <= 180; lon += 6) {
-        points.push(project(lat, lon, rotation, cx, cy, radius));
-      }
-      strokeProjectedLine(points, "rgba(217, 255, 45, 0.052)", 0.55);
-    });
-
-    for (let lon = -180; lon < 180; lon += 45) {
-      const points = [];
-      for (let lat = -78; lat <= 78; lat += 5) {
-        points.push(project(lat, lon, rotation, cx, cy, radius));
-      }
-      strokeProjectedLine(points, "rgba(201, 198, 189, 0.052)", 0.55);
-    }
-
-    landPoints.forEach((land) => {
-      const point = project(land.lat, land.lon, rotation, cx, cy, radius);
-      if (!point) return;
-      ctx.fillStyle = `rgba(217, 255, 45, ${0.025 + point.alpha * 0.06})`;
-      ctx.beginPath();
-      ctx.arc(point.x, point.y, land.size * (0.75 + point.z * 0.22), 0, Math.PI * 2);
-      ctx.fill();
-    });
-
-    lights.forEach((light) => {
-      const point = project(light.lat, light.lon, rotation, cx, cy, radius);
-      if (!point) return;
-      const pulse = 0.62 + Math.sin(time * 1.45 + light.pulse) * 0.18;
-      const tone = light.tone === "rune" ? "217, 255, 45" : "244, 234, 219";
-      ctx.fillStyle = `rgba(${tone}, ${point.alpha * pulse * 0.42})`;
-      ctx.beginPath();
-      ctx.arc(point.x, point.y, light.size, 0, Math.PI * 2);
-      ctx.fill();
-    });
-
-    const terminator = ctx.createLinearGradient(cx - radius, cy, cx + radius, cy);
-    terminator.addColorStop(0, "rgba(0, 0, 0, 0.08)");
-    terminator.addColorStop(0.48, "rgba(0, 0, 0, 0)");
-    terminator.addColorStop(1, "rgba(0, 0, 0, 0.42)");
-    ctx.fillStyle = terminator;
-    ctx.fillRect(cx - radius, cy - radius, radius * 2, radius * 2);
-
-    ctx.restore();
-
-    ctx.strokeStyle = "rgba(244, 234, 219, 0.11)";
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius, 0, Math.PI * 2);
-    ctx.stroke();
-
-    ctx.strokeStyle = "rgba(217, 255, 45, 0.055)";
-    ctx.lineWidth = 1.1;
-    ctx.beginPath();
-    ctx.arc(cx, cy, radius * 1.04, -0.45, Math.PI * 1.32);
-    ctx.stroke();
-  }
-
-  function draw(timeStamp) {
-    const time = (timeStamp - start) / 1000;
-    ctx.clearRect(0, 0, width, height);
-    drawStars(time);
-    drawGlobe(time);
-    if (!reducedMotion) {
-      animationId = requestAnimationFrame(draw);
-    }
-  }
-
-  window.addEventListener("resize", () => {
-    resize();
-    if (reducedMotion) draw(performance.now());
-  });
-
-  resize();
-  draw(start);
-}
-
-createCosmos(cosmosCanvas);

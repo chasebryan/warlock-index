@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-16T02:21:36Z
+**Prepared UTC:** 2026-06-16T05:12:39Z
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing
@@ -112,6 +112,11 @@ future open-source defense assessments.
   Finland, Sweden, Denmark, and Iceland as dedicated Nordic/North Atlantic
   baselines, with EU security-defense sources providing the adjacent
   multilateral layer.
+- India/Quad strategic-partner source stacks, including Quad ministerial and
+  leader statements, India MEA source-family routing, U.S.-India iCET and
+  INDUS-X sources, Indian PIB science/technology releases, and follow-on
+  Indian MOD, parliamentary, budget, audit, DRDO, maritime, critical-minerals,
+  and energy-security source refreshes.
 - Congressional Research Service and Government Accountability Office reports.
 - Reputable research institutions with transparent methods.
 - Professional media reporting used for current-event context.
