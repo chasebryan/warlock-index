@@ -1135,7 +1135,6 @@ function renderPreview(item) {
     <div class="preview-head">
       <p class="preview-kicker">${escapeHtml(item.type || "Document")}</p>
       <h2 class="preview-title">${escapeHtml(item.title)}</h2>
-      <p class="preview-summary">${escapeHtml(item.summary || "WARLOCK-INDEX documentation product.")}</p>
       <div class="preview-actions">
         <a class="action-button" href="${escapeHtml(pathUrl(item.path))}" target="_blank" rel="noreferrer">
           <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-open"></use></svg>
@@ -1152,6 +1151,7 @@ function renderPreview(item) {
       </div>
     </div>
     <div class="preview-body">
+      <p class="preview-summary">${escapeHtml(item.summary || "WARLOCK-INDEX documentation product.")}</p>
       <div class="detail-grid">
         ${detail("Theater", item.theater || "Global")}
         ${detail("Domain", item.domain || "Corpus")}
