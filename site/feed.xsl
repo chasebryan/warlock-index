@@ -48,70 +48,99 @@
             text-decoration: none;
           }
 
+          .page-shell {
+            width: min(100% - 1rem, 1720px);
+            margin: 0.5rem auto 1rem;
+            border: 2px solid var(--chrome);
+            border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
+            background: var(--chrome);
+          }
+
           .site-header {
-            position: sticky;
-            top: 0;
-            z-index: 10;
             display: grid;
-            grid-template-columns: minmax(250px, 420px) minmax(0, 1fr);
-            gap: 1rem;
-            padding: 0.6rem 0.7rem;
+            grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
+            align-items: center;
+            gap: 1.25rem;
+            padding: 0.9rem 1rem 1rem;
+            border: 0;
             border-bottom: 2px solid var(--chrome-dark);
             background: var(--panel);
           }
 
-          .brand-lockup {
+          .brand-panel {
             display: grid;
             grid-template-columns: minmax(0, 1fr);
             align-items: center;
             min-width: 0;
-            padding: 0.1rem 0.3rem;
           }
 
-          .brand-lockup span {
+          .brand-copy {
             display: grid;
-            gap: 0.18rem;
+            gap: 0.28rem;
             min-width: 0;
           }
 
-          .brand-lockup strong {
+          .brand-copy strong {
             overflow: hidden;
             color: var(--text);
             font-family: var(--serif);
-            font-size: 1.45rem;
-            line-height: 1;
+            font-size: clamp(2.7rem, 4.9vw, 5rem);
+            font-weight: 400;
+            line-height: 0.95;
             text-overflow: ellipsis;
             white-space: nowrap;
           }
 
-          .brand-lockup em {
+          .brand-copy span {
             color: var(--green);
             font-family: var(--mono);
-            font-size: 0.68rem;
-            font-style: normal;
+            font-size: clamp(1rem, 1.4vw, 1.28rem);
             font-weight: 700;
-            letter-spacing: 0.08em;
             text-transform: uppercase;
+          }
+
+          .brand-copy em {
+            color: var(--dim);
+            font-family: var(--serif);
+            font-size: clamp(0.9rem, 1.1vw, 1rem);
+            font-style: normal;
+          }
+
+          .status-terminal {
+            justify-self: end;
+            width: min(100%, 390px);
+            padding: 0.85rem 1rem;
+            border: 2px solid var(--chrome);
+            border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+            background: #fff;
+            color: var(--text);
+            font-family: var(--mono);
+            font-size: 0.86rem;
+            text-transform: uppercase;
+          }
+
+          .status-terminal p {
+            margin: 0;
+          }
+
+          .status-terminal p + p {
+            margin-top: 0.28rem;
           }
 
           .primary-nav {
             display: flex;
             align-items: center;
-            justify-content: flex-end;
             gap: 0.25rem;
-            min-width: 0;
-            min-height: 38px;
-            overflow-x: auto;
-            color: var(--muted);
+            min-height: 42px;
+            padding: 0.25rem;
+            border: 0;
+            border-bottom: 2px solid var(--chrome-dark);
+            background: var(--chrome);
+            color: var(--text);
             font-family: var(--sans);
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             font-weight: 700;
             text-transform: uppercase;
-            scrollbar-width: none;
-          }
-
-          .primary-nav::-webkit-scrollbar {
-            display: none;
           }
 
           .primary-nav a {
@@ -119,15 +148,15 @@
             min-width: max-content;
             place-items: center;
             min-height: 30px;
-            padding: 0 0.72rem;
+            padding: 0 0.7rem;
             border: 2px solid var(--chrome);
             border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
             background: var(--chrome);
-            color: var(--text);
           }
 
           .primary-nav a:hover,
-          .primary-nav a:focus-visible {
+          .primary-nav a:focus-visible,
+          .primary-nav .is-active {
             border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
             background: #dfd5ea;
             color: var(--purple);
@@ -254,22 +283,41 @@
           }
 
           @media (max-width: 640px) {
+            .page-shell {
+              width: min(100% - 1rem, 760px);
+              margin: 0.5rem auto 0.8rem;
+            }
+
             .site-header {
               grid-template-columns: 1fr;
+              padding: 0.65rem 0 0.75rem;
             }
 
-            .brand-lockup {
-              border-right: 0;
-              border-bottom: 1px solid var(--line-purple);
+            .brand-copy strong {
+              font-size: clamp(1.55rem, 7.9vw, 2rem);
             }
 
-            .brand-lockup strong {
-              font-size: 1.16rem;
+            .brand-copy span,
+            .brand-copy em {
+              font-size: 0.78rem;
+            }
+
+            .status-terminal {
+              justify-self: stretch;
+              font-size: 0.76rem;
             }
 
             .primary-nav {
-              justify-content: flex-start;
+              flex-wrap: wrap;
+              gap: 0.25rem;
               min-height: 42px;
+              padding: 0.45rem 0;
+              font-size: 0.76rem;
+            }
+
+            .primary-nav a {
+              min-height: 32px;
+              padding: 0 0.5rem;
             }
 
             .item {
@@ -279,20 +327,32 @@
         </style>
       </head>
       <body>
+        <div class="page-shell" id="top">
         <header class="site-header">
-          <a class="brand-lockup" href="/" aria-label="WARLOCK-INDEX home">
-            <span>
+          <a class="brand-panel" href="/" aria-label="WARLOCK-INDEX home">
+            <span class="brand-copy">
               <strong>WARLOCK-INDEX</strong>
-              <em>Open-source corpus</em>
+              <span>UNCLASSIFIED//OPEN SOURCE</span>
+              <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
             </span>
           </a>
-          <nav class="primary-nav" aria-label="Feed navigation">
-            <a href="/about.html">About</a>
-            <a href="/library/">Library</a>
-            <a href="/workspace/">Workspace</a>
-            <a href="/feed.xml">RSS</a>
-          </nav>
+          <div class="status-terminal" aria-label="Local corpus terminal status">
+            <p>LOCAL CORPUS TERMINAL</p>
+            <p>STATUS: ONLINE</p>
+            <p>MODE: READ-ONLY</p>
+            <p>UPDATED: <time datetime="2026-06-17">2026-06-17</time></p>
+          </div>
         </header>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/library/assessments/">Assessments</a>
+          <a href="/library/collections/coverage-map.html">Collections</a>
+          <a href="/library/maps/">Maps</a>
+          <a href="/library/standards/product-standard.html">Standards</a>
+          <a class="is-active" href="/feed.xml" aria-current="page">Feed</a>
+          <a href="/workspace/">Workspace</a>
+        </nav>
 
         <main class="shell">
           <section class="feed-head">
@@ -329,6 +389,7 @@
             <p>Maintained by The Better Science Foundation</p>
           </footer>
         </main>
+        </div>
       </body>
     </html>
   </xsl:template>

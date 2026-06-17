@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#020303">
+    <meta name="theme-color" content="#c0c0c0">
     <meta name="application-name" content="Workspace">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Workspace">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="msapplication-TileColor" content="#020303">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="msapplication-TileColor" content="#c0c0c0">
     <meta name="msapplication-TileImage" content="icons/wi-144.png">
     <meta
       name="description"
@@ -51,7 +51,7 @@
     <link rel="icon" href="icons/wi-icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=20260617-maintainer">
+    <link rel="stylesheet" href="styles.css?v=20260617-sitewide-nav">
   </head>
   <body>
     <svg class="icon-defs" aria-hidden="true">
@@ -89,17 +89,40 @@
       </symbol>
     </svg>
 
-    <main class="app-shell" id="app" data-ready="false">
-      <header class="topbar" aria-label="Application bar">
-        <a class="brand" href="../#navigator" aria-label="WARLOCK-INDEX home navigator">
-          <span class="brand-mark">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#icon-star"></use></svg>
-          </span>
-          <span>
-            <strong>wi</strong>
-            <em>WARLOCK-INDEX</em>
+    <div class="page-shell" id="top">
+      <header class="site-header" data-elevated="false">
+        <a class="brand-panel" href="../" aria-label="WARLOCK-INDEX home">
+          <span class="brand-copy">
+            <strong>WARLOCK-INDEX</strong>
+            <span>UNCLASSIFIED//OPEN SOURCE</span>
+            <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
           </span>
         </a>
+        <div class="status-terminal" aria-label="Local corpus terminal status">
+          <p>LOCAL CORPUS TERMINAL</p>
+          <p>STATUS: ONLINE</p>
+          <p>MODE: READ-ONLY</p>
+          <p>UPDATED: <time datetime="2026-06-17">2026-06-17</time></p>
+        </div>
+      </header>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="../">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../library/assessments/">Assessments</a>
+        <a href="../library/collections/coverage-map.html">Collections</a>
+        <a href="../library/maps/">Maps</a>
+        <a href="../library/standards/product-standard.html">Standards</a>
+        <a href="../feed.xml">Feed</a>
+        <a class="is-active" href="./" aria-current="page">Workspace</a>
+      </nav>
+
+      <main class="app-shell" id="app" data-ready="false">
+        <header class="topbar" aria-label="Workspace toolbar">
+          <div class="workspace-title">
+            <strong>Workspace</strong>
+            <span>Browse, queue, and export corpus records</span>
+          </div>
 
         <form class="command" id="search-form" role="search">
           <label class="visually-hidden" for="search-input">Search corpus</label>
@@ -127,7 +150,7 @@
       <section class="workspace" id="workspace">
         <aside class="route-rail" aria-label="Corpus routes">
           <div class="rail-head">
-            <span>Workspace browse</span>
+            <span>Corpus routes</span>
             <strong id="active-scope-label">All records</strong>
           </div>
           <nav class="route-list" id="route-list"></nav>
@@ -144,13 +167,15 @@
               <p>Query route</p>
               <h1 id="results-heading">Strategic weapons</h1>
             </div>
-            <div style="display:flex; align-items:center; gap:0.5rem;">
-              <label style="font-size:0.7rem;color:var(--dim);">Sort</label>
-              <select id="sort-mode" style="font-size:0.75rem;background:#111;color:#ddd;border:1px solid #333;padding:2px 4px;">
-                <option value="relevance">Relevance</option>
-                <option value="date-desc">Newest first</option>
-                <option value="date-asc">Oldest first</option>
-              </select>
+            <div class="result-tools">
+              <label class="sort-control">
+                <span>Sort</span>
+                <select id="sort-mode">
+                  <option value="relevance">Relevance</option>
+                  <option value="date-desc">Newest first</option>
+                  <option value="date-asc">Oldest first</option>
+                </select>
+              </label>
               <div class="result-count" id="result-count">0 matches</div>
             </div>
           </div>
@@ -183,10 +208,11 @@
           </section>
         </aside>
       </section>
-    </main>
-    <footer class="workspace-maintainer">
-      <p>Maintained by The Better Science Foundation</p>
-    </footer>
+      <footer class="workspace-maintainer">
+        <p>Maintained by The Better Science Foundation</p>
+      </footer>
+      </main>
+    </div>
 
     <script src="corpus.js?v=20260616-full-summaries"></script>
     <script src="app.js?v=20260616-dashboard-cleanup"></script>

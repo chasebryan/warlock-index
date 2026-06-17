@@ -10,8 +10,8 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260617-maintainer";
-const feedAssetVersion = "20260617-maintainer";
+const libraryAssetVersion = "20260617-sitewide-nav";
+const feedAssetVersion = "20260617-sitewide-nav";
 const feedItemLimit = 40;
 
 const preferredOrder = [
@@ -563,33 +563,38 @@ function renderDocNav(currentDoc, docs) {
 function headerHtml(currentDoc) {
   const home = relativeUrl(currentDoc.outputRel, "index.html");
   const about = relativeUrl(currentDoc.outputRel, "about.html");
-  const docsIndex = relativeUrl(currentDoc.outputRel, "library/index.html");
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
   const collections = relativeUrl(currentDoc.outputRel, "library/collections/coverage-map.html");
   const maps = relativeUrl(currentDoc.outputRel, "library/maps/index.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
   const feedUrl = relativeUrl(currentDoc.outputRel, "feed.xml");
-
   return `
     <header class="site-header">
-      <a class="brand-lockup" href="${escapeAttr(home)}" aria-label="WARLOCK-INDEX home">
-        <span>
+      <a class="brand-panel" href="${escapeAttr(home)}" aria-label="WARLOCK-INDEX home">
+        <span class="brand-copy">
           <strong>WARLOCK-INDEX</strong>
-          <em>Open-source corpus</em>
+          <span>UNCLASSIFIED//OPEN SOURCE</span>
+          <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
         </span>
       </a>
-      <nav class="primary-nav" aria-label="Primary navigation">
-        <a href="${escapeAttr(about)}">About</a>
-        <a href="${escapeAttr(docsIndex)}">Index</a>
-        <a href="${escapeAttr(assessments)}">Assessments</a>
-        <a href="${escapeAttr(collections)}">Collections</a>
-        <a href="${escapeAttr(maps)}">Maps</a>
-        <a href="${escapeAttr(standards)}">Standards</a>
-        <a href="${escapeAttr(feedUrl)}">Feed</a>
-        <a href="${escapeAttr(workspaceApp)}">Workspace</a>
-      </nav>
+      <div class="status-terminal" aria-label="Local corpus terminal status">
+        <p>LOCAL CORPUS TERMINAL</p>
+        <p>STATUS: ONLINE</p>
+        <p>MODE: READ-ONLY</p>
+        <p>UPDATED: <time datetime="2026-06-17">2026-06-17</time></p>
+      </div>
     </header>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="${escapeAttr(home)}">Home</a>
+      <a href="${escapeAttr(about)}">About</a>
+      <a href="${escapeAttr(assessments)}">Assessments</a>
+      <a href="${escapeAttr(collections)}">Collections</a>
+      <a href="${escapeAttr(maps)}">Maps</a>
+      <a href="${escapeAttr(standards)}">Standards</a>
+      <a href="${escapeAttr(feedUrl)}">Feed</a>
+      <a href="${escapeAttr(workspaceApp)}">Workspace</a>
+    </nav>
   `;
 }
 
@@ -629,44 +634,46 @@ function renderPage(currentDoc, docs, relToOutput) {
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
-    ${headerHtml(currentDoc)}
-    <main class="reader-shell">
-      <aside class="reader-sidebar" aria-label="Document map">
-        <div class="sidebar-head">
-          <div class="sidebar-mark">Corpus index</div>
-          <p>Documentation corpus</p>
-          <label class="sidebar-search" for="doc-filter">
-            <span aria-hidden="true">wi:</span>
-            <input id="doc-filter" type="search" autocomplete="off" spellcheck="false" placeholder="Filter documents...">
-          </label>
-        </div>
-        <nav class="doc-nav">
-          ${renderDocNav(currentDoc, docs)}
-        </nav>
-        <p class="empty-filter">No matching document.</p>
-      </aside>
-      <article class="doc-article" id="content">
-        <header class="article-head">
-          <div class="article-meta">
-            <span>${escapeHtml(currentDoc.type)}</span>
-            <span>${escapeHtml(currentDoc.theater)}</span>
-            <span>${escapeHtml(currentDoc.domain)}</span>
-            <span class="source-path">docs/${escapeHtml(currentDoc.rel)}</span>
+    <div class="page-shell" id="top">
+      ${headerHtml(currentDoc)}
+      <main class="reader-shell">
+        <aside class="reader-sidebar" aria-label="Document map">
+          <div class="sidebar-head">
+            <div class="sidebar-mark">Corpus index</div>
+            <p>Documentation corpus</p>
+            <label class="sidebar-search" for="doc-filter">
+              <span aria-hidden="true">wi:</span>
+              <input id="doc-filter" type="search" autocomplete="off" spellcheck="false" placeholder="Filter documents...">
+            </label>
           </div>
-          <h1>${escapeHtml(currentDoc.title)}</h1>
-          <p class="article-summary">${escapeHtml(displaySummary(currentDoc.summary))}</p>
-          <div class="article-actions">
-            <a href="${escapeAttr(docsIndex)}">Full Index</a>
-          </div>
-        </header>
-        <div class="markdown-body">
+          <nav class="doc-nav">
+            ${renderDocNav(currentDoc, docs)}
+          </nav>
+          <p class="empty-filter">No matching document.</p>
+        </aside>
+        <article class="doc-article" id="content">
+          <header class="article-head">
+            <div class="article-meta">
+              <span>${escapeHtml(currentDoc.type)}</span>
+              <span>${escapeHtml(currentDoc.theater)}</span>
+              <span>${escapeHtml(currentDoc.domain)}</span>
+              <span class="source-path">docs/${escapeHtml(currentDoc.rel)}</span>
+            </div>
+            <h1>${escapeHtml(currentDoc.title)}</h1>
+            <p class="article-summary">${escapeHtml(displaySummary(currentDoc.summary))}</p>
+            <div class="article-actions">
+              <a href="${escapeAttr(docsIndex)}">Full Index</a>
+            </div>
+          </header>
+          <div class="markdown-body">
 ${body}
-        </div>
-      </article>
-    </main>
-    <footer class="site-maintainer-footer">
-      <p>Maintained by The Better Science Foundation</p>
-    </footer>
+          </div>
+        </article>
+      </main>
+      <footer class="site-maintainer-footer">
+        <p>Maintained by The Better Science Foundation</p>
+      </footer>
+    </div>
     <script src="${escapeAttr(rootJs)}"></script>
   </body>
 </html>
