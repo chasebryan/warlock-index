@@ -358,6 +358,57 @@ svg {
   text-transform: uppercase;
 }
 
+.article-actions .cite-button {
+  padding: 0.44rem 0.66rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(217, 255, 45, 0.07);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.cite-box {
+  margin-top: 0.6rem;
+  font-size: 0.78rem;
+}
+
+.cite-box summary {
+  cursor: pointer;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.cite-box[open] {
+  display: block;
+}
+
+.cite-text {
+  margin: 0.35rem 0;
+  padding: 0.5rem;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  color: var(--muted);
+}
+
+.copy-cite {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--dim);
+  cursor: pointer;
+}
+
 .markdown-body {
   padding: clamp(1.2rem, 3vw, 2rem);
   color: var(--text);
@@ -422,6 +473,49 @@ svg {
 
 .markdown-body li + li {
   margin-top: 0.38rem;
+}
+
+@media print {
+  .site-header,
+  .reader-sidebar,
+  .article-actions,
+  .cite-box,
+  .skip-link {
+    display: none !important;
+  }
+
+  main.reader-shell {
+    display: block;
+  }
+
+  .doc-article {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .markdown-body {
+    padding: 0;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #111;
+  }
+
+  .article-head {
+    border: none;
+    padding-top: 0;
+  }
+
+  .article-head h1 {
+    font-size: 18pt;
+    color: #000;
+  }
+
+  .markdown-body h2 {
+    border-top: 1px solid #ccc;
+    font-size: 11pt;
+    text-transform: none;
+    color: #000;
+  }
 }
 
 .markdown-body strong {

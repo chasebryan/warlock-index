@@ -1,0 +1,87 @@
+name: New Assessment / Source Packet Proposal
+description: Propose a new dated product following WARLOCK-INDEX standards
+title: "[Proposal] "
+labels: ["proposal", "assessment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. All products must remain inside the documented boundaries (open sources, no recommendations, no operational guidance). See CONTRIBUTING.md and docs/standards/.
+  - type: input
+    id: product-type
+    attributes:
+      label: Product type
+      description: e.g. Strategic baseline assessment, Source packet, Tracker, Timeline, Actor profile, Matrix, Map reference
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed scope
+      description: What theaters, actors, domains, and time window? What is deliberately excluded?
+    validations:
+      required: true
+  - type: textarea
+    id: primary-sources
+    attributes:
+      label: Primary source families
+      description: Official U.S., allied, foreign government, research, etc. Include specific reports or registers where known.
+    validations:
+      required: true
+  - type: input
+    id: cutoff
+    attributes:
+      label: Planned information cutoff (approx UTC)
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes / boundary considerations
+  - type: checkboxes
+    id: standards
+    attributes:
+      label: I have read and will follow
+      options:
+        - label: Product Standard (docs/standards/product-standard.md)
+          required: true
+        - label: Source Evaluation Standard
+          required: true
+        - label: Assessment Style Guide
+          required: true
+        - label: CONTRIBUTING.md
+          required: true
+---
+name: Source Treatment Question
+description: Question about how to treat or cite a particular source family
+title: "[Source] "
+labels: ["source-treatment"]
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: Source description and URL(s)
+      validations:
+        required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What is the question? (reliability class, boundary, how to extract without methods, etc.)
+      validations:
+        required: true
+---
+name: Correction or Update
+description: Report an error, stale data, or propose an update to an existing product
+title: "[Correction] "
+labels: ["correction"]
+body:
+  - type: input
+    id: product
+    attributes:
+      label: Product (title or path)
+      validations:
+        required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What needs fixing or refreshing? Please cite the better source evidence.
+      validations:
+        required: true
