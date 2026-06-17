@@ -237,6 +237,22 @@
             text-transform: uppercase;
           }
 
+          .site-maintainer-footer {
+            margin-top: 1rem;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--line-purple);
+            background: var(--panel);
+            color: var(--green);
+            font-family: var(--mono);
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-align: center;
+          }
+
+          .site-maintainer-footer p {
+            margin: 0;
+          }
+
           @media (max-width: 640px) {
             .site-header {
               grid-template-columns: 1fr;
@@ -271,6 +287,7 @@
             </span>
           </a>
           <nav class="primary-nav" aria-label="Feed navigation">
+            <a href="/about.html">About</a>
             <a href="/library/">Library</a>
             <a href="/workspace/">Workspace</a>
             <a href="/feed.xml">RSS</a>
@@ -308,6 +325,9 @@
               </article>
             </xsl:for-each>
           </section>
+          <footer class="site-maintainer-footer">
+            <p>Maintained by The Better Science Foundation</p>
+          </footer>
         </main>
       </body>
     </html>

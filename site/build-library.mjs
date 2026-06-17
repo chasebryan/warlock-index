@@ -10,8 +10,8 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260617-netscape-lite";
-const feedAssetVersion = "20260617-netscape-lite";
+const libraryAssetVersion = "20260617-maintainer";
+const feedAssetVersion = "20260617-maintainer";
 const feedItemLimit = 40;
 
 const preferredOrder = [
@@ -562,6 +562,7 @@ function renderDocNav(currentDoc, docs) {
 
 function headerHtml(currentDoc) {
   const home = relativeUrl(currentDoc.outputRel, "index.html");
+  const about = relativeUrl(currentDoc.outputRel, "about.html");
   const docsIndex = relativeUrl(currentDoc.outputRel, "library/index.html");
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
   const collections = relativeUrl(currentDoc.outputRel, "library/collections/coverage-map.html");
@@ -579,6 +580,7 @@ function headerHtml(currentDoc) {
         </span>
       </a>
       <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="${escapeAttr(about)}">About</a>
         <a href="${escapeAttr(docsIndex)}">Index</a>
         <a href="${escapeAttr(assessments)}">Assessments</a>
         <a href="${escapeAttr(collections)}">Collections</a>
@@ -662,6 +664,9 @@ ${body}
         </div>
       </article>
     </main>
+    <footer class="site-maintainer-footer">
+      <p>Maintained by The Better Science Foundation</p>
+    </footer>
     <script src="${escapeAttr(rootJs)}"></script>
   </body>
 </html>
@@ -789,6 +794,7 @@ async function build() {
 
   const sitemapUrls = [
     { loc: absoluteUrl("index.html"), priority: "1.0" },
+    { loc: absoluteUrl("about.html"), priority: "0.8" },
     { loc: `${siteOrigin}/workspace/`, priority: "0.85" },
     ...docs.map((doc) => ({
       loc: absoluteUrl(doc.outputRel),

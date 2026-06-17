@@ -202,6 +202,81 @@ button {
   background: var(--panel);
 }
 
+.about-shell {
+  padding: 1rem;
+}
+
+.about-panel {
+  display: grid;
+  gap: 1rem;
+  max-width: 940px;
+  padding: clamp(1rem, 3vw, 1.45rem);
+  border-bottom: 2px solid var(--chrome-dark);
+  background: var(--panel);
+}
+
+.about-kicker {
+  margin: 0;
+  color: var(--purple);
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-panel h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(2.1rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.about-panel p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+}
+
+.about-terse-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  border: 1px solid var(--line);
+  background: var(--chrome);
+}
+
+.about-terse-list div {
+  display: grid;
+  grid-template-columns: minmax(10rem, 16rem) minmax(0, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+
+.about-terse-list div:last-child {
+  border-bottom: 0;
+}
+
+.about-terse-list dt,
+.about-terse-list dd {
+  margin: 0;
+  padding: 0.7rem 0.8rem;
+}
+
+.about-terse-list dt {
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-terse-list dd {
+  border-left: 1px solid var(--line);
+  background: var(--panel-soft);
+  color: var(--text);
+}
+
 .route-list {
   display: grid;
   align-content: start;
@@ -560,9 +635,22 @@ button {
   text-transform: uppercase;
 }
 
+.footer-copy {
+  display: grid;
+  gap: 0.25rem;
+  min-width: min(100%, 24rem);
+  text-align: right;
+}
+
 .site-footer p {
   margin: 0;
-  text-align: right;
+}
+
+.site-maintainer {
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
 }
 
 .visually-hidden {
@@ -655,6 +743,19 @@ button {
     padding: 1rem 0;
   }
 
+  .about-shell {
+    padding: 1rem 0;
+  }
+
+  .about-terse-list div {
+    grid-template-columns: 1fr;
+  }
+
+  .about-terse-list dd {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
   .route-list {
     grid-template-columns: 1fr;
   }
@@ -693,6 +794,10 @@ button {
   }
 
   .site-footer p {
+    text-align: left;
+  }
+
+  .footer-copy {
     text-align: left;
   }
 }
