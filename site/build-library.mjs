@@ -78,6 +78,25 @@ function parseUtcDate(value) {
   return Number.isNaN(date.getTime()) ? null : date;
 }
 
+function formatUpdateTime(date) {
+  if (!date) return "";
+  const pad = (value) => String(value).padStart(2, "0");
+  return [
+    date.getUTCFullYear(),
+    "-",
+    pad(date.getUTCMonth() + 1),
+    "-",
+    pad(date.getUTCDate()),
+    " ",
+    pad(date.getUTCHours()),
+    ":",
+    pad(date.getUTCMinutes()),
+    ":",
+    pad(date.getUTCSeconds()),
+    "Z"
+  ].join("");
+}
+
 function feedDateForDoc(doc) {
   return parseUtcDate(doc.preparedUtc)
     || parseUtcDate(doc.cutoffUtc)
@@ -578,7 +597,7 @@ function filterTextForDoc(doc) {
   ].filter(Boolean).join(" ");
 }
 
-function headerHtml(currentDoc) {
+function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latestUpdateIso = "2026-06-16T05:12:39Z") {
   const home = relativeUrl(currentDoc.outputRel, "index.html");
   const about = relativeUrl(currentDoc.outputRel, "about.html");
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
@@ -602,7 +621,7 @@ function headerHtml(currentDoc) {
         <p>LOCAL CORPUS TERMINAL</p>
         <p>STATUS: ONLINE</p>
         <p>MODE: READ-ONLY</p>
-        <p>UPDATED: <time datetime="2026-06-17">2026-06-17</time></p>
+        <p>UPDATED: <time datetime="${latestUpdateIso}">${latestUpdateStr}</time></p>
       </div>
     </header>
     <nav class="primary-nav" aria-label="Primary navigation">
@@ -627,7 +646,7 @@ function primaryNavSection(outputRel) {
   return "";
 }
 
-function renderPage(currentDoc, docs, relToOutput) {
+function renderPage(currentDoc, docs, relToOutput, latestUpdateStr = "2026-06-16 05:12:39Z", latestUpdateIso = "2026-06-16T05:12:39Z") {
   const rootCss = `${relativeUrl(currentDoc.outputRel, "library.css")}?v=${libraryAssetVersion}`;
   const rootJs = `${relativeUrl(currentDoc.outputRel, "library.js")}?v=${libraryAssetVersion}`;
   const docsIndex = relativeUrl(currentDoc.outputRel, "library/index.html");
@@ -664,7 +683,7 @@ function renderPage(currentDoc, docs, relToOutput) {
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
     <div class="page-shell" id="top">
-      ${headerHtml(currentDoc)}
+      ${headerHtml(currentDoc, latestUpdateStr, latestUpdateIso)}
       <main class="reader-shell">
         <aside class="reader-sidebar" aria-label="Document map">
           <div class="sidebar-head">
@@ -784,6 +803,13 @@ async function build() {
 
   docs.sort((a, b) => priorityIndex(a.rel) - priorityIndex(b.rel) || a.group.localeCompare(b.group) || a.title.localeCompare(b.title));
 
+  const latestUpdateDate = docs
+    .map((doc) => parseUtcDate(doc.preparedUtc) || parseUtcDate(doc.cutoffUtc))
+    .filter(Boolean)
+    .sort((a, b) => b.getTime() - a.getTime())[0] || new Date(Date.UTC(2026, 5, 16, 5, 12, 39));
+  const latestUpdateStr = formatUpdateTime(latestUpdateDate);
+  const latestUpdateIso = latestUpdateDate.toISOString().replace(/\.000Z$/, "Z");
+
   const relToOutput = new Map(docs.map((doc) => [doc.rel, doc.outputRel]));
 
   await rm(libraryRoot, { recursive: true, force: true });
@@ -791,7 +817,7 @@ async function build() {
   for (const doc of docs) {
     const outputPath = path.join(siteRoot, doc.outputRel);
     await mkdir(path.dirname(outputPath), { recursive: true });
-    await writeFile(outputPath, stripTrailingWhitespace(renderPage(doc, docs, relToOutput)), "utf8");
+    await writeFile(outputPath, stripTrailingWhitespace(renderPage(doc, docs, relToOutput, latestUpdateStr, latestUpdateIso)), "utf8");
   }
 
   const corpus = docs.map((doc) => ({
