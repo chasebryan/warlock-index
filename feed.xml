@@ -7,13 +7,13 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 05:12:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 22:51:55 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
     <item>
       <title>Allied And Multilateral Source Register</title>
       <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/allied-multilateral.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
@@ -23,31 +23,131 @@
       <title>Allied Official Source Collection Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
       <category>Tracker</category>
       <category>Collections</category>
       <category>Trackers</category>
-      <description>The allied-source lane should expand through national, multilateral, and clearly labeled strategic-partner official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan, the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or continental-defense lanes to receive U.S.-style official source baselines. Denmark, Iceland, and the EU now extend that architecture across the remaining Nordic/North Atlantic country-source lanes and the EU-level security-defense layer. India/Quad now adds the first partner-lane source packet and preserves the distinction between treaty-allied evidence and Quad strategic-partner evidence. NATO provides the shared Alliance frame, while country lanes should capture national strategy, defense review, budget/procurement evidence, industrial policy, nuclear or extended-deterrence sources where applicable, cyber agencies, space agencies, resilience systems, and parliamentary/audit evidence.</description>
+      <description>The allied-source lane should expand through national, multilateral, and clearly labeled strategic-partner official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan, the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or continental-defense lanes to receive U.S.-style official source baselines. Denmark, Iceland, and the EU now extend that architecture across the remaining Nordic/North Atlantic country-source lanes and the EU-level security-defense layer. India/Quad now adds the first partner-lane source packet and preserves the distinction between treaty-allied evidence and Quad strategic-partner evidence. The Philippines lane now adds a treaty-ally source-capture packet for defense, maritime, West Philippine Sea, EDCA, maritime-zone, coast guard, fisheries, map, and U.S. cross-check source families while preserving source-access caveats. The ASEAN/claimant-state cross-check packet adds a regional source-provenance layer for ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State source families without classifying those lanes as treaty-allied evidence. NATO provides the shared Alliance frame, while country lanes should capture national strategy, defense review, budget/procurement evidence, industrial policy, nuclear or extended-deterrence sources where applicable, cyber agencies, space agencies, resilience systems, coast guard or maritime agencies where relevant, and parliamentary/audit evidence.</description>
+    </item>
+    <item>
+      <title>ASEAN And Claimant-State South China Sea Cross-Check Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The South China Sea source lane now has a regional cross-check layer. The existing PRC, Philippine, PCA/State, and map packets are useful, but they are not enough by themselves for regional-source treatment. ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and U.S. legal-geographic source families must be kept separate because they represent different legal positions, diplomatic priorities, source terminology, and access constraints.</description>
+    </item>
+    <item>
+      <title>China/PLA Source Collection Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>Track China and PLA source-family collection across official U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial, technology, and the corpus derived products.</description>
     </item>
     <item>
       <title>Coverage Map</title>
       <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
       <category>Document</category>
       <category>Collections</category>
       <category>Coverage Map</category>
       <description>This map defines the initial archive architecture for the corpus. It is not a list of recommendations. It is a research coverage model for organizing future open-source defense assessments.</description>
     </item>
     <item>
+      <title>Foreign Government Reference Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Define source-routing rules for foreign government leadership, officeholder, diplomatic, country, and official-government reference material used inside the corpus.</description>
+    </item>
+    <item>
       <title>Global Actor-Domain Assimilation Matrix</title>
       <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
       <category>Matrix</category>
       <category>Collections</category>
       <category>Global Assimilation</category>
       <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
+    </item>
+    <item>
+      <title>Official Allied Source Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Allied official-source coverage requires both multilateral and national layers. NATO sources establish consensus Alliance language, but national sources are needed for country-level defense policy, budgets, procurement, industrial capacity, cyber, space, resilience, and political implementation. The UK, Australia, Canada/NORAD, Japan, ROK, France, Germany, Norway, Finland, Sweden, Denmark, and Iceland lanes are now full national or continental-defense allied baselines, while the EU source packet provides the adjacent multilateral security-defense layer and the India/Quad packet creates the first explicitly partner-labeled Indo-Pacific strategic-partner lane. The Philippines packet now adds treaty-ally routing for defense, maritime, West Philippine Sea, coast guard, fisheries, legal-source, map, EDCA, and U.S. cross-check evidence while preserving current access caveats. The ASEAN/claimant-state cross-check packet adds regional source-provenance for ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State legal-geographic routes without treating the regional lane as treaty-allied evidence. The AUKUS industrial and NORAD modernization packets are the first follow-on implementation source packets in the allied lane. Future country, partner, and implementation packets should follow the same model: source ledger, extraction matrix, domain treatment, information gaps, source register entries, tracker wiring, and matrix wiring.</description>
+    </item>
+    <item>
+      <title>Official U.S. Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/official-us.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/official-us.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Official U.S. source routing for Salt Typhoon sanctions, foreign malicious cyber activity reward routing, telecommunications network-security oversight, FCC/CISA/FBI/NSA follow-on page refresh, and PRC cyber source treatment.</description>
+    </item>
+    <item>
+      <title>Official U.S. Threat Source Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
+      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
+    </item>
+    <item>
+      <title>Official Threat Source Collection Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</guid>
+      <pubDate>Wed, 17 Jun 2026 21:06:51 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
+    </item>
+    <item>
+      <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</guid>
+      <pubDate>Wed, 17 Jun 2026 21:06:51 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Organize official U.S. intelligence, homeland security, law enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for the corpus strategic threat analysis.</description>
+    </item>
+    <item>
+      <title>Salt Typhoon And Telecommunications Defensive Source Note</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.html</guid>
+      <pubDate>Wed, 17 Jun 2026 21:06:51 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Salt Typhoon now has a dedicated telecommunications defensive source lane in the corpus. The accessible official record in this pass supports three safe conclusions:</description>
+    </item>
+    <item>
+      <title>Philippines Official Defense And Maritime Source Capture Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.html</guid>
+      <pubDate>Wed, 17 Jun 2026 20:48:56 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The Philippines lane now has a first-pass direct-source capture packet that separates seven evidence families: Philippine legal instruments, national security and defense policy, maritime-domain-awareness governance, coast guard and fisheries incident sources, map and naming sources, alliance/access architecture, and U.S./allied/legal cross-checks. This matters because future products should not flatten &quot;Philippines&quot; into a single allied posture label or treat West Philippine Sea incident sources, EDCA material, maritime-zone law, NAMRIA maps, and U.S. defense assessments as interchangeable evidence.</description>
     </item>
     <item>
       <title>India/Quad Strategic-Partner Source Packet</title>
@@ -58,26 +158,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>The India/Quad lane belongs in the corpus as a strategic-partner source stack, not as a treaty-allied source stack. The Quad sources identify Australia, India, Japan, and the United States as partners working through diplomatic, maritime, economic-security, technology, health, and emergency response initiatives across the Indo-Pacific. They do not create NATO-style collective-defense evidence, automatic crisis behavior, basing rights, readiness proof, or operational commitments.</description>
-    </item>
-    <item>
-      <title>Official Allied Source Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Allied official-source coverage requires both multilateral and national layers. NATO sources establish consensus Alliance language, but national sources are needed for country-level defense policy, budgets, procurement, industrial capacity, cyber, space, resilience, and political implementation. The UK, Australia, Canada/NORAD, Japan, ROK, France, Germany, Norway, Finland, Sweden, Denmark, and Iceland lanes are now full national or continental-defense allied baselines, while the EU source packet provides the adjacent multilateral security-defense layer and the India/Quad packet creates the first explicitly partner-labeled Indo-Pacific strategic-partner lane. The AUKUS industrial and NORAD modernization packets are the first follow-on implementation source packets in the allied lane. Future country, partner, and implementation packets should follow the same model: source ledger, extraction matrix, domain treatment, information gaps, source register entries, tracker wiring, and matrix wiring.</description>
-    </item>
-    <item>
-      <title>Official U.S. Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/official-us.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/official-us.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>U.S. official source-family routing for Quad diplomatic statements, factsheets, ministerial meetings, and future India/Quad strategic-partner source refresh.</description>
     </item>
     <item>
       <title>EU Security And Defense Source Packet</title>
@@ -140,26 +220,6 @@
       <description>Maps is the the corpus hub for public map and geospatial references: official map portals, charting sources, geographic-name references, and theater map packets.</description>
     </item>
     <item>
-      <title>China/PLA Source Collection Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:56:06 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>Track China and PLA source-family collection across official U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial, technology, and the corpus derived products.</description>
-    </item>
-    <item>
-      <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:56:06 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Organize official U.S. intelligence, homeland security, law enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for the corpus strategic threat analysis.</description>
-    </item>
-    <item>
       <title>PRC Cyber And Critical Infrastructure Defensive Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</guid>
@@ -168,16 +228,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>PRC cyber is now a dedicated defensive source lane rather than a broad &quot;future cyber packet&quot; queue item. ODNI 2026 provides the current public IC strategic frame: China is described as the most active and persistent cyber threat to U.S. government, private-sector, and critical-infrastructure networks, while multiple state and nonstate actors can pre-position or carry out disruptive activity against critical infrastructure. DoD 2025 provides the military-power frame: PLA cyber activity is tied to crisis and conflict relevance, defense and civilian critical-infrastructure disruption, and allied interoperability concerns.</description>
-    </item>
-    <item>
-      <title>Foreign Government Reference Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:46:19 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Define source-routing rules for foreign government leadership, officeholder, diplomatic, country, and official-government reference material used inside the corpus.</description>
     </item>
     <item>
       <title>Map And Geospatial Reference Source Register</title>
@@ -258,26 +308,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>The DoD 2025 PRC military-power report is the current primary public U.S. defense source for China/PLA strategic and military modernization questions. It is strongest as a sectioned evidence router: national strategy, PLA strategy and capabilities, force employment, Taiwan pressure, South China Sea coercion, global influence, spending, industry, and emerging technology. The DoD 2024 report is the prior-year comparator for changes in emphasis, and DIA 2019 remains valuable as a historical baseline for older PLA modernization framing, but its force-structure and capability claims must be refreshed against newer sources.</description>
-    </item>
-    <item>
-      <title>Official Threat Source Collection Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</guid>
-      <pubDate>Sun, 14 Jun 2026 06:05:33 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
-    </item>
-    <item>
-      <title>Official U.S. Threat Source Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
-      <pubDate>Sun, 14 Jun 2026 06:05:33 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
     </item>
     <item>
       <title>PRC Official Doctrine And Issuer-Language Source Packet</title>
@@ -378,36 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>France's official-source lane should be treated as a nuclear-armed European ally file, a Euro-Atlantic defense file, and a sovereignty/industrial-base file. The current top-level source is the 2025 update to the National Strategic Review, which SGDSN says was commanded by the President and complements the 2022 review. The English courtesy translation frames the updated 2030 ambition around nuclear deterrence, national resilience, an economy prepared for war, cyber resilience, France as a reliable Euro-Atlantic ally, European strategic autonomy, sovereignty partnerships, hybrid fields, military operations, and science/technology.</description>
-    </item>
-    <item>
-      <title>Republic Of Korea Official Defense And Extended Deterrence Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 01:58:34 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The ROK source lane should be treated as a peninsula-front-line allied file with an extended-deterrence spine and a trilateral Indo-Pacific branch. The strongest verified public sources in this packet are ROK MOFA diplomatic sources, the Washington Declaration, Camp David source material, and the July 2024 trilateral defense ministerial statement. Together they support a high-confidence source lane for U.S.-ROK alliance assurance, DPRK nuclear and cyber threat framing, and U.S.-Japan-ROK institutionalization.</description>
-    </item>
-    <item>
-      <title>Japan Official Defense And Security Source Baseline Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 01:47:45 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Japan's official-source lane should be treated as a whole-of-government Indo-Pacific allied posture file. The Ministry of Defense defense-policy page anchors the 2022 three strategic documents: the National Security Strategy, National Defense Strategy, and Defense Buildup Program. Those documents connect Japan's severe regional security environment, the Japan-U.S. Alliance, like-minded-country cooperation, cross-domain capabilities, defense production and technology base, space, cyber, integrated air and missile defense, unmanned systems, sustainment, personnel, and civil protection.</description>
-    </item>
-    <item>
-      <title>Canada/NORAD Arctic And Continental Defense Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 01:38:22 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Arctic / High North</category>
-      <category>Source Packets</category>
-      <description>Canada/NORAD official-source coverage should be treated as both an allied country lane and a continental-defense lane. Canada's *Our North, Strong and Free* page is the current public defense-policy anchor for Arctic sovereignty, defense of Canada, defense of North America, and NORAD modernization source work. The archived *Strong, Secure, Engaged* page remains useful as a legacy baseline, but current claims should route first through the newer policy, budget, annual-report, parliamentary, and program sources.</description>
     </item>
   </channel>
 </rss>
