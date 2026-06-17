@@ -9,6 +9,11 @@ const resultCount = document.querySelector("#result-count");
 const statusUpdated = document.querySelector("#status-updated");
 const suggestionButtons = document.querySelectorAll("[data-query]");
 
+const PAGE_SIZE = 5;
+let currentQuery = "";
+let currentAllResults = [];
+let currentPage = 1;
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
@@ -53,8 +58,6 @@ function isProduct(item) {
 const productItems = corpus
   .filter(isProduct)
   .sort((a, b) => itemDate(b).getTime() - itemDate(a).getTime() || a.title.localeCompare(b.title));
-
-const defaultResults = productItems.slice(0, 5);
 
 function itemHaystack(item) {
   return normalize([
@@ -123,7 +126,7 @@ function scoreItem(item, terms) {
 function searchCorpus(query) {
   const normalized = normalize(query);
   if (!normalized) {
-    return defaultResults;
+    return productItems;
   }
 
   const terms = normalized.split(" ").filter(Boolean);
@@ -131,21 +134,22 @@ function searchCorpus(query) {
     .map((item) => ({ item, score: scoreItem(item, terms) }))
     .filter((entry) => entry.score > 0)
     .sort((a, b) => b.score - a.score || itemDate(b.item).getTime() - itemDate(a.item).getTime())
-    .slice(0, 5)
     .map((entry) => entry.item);
 }
 
-function routeLine(query, results) {
-  if (!query.trim()) {
+function routeLine(query, results, totalMatches) {
+  if (!query || !query.trim()) {
     return "Default: recent indexed entries.";
   }
+
+  const matchCount = (typeof totalMatches === "number" && totalMatches > 0) ? totalMatches : results.length;
 
   if (results.length === 0) {
     return `No direct hit for "${query}".`;
   }
 
   const types = [...new Set(results.map((item) => item.type))].slice(0, 3).join(", ");
-  return `Matched "${query}" across ${results.length} route${results.length === 1 ? "" : "s"}: ${types}.`;
+  return `Matched "${query}" across ${matchCount} route${matchCount === 1 ? "" : "s"}: ${types}.`;
 }
 
 function formatShortDate(value) {
@@ -220,11 +224,99 @@ function renderResultRow(item) {
   `;
 }
 
+function renderCurrentPage() {
+  const startIdx = (currentPage - 1) * PAGE_SIZE;
+  const pageItems = currentAllResults.slice(startIdx, startIdx + PAGE_SIZE);
+  const total = currentAllResults.length;
+  const startNum = total > 0 ? startIdx + 1 : 0;
+  const endNum = Math.min(startIdx + PAGE_SIZE, total);
+
+  output.innerHTML = pageItems.map(renderResultRow).join("");
+  resultStatus.textContent = routeLine(currentQuery, pageItems, currentAllResults.length);
+
+  if (!currentQuery || !currentQuery.trim()) {
+    resultCount.textContent = total > 0
+      ? `Showing results ${startNum}-${endNum} of ${total}`
+      : "No results";
+  } else if (total === 0) {
+    resultCount.textContent = `No matching results for "${currentQuery}"`;
+  } else {
+    resultCount.textContent = `Showing results ${startNum}-${endNum} of ${total} matches`;
+  }
+
+  renderPager(total);
+}
+
+function renderPager(total) {
+  const pagerEl = document.querySelector(".results-footer .pager");
+  if (!pagerEl) return;
+  pagerEl.innerHTML = "";
+
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+
+  if (totalPages <= 1) {
+    const span = document.createElement("span");
+    span.className = "is-current";
+    span.textContent = "1";
+    pagerEl.appendChild(span);
+    return;
+  }
+
+  const addPageSpan = (p, isCurrent) => {
+    const span = document.createElement("span");
+    if (isCurrent) span.className = "is-current";
+    span.textContent = String(p);
+    span.style.cursor = "pointer";
+    span.addEventListener("click", () => {
+      if (currentPage !== p) {
+        currentPage = p;
+        renderCurrentPage();
+      }
+    });
+    pagerEl.appendChild(span);
+  };
+
+  const addEllipsis = () => {
+    const span = document.createElement("span");
+    span.textContent = "...";
+    pagerEl.appendChild(span);
+  };
+
+  // Show a window of pages similar to original visual density
+  const windowSize = 2;
+  const toShow = new Set([1, totalPages, currentPage]);
+  for (let d = -windowSize; d <= windowSize; d += 1) {
+    const p = currentPage + d;
+    if (p >= 1 && p <= totalPages) toShow.add(p);
+  }
+
+  const sortedPages = Array.from(toShow).sort((a, b) => a - b);
+  let prevShown = 0;
+  sortedPages.forEach((p) => {
+    if (p > prevShown + 1) addEllipsis();
+    addPageSpan(p, p === currentPage);
+    prevShown = p;
+  });
+
+  // Next
+  const nextSpan = document.createElement("span");
+  nextSpan.textContent = "Next »";
+  if (currentPage < totalPages) {
+    nextSpan.style.cursor = "pointer";
+    nextSpan.addEventListener("click", () => {
+      currentPage = Math.min(currentPage + 1, totalPages);
+      renderCurrentPage();
+    });
+  }
+  pagerEl.appendChild(nextSpan);
+}
+
 function renderResults(query, results) {
-  const fallback = results.length ? results : defaultResults;
-  output.innerHTML = fallback.map(renderResultRow).join("");
-  resultStatus.textContent = routeLine(query, results);
-  resultCount.textContent = `Showing results 1-${fallback.length} of ${productItems.length}`;
+  // Back-compat shim: treat provided results as the full set for this query
+  currentQuery = query || "";
+  currentAllResults = Array.isArray(results) ? results : [];
+  currentPage = 1;
+  renderCurrentPage();
 }
 
 function renderLatest() {
