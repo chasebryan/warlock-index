@@ -4,7 +4,11 @@ const form = document.querySelector("#search-form");
 const input = document.querySelector("#search-input");
 const output = document.querySelector("#terminal-output");
 const suggestionButtons = document.querySelectorAll("[data-query]");
-const defaultResults = corpus.slice(0, 4);
+const defaultResults = [...corpus]
+  .map((item) => ({ item, d: parseDate(item.preparedUtc) }))
+  .sort((a, b) => (b.d ? b.d.getTime() : 0) - (a.d ? a.d.getTime() : 0))
+  .slice(0, 4)
+  .map((e) => e.item);
 const cosmosCanvas = document.querySelector("#cosmos-canvas");
 
 function escapeHtml(value) {
@@ -17,6 +21,18 @@ function escapeHtml(value) {
 
 function normalize(value) {
   return String(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function parseDate(value) {
+  if (!value) return null;
+  const cleaned = String(value).replace(/[^0-9T:-]/g, "").replace(/T(\d{2})(\d{2})Z?$/i, "T$1:$2:00Z");
+  const d = new Date(cleaned);
+  return isNaN(d.getTime()) ? null : d;
+}
+
+function formatShortDate(d) {
+  if (!d) return "";
+  return d.toISOString().slice(0, 10);
 }
 
 function itemHaystack(item) {
@@ -86,9 +102,15 @@ function searchCorpus(query) {
 
   const terms = normalized.split(" ").filter(Boolean);
   return corpus
-    .map((item) => ({ item, score: scoreItem(item, terms) }))
+    .map((item) => ({ item, score: scoreItem(item, terms), date: parseDate(item.preparedUtc) }))
     .filter((entry) => entry.score > 0)
-    .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      const da = a.date ? a.date.getTime() : 0;
+      const db = b.date ? b.date.getTime() : 0;
+      if (db !== da) return db - da;
+      return a.item.title.localeCompare(b.item.title);
+    })
     .slice(0, 6)
     .map((entry) => entry.item);
 }
@@ -164,6 +186,29 @@ function renderResults(query, results) {
   `;
 }
 
+function renderRecent() {
+  const recentEl = document.getElementById("recent-list");
+  if (!recentEl) return;
+
+  const dated = corpus
+    .map((item) => ({ item, d: parseDate(item.preparedUtc) }))
+    .filter((e) => e.d)
+    .sort((a, b) => b.d.getTime() - a.d.getTime())
+    .slice(0, 6);
+
+  if (!dated.length) {
+    recentEl.innerHTML = `<p style="color:var(--dim);font-size:0.85rem">No dated products yet.</p>`;
+    return;
+  }
+
+  recentEl.innerHTML = dated.map(({ item, d }) => `
+    <div class="recent-item">
+      <span class="date">${escapeHtml(formatShortDate(d))}</span>
+      <a href="${escapeAttr(item.path)}">${escapeHtml(item.title)}</a>
+    </div>
+  `).join("");
+}
+
 function setActiveRoute(query) {
   const normalized = normalize(query);
   suggestionButtons.forEach((button) => {
@@ -212,6 +257,7 @@ if (initialQuery) {
 }
 renderResults(initialQuery, searchCorpus(initialQuery));
 setActiveRoute(initialQuery);
+renderRecent();
 
 function createCosmos(canvas) {
   if (!canvas) return;

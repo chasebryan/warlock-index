@@ -43,6 +43,7 @@ function initialQuery() {
 const state = {
   query: initialQuery(),
   scope: "all",
+  sort: "relevance",
   selectedPath: "",
   queue: initialQueue(),
   exporting: false,
@@ -67,7 +68,9 @@ const els = {
   queue: document.querySelector("#queue-list"),
   clearQueue: document.querySelector("#clear-queue"),
   downloadQueue: document.querySelector("#download-queue"),
-  queueStatus: document.querySelector("#queue-status")
+  downloadText: document.querySelector("#download-text"),
+  queueStatus: document.querySelector("#queue-status"),
+  sortMode: document.querySelector("#sort-mode")
 };
 
 function escapeHtml(value) {
@@ -76,6 +79,13 @@ function escapeHtml(value) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function parseDate(value) {
+  if (!value) return null;
+  const cleaned = String(value).replace(/[^0-9T:-]/g, "").replace(/T(\d{2})(\d{2})Z?$/i, "T$1:$2:00Z");
+  const d = new Date(cleaned);
+  return isNaN(d.getTime()) ? null : d;
 }
 
 function escapeAttr(value) {
@@ -230,12 +240,30 @@ function filteredItems() {
   const route = routeById(state.scope);
   const terms = words(state.query);
 
-  return corpus
+  let results = corpus
     .filter(route.match)
-    .map((item) => ({ item, score: scoreItem(item, terms) }))
-    .filter((entry) => !terms.length || entry.score > 0)
-    .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))
-    .map((entry) => entry.item);
+    .map((item) => ({ item, score: scoreItem(item, terms), date: parseDate(item.preparedUtc) }))
+    .filter((entry) => !terms.length || entry.score > 0);
+
+  if (state.sort === "date-desc") {
+    results.sort((a, b) => {
+      const da = a.date ? a.date.getTime() : 0;
+      const db = b.date ? b.date.getTime() : 0;
+      if (db !== da) return db - da;
+      return a.item.title.localeCompare(b.item.title);
+    });
+  } else if (state.sort === "date-asc") {
+    results.sort((a, b) => {
+      const da = a.date ? a.date.getTime() : 0;
+      const db = b.date ? b.date.getTime() : 0;
+      if (da !== db) return da - db;
+      return a.item.title.localeCompare(b.item.title);
+    });
+  } else {
+    results.sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title));
+  }
+
+  return results.map((entry) => entry.item);
 }
 
 function bestInitialSelection(results) {
@@ -253,6 +281,11 @@ function setQuery(query) {
 function setScope(scope) {
   state.scope = scope;
   state.selectedPath = "";
+  render();
+}
+
+function setSort(mode) {
+  state.sort = mode || "relevance";
   render();
 }
 
@@ -840,6 +873,54 @@ function downloadHtml(filename, html) {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
+function downloadText(filename, text) {
+  const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+async function exportTextBundle(paths) {
+  const items = uniqueItemsForPaths(paths);
+  if (!items.length) {
+    setExportStatus("Queue is empty.", "warning");
+    return;
+  }
+
+  state.exporting = true;
+  setExportStatus(`Building text bundle...`);
+  render();
+
+  try {
+    const docs = await Promise.all(items.map(async (item) => {
+      const fetched = await fetchDocumentForExport(item).catch(() => null);
+      if (fetched && fetched.body) {
+        const plain = fetched.body.textContent || fetched.body.innerText || "";
+        return `${fetched.title}\n${fetched.item.preparedUtc ? "Prepared: " + fetched.item.preparedUtc : ""}\nSource: ${fetched.sourceUrl}\n\n${plain.trim()}\n\n---\n\n`;
+      }
+      return `${item.title}\n${item.preparedUtc ? "Prepared: " + item.preparedUtc : ""}\nPath: ${item.path}\n\n(See full HTML on site for formatted content.)\n\n---\n\n`;
+    }));
+
+    const header = `WARLOCK-INDEX Text Bundle\nGenerated: ${new Date().toISOString()}\nRecords: ${items.length}\nUNCLASSIFIED//OPEN SOURCE\n\n`;
+    const content = header + docs.join("");
+    const fname = items.length === 1
+      ? `${fileBaseFromPath(items[0].path)}.txt`
+      : `warlock-index-text-bundle-${new Date().toISOString().slice(0,10)}-${items.length}.txt`;
+    downloadText(fname, content);
+    setExportStatus(`Exported ${formatCount(items.length, "record")} as text.`, "ok");
+  } catch (err) {
+    setExportStatus("Text export failed: " + (err?.message || err), "warning");
+  } finally {
+    state.exporting = false;
+    render();
+  }
+}
+
 async function exportReaderPacket(paths) {
   const items = uniqueItemsForPaths(paths);
 
@@ -1084,6 +1165,9 @@ function render() {
   if (els.downloadQueue) {
     els.downloadQueue.disabled = !state.queue.length || state.exporting;
   }
+  if (els.downloadText) {
+    els.downloadText.disabled = !state.queue.length || state.exporting;
+  }
   if (els.queueStatus) {
     els.queueStatus.textContent = state.exportStatus;
     els.queueStatus.dataset.tone = state.exportStatus ? (els.queueStatus.dataset.tone || "") : "";
@@ -1130,6 +1214,12 @@ els.queue.addEventListener("click", (event) => {
 
 els.clearQueue.addEventListener("click", clearQueue);
 els.downloadQueue?.addEventListener("click", () => exportReaderPacket(state.queue));
+els.downloadText?.addEventListener("click", () => exportTextBundle(state.queue));
+
+if (els.sortMode) {
+  els.sortMode.value = state.sort;
+  els.sortMode.addEventListener("change", (e) => setSort(e.target.value));
+}
 
 els.input.value = state.query;
 setupInstallPrompt();

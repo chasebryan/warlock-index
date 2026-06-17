@@ -143,7 +143,15 @@
               <p>Query route</p>
               <h1 id="results-heading">Strategic weapons</h1>
             </div>
-            <div class="result-count" id="result-count">0 matches</div>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <label style="font-size:0.7rem;color:var(--dim);">Sort</label>
+              <select id="sort-mode" style="font-size:0.75rem;background:#111;color:#ddd;border:1px solid #333;padding:2px 4px;">
+                <option value="relevance">Relevance</option>
+                <option value="date-desc">Newest first</option>
+                <option value="date-asc">Oldest first</option>
+              </select>
+              <div class="result-count" id="result-count">0 matches</div>
+            </div>
           </div>
 
           <div class="quick-routes" id="quick-routes" aria-label="Quick routes"></div>
@@ -157,9 +165,12 @@
             <div class="queue-head">
               <h2 id="queue-heading">Queue</h2>
               <div class="queue-actions">
-                <button class="queue-download-button" type="button" id="download-queue" title="Download queued reader packet" aria-label="Download queued reader packet" disabled>
+                <button class="queue-download-button" type="button" id="download-queue" title="Download queued reader packet (HTML)" aria-label="Download queued reader packet" disabled>
                   <svg viewBox="0 0 24 24" aria-hidden="true" style="width:16px;height:16px"><use href="#icon-package"></use></svg>
                   <span>Packet</span>
+                </button>
+                <button class="queue-download-button" type="button" id="download-text" title="Download queued as text bundle" aria-label="Download queued as text" disabled>
+                  <span>TXT</span>
                 </button>
                 <button class="icon-button" type="button" id="clear-queue" title="Clear queue" aria-label="Clear queue">
                   <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-x"></use></svg>
