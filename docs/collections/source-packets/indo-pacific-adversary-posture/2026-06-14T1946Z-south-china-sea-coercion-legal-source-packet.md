@@ -23,9 +23,11 @@ bounded by existing WARLOCK-INDEX PRC issuer and services/arms packets; and
 existing WARLOCK-INDEX Philippines/South China Sea map packet, China/PLA
 source baseline, DoD/DIA China extraction map, PRC issuer-language packet,
 DoD-to-PRC claim crosswalk, PLA services and arms packet, Taiwan pressure
-packet, China actor profile, map/geospatial register, maritime chokepoints
-register, foreign-government register, official U.S. register, China/PLA
-tracker, coverage map, and global assimilation matrix.
+packet, Philippines official defense/maritime source capture packet, China
+actor profile, map/geospatial register, maritime chokepoints
+register, foreign-government register, official U.S. register,
+ASEAN/claimant-state South China Sea cross-check packet, China/PLA tracker,
+coverage map, and global assimilation matrix.
 
 **Analytic confidence:** High for DoD 2025 section identity, PCA case-page
 source-family identity, State Limits in the Seas source-family identity,
@@ -122,6 +124,7 @@ they appear in official or legal materials.
 | Philippine Official Gazette AO 29 | Official Gazette of the Republic of the Philippines | A issuer/legal source where accessible | Source family active; prior access check returned an access challenge | Philippine official source-family lane for West Philippine Sea naming and administrative language | Do not cite current page content until accessible and dated |
 | Philippine Official Gazette EDCA materials | Official Gazette of the Republic of the Philippines | A issuer/legal source where accessible | Source family active; prior access check returned an access challenge | Companion lane for access-architecture and allied-posture context | No basing, facility, readiness, movement, or deployment inference |
 | State Philippines country-area source family | U.S. Department of State | A where accessible | Technical-difficulties response in this environment | U.S. diplomatic country-area routing for Philippines and alliance context | Do not cite current page content until refreshed |
+| Philippines official defense/maritime capture packet | WARLOCK-INDEX / Philippine and U.S. official source families | Internal derived plus official routes | Active 2026-06-17 | Direct-source routing for Philippine NSC, DND, DFA, PCG, BFAR, NAMRIA, Official Gazette, EDCA, maritime-zone, and U.S. cross-check lanes | Source-capture map; not legal advice, basing inference, patrol analysis, or operational guidance |
 | PRC State Council/MND/MFA/official media | PRC official and official-media sources | A/B issuer perspective | Existing PRC issuer packet and MND/PLA dated capture provide access caveats | PRC sovereignty, lawfare, defense, and diplomatic claim language | Propagandistic and contested; not independent legality or capability evidence |
 | China Coast Guard source lane | PRC Coast Guard / PAP / PRC issuer sources plus DoD 2025 | A/B issuer perspective and U.S. assessment | Routed through DoD 2025 and PLA services/arms packet pending direct official capture | Maritime law-enforcement pressure, detention-regulation claims, CCG/PLA integration, and South China Sea incident source routing | No patrol route, boarding procedure, interdiction guidance, or live tracking |
 | China Maritime Militia source lane | DoD 2025 plus Philippine/allied incident sources and PRC issuer sources where captured | A/B depending on source | Routed through DoD 2025, BFAR, and PLA services/arms packet | Militia/coercion source family, claimant-pressure incidents, and militia-CCG-PLAN separation | No vessel identification products, route selection, targeting, or operational use |
@@ -222,9 +225,9 @@ sources and PRC issuer responses preserve incident-level claim language.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
-| Philippine WPS Direct Source Capture | Capture Philippine Coast Guard, DFA, Official Gazette, NAMRIA product pages, and relevant BFAR releases with access notes | PCG, DFA, BFAR, NAMRIA, Official Gazette |
+| Philippine WPS Page-Level Refresh | Maintain page-level capture for Philippine Coast Guard, DFA, Official Gazette, NAMRIA product pages, and relevant BFAR releases after the first-pass Philippines source-capture packet | PCG, DFA, BFAR, NAMRIA, Official Gazette, Philippines official defense/maritime source capture packet |
 | PRC Coast Guard And Maritime Lawfare Source Capture | Capture PRC Coast Guard, MND, MFA, NPC/legal, and official-media claim sources with translation caveats | PRC CCG, MND, MFA, NPC, Xinhua, China Military Online |
-| ASEAN And Claimant-State South China Sea Cross-Check Packet | Add Vietnam, Malaysia, Brunei, Taiwan, ASEAN, Japan, and Australia source-family cross-checks | Claimant governments, ASEAN, Japan, Australia, State, DoD |
+| ASEAN And Claimant-State Page-Level Refresh | Maintain exact ASEAN, Vietnam, Malaysia, Brunei, Indonesia, Taiwan, Japan, Australia, UN, PCA, and State page/PDF capture after the first-pass regional cross-check packet | ASEAN, claimant/coastal-state ministries, Taiwan MOFA, Japan, Australia, UN/UNCLOS, PCA, State |
 | Maritime Chokepoint South China Sea Trade Context Packet | Pair South China Sea security issues with trade, energy, fisheries, insurance, and shipping-source context | UNCTAD, EIA/IEA, IMO, insurance, port/shipping data |
 | State Limits And PCA Legal-Source Refresh | Refresh State Limits in the Seas No. 150 and PCA award/document links with page-level access notes | State, PCA, official archives |
 
@@ -247,6 +250,8 @@ sources and PRC issuer responses preserve incident-level claim language.
 ## Cross References
 
 - [Philippines And South China Sea Map Reference Source Packet](../theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
+- [Philippines Official Defense And Maritime Source Capture Packet](../indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.md)
+- [ASEAN And Claimant-State South China Sea Cross-Check Packet](2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
 - [Map And Geospatial Reference Source Register](../../../source-registers/map-geospatial-reference.md)
 - [Maritime Chokepoints Source Register](../../../source-registers/maritime-chokepoints.md)
 - [China/PLA Official Military And Security Source Baseline Packet](2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)

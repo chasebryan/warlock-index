@@ -22,3 +22,5 @@ deployment schedules, or technical instructions.
 - [2026-06-14T1938Z - Taiwan Pressure And Cross-Strait Coercion Source Packet](2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [2026-06-14T1946Z - South China Sea Coercion And Legal-Source Packet](2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
 - [2026-06-14T1956Z - PRC Cyber And Critical Infrastructure Defensive Source Packet](2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
+- [2026-06-17T2106Z - Salt Typhoon And Telecommunications Defensive Source Note](2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
+- [2026-06-17T2251Z - ASEAN And Claimant-State South China Sea Cross-Check Packet](2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)

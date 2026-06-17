@@ -2,7 +2,7 @@
 
 **Current status:** Initial documentation architecture established.
 
-**Prepared UTC:** 2026-06-17 (tool-assisted site/feed update)
+**Prepared UTC:** 2026-06-17 (tool-assisted docs continuation)
 
 ## Completed
 
@@ -309,6 +309,38 @@
   terminology, no-maritime-route-guidance, no-patrol-planning,
   no-procurement-advice, no-technology-transfer-workarounds,
   no-cyber-technical-detail, and no-operational-guidance boundaries.
+- Added the Philippines official defense and maritime source capture packet
+  with Philippine NSC, DND, DFA, PCG, BFAR, NAMRIA, Official Gazette, EDCA,
+  maritime-zone, archipelagic sea-lane, SRDP, State, DoD, USINDOPACOM, PCA,
+  allied register, foreign-government register, official-U.S. register,
+  allied tracker, China/PLA tracker, official allied matrix, global matrix,
+  coverage-map, Indo-Pacific source-packet README, South China Sea
+  coercion/legal-source packet, and docs-index wiring while preserving
+  source-access caveats, no-legal-advice, no-basing-inference,
+  no-patrol-planning, no-live-tracking, no-route-guidance,
+  no-sensor-coverage-analysis, and no-operational-guidance boundaries.
+- Added the Salt Typhoon and telecommunications defensive source note with
+  Treasury Salt Typhoon sanctions, Rewards for Justice critical-infrastructure
+  cyber reward routing, Senate Commerce telecommunications oversight, CISA,
+  NSA, FBI, and FCC access-caveated source-family routing, USILE register,
+  official-U.S. register, China/PLA tracker, PRC cyber parent packet,
+  official U.S. threat-source matrix, global matrix, coverage-map,
+  Indo-Pacific adversary source-packet README, and docs-index wiring while
+  preserving no-exploit-steps, no-IOCs, no-telecom-network-diagrams,
+  no-lawful-intercept-detail, no-provider-vulnerability-mapping,
+  no-incident-response-playbooks, no-sanctions-evasion, and
+  no-operational-guidance boundaries.
+- Added the ASEAN and claimant-state South China Sea cross-check packet with
+  ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia,
+  UN/UNCLOS, PCA, State Limits in the Seas, Philippines/PRC companion-packet,
+  allied/multilateral register, foreign-government register, official-U.S.
+  register, China/PLA tracker, allied tracker, official U.S. threat-source
+  matrix, official allied matrix, global matrix, coverage-map,
+  South China Sea companion-packet, Indo-Pacific adversary source-packet
+  README, and docs-index wiring while preserving no-legal-advice,
+  no-route-guidance, no-live-tracking, no-sensor-coverage-analysis,
+  no-patrol-planning, no-basing-inference, and no-operational-guidance
+  boundaries.
 - Updated the public website toward a lighter old-school corpus interface,
   added a browser-readable RSS feed at `/feed.xml`, refreshed favicon assets,
   retained recent-update discovery surfaces, and reduced image/cache weight on
@@ -339,10 +371,12 @@ The repository is in baseline-building mode. Products prioritize:
   information support, PRC defense-industrial and emerging technology, PRC
   defense white-paper deep extraction, Taiwan MND direct source capture,
   State/AIT Taiwan policy source refresh, PRC MND press conference archive
-  capture, Philippine WPS direct source capture, PRC Coast Guard and
+  capture, Philippine WPS page-level source refreshes where access remained
+  incomplete, PRC Coast Guard and
   maritime lawfare source capture, ASEAN/claimant-state South China Sea
-  cross-checks, PRC cyber advisory page-level refresh, Salt
-  Typhoon/telecommunications defensive source treatment, PRC cyber-governance
+  page-level refreshes, PRC cyber advisory page-level refresh, Salt Typhoon
+  advisory page-level refresh, FCC telecommunications cybersecurity source
+  refresh, OFAC Salt Typhoon designation refresh, PRC cyber-governance
   issuer-language refresh, critical-infrastructure sector source crosswalk,
   allied PRC cyber cross-checks, and PRC-Russia defense-industrial support.
 - Add follow-on DoD Cooperative Threat Reduction, BWC treaty/compliance,
@@ -365,7 +399,10 @@ The repository is in baseline-building mode. Products prioritize:
   and defense-industrial/capability-delivery follow-on lanes, Sweden
   defence-resolution implementation, NATO FLF/host-nation-support,
   total-defence/civil-defence/resilience, and defense-industrial/capability
-  delivery follow-on lanes, ICE Pact implementation, New START
+  delivery follow-on lanes, Philippines defense policy/budget verification,
+  PCG WPS incident refresh, Official Gazette legal-source refresh,
+  U.S.-Philippines alliance/EDCA implementation source packet, ICE Pact
+  implementation, New START
   post-expiration status, and Red Sea follow-on economics sublanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
   West Africa, DRC critical minerals, and Libya.

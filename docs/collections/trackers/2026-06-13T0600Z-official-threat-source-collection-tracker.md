@@ -4,14 +4,14 @@
 
 **Tracker ID:** WI-TRACKER-US-THREAT-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-14T06:05:33Z
+**Prepared UTC:** 2026-06-17T21:06:51Z
 
-**Information cutoff UTC:** 2026-06-14T06:05:33Z
+**Information cutoff UTC:** 2026-06-17T21:06:51Z
 
 **Source base:** U.S. intelligence and law-enforcement source register; ODNI,
 CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA, ATF, CBP, Coast Guard,
 DOJ, and NGA public source families; existing WARLOCK-INDEX source registers
-and assessments.
+and assessments; Salt Typhoon and telecommunications defensive source note.
 
 **Analytic confidence:** High for collection architecture. Moderate for
 source recency because dynamic agency pages and annual reports require dated
@@ -37,11 +37,11 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | Source family | Current status | Next product | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
 | ODNI Annual Threat Assessment | Active in repo; used in Russia, DPRK, and Iran strategic-weapons packets | Keep annual comparison packet current | High | No classified inference |
-| DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, and China/PLA source tracker added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, cyber, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, issuer-claim laundering, or export-control evasion |
+| DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, China/PLA source tracker, PRC cyber defensive packet, and Salt Typhoon telecommunications source note added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, cyber advisory page-level refresh, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, telecom network diagrams, lawful-intercept detail, issuer-claim laundering, or export-control evasion |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
 | CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
 | FBI terrorism | Registered | FBI/DHS terrorism source packet | High | No political profiling or tactics |
-| FBI cyber / IC3 | Registered | CISA/NSA/FBI cyber source packet | High | No exploit or evasion detail |
+| FBI cyber / IC3 | Registered; Salt Typhoon telecommunications source note added with FBI source-family access caveat | CISA/NSA/FBI cyber advisory page-level refresh and broader defensive cyber source packet | High for source family; moderate for current Salt Typhoon FBI text pending direct access | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, or telecom network diagrams |
 | FBI counterintelligence | Registered | Foreign intelligence source packet | Moderate | No identification of private persons absent official legal source |
 | FBI WMD | Registered; WMD/biosecurity source packet added | Maintain WMD public-source packet | Moderate | No materials, methods, or vulnerability detail |
 | ODNI global biolab disclosure | Source-treatment note, WMD/biosecurity source packet, and Ukraine claim-reconciliation note added | Declassification and information-resilience source note | High for ODNI release; moderate to low for uncorroborated underlying claims | No biological methods, facility table, site mapping, or vulnerability detail |
@@ -114,6 +114,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - [China/PLA Official Military And Security Source Baseline Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [PRC Official Doctrine And Issuer-Language Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
 - [DoD/DIA China Military Power Extraction Map](../source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
 - [China/PLA Source Collection Tracker](2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [Theater Map Index](../source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)

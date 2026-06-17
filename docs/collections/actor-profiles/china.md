@@ -48,5 +48,7 @@ alignment actor.**
 - [2026-06-14T1933Z - PLA Services And Arms Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.md)
 - [2026-06-14T1938Z - Taiwan Pressure And Cross-Strait Coercion Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [2026-06-14T1946Z - South China Sea Coercion And Legal-Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
+- [2026-06-17T2251Z - ASEAN And Claimant-State South China Sea Cross-Check Packet](../source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
 - [2026-06-14T1956Z - PRC Cyber And Critical Infrastructure Defensive Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
+- [2026-06-17T2106Z - Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
 - [2026-06-14T0523Z - China/PLA Source Collection Tracker](../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)

@@ -2,7 +2,51 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-16T05:12:39Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
+
+## Treasury, State, And Congressional Salt Typhoon Telecommunications Source Family
+
+- **Source class:** A/B by source lane
+- **Publishers:** U.S. Department of the Treasury / OFAC; Department of State
+  Rewards for Justice; U.S. Senate Committee on Commerce, Science, and
+  Transportation
+- **Accessed UTC:** 2026-06-17T21:06:51Z
+- **URLs:**
+  - https://home.treasury.gov/news/press-releases/jy2792
+  - https://rewardsforjustice.net/rewards/foreign-malicious-cyber-activity-against-u-s-critical-infrastructure/
+  - https://www.commerce.senate.gov/press/dem/release/cantwell-demands-att-verizon-ceos-come-clean-on-salt-typhoon-hacks-ongoing-network-security-risks/
+- **Use:** Official U.S. source routing for Salt Typhoon sanctions, foreign
+  malicious cyber activity reward routing, telecommunications network-security
+  oversight, FCC/CISA/FBI/NSA follow-on page refresh, and PRC cyber source
+  treatment.
+- **Reliability note:** Treasury and Rewards for Justice are executive-branch
+  source routes. Senate Commerce is an official congressional oversight
+  source and should not be used as a substitute for direct FBI, FCC, CISA, or
+  NSA page text when those primary pages become accessible. Use the dedicated
+  Salt Typhoon source note for claim separation and safety boundaries.
+
+## State Department U.S.-Philippines Alliance, South China Sea, And Maritime Source Family
+
+- **Source class:** A
+- **Publisher:** U.S. Department of State
+- **Accessed UTC:** 2026-06-17T22:51:55Z
+- **URLs:**
+  - https://www.state.gov/countries-areas/philippines/
+  - https://www.state.gov/on-the-philippines-maritime-zones-act/
+  - https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/
+- **Access note:** The Philippines country-area and Maritime Zones Act pages
+  resolved but returned technical-difficulties/forbidden payloads in this
+  environment during the 2026-06-17T20:48Z pass. Use the URLs as U.S.
+  official source-family routes until exact page text is accessible.
+- **Use:** U.S. official source-family routing for Philippines diplomatic
+  framing, alliance context, Maritime Zones Act response, South China Sea
+  legal-source cross-checks, ASEAN/claimant-state regional source checks, and
+  future U.S.-Philippines alliance source refresh.
+- **Reliability note:** Correct U.S. official source family, but exact
+  current page language should not be summarized until later successful access
+  or archived official capture. Do not use State pages as a substitute for
+  Philippine legal, DND, DFA, PCG, BFAR, NAMRIA, ASEAN, Vietnam, Malaysia,
+  Indonesia, Brunei, Taiwan, Japan, Australia, UN, or PCA source capture.
 
 ## State Department Quad Source Family
 

@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRACKER-CHINA-PLA-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-14T19:56:06Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
 
-**Information cutoff UTC:** 2026-06-14T19:56:06Z
+**Information cutoff UTC:** 2026-06-17T22:51:55Z
 
 **Purpose:** Track China and PLA source-family collection across official
 U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial,
@@ -29,8 +29,8 @@ guidance.
 | PRC MND/PLA official-media routing | Dated capture packet and services/arms routing added with access caveats | Foreign-government register; China/PLA packet; PRC MND and PLA official-media dated capture packet; PLA services and arms source packet | MND press conference archive capture | High for accessible Xinhua source identity; moderate for MND/China Military direct-page access | No laundering claims into independent findings |
 | Taiwan source family | Taiwan pressure packet added with direct-source access caveats | China/PLA packet; map-reference packet; Taiwan pressure and cross-Strait coercion source packet | Taiwan MND direct source capture with no live tracking | High for source-family need; moderate pending direct document capture | No target, route, live tracking, or unit-level extraction |
 | Japan/Australia allied China cross-checks | Partial through country packets | Japan and Australia source packets; allied matrix | China-specific allied regional cross-check packet | Moderate to high | No basing, route, or operational inference |
-| Philippines/South China Sea legal/map lane | Packetized through map packet and coercion/legal-source packet | Philippines/South China Sea map packet; South China Sea coercion and legal-source packet | Philippine WPS direct source capture; PRC Coast Guard and maritime lawfare source capture; ASEAN/claimant-state cross-check packet | Moderate to high for legal/map routing | No legal advice, navigation, interdiction, patrol analysis, or live tracking |
-| PRC cyber lane | Packetized as defensive source lane | USILE register; cyber baseline; China/PLA packet; PRC cyber and critical infrastructure defensive source packet | Advisory page-level refresh; Salt Typhoon/telecommunications defensive source note; allied PRC cyber cross-check packet | High for source family; moderate pending page-level advisory extraction | No exploit chains, scanning, evasion, malware steps, IOCs for misuse, or victim-specific guidance |
+| Philippines/South China Sea legal/map lane | Packetized through map packet, coercion/legal-source packet, Philippines official defense/maritime source capture packet, and ASEAN/claimant-state South China Sea cross-check packet | Philippines/South China Sea map packet; South China Sea coercion and legal-source packet; Philippines official defense/maritime source capture packet; ASEAN and claimant-state South China Sea cross-check packet | PRC Coast Guard and maritime lawfare source capture; ASEAN/claimant-state page-level refreshes; Philippine page-level refreshes where access was challenged | High for source-family routing; moderate for current page-level extraction | No legal advice, navigation, interdiction, patrol analysis, basing inference, route guidance, or live tracking |
+| PRC cyber lane | Packetized as defensive source lane; Salt Typhoon telecommunications source note added | USILE register; cyber baseline; China/PLA packet; PRC cyber and critical infrastructure defensive source packet; Salt Typhoon and telecommunications defensive source note | Advisory page-level refresh; FCC telecom cybersecurity source refresh; OFAC designation refresh; allied PRC cyber cross-check packet | High for source family; moderate pending page-level advisory, FBI, FCC, and allied extraction | No exploit chains, scanning, evasion, malware steps, IOCs for misuse, telecom network diagrams, lawful-intercept system detail, or victim-specific guidance |
 | PRC space/counterspace lane | Partial through China and space products | China strategic-weapons packet; space baseline | PRC space/counterspace/information-support packet | Moderate | No orbital vulnerability or interference methods |
 | PRC nuclear/missile/Rocket Force lane | Packetized | China strategic-weapons packet | Annual strategic-weapons refresh | Moderate to high | No targeting, posture inference, or weapons employment |
 | PRC defense-industrial/technology lane | Queued | DoD PRC report; DIB baseline; China/PLA packet | Defense-industrial and emerging-technology packet | Moderate | No procurement evasion or replication detail |
@@ -56,11 +56,13 @@ guidance.
 - PRC defense-industrial and emerging-technology source packet.
 - PRC defense white paper deep extraction packet.
 - PRC MND press conference archive capture.
-- Philippine WPS direct source capture.
+- Philippine WPS page-level source refreshes where Official Gazette, NSC, DND,
+  DFA, PCG, BFAR, NAMRIA, or State access remains incomplete.
 - PRC Coast Guard and maritime lawfare source capture.
-- ASEAN and claimant-state South China Sea cross-check packet.
+- ASEAN and claimant-state South China Sea page-level refreshes.
 - PRC cyber advisory page-level refresh.
-- Salt Typhoon and telecommunications defensive source note.
+- Salt Typhoon advisory page-level refresh and telecom regulatory-source
+  refresh.
 - Allied PRC cyber cross-check packet.
 - PRC-Russia defense-industrial support source packet.
 
@@ -74,7 +76,10 @@ guidance.
 - [PLA Services And Arms Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.md)
 - [Taiwan Pressure And Cross-Strait Coercion Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [South China Sea Coercion And Legal-Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
+- [Philippines Official Defense And Maritime Source Capture Packet](../source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.md)
+- [ASEAN And Claimant-State South China Sea Cross-Check Packet](../source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
 - [PRC Cyber And Critical Infrastructure Defensive Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
+- [Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
 - [China Actor Profile](../actor-profiles/china.md)
 - [PRC Military Modernization Strategic Baseline](../../assessments/indo-pacific/2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)
 - [China Strategic Actor Classification](../../assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.md)

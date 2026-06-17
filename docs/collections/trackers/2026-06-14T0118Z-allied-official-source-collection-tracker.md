@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRACKER-ALLY-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-16T05:12:39Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
 
-**Information cutoff UTC:** 2026-06-16T05:12:39Z
+**Information cutoff UTC:** 2026-06-17T22:51:55Z
 
 **Source base:** Existing WARLOCK-INDEX NATO and allied source registers,
 NATO allied capacity source packet, Indo-Pacific allied posture source packet,
@@ -24,8 +24,10 @@ integration source packet, Denmark official defense/security/Arctic source
 packet, Iceland official security/defense/NATO source packet, EU
 security-defense source packet, AUKUS industrial implementation source
 packet, NORAD modernization implementation source packet, India/Quad
-strategic-partner source packet, and official public national strategy source
-families for major U.S. allies and strategic partners.
+strategic-partner source packet, Philippines official defense/maritime source
+capture packet, ASEAN/claimant-state South China Sea cross-check packet, and
+official public national strategy source families for major U.S. allies and
+strategic partners.
 
 **Analytic confidence:** High for collection architecture and already
 registered UK, Australia, AUKUS, Canada/NORAD, NORAD modernization, Japan,
@@ -34,6 +36,13 @@ source families, plus India/Quad partner-source identity and source-family
 routing.
 Moderate for the wider ally queue because each remaining national lane still
 needs its own dated verification and source packet.
+High for Philippines source-family identity and routing; moderate for
+Philippine policy, legal, coast guard, fisheries, budget, and implementation
+claims pending direct page/PDF capture after current access challenges.
+High for the ASEAN/claimant-state cross-check packet as a regional
+source-routing layer; moderate for current ASEAN, Vietnam, Malaysia,
+Indonesia, Brunei, Taiwan, UN, PCA, and State page-level extraction pending
+manual/browser refresh.
 
 **Purpose:** Track official allied source collection status so allied
 documentation grows like the existing U.S. official-source lane: dated source
@@ -56,11 +65,18 @@ the EU now extend that architecture across the remaining Nordic/North Atlantic
 country-source lanes and the EU-level security-defense layer. India/Quad now
 adds the first partner-lane source packet and preserves the distinction
 between treaty-allied evidence and Quad strategic-partner evidence.
-NATO provides the shared Alliance frame, while country lanes should capture
-national strategy, defense review, budget/procurement evidence, industrial
-policy, nuclear or extended-deterrence sources where applicable, cyber
-agencies, space agencies, resilience systems, and parliamentary/audit
-evidence.
+The Philippines lane now adds a treaty-ally source-capture packet for defense,
+maritime, West Philippine Sea, EDCA, maritime-zone, coast guard, fisheries,
+map, and U.S. cross-check source families while preserving source-access
+caveats. The ASEAN/claimant-state cross-check packet adds a regional
+source-provenance layer for ASEAN, Vietnam, Malaysia, Indonesia, Brunei,
+Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State source families without
+classifying those lanes as treaty-allied evidence. NATO provides the shared
+Alliance frame, while country lanes should capture national strategy,
+defense review, budget/procurement evidence,
+industrial policy, nuclear or extended-deterrence sources where applicable,
+cyber agencies, space agencies, resilience systems, coast guard or maritime
+agencies where relevant, and parliamentary/audit evidence.
 
 The next useful pattern is repeatable: register the official source families,
 write a dated country source packet, wire that packet into this tracker and
@@ -89,7 +105,8 @@ implementation packets in this lane.
 | Nordic and High North allies | Norway, Finland, Sweden, Denmark, and Iceland baselines complete; Arctic queue now shifts from initial baselines to implementation/crosswalk products | Nordic implementation crosswalk; High North/Nordic NATO integration packet | Moderate for comparative implementation pending dated national follow-on evidence | No infrastructure vulnerability, mobilization procedure, facility mapping, sensor coverage, or route detail |
 | European Union security and defense | EU security-defense source packet complete; Strategic Compass, CSDP, EDIS, Readiness 2030, EDIP, SAFE, military mobility, cyber/resilience, sanctions, and EDA source lanes added to allied register | EU Readiness 2030 implementation packet, military mobility/infrastructure packet, defense-industrial/Ukraine support packet, cyber/resilience/hybrid-threat packet, and sanctions source packet | High for EU source identity and policy/instrument routing; moderate for funding execution, member-state uptake, delivery, and readiness evidence pending EU legal/budget and national source refresh | EU sources are not interchangeable with NATO or national force evidence; no route guidance, procurement advice, sanctions evasion, cyber technical detail, or readiness scoring |
 | India/Quad partner lane | India/Quad strategic-partner source packet complete; partner-language distinction added to tracker, matrix, registers, and Indo-Pacific source-packet lane | India defense policy and budget verification packet; Quad critical minerals/energy implementation packet; U.S.-India iCET/INDUS-X implementation packet | High for partner-source identity and Quad/iCET/INDUS-X source routing; moderate for Indian defense, budget, maritime, critical-minerals, energy, and technology implementation pending direct Indian official refresh | Keep "ally" and "partner" terminology separate; no maritime route guidance, patrol planning, procurement advice, technology-transfer workarounds, cyber technical detail, or operational guidance |
-| Philippines and other Indo-Pacific treaty allies | Map and posture source packets exist for Philippines/South China Sea context | Philippines official defense and maritime source packet | Moderate pending dated official refresh | No basing, patrol, or maritime tactical guidance |
+| Philippines | Philippines official defense and maritime source capture packet complete; Philippines/South China Sea map packet and South China Sea coercion/legal-source packet already provide map/legal and coercion companion lanes | Philippines defense policy/budget verification packet; PCG WPS incident refresh; Official Gazette legal-source refresh; U.S.-Philippines alliance/EDCA implementation source packet | High for source-family identity and routing; moderate for current page-level extraction because several Philippine and State routes returned access challenges in this environment | No basing, patrol, route, live-tracking, sensor-coverage, legal-advice, readiness-scoring, or maritime tactical guidance |
+| Other Indo-Pacific treaty allies and partners | Philippines, Japan, ROK, Australia, India/Quad, and ASEAN/claimant-state South China Sea cross-check lanes now have source-packet coverage; remaining Pacific Islands and regional implementation lanes are still uneven | Pacific Islands partner-source packet; ASEAN/claimant-state page-level refreshes | High for regional source-family routing; moderate pending exact page/PDF capture and current dated official refresh | No source-lane conflation, basing inference, patrol guidance, legal advice, route guidance, or operational planning |
 
 ## Required Source Families By Country Packet
 
@@ -141,6 +158,8 @@ implementation packets in this lane.
 - [Australia Official Defence And AUKUS Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.md)
 - [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 - [India/Quad Strategic-Partner Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0512Z-india-quad-strategic-partner-source-packet.md)
+- [Philippines Official Defense And Maritime Source Capture Packet](../source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.md)
+- [ASEAN And Claimant-State South China Sea Cross-Check Packet](../source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
 - [Canada/NORAD Arctic And Continental Defense Source Packet](../source-packets/arctic-infrastructure/2026-06-14T0138Z-canada-norad-arctic-continental-defense-source-packet.md)
 - [NORAD Modernization Implementation Source Packet](../source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.md)
 - [Japan Official Defense And Security Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.md)

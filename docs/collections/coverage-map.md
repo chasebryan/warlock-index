@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-16T05:12:39Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing
@@ -84,8 +84,9 @@ future open-source defense assessments.
   source-family routing, Taiwan pressure and cross-Strait coercion source
   treatment, allied/regional defense white papers, cyber advisories, South
   China Sea legal sources, South China Sea coercion/legal-source treatment,
-  PRC cyber and critical-infrastructure defensive source treatment, and
-  China-specific tracker/matrix products.
+  PRC cyber and critical-infrastructure defensive source treatment, Salt
+  Typhoon telecommunications defensive source treatment, and China-specific
+  tracker/matrix products.
 - ODNI declassified WMD, biosecurity, foreign-laboratory, and
   threat-reduction disclosures where handled as issuer-perspective source
   events with explicit no-methods and no-facility-detail boundaries.
@@ -117,6 +118,19 @@ future open-source defense assessments.
   INDUS-X sources, Indian PIB science/technology releases, and follow-on
   Indian MOD, parliamentary, budget, audit, DRDO, maritime, critical-minerals,
   and energy-security source refreshes.
+- Philippines official defense and maritime source stacks, including NSC,
+  DND, DFA, PCG, BFAR, NAMRIA, Official Gazette legal routes, EDCA, maritime
+  zones, archipelagic sea lanes, West Philippine Sea issuer-language source
+  routing, U.S. State/DoD/USINDOPACOM cross-checks, and PCA/State legal-source
+  companions, handled without basing inference, patrol planning, live tracking,
+  route guidance, legal advice, sensor-coverage extraction, or operational
+  guidance.
+- ASEAN and claimant/coastal-state South China Sea source stacks, including
+  ASEAN DOC/COC routes, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan,
+  Australia, UN/UNCLOS, PCA, State Limits in the Seas, and existing
+  Philippines/PRC companion packets, handled as source-provenance and
+  cross-check lanes without legal advice, route guidance, live tracking,
+  sensor-coverage extraction, or operational guidance.
 - Congressional Research Service and Government Accountability Office reports.
 - Reputable research institutions with transparent methods.
 - Professional media reporting used for current-event context.

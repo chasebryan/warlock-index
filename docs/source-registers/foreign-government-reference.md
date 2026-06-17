@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-FGOV-2026-0001
 
-**Prepared UTC:** 2026-06-14T19:46:19Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
 
-**Information cutoff UTC:** 2026-06-14T19:46:19Z
+**Information cutoff UTC:** 2026-06-17T22:51:55Z
 
 **Purpose:** Define source-routing rules for foreign government leadership,
 officeholder, diplomatic, country, and official-government reference material
@@ -125,6 +125,29 @@ WARLOCK-INDEX products should keep these evidence types separate:
   propaganda, censorship, legal, recognition, or wartime constraints where
   relevant.
 
+### ASEAN And South China Sea Claimant/Coastal-State Source Families
+
+- **Source class:** A for official government, multilateral, or legal-source
+  routes where directly accessible; B where direct pages are dynamic,
+  translated, sparse, or access-challenged.
+- **Publisher:** ASEAN Secretariat; Vietnam Ministry of Foreign Affairs;
+  Malaysia Ministry of Foreign Affairs; Indonesia Ministry of Foreign Affairs;
+  Brunei Ministry of Foreign Affairs; Taiwan Ministry of Foreign Affairs;
+  Japan Ministry of Foreign Affairs; Australian Minister for Foreign Affairs;
+  United Nations; Permanent Court of Arbitration; U.S. Department of State.
+- **Accessed UTC:** 2026-06-17T22:51:55Z
+- **URLs:** https://asean.org/declaration-on-the-conduct-of-parties-in-the-south-china-sea-2/ ; https://www.mofa.gov.vn/en/ ; https://www.kln.gov.my/ ; https://kemlu.go.id/ ; https://www.mfa.gov.bn/ ; https://en.mofa.gov.tw/theme.aspx?n=1462&s=40&sms=294 ; https://www.mofa.go.jp/press/release/press4e_001204.html ; https://www.foreignminister.gov.au/minister/julie-bishop/media-release/australia-supports-peaceful-dispute-resolution-south-china-sea ; https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm ; https://pca-cpa.org/en/cases/7/ ; https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/
+- **Use:** Official source routing for South China Sea regional cross-checks,
+  ASEAN diplomatic language, claimant/coastal-state issuer perspectives,
+  Taiwan issuer language with recognition caveats, allied official statements,
+  legal/procedural source provenance, and future page/PDF capture queues.
+- **Reliability note:** Source-family identity is high, but page-level
+  extraction needs exact statement URLs, publication dates, translation
+  status, and access notes before stronger claims. ASEAN language should not
+  be substituted for national positions; legal-source routes should not be
+  converted into legal advice; allied statements should not be treated as
+  claimant-state evidence.
+
 ### PRC State Council And National Defense White Paper Source Family
 
 - **Source class:** A for issuer perspective.
@@ -228,27 +251,36 @@ WARLOCK-INDEX products should keep these evidence types separate:
   consent. Cross-read with Taiwan, U.S., allied, legal, and research sources
   before analytic use.
 
-### Philippine Government West Philippine Sea And South China Sea Source Family
+### Philippine Government West Philippine Sea, Defense, And Maritime Source Family
 
 - **Source class:** A for Philippine issuer perspective where directly
   accessible.
-- **Publisher:** Bureau of Fisheries and Aquatic Resources; National Mapping
-  and Resource Information Authority; Philippine Official Gazette; Philippine
-  Coast Guard, Department of Foreign Affairs, and other Philippine official
-  pages where later captured.
-- **Accessed UTC:** 2026-06-14T19:46:19Z
-- **URLs:** https://www.bfar.da.gov.ph/2024/10/15/press-release-on-the-sideswiping-of-brp-datu-cabaylo-mmov-3001-by-a-chinese-maritime-militia-vessel-on-11-october-2024-in-the-vicinity-waters-of-pag-asa-sandy-cay-4/ ; https://www.namria.gov.ph/ ; https://www.officialgazette.gov.ph/2012/09/05/administrative-order-no-29-s-2012/ ; https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/
+- **Publisher:** National Security Council; Department of National Defense;
+  Department of Foreign Affairs; Philippine Coast Guard; Bureau of Fisheries
+  and Aquatic Resources; National Mapping and Resource Information Authority;
+  Philippine Official Gazette; and other Philippine official pages where later
+  captured.
+- **Accessed UTC:** 2026-06-17T20:48:56Z
+- **URLs:** https://nsc.gov.ph/ ; https://www.dnd.gov.ph/ ; https://dfa.gov.ph/ ; https://coastguard.gov.ph/ ; https://www.bfar.da.gov.ph/2024/10/15/press-release-on-the-sideswiping-of-brp-datu-cabaylo-mmov-3001-by-a-chinese-maritime-militia-vessel-on-11-october-2024-in-the-vicinity-waters-of-pag-asa-sandy-cay-4/ ; https://www.namria.gov.ph/ ; https://www.officialgazette.gov.ph/ ; https://www.officialgazette.gov.ph/2012/09/05/administrative-order-no-29-s-2012/ ; https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/ ; https://www.officialgazette.gov.ph/downloads/2024/11nov/20241111-RA-12064-FRM.pdf ; https://www.officialgazette.gov.ph/downloads/2024/11nov/20241111-RA-12065-FRM.pdf ; https://www.officialgazette.gov.ph/downloads/2024/10oct/20241009-RA-12024-FRM.pdf
+- **Access note:** BFAR October 15, 2024 content was accessible in the
+  2026-06-14T19:46Z pass. In the 2026-06-17T20:48Z pass, Official Gazette,
+  NSC, DND, DFA, and PNA routes returned challenge pages or technical access
+  friction in this environment; BFAR access varied by hostname and certificate
+  behavior. Treat those as correct official source routes, not as successful
+  current text extraction.
 - **Use:** Philippine issuer-perspective source family for West Philippine
   Sea terminology, South China Sea incident reports, maritime patrol and
-  fisheries-agency framing, national map-source routing, and future
-  Philippines/WPS direct source capture.
+  fisheries-agency framing, national map-source routing, national security
+  policy, defense policy, maritime security, maritime-domain-awareness
+  governance, maritime-zone and archipelagic sea-lane legal sources, EDCA
+  access-architecture source routing, and future Philippines/WPS direct source
+  capture.
 - **Reliability note:** Authoritative for what the Philippine government
-  publicly states where pages are directly accessible. BFAR October 15, 2024
-  content was accessible in the 2026-06-14T19:46Z pass; NAMRIA homepage was
-  already active in the map register; Official Gazette AO 29 and EDCA pages
-  previously returned access challenges and require manual refresh before
-  direct content extraction. Do not convert issuer statements into legal
-  advice, patrol guidance, live tracking, or operational maritime analysis.
+  publicly states where pages are directly accessible. Challenge-protected
+  source families require later browser/manual refresh before direct content
+  extraction. Do not convert issuer statements, legal routes, maps, or
+  incident releases into legal advice, patrol guidance, basing inference, live
+  tracking, route selection, or operational maritime analysis.
 
 ### Embassy And Mission Source Family
 

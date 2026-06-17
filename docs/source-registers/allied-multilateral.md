@@ -2,7 +2,7 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
-**Prepared UTC:** 2026-06-16T05:12:39Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
 
 ## Australian DFAT Quad Source Hub
 
@@ -86,6 +86,81 @@
 - **Reliability note:** Authoritative for the Indian government release and
   program-launch framing. Awards, delivery, commercial outcomes, and technical
   implementation require later official and program evidence.
+
+## Philippines Defense, Maritime, And West Philippine Sea Source Families
+
+- **Source class:** A for official Philippine, U.S., legal, and allied public
+  source routes where directly accessible.
+- **Publisher:** Philippine National Security Council; Department of National
+  Defense; Department of Foreign Affairs; Philippine Coast Guard; Bureau of
+  Fisheries and Aquatic Resources; National Mapping and Resource Information
+  Authority; Philippine Official Gazette; U.S. Department of State; U.S.
+  Department of Defense; U.S. Indo-Pacific Command; Permanent Court of
+  Arbitration.
+- **Publication status:** Source-family packet current as accessed; several
+  direct pages require follow-on browser/manual refresh.
+- **Accessed UTC:** 2026-06-17T20:48:56Z
+- **URLs:**
+  - https://nsc.gov.ph/
+  - https://www.dnd.gov.ph/
+  - https://dfa.gov.ph/
+  - https://coastguard.gov.ph/
+  - https://www.bfar.da.gov.ph/2024/10/15/press-release-on-the-sideswiping-of-brp-datu-cabaylo-mmov-3001-by-a-chinese-maritime-militia-vessel-on-11-october-2024-in-the-vicinity-waters-of-pag-asa-sandy-cay-4/
+  - https://www.namria.gov.ph/
+  - https://www.officialgazette.gov.ph/
+  - https://www.state.gov/countries-areas/philippines/
+  - https://www.state.gov/on-the-philippines-maritime-zones-act/
+  - https://pca-cpa.org/en/cases/7/
+- **Use:** Official routing for Philippines allied posture, West Philippine
+  Sea issuer language, maritime-zone and archipelagic sea-lane legal-source
+  work, EDCA/alliance source architecture, DND/PCG/BFAR/DFA follow-on capture,
+  South China Sea incident cross-checks, and Indo-Pacific maritime-security
+  products.
+- **Reliability note:** Authoritative for named issuer routes where pages are
+  accessible. Current access challenges mean products should cite the
+  Philippines source-capture packet's access notes before making page-level
+  claims. Do not derive basing, patrol, route, readiness, legal, or
+  operational conclusions from source identity alone.
+
+## ASEAN And Claimant-State South China Sea Cross-Check Source Families
+
+- **Source class:** A for official public source routes where directly
+  accessible; B where dynamic pages, translations, or access barriers require
+  later manual/browser verification.
+- **Publishers:** ASEAN Secretariat; Vietnam Ministry of Foreign Affairs;
+  Malaysia Ministry of Foreign Affairs; Indonesia Ministry of Foreign Affairs;
+  Brunei Ministry of Foreign Affairs; Taiwan Ministry of Foreign Affairs;
+  Japan Ministry of Foreign Affairs; Australian Minister for Foreign Affairs;
+  United Nations; Permanent Court of Arbitration; U.S. Department of State.
+- **Publication status:** Source-family packet current as accessed; several
+  exact statement pages, legal/agreement routes, UN routes, and ministry pages
+  require follow-on capture before claim-level use.
+- **Accessed UTC:** 2026-06-17T22:51:55Z
+- **URLs:**
+  - https://asean.org/declaration-on-the-conduct-of-parties-in-the-south-china-sea-2/
+  - https://asean.org/
+  - https://www.mofa.gov.vn/en/
+  - https://www.kln.gov.my/
+  - https://kemlu.go.id/
+  - https://www.mfa.gov.bn/
+  - https://en.mofa.gov.tw/theme.aspx?n=1462&s=40&sms=294
+  - https://www.mofa.go.jp/press/release/press4e_001204.html
+  - https://www.foreignminister.gov.au/minister/julie-bishop/media-release/australia-supports-peaceful-dispute-resolution-south-china-sea
+  - https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm
+  - https://pca-cpa.org/en/cases/7/
+  - https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/
+- **Use:** Regional official source routing for ASEAN South China Sea
+  diplomatic language, claimant/coastal-state issuer perspectives, Taiwan
+  issuer language, allied cross-check statements, UNCLOS/PCA/State
+  legal-source provenance, South China Sea coercion/legal-source work, and
+  future page-level capture queues.
+- **Reliability note:** Authoritative for named issuer routes where pages are
+  accessible. Current access and translation constraints mean products should
+  cite the cross-check packet's access notes before making page-level claims.
+  ASEAN source language is multilateral diplomatic language; Japan and
+  Australia are allied cross-checks; Taiwan requires recognition/source-label
+  caveats; UN/PCA/State routes are legal-source provenance and not
+  WARLOCK-INDEX legal advice.
 
 ## Danish Defence Agreement 2024-2033
 

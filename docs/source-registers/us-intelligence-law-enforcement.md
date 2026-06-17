@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-USILE-2026-0001
 
-**Prepared UTC:** 2026-06-14T19:56:06Z
+**Prepared UTC:** 2026-06-17T21:06:51Z
 
-**Information cutoff UTC:** 2026-06-14T19:56:06Z
+**Information cutoff UTC:** 2026-06-17T21:06:51Z
 
 **Purpose:** Organize official U.S. intelligence, homeland security, law
 enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and
@@ -314,6 +314,29 @@ identity, journalism, protest, or association as an intelligence target.
   router-targeting guidance, commands, indicators, victim data, or disruption
   methods.
 
+### Salt Typhoon Telecommunications Defensive Source Family
+
+- **Source class:** A/B by source lane.
+- **Publishers:** Treasury/OFAC, State Rewards for Justice, CISA, NSA, FBI,
+  FCC, Senate Commerce, and allied cyber agencies where directly captured.
+- **Accessed UTC:** 2026-06-17T21:06:51Z
+- **URLs:** https://home.treasury.gov/news/press-releases/jy2792 ; https://rewardsforjustice.net/rewards/foreign-malicious-cyber-activity-against-u-s-critical-infrastructure/ ; https://www.commerce.senate.gov/press/dem/release/cantwell-demands-att-verizon-ceos-come-clean-on-salt-typhoon-hacks-ongoing-network-security-risks/ ; https://www.cisa.gov/news-events/cybersecurity-advisories ; https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/ ; https://www.fbi.gov/investigate/cyber ; https://www.fcc.gov/
+- **Use:** Defensive source-family routing for Salt Typhoon
+  telecommunications and communications-infrastructure source treatment,
+  Treasury sanctions, critical-infrastructure reward routing, congressional
+  oversight, CISA/NSA/FBI advisory refresh, FCC telecom-regulatory refresh,
+  and allied cyber-agency cross-checks.
+- **Reliability note:** Treasury, Rewards for Justice, and Senate Commerce
+  routes were directly accessible in the 2026-06-17 pass. CISA, NSA, FBI,
+  and FCC routes returned access barriers, generic challenge pages, transport
+  errors, or timeouts and require later page-level refresh before direct
+  advisory, FBI, or FCC claims are carried. Use the dedicated Salt Typhoon
+  source note for claim separation.
+- **Boundary:** No exploit steps, commands, IOCs, vulnerability lists, router
+  configuration guidance, lawful-intercept system detail, provider-specific
+  vulnerability mapping, victim identification, incident-response playbooks,
+  sanctions-evasion guidance, or operational cyber guidance.
+
 ### State Department Foreign Terrorist Organizations
 
 - **Source class:** A
@@ -424,7 +447,7 @@ identity, journalism, protest, or association as an intelligence target.
 | Foreign intelligence activity | FBI, ODNI/NCSC, DOJ NSD, Treasury | Counterintelligence source lane | No investigative guidance or identification of private persons |
 | International terrorism | FBI, NCTC, State, Treasury, DHS, ODNI | Designation and group profile source lane | No tactics, recruitment, financing, or attack method detail |
 | Domestic terrorism and violent extremism | FBI, DHS, DOJ, Treasury | Legal/security category source lane | No political enemies list or protected-speech profiling |
-| Cyber threats | CISA, FBI, NSA, ODNI, Treasury, DOJ | Defensive strategic cyber source lane | No exploit steps, scanning, evasion, or targeting |
+| Cyber threats | CISA, FBI, NSA, ODNI, Treasury, DOJ, State/RFJ, Senate/FCC source lanes where relevant | Defensive strategic cyber source lane, including PRC cyber and Salt Typhoon telecommunications source treatment | No exploit steps, scanning, evasion, indicators-for-misuse, telecom network diagrams, lawful-intercept detail, provider vulnerability mapping, or targeting |
 | Transnational criminal organizations | DEA, Treasury, FBI, DHS/HSI, CBP, Coast Guard, ATF | TCO, narcotics, firearms, border, maritime, finance source lane | No trafficking, concealment, procurement, or enforcement tactics |
 | WMD and proliferation | FBI WMD, State, Treasury, ODNI, DoD/DTRA, DHS, FSAP, IAEA/UN sources | Proliferation, terrorism risk, biosecurity, Ukraine biolab claim reconciliation, and official disclosure source lane | No materials, methods, facility tables, device, site mapping, or vulnerability detail |
 | Border and maritime threat vectors | DHS, CBP, Coast Guard, DEA, FBI, Treasury | Aggregate strategic source lane | No route selection, evasion, or live movement analysis |

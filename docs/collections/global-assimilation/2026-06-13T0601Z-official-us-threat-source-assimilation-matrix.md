@@ -4,13 +4,14 @@
 
 **Matrix ID:** WI-MATRIX-US-THREAT-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-14T06:05:33Z
+**Prepared UTC:** 2026-06-17T22:51:55Z
 
-**Information cutoff UTC:** 2026-06-14T06:05:33Z
+**Information cutoff UTC:** 2026-06-17T22:51:55Z
 
 **Source base:** ODNI, CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA,
 ATF, CBP, Coast Guard, DOJ, NGA, and existing WARLOCK-INDEX official-source
-products.
+products, including the Salt Typhoon and telecommunications defensive source
+note and ASEAN/claimant-state South China Sea cross-check packet.
 
 **Analytic confidence:** High for organizing logic; moderate for current
 source completeness pending dated source packets for each agency family.
@@ -37,13 +38,13 @@ geospatial reference at strategic level only.
 
 | Threat category | Primary agencies | Supporting agencies | WARLOCK-INDEX products | Required boundary |
 | --- | --- | --- | --- | --- |
-| PRC strategic competition | ODNI, DoD, DIA, CIA World Leaders, State, Treasury | FBI, CISA, NSA, DOJ, Commerce, PRC issuer sources, Taiwan and allied/regional sources | China baseline, PRC military modernization, China/PLA source baseline, DoD/DIA China military-power extraction map, China/PLA source tracker, cyber, space, DIB | No classified inference, targeting, contingency planning, cyber exploitation, live tracking, or export-control evasion |
+| PRC strategic competition | ODNI, DoD, DIA, CIA World Leaders, State, Treasury | FBI, CISA, NSA, DOJ, Commerce, FCC, Senate oversight, PRC issuer sources, Taiwan and allied/regional sources | China baseline, PRC military modernization, China/PLA source baseline, DoD/DIA China military-power extraction map, China/PLA source tracker, South China Sea coercion/legal-source packet, ASEAN/claimant-state South China Sea cross-check packet, PRC cyber packet, Salt Typhoon telecom source note, cyber, space, DIB | No classified inference, targeting, contingency planning, cyber exploitation, live tracking, telecom network diagrams, lawful-intercept detail, legal advice, route guidance, or export-control evasion |
 | Russia strategic competition | ODNI, DoD, DIA, State, Treasury | FBI, CISA, NSA, DOJ, NATO sources | Russia profile, Ukraine timeline, Arctic, cyber, strategic weapons | No battlefield targeting or sanctions evasion |
 | Iran and regional network | ODNI, DIA, State, Treasury, FBI | NCTC, DHS, DOJ, Coast Guard | Iran profile, Red Sea baseline, Houthi profile, terrorism lane | Separate support from command; no targeting |
 | North Korea | ODNI, DoD, State, Treasury | FBI, CISA, NSA, DOJ | DPRK profile, strategic weapons, cyber | No proliferation methods or sanctions evasion |
 | International terrorism | FBI, State, NCTC, Treasury, ODNI | DHS, DOJ, CISA, allied sources | FTO/nonstate actor profiles, Red Sea, terrorism source packets | No methods, recruitment, financing, or target guidance |
 | Domestic terrorism / DVE | FBI, DHS, DOJ, Treasury | ODNI where public, state/local public sources | Homeland baseline and future DVE source packet | No political enemies list, protected-speech profiling, or private dossiers |
-| Cyber actors and cybercrime | CISA, FBI, NSA, ODNI, Treasury | DOJ, State, DHS, allied cyber agencies | Cyber baseline, future advisory source packet | No exploit steps, scanning, evasion, or malware guidance |
+| Cyber actors and cybercrime | CISA, FBI, NSA, ODNI, Treasury | DOJ, State/RFJ, DHS, FCC, Senate oversight, allied cyber agencies | Cyber baseline, PRC cyber packet, Salt Typhoon telecom source note, future advisory source refreshes | No exploit steps, scanning, evasion, malware guidance, IOCs for misuse, telecom network diagrams, or provider-specific vulnerability mapping |
 | Transnational criminal organizations | DEA, Treasury, FBI, DHS/HSI, CBP, Coast Guard, ATF, DOJ | State, ODNI, CISA | TCO profile and future TCO source packet | No trafficking, concealment, route, or enforcement-evasion guidance |
 | WMD and proliferation | FBI WMD, State, Treasury, ODNI, DoD/DTRA, DHS, FSAP | IAEA, UN/UNODA, allied sources, Ukrainian official sources, technical biosecurity and oversight sources where source-classed | ODNI biolab disclosure source-treatment note; Ukraine biolab claim-reconciliation source note; WMD/biosecurity source packet; WMD/nonproliferation future lane | No materials, methods, controlled lists, facility tables, device, site mapping, or vulnerability detail |
 | Border and maritime vectors | DHS, CBP, Coast Guard, DEA, Treasury | FBI, DOJ, State, CISA | Homeland, maritime chokepoints, TCO lanes | No route selection, live movement, patrol, or interdiction detail |
@@ -69,9 +70,11 @@ geospatial reference at strategic level only.
   compliance, select-agent oversight, and emerging biotechnology security.
 - China/PLA source collection now has a broad baseline, PRC issuer-language
   packet, DoD/DIA military-power extraction map, and tracker, but dedicated
-  PRC cyber, Taiwan pressure, South China Sea, PLA services/arms,
-  defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support
-  packets remain follow-on lanes.
+  PRC cyber, Taiwan pressure, South China Sea, ASEAN/claimant-state regional
+  cross-check, PLA services/arms, defense-industrial, DoD-to-PRC-issuer
+  crosswalk, and Salt Typhoon telecom source treatment; South China Sea
+  page-level, advisory page-level, FCC, OFAC, and allied cyber cross-check
+  refreshes remain follow-on lanes.
 - Agency product pages change frequently and require dated refreshes.
 - Public sources cannot replace classified assessments, investigative records,
   or sensitive operational reporting.
@@ -91,6 +94,8 @@ geospatial reference at strategic level only.
 - [China/PLA Source Collection Tracker](../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [China/PLA Official Military And Security Source Baseline Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [DoD/DIA China Military Power Extraction Map](../source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
+- [ASEAN And Claimant-State South China Sea Cross-Check Packet](../source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
+- [Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../source-registers/us-intelligence-law-enforcement.md)
 - [ODNI Global Biolab Disclosure Source-Treatment Note](../source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)
 - [Ukraine Biolab Claim-Reconciliation Source Note](../source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.md)
