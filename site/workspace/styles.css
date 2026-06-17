@@ -289,7 +289,6 @@ svg {
 }
 
 .command button,
-.action-button,
 .pane-action-button,
 .route-link,
 .quick-routes button,
@@ -815,28 +814,6 @@ svg {
   font-size: 0.94rem;
 }
 
-.preview-actions {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 0.45rem;
-  overflow-x: auto;
-  scrollbar-color: var(--chrome-dark) var(--panel-soft);
-  padding-bottom: 4px;
-}
-
-.action-button {
-  display: inline-grid;
-  grid-template-columns: 18px minmax(0, auto);
-  align-items: center;
-  justify-content: center;
-  gap: 0.4rem;
-  min-height: 34px;
-  padding: 0.38rem 0.56rem;
-  font-size: 0.68rem;
-  flex: 0 0 auto;
-}
-
-.action-button:disabled,
 .queue-download-button:disabled {
   border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
   background: var(--chrome);
@@ -1235,7 +1212,5 @@ svg {
     font-size: 1.45rem;
   }
 
-  .preview-actions {
-    flex-wrap: wrap;
-  }
+
 }

@@ -68,6 +68,9 @@ const els = {
   resultList: document.querySelector("#result-list"),
   preview: document.querySelector("#preview-panel"),
   queue: document.querySelector("#queue-list"),
+  openCurrent: document.querySelector("#open-current"),
+  queueCurrent: document.querySelector("#queue-current"),
+  downloadCurrent: document.querySelector("#download-current"),
 
   clearQueue: document.querySelector("#clear-queue"),
   downloadQueue: document.querySelector("#download-queue"),
@@ -1128,27 +1131,12 @@ function renderPreview(item) {
     return;
   }
 
-  const queued = state.queue.includes(item.path);
   const tags = (item.tags || []).slice(0, 12);
 
   els.preview.innerHTML = `
     <div class="preview-head">
       <p class="preview-kicker">${escapeHtml(item.type || "Document")}</p>
       <h2 class="preview-title">${escapeHtml(item.title)}</h2>
-      <div class="preview-actions">
-        <a class="action-button" href="${escapeHtml(pathUrl(item.path))}" target="_blank" rel="noreferrer">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-open"></use></svg>
-          <span>Open on site</span>
-        </a>
-        <button class="action-button" type="button" id="download-selected"${state.exporting ? " disabled" : ""}>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
-          <span>Reader file</span>
-        </button>
-        <button class="action-button" type="button" id="queue-selected">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="${queued ? "#icon-check" : "#icon-plus"}"></use></svg>
-          <span>${queued ? "Queued" : "Queue"}</span>
-        </button>
-      </div>
     </div>
     <div class="preview-body">
       <p class="preview-summary">${escapeHtml(item.summary || "WARLOCK-INDEX documentation product.")}</p>
@@ -1226,6 +1214,30 @@ function render() {
   renderResults(results);
   renderPreview(selected);
   renderQueue();
+
+  if (els.openCurrent) {
+    if (selected) {
+      els.openCurrent.href = pathUrl(selected.path);
+      els.openCurrent.style.display = '';
+    } else {
+      els.openCurrent.style.display = 'none';
+    }
+  }
+  if (els.queueCurrent) {
+    const queued = selected && state.queue.includes(selected.path);
+    els.queueCurrent.disabled = !selected || state.exporting;
+    els.queueCurrent.innerHTML = actionButtonContent(queued ? "#icon-check" : "#icon-plus", queued ? "Queued" : "Queue");
+    els.queueCurrent.title = queued ? "Remove selected record from queue" : "Queue selected record";
+    els.queueCurrent.setAttribute("aria-label", queued ? "Remove selected record from queue" : "Queue selected record");
+    els.queueCurrent.setAttribute("aria-pressed", queued ? "true" : "false");
+  }
+  if (els.downloadCurrent) {
+    els.downloadCurrent.disabled = !selected || state.exporting;
+    els.downloadCurrent.innerHTML = actionButtonContent("#icon-package", "Reader file");
+    els.downloadCurrent.title = "Download selected reader file";
+    els.downloadCurrent.setAttribute("aria-label", "Download selected reader file");
+  }
+
   if (els.downloadQueue) {
     els.downloadQueue.disabled = !state.queue.length || state.exporting;
   }
@@ -1259,15 +1271,6 @@ els.resultList.addEventListener("click", (event) => {
   if (button) selectItem(button.dataset.path);
 });
 
-els.preview.addEventListener("click", (event) => {
-  if (event.target.closest("#download-selected")) {
-    exportReaderPacket([state.selectedPath]);
-  }
-
-  if (event.target.closest("#queue-selected")) {
-    toggleQueue(state.selectedPath);
-  }
-});
 
 els.queue.addEventListener("click", (event) => {
   const remove = event.target.closest("[data-remove]");
@@ -1277,6 +1280,12 @@ els.queue.addEventListener("click", (event) => {
 });
 
 els.clearQueue.addEventListener("click", clearQueue);
+els.queueCurrent?.addEventListener("click", () => {
+  if (!state.exporting) toggleQueue(state.selectedPath);
+});
+els.downloadCurrent?.addEventListener("click", () => {
+  if (state.selectedPath && !state.exporting) exportReaderPacket([state.selectedPath]);
+});
 els.downloadQueue?.addEventListener("click", () => exportReaderPacket(state.queue));
 els.downloadText?.addEventListener("click", () => exportTextBundle(state.queue));
 
