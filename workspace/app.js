@@ -4,7 +4,7 @@ const corpus = Array.isArray(window.WARLOCK_INDEX_CORPUS)
 
 const SITE_ROOT = "https://www.warlock-index.org/";
 const STORAGE_KEY = "wi.queue.paths";
-const DEFAULT_QUERY = "strategic weapons";
+const DEFAULT_QUERY = "";
 const EXPORT_STYLE_VERSION = "20260613-reader-packet";
 const MAX_QUEUE_ITEMS = 18;
 
@@ -68,8 +68,7 @@ const els = {
   resultList: document.querySelector("#result-list"),
   preview: document.querySelector("#preview-panel"),
   queue: document.querySelector("#queue-list"),
-  queueCurrent: document.querySelector("#queue-current"),
-  downloadCurrent: document.querySelector("#download-current"),
+
   clearQueue: document.querySelector("#clear-queue"),
   downloadQueue: document.querySelector("#download-queue"),
   downloadText: document.querySelector("#download-text"),
@@ -1142,6 +1141,14 @@ function renderPreview(item) {
           <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-open"></use></svg>
           <span>Open on site</span>
         </a>
+        <button class="action-button" type="button" id="download-selected"${state.exporting ? " disabled" : ""}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-package"></use></svg>
+          <span>Reader file</span>
+        </button>
+        <button class="action-button" type="button" id="queue-selected">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="${queued ? "#icon-check" : "#icon-plus"}"></use></svg>
+          <span>${queued ? "Queued" : "Queue"}</span>
+        </button>
       </div>
     </div>
     <div class="preview-body">
@@ -1219,20 +1226,6 @@ function render() {
   renderResults(results);
   renderPreview(selected);
   renderQueue();
-  if (els.queueCurrent) {
-    const queued = selected && state.queue.includes(selected.path);
-    els.queueCurrent.disabled = !selected || state.exporting;
-    els.queueCurrent.innerHTML = actionButtonContent(queued ? "#icon-check" : "#icon-plus", queued ? "Queued" : "Queue");
-    els.queueCurrent.title = queued ? "Remove selected record from queue" : "Queue selected record";
-    els.queueCurrent.setAttribute("aria-label", queued ? "Remove selected record from queue" : "Queue selected record");
-    els.queueCurrent.setAttribute("aria-pressed", queued ? "true" : "false");
-  }
-  if (els.downloadCurrent) {
-    els.downloadCurrent.disabled = !selected || state.exporting;
-    els.downloadCurrent.innerHTML = actionButtonContent("#icon-package", "Reader file");
-    els.downloadCurrent.title = "Download selected reader file";
-    els.downloadCurrent.setAttribute("aria-label", "Download selected reader file");
-  }
   if (els.downloadQueue) {
     els.downloadQueue.disabled = !state.queue.length || state.exporting;
   }
@@ -1267,7 +1260,13 @@ els.resultList.addEventListener("click", (event) => {
 });
 
 els.preview.addEventListener("click", (event) => {
-  // open link handled by <a>, no other actions now (queue/reader moved to result-tools)
+  if (event.target.closest("#download-selected")) {
+    exportReaderPacket([state.selectedPath]);
+  }
+
+  if (event.target.closest("#queue-selected")) {
+    toggleQueue(state.selectedPath);
+  }
 });
 
 els.queue.addEventListener("click", (event) => {
@@ -1278,12 +1277,6 @@ els.queue.addEventListener("click", (event) => {
 });
 
 els.clearQueue.addEventListener("click", clearQueue);
-els.queueCurrent?.addEventListener("click", () => {
-  if (!state.exporting) toggleQueue(state.selectedPath);
-});
-els.downloadCurrent?.addEventListener("click", () => {
-  if (state.selectedPath && !state.exporting) exportReaderPacket([state.selectedPath]);
-});
 els.downloadQueue?.addEventListener("click", () => exportReaderPacket(state.queue));
 els.downloadText?.addEventListener("click", () => exportTextBundle(state.queue));
 
