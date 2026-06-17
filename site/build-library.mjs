@@ -10,8 +10,8 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260617-library-filter-coverage";
-const feedAssetVersion = "20260617-pressed-nav";
+const libraryAssetVersion = "20260617-green-press";
+const feedAssetVersion = "20260617-green-press";
 const feedItemLimit = 40;
 
 const preferredOrder = [
