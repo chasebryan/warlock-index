@@ -189,10 +189,6 @@ button {
   outline: none;
 }
 
-.primary-nav .nav-ai {
-  margin-left: auto;
-}
-
 .route-search-panel {
   display: grid;
   grid-template-columns: minmax(230px, 310px) minmax(0, 1fr);
@@ -275,6 +271,12 @@ button {
   border-left: 1px solid var(--line);
   background: var(--panel-soft);
   color: var(--text);
+}
+
+.about-terse-list a {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .route-list {
@@ -612,7 +614,7 @@ button {
 .pager .is-current {
   padding: 0.24rem 0.45rem;
   background: var(--purple);
-  color: var(--white);
+  color: #fff;
 }
 
 .site-footer {
@@ -727,10 +729,6 @@ button {
     min-height: 42px;
     padding: 0.45rem 0;
     font-size: 0.76rem;
-  }
-
-  .primary-nav .nav-ai {
-    margin-left: 0;
   }
 
   .primary-nav a {
