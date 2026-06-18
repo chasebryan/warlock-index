@@ -518,6 +518,11 @@ async function initGlobalMap() {
     selectGlobalMapUpdate(target.dataset.mapId);
   });
 
+  globalMap.stage?.addEventListener("click", (event) => {
+    if (event.target.closest("[data-map-id], .global-map-drawer, .global-map-legend")) return;
+    selectGlobalMapUpdate("");
+  });
+
   globalMap.filters.addEventListener("click", (event) => {
     const target = event.target.closest("[data-map-filter]");
     if (!target) return;
