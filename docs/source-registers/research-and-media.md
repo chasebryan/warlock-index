@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T10:05:00Z
+**Information cutoff UTC:** 2026-06-18T10:09:45Z
 
 **Source base:** Research, media, industry, and specialist current-event
 source families listed in this register; LIVE-NEWS source audit tracker.
@@ -94,10 +94,10 @@ official-source baselines and graded explicitly.
 ## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
 
 - **Source class:** C
-- **Publishers:** Axios; Bloomberg source family; The Guardian; MarketWatch;
-  Times of India; New York Post.
+- **Publishers:** Axios; Bloomberg source family; The Guardian; Financial
+  Times; MarketWatch; Times of India; New York Post.
 - **Publication date:** 2026-06-17/18.
-- **Accessed UTC:** 2026-06-18T03:03:44Z
+- **Accessed UTC:** 2026-06-18T10:09:45Z
 - **URLs:**
   - https://www.axios.com/2026/06/17/read-full-us-iran-deal-memorandum-understanding
   - https://www.axios.com/2026/06/17/iran-deal-signing-text-release
@@ -105,6 +105,7 @@ official-source baselines and graded explicitly.
   - https://www.theguardian.com/world/2026/jun/17/trump-us-iran-war-mou-deal
   - https://www.theguardian.com/world/2026/jun/17/us-iran-deal-trump
   - https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated
+  - https://www.ft.com/content/d4f89b6b-c213-4550-924b-a9ae45e24c37
   - https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/the-market-is-still-betting-oil-supply-could-normalize-quickly-after-mou-leaked-says-jpmorgan-0D6iKX4fQJ0kxzy1VP0R
   - https://timesofindia.indiatimes.com/world/middle-east/its-signed-us-iran-mou-officially-finalized-after-both-sides-digitally-sign-agreement/articleshow/131814879.cms
   - https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/
@@ -112,16 +113,20 @@ official-source baselines and graded explicitly.
   MOU, including reported ceasefire, Strait of Hormuz, sanctions waiver,
   oil-export, frozen-asset, nuclear/IAEA, Lebanon/Hezbollah, signing/status,
   and negotiation-window claims. Axios provides a transcript-style text
-  attributed to a senior administration official's briefing readout and
-  cautions that the print text had not been released. MarketWatch/JPMorgan
-  reporting says the MOU was published by Bloomberg and other news outlets,
-  making Bloomberg an apparent priority capture target.
+  attributed to a senior administration official's briefing readout. Guardian
+  live reporting says Trump and Pezeshkian signed the MOU, Iranian state
+  media released text largely tracking the U.S. readout, Pakistan's mediator
+  statement said the agreement took immediate effect, and Washington still had
+  not formally released the text. MarketWatch/JPMorgan reporting says the MOU
+  was published by Bloomberg and other news outlets, making Bloomberg an
+  apparent priority capture target.
 - **Reliability note:** Use only as reported or transcript-reporting context
   until official U.S., Iranian, IAEA, UN, Treasury/OFAC, mediator, or directly
   captured Bloomberg text is available. Bloomberg direct access was blocked in
-  this environment; Guardian reporting says the White House still had not
-  published a copy online; live pages require timestamped or archived
-  follow-on capture before precise claims.
+  this environment; this pass did not locate official White House, State,
+  Treasury/OFAC, IAEA, UN, or directly captured Iranian-government text; live
+  pages require timestamped or archived follow-on capture before precise
+  claims.
 
 ## Institute For The Study Of War
 

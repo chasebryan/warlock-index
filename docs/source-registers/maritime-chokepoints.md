@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:29:19Z
 
-**Information cutoff UTC:** 2026-06-18T03:29:19Z
+**Information cutoff UTC:** 2026-06-18T10:09:45Z
 
 **Source base:** Official canal, port, maritime, commercial shipping,
 insurance, multilateral, research, and media source families for Red
@@ -39,27 +39,33 @@ instructions.
 ## Reported U.S.-Iran MOU And Strait Of Hormuz Source-Treatment Lane
 
 - **Source class:** C until official source text is retrieved
-- **Publishers:** Axios; The Guardian; MarketWatch/JPMorgan; Bloomberg source
-  family as apparent publication route pending direct capture
-- **Accessed UTC:** 2026-06-18T03:03:44Z
+- **Publishers:** Axios; The Guardian; Financial Times; New York Post;
+  MarketWatch/JPMorgan; Bloomberg source family as apparent publication route
+  pending direct capture
+- **Accessed UTC:** 2026-06-18T10:09:45Z
 - **URLs:**
   - https://www.axios.com/2026/06/17/read-full-us-iran-deal-memorandum-understanding
   - https://www.axios.com/2026/06/17/iran-deal-signing-text-release
   - https://www.theguardian.com/world/2026/jun/17/trump-us-iran-war-mou-deal
   - https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated
+  - https://www.ft.com/content/d4f89b6b-c213-4550-924b-a9ae45e24c37
+  - https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/
   - https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/the-market-is-still-betting-oil-supply-could-normalize-quickly-after-mou-leaked-says-jpmorgan-0D6iKX4fQJ0kxzy1VP0R
 - **Use:** Current-event source-treatment lane for reported Strait of Hormuz
   access terms, U.S. blockade-removal language, oil-export waiver claims,
-  possible toll/free-passage disputes, commercial-market reaction, and the
-  need for official implementation capture. WARLOCK-INDEX now routes these
-  claims through both the U.S.-Iran MOU implementation-capture packet and the
-  Strait of Hormuz strategic chokepoint packet.
+  possible toll/free-passage disputes, commercial-market reaction,
+  signed-status reporting, immediate-effect claims, and the need for official
+  implementation capture. WARLOCK-INDEX routes these claims through both the
+  U.S.-Iran MOU implementation-capture packet and the Strait of Hormuz
+  strategic chokepoint packet.
 - **Reliability note:** Axios provides transcript reporting attributed to a
-  senior administration official, not a released official text. Guardian
-  reporting says the White House still had not published a copy online.
-  Treasury/OFAC, State, Iranian official, IMO, Gulf-state, energy, insurance,
-  and shipping evidence are required before implementation or legal claims are
-  strengthened.
+  senior administration official, not a released official U.S. text. Guardian
+  reporting says both presidents signed the MOU, Iranian state media released
+  text largely tracking the U.S. readout, and Pakistan said the agreement took
+  immediate effect, but Washington still had not formally released a copy
+  online. Treasury/OFAC, State, Iranian official, mediator, IMO, Gulf-state,
+  energy, insurance, and shipping evidence are required before implementation
+  or legal claims are strengthened.
 
 ## Strait Of Hormuz Strategic Chokepoint Source Family
 
