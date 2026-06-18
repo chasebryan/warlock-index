@@ -4,28 +4,33 @@
 
 **Source Note ID:** WI-SOURCE-NOTE-US-IRAN-MOU-2026-0001
 
-**Prepared UTC:** 2026-06-18T02:38:51Z
+**Prepared UTC:** 2026-06-18T03:03:44Z
 
-**Information cutoff UTC:** 2026-06-18T02:38:51Z
+**Information cutoff UTC:** 2026-06-18T03:03:44Z
 
 **Source base:** Current news reporting on a reported U.S.-Iran memorandum of
-understanding; Bloomberg source-family discovery blocked in this environment
+understanding; Axios transcript reporting that says a senior administration
+official read the agreement to reporters and that the print text has not been
+released; Guardian reporting that the White House still had not published a
+copy online; Bloomberg source-family discovery blocked in this environment
 with MarketWatch/JPMorgan reporting that the MOU was published by Bloomberg
 and other news outlets; attempted official-source discovery for White House,
-State Department, Treasury, Iranian presidency, Iranian foreign ministry, and
-Iranian government source families; existing WARLOCK-INDEX Iran actor profile,
-Iran WMD and missile-relevance source packet, Red Sea and maritime chokepoint
-lanes, official U.S. source register, foreign-government reference register,
-research and media source register, and global actor-domain matrix.
+State Department, Treasury, Iranian presidency, Iranian foreign ministry,
+IAEA, UN, and Iranian government source families; existing WARLOCK-INDEX Iran
+actor profile, Iran WMD and missile-relevance source packet, Red Sea and
+maritime chokepoint lanes, official U.S. source register, foreign-government
+reference register, research and media source register, and global
+actor-domain matrix.
 
 **Analytic confidence:** Moderate for the existence of current public
-reporting about a U.S.-Iran MOU and for Bloomberg as an apparent publication
-route based on third-party market reporting. Low to moderate for the MOU's
-final text, legal status, implementation sequence, sanctions effect, Hormuz
-provisions, Lebanon/Hezbollah scope, nuclear/IAEA obligations, and signing
-status because this pass did not locate a directly accessible official White
-House, State, Treasury, Iranian presidency, Iranian foreign-ministry, UN, or
-direct Bloomberg text.
+reporting about a U.S.-Iran MOU, for a transcript-quality public version
+reported by Axios, and for Bloomberg as an apparent publication route based on
+third-party market reporting. Low to moderate for the MOU's final legal text,
+legal status, implementation sequence, sanctions effect, Hormuz provisions,
+Lebanon/Hezbollah scope, nuclear/IAEA obligations, and signing status because
+this pass did not locate a directly accessible official White House, State,
+Treasury, Iranian presidency, Iranian foreign-ministry, UN, IAEA, or direct
+Bloomberg text.
 
 **Purpose:** Preserve a safe source-treatment lane for the reported U.S.-Iran
 MOU so WARLOCK-INDEX can surface the issue on the public site without treating
@@ -39,14 +44,18 @@ planning, or diplomatic recommendations.
 
 ## Bottom Line
 
-The reported U.S.-Iran MOU is important enough to surface, but it should be
-handled as a current-event source-treatment note until official text is
-retrieved. News reporting describes an interim framework involving ceasefire
-language, Strait of Hormuz access, sanctions waivers or relief sequencing,
-frozen assets, Iranian oil exports, nuclear-material or IAEA-supervision
-terms, and a follow-on negotiation window. Those reported terms affect the
-Iran WMD, sanctions, maritime chokepoint, Red Sea, Lebanon/Hezbollah,
-energy-market, and global operating-picture lanes.
+The reported U.S.-Iran MOU is important enough to surface, and Axios now
+provides a transcript-style text attributed to a senior administration
+official who read the agreement to reporters. It should still be handled as a
+current-event source-treatment note until official text is retrieved because
+Axios cautions that the print text had not been released and Guardian
+reporting says the White House still had not published a copy online. News
+reporting describes an interim framework involving ceasefire language, Strait
+of Hormuz access, sanctions waivers or relief sequencing, frozen assets,
+Iranian oil exports, nuclear-material or IAEA-supervision terms, and a
+follow-on negotiation window. Those reported terms affect the Iran WMD,
+sanctions, maritime chokepoint, Red Sea, Lebanon/Hezbollah, energy-market,
+and global operating-picture lanes.
 
 WARLOCK-INDEX should not yet treat the reported MOU as a completed legal
 settlement, implemented sanctions change, verified nuclear arrangement, or
@@ -59,6 +68,9 @@ different evidence layers.
 
 | Source | Class | Access status | Corpus use | Reliability note |
 | --- | --- | --- | --- | --- |
+| Axios full-text transcript report | C | Public reporting found 2026-06-18 | Transcript-quality source for reported 14-point MOU language as read by a senior administration official | Axios cautions that the print text was not released and the transcript may be inexact; do not treat as official released text |
+| Axios signing/status report | C | Public reporting found 2026-06-18 | Current-event source for reported signing status, asserted implementation, and briefing-call context | Relies on officials and diplomatic sources; use with timestamp and corroborate with official statements |
+| The Guardian, U.S.-Iran MOU text/report | C | Public reporting found 2026-06-18 | Current-event source for reported text release, Trump remarks, G7 context, sanctions/Hormuz/nuclear framing, and political reaction | Secondary reporting; states the White House still had not published a copy online |
 | The Guardian, U.S.-Iran deal takeaways | C | Public reporting found 2026-06-18 | Current-event source for reported MOU terms, including Hormuz, sanctions, Lebanon, and nuclear/IAEA themes | Secondary reporting; official text and implementation evidence still required |
 | The Guardian live Middle East crisis report | C | Public live reporting found 2026-06-18 | Timeline source for reported signing/status claims and disputed implementation points | Live reporting can change; capture exact timestamp in follow-on work |
 | Bloomberg MOU publication route | C | Bloomberg direct text not accessible in this environment; MarketWatch/JPMorgan reporting found 2026-06-18 says the MOU was published by Bloomberg and other outlets | Apparent original or early publication route for the leaked/published MOU and market reaction source lane | Requires direct Bloomberg capture or licensed access before quotation or exact text reliance |
@@ -73,7 +85,7 @@ different evidence layers.
 
 | Claim layer | Current treatment | Required corroboration | What not to do |
 | --- | --- | --- | --- |
-| MOU existence and reported terms | Treat as current public reporting | Official U.S. text, Iranian text, mediator text, or UN/IAEA record | Do not present reported terms as final treaty text |
+| MOU existence and reported terms | Treat as current public reporting; Axios transcript can support clause-level reported-text discussion when labeled as transcript reporting | Official U.S. text, Iranian text, mediator text, or UN/IAEA record | Do not present reported terms as official released treaty text |
 | Signing/finalization status | Treat as reported and possibly contested | Official signing statement, released PDF/text, depositary or mediator record | Do not assume legal force from media wording |
 | Ceasefire scope | Separate U.S.-Iran, Israel, Lebanon, Hezbollah, Red Sea, and regional actor claims | Official parties' statements and conflict-monitoring sources | Do not infer proxy command or compliance from headline language |
 | Strait of Hormuz access | Treat as reported maritime chokepoint issue | Iranian, U.S., IMO, shipping, insurance, and Gulf official sources | Do not provide routes, vessel guidance, or interdiction analysis |
@@ -111,6 +123,26 @@ problem is provenance. A reported diplomatic framework can shift markets,
 actor signaling, and public expectations before official documents are
 available. The corpus should preserve that distinction.
 
+## Assimilation Update
+
+As of the 2026-06-18T03:03:44Z refresh, WARLOCK-INDEX should connect this
+reported MOU to three assimilation lanes:
+
+- **Strategic weapons and nonproliferation:** The reported language on
+  nuclear weapons, enriched-material disposition, IAEA supervision, and a
+  60-day negotiation window belongs in the Iran WMD and strategic-weapons
+  timeline as a reported diplomatic event, not as verified technical
+  implementation.
+- **Maritime chokepoints:** Reported Strait of Hormuz access, no-charge
+  passage for a limited period, U.S. blockade-removal language, Iranian toll
+  claims, oil-export waivers, and commercial-market reaction belong in the
+  Hormuz lane at strategic level only.
+- **Sanctions and official-source routing:** Reported sanctions waivers,
+  frozen-asset access, and oil-export permission require Treasury/OFAC,
+  State, Federal Register, banking/shipping notice, and official Iranian
+  corroboration before WARLOCK-INDEX treats them as implemented legal or
+  compliance facts.
+
 ## Follow-On Collection Queue
 
 | Follow-on product | Purpose | Source families |
@@ -123,7 +155,10 @@ available. The corpus should preserve that distinction.
 
 ## Information Gaps
 
-- Official MOU text was not located in this pass.
+- Official published MOU text was not located in this pass; Axios provides a
+  transcript-style text attributed to a senior administration official's
+  briefing readout, and Guardian reporting says the White House still had not
+  published a copy online.
 - Bloomberg appears to be an important publication route, but direct Bloomberg
   text was not accessible in this environment and needs licensed/direct
   capture before exact text reliance.
@@ -137,6 +172,9 @@ available. The corpus should preserve that distinction.
 
 ## Source List
 
+- Axios, *READ: Full text of U.S.-Iran memorandum of understanding*: `https://www.axios.com/2026/06/17/read-full-us-iran-deal-memorandum-understanding`
+- Axios, *U.S. and Iran sign deal ahead of schedule*: `https://www.axios.com/2026/06/17/iran-deal-signing-text-release`
+- The Guardian, *US releases text of Iran peace plan as Trump says deal averts 'worldwide depression'*: `https://www.theguardian.com/world/2026/jun/17/trump-us-iran-war-mou-deal`
 - The Guardian, *US-Iran deal takeaways: reopening the strait of Hormuz, waived oil sanctions and Lebanon*: `https://www.theguardian.com/world/2026/jun/17/us-iran-deal-trump`
 - The Guardian, Middle East crisis live report, 2026-06-17/18: `https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated`
 - MarketWatch, *The market is still betting oil supply could normalize quickly after MOU leaked, says JPMorgan*: `https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/the-market-is-still-betting-oil-supply-could-normalize-quickly-after-mou-leaked-says-jpmorgan-0D6iKX4fQJ0kxzy1VP0R`

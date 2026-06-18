@@ -4,16 +4,16 @@
 
 **Matrix ID:** WI-MATRIX-US-THREAT-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-18T00:43:38Z
+**Prepared UTC:** 2026-06-18T03:03:44Z
 
-**Information cutoff UTC:** 2026-06-18T00:43:38Z
+**Information cutoff UTC:** 2026-06-18T03:03:44Z
 
 **Source base:** ODNI, CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA,
 ATF, CBP, Coast Guard, DOJ, NGA, and existing WARLOCK-INDEX official-source
 products, including the U.S. law-enforcement threat source capture packet,
 U.S. law-enforcement threat source assessment, Salt Typhoon and
-telecommunications defensive source note, and ASEAN/claimant-state South
-China Sea cross-check packet.
+telecommunications defensive source note, ASEAN/claimant-state South China
+Sea cross-check packet, and U.S.-Iran MOU source-treatment note.
 
 **Analytic confidence:** High for organizing logic; moderate for current
 source completeness pending dated source packets for each agency family.
@@ -42,7 +42,7 @@ geospatial reference at strategic level only.
 | --- | --- | --- | --- | --- |
 | PRC strategic competition | ODNI, DoD, DIA, CIA World Leaders, State, Treasury | FBI, CISA, NSA, DOJ, Commerce, FCC, Senate oversight, PRC issuer sources, Taiwan and allied/regional sources | China baseline, PRC military modernization, China/PLA source baseline, DoD/DIA China military-power extraction map, China/PLA source tracker, South China Sea coercion/legal-source packet, ASEAN/claimant-state South China Sea cross-check packet, PRC cyber packet, Salt Typhoon telecom source note, cyber, space, DIB | No classified inference, targeting, contingency planning, cyber exploitation, live tracking, telecom network diagrams, lawful-intercept detail, legal advice, route guidance, or export-control evasion |
 | Russia strategic competition | ODNI, DoD, DIA, State, Treasury | FBI, CISA, NSA, DOJ, NATO sources | Russia profile, Ukraine timeline, Arctic, cyber, strategic weapons | No battlefield targeting or sanctions evasion |
-| Iran and regional network | ODNI, DIA, State, Treasury, FBI | NCTC, DHS, DOJ, Coast Guard | Iran profile, Red Sea baseline, Houthi profile, terrorism lane | Separate support from command; no targeting |
+| Iran and regional network | ODNI, DIA, State, Treasury, FBI | NCTC, DHS, DOJ, Coast Guard, White House source family, IAEA/UN where official records emerge | Iran profile, Red Sea baseline, Houthi profile, U.S.-Iran MOU source-treatment note, terrorism lane | Separate support from command; no targeting; no sanctions advice, sanctions evasion, maritime routing, or nuclear technical detail |
 | North Korea | ODNI, DoD, State, Treasury | FBI, CISA, NSA, DOJ | DPRK profile, strategic weapons, cyber | No proliferation methods or sanctions evasion |
 | International terrorism | FBI, State, NCTC, Treasury, ODNI | DHS, DOJ, CISA, allied sources | U.S. law-enforcement threat source assessment, FTO/nonstate actor profiles, Red Sea, terrorism source packets | No methods, recruitment, financing, or target guidance |
 | Domestic terrorism / DVE | FBI, DHS, DOJ, Treasury | ODNI where public, state/local public sources | U.S. law-enforcement threat source assessment, homeland baseline, and future DVE source packet | No political enemies list, protected-speech profiling, or private dossiers |
@@ -50,6 +50,7 @@ geospatial reference at strategic level only.
 | Transnational criminal organizations | DEA, Treasury, FBI, DHS/HSI, CBP, Coast Guard, ATF, DOJ | State, ODNI, CISA | TCO profile, U.S. law-enforcement threat source assessment, and future TCO source packet | No trafficking, concealment, route, or enforcement-evasion guidance |
 | WMD and proliferation | FBI WMD, State, Treasury, ODNI, DoD/DTRA, DHS, FSAP | IAEA, UN/UNODA, allied sources, Ukrainian official sources, technical biosecurity and oversight sources where source-classed | ODNI biolab disclosure source-treatment note; Ukraine biolab claim-reconciliation source note; WMD/biosecurity source packet; WMD/nonproliferation future lane | No materials, methods, controlled lists, facility tables, device, site mapping, or vulnerability detail |
 | Border and maritime vectors | DHS, CBP, Coast Guard, DEA, Treasury | FBI, DOJ, State, CISA | Homeland, maritime chokepoints, TCO lanes | No route selection, live movement, patrol, or interdiction detail |
+| Reported diplomatic or sanctions frameworks | White House, State, Treasury/OFAC, Federal Register | IAEA, UN, Congress, mediator governments, foreign issuer sources | U.S.-Iran MOU source-treatment note; Iran WMD/missile packet; maritime chokepoint matrix | Keep reported, transcript, official text, legal effect, sanctions implementation, and verification evidence separate |
 | Maps and geography | CIA, NGA, State, DoD, Coast Guard, CBP | USGS, NOAA, Census where relevant | Map source register and theater orientation | No targeting maps or infrastructure vulnerability maps |
 
 ## Cross-Source Discipline
@@ -80,6 +81,9 @@ geospatial reference at strategic level only.
   page-level, advisory page-level, FCC, OFAC, and allied cyber cross-check
   refreshes remain follow-on lanes.
 - Agency product pages change frequently and require dated refreshes.
+- The U.S.-Iran MOU lane currently has transcript reporting and secondary
+  reporting, but no directly retrieved official published text, Treasury/OFAC
+  waiver, IAEA record, or UN record in this pass.
 - Public sources cannot replace classified assessments, investigative records,
   or sensitive operational reporting.
 - The Ukraine biolab claim-reconciliation note now preserves issuer layering
@@ -102,6 +106,7 @@ geospatial reference at strategic level only.
 - [DoD/DIA China Military Power Extraction Map](../source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
 - [ASEAN And Claimant-State South China Sea Cross-Check Packet](../source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
 - [Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
+- [U.S.-Iran MOU Source-Treatment Note](../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../source-registers/us-intelligence-law-enforcement.md)
 - [ODNI Global Biolab Disclosure Source-Treatment Note](../source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)
 - [Ukraine Biolab Claim-Reconciliation Source Note](../source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.md)

@@ -386,6 +386,14 @@
   preserving a direct-Bloomberg-access caveat and keeping the MOU in
   reported-source treatment pending official text or directly captured
   Bloomberg text.
+- Verified the live GitHub Pages deployment at `https://www.warlock-index.org/`
+  and confirmed the sitemap exposes the Iran MOU note, PRC space/counterspace
+  packet, EU Readiness 2030 packet, and Denmark Arctic/North Atlantic packet.
+- Upgraded the U.S.-Iran MOU lane with Axios transcript reporting and Guardian
+  publication-status reporting, then assimilated the reported MOU into the
+  maritime chokepoint matrix, strategic-weapons timeline, global actor-domain
+  matrix, official U.S. threat-source matrix, maritime source register, and
+  research/media register while preserving reported/transcript-source status.
 
 ## Current Analytical Posture
 
@@ -402,6 +410,9 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
+- Capture official published U.S.-Iran MOU text if released, plus Treasury/OFAC
+  waiver records, IAEA/UN records, Iranian official interpretation, mediator
+  statements, and a dedicated Hormuz strategic chokepoint source packet.
 - Add follow-on Denmark defense investment/delivery, Greenland Arctic source
   capture, Faroe North Atlantic source capture, Denmark maritime and
   domain-awareness implementation refresh, Iceland NATO/air-policing, Iceland

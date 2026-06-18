@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-MARITIME-2026-0001
 
-**Prepared UTC:** 2026-06-14T19:46:19Z
+**Prepared UTC:** 2026-06-18T03:03:44Z
 
-**Information cutoff UTC:** 2026-06-14T19:46:19Z
+**Information cutoff UTC:** 2026-06-18T03:03:44Z
 
 **Source base:** Official canal, port, maritime, commercial shipping,
 insurance, multilateral, research, and media source families for Red
@@ -35,6 +35,29 @@ instructions.
    logic out of WARLOCK-INDEX products.
 5. Create dated source packets when a chokepoint lane gains enough sources for
    high-confidence analysis.
+
+## Reported U.S.-Iran MOU And Strait Of Hormuz Source-Treatment Lane
+
+- **Source class:** C until official source text is retrieved
+- **Publishers:** Axios; The Guardian; MarketWatch/JPMorgan; Bloomberg source
+  family as apparent publication route pending direct capture
+- **Accessed UTC:** 2026-06-18T03:03:44Z
+- **URLs:**
+  - https://www.axios.com/2026/06/17/read-full-us-iran-deal-memorandum-understanding
+  - https://www.axios.com/2026/06/17/iran-deal-signing-text-release
+  - https://www.theguardian.com/world/2026/jun/17/trump-us-iran-war-mou-deal
+  - https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated
+  - https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/the-market-is-still-betting-oil-supply-could-normalize-quickly-after-mou-leaked-says-jpmorgan-0D6iKX4fQJ0kxzy1VP0R
+- **Use:** Current-event source-treatment lane for reported Strait of Hormuz
+  access terms, U.S. blockade-removal language, oil-export waiver claims,
+  possible toll/free-passage disputes, commercial-market reaction, and the
+  need for a dedicated Hormuz source packet.
+- **Reliability note:** Axios provides transcript reporting attributed to a
+  senior administration official, not a released official text. Guardian
+  reporting says the White House still had not published a copy online.
+  Treasury/OFAC, State, Iranian official, IMO, Gulf-state, energy, insurance,
+  and shipping evidence are required before implementation or legal claims are
+  strengthened.
 
 ## Core Red Sea / Suez Sources
 
@@ -140,7 +163,7 @@ instructions.
 | --- | --- | --- | --- |
 | Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current WARLOCK-INDEX lane |
 | South China Sea / West Philippine Sea | DoD 2025, PCA, State Limits in the Seas, Philippines official sources, PRC issuer sources, NAMRIA, NGA/USINDOPACOM, allied statements, shipping/economic sources for later trade context | Active map packet and coercion/legal-source packet exist | Legal/coercion source lane is active; trade, energy, fisheries, and insurance context remains follow-on |
-| Strait of Hormuz | EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue | Needed for Iran maritime and energy exposure analysis |
+| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue, with active source-treatment note | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
 | Malacca / Singapore | Singapore, Malaysia, Indonesia, ASEAN, UNCTAD, EIA/IEA, port authorities, insurance industry | Queue | Needed for Indo-Pacific trade, energy, and logistics concentration |
 | Panama Canal | Panama Canal Authority, UNCTAD, climate agencies, trade datasets, insurance industry | Queue | Needed for climate-infrastructure and canal-capacity analysis |
 | Black Sea | UN, Turkey, Ukraine, Russia, NATO, EU, grain and insurance sources | Queue | Needed for Russia-Ukraine maritime and food-security analysis |
@@ -166,6 +189,7 @@ instructions.
 - [Red Sea Maritime Economics And Insurance Source Packet](../collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [South China Sea Coercion And Legal-Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
+- [U.S.-Iran MOU Source-Treatment Note](../collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [Allied And Multilateral Source Register](allied-multilateral.md)
 - [Official U.S. Sources](official-us.md)
 - [Research And Media Source Register](research-and-media.md)

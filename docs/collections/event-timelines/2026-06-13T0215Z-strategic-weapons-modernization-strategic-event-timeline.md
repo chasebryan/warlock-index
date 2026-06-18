@@ -4,15 +4,16 @@
 
 **Timeline ID:** WI-TIMELINE-STRATWEAPONS-2026-0001
 
-**Prepared UTC:** 2026-06-13T02:15:18Z
+**Prepared UTC:** 2026-06-18T03:03:44Z
 
-**Information cutoff UTC:** 2026-06-13T02:15:18Z
+**Information cutoff UTC:** 2026-06-18T03:03:44Z
 
 **Source base:** 2026 ODNI Annual Threat Assessment; 2022 National Defense
 Strategy, Nuclear Posture Review, and Missile Defense Review; 2025 Department
 of Defense report on military and security developments involving the People's
-Republic of China; existing WARLOCK-INDEX global, homeland, China, Russia,
-North Korea, Iran, space, Arctic, and global assimilation products.
+Republic of China; U.S.-Iran MOU source-treatment note and current-event
+reporting; existing WARLOCK-INDEX global, homeland, China, Russia, North
+Korea, Iran, space, Arctic, and global assimilation products.
 
 **Analytic confidence:** Moderate to high for public strategic patterns,
 official threat framing, arms-control erosion, and major modernization
@@ -84,6 +85,7 @@ space-based warning, cyber-space disruption, and arms-control erosion.
 | 2026-03 | Intelligence assessment | ODNI assessed that China, Russia, and North Korea almost certainly will continue enhancing missile and counterspace capabilities during the next five years. | Confirms that strategic weapons modernization is a cross-domain and multi-actor trend rather than an isolated nuclear-force issue. | 2026 ODNI Annual Threat Assessment. | High | Strategic weapons watchlist |
 | 2026-03 | Intelligence assessment | ODNI assessed that China remains intent on modernizing, diversifying, and expanding its nuclear posture, while Russia is modernizing the largest and most diverse nuclear stockpile. | Defines the current two-peer nuclear stress environment for U.S. defense research. | 2026 ODNI Annual Threat Assessment. | High | China-Russia strategic comparison |
 | 2026-03 | Intelligence assessment | ODNI assessed that North Korea is strongly committed to expanding its nuclear weapons arsenal and strategic weapons programs. | Keeps DPRK modernization central to homeland defense, regional deterrence, missile defense, sanctions, and Russia-DPRK support files. | 2026 ODNI Annual Threat Assessment. | High | DPRK missile-nuclear tracker |
+| 2026-06-17/18 | Reported diplomatic framework | Axios, Guardian, and other current-event reporting described a U.S.-Iran memorandum of understanding with a reported 60-day negotiation window, nuclear-weapons language, enriched-material disposition under IAEA supervision, sanctions/oil-export provisions, and follow-on final-deal framework. | Adds a current-event diplomatic lane to the Iran WMD file while preserving the distinction between transcript reporting, official published text, implementation evidence, IAEA verification, and sanctions/legal effects. | U.S.-Iran MOU source-treatment note; Axios transcript reporting; Guardian reporting. | Moderate for reported-text existence; low to moderate for legal status and implementation until official text and IAEA/Treasury/UN records are captured | Iran MOU official text capture; Iran nuclear verification and safeguards refresh |
 | 2026-06 | Repository posture | WARLOCK-INDEX linked strategic weapons modernization to global, homeland, China, Russia, DPRK, Iran, Arctic, space, cyber, industrial-base, and arms-control lanes. | Establishes strategic weapons modernization as a unifying index for future source packets and actor-domain assessments. | WARLOCK-INDEX global operating picture and assimilation matrix. | Moderate | Strategic weapons source packet series |
 
 ## Pattern Assessment
@@ -140,6 +142,10 @@ place on warning and defense architectures.
   Russia-support indicators at strategic level.
 - Iranian missile, space-launch, nuclear-obligation, IAEA access, chemical
   weapons convention, and biological R&D public reporting.
+- Reported U.S.-Iran MOU source layers, including official published text,
+  transcript reporting, signing statements, IAEA safeguards records,
+  Treasury/OFAC sanctions waivers, UN/UNSC action, Iranian official
+  interpretation, and mediator statements.
 - Counterspace and missile-warning developments that affect nuclear confidence,
   command-and-control resilience, commercial space resilience, and allied
   operations.
@@ -159,6 +165,8 @@ place on warning and defense architectures.
   verification, data exchange, or political commitments.
 - Cyber and counterspace effects on nuclear confidence are difficult to assess
   without operationally sensitive data.
+- Current-event diplomatic reporting can create market and actor-signaling
+  effects before official treaty, waiver, IAEA, or UN records exist.
 
 ## Cross References
 
@@ -170,6 +178,7 @@ place on warning and defense architectures.
 - [North Korea Strategic Actor Classification](../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)
 - [Iran Strategic Actor Classification](../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 - [Global Actor-Domain Assimilation Matrix](../global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
+- [U.S.-Iran MOU Source-Treatment Note](../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 
 ## Source Base
 

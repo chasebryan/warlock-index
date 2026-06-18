@@ -7,27 +7,77 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 02:38:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 03:03:44 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Global Actor-Domain Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
+    </item>
+    <item>
+      <title>Maritime Chokepoint Strategic Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Maritime chokepoints should be treated as strategic integration nodes rather than as isolated geography. Each chokepoint links actors, legal regimes, commercial flows, energy or commodity exposure, insurance confidence, allied response, infrastructure resilience, and escalation risk. The Red Sea/Suez lane now has the strongest the corpus source packet. The remaining lanes should be expanded through separate dated source packets before the repository uses them for high-confidence comparative judgments.</description>
+    </item>
+    <item>
+      <title>Maritime Chokepoints Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Organize source families for maritime chokepoint analysis across Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</description>
+    </item>
+    <item>
+      <title>Official U.S. Threat Source Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
+    </item>
     <item>
       <title>Research And Media Source Register</title>
       <link>https://www.warlock-index.org/library/source-registers/research-and-media.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/research-and-media.html</guid>
-      <pubDate>Thu, 18 Jun 2026 02:38:51 GMT</pubDate>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
-      <description>Current-event reporting source family for the reported U.S.-Iran MOU, including reported ceasefire, Strait of Hormuz, sanctions waiver, oil-export, frozen-asset, nuclear/IAEA, Lebanon/Hezbollah, and negotiation window claims. MarketWatch/JPMorgan reporting says the MOU was published by Bloomberg and other news outlets, making Bloomberg an apparent priority capture target.</description>
+      <description>Current-event reporting source family for the reported U.S.-Iran MOU, including reported ceasefire, Strait of Hormuz, sanctions waiver, oil-export, frozen-asset, nuclear/IAEA, Lebanon/Hezbollah, signing/status, and negotiation-window claims. Axios provides a transcript-style text attributed to a senior administration official's briefing readout and cautions that the print text had not been released. MarketWatch/JPMorgan reporting says the MOU was published by Bloomberg and other news outlets, making Bloomberg an apparent priority capture target.</description>
+    </item>
+    <item>
+      <title>Strategic Weapons Modernization Strategic Event Timeline</title>
+      <link>https://www.warlock-index.org/library/collections/event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
+      <category>Timeline</category>
+      <category>Collections</category>
+      <category>Event Timelines</category>
+      <description>Strategic weapons modernization has become a simultaneous, multi-actor pressure lane rather than a bilateral U.S.-Russia nuclear issue. Public U.S. sources describe a deteriorating environment in which Russia retains the largest and most diverse nuclear stockpile, China is rapidly expanding and diversifying its nuclear posture, North Korea is expanding nuclear and missile programs, Iran remains WMD- and missile-relevant, and counterspace systems are increasingly tied to nuclear warning, deterrence confidence, and missile defense. The strategic center of gravity is not a single weapon class. It is the interaction among nuclear forces, precision strike, missile defense, space-based warning, cyber-space disruption, and arms-control erosion.</description>
     </item>
     <item>
       <title>U.S.-Iran MOU Source-Treatment Note</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.html</guid>
-      <pubDate>Thu, 18 Jun 2026 02:38:51 GMT</pubDate>
+      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
       <category>Document</category>
       <category>Collections</category>
       <category>Source Notes</category>
-      <description>The reported U.S.-Iran MOU is important enough to surface, but it should be handled as a current-event source-treatment note until official text is retrieved. News reporting describes an interim framework involving ceasefire language, Strait of Hormuz access, sanctions waivers or relief sequencing, frozen assets, Iranian oil exports, nuclear-material or IAEA-supervision terms, and a follow-on negotiation window. Those reported terms affect the Iran WMD, sanctions, maritime chokepoint, Red Sea, Lebanon/Hezbollah, energy-market, and global operating-picture lanes.</description>
+      <description>The reported U.S.-Iran MOU is important enough to surface, and Axios now provides a transcript-style text attributed to a senior administration official who read the agreement to reporters. It should still be handled as a current-event source-treatment note until official text is retrieved because Axios cautions that the print text had not been released and Guardian reporting says the White House still had not published a copy online. News reporting describes an interim framework involving ceasefire language, Strait of Hormuz access, sanctions waivers or relief sequencing, frozen assets, Iranian oil exports, nuclear-material or IAEA-supervision terms, and a follow-on negotiation window. Those reported terms affect the Iran WMD, sanctions, maritime chokepoint, Red Sea, Lebanon/Hezbollah, energy-market, and global operating-picture lanes.</description>
     </item>
     <item>
       <title>Iran Actor Profile</title>
@@ -110,16 +160,6 @@
       <description>Readiness 2030 should be treated as an EU implementation architecture, not as proof that European forces are ready or that member states have delivered specific capability. The useful source separation is: policy frame Readiness 2030, financing instrument SAFE, industrial-program lane EDIP, industrial-strategy lane EDIS, coordination/evidence lane EDA, and execution evidence from Council, Parliament, Official Journal, EU budget sources, member-state plans, national budgets, procurement records, and audit bodies.</description>
     </item>
     <item>
-      <title>Global Actor-Domain Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 02:07:45 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
-    </item>
-    <item>
       <title>Official Allied Source Assimilation Matrix</title>
       <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</guid>
@@ -158,16 +198,6 @@
       <category>Collections</category>
       <category>Trackers</category>
       <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
-    </item>
-    <item>
-      <title>Official U.S. Threat Source Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 00:43:38 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
     </item>
     <item>
       <title>U.S. Law Enforcement Threat Source Assessment</title>
@@ -330,16 +360,6 @@
       <description>Define source-routing rules for public map, geographic-name, topographic, nautical, command-area, and geospatial reference material used inside the corpus.</description>
     </item>
     <item>
-      <title>Maritime Chokepoints Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:46:19 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Organize source families for maritime chokepoint analysis across Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</description>
-    </item>
-    <item>
       <title>South China Sea Coercion And Legal-Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</guid>
@@ -388,26 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>The PRC MND and PLA official-media lane is now usable as a dated issuer-source capture, but with explicit access caveats. The most reliable direct content in this pass is the April 19, 2024 Xinhua publication set: one item carries a PRC defense spokesperson's description of the Information Support Force and the PLA's revised service/arm taxonomy, and the other records the establishment ceremony, party-command language, direct CMC leadership, and cancellation of the Strategic Support Force designation.</description>
-    </item>
-    <item>
-      <title>DoD/DIA China Military Power Extraction Map</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.html</guid>
-      <pubDate>Sun, 14 Jun 2026 06:05:33 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The DoD 2025 PRC military-power report is the current primary public U.S. defense source for China/PLA strategic and military modernization questions. It is strongest as a sectioned evidence router: national strategy, PLA strategy and capabilities, force employment, Taiwan pressure, South China Sea coercion, global influence, spending, industry, and emerging technology. The DoD 2024 report is the prior-year comparator for changes in emphasis, and DIA 2019 remains valuable as a historical baseline for older PLA modernization framing, but its force-structure and capability claims must be refreshed against newer sources.</description>
-    </item>
-    <item>
-      <title>PRC Official Doctrine And Issuer-Language Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 05:37:41 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>PRC official doctrine and issuer-language sources are necessary for China/PLA research, but they are a different evidence class from U.S., Taiwan, allied, legal, cyber-advisory, audit, or independent research sources. The State Council/SCIO white-paper lane is useful for identifying Beijing's public language around national defense, sovereignty, &quot;defensive&quot; posture, expenditure, military reform, cyberspace governance, BeiDou, counterterrorism, and global-order narratives. Those pages are authoritative for what the PRC publicly claims or releases; they are not independent verification that those claims are complete, neutral, lawful, transparent, peaceful, or accurate.</description>
     </item>
   </channel>
 </rss>
