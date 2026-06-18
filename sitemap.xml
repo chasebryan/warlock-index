@@ -509,6 +509,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
