@@ -13,17 +13,19 @@ import (
 )
 
 type marker struct {
-	ID       string  `json:"id"`
-	Title    string  `json:"title"`
-	Region   string  `json:"region"`
-	Category string  `json:"category"`
-	Date     string  `json:"date"`
-	X        float64 `json:"x"`
-	Y        float64 `json:"y"`
-	Shape    string  `json:"shape"`
-	Status   string  `json:"status"`
-	Summary  string  `json:"summary"`
-	URL      string  `json:"url"`
+	ID        string  `json:"id"`
+	Title     string  `json:"title"`
+	Region    string  `json:"region"`
+	Anchor    string  `json:"anchor"`
+	Placement string  `json:"placement"`
+	Category  string  `json:"category"`
+	Date      string  `json:"date"`
+	X         float64 `json:"x"`
+	Y         float64 `json:"y"`
+	Shape     string  `json:"shape"`
+	Status    string  `json:"status"`
+	Summary   string  `json:"summary"`
+	URL       string  `json:"url"`
 }
 
 type coordinateBounds struct {
@@ -151,12 +153,14 @@ func validateMarker(base string, index int, item marker, ids map[string]bool) er
 	ids[item.ID] = true
 
 	required := map[string]string{
-		"title":    item.Title,
-		"region":   item.Region,
-		"category": item.Category,
-		"date":     item.Date,
-		"summary":  item.Summary,
-		"url":      item.URL,
+		"title":     item.Title,
+		"region":    item.Region,
+		"anchor":    item.Anchor,
+		"placement": item.Placement,
+		"category":  item.Category,
+		"date":      item.Date,
+		"summary":   item.Summary,
+		"url":       item.URL,
 	}
 	for field, value := range required {
 		if value == "" {
@@ -166,6 +170,12 @@ func validateMarker(base string, index int, item marker, ids map[string]bool) er
 
 	if item.X < 0 || item.X > 100 || item.Y < 0 || item.Y > 100 {
 		return fmt.Errorf("%s coordinates out of range: x=%v y=%v", prefix, item.X, item.Y)
+	}
+	if len(item.Anchor) > 80 {
+		return fmt.Errorf("%s anchor is too long: %d characters", prefix, len(item.Anchor))
+	}
+	if len(item.Placement) > 260 {
+		return fmt.Errorf("%s placement note is too long: %d characters", prefix, len(item.Placement))
 	}
 	bounds, ok := regionBounds[item.Region]
 	if !ok {

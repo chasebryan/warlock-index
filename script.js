@@ -408,6 +408,7 @@ const globalMap = {
   reset: document.querySelector("#global-map-reset"),
   title: document.querySelector("#global-map-selected-title"),
   summary: document.querySelector("#global-map-selected-summary"),
+  placement: document.querySelector("#global-map-selected-placement"),
   link: document.querySelector("#global-map-selected-link"),
   updates: [],
   selectedId: "",
@@ -436,11 +437,11 @@ function renderGlobalMapMarkers(updates) {
       class="global-map-marker"
       type="button"
       data-map-id="${escapeHtml(item.id)}"
-      data-title="${escapeHtml(item.title)}"
+      data-title="${escapeHtml(`${item.title} / ${item.anchor || item.region}`)}"
       data-shape="${escapeHtml(item.shape)}"
       data-status="${escapeHtml(item.status)}"
       style="left:${Number(item.x)}%;top:${Number(item.y)}%"
-      aria-label="${escapeHtml(item.title)}"
+      aria-label="${escapeHtml(`${item.title}, ${item.anchor || item.region}`)}"
     ></button>
   `).join("");
   globalMap.count.textContent = `${updates.length} update${updates.length === 1 ? "" : "s"}`;
@@ -457,6 +458,10 @@ function selectGlobalMapUpdate(id) {
     globalMap.stage?.classList.remove("is-selected");
     globalMap.title.textContent = "Choose a map point";
     globalMap.summary.textContent = "Select a marker to open the record behind it.";
+    if (globalMap.placement) {
+      globalMap.placement.textContent = "";
+      globalMap.placement.hidden = true;
+    }
     globalMap.link.hidden = true;
     return;
   }
@@ -464,6 +469,10 @@ function selectGlobalMapUpdate(id) {
   globalMap.stage?.classList.add("is-selected");
   globalMap.title.textContent = item.title;
   globalMap.summary.textContent = `${item.region} / ${item.category} / ${item.date}. ${item.summary}`;
+  if (globalMap.placement) {
+    globalMap.placement.textContent = `${item.anchor || item.region}. ${item.placement || "Marker placement follows the record's primary geographic source lane."}`;
+    globalMap.placement.hidden = false;
+  }
   globalMap.link.href = item.url;
   globalMap.link.hidden = false;
 }

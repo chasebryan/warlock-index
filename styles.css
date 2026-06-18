@@ -525,6 +525,18 @@ button {
   color: var(--muted);
 }
 
+.global-map-drawer .global-map-placement {
+  margin-top: 0.62rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(111, 101, 78, 0.26);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-transform: none;
+}
+
 .global-map-drawer a {
   display: inline-flex;
   justify-self: start;
