@@ -180,6 +180,12 @@ button {
   border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
   background: var(--chrome);
   box-shadow: inset 0 -2px 0 transparent;
+  font-family: var(--sans);
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: uppercase;
   -webkit-tap-highlight-color: transparent;
 }
 
