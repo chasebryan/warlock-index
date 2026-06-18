@@ -356,8 +356,7 @@ button {
   margin: 0;
   color: var(--chrome-text);
   font-family: var(--serif);
-  font-size: clamp(1.85rem, 4vw, 3rem);
-  font-weight: 400;
+  font-size: clamp(2.1rem, 5vw, 4rem);
   line-height: 1;
 }
 
