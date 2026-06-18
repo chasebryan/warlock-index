@@ -221,6 +221,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</loc>
     <priority>0.7</priority>
   </url>
@@ -334,6 +338,14 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -590,6 +602,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
