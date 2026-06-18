@@ -19,6 +19,36 @@ Research and media sources are useful for current-event awareness, conflict
 timelines, and outside analytic perspectives. They should be separated from
 official-source baselines and graded explicitly.
 
+## LIVE-NEWS Official Live-Source Family, 2026-06-18
+
+- **Source class:** B/C depending on issuer and use.
+- **Publishers:** NHK World-Japan; DW; France 24; TRT World; CNA; ABC News
+  Australia; UN Web TV; Europe by Satellite; CPAC Canada; NASA; UK Parliament
+  Live.
+- **Accessed UTC:** 2026-06-18T03:52:19Z
+- **URLs:**
+  - https://www3.nhk.or.jp/nhkworld/en/live/
+  - https://www.dw.com/en/live-tv/s-100825
+  - https://www.france24.com/en/live
+  - https://www.france24.com/fr/direct
+  - https://www.trtworld.com/live
+  - https://www.channelnewsasia.com/watch/live
+  - https://www.abc.net.au/news/newschannel
+  - https://webtv.un.org/en
+  - https://audiovisual.ec.europa.eu/en/ebs/live
+  - https://www.cpac.ca/live
+  - https://www.nasa.gov/nasatv/
+  - https://www.parliamentlive.tv/
+- **Use:** Current-event awareness, live observation, institutional
+  proceedings discovery, and follow-on source collection. LIVE-NEWS is a
+  link-out navigation surface only; it does not host, rebroadcast, or embed
+  streams.
+- **Reliability note:** Live streams are provisional observation sources.
+  Preserve provider, program/body, UTC timestamp, and observed claim, then
+  corroborate with a stable archive, transcript, meeting record, official
+  release, legal text, or dated article before treating the observation as a
+  durable corpus claim.
+
 ## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
 
 - **Source class:** C

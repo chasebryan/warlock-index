@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 03:29:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 03:52:19 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>LIVE-NEWS Source-Treatment Note</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0352Z-live-news-source-treatment-note.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0352Z-live-news-source-treatment-note.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:52:19 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>LIVE-NEWS is a navigation page, not a streaming platform. the corpus should link out only to official provider pages and should not host, rebroadcast, frame, scrape, or embed live players. The page may include public broadcasters, state-backed international news services, institutional video services, and public-affairs broadcasters when the linked page is free to reach and not paywall-first or ad-heavy at the time of review.</description>
+    </item>
     <item>
       <title>Coverage Map</title>
       <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
@@ -137,7 +147,7 @@
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
-      <description>Current-event reporting source family for the reported U.S.-Iran MOU, including reported ceasefire, Strait of Hormuz, sanctions waiver, oil-export, frozen-asset, nuclear/IAEA, Lebanon/Hezbollah, signing/status, and negotiation-window claims. Axios provides a transcript-style text attributed to a senior administration official's briefing readout and cautions that the print text had not been released. MarketWatch/JPMorgan reporting says the MOU was published by Bloomberg and other news outlets, making Bloomberg an apparent priority capture target.</description>
+      <description>Current-event awareness, live observation, institutional proceedings discovery, and follow-on source collection. LIVE-NEWS is a link-out navigation surface only; it does not host, rebroadcast, or embed streams.</description>
     </item>
     <item>
       <title>U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture</title>
@@ -398,16 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>PRC cyber is now a dedicated defensive source lane rather than a broad &quot;future cyber packet&quot; queue item. ODNI 2026 provides the current public IC strategic frame: China is described as the most active and persistent cyber threat to U.S. government, private-sector, and critical-infrastructure networks, while multiple state and nonstate actors can pre-position or carry out disruptive activity against critical infrastructure. DoD 2025 provides the military-power frame: PLA cyber activity is tied to crisis and conflict relevance, defense and civilian critical-infrastructure disruption, and allied interoperability concerns.</description>
-    </item>
-    <item>
-      <title>Map And Geospatial Reference Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/map-geospatial-reference.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/map-geospatial-reference.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:46:19 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Define source-routing rules for public map, geographic-name, topographic, nautical, command-area, and geospatial reference material used inside the corpus.</description>
     </item>
   </channel>
 </rss>
