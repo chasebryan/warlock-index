@@ -7,8 +7,28 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 10:25:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 10:49:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Current Category Source Sweep Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:49:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The corpus has strong source-packet coverage, but the next value is a dated refresh cycle across every category. The sweep should prioritize official updates first, then multilateral/institutional data, then controlled current-event sources that point to primary records.</description>
+    </item>
+    <item>
+      <title>U.S.-Iran MOU Implementation Watch Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:49:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The Iran MOU lane remains active but unimplemented in the corpus. Current reporting can support a reported signed-and-publicized MOU status, but the corpus should not treat sanctions waivers, oil-export permissions, frozen-asset movement, Strait of Hormuz access, toll treatment, IAEA/nuclear measures, or UN Security Council action as implemented until primary records are captured.</description>
+    </item>
     <item>
       <title>U.S.-Iran MOU Implementation Gap Capture</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.html</link>
@@ -388,26 +408,6 @@
       <category>Collections</category>
       <category>Trackers</category>
       <description>Arms-control erosion is a strategic-stability tracker because it changes the information environment around nuclear and strategic weapons competition. New START's expiration on February 5, 2026, after Russian suspension in 2023, marks the loss of the last legally binding bilateral U.S.-Russia strategic nuclear arms limit. That loss does not automatically prove immediate force expansion, but it does reduce treaty-based verification, data exchange, inspection rights, and predictability.</description>
-    </item>
-    <item>
-      <title>ICE Pact And Arctic Warning Implementation Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-18T0311Z-ice-pact-arctic-warning-implementation-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-18T0311Z-ice-pact-arctic-warning-implementation-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Arctic / High North</category>
-      <category>Source Packets</category>
-      <description>The ICE Pact is not only an icebreaker story. In the corpus it should be treated as a combined Arctic industrial-base, allied-capacity, continental-defense, and northern-infrastructure lane. The official Canadian record establishes three useful evidence families: the November 13, 2024 Canada-U.S.-Finland MOU to establish the ICE Pact; March 2025 Canadian contracts for two future Canadian Coast Guard polar icebreakers; and Canadian defense-policy investments tied to northern operational support, airborne early warning, maritime sensors, and an Arctic satellite ground station.</description>
-    </item>
-    <item>
-      <title>New START Post-Expiration Status Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-18T0311Z-new-start-post-expiration-status-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-18T0311Z-new-start-post-expiration-status-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Global</category>
-      <category>Source Packets</category>
-      <description>New START should now be treated in the corpus as an expired legal treaty with a separate reported informal-observance lane. The treaty entered into force on February 5, 2011, was extended in 2021 to February 5, 2026, and expired after Russia suspended implementation in 2023 and no formal successor entered into force. Arms Control Association's April 2026 fact sheet records the expiration and key limits; Axios reported that U.S. and Russian officials were discussing or had reached an informal understanding to observe the spirit or terms of New START after expiration, while also noting that no formal legal extension was signed.</description>
     </item>
   </channel>
 </rss>
