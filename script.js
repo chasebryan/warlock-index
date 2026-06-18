@@ -399,6 +399,7 @@ renderResults(initialQuery, searchCorpus(initialQuery));
 setActiveRoute(initialQuery);
 
 const globalMap = {
+  stage: document.querySelector(".global-map-stage"),
   markers: document.querySelector("#global-map-markers"),
   filters: document.querySelector("#global-map-filters"),
   count: document.querySelector("#global-map-count"),
@@ -451,12 +452,14 @@ function selectGlobalMapUpdate(id) {
   });
 
   if (!item) {
+    globalMap.stage?.classList.remove("is-selected");
     globalMap.title.textContent = "Choose a map point";
     globalMap.summary.textContent = "Select a marker to open the record behind it.";
     globalMap.link.hidden = true;
     return;
   }
 
+  globalMap.stage?.classList.add("is-selected");
   globalMap.title.textContent = item.title;
   globalMap.summary.textContent = `${item.region} / ${item.category} / ${item.date}. ${item.summary}`;
   globalMap.link.href = item.url;
