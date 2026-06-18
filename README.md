@@ -21,9 +21,10 @@ files:
 
 - `site/robots.txt` permits crawler access and points to the sitemap.
 - `site/sitemap.xml` lists the homepage and generated documentation pages.
-- `site/feed.xml` is an RSS feed for recent dated corpus entries. It references
-  `site/feed.xsl` so browsers render a readable recent-updates page at the
-  same URL while RSS clients still receive XML.
+- `site/feed.html` is the browser-readable recent-updates page.
+- `site/feed.xml` is the RSS feed for recent dated corpus entries. It references
+  `site/feed.xsl` as a convenience for browsers that still apply XML
+  stylesheets, while RSS clients receive XML.
 
 Generated library pages include canonical URLs, index/follow robots metadata,
 and social preview metadata using `https://www.warlock-index.org/` as the
@@ -37,7 +38,8 @@ The homepage keeps `WARLOCK-INDEX` as the canonical brand and includes
 structured-data aliases for `Warlock-Index`, `warlock-index`, and
 `warlock index` to support search discovery for common phrase variants.
 The static search UI supports `?q=` URLs for structured `SearchAction`
-metadata. A recent updates block and Atom feed (`/feed.xml`) aid ongoing discovery.
+metadata. A recent updates block, browser-readable feed page (`/feed.html`),
+and RSS feed (`/feed.xml`) aid ongoing discovery.
 
 The `workspace/` path publishes the installable WARLOCK-INDEX Workspace. It has
 a scoped manifest and service worker so installing from `/workspace/` opens the
@@ -89,8 +91,8 @@ the live sitemap URLs to the IndexNow endpoint for Bing-family discovery.
 Current site requirements:
 
 - Browse by theater, actor, domain, and product date.
-- Provide a human-readable recent-updates feed at `/feed.xml` without
-  breaking RSS-reader compatibility.
+- Provide a human-readable recent-updates page at `/feed.html` without
+  breaking RSS-reader compatibility at `/feed.xml`.
 - Show information cutoff and confidence at the top of each product.
 - Preserve source lists.
 - Make prior versions discoverable.
