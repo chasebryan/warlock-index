@@ -9,8 +9,8 @@
 **Information cutoff UTC:** 2026-06-18T03:29:19Z
 
 **Source base:** Existing WARLOCK-INDEX assessments, source registers,
-source packets, trackers, timelines, actor profiles, maps, and standards as
-of the information cutoff.
+source packets, explainers, trackers, timelines, actor profiles, maps, and
+standards as of the information cutoff.
 
 **Analytic confidence:** High for repository coverage state and planned
 corpus organization. Moderate for prioritization because future source
@@ -65,6 +65,7 @@ future open-source defense assessments.
 - Strategic baseline.
 - Global operating picture.
 - Actor profile.
+- Explainer.
 - Theater profile.
 - Event timeline.
 - Capability profile.
@@ -75,6 +76,20 @@ future open-source defense assessments.
 - Chokepoint assimilation matrix.
 - Assumption check.
 - Prior assessment update.
+
+## Documentation Depth Model
+
+- **Explainers:** Reader-facing topic explanations. They teach what a topic
+  means, why it matters, how the system works, what evidence can and cannot
+  show, common misreadings, and what public indicators should be watched.
+- **Source packets:** Evidence maps. They identify source families, extraction
+  fields, caveats, and cross references.
+- **Trackers:** Collection queues. They show what has been captured, what is
+  pending, and what should be refreshed.
+- **Assessments:** Dated analytical judgments with source bases, confidence
+  language, and boundaries.
+- **Matrices:** Cross-corpus synthesis products that connect actors, theaters,
+  domains, and source lanes.
 
 ## Priority Source Families
 
@@ -132,6 +147,11 @@ future open-source defense assessments.
   defense investment/readiness implementation, Japan defense buildup
   implementation, NATO and allied industrial-capacity lanes, and the DIB
   capacity tracker and assimilation matrix.
+- Explanatory documentation lanes, including the defense industrial base, air
+  and missile defense, drone/counter-UAS, shipbuilding and repair, allied DIB,
+  China/PLA modernization, Iran/Middle East pressure, and Ukraine external
+  support explainers. These are used to make source-heavy documentation
+  readable without weakening source discipline.
 - Munitions and energetics source families, including DoD and service budget
   source lanes, Congress.gov authorization and appropriation routes, CRS and
   GAO oversight, CBO cost-analysis routing, NATO/EU/allied replenishment

@@ -305,6 +305,42 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-air-missile-defense-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-allied-defense-industrial-base-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-china-pla-modernization-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-defense-industrial-base-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-drone-counter-uas-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-iran-middle-east-strategic-pressure-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-shipbuilding-repair-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-ukraine-external-support-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -621,7 +657,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/standards/explainer-standard.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/templates/assessment-template.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/templates/explainer-template.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

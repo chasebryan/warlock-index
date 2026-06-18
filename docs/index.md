@@ -3,7 +3,8 @@
 **UNCLASSIFIED//OPEN SOURCE**
 
 Use this index to move through standards, source registers, maps, assessments,
-actor profiles, source packets, timelines, trackers, and synthesis matrices.
+explainers, actor profiles, source packets, timelines, trackers, and synthesis
+matrices.
 
 ## Standards
 
@@ -11,10 +12,12 @@ actor profiles, source packets, timelines, trackers, and synthesis matrices.
 - [Source Evaluation Standard](standards/source-evaluation.md)
 - [Assessment Style Guide](standards/assessment-style-guide.md)
 - [Datetime and Versioning Standard](standards/datetime-and-versioning.md)
+- [Explainer Standard](standards/explainer-standard.md)
 
 ## Templates
 
 - [Assessment Template](templates/assessment-template.md)
+- [Explainer Template](templates/explainer-template.md)
 
 ## Source Registers
 
@@ -59,6 +62,15 @@ actor profiles, source packets, timelines, trackers, and synthesis matrices.
 ## Collections
 
 - [Coverage Map](collections/coverage-map.md)
+- [Explainers](collections/explainers)
+- [Defense Industrial Base Explainer](collections/explainers/2026-06-18T0842Z-defense-industrial-base-explainer.md)
+- [Air And Missile Defense Explainer](collections/explainers/2026-06-18T0842Z-air-missile-defense-explainer.md)
+- [Drone And Counter-UAS Explainer](collections/explainers/2026-06-18T0842Z-drone-counter-uas-explainer.md)
+- [Shipbuilding And Repair Explainer](collections/explainers/2026-06-18T0842Z-shipbuilding-repair-explainer.md)
+- [Allied Defense Industrial Base Explainer](collections/explainers/2026-06-18T0842Z-allied-defense-industrial-base-explainer.md)
+- [China And PLA Modernization Explainer](collections/explainers/2026-06-18T0842Z-china-pla-modernization-explainer.md)
+- [Iran And Middle East Strategic Pressure Explainer](collections/explainers/2026-06-18T0842Z-iran-middle-east-strategic-pressure-explainer.md)
+- [Ukraine External Support Explainer](collections/explainers/2026-06-18T0842Z-ukraine-external-support-explainer.md)
 - [Global Assimilation](collections/global-assimilation)
 - [Global Actor-Domain Assimilation Matrix](collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
 - [Maritime Chokepoint Strategic Assimilation Matrix](collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)

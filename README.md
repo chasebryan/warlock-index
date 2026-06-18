@@ -3,8 +3,8 @@
 **UNCLASSIFIED//OPEN SOURCE**
 
 WARLOCK-INDEX is an open-source strategic research corpus for dated
-assessments, source packets, trackers, timelines, actor profiles, and source
-registers.
+assessments, explainers, source packets, trackers, timelines, actor profiles,
+and source registers.
 
 The project is built for source discipline and research continuity. It is not
 a policy shop, target package, operational playbook, intelligence tasking
@@ -31,10 +31,13 @@ Every product in this repository must remain within the following lane:
 - [docs/index.md](docs/index.md) - navigation hub for the documentation corpus.
 - [docs/standards](docs/standards) - product standards, source rules, style, and
   tradecraft guidance.
-- [docs/templates](docs/templates) - repeatable product templates.
+- [docs/templates](docs/templates) - repeatable product templates, including
+  assessment and explainer templates.
 - [docs/source-registers](docs/source-registers) - vetted source registries.
-- [docs/collections](docs/collections) - source notes, timelines, and actor
-  profile material.
+- [docs/collections/explainers](docs/collections/explainers) - reader-facing
+  explanations for major topics.
+- [docs/collections](docs/collections) - source notes, timelines, trackers,
+  matrices, and actor profile material.
 - [docs/assessments](docs/assessments) - finished and in-progress analytical
   products by theater and domain.
 - [site](site) - static public website, generated library, search data, and
@@ -73,7 +76,7 @@ same project.
 
 The baseline standard is documented in
 [docs/standards/product-standard.md](docs/standards/product-standard.md).
-All assessment products should include:
+All assessment and explainer products should include:
 
 - Classification/handling label: `UNCLASSIFIED//OPEN SOURCE`.
 - Product ID.

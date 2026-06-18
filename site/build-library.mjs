@@ -77,6 +77,7 @@ const groupOrder = [
   "Collections",
   "Maps",
   "Actor Profiles",
+  "Explainers",
   "Source Packets",
   "Trackers",
   "Event Timelines",
@@ -312,6 +313,7 @@ function inferType(rel) {
   if (rel.startsWith("standards/")) return "Standard";
   if (rel.startsWith("templates/")) return "Template";
   if (rel.includes("/source-packets/")) return "Source Packet";
+  if (rel.includes("/explainers/")) return "Explainer";
   if (rel.includes("/actor-profiles/")) return "Actor Profile";
   if (rel.includes("/event-timelines/")) return "Timeline";
   if (rel.includes("/trackers/")) return "Tracker";
@@ -324,6 +326,7 @@ function inferGroup(rel, type) {
   if (rel.startsWith("assessments/")) return "Assessments";
   if (rel.startsWith("maps/")) return "Maps";
   if (rel.includes("/actor-profiles/")) return "Actor Profiles";
+  if (rel.includes("/explainers/")) return "Explainers";
   if (rel.includes("/source-packets/")) return "Source Packets";
   if (rel.includes("/trackers/")) return "Trackers";
   if (rel.includes("/event-timelines/")) return "Event Timelines";
@@ -885,7 +888,7 @@ function renderFeed(docs) {
     `    <title>${escapeXml(siteName)} Recent Corpus Updates</title>`,
     `    <link>${escapeXml(siteOrigin)}/</link>`,
     `    <atom:link href="${escapeXml(`${siteOrigin}/feed.xml`)}" rel="self" type="application/rss+xml"/>`,
-    "    <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>",
+    "    <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>",
     "    <language>en-us</language>",
     `    <lastBuildDate>${latestDate.toUTCString()}</lastBuildDate>`,
     "    <generator>WARLOCK-INDEX static site generator</generator>",
@@ -1232,7 +1235,7 @@ function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
           <p>Use the site as a source-routed research corpus: start broad, follow dated products, then queue records in Workspace for export.</p>
         </section>
         <section class="use-step-grid" aria-label="Workflow">
-          <article><h2>1. Browse by topic</h2><p>Use topic hubs to enter by theater or domain, then move into assessments, packets, trackers, matrices, and registers.</p></article>
+          <article><h2>1. Browse by topic</h2><p>Use topic hubs to enter by theater or domain, then move into explainers, assessments, packets, trackers, matrices, and registers.</p></article>
           <article><h2>2. Search the corpus</h2><p>Search names, agencies, domains, product IDs, and source families. Result badges show record type, domain, source lane, and confidence cues.</p></article>
           <article><h2>3. Read source packets first</h2><p>Packets explain evidence families and limits. Use them before treating an assessment or tracker as a finished view.</p></article>
           <article><h2>4. Check trackers</h2><p>Trackers show what has been captured, what is queued, and where source gaps remain.</p></article>
