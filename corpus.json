@@ -34,7 +34,7 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "7307bf5e81d0"
+    "sourceHash": "c1899d8f03a3"
   },
   {
     "title": "Assessment Index",
@@ -4323,7 +4323,7 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "0a52445b5343"
+    "sourceHash": "698f2bb7e257"
   },
   {
     "title": "Theater Map Index",
@@ -4914,6 +4914,84 @@
       "https://treaties.unoda.org/t/bwc`"
     ],
     "sourceHash": "fe60bc5a33b2"
+  },
+  {
+    "title": "Workspace Metadata Triage Source Note",
+    "type": "Document",
+    "path": "library/collections/source-notes/2026-06-18T1845Z-workspace-metadata-triage-source-note.html",
+    "summary": "The workspace should function as a triage surface for the enriched corpus, not only as a document browser. Metadata-aware routes make it possible to quickly isolate records that need refresh, carry caveats, or belong to defensive cyber source lanes.",
+    "productId": "WI-SN-WORKSPACE-2026-0001",
+    "preparedUtc": "2026-06-18T18:45:00Z",
+    "cutoffUtc": "2026-06-18T18:45:00Z",
+    "confidence": "High for repository workflow; moderate for downstream user workflows because external systems will vary.",
+    "theater": "Collections",
+    "domain": "Source Notes",
+    "topics": [
+      "cyber-space"
+    ],
+    "badges": [
+      "Document",
+      "Collections",
+      "Source Notes",
+      "High Confidence"
+    ],
+    "tags": [
+      "workspace",
+      "metadata",
+      "triage",
+      "source",
+      "note",
+      "collections",
+      "source-notes",
+      "2026-06-18t1845z-workspace-metadata-triage-source-note",
+      "document",
+      "source notes",
+      "wi-sn-workspace-2026-0001",
+      "2026-06-18t18:45:00z",
+      "high",
+      "for",
+      "repository",
+      "workflow",
+      "moderate",
+      "downstream",
+      "user",
+      "workflows",
+      "because",
+      "external",
+      "systems",
+      "will",
+      "vary"
+    ],
+    "sourceClasses": [
+      "Internal source note",
+      "Generated metadata",
+      "Analytic workflow"
+    ],
+    "actors": [],
+    "topicTags": [
+      "workspace",
+      "metadata",
+      "triage",
+      "source freshness",
+      "export"
+    ],
+    "safetyBoundary": "Workflow note only. Does not assign operational priorities, collection requirements, target priorities, or policy recommendations.",
+    "freshnessStatus": "Current",
+    "lastSourceCheckUtc": "2026-06-18T18:45:00Z",
+    "nextRefreshUtc": "2026-06-25T18:45:00Z",
+    "caveatTags": [
+      "current-watch",
+      "archival-reference"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-STD-006",
+      "WI-STD-007",
+      "WI-TRK-FRESHNESS-2026-0001",
+      "WI-TRK-GAPS-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "d02a94e53f83"
   },
   {
     "title": "Arctic Militarization Strategic Event Timeline",

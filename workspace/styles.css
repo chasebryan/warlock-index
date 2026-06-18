@@ -887,6 +887,14 @@ svg {
   gap: 0.6rem;
 }
 
+.metadata-panel {
+  display: grid;
+  gap: 0.48rem;
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
 .detail {
   display: grid;
   gap: 0.14rem;
