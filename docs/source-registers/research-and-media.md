@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T03:11:36Z
+**Information cutoff UTC:** 2026-06-18T05:05:04Z
 
 **Source base:** Research, media, industry, and specialist current-event
 source families listed in this register.
@@ -24,8 +24,10 @@ official-source baselines and graded explicitly.
 - **Source class:** B/C depending on issuer and use.
 - **Publishers:** NHK World-Japan; DW; France 24; TRT World; CNA; ABC News
   Australia; CGTN English; Arirang TV; UN Web TV; Europe by Satellite; CPAC
-  Canada; NASA; UK Parliament Live; White House Live.
-- **Accessed UTC:** 2026-06-18T03:59:26Z
+  Canada; NASA; UK Parliament Live; White House Live; U.S. House FloorCast;
+  European Parliament Streaming; U.S. defense live events; World Bank Live;
+  IMF Live.
+- **Accessed UTC:** 2026-06-18T05:05:04Z
 - **URLs:**
   - https://www3.nhk.or.jp/nhkworld/en/live/
   - https://www.dw.com/en/live-tv/s-100825
@@ -42,6 +44,11 @@ official-source baselines and graded explicitly.
   - https://www.nasa.gov/nasatv/
   - https://www.parliamentlive.tv/
   - https://www.whitehouse.gov/live/
+  - https://live.house.gov/
+  - https://multimedia.europarl.europa.eu/en/webstreaming
+  - https://www.war.gov/News/Live-Events/
+  - https://live.worldbank.org/en/home
+  - https://www.imf.org/en/live
 - **Use:** Current-event awareness, live observation, institutional
   proceedings discovery, and follow-on source collection. LIVE-NEWS is a
   link-out navigation surface only; it does not host, rebroadcast, or embed
@@ -53,7 +60,10 @@ official-source baselines and graded explicitly.
   durable corpus claim. Treat state-backed channels as issuer-perspective
   media. Treat executive-office live pages as official but volatile; verify
   event title and follow with archived White House video, remarks, transcript,
-  fact sheet, or release before citing.
+  fact sheet, or release before citing. PBS News live and C-SPAN remain useful
+  candidate or event-level sources but are not on the public card grid because
+  current checks found sponsor/support surfaces or provider-authentication
+  friction.
 
 ## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
 

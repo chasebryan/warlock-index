@@ -6,14 +6,16 @@
 
 **Prepared UTC:** 2026-06-18T03:52:19Z
 
-**Information cutoff UTC:** 2026-06-18T03:59:26Z
+**Information cutoff UTC:** 2026-06-18T05:05:04Z
 
 **Source base:** WARLOCK-INDEX LIVE-NEWS page; official live pages for
 international public broadcasters, state-backed news services, institutional
 video services, and parliamentary or public-affairs broadcasters; current
 official-page checks for NHK World-Japan, DW, France 24, TRT World, CNA, ABC
 News Australia, CGTN English, Arirang TV, UN Web TV, Europe by Satellite,
-CPAC Canada, NASA, UK Parliament Live, and White House Live.
+CPAC Canada, NASA, UK Parliament Live, White House Live, U.S. House
+FloorCast, European Parliament Streaming, U.S. defense live events, World
+Bank Live, and IMF Live.
 
 **Analytic confidence:** Moderate for link routing and inclusion rules. Low
 for any claim derived only from a live stream unless timestamped, archived,
@@ -88,6 +90,11 @@ filing, public notice, or dated article.
 | NASA Live | United States / Space | Official agency live coverage |
 | UK Parliament Live | United Kingdom | Official parliamentary live and archive service |
 | White House Live | United States / Executive Office of the President | Official live page for remarks, briefings, and events |
+| U.S. House FloorCast | United States / House of Representatives | Official House floor stream and legislative activity page |
+| European Parliament Streaming | European Union / Parliament | Official streaming agenda for plenary, committee, and parliamentary events |
+| U.S. Defense Live Events | United States / Defense | Official live-events page for briefings, remarks, and defense public affairs |
+| World Bank Live | Multilateral / Development | Institutional live and archived development-policy events |
+| IMF Live | Multilateral / Finance | Official IMF live and archived economic-policy events |
 
 ## Current Exclusions And Cautions
 
@@ -107,6 +114,16 @@ filing, public notice, or dated article.
   title, video-library record, remarks page, transcript, fact sheet, or other
   official release before reuse; public reporting has documented at least one
   prior anomalous stream on the official live route.
+- PBS News live is an official public-media page and should remain a reviewed
+  candidate for event-level use, but the 2026-06-18 check found support,
+  funder, notification, and sponsor surfaces. Do not place it on the public
+  LIVE-NEWS card grid unless a later check confirms a cleaner low-friction
+  live route.
+- C-SPAN remains useful for U.S. public-affairs discovery, but full channel
+  live access can be provider-authenticated and the official website can carry
+  advertising surfaces. Prefer official House, Senate, agency, or event pages
+  for the public card grid unless a specific C-SPAN live event is freely
+  available without authentication.
 
 ## Source List
 
@@ -125,8 +142,15 @@ filing, public notice, or dated article.
 - NASA Live: `https://www.nasa.gov/nasatv/`
 - UK Parliament Live: `https://www.parliamentlive.tv/`
 - White House Live: `https://www.whitehouse.gov/live/`
+- U.S. House FloorCast: `https://live.house.gov/`
+- European Parliament Streaming:
+  `https://multimedia.europarl.europa.eu/en/webstreaming`
+- U.S. Defense Live Events: `https://www.war.gov/News/Live-Events/`
+- World Bank Live: `https://live.worldbank.org/en/home`
+- IMF Live: `https://www.imf.org/en/live`
 - Al Jazeera English Live reviewed candidate:
   `https://www.aljazeera.com/video/live`
+- PBS News live reviewed candidate: `https://www.pbs.org/newshour/live`
 - Associated Press, White House live-page anomaly report:
   `https://apnews.com/article/88d79b896ca6e5ecea33f3bf3e5c9278`
 
