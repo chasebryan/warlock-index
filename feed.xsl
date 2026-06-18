@@ -400,7 +400,7 @@
             </xsl:for-each>
           </section>
           <footer class="site-maintainer-footer">
-            <p>Maintained by The Better Science Foundation</p>
+            <p>Maintained by Chase Bryan</p>
           </footer>
         </main>
         </div>

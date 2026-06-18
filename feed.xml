@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 03:52:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 04:41:47 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Project Attribution And Maintainer Treatment Note</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0441Z-project-attribution-maintainer-treatment-note.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0441Z-project-attribution-maintainer-treatment-note.html</guid>
+      <pubDate>Thu, 18 Jun 2026 04:41:47 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>the corpus should use project-based attribution. The site should not use foundation-style maintainer wording because that phrase can imply a registered foundation or organization. The footer should use the exact wording &quot;Maintained by Chase Bryan.&quot; The About page can describe the corpus as an independent open-source research corpus maintained by Chase Bryan.</description>
+    </item>
     <item>
       <title>LIVE-NEWS Source-Treatment Note</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0352Z-live-news-source-treatment-note.html</link>
@@ -398,16 +408,6 @@
       <category>Global</category>
       <category>Maps</category>
       <description>Maps is the the corpus hub for public map and geospatial references: official map portals, charting sources, geographic-name references, and theater map packets.</description>
-    </item>
-    <item>
-      <title>PRC Cyber And Critical Infrastructure Defensive Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:56:06 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>PRC cyber is now a dedicated defensive source lane rather than a broad &quot;future cyber packet&quot; queue item. ODNI 2026 provides the current public IC strategic frame: China is described as the most active and persistent cyber threat to U.S. government, private-sector, and critical-infrastructure networks, while multiple state and nonstate actors can pre-position or carry out disruptive activity against critical infrastructure. DoD 2025 provides the military-power frame: PLA cyber activity is tied to crisis and conflict relevance, defense and civilian critical-infrastructure disruption, and allied interoperability concerns.</description>
     </item>
   </channel>
 </rss>
