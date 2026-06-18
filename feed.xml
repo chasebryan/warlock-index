@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 08:55:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 09:15:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>NATO Europe Force Presence Implementation Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 09:15:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The 2026-06-18 remarks are a review signal, not a completed force-posture decision. the corpus should now track the review as an implementation question: what did the Department of War formally say, what review terms are issued, what NATO or allied governments say in response, what Congress asks, and whether later documents change U.S. force presence, basing, access, funding, or posture language.</description>
+    </item>
     <item>
       <title>NATO And U.S. Europe Force Posture Review Caveat</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.html</link>
@@ -398,16 +408,6 @@
       <category>Global</category>
       <category>Source Packets</category>
       <description>The U.S.-Iran MOU lane now has enough public reporting to warrant a dedicated implementation-capture packet, but not enough official-source evidence to treat the reported text as an implemented legal or operational settlement. Axios provides transcript-style text attributed to a senior administration official's readout and cautions that the print text had not been released. Guardian reporting describes the text, signing/status claims, Hormuz terms, sanctions-waiver claims, nuclear/IAEA provisions, and political reaction.</description>
-    </item>
-    <item>
-      <title>Official U.S. Threat Source Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
     </item>
   </channel>
 </rss>
