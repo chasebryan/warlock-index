@@ -7,8 +7,38 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 04:41:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 05:25:03 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Defense Industrial Base Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 05:25:03 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Defense industrial base evidence now functions as a global assimilation layer. It connects the U.S. homeland industrial base, Indo-Pacific deterrence, submarine and shipbuilding capacity, NATO and EU industrial expansion, AUKUS implementation, Arctic icebreaker and warning capacity, Ukraine-support replenishment, munitions and interceptor demand, critical materials, microelectronics, software, cybersecure production, and allied burden-sharing.</description>
+    </item>
+    <item>
+      <title>Defense Industrial Base Capacity Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 05:25:03 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>Defense industrial base documentation should now move from broad baseline to recurring capacity tracking. The key lanes are munitions and energetics, interceptors and air defense, shipbuilding and repair, submarine industrial base, drones and counter-UAS, critical materials, microelectronics, software, workforce, acquisition demand signal, and allied industrial capacity.</description>
+    </item>
+    <item>
+      <title>Defense Industrial Base, Munitions, And Shipbuilding Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 05:25:03 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The defense industrial base should be treated as a cross-theater source lane, not as a single U.S. acquisition topic. Public evidence connects U.S. industrial-base strategy, Navy shipbuilding, munitions and interceptor demand, energetics, critical materials, AUKUS submarine industrial implementation, ICE Pact icebreaker and Arctic-warning capacity, EU defense-industrial readiness, NATO burden-sharing, and allied national industrial strategies.</description>
+    </item>
     <item>
       <title>Project Attribution And Maintainer Treatment Note</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0441Z-project-attribution-maintainer-treatment-note.html</link>
@@ -87,7 +117,7 @@
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
-      <description>Official Canadian source-family routing for ICE Pact MOU, Canada-U.S.-Finland icebreaker cooperation, Canadian polar icebreaker contracts, Finnish shipyard expertise, workforce development, Arctic industrial-base capacity, and Arctic warning/domain-awareness cross-links.</description>
+      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied workforce, shipbuilding, munitions, critical materials, and implementation cross-checks.</description>
     </item>
     <item>
       <title>Allied Official Source Collection Tracker</title>
@@ -147,7 +177,7 @@
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
-      <description>Official U.S. routing lane for the reported U.S.-Iran MOU, including official text, signing status, sanctions waivers, oil-export permissions, banking/insurance/transport notices, frozen-assets treatment, Hormuz/blockade public statements, and final-deal/UN implementation.</description>
+      <description>Official U.S. source routing for defense industrial base strategy, munitions, energetics, shipbuilding, ship repair, submarine industrial base, workforce, acquisition demand signal, critical materials, microelectronics, software, and implementation oversight.</description>
     </item>
     <item>
       <title>Research And Media Source Register</title>
@@ -378,36 +408,6 @@
       <category>Arctic / High North</category>
       <category>Source Packets</category>
       <description>Denmark's official source lane should be treated as both a NATO/EU allied capacity lane and a High North/North Atlantic lane. The 2024-2033 Danish Defence Agreement provides the public planning spine: a ten-year framework, NATO spending commitment, force-development ambitions, conscription and personnel changes, and a reorientation toward the Kingdom of Denmark, neighboring regions, and international hotspots. That source is strong for issuer policy framing, but it is not delivery proof.</description>
-    </item>
-    <item>
-      <title>NORAD Modernization Implementation Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.html</guid>
-      <pubDate>Tue, 16 Jun 2026 02:21:36 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Arctic / High North</category>
-      <category>Source Packets</category>
-      <description>NORAD modernization is now mature enough in public official sources to support a dedicated implementation-source lane. Canada has published a project-timeline fact sheet, a funding fact sheet, departmental planning language, and budget chapters that separate modernization into surveillance, command/control and communications, air weapons, infrastructure/support, and science/technology investment areas. NORAD and USNORTHCOM sources provide the binational mission and strategy frame; the 2024 DoD Arctic Strategy provides the U.S. Arctic and domain-awareness cross-check.</description>
-    </item>
-    <item>
-      <title>AUKUS Industrial Implementation Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.html</guid>
-      <pubDate>Tue, 16 Jun 2026 01:53:21 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>AUKUS industrial implementation should be treated as a multi-lane source problem rather than a single submarine-acquisition milestone. The official Australian source stack now separates program pathway, industrial strategy, build partner structure, sustainment partner structure, supplier qualification, workforce development, infrastructure projects, SRF-West preparation, and security/stewardship requirements. That separation is useful because each lane can move at a different speed and require different corroborating evidence.</description>
-    </item>
-    <item>
-      <title>Maps</title>
-      <link>https://www.warlock-index.org/library/maps/index.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/maps/index.html</guid>
-      <pubDate>Sun, 14 Jun 2026 20:37:05 GMT</pubDate>
-      <category>Map Resource</category>
-      <category>Global</category>
-      <category>Maps</category>
-      <description>Maps is the the corpus hub for public map and geospatial references: official map portals, charting sources, geographic-name references, and theater map packets.</description>
     </item>
   </channel>
 </rss>

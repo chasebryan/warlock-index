@@ -6,15 +6,42 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T03:11:36Z
+**Information cutoff UTC:** 2026-06-18T05:25:03Z
 
-**Source base:** NATO, allied national, multilateral, Quad, EU, and partner
-official source families listed in this register and linked corpus source
-packets.
+**Source base:** NATO, allied national, multilateral, Quad, EU, partner, and
+allied defense-industrial official source families listed in this register
+and linked corpus source packets.
 
 **Analytic confidence:** High for source-family routing and issuer identity.
 Moderate for page-level currency where individual official pages require
 later dated refresh.
+
+## Allied Defense Industrial Capacity Source Family
+
+- **Source class:** A/B depending on issuer and use
+- **Publishers:** NATO; European Commission; European Council; European
+  Parliament; European Defence Agency; Australian Submarine Agency; Canadian,
+  Finnish, UK, and other allied national defense and industrial source
+  families.
+- **Accessed UTC:** 2026-06-18T05:25:03Z
+- **URLs:**
+  - https://www.nato.int/cps/en/natohq/topics_49121.htm
+  - https://defence-industry-space.ec.europa.eu/
+  - https://www.asa.gov.au/aukus-agreement
+  - https://www.asa.gov.au/business-industry/industry-workforce
+  - https://www.asa.gov.au/business-industry/build
+  - https://www.asa.gov.au/business-industry/sustainment
+- **Use:** Allied and multilateral source routing for defense-industrial
+  capacity, AUKUS submarine industrial implementation, EU Readiness 2030,
+  SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry,
+  NATO industrial cooperation, allied workforce, shipbuilding, munitions,
+  critical materials, and implementation cross-checks.
+- **Reliability note:** NATO, EU, AUKUS, ICE Pact, and national sources are
+  not interchangeable. Use official language for source identity and follow
+  with budget, legal, contract, audit, parliamentary, or national
+  implementation evidence before stronger delivery claims. Do not provide
+  procurement advice, readiness ranking, supplier vulnerability mapping,
+  controlled technical-data workarounds, facility analysis, or route guidance.
 
 ## ICE Pact And Canadian Polar Icebreaker Source Family
 

@@ -6,15 +6,42 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T03:11:36Z
+**Information cutoff UTC:** 2026-06-18T05:25:03Z
 
 **Source base:** Official U.S. executive-branch, congressional, legal,
-sanctions, diplomatic, cyber, maritime, map, and alliance source families
-listed in this register and linked corpus source packets.
+sanctions, diplomatic, cyber, maritime, map, defense-industrial, and alliance
+source families listed in this register and linked corpus source packets.
 
 **Analytic confidence:** High for source-family routing and issuer identity.
 Moderate for page-level currency where individual official pages require
 later dated refresh.
+
+## Defense Industrial Base, Munitions, And Shipbuilding Source Family
+
+- **Source class:** A/B depending on source lane
+- **Publishers:** U.S. Department of Defense Industrial Base Policy;
+  Department of the Navy; Congress.gov; Congressional Research Service;
+  Government Accountability Office; Congressional Budget Office where
+  applicable.
+- **Accessed UTC:** 2026-06-18T05:25:03Z
+- **URLs:**
+  - https://www.businessdefense.gov/
+  - https://www.businessdefense.gov/NDIS.html
+  - https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF
+  - https://www.secnav.navy.mil/fmc/fmb/Pages/Fiscal-Year-2026.aspx
+  - https://crsreports.congress.gov/
+  - https://www.gao.gov/
+  - https://www.congress.gov/
+- **Use:** Official U.S. source routing for defense industrial base strategy,
+  munitions, energetics, shipbuilding, ship repair, submarine industrial base,
+  workforce, acquisition demand signal, critical materials, microelectronics,
+  software, and implementation oversight.
+- **Reliability note:** Strategy, budget, contract, program, and oversight
+  sources must be kept separate. Do not convert these sources into
+  procurement advice, supplier vulnerability mapping, protected facility
+  analysis, stockpile exploitation, operational sustainment guidance, or
+  readiness scoring. Use the dedicated DIB source packet and capacity tracker
+  for claim-strength discipline.
 
 ## Reported U.S.-Iran MOU Official-Source Capture Lane
 

@@ -25,7 +25,9 @@ packet, Iceland official security/defense/NATO source packet, EU
 security-defense source packet, AUKUS industrial implementation source
 packet, NORAD modernization implementation source packet, Denmark Arctic and
 North Atlantic implementation source packet, ICE Pact Arctic warning
-implementation source packet, EU Readiness 2030 implementation source packet, India/Quad
+implementation source packet, EU Readiness 2030 implementation source packet,
+defense industrial base source packet, defense industrial base capacity
+tracker, defense industrial base assimilation matrix, India/Quad
 strategic-partner source packet, Philippines official defense/maritime source
 capture packet, ASEAN/claimant-state South China Sea cross-check packet, and
 official public national strategy source families for major U.S. allies and
@@ -85,7 +87,8 @@ write a dated country source packet, wire that packet into this tracker and
 the allied assimilation matrix, then add implementation packets only where the
 source base can support them. The AUKUS industrial implementation, NORAD
 modernization, ICE Pact Arctic warning implementation, Denmark Arctic/North
-Atlantic implementation, and EU Readiness 2030 implementation packets now anchor the first allied follow-on
+Atlantic implementation, EU Readiness 2030 implementation, and defense
+industrial base source products now anchor the first allied follow-on
 implementation lanes.
 
 ## Collection Matrix
@@ -178,6 +181,9 @@ implementation lanes.
 - [Iceland Official Security, Defense, And NATO Source Packet](../source-packets/arctic-infrastructure/2026-06-16T0329Z-iceland-official-security-defense-nato-source-packet.md)
 - [EU Security And Defense Source Packet](../source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.md)
 - [EU Readiness 2030 Implementation Source Packet](../source-packets/nato-allied-capacity/2026-06-18T0207Z-eu-readiness-2030-implementation-source-packet.md)
+- [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](../source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
+- [Defense Industrial Base Capacity Tracker](2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
+- [Defense Industrial Base Assimilation Matrix](../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
 - [Official Allied Source Assimilation Matrix](../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [NATO Allied Capacity Official Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
 - [Indo-Pacific Allied Posture Official Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-13T0316Z-indo-pacific-allied-posture-official-source-baseline-packet.md)

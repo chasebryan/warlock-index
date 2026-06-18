@@ -120,6 +120,15 @@ future open-source defense assessments.
   security, Henderson, Osborne, SRF-West, and SRF-West infrastructure pages;
   U.S. official AUKUS and CRS submarine-industrial-base sources; and UK
   nuclear-enterprise and SSN-AUKUS contract sources.
+- Defense industrial base, munitions, and shipbuilding source families,
+  including DoD Industrial Base Policy, National Defense Industrial Strategy,
+  2026 National Defense Strategy, Navy shipbuilding budget and planning
+  source families, GAO weapon-system and shipbuilding oversight, CRS defense
+  industrial base and Navy source families, AUKUS submarine industrial-base
+  implementation, ICE Pact icebreaker and Arctic warning implementation, EU
+  Readiness 2030 defense-industrial implementation, NATO and allied
+  industrial-capacity lanes, and the DIB capacity tracker and assimilation
+  matrix.
 - NORAD modernization implementation source families, including Canada
   project-timeline and funding fact sheets, Our North Strong and Free Annex
   C, DND departmental planning, Canada budget chapters, Canada-U.S. joint
