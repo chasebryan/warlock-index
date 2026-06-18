@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { generateMapUpdates } from "./generate-map-updates.mjs";
 
 const siteRoot = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(siteRoot, "..");
@@ -1637,6 +1638,7 @@ async function build() {
   await writeFile(path.join(siteRoot, "corpus-health.json"), `${JSON.stringify(corpusHealth, null, 2)}\n`, "utf8");
   await writeFile(path.join(siteRoot, "workspace", "corpus-health.json"), `${JSON.stringify(corpusHealth, null, 2)}\n`, "utf8");
   await writeFile(path.join(siteRoot, "corpus.csv"), renderCorpusCsv(corpus), "utf8");
+  const mapMarkers = await generateMapUpdates({ siteRoot });
 
   const workspaceShellHashSource = [
     corpusScript,
@@ -1698,7 +1700,7 @@ async function build() {
   await writeFile(path.join(siteRoot, "feed.xml"), renderFeed(docs), "utf8");
   await writeFile(path.join(siteRoot, "feed.html"), stripTrailingWhitespace(renderFeedPage(docs, latestUpdateStr, latestUpdateIso)), "utf8");
 
-  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, how-to-use.html, corpus.js, corpus.json, corpus-health.json, corpus.csv, feed.html, feed.xml, sitemap.xml, and robots.txt`);
+  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, ${mapMarkers.length} map markers, how-to-use.html, corpus.js, corpus.json, corpus-health.json, corpus.csv, feed.html, feed.xml, sitemap.xml, and robots.txt`);
 }
 
 function countBy(items, getter) {

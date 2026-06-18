@@ -1,0 +1,47 @@
+name: Refresh Map Markers
+
+on:
+  schedule:
+    - cron: "17 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-map-markers
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    name: Regenerate corpus map markers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Regenerate generated site output
+        run: node site/build-library.mjs
+
+      - name: Commit marker refresh if changed
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet; then
+            echo "No generated marker updates."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/global-map-updates.json site/previews/global-map-updates.json site/corpus.json site/corpus.js site/corpus.csv site/corpus-health.json site/workspace/corpus.json site/workspace/corpus.js site/workspace/corpus-health.json site/workspace/service-worker.js site/feed.html site/feed.xml site/sitemap.xml site/robots.txt site/library
+          git commit -m "Refresh generated map markers"
+          git push
