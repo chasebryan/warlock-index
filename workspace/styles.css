@@ -27,14 +27,15 @@
 html {
   min-width: 320px;
   min-height: 100%;
-  background: var(--black);
+  background: #777;
+  scroll-behavior: auto;
 }
 
 body {
   min-height: 100vh;
   margin: 0;
   overflow: auto;
-  background: var(--black);
+  background: #777;
   color: var(--text);
   font-family: var(--sans);
   font-size: 16px;
@@ -170,6 +171,7 @@ svg {
   align-items: center;
   gap: 0.25rem;
   min-height: 42px;
+  overflow-x: auto;
   padding: 0.25rem;
   border-bottom: 2px solid var(--chrome-dark);
   background: var(--chrome);
@@ -189,22 +191,34 @@ svg {
   border: 2px solid var(--chrome);
   border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
   background: var(--chrome);
+  box-shadow: inset 0 -2px 0 transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .primary-nav a:hover,
+.primary-nav a:focus,
 .primary-nav a:focus-visible {
-  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: var(--panel);
-  color: var(--green);
+  border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
+  background: #cbcbc6;
+  color: var(--text);
+  box-shadow: inset 0 -2px 0 rgba(0, 107, 43, 0.32);
+  outline: none;
+}
+
+.primary-nav a:active {
+  border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
+  background: var(--chrome);
+  color: var(--text);
+  box-shadow: inset 0 -3px 0 var(--green);
   outline: none;
 }
 
 .primary-nav .is-active,
 .primary-nav a[aria-current="page"] {
-  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
-  background: var(--panel);
-  color: var(--green);
-  box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.18);
+  border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
+  background: var(--chrome);
+  color: var(--text);
+  box-shadow: inset 0 -3px 0 var(--green);
   outline: none;
 }
 
