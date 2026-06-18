@@ -1867,22 +1867,25 @@ later dated refresh.
 
 ## U.S. Department Of War NATO Europe Force Posture Review Signal
 
-- **Source class:** A when directly retrieved from Department of War official
-  pages or verified official social-media archive; C for current AP reporting
-  and user-reported X-post discovery until direct capture is completed.
+- **Source class:** A/B for direct Department of War official social-media
+  URLs depending on archive durability and authentication context; C for AP
+  current-event reporting when used without direct official transcript or
+  implementation documents.
 - **Publisher:** U.S. Department of War / Secretary of War / Department of War
   Rapid Response X account; NATO meeting context.
 - **Publication date:** 2026-06-18
 - **Accessed UTC:** 2026-06-18T08:55:00Z
 - **URLs:**
-  - Department of War Rapid Response X post: direct URL/archive pending
+  - Department of War Rapid Response X post: https://x.com/DOWResponse/status/2067529203134648524?s=20
+  - Department of War Rapid Response X post: https://x.com/DOWResponse/status/2067528383588712496?s=20
+  - Department of War Rapid Response X post: https://x.com/DOWResponse/status/2067527392831135841?s=20
   - Associated Press report: https://apnews.com/article/3a550c72f0470de26b619d22b17935b6
 - **Use:** Source-treatment lane for the Secretary of War's reported NATO
   remarks announcing a six-month review of U.S. forces in Europe, Europe
   burden-sharing language, basing/access and overflight criticism, and
   follow-on force-presence implementation evidence.
 - **Reliability note:** Treat the remarks as a posture-review signal until
-  official transcript, social-media archive, review terms, congressional
+  official transcript, durable social-media archive, review terms, congressional
   testimony, NATO text, allied national responses, and implementation documents
   are captured. Do not infer completed troop withdrawals, basing changes,
   overflight arrangements, readiness scores, operational routes, deployment

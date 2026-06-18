@@ -89,10 +89,11 @@ cyber agencies, space agencies, resilience systems, coast guard or maritime
 agencies where relevant, and parliamentary/audit evidence.
 
 The 2026-06-18 Secretary of War NATO remarks add a new caveat for the Europe
-and NATO lane: public reporting and Department of War social-media amplification
-indicate a six-month review of U.S. forces in Europe. Treat that as a
-posture-review signal pending official transcript, policy memo, force-posture
-document, NATO text, national responses, and oversight evidence.
+and NATO lane: public reporting and Department of War Rapid Response
+social-media amplification indicate a six-month review of U.S. forces in
+Europe. Treat that as a posture-review signal pending official transcript,
+durable post archive, policy memo, force-posture document, NATO text, national
+responses, and oversight evidence.
 
 The next useful pattern is repeatable: register the official source families,
 write a dated country source packet, wire that packet into this tracker and
@@ -108,7 +109,7 @@ implementation lanes.
 | Ally or source lane | Current status | Next product | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
 | NATO institutional sources | Active in repo; official NATO baseline packet complete | NATO defense spending implementation packet | High for source identity; moderate for implementation | NATO declarations are not national readiness proof |
-| U.S. Europe force posture review caveat | Source-treatment note added for reported 2026-06-18 Secretary of War NATO remarks and user-reported Department of War Rapid Response X amplification | Add official transcript/social archive and posture-review implementation capture | Moderate for public remarks; low to moderate for implementation effect pending official documents | Review announcement is not a completed force-posture decision, NATO consensus position, basing/access settlement, or readiness assessment |
+| U.S. Europe force posture review caveat | Source-treatment note added for reported 2026-06-18 Secretary of War NATO remarks and direct Department of War Rapid Response X amplification URLs | Add official transcript, durable social archive, and posture-review implementation capture | Moderate for public remarks; low to moderate for implementation effect pending official documents | Review announcement is not a completed force-posture decision, NATO consensus position, basing/access settlement, or readiness assessment |
 | United Kingdom | Official defense/security source baseline packet complete; UK defense investment and readiness implementation packet added; UK entries added to allied register and allied DIB crosswalk | Add dated MOD, DE&S, Parliament, NAO, National Shipbuilding Office, AUKUS, munitions, shipbuilding, air-defense, cyber, space, and critical-materials refreshes | High for source identity and implementation-source architecture; moderate for delivery evidence | No operational nuclear, basing, cyber, mobilization, readiness scoring, or procurement advice |
 | Japan | Japan official defense/security source baseline packet complete; Japan defense buildup implementation packet added; active in Indo-Pacific allied posture packet and Camp David trilateral implementation packet | Add dated MOD/ATLA budget, Diet/audit, U.S.-Japan alliance modernization, standoff defense, air/missile defense, drone, shipbuilding, cyber, space, and critical-materials refreshes | High for source identity and implementation-source architecture; moderate for delivery and crisis-behavior evidence | Keep constitutional, budget, and posture claims source-bound; no basing, missile-employment, cyber, targeting, or operational planning detail |
 | Republic of Korea | Official defense and extended-deterrence source packet complete; ROK MOFA, Washington Declaration, Camp David, and trilateral ministerial source lanes registered; MND/DAPA direct-document verification remains follow-on | ROK Defense White Paper/Budget Verification Packet and ROK-U.S. NCG implementation packet | High for MOFA, Washington, Camp David, and trilateral ministerial source identity; moderate for MND/DAPA implementation and defense delivery evidence | No peninsula targeting, escalation, nuclear planning, missile-defense sensor/network analysis, cyber technical detail, or operational planning |
@@ -170,9 +171,9 @@ implementation lanes.
 - The allied DIB crosswalk now exists, but it needs recurring country-level
   refreshes before comparative industrial claims are strengthened.
 - The 2026-06-18 Europe force-posture review signal needs direct Department of
-  War transcript/social archive capture, review terms, NATO/national responses,
-  congressional oversight, and any implementation document before stronger
-  force-presence claims.
+  War transcript, durable social archive capture, review terms, NATO/national
+  responses, congressional oversight, and any implementation document before
+  stronger force-presence claims.
 - Strategy documents and summit declarations need implementation evidence from
   budgets, annual reports, procurement records, audit bodies, and NATO data.
 - Translation and terminology differences can distort comparison across

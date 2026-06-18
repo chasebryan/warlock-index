@@ -9,19 +9,19 @@
 **Information cutoff UTC:** 2026-06-18T08:55:00Z
 
 **Source base:** Associated Press report on Secretary of War Pete Hegseth's
-remarks to NATO counterparts in Brussels on 2026-06-18; user-reported
-Department of War Rapid Response X post amplifying the speech; NATO allied
-source lane; official U.S. source register; allied and multilateral source
-register; allied official source collection tracker; official allied source
-assimilation matrix.
+remarks to NATO counterparts in Brussels on 2026-06-18; Department of War
+Rapid Response X posts amplifying the speech; NATO allied source lane; official
+U.S. source register; allied and multilateral source register; allied official
+source collection tracker; official allied source assimilation matrix.
 
 **Analytic confidence:** Moderate for the existence and broad substance of the
 publicly reported remarks because AP reported the Brussels speech and described
 a six-month Pentagon/Department of War review of U.S. forces in Europe. Lower
 for final policy effect, force posture changes, timelines, basing access,
-overflight arrangements, NATO consensus, and implementation because this pass
-did not directly archive the Department of War Rapid Response X post, official
-speech transcript, final policy memo, NATO text, or force-posture directive.
+overflight arrangements, NATO consensus, and implementation because direct
+Department of War Rapid Response X URLs have been identified but this pass did
+not capture an official transcript, final policy memo, NATO text,
+force-posture directive, or durable archive of the social posts.
 
 **Purpose:** Preserve a dated caveat for NATO and Europe force-posture
 documentation so WARLOCK-INDEX does not treat a public speech or social-media
@@ -42,14 +42,14 @@ moving toward Europe taking primary responsibility for European defense.
 WARLOCK-INDEX should not treat the remarks as a completed withdrawal,
 redeployment, basing change, overflight-access settlement, NATO doctrine
 change, or allied readiness judgment. The correct treatment is: public U.S.
-issuer signal plus current-event reporting, pending direct official capture and
-implementation evidence.
+issuer signal plus current-event reporting, pending transcript/archive capture
+and implementation evidence.
 
 ## Source Treatment
 
 | Source layer | Current treatment | Required follow-on source |
 | --- | --- | --- |
-| Department of War Rapid Response X post | User-reported official social-media amplification; direct capture still required | Archived post URL, screenshot, or official Department of War page |
+| Department of War Rapid Response X posts | Direct official X URLs identified; durable archive still required | Official Department of War page, archived post URLs, screenshots, transcript, or official video page |
 | NATO speech remarks | Reported by AP; direct official transcript not captured in this pass | Official Department of War transcript, video, NATO meeting record, or speech page |
 | Six-month Europe force review | Reported current policy signal | Department memo, posture review terms of reference, congressional testimony, budget/posture document, or official implementation notice |
 | Basing and overflight criticism | Reported public criticism linked to Iran-related access context | Official transcript, allied national responses, NATO statement, State/DoD follow-on |
@@ -61,11 +61,11 @@ When NATO, Europe, and allied capacity products discuss U.S. force presence in
 Europe, they should include the following caveat until stronger evidence
 exists:
 
-> As of 2026-06-18, public reporting and Department of War social-media
-> amplification indicate that the Secretary of War announced a six-month review
-> of U.S. forces in Europe. Treat this as a posture-review signal, not as a
-> completed U.S. force-posture decision, NATO consensus position, basing-access
-> settlement, or readiness assessment.
+> As of 2026-06-18, public reporting and Department of War Rapid Response
+> social-media amplification indicate that the Secretary of War announced a
+> six-month review of U.S. forces in Europe. Treat this as a posture-review
+> signal, not as a completed U.S. force-posture decision, NATO consensus
+> position, basing-access settlement, or readiness assessment.
 
 ## Why It Matters
 
@@ -105,7 +105,11 @@ The remarks connect several WARLOCK-INDEX lanes:
   review of US forces in Europe*, 2026-06-18:
   `https://apnews.com/article/3a550c72f0470de26b619d22b17935b6`
 - Department of War Rapid Response X post, user-reported 2026-06-18:
-  direct URL and archive pending.
+  `https://x.com/DOWResponse/status/2067529203134648524?s=20`
+- Department of War Rapid Response X post, user-reported 2026-06-18:
+  `https://x.com/DOWResponse/status/2067528383588712496?s=20`
+- Department of War Rapid Response X post, user-reported 2026-06-18:
+  `https://x.com/DOWResponse/status/2067527392831135841?s=20`
 
 ## Cross References
 
