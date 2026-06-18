@@ -365,6 +365,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1750Z-stratagems-strategy-warfare-research-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-ukraine-external-support-explainer.html</loc>
     <priority>0.7</priority>
   </url>
@@ -625,11 +629,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/strategy-and-warfare-research/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

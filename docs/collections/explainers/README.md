@@ -24,3 +24,4 @@ Source packets answer "where does the evidence come from?" Explainers answer
 - [2026-06-18T1056Z - Africa Security Environment Explainer](2026-06-18T1056Z-africa-security-environment-explainer.md)
 - [2026-06-18T1056Z - Cyber And Critical Infrastructure Explainer](2026-06-18T1056Z-cyber-critical-infrastructure-explainer.md)
 - [2026-06-18T1056Z - Space And Counterspace Explainer](2026-06-18T1056Z-space-counterspace-explainer.md)
+- [2026-06-18T1750Z - Stratagems, Strategy, And Warfare Research Explainer](2026-06-18T1750Z-stratagems-strategy-warfare-research-explainer.md)

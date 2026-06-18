@@ -19,6 +19,45 @@ Research and media sources are useful for current-event awareness, conflict
 timelines, and outside analytic perspectives. They should be separated from
 official-source baselines and graded explicitly.
 
+## Strategy And Warfare Academic Research Source Families, 2026-06-18
+
+- **Source class:** B for peer-reviewed or institutionally edited research;
+  B/C for professional-military commentary and timely think-tank analysis
+  depending on method, sourcing, author role, and publication type.
+- **Publishers/routes:** U.S. Army War College Parameters; Strategic Studies
+  Institute; National Defense University Press and Joint Force Quarterly;
+  Modern War Institute at West Point; Texas National Security Review; RAND
+  defense and security research; Center for Strategic and International
+  Studies defense and security research; Center for Strategic and Budgetary
+  Assessments; Naval War College Review.
+- **Accessed UTC:** 2026-06-18T17:50:58Z
+- **URLs:**
+  - https://press.armywarcollege.edu/parameters/
+  - https://ssi.armywarcollege.edu/
+  - https://ndupress.ndu.edu/JFQ/
+  - https://ndupress.ndu.edu/
+  - https://mwi.westpoint.edu/
+  - https://tnsr.org/
+  - https://www.rand.org/topics/defense-and-security.html
+  - https://www.csis.org/topics/defense-and-security
+  - https://csbaonline.org/
+  - https://digital-commons.usnwc.edu/nwc-review/
+- **Use:** Strategic theory, deterrence, coercion, stratagems as a historical
+  and analytic concept, deception and surprise research, gray-zone and
+  irregular warfare studies, military innovation, mobilization, defense
+  economics, civil-military relations, professional-military debate, and
+  source discovery for article-level capture.
+- **Reliability note:** Use this family for concept mapping and literature
+  routing, not direct prescription. Preserve author, date, publisher,
+  institutional affiliation, method, evidence base, and caveats. Treat
+  professional-military and think-tank publications as public expert debate
+  unless an official source separately establishes policy or doctrine. Do not
+  convert conceptual discussion into target selection, operational planning,
+  tactical procedures, deception plans, weapons employment, cyber methods,
+  evasion techniques, procurement advice, or vulnerability analysis.
+- **Cross reference:** [Stratagems, Strategy, And Warfare Academic Research
+  Source Packet](../collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.md)
+
 ## LIVE-NEWS Official Live-Source Family, 2026-06-18
 
 - **Source class:** B/C depending on issuer and use.

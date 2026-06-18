@@ -59,6 +59,8 @@ future open-source defense assessments.
 - Energy, critical minerals, and supply chains.
 - AI, quantum, semiconductors, and emerging technology.
 - WMD, biodefense, and nonproliferation.
+- Strategy, stratagems, deterrence, coercion, military innovation, and
+  warfare research.
 
 ## Product Types
 
@@ -157,6 +159,16 @@ future open-source defense assessments.
   China/PLA modernization, Iran/Middle East pressure, and Ukraine external
   support explainers. These are used to make source-heavy documentation
   readable without weakening source discipline.
+- Strategy and warfare academic research source families, including Army War
+  College Parameters and SSI, NDU Press and Joint Force Quarterly, Modern War
+  Institute, Texas National Security Review, RAND, CSIS, CSBA, Naval War
+  College Review, and other public war-studies routes. These are used for
+  concept mapping around stratagems, deterrence, coercion, deception and
+  surprise, gray-zone competition, military innovation, mobilization, defense
+  economics, and civil-military relations, handled without target selection,
+  operational planning, tactical procedures, weapons employment, deception
+  plans, cyber methods, evasion techniques, procurement advice, or
+  vulnerability analysis.
 - Munitions and energetics source families, including DoD and service budget
   source lanes, Congress.gov authorization and appropriation routes, CRS and
   GAO oversight, CBO cost-analysis routing, NATO/EU/allied replenishment

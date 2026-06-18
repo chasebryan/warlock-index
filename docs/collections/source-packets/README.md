@@ -21,4 +21,5 @@ analysis, deployment schedules, or technical instructions.
 - [Official U.S. Threat Source Baseline Source Packets](official-threat-source-baseline)
 - [Red Sea Maritime Economics Source Packets](red-sea-maritime-economics)
 - [Strategic Weapons Source Packets](strategic-weapons)
+- [Strategy And Warfare Research Source Packets](strategy-and-warfare-research)
 - [Theater Map Reference Source Packets](theater-map-reference)
