@@ -403,6 +403,7 @@ const globalMap = {
   stage: document.querySelector(".global-map-stage"),
   markers: document.querySelector("#global-map-markers"),
   filters: document.querySelector("#global-map-filters"),
+  legend: document.querySelector("#global-map-legend"),
   count: document.querySelector("#global-map-count"),
   fullscreen: document.querySelector("#global-map-fullscreen"),
   reset: document.querySelector("#global-map-reset"),
@@ -413,6 +414,23 @@ const globalMap = {
   updates: [],
   selectedId: "",
   category: "all"
+};
+
+const mapLegendEntries = {
+  "actor profile": { className: "legend-actor", label: "actor profile" },
+  assessment: { className: "legend-assessment", label: "assessment" },
+  explainer: { className: "legend-explainer", label: "explainer" },
+  "map reference": { className: "legend-map", label: "map" },
+  matrix: { className: "legend-matrix", label: "matrix" },
+  "source collection": { className: "legend-source", label: "source" },
+  timeline: { className: "legend-timeline", label: "timeline" },
+  tracker: { className: "legend-tracker", label: "tracker" }
+};
+
+const mapStatusLegendEntries = {
+  active: { className: "legend-active", label: "active" },
+  updated: { className: "legend-updated", label: "updated" },
+  watch: { className: "legend-watch", label: "watch" }
 };
 
 function visibleMapUpdates() {
@@ -446,6 +464,20 @@ function renderGlobalMapMarkers(updates) {
     ></button>
   `).join("");
   globalMap.count.textContent = `${updates.length} update${updates.length === 1 ? "" : "s"}`;
+}
+
+function renderGlobalMapLegend(updates) {
+  if (!globalMap.legend) return;
+  const categories = [...new Set(updates.map((item) => item.category))]
+    .map((category) => mapLegendEntries[category])
+    .filter(Boolean);
+  const statuses = [...new Set(updates.map((item) => item.status))]
+    .map((status) => mapStatusLegendEntries[status])
+    .filter(Boolean);
+
+  globalMap.legend.innerHTML = [...categories, ...statuses].map((entry) => `
+    <span><b class="${entry.className}"></b> ${escapeHtml(entry.label)}</span>
+  `).join("");
 }
 
 function selectGlobalMapUpdate(id) {
@@ -482,6 +514,7 @@ function renderGlobalMap() {
   const updates = visibleMapUpdates();
   renderGlobalMapFilters();
   renderGlobalMapMarkers(updates);
+  renderGlobalMapLegend(updates);
 
   if (globalMap.selectedId && !updates.some((item) => item.id === globalMap.selectedId)) {
     selectGlobalMapUpdate("");
