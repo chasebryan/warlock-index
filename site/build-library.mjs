@@ -1058,35 +1058,60 @@ function renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso) {
         <a href="../feed.html">Feed</a>
         <a href="../workspace/">Workspace</a>
       </nav>
-      <main class="topics-index-shell" id="topics-index">
-        <section class="topic-page-head" aria-labelledby="topics-title">
-          <p class="feed-page-kicker">Topic hubs</p>
-          <h1 id="topics-title">Browse by theater or domain</h1>
-          <p>Use these hubs as stable entry points into the corpus. Each hub groups assessments, source packets, trackers, matrices, profiles, registers, and timelines by route.</p>
-          <div class="feed-page-meta">
-            <span>${topicHubs.length} hubs</span>
-            <span>${topicStats.reduce((sum, entry) => sum + entry.items.length, 0)} routed records</span>
-            <a href="../workspace/">Open Workspace</a>
-          </div>
+      <main id="topics-index">
+        <section class="route-search-panel topics-route-panel" aria-labelledby="topics-title">
+          <nav class="route-list" aria-label="Topic routes">
+            <h2>Topic Routes</h2>
+            ${topicStats.map(({ topic }) => `<a href="${escapeAttr(`${topic.id}.html`)}">${escapeHtml(topic.title)}</a>`).join("")}
+          </nav>
+          <section class="search-console" aria-labelledby="topics-title">
+            <h1 id="topics-title">Browse topic hubs</h1>
+            <p class="topics-intro">Stable entry points for theater and domain routes across assessments, source packets, trackers, matrices, profiles, registers, and timelines.</p>
+            <div class="terminal-suggestions" aria-label="Topic actions">
+              <span>${topicHubs.length} hubs</span>
+              <b aria-hidden="true">•</b>
+              <span>${topicStats.reduce((sum, entry) => sum + entry.items.length, 0)} routed records</span>
+              <b aria-hidden="true">•</b>
+              <a href="../workspace/">Open Workspace</a>
+            </div>
+          </section>
         </section>
-        <section class="topics-index-list" aria-label="Topic hubs">
-          ${topicStats.map(({ topic, items, lanes, latest }) => `
-            <article class="topics-index-row">
-              <div class="topics-index-metrics">
-                <strong>${items.length}</strong>
-                <span>records</span>
-                <span>${lanes.length} lanes</span>
-                ${latest ? `<time datetime="${escapeAttr(latest.toISOString())}">${escapeHtml(formatUpdateTime(latest))}</time>` : ""}
-              </div>
-              <div class="topics-index-main">
-                <h2><a href="${escapeAttr(`${topic.id}.html`)}">${escapeHtml(topic.title)}</a></h2>
-                <p>${escapeHtml(topic.summary)}</p>
-                <div class="doc-badges">
-                  ${lanes.slice(0, 5).map((lane) => `<span>${escapeHtml(lane)}</span>`).join("")}
-                </div>
-              </div>
-            </article>
-          `).join("")}
+
+        <section class="results-shell topics-results-shell" aria-label="Topic hub index">
+          <section class="results-panel topics-results-panel" aria-labelledby="topics-table-title">
+            <div class="results-heading">
+              <h2 id="topics-table-title">Topic Hubs</h2>
+              <p>${topicStats.reduce((sum, entry) => sum + entry.items.length, 0)} routed records</p>
+            </div>
+            <div class="result-table-wrap">
+              <table class="result-table topics-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Topic</th>
+                    <th scope="col">Records</th>
+                    <th scope="col">Lanes</th>
+                    <th scope="col">Latest</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${topicStats.map(({ topic, items, lanes, latest }) => `
+                    <tr>
+                      <td>
+                        <a class="result-title" href="${escapeAttr(`${topic.id}.html`)}">${escapeHtml(topic.title)}</a>
+                        <p class="result-summary">${escapeHtml(topic.summary)}</p>
+                        <div class="doc-badges">
+                          ${lanes.slice(0, 5).map((lane) => `<span>${escapeHtml(lane)}</span>`).join("")}
+                        </div>
+                      </td>
+                      <td>${items.length}</td>
+                      <td>${lanes.length}</td>
+                      <td>${latest ? escapeHtml(formatUpdateTime(latest)) : "UNDATE"}</td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </section>
         </section>
       </main>
       <footer class="site-footer">
