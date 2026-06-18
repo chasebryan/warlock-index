@@ -50,6 +50,10 @@
 - Added the Russia strategic actor classification and actor profile.
 - Added the U.S. official threat source operating picture, baseline packet,
   collection tracker, and source assimilation matrix.
+- Added the U.S. law-enforcement threat source assessment with source-class
+  separation for FBI mission pages, IC3 complaint reporting, DOJ legal
+  records, Treasury/State status records, and DHS/DEA/ATF/CBP/Coast Guard
+  source lanes.
 - Added the CIA, State, and NGA foreign government and map reference packet.
 - Added the foreign government reference source register.
 - Added the map and geospatial reference source register.

@@ -4,9 +4,9 @@
 
 **Product ID:** WI-COVERAGE-MAP-2026-0001
 
-**Prepared UTC:** 2026-06-17T22:51:55Z
+**Prepared UTC:** 2026-06-18T00:43:38Z
 
-**Information cutoff UTC:** 2026-06-17T22:51:55Z
+**Information cutoff UTC:** 2026-06-18T00:43:38Z
 
 **Source base:** Existing WARLOCK-INDEX assessments, source registers,
 source packets, trackers, timelines, actor profiles, maps, and standards as
@@ -82,7 +82,10 @@ future open-source defense assessments.
 - U.S. intelligence, homeland security, law-enforcement, sanctions, border,
   maritime, cyber, and geospatial public source families, including the U.S.
   law-enforcement threat source capture packet for FBI, DHS, DOJ, DEA, ATF,
-  CBP, Coast Guard, Treasury, State, and IC3 routing.
+  CBP, Coast Guard, Treasury, State, and IC3 routing, plus the U.S. law
+  enforcement threat source assessment for separating mission pages,
+  complaint data, legal records, sanctions/designations, statistics, and
+  annual assessments.
 - Public map source families, including NGA maps, USGS topographic
   sources, NOAA nautical-chart sources, BGN geographic-name sources,
   combatant-command AOR pages, NATO public maps, Library of Congress maps,

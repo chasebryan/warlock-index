@@ -42,6 +42,7 @@ actor profiles, source packets, timelines, trackers, and synthesis matrices.
 - [Global Strategic Operating Picture](assessments/global/2026-06-13T0049Z-global-strategic-operating-picture.md)
 - [U.S. Homeland And Western Hemisphere Strategic Baseline](assessments/homeland-hemisphere/2026-06-13T0110Z-us-homeland-western-hemisphere-strategic-baseline.md)
 - [U.S. Official Threat Source Operating Picture](assessments/homeland-hemisphere/2026-06-13T0558Z-us-official-threat-source-operating-picture.md)
+- [U.S. Law Enforcement Threat Source Assessment](assessments/homeland-hemisphere/2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.md)
 - [Arctic And High North Strategic Baseline](assessments/arctic-high-north/2026-06-13T0148Z-arctic-high-north-strategic-baseline.md)
 - [U.S. Defense Industrial Base Strategic Baseline](assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [Russia Strategic Actor Classification](assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)

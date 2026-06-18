@@ -120,7 +120,7 @@ WARLOCK-INDEX must not:
 | Lane | Why it matters | First products |
 | --- | --- | --- |
 | CIA/State/NGA foreign reference | Replaces legacy Factbook dependence with current leadership and geography sources | Foreign government reference source packet |
-| FBI/DHS domestic-security source lane | Defines terrorism, cyber, CI, WMD, TCO, and DVE boundaries | FBI/DHS threat source packet |
+| FBI/DHS domestic-security source lane | Defines terrorism, cyber, CI, WMD, TCO, and DVE boundaries | U.S. law-enforcement threat source assessment and follow-on FBI/DHS threat source packet |
 | CISA/NSA/FBI cyber lane | Adds official defensive cyber source depth | Cyber advisory source packet and tracker |
 | Treasury/State/DOJ designations lane | Connects FTOs, sanctions, illicit finance, cyber, narcotics, and proliferation | Sanctions and designations source matrix |
 | DEA/ATF/CBP/Coast Guard TCO lane | Expands TCO, border, firearms, narcotics, and maritime sources | TCO source packet and tracker |
@@ -141,7 +141,9 @@ WARLOCK-INDEX must not:
 ## Cross References
 
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../source-registers/us-intelligence-law-enforcement.md)
+- [U.S. Law Enforcement Threat Source Assessment](2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.md)
 - [Official U.S. Threat Source Baseline Packet](../../collections/source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
+- [U.S. Law Enforcement Threat Source Capture Packet](../../collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Official Threat Source Collection Tracker](../../collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Official U.S. Threat Source Assimilation Matrix](../../collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [U.S. Homeland And Western Hemisphere Strategic Baseline](2026-06-13T0110Z-us-homeland-western-hemisphere-strategic-baseline.md)

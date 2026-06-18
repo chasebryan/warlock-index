@@ -4,14 +4,16 @@
 
 **Tracker ID:** WI-TRACKER-US-THREAT-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-17T21:06:51Z
+**Prepared UTC:** 2026-06-18T00:43:38Z
 
-**Information cutoff UTC:** 2026-06-17T21:06:51Z
+**Information cutoff UTC:** 2026-06-18T00:43:38Z
 
 **Source base:** U.S. intelligence and law-enforcement source register; ODNI,
 CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA, ATF, CBP, Coast Guard,
 DOJ, and NGA public source families; existing WARLOCK-INDEX source registers
 and assessments; Salt Typhoon and telecommunications defensive source note.
+The tracker now also includes the U.S. law-enforcement threat source capture
+packet and assessment.
 
 **Analytic confidence:** High for collection architecture. Moderate for
 source recency because dynamic agency pages and annual reports require dated
@@ -40,10 +42,10 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, China/PLA source tracker, PRC cyber defensive packet, and Salt Typhoon telecommunications source note added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, cyber advisory page-level refresh, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, telecom network diagrams, lawful-intercept detail, issuer-claim laundering, or export-control evasion |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
 | CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
-| FBI terrorism | Law-enforcement source capture packet added; FBI page verified | FBI/DHS terrorism and targeted-violence source packet with current DHS HTA and State designation refresh | High for FBI source-family framing; moderate pending DHS/State annual refresh | No political profiling, tactics, recruitment, attack-method detail, or protected-speech labeling |
-| FBI cyber / IC3 | Law-enforcement source capture packet added; IC3 2024 report verified; Salt Typhoon telecommunications source note added with FBI source-family access caveat | CISA/NSA/FBI cyber advisory page-level refresh and broader defensive cyber source packet | High for FBI/IC3 source identity; moderate for current advisory page-level extraction | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, or telecom network diagrams |
-| FBI counterintelligence | Law-enforcement source capture packet added; FBI page verified | FBI/DOJ counterintelligence and national-security legal-action source packet | High for FBI source-family framing; moderate for case-specific current state | No identification of private persons absent official legal source |
-| FBI WMD | Law-enforcement source capture packet added; WMD/biosecurity source packet already added | Maintain WMD public-source packet and add FBI/FSAP/DTRA/State BWC refresh as needed | Moderate to high by source family | No materials, methods, device, facility, site-map, or vulnerability detail |
+| FBI terrorism | Law-enforcement source capture packet and assessment added; FBI page verified | FBI/DHS terrorism and targeted-violence source packet with current DHS HTA and State designation refresh | High for FBI source-family framing; moderate pending DHS/State annual refresh | No political profiling, tactics, recruitment, attack-method detail, or protected-speech labeling |
+| FBI cyber / IC3 | Law-enforcement source capture packet and assessment added; IC3 2024 report verified; Salt Typhoon telecommunications source note added with FBI source-family access caveat | CISA/NSA/FBI cyber advisory page-level refresh, IC3 data extraction map, and broader defensive cyber source packet | High for FBI/IC3 source identity; moderate for current advisory page-level extraction | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, or telecom network diagrams |
+| FBI counterintelligence | Law-enforcement source capture packet and assessment added; FBI page verified | FBI/DOJ counterintelligence and national-security legal-action source packet | High for FBI source-family framing; moderate for case-specific current state | No identification of private persons absent official legal source |
+| FBI WMD | Law-enforcement source capture packet and assessment added; WMD/biosecurity source packet already added | Maintain WMD public-source packet and add FBI/FSAP/DTRA/State BWC refresh as needed | Moderate to high by source family | No materials, methods, device, facility, site-map, or vulnerability detail |
 | ODNI global biolab disclosure | Source-treatment note, WMD/biosecurity source packet, and Ukraine claim-reconciliation note added | Declassification and information-resilience source note | High for ODNI release; moderate to low for uncorroborated underlying claims | No biological methods, facility table, site mapping, or vulnerability detail |
 | DTRA / Cooperative Threat Reduction | DTRA mission, fact sheet, and DoD BTRP Ukraine fact sheet registered; document-level CTR work still needed | DoD Cooperative Threat Reduction source packet | Moderate | No foreign facility inference from general mission pages |
 | Federal Select Agent Program | Registered; WMD/biosecurity source packet added | Select Agent oversight source packet | High for source family | No controlled lists, quantities, facility-sensitive detail, or compliance workarounds |
@@ -88,6 +90,9 @@ boundaries must be preserved before the corpus makes stronger judgments.
   group status.
 - Public law-enforcement statistics require definition discipline before use
   in trend claims.
+- Law-enforcement source treatment now has an assessment baseline, but
+  dated page-level extraction remains incomplete for DHS, DEA, ATF, CBP,
+  Coast Guard, Treasury/State status records, and DOJ legal-action lanes.
 - Cyber advisories can include technical detail that must be summarized safely.
 - Domestic threat products require explicit civil liberties boundary review.
 - The Ukraine biolab claim-reconciliation note reduces the immediate
@@ -104,6 +109,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 ## Cross References
 
 - [U.S. Official Threat Source Operating Picture](../../assessments/homeland-hemisphere/2026-06-13T0558Z-us-official-threat-source-operating-picture.md)
+- [U.S. Law Enforcement Threat Source Assessment](../../assessments/homeland-hemisphere/2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.md)
 - [Official U.S. Threat Source Baseline Packet](../source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
 - [U.S. Law Enforcement Threat Source Capture Packet](../source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)

@@ -14,6 +14,7 @@ understanding and research continuity, not for operational direction.
 
 - [2026-06-13T0110Z - U.S. Homeland And Western Hemisphere Strategic Baseline](homeland-hemisphere/2026-06-13T0110Z-us-homeland-western-hemisphere-strategic-baseline.md)
 - [2026-06-13T0558Z - U.S. Official Threat Source Operating Picture](homeland-hemisphere/2026-06-13T0558Z-us-official-threat-source-operating-picture.md)
+- [2026-06-18T0043Z - U.S. Law Enforcement Threat Source Assessment](homeland-hemisphere/2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.md)
 
 ## Arctic/High North
 

@@ -7,8 +7,58 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 00:28:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:43:38 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Coverage Map</title>
+      <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:43:38 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Coverage Map</category>
+      <description>source packets, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
+    </item>
+    <item>
+      <title>Global Actor-Domain Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:43:38 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
+    </item>
+    <item>
+      <title>Official Threat Source Collection Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:43:38 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
+    </item>
+    <item>
+      <title>Official U.S. Threat Source Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:43:38 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
+    </item>
+    <item>
+      <title>U.S. Law Enforcement Threat Source Assessment</title>
+      <link>https://www.warlock-index.org/library/assessments/homeland-hemisphere/2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/assessments/homeland-hemisphere/2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:43:38 GMT</pubDate>
+      <category>Assessment</category>
+      <category>Homeland Hemisphere</category>
+      <category>Homeland Hemisphere</category>
+      <description>The U.S. law-enforcement source lane is now mature enough to support a distinct homeland threat-source assessment. The main corpus change is not a new threat claim; it is the separation of evidence families that are often collapsed in open-source work. Mission pages, complaint statistics, designation records, legal cases, sanctions, border statistics, maritime source streams, and annual assessments each answer different questions and must not be treated as interchangeable proof.</description>
+    </item>
     <item>
       <title>U.S. Law Enforcement Threat Source Capture Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.html</link>
@@ -60,16 +110,6 @@
       <description>Track China and PLA source-family collection across official U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial, technology, and the corpus derived products.</description>
     </item>
     <item>
-      <title>Coverage Map</title>
-      <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
-      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Coverage Map</category>
-      <description>source packets, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
-    </item>
-    <item>
       <title>Foreign Government Reference Source Register</title>
       <link>https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</guid>
@@ -78,16 +118,6 @@
       <category>Global</category>
       <category>Sources</category>
       <description>Define source-routing rules for foreign government leadership, officeholder, diplomatic, country, and official-government reference material used inside the corpus.</description>
-    </item>
-    <item>
-      <title>Global Actor-Domain Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
-      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
     </item>
     <item>
       <title>Official Allied Source Assimilation Matrix</title>
@@ -108,26 +138,6 @@
       <category>Global</category>
       <category>Sources</category>
       <description>Official U.S. source routing for Salt Typhoon sanctions, foreign malicious cyber activity reward routing, telecommunications network-security oversight, FCC/CISA/FBI/NSA follow-on page refresh, and PRC cyber source treatment.</description>
-    </item>
-    <item>
-      <title>Official U.S. Threat Source Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html</guid>
-      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
-    </item>
-    <item>
-      <title>Official Threat Source Collection Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</guid>
-      <pubDate>Wed, 17 Jun 2026 21:06:51 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
     </item>
     <item>
       <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
@@ -398,16 +408,6 @@
       <category>Arctic / High North</category>
       <category>Source Packets</category>
       <description>Norway's official source lane should be treated as both a High North allied defense file and a whole-of-society security/resilience file. The long-term defense plan establishes the public modernization frame through 2036 and links maritime, land, air, home guard, personnel, and alliance obligations. The 2026 acquisition plan and industrial-capacity roadmap create follow-on source lanes for procurement, defense industry, supply security, and implementation, but they remain planning and routing evidence until checked against budgets, contracts, Storting decisions, audit material, and delivery records.</description>
-    </item>
-    <item>
-      <title>Germany Official Defense And Security Source Baseline Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 02:19:34 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Germany's official-source lane should be treated as a Euro-Atlantic allied capacity file, a NATO/EU burden-sharing file, a defense-investment and industrial-capacity file, and an integrated-security/resilience file. The National Security Strategy provides the whole-of-government frame: Germany describes security as robust, resilient, and sustainable; identifies Russia as the most significant threat to peace and security in the Euro-Atlantic area; treats China as partner, competitor, and systemic rival; and ties NATO, EU, Bundeswehr, critical infrastructure, cyber, civil protection, energy, raw materials, and supply-chain resilience into one integrated-security concept.</description>
     </item>
   </channel>
 </rss>
