@@ -287,7 +287,7 @@ button {
 
 .global-map-tools {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   justify-content: flex-end;
   gap: 0.42rem;
   min-width: min(100%, 28rem);
