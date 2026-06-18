@@ -10,7 +10,7 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260618-context-sidebar";
+const libraryAssetVersion = "20260618-library-queue";
 const feedAssetVersion = "20260617-green-press";
 const feedItemLimit = 40;
 
@@ -841,6 +841,12 @@ function renderPage(currentDoc, docs, relToOutput, latestUpdateStr = "2026-06-16
             <h1>${escapeHtml(currentDoc.title)}</h1>
             <p class="article-summary">${escapeHtml(displaySummary(currentDoc.summary))}</p>
             <div class="article-actions">
+              <label class="queue-toggle" data-queue-control data-queue-path="${escapeAttr(currentDoc.outputRel)}">
+                <input type="checkbox">
+                <span class="queue-toggle-mark" aria-hidden="true"></span>
+                <span class="queue-toggle-text">Queue for Workspace</span>
+              </label>
+              <a href="${escapeAttr(relativeUrl(currentDoc.outputRel, "workspace/index.html"))}">Review Queue</a>
               <a href="${escapeAttr(docsIndex)}">Full Index</a>
             </div>
           </header>

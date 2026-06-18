@@ -509,20 +509,59 @@ svg {
   gap: 0.55rem;
 }
 
-.article-actions a {
+.article-actions a,
+.queue-toggle {
+  position: relative;
+  display: inline-grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 0.38rem;
+  min-height: 30px;
   padding: 0.38rem 0.58rem;
   border: 1px solid var(--line-strong);
   border-radius: var(--radius);
   background: var(--panel-soft);
   color: var(--white);
+  cursor: pointer;
   font-family: var(--mono);
   font-size: 0.7rem;
   font-weight: 700;
+  line-height: 1;
   text-transform: uppercase;
 }
 
+.queue-toggle input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.queue-toggle-mark {
+  display: grid;
+  width: 1rem;
+  height: 1rem;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  background: #fff;
+  color: transparent;
+  font-size: 0.86rem;
+  line-height: 1;
+}
+
+.queue-toggle.is-queued .queue-toggle-mark {
+  border-color: var(--green);
+  background: var(--green-soft);
+  color: var(--green);
+}
+
+.queue-toggle.is-queued .queue-toggle-mark::before {
+  content: "✓";
+}
+
 .article-actions a:hover,
-.article-actions a:focus-visible {
+.article-actions a:focus-visible,
+.queue-toggle:hover,
+.queue-toggle:focus-within {
   color: var(--green);
 }
 
