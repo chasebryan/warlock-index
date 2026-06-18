@@ -1,6 +1,11 @@
 const filterInput = document.querySelector("#doc-filter");
 const sidebar = document.querySelector(".reader-sidebar");
 const docNav = document.querySelector(".doc-nav");
+const queueControl = document.querySelector("[data-queue-control]");
+const queueInput = queueControl?.querySelector("input[type='checkbox']");
+const queueText = queueControl?.querySelector(".queue-toggle-text");
+const QUEUE_STORAGE_KEY = "wi.queue.paths";
+const MAX_QUEUE_ITEMS = 18;
 
 if (docNav && !docNav.querySelector("[data-site-route='workspace']")) {
   docNav.insertAdjacentHTML("afterbegin", `
@@ -33,6 +38,61 @@ function normalize(value) {
 
 function tokensFor(value) {
   return normalize(value).split(" ").filter(Boolean);
+}
+
+function readQueue() {
+  try {
+    const paths = JSON.parse(localStorage.getItem(QUEUE_STORAGE_KEY) || "[]");
+    return Array.isArray(paths) ? paths.filter((path) => typeof path === "string" && path.trim()) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeQueue(paths) {
+  const seen = new Set();
+  const cleanPaths = paths
+    .filter((path) => typeof path === "string" && path.trim())
+    .filter((path) => {
+      if (seen.has(path)) return false;
+      seen.add(path);
+      return true;
+    })
+    .slice(0, MAX_QUEUE_ITEMS);
+
+  try {
+    localStorage.setItem(QUEUE_STORAGE_KEY, JSON.stringify(cleanPaths));
+  } catch {
+    return readQueue();
+  }
+
+  return cleanPaths;
+}
+
+function setQueueControlState(isQueued) {
+  if (!queueControl || !queueInput) return;
+  queueInput.checked = isQueued;
+  queueControl.classList.toggle("is-queued", isQueued);
+  queueControl.setAttribute("aria-label", isQueued ? "Remove this record from Workspace queue" : "Queue this record for Workspace");
+  if (queueText) queueText.textContent = isQueued ? "Queued for Workspace" : "Queue for Workspace";
+}
+
+function syncQueueControl() {
+  const queuePath = queueControl?.dataset.queuePath;
+  if (!queuePath || !queueInput) return;
+  setQueueControlState(readQueue().includes(queuePath));
+}
+
+function toggleCurrentQueue() {
+  const queuePath = queueControl?.dataset.queuePath;
+  if (!queuePath) return;
+  const queue = readQueue();
+  const isQueued = queue.includes(queuePath);
+  const nextQueue = isQueued
+    ? queue.filter((path) => path !== queuePath)
+    : [queuePath, ...queue];
+  const savedQueue = writeQueue(nextQueue);
+  setQueueControlState(savedQueue.includes(queuePath));
 }
 
 function setGroupExpanded(group, isExpanded) {
@@ -121,8 +181,13 @@ groupToggles.forEach((toggle) => {
 });
 
 filterInput?.addEventListener("input", applyFilter);
+queueInput?.addEventListener("change", toggleCurrentQueue);
+window.addEventListener("storage", (event) => {
+  if (event.key === QUEUE_STORAGE_KEY) syncQueueControl();
+});
 resetToPageDefaults();
 applyFilter();
+syncQueueControl();
 
 window.addEventListener("pageshow", (event) => {
   const navigation = performance.getEntriesByType?.("navigation")?.[0];
