@@ -344,8 +344,9 @@ button {
 }
 
 .global-map-stage {
+  --map-top-crop-offset: 3.02%;
   position: relative;
-  aspect-ratio: 2760 / 1502;
+  aspect-ratio: 2760 / 1458;
   min-height: 0;
   overflow: hidden;
   background: #f8f1df;
@@ -355,7 +356,7 @@ button {
 .global-map-panel:fullscreen .global-map-stage {
   align-self: center;
   justify-self: center;
-  width: min(100vw, calc((100vh - 7.75rem) * 1.8376));
+  width: min(100vw, calc((100vh - 7.75rem) * 1.893));
   max-width: 100vw;
   max-height: calc(100vh - 7.75rem);
 }
@@ -370,6 +371,9 @@ button {
 
 .global-map-image {
   display: block;
+  position: absolute;
+  left: 0;
+  top: calc(-1 * var(--map-top-crop-offset));
   width: 100%;
   height: auto;
   user-select: none;
@@ -377,7 +381,10 @@ button {
 
 .global-map-markers {
   position: absolute;
-  inset: 0;
+  left: 0;
+  right: 0;
+  top: calc(-1 * var(--map-top-crop-offset));
+  height: calc(100% + var(--map-top-crop-offset));
   z-index: 1;
 }
 
