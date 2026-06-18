@@ -231,6 +231,13 @@ button {
   background: var(--panel);
 }
 
+.global-map-panel:fullscreen {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
+  background: var(--panel);
+}
+
 .global-map-head {
   display: grid;
   grid-template-columns: minmax(0, 1fr) max-content;
@@ -329,6 +336,13 @@ button {
   overflow: hidden;
   background: var(--panel-2);
   contain: layout paint style;
+}
+
+.global-map-panel:fullscreen .global-map-stage {
+  align-self: center;
+  justify-self: center;
+  width: min(100vw, calc((100vh - 8.25rem) * 1.7779));
+  max-width: 100vw;
 }
 
 .global-map-stage::after {
@@ -1619,6 +1633,10 @@ button {
 
   .global-map-panel {
     min-height: auto;
+  }
+
+  #global-map-fullscreen {
+    display: none;
   }
 
   .global-map-head h1 {

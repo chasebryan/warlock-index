@@ -399,10 +399,12 @@ renderResults(initialQuery, searchCorpus(initialQuery));
 setActiveRoute(initialQuery);
 
 const globalMap = {
+  panel: document.querySelector(".global-map-panel"),
   stage: document.querySelector(".global-map-stage"),
   markers: document.querySelector("#global-map-markers"),
   filters: document.querySelector("#global-map-filters"),
   count: document.querySelector("#global-map-count"),
+  fullscreen: document.querySelector("#global-map-fullscreen"),
   reset: document.querySelector("#global-map-reset"),
   title: document.querySelector("#global-map-selected-title"),
   summary: document.querySelector("#global-map-selected-summary"),
@@ -478,8 +480,19 @@ function renderGlobalMap() {
   }
 }
 
+function updateGlobalMapFullscreenState() {
+  if (!globalMap.fullscreen || !globalMap.panel) return;
+  const isFullscreen = document.fullscreenElement === globalMap.panel;
+  globalMap.fullscreen.textContent = isFullscreen ? "Exit full screen" : "Full screen";
+  globalMap.fullscreen.setAttribute("aria-pressed", String(isFullscreen));
+}
+
 async function initGlobalMap() {
   if (!globalMap.markers || !globalMap.filters) return;
+
+  if (!globalMap.panel?.requestFullscreen || !document.exitFullscreen) {
+    globalMap.fullscreen?.setAttribute("hidden", "");
+  }
 
   try {
     const response = await fetch("global-map-updates.json");
@@ -508,6 +521,23 @@ async function initGlobalMap() {
     renderGlobalMap();
     selectGlobalMapUpdate("");
   });
+
+  globalMap.fullscreen?.addEventListener("click", async () => {
+    try {
+      if (document.fullscreenElement === globalMap.panel) {
+        await document.exitFullscreen();
+      } else {
+        await globalMap.panel.requestFullscreen();
+      }
+    } catch (error) {
+      globalMap.fullscreen.setAttribute("hidden", "");
+    } finally {
+      updateGlobalMapFullscreenState();
+    }
+  });
+
+  document.addEventListener("fullscreenchange", updateGlobalMapFullscreenState);
+  updateGlobalMapFullscreenState();
 }
 
 initGlobalMap();
