@@ -313,6 +313,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-air-missile-defense-explainer.html</loc>
     <priority>0.7</priority>
   </url>
@@ -321,7 +325,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-arctic-high-north-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-china-pla-modernization-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-cyber-critical-infrastructure-explainer.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -337,11 +349,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-homeland-law-enforcement-threat-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-iran-middle-east-strategic-pressure-explainer.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-shipbuilding-repair-explainer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-space-counterspace-explainer.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

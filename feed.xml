@@ -7,8 +7,58 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 10:49:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 10:56:51 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Africa Security Environment Explainer</title>
+      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
+      <category>Explainer</category>
+      <category>Collections</category>
+      <category>Explainers</category>
+      <description>Africa's security environment is not one conflict system. It includes Sahel instability, coups and military transitions, terrorism, Russian and other foreign influence, Red Sea and Horn of Africa exposure, Gulf of Guinea maritime risk, transnational crime, migration pressure, humanitarian crises, and resource and infrastructure competition.</description>
+    </item>
+    <item>
+      <title>Arctic And High North Explainer</title>
+      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-arctic-high-north-explainer.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-arctic-high-north-explainer.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
+      <category>Explainer</category>
+      <category>Collections</category>
+      <category>Explainers</category>
+      <description>The Arctic and High North matter because geography, climate, warning systems, maritime access, air and missile defense, undersea infrastructure, Russia, NATO enlargement, and allied industrial capacity meet in the same region. The issue is not only melting ice or northern bases. It is continental defense, allied access, early warning, logistics, sovereignty, and industrial delivery over long timelines.</description>
+    </item>
+    <item>
+      <title>Cyber And Critical Infrastructure Explainer</title>
+      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-cyber-critical-infrastructure-explainer.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-cyber-critical-infrastructure-explainer.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
+      <category>Explainer</category>
+      <category>Collections</category>
+      <category>Explainers</category>
+      <description>Cyber and critical infrastructure risk matters because digital systems, physical services, private networks, public agencies, telecommunications, finance, energy, water, transport, health care, and defense supply chains are interdependent. A cyber incident can become a public-safety, economic, intelligence, criminal, or geopolitical issue.</description>
+    </item>
+    <item>
+      <title>Homeland And Law Enforcement Threat Explainer</title>
+      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-homeland-law-enforcement-threat-explainer.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-homeland-law-enforcement-threat-explainer.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
+      <category>Explainer</category>
+      <category>Collections</category>
+      <category>Explainers</category>
+      <description>The homeland file is not one threat category. It combines terrorism, transnational criminal organizations, cybercrime, narcotics, border and migration pressure, critical infrastructure risk, disaster response, foreign influence, and public-safety stress. These issues overlap, but each source family measures something different.</description>
+    </item>
+    <item>
+      <title>Space And Counterspace Explainer</title>
+      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-space-counterspace-explainer.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-space-counterspace-explainer.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
+      <category>Explainer</category>
+      <category>Collections</category>
+      <category>Explainers</category>
+      <description>Space matters because communications, navigation, missile warning, weather, intelligence, timing, military command, disaster response, commercial connectivity, and financial systems depend on space-enabled services. Counterspace matters because adversaries may try to degrade, deny, disrupt, or destroy those services in crisis or conflict.</description>
+    </item>
     <item>
       <title>Current Category Source Sweep Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</link>
@@ -358,56 +408,6 @@
       <category>Collections</category>
       <category>Global Assimilation</category>
       <description>Maritime chokepoints should be treated as strategic integration nodes rather than as isolated geography. Each chokepoint links actors, legal regimes, commercial flows, energy or commodity exposure, insurance confidence, allied response, infrastructure resilience, and escalation risk. The Red Sea/Suez lane now has the strongest the corpus source packet. The remaining lanes should be expanded through separate dated source packets before the repository uses them for high-confidence comparative judgments. The Hormuz lane now has a dedicated source packet for strategic evidence separation, but not yet a current traffic, insurance, or legal-implementation update.</description>
-    </item>
-    <item>
-      <title>Maritime Chokepoints Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Organize source families for maritime chokepoint analysis across Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</description>
-    </item>
-    <item>
-      <title>Strait Of Hormuz Strategic Chokepoint Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The Strait of Hormuz should now be treated as an active the corpus source packet lane rather than only a queue item. The current corpus has three separate evidence layers that need to stay separate:</description>
-    </item>
-    <item>
-      <title>Allied And Multilateral Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/allied-multilateral.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied DIB country crosswalks, UK defense investment/readiness implementation, Japan defense buildup implementation, allied workforce, shipbuilding, munitions, air and missile defense, drone/counter-UAS, critical materials, and implementation cross-checks.</description>
-    </item>
-    <item>
-      <title>Allied Official Source Collection Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The allied-source lane should expand through national, multilateral, and clearly labeled strategic-partner official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan, the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or continental-defense lanes to receive U.S.-style official source baselines. Denmark, Iceland, and the EU now extend that architecture across the remaining Nordic/North Atlantic country-source lanes and the EU-level security-defense layer. India/Quad now adds the first partner-lane source packet and preserves the distinction between treaty-allied evidence and Quad strategic-partner evidence. The Philippines lane now adds a treaty-ally source-capture packet for defense, maritime, West Philippine Sea, EDCA, maritime-zone, coast guard, fisheries, map, and U.S. cross-check source families while preserving source-access caveats. The ASEAN/claimant-state cross-check packet adds a regional source-provenance layer for ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State source families without classifying those lanes as treaty-allied evidence. NATO provides the shared Alliance frame, while country lanes should capture national strategy, defense review, budget/procurement evidence, industrial policy, nuclear or extended-deterrence sources where applicable, cyber agencies, space agencies, resilience systems, coast guard or maritime agencies where relevant, and parliamentary/audit evidence.</description>
-    </item>
-    <item>
-      <title>Arms-Control Erosion Strategic Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0319Z-arms-control-erosion-strategic-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0319Z-arms-control-erosion-strategic-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>Arms-control erosion is a strategic-stability tracker because it changes the information environment around nuclear and strategic weapons competition. New START's expiration on February 5, 2026, after Russian suspension in 2023, marks the loss of the last legally binding bilateral U.S.-Russia strategic nuclear arms limit. That loss does not automatically prove immediate force expansion, but it does reduce treaty-based verification, data exchange, inspection rights, and predictability.</description>
     </item>
   </channel>
 </rss>
