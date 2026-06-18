@@ -10,7 +10,7 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260617-green-press";
+const libraryAssetVersion = "20260618-collapsed-sidebar";
 const feedAssetVersion = "20260617-green-press";
 const feedItemLimit = 40;
 
