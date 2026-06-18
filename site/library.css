@@ -370,6 +370,33 @@ svg {
   text-transform: none;
 }
 
+.doc-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.18rem 0.5rem;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.doc-badges span {
+  display: inline;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  line-height: 1.1;
+}
+
+.doc-badges span + span::before {
+  content: "/";
+  margin-right: 0.5rem;
+  color: var(--purple);
+}
+
 .article-head h1 {
   max-width: 820px;
   margin: 0;

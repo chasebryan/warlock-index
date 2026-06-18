@@ -203,6 +203,21 @@ function collectionLabel(item) {
   return item.domain || item.theater || "Corpus";
 }
 
+function itemBadges(item) {
+  const badges = Array.isArray(item.badges) && item.badges.length
+    ? item.badges
+    : [item.type, item.theater, item.domain].filter(Boolean);
+  return [...new Set(badges)].slice(0, 5);
+}
+
+function renderBadges(item) {
+  return `
+    <div class="doc-badges">
+      ${itemBadges(item).map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}
+    </div>
+  `;
+}
+
 function renderResultRow(item) {
   const date = itemDate(item);
   return `
@@ -212,6 +227,7 @@ function renderResultRow(item) {
           <span class="doc-glyph" aria-hidden="true"></span>
           <div>
             <a class="result-title" href="${escapeHtml(item.path)}">${escapeHtml(item.title)}</a>
+            ${renderBadges(item)}
             <p class="result-summary">${escapeHtml(trimSummary(item.summary))}</p>
           </div>
         </div>
@@ -326,6 +342,7 @@ function renderLatest() {
         ${escapeHtml(formatShortDate(itemDate(item)))}
       </time>
       <a href="${escapeHtml(item.path)}">${escapeHtml(item.title)}</a>
+      ${renderBadges(item)}
     </article>
   `).join("");
 

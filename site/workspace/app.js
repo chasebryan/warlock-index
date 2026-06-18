@@ -10,6 +10,13 @@ const MAX_QUEUE_ITEMS = 18;
 
 const routes = [
   { id: "all", label: "All records", match: () => true },
+  { id: "topic-indo-pacific", label: "Indo-Pacific", match: (item) => (item.topics || []).includes("indo-pacific") },
+  { id: "topic-europe-russia", label: "Russia / Europe", match: (item) => (item.topics || []).includes("europe-russia") },
+  { id: "topic-homeland", label: "Homeland", match: (item) => (item.topics || []).includes("homeland") },
+  { id: "topic-strategic-weapons", label: "Strategic weapons", match: (item) => (item.topics || []).includes("strategic-weapons") },
+  { id: "topic-cyber-space", label: "Cyber / Space", match: (item) => (item.topics || []).includes("cyber-space") },
+  { id: "topic-arctic", label: "Arctic", match: (item) => (item.topics || []).includes("arctic") },
+  { id: "topic-middle-east", label: "Middle East", match: (item) => (item.topics || []).includes("middle-east") },
   { id: "assessments", label: "Assessments", match: (item) => item.type === "Assessment" },
   { id: "maps", label: "Maps", match: (item) => item.type === "Map Resource" || String(item.path || "").startsWith("library/maps/") },
   { id: "source-packets", label: "Source packets", match: (item) => item.type === "Source Packet" },
@@ -71,6 +78,8 @@ const els = {
   openCurrent: document.querySelector("#open-current"),
   queueCurrent: document.querySelector("#queue-current"),
   downloadCurrent: document.querySelector("#download-current"),
+  copyCurrent: document.querySelector("#copy-current"),
+  queueVisible: document.querySelector("#queue-visible"),
 
   clearQueue: document.querySelector("#clear-queue"),
   downloadQueue: document.querySelector("#download-queue"),
@@ -139,6 +148,21 @@ function confidenceLabel(value) {
   if (!value) return "Unstated";
   const match = String(value).match(/^(high|moderate(?:\s+to\s+high)?|low)\b/i);
   return match ? match[1].replace(/\b\w/g, (letter) => letter.toUpperCase()) : value;
+}
+
+function itemBadges(item) {
+  const badges = Array.isArray(item.badges) && item.badges.length
+    ? item.badges
+    : [item.type, item.theater, item.domain].filter(Boolean);
+  return [...new Set(badges)].slice(0, 5);
+}
+
+function renderBadges(item, className = "doc-badges") {
+  return `
+    <span class="${escapeHtml(className)}">
+      ${itemBadges(item).map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}
+    </span>
+  `;
 }
 
 function pathUrl(path) {
@@ -342,6 +366,34 @@ function toggleQueue(path) {
     setExportStatus("Queued selected record.", "success");
   }
   syncQueueStorage();
+  render();
+}
+
+function queueVisibleResults() {
+  const visible = filteredItems().slice(0, MAX_QUEUE_ITEMS).map((item) => item.path);
+  const merged = [...visible, ...state.queue].filter(validQueuePath);
+  const seen = new Set();
+  state.queue = merged
+    .filter((path) => {
+      if (seen.has(path)) return false;
+      seen.add(path);
+      return true;
+    })
+    .slice(0, MAX_QUEUE_ITEMS);
+  setExportStatus(`Queued ${formatCount(Math.min(visible.length, MAX_QUEUE_ITEMS), "record")} from current view.`, "success");
+  syncQueueStorage();
+  render();
+}
+
+async function copyCitation(item) {
+  if (!item) return;
+  const citation = `${item.title}. WARLOCK-INDEX. ${item.preparedUtc ? `Prepared ${item.preparedUtc}. ` : ""}${pathUrl(item.path)}`;
+  try {
+    await navigator.clipboard.writeText(citation);
+    setExportStatus("Citation copied.", "success");
+  } catch {
+    setExportStatus(citation, "success");
+  }
   render();
 }
 
@@ -1108,6 +1160,7 @@ function renderResults(results) {
               <span>${escapeHtml(item.domain || "Corpus")}</span>
             </span>
             <strong class="row-title">${escapeHtml(item.title)}</strong>
+            ${renderBadges(item)}
             <span class="row-summary">${escapeHtml(item.summary || "WARLOCK-INDEX documentation product.")}</span>
             <span class="row-facts">
               ${facts.map((fact) => `<span>${escapeHtml(fact)}</span>`).join("")}
@@ -1140,6 +1193,7 @@ function renderPreview(item) {
     </div>
     <div class="preview-body">
       <p class="preview-summary">${escapeHtml(item.summary || "WARLOCK-INDEX documentation product.")}</p>
+      ${renderBadges(item)}
       <div class="detail-grid">
         ${detail("Theater", item.theater || "Global")}
         ${detail("Domain", item.domain || "Corpus")}
@@ -1237,6 +1291,18 @@ function render() {
     els.downloadCurrent.title = "Download selected reader file";
     els.downloadCurrent.setAttribute("aria-label", "Download selected reader file");
   }
+  if (els.copyCurrent) {
+    els.copyCurrent.disabled = !selected || state.exporting;
+    els.copyCurrent.innerHTML = actionButtonContent("#icon-copy", "Cite");
+    els.copyCurrent.title = "Copy selected citation";
+    els.copyCurrent.setAttribute("aria-label", "Copy selected citation");
+  }
+  if (els.queueVisible) {
+    els.queueVisible.disabled = !results.length || state.exporting;
+    els.queueVisible.innerHTML = actionButtonContent("#icon-plus", "Queue view");
+    els.queueVisible.title = "Queue visible result set";
+    els.queueVisible.setAttribute("aria-label", "Queue visible result set");
+  }
 
   if (els.downloadQueue) {
     els.downloadQueue.disabled = !state.queue.length || state.exporting;
@@ -1285,6 +1351,12 @@ els.queueCurrent?.addEventListener("click", () => {
 });
 els.downloadCurrent?.addEventListener("click", () => {
   if (state.selectedPath && !state.exporting) exportReaderPacket([state.selectedPath]);
+});
+els.copyCurrent?.addEventListener("click", () => {
+  if (!state.exporting) copyCitation(corpus.find((item) => item.path === state.selectedPath));
+});
+els.queueVisible?.addEventListener("click", () => {
+  if (!state.exporting) queueVisibleResults();
 });
 els.downloadQueue?.addEventListener("click", () => exportReaderPacket(state.queue));
 els.downloadText?.addEventListener("click", () => exportTextBundle(state.queue));
