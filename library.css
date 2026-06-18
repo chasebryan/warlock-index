@@ -385,6 +385,10 @@ svg {
   display: grid;
 }
 
+.doc-group-links[hidden] {
+  display: none !important;
+}
+
 .doc-link {
   display: grid;
   gap: 0.12rem;
