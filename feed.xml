@@ -7,8 +7,28 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 05:38:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 06:30:55 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Critical Materials And Defense Supply Chain Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 06:30:55 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Critical materials and supply chains are now a defense-industrial lane, not a background economics topic. Munitions, energetics, missiles, shipbuilding, submarines, batteries, sensors, satellites, radar, secure communications, microelectronics, drones, counter-UAS systems, and cyber/space infrastructure all depend on materials, processing, manufacturing equipment, software, specialty chemicals, and qualified suppliers.</description>
+    </item>
+    <item>
+      <title>Critical Materials And Supply Chain Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 06:30:55 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>Critical materials should be tracked as a recurring source-evidence problem inside the defense industrial base lane. The issue is not only whether a material appears on an official list. The stronger question is whether dated sources show defense relevance, dependency, budget demand, industrial implementation, legal controls, allied coordination, and oversight findings.</description>
+    </item>
     <item>
       <title>Munitions And Energetics Industrial Capacity Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.html</link>
@@ -388,26 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>The Philippines lane now has a first-pass direct-source capture packet that separates seven evidence families: Philippine legal instruments, national security and defense policy, maritime-domain-awareness governance, coast guard and fisheries incident sources, map and naming sources, alliance/access architecture, and U.S./allied/legal cross-checks. This matters because future products should not flatten &quot;Philippines&quot; into a single allied posture label or treat West Philippine Sea incident sources, EDCA material, maritime-zone law, NAMRIA maps, and U.S. defense assessments as interchangeable evidence.</description>
-    </item>
-    <item>
-      <title>India/Quad Strategic-Partner Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0512Z-india-quad-strategic-partner-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0512Z-india-quad-strategic-partner-source-packet.html</guid>
-      <pubDate>Tue, 16 Jun 2026 05:12:39 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The India/Quad lane belongs in the corpus as a strategic-partner source stack, not as a treaty-allied source stack. The Quad sources identify Australia, India, Japan, and the United States as partners working through diplomatic, maritime, economic-security, technology, health, and emergency response initiatives across the Indo-Pacific. They do not create NATO-style collective-defense evidence, automatic crisis behavior, basing rights, readiness proof, or operational commitments.</description>
-    </item>
-    <item>
-      <title>EU Security And Defense Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.html</guid>
-      <pubDate>Tue, 16 Jun 2026 03:30:00 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>EU security-defense sources are essential for European allied analysis, but they are not interchangeable with NATO or national force evidence. The Strategic Compass provides an EU-level security and defense framework; EDIS and Readiness 2030 provide defense-industrial, capability-gap, procurement, and investment-source routing; EDIP and SAFE provide implementation/funding lanes; CSDP pages route missions and operations; and EU cyber, sanctions, and resilience source families support cross-domain analysis. Country-level force generation, readiness, delivery, and political implementation still require national sources.</description>
     </item>
   </channel>
 </rss>

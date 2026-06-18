@@ -341,6 +341,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/index.html</loc>
     <priority>0.7</priority>
   </url>
@@ -606,6 +610,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
