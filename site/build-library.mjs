@@ -822,7 +822,7 @@ ${body}
         </article>
       </main>
       <footer class="site-maintainer-footer">
-        <p>Maintained by The Better Science Foundation</p>
+        <p>Maintained by Chase Bryan</p>
       </footer>
     </div>
     <script src="${escapeAttr(rootJs)}"></script>
@@ -990,7 +990,7 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
         </nav>
         <div class="footer-copy">
           <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
-          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+          <p class="site-maintainer">Maintained by Chase Bryan</p>
         </div>
       </footer>
     </div>
@@ -1132,7 +1132,7 @@ function renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso) {
         </nav>
         <div class="footer-copy">
           <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
-          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+          <p class="site-maintainer">Maintained by Chase Bryan</p>
         </div>
       </footer>
     </div>
@@ -1218,7 +1218,7 @@ function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
         </nav>
         <div class="footer-copy">
           <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
-          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+          <p class="site-maintainer">Maintained by Chase Bryan</p>
         </div>
       </footer>
     </div>
@@ -1361,7 +1361,7 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
         </nav>
         <div class="footer-copy">
           <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
-          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+          <p class="site-maintainer">Maintained by Chase Bryan</p>
         </div>
       </footer>
     </div>
