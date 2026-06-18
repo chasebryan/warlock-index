@@ -25,8 +25,8 @@ official-source baselines and graded explicitly.
 - **Publishers:** NHK World-Japan; DW; France 24; TRT World; CNA; ABC News
   Australia; CGTN English; Arirang TV; UN Web TV; Europe by Satellite; CPAC
   Canada; NASA; UK Parliament Live; White House Live; U.S. House FloorCast;
-  European Parliament Streaming; U.S. defense live events; World Bank Live;
-  IMF Live; LiveNOW from FOX.
+  U.S. Senate Floor Webcast; European Parliament Streaming; U.S. defense live
+  events; World Bank Live; IMF Live; LiveNOW from FOX; Sky News Live.
 - **Accessed UTC:** 2026-06-18T10:05:00Z
 - **URLs:**
   - https://www3.nhk.or.jp/nhkworld/en/live/
@@ -45,12 +45,14 @@ official-source baselines and graded explicitly.
   - https://www.parliamentlive.tv/
   - https://www.whitehouse.gov/live/
   - https://live.house.gov/
+  - https://www.senate.gov/legislative/floor_activity_pail.htm
   - https://multimedia.europarl.europa.eu/en/webstreaming
   - https://www.war.gov/News/Live-Events/
   - https://live.worldbank.org/en/home
   - https://www.imf.org/en/live
   - https://www.livenowfox.com/
   - https://www.youtube.com/@livenowfox
+  - https://news.sky.com/watch-live
 - **Use:** Current-event awareness, live observation, institutional
   proceedings discovery, and follow-on source collection. LIVE-NEWS is a
   link-out navigation surface only; it does not host, rebroadcast, or embed
@@ -76,8 +78,9 @@ official-source baselines and graded explicitly.
 
 - **Source class:** Candidate B/C depending on issuer, access route, and use.
 - **Candidate publishers/routes:** Reuters video/live routes; AP video/live
-  routes; Sky News Live; BBC News live route; PBS NewsHour Live; C-SPAN
-  event-level pages; Al Jazeera English Live; Fox Weather; Senate live routes.
+  routes; BBC News live route; PBS NewsHour Live; C-SPAN event-level pages; Al
+  Jazeera English Live; Fox Weather; Senate committee or event-level live
+  routes.
 - **Use:** Future live-source review queue. These sources can support
   current-event awareness, public-affairs discovery, or follow-on source
   collection only after official route, free access, ad/paywall friction, and

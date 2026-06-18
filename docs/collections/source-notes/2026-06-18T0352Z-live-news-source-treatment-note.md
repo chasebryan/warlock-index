@@ -14,8 +14,9 @@ video services, and parliamentary or public-affairs broadcasters; current
 official-page checks for NHK World-Japan, DW, France 24, TRT World, CNA, ABC
 News Australia, CGTN English, Arirang TV, UN Web TV, Europe by Satellite,
 CPAC Canada, NASA, UK Parliament Live, White House Live, U.S. House
-FloorCast, European Parliament Streaming, U.S. defense live events, World
-Bank Live, IMF Live, LiveNOW from FOX, and LIVE-NEWS source audit tracker.
+FloorCast, U.S. Senate Floor Webcast, European Parliament Streaming, U.S.
+defense live events, World Bank Live, IMF Live, LiveNOW from FOX, Sky News
+Live, and LIVE-NEWS source audit tracker.
 
 **Analytic confidence:** Moderate for link routing and inclusion rules. Low
 for any claim derived only from a live stream unless timestamped, archived,
@@ -91,11 +92,13 @@ filing, public notice, or dated article.
 | UK Parliament Live | United Kingdom | Official parliamentary live and archive service |
 | White House Live | United States / Executive Office of the President | Official live page for remarks, briefings, and events |
 | U.S. House FloorCast | United States / House of Representatives | Official House floor stream and legislative activity page |
+| U.S. Senate Floor Webcast | United States / Senate | Official Senate floor webcast and floor activity page |
 | European Parliament Streaming | European Union / Parliament | Official streaming agenda for plenary, committee, and parliamentary events |
 | U.S. Defense Live Events | United States / Defense | Official live-events page for briefings, remarks, and defense public affairs |
 | World Bank Live | Multilateral / Development | Institutional live and archived development-policy events |
 | IMF Live | Multilateral / Finance | Official IMF live and archived economic-policy events |
 | LiveNOW from FOX | United States / Breaking news | Official free commercial live-news page; current-event awareness and follow-on source discovery |
+| Sky News Live | United Kingdom / Global | Official free commercial live-news page; current-event awareness and follow-on source discovery |
 
 ## Current Exclusions And Cautions
 
@@ -106,6 +109,9 @@ filing, public notice, or dated article.
   free live route and official YouTube destination. Treat it as a commercial
   current-event source, not an official government or public-broadcaster
   source; capture timestamps and corroborate before assimilation.
+- Sky News Live is included because the official Sky News Watch Live page is
+  free to reach and clearly labeled as live. Treat it as a commercial
+  current-event source; capture timestamps and corroborate before assimilation.
 - Live pages that display prominent advertising, autoplay ad surfaces, or
   paywall overlays should be excluded or removed.
 - Social-video-only channels should be avoided when an official website page
@@ -135,9 +141,9 @@ filing, public notice, or dated article.
 Keep reviewed candidates in documentation until a later check confirms a clean
 official route, low-friction access, and appropriate source-treatment label.
 The current candidate queue is maintained in the LIVE-NEWS source audit tracker
-and includes Reuters video/live routes, AP video/live routes, Sky News Live,
-BBC News live routes, PBS NewsHour Live, C-SPAN event-level pages, Al Jazeera
-English Live, Fox Weather, and Senate live routes.
+and includes Reuters video/live routes, AP video/live routes, BBC News live
+routes, PBS NewsHour Live, C-SPAN event-level pages, Al Jazeera English Live,
+Fox Weather, and Senate committee live routes.
 
 ## Source List
 
@@ -157,6 +163,8 @@ English Live, Fox Weather, and Senate live routes.
 - UK Parliament Live: `https://www.parliamentlive.tv/`
 - White House Live: `https://www.whitehouse.gov/live/`
 - U.S. House FloorCast: `https://live.house.gov/`
+- U.S. Senate Floor Webcast:
+  `https://www.senate.gov/legislative/floor_activity_pail.htm`
 - European Parliament Streaming:
   `https://multimedia.europarl.europa.eu/en/webstreaming`
 - U.S. Defense Live Events: `https://www.war.gov/News/Live-Events/`
@@ -164,6 +172,7 @@ English Live, Fox Weather, and Senate live routes.
 - IMF Live: `https://www.imf.org/en/live`
 - LiveNOW from FOX: `https://www.livenowfox.com/`
 - LiveNOW from FOX YouTube: `https://www.youtube.com/@livenowfox`
+- Sky News Live: `https://news.sky.com/watch-live`
 - Al Jazeera English Live reviewed candidate:
   `https://www.aljazeera.com/video/live`
 - PBS News live reviewed candidate: `https://www.pbs.org/newshour/live`

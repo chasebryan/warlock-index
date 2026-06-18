@@ -36,10 +36,12 @@ and clear source treatment. Candidate sources can be useful for monitoring or
 future source work, but they should stay out of the public LIVE-NEWS grid until
 their route is checked and the ad/paywall/authentication friction is acceptable.
 
-LiveNOW from FOX now belongs in the public grid as a commercial current-event
-awareness lane. Al Jazeera English, PBS NewsHour, C-SPAN, Reuters, AP, Sky
-News, and BBC live routes remain candidate lanes until a later review confirms
-clean official routes and appropriate public-page treatment.
+LiveNOW from FOX and Sky News Live now belong in the public grid as commercial
+current-event awareness lanes. The U.S. Senate Floor Webcast now belongs in
+the public grid as an official legislative proceedings lane. Al Jazeera
+English, PBS NewsHour, C-SPAN, Reuters, AP, BBC, Fox Weather, and Senate
+committee/event-level routes remain candidate lanes until a later review
+confirms clean official routes and appropriate public-page treatment.
 
 ## Public Card Audit Matrix
 
@@ -55,6 +57,7 @@ clean official routes and appropriate public-page treatment.
 | CGTN English | `https://www.cgtn.com/tv` | State-backed media | 2026-06-18T05:05:04Z | Public-card approved | C issuer perspective | Label as Chinese state-media issuer perspective |
 | Arirang TV | `https://www.arirang.com/live` | International broadcaster | 2026-06-18T05:05:04Z | Public-card approved | B/C | Republic of Korea public-facing international channel |
 | LiveNOW from FOX | `https://www.livenowfox.com/` | Commercial breaking-news stream | 2026-06-18T10:05:00Z | Public-card approved | C | Commercial current-event awareness; corroborate before assimilation |
+| Sky News Live | `https://news.sky.com/watch-live` | Commercial breaking-news stream | 2026-06-18T10:35:00Z | Public-card approved | C | Official Watch Live page; commercial current-event awareness; corroborate before assimilation |
 | UN Web TV | `https://webtv.un.org/en` | Institutional proceeding | 2026-06-18T05:05:04Z | Public-card approved | A/B | Strong for meeting discovery; follow with record, transcript, vote, or document |
 | Europe by Satellite | `https://audiovisual.ec.europa.eu/en/ebs/live` | Institutional proceeding | 2026-06-18T05:05:04Z | Public-card approved | A/B | EU institutional live route |
 | CPAC Canada | `https://www.cpac.ca/live` | Public affairs | 2026-06-18T05:05:04Z | Public-card approved | B/C | Public-affairs discovery; follow with parliamentary or official record |
@@ -62,6 +65,7 @@ clean official routes and appropriate public-page treatment.
 | UK Parliament Live | `https://www.parliamentlive.tv/` | Parliamentary proceeding | 2026-06-18T05:05:04Z | Public-card approved | A/B | Strong for proceeding discovery; follow with Hansard or committee record |
 | White House Live | `https://www.whitehouse.gov/live/` | U.S. executive | 2026-06-18T05:05:04Z | Public-card approved with caution | A/B | Volatile event page; verify title and follow with transcript/release |
 | U.S. House FloorCast | `https://live.house.gov/` | U.S. legislature | 2026-06-18T05:05:04Z | Public-card approved | A/B | Follow with bill, roll call, Congressional Record, or committee source |
+| U.S. Senate Floor Webcast | `https://www.senate.gov/legislative/floor_activity_pail.htm` | U.S. legislature | 2026-06-18T10:35:00Z | Public-card approved | A/B | Official floor webcast and activity page; follow with Congressional Record, bill, vote, or committee source |
 | European Parliament Streaming | `https://multimedia.europarl.europa.eu/en/webstreaming` | EU legislature | 2026-06-18T05:05:04Z | Public-card approved | A/B | Follow with parliamentary record or document |
 | U.S. Defense Live Events | `https://www.war.gov/News/Live-Events/` | U.S. defense public affairs | 2026-06-18T05:05:04Z | Public-card approved | A/B | Follow with transcript, release, or official page |
 | World Bank Live | `https://live.worldbank.org/en/home` | Multilateral institution | 2026-06-18T05:05:04Z | Public-card approved | A/B | Follow with event page, transcript, report, or release |
@@ -76,10 +80,9 @@ clean official routes and appropriate public-page treatment.
 | C-SPAN live/event pages | `https://www.c-span.org/` | U.S. public affairs and event-level proceedings discovery | Candidate; full channel live access can be provider-authenticated and ad-supported | Prefer official House/Senate/agency pages unless a specific event is free and clean |
 | Reuters video/live routes | `https://www.reuters.com/video/` | High-value professional current-event reporting and official-statement tracking | Candidate; needs current official live route and access review | Add only if free, official, low-friction live route is confirmed |
 | AP video/live routes | `https://apnews.com/video` | High-value professional current-event reporting and video verification | Candidate; needs current official live route and access review | Add only if free, official, low-friction live route is confirmed |
-| Sky News Live | `https://news.sky.com/watch-live` | High-value UK/global breaking-news stream | Candidate; needs ad/paywall/friction check | Add only if clean official no-paywall route is confirmed |
 | BBC News live route | `https://www.bbc.com/news` | High-value public broadcaster source | Candidate; needs current free live route and region/access review | Add only if official live route is free and clean in the public page context |
 | Fox Weather live route | `https://www.foxweather.com/live` | U.S. weather and disaster current-event awareness | Candidate; commercial and topic-specific | Add only if clean route is useful for emergency/disaster source work |
-| Senate floor/committee live routes | `https://www.senate.gov/legislative/floor_activity_pail.htm` | U.S. legislative proceedings | Candidate for institutional expansion | Add official Senate live/committee pages if stable and clean |
+| Senate committee live routes | `https://www.senate.gov/committees/` | U.S. legislative proceedings | Candidate for institutional expansion beyond the floor webcast | Add official committee live pages if stable and clean |
 
 ## Maintenance Rules
 
