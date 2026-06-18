@@ -404,16 +404,19 @@ const globalMap = {
   markers: document.querySelector("#global-map-markers"),
   filters: document.querySelector("#global-map-filters"),
   legend: document.querySelector("#global-map-legend"),
+  image: document.querySelector(".global-map-image"),
   count: document.querySelector("#global-map-count"),
   fullscreen: document.querySelector("#global-map-fullscreen"),
   reset: document.querySelector("#global-map-reset"),
+  viewToggle: document.querySelector("#global-map-view-toggle"),
   title: document.querySelector("#global-map-selected-title"),
   summary: document.querySelector("#global-map-selected-summary"),
   placement: document.querySelector("#global-map-selected-placement"),
   link: document.querySelector("#global-map-selected-link"),
   updates: [],
   selectedId: "",
-  category: "all"
+  category: "all",
+  simplified: false
 };
 
 const mapLegendEntries = {
@@ -530,6 +533,15 @@ function updateGlobalMapFullscreenState() {
   globalMap.fullscreen.setAttribute("aria-pressed", String(isFullscreen));
 }
 
+function updateGlobalMapViewMode() {
+  if (!globalMap.image || !globalMap.viewToggle) return;
+  const detailedSrc = globalMap.image.dataset.detailedSrc || globalMap.image.getAttribute("src");
+  const simpleSrc = globalMap.image.dataset.simpleSrc || detailedSrc;
+  globalMap.image.setAttribute("src", globalMap.simplified ? simpleSrc : detailedSrc);
+  globalMap.viewToggle.textContent = globalMap.simplified ? "Detailed map" : "Simplified map";
+  globalMap.viewToggle.setAttribute("aria-pressed", String(globalMap.simplified));
+}
+
 async function initGlobalMap() {
   if (!globalMap.markers || !globalMap.filters) return;
 
@@ -570,6 +582,11 @@ async function initGlobalMap() {
     selectGlobalMapUpdate("");
   });
 
+  globalMap.viewToggle?.addEventListener("click", () => {
+    globalMap.simplified = !globalMap.simplified;
+    updateGlobalMapViewMode();
+  });
+
   globalMap.fullscreen?.addEventListener("click", async () => {
     try {
       if (document.fullscreenElement === globalMap.panel) {
@@ -585,6 +602,7 @@ async function initGlobalMap() {
   });
 
   document.addEventListener("fullscreenchange", updateGlobalMapFullscreenState);
+  updateGlobalMapViewMode();
   updateGlobalMapFullscreenState();
 }
 

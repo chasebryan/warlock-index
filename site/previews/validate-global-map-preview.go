@@ -111,6 +111,9 @@ func validateProduction(siteRoot string) error {
 	if err := underBudget(filepath.Join(siteRoot, "images", "cia-political-world-map.svg"), 1600*1024); err != nil {
 		return err
 	}
+	if err := underBudget(filepath.Join(siteRoot, "images", "cia-political-world-map-simple.svg"), 1600*1024); err != nil {
+		return err
+	}
 	if err := validateMarkers(siteRoot, filepath.Join(siteRoot, "global-map-updates.json")); err != nil {
 		return err
 	}
