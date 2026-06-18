@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 08:42:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 08:55:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>NATO And U.S. Europe Force Posture Review Caveat</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:55:00 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>The Secretary of War's 2026-06-18 NATO remarks should be added to the corpus as a live posture-review caveat. AP reports that Hegseth announced a six-month review of U.S. forces in Europe and framed the review around whether NATO is moving toward Europe taking primary responsibility for European defense.</description>
+    </item>
     <item>
       <title>Air And Missile Defense Explainer</title>
       <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-air-missile-defense-explainer.html</link>
@@ -398,16 +408,6 @@
       <category>Collections</category>
       <category>Global Assimilation</category>
       <description>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</description>
-    </item>
-    <item>
-      <title>Strategic Weapons Modernization Strategic Event Timeline</title>
-      <link>https://www.warlock-index.org/library/collections/event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
-      <category>Timeline</category>
-      <category>Collections</category>
-      <category>Event Timelines</category>
-      <description>Strategic weapons modernization has become a simultaneous, multi-actor pressure lane rather than a bilateral U.S.-Russia nuclear issue. Public U.S. sources describe a deteriorating environment in which Russia retains the largest and most diverse nuclear stockpile, China is rapidly expanding and diversifying its nuclear posture, North Korea is expanding nuclear and missile programs, Iran remains WMD- and missile-relevant, and counterspace systems are increasingly tied to nuclear warning, deterrence confidence, and missile defense. The strategic center of gravity is not a single weapon class. It is the interaction among nuclear forces, precision strike, missile defense, space-based warning, cyber-space disruption, and arms-control erosion.</description>
     </item>
   </channel>
 </rss>
