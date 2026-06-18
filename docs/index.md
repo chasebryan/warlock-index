@@ -35,6 +35,10 @@ matrices.
 ## Maps
 
 - [Maps](maps/README.md)
+- [Geospatial Triage Guide](maps/geospatial-triage-guide.md)
+- [Theater Map Dashboard](maps/theater-map-dashboard.md)
+- [Map Source Caveat Playbook](maps/map-source-caveat-playbook.md)
+- [Maritime AIS Map Handling](maps/maritime-ais-map-handling.md)
 - [Theater Map Index](collections/source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Map And Geospatial Reference Source Register](source-registers/map-geospatial-reference.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)

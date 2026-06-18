@@ -34,7 +34,7 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "d37e09fc43d6",
+    "sourceHash": "cab4cb8eec8c",
     "metadataCompleteness": 8,
     "refreshDue": false,
     "daysUntilRefresh": null,
@@ -927,7 +927,7 @@
     "type": "Map Resource",
     "path": "library/maps/index.html",
     "summary": "Maps is the WARLOCK-INDEX hub for public map and geospatial references: official map portals, charting sources, geographic-name references, and theater map packets.",
-    "productId": "",
+    "productId": "WI-MAPS-RESOURCE-DIRECTORY-2026-0001",
     "preparedUtc": "2026-06-14T20:37:05Z",
     "cutoffUtc": "2026-06-14T20:37:05Z",
     "confidence": "",
@@ -945,18 +945,44 @@
       "readme",
       "map resource",
       "global",
+      "wi-maps-resource-directory-2026-0001",
       "2026-06-14t20:37:05z"
     ],
-    "sourceClasses": [],
+    "sourceClasses": [
+      "Official U.S.",
+      "Allied official",
+      "National mapping agency",
+      "Nautical chart",
+      "Geographic names",
+      "Commercial data",
+      "Archival map"
+    ],
     "actors": [],
-    "topicTags": [],
+    "topicTags": [
+      "maps",
+      "geospatial",
+      "theater orientation",
+      "maritime",
+      "AIS",
+      "source routing"
+    ],
     "safetyBoundary": "Maps supports strategic orientation and source provenance only. It does not provide targeting maps, sensitive facility overlays, infrastructure vulnerability maps, live movement layers, route-selection tools, collection geometry, patrol-pattern analysis, interdiction guidance, operational planning, surveillance products, investigative direction, or legal advice.",
-    "freshnessStatus": "",
-    "lastSourceCheckUtc": "",
-    "nextRefreshUtc": "",
-    "caveatTags": [],
+    "freshnessStatus": "Watch",
+    "lastSourceCheckUtc": "2026-06-18T19:09:00Z",
+    "nextRefreshUtc": "2026-06-25T19:09:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "commercial-data-limit",
+      "source-lag",
+      "current-watch"
+    ],
     "primarySources": [],
-    "relatedProducts": [],
+    "relatedProducts": [
+      "WI-MAPS-TRIAGE-2026-0001",
+      "WI-MAPS-DASHBOARD-2026-0001",
+      "WI-MAPS-CAVEATS-2026-0001",
+      "WI-MAPS-AIS-2026-0001"
+    ],
     "sourceUrls": [
       "https://www.nga.mil/resources/NGA_Maps_for_Download.html",
       "https://www.nga.mil/resources/Products_%26_Services.html",
@@ -970,18 +996,13 @@
       "https://www.state.gov/countries-areas/",
       "https://www.namria.gov.ph/"
     ],
-    "sourceHash": "d863ebee2d9a",
-    "metadataCompleteness": 42,
+    "sourceHash": "869d12365789",
+    "metadataCompleteness": 92,
     "refreshDue": false,
-    "daysUntilRefresh": null,
-    "sourceHealthStatus": "needs-metadata",
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "watch",
     "sourceHealthFlags": [
-      "missing-product-id",
-      "missing-freshness-status",
-      "missing-last-source-check",
-      "missing-next-refresh",
-      "missing-source-classes",
-      "missing-caveats"
+      "watch"
     ]
   },
   {
@@ -7519,6 +7540,341 @@
       "missing-source-classes",
       "missing-caveats",
       "missing-primary-sources"
+    ]
+  },
+  {
+    "title": "Geospatial Triage Guide",
+    "type": "Map Resource",
+    "path": "library/maps/geospatial-triage-guide.html",
+    "summary": "Use this guide when a product needs a map source but the right map lane is not obvious. The goal is to choose the least risky public source family that answers the orientation question without drifting into operational use.",
+    "productId": "WI-MAPS-TRIAGE-2026-0001",
+    "preparedUtc": "2026-06-18T19:05:00Z",
+    "cutoffUtc": "2026-06-18T19:05:00Z",
+    "confidence": "High for internal triage rules; moderate for individual map currency pending dated source refresh.",
+    "theater": "Global",
+    "domain": "Maps",
+    "topics": [],
+    "badges": [
+      "Map Resource",
+      "Global",
+      "Maps",
+      "High Confidence"
+    ],
+    "tags": [
+      "geospatial",
+      "triage",
+      "guide",
+      "maps",
+      "geospatial-triage-guide",
+      "map resource",
+      "global",
+      "wi-maps-triage-2026-0001",
+      "2026-06-18t19:05:00z",
+      "high",
+      "for",
+      "internal",
+      "rules",
+      "moderate",
+      "individual",
+      "map",
+      "currency",
+      "pending",
+      "dated",
+      "source",
+      "refresh"
+    ],
+    "sourceClasses": [
+      "Official U.S.",
+      "Allied official",
+      "National mapping agency",
+      "Nautical chart",
+      "Geographic names",
+      "Commercial data",
+      "Archival map"
+    ],
+    "actors": [],
+    "topicTags": [
+      "maps",
+      "geospatial",
+      "triage",
+      "source routing",
+      "theater orientation"
+    ],
+    "safetyBoundary": "Strategic orientation and source triage only. Excludes targeting, live tracking, route planning, collection geometry, sensitive facility overlays, and infrastructure vulnerability mapping.",
+    "freshnessStatus": "Current",
+    "lastSourceCheckUtc": "2026-06-18T19:05:00Z",
+    "nextRefreshUtc": "2026-06-25T19:05:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "commercial-data-limit",
+      "source-lag"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-MAPS-RESOURCE-DIRECTORY-2026-0001",
+      "WI-SOURCE-REGISTER-MAPGEO-2026-0001",
+      "WI-MAPINDEX-THEATER-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "f57d24fc455a",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-primary-sources"
+    ]
+  },
+  {
+    "title": "Map Source Caveat Playbook",
+    "type": "Map Resource",
+    "path": "library/maps/map-source-caveat-playbook.html",
+    "summary": "WARLOCK-INDEX documentation product.",
+    "productId": "WI-MAPS-CAVEATS-2026-0001",
+    "preparedUtc": "2026-06-18T19:07:00Z",
+    "cutoffUtc": "2026-06-18T19:07:00Z",
+    "confidence": "High for internal caveat definitions.",
+    "theater": "Global",
+    "domain": "Maps",
+    "topics": [
+      "indo-pacific"
+    ],
+    "badges": [
+      "Map Resource",
+      "Global",
+      "Maps",
+      "High Confidence"
+    ],
+    "tags": [
+      "map",
+      "source",
+      "caveat",
+      "playbook",
+      "maps",
+      "map-source-caveat-playbook",
+      "map resource",
+      "global",
+      "wi-maps-caveats-2026-0001",
+      "2026-06-18t19:07:00z",
+      "high",
+      "for",
+      "internal",
+      "definitions"
+    ],
+    "sourceClasses": [
+      "Internal guide",
+      "Official U.S.",
+      "Allied official",
+      "National mapping agency",
+      "Commercial data",
+      "Archival map"
+    ],
+    "actors": [],
+    "topicTags": [
+      "maps",
+      "caveats",
+      "source evaluation",
+      "disputed geography",
+      "map reference"
+    ],
+    "safetyBoundary": "Caveat guide only. Does not provide legal advice, operational guidance, targeting, live tracking, or vulnerability analysis.",
+    "freshnessStatus": "Current",
+    "lastSourceCheckUtc": "2026-06-18T19:07:00Z",
+    "nextRefreshUtc": "2026-06-25T19:07:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "legal-status-uncertain",
+      "commercial-data-limit",
+      "translation-risk",
+      "archival-reference"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-STD-007",
+      "WI-SOURCE-REGISTER-MAPGEO-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "4b410d294ecd",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-primary-sources"
+    ]
+  },
+  {
+    "title": "Maritime AIS Map Handling",
+    "type": "Map Resource",
+    "path": "library/maps/maritime-ais-map-handling.html",
+    "summary": "MarineTraffic and similar public AIS tools can help discover a maritime question, but they should not become a WARLOCK-INDEX map layer or operational product. Use AIS sources to cue follow-on research into official maritime notices, port authorities, NOAA chart families, IMO records, shipping/insurance reporting, and dated source packets.",
+    "productId": "WI-MAPS-AIS-2026-0001",
+    "preparedUtc": "2026-06-18T19:08:00Z",
+    "cutoffUtc": "2026-06-18T19:08:00Z",
+    "confidence": "High for handling boundaries; moderate for source availability because public AIS services vary by access, latency, and licensing.",
+    "theater": "Global",
+    "domain": "Maps",
+    "topics": [
+      "middle-east"
+    ],
+    "badges": [
+      "Map Resource",
+      "Global",
+      "Maps",
+      "High Confidence"
+    ],
+    "tags": [
+      "maritime",
+      "ais",
+      "map",
+      "handling",
+      "maps",
+      "maritime-ais-map-handling",
+      "map resource",
+      "global",
+      "wi-maps-ais-2026-0001",
+      "2026-06-18t19:08:00z",
+      "high",
+      "for",
+      "boundaries",
+      "moderate",
+      "source",
+      "availability",
+      "because",
+      "public",
+      "services",
+      "vary",
+      "by",
+      "access",
+      "latency",
+      "and",
+      "licensing"
+    ],
+    "sourceClasses": [
+      "Commercial data",
+      "Nautical chart",
+      "Official maritime",
+      "Port authority",
+      "Shipping and insurance"
+    ],
+    "actors": [],
+    "topicTags": [
+      "maritime",
+      "AIS",
+      "maps",
+      "MarineTraffic",
+      "chokepoints",
+      "commercial data"
+    ],
+    "safetyBoundary": "Source-discovery handling only. Excludes live vessel tracking, vessel monitoring, interdiction support, route guidance, patrol-pattern inference, sanctions enforcement targeting, or AIS-only claims.",
+    "freshnessStatus": "Watch",
+    "lastSourceCheckUtc": "2026-06-18T19:08:00Z",
+    "nextRefreshUtc": "2026-06-25T19:08:00Z",
+    "caveatTags": [
+      "commercial-data-limit",
+      "map-reference-only",
+      "current-watch"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-SOURCE-REGISTER-MAPGEO-2026-0001",
+      "WI-SOURCE-REGISTER-MARITIME-CHOKEPOINTS-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "9de5ea141c6a",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
+    ]
+  },
+  {
+    "title": "Theater Map Dashboard",
+    "type": "Map Resource",
+    "path": "library/maps/theater-map-dashboard.html",
+    "summary": "If a map lane is used in an assessment, source packet, or tracker, carry forward its caveat tag: map-reference-only, commercial-data-limit, source-lag, or current-watch.",
+    "productId": "WI-MAPS-DASHBOARD-2026-0001",
+    "preparedUtc": "2026-06-18T19:06:00Z",
+    "cutoffUtc": "2026-06-18T19:06:00Z",
+    "confidence": "Moderate. The dashboard is complete enough for routing but individual theater map anchors require dated refresh before claim-level use.",
+    "theater": "Global",
+    "domain": "Maps",
+    "topics": [],
+    "badges": [
+      "Map Resource",
+      "Global",
+      "Maps",
+      "Dated"
+    ],
+    "tags": [
+      "theater",
+      "map",
+      "dashboard",
+      "maps",
+      "theater-map-dashboard",
+      "map resource",
+      "global",
+      "wi-maps-dashboard-2026-0001",
+      "2026-06-18t19:06:00z",
+      "moderate",
+      "the",
+      "is",
+      "complete",
+      "enough",
+      "for",
+      "routing",
+      "but",
+      "individual",
+      "anchors",
+      "require",
+      "dated",
+      "refresh",
+      "before",
+      "claim-level",
+      "use"
+    ],
+    "sourceClasses": [
+      "Official U.S.",
+      "Allied official",
+      "National mapping agency",
+      "Multilateral",
+      "Commercial data",
+      "Research",
+      "Archival map"
+    ],
+    "actors": [],
+    "topicTags": [
+      "maps",
+      "theater dashboard",
+      "source routing",
+      "map lanes"
+    ],
+    "safetyBoundary": "Dashboard for source routing only. Excludes operational overlays, live movement tracking, targeting, route planning, or vulnerability mapping.",
+    "freshnessStatus": "Watch",
+    "lastSourceCheckUtc": "2026-06-18T19:06:00Z",
+    "nextRefreshUtc": "2026-06-25T19:06:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "current-watch",
+      "source-lag"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-MAPINDEX-THEATER-2026-0001",
+      "WI-SOURCE-REGISTER-MAPGEO-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "0e592c3d74de",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
     ]
   },
   {

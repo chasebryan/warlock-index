@@ -1,21 +1,21 @@
 {
   "generatedUtc": "2026-06-18T18:50:00Z",
-  "recordCount": 194,
-  "averageMetadataCompleteness": 51,
+  "recordCount": 198,
+  "averageMetadataCompleteness": 52,
   "refreshDueCount": 0,
-  "watchCount": 2,
+  "watchCount": 5,
   "gapCount": 5,
-  "needsMetadataCount": 177,
+  "needsMetadataCount": 176,
   "byHealthStatus": {
-    "needs-metadata": 177,
-    "ready": 10,
-    "gap": 5,
-    "watch": 2
+    "needs-metadata": 176,
+    "watch": 5,
+    "ready": 12,
+    "gap": 5
   },
   "byFreshnessStatus": {
-    "Unstated": 184,
-    "Current": 5,
-    "Watch": 5
+    "Unstated": 183,
+    "Watch": 8,
+    "Current": 7
   },
   "byType": {
     "Navigation": 1,
@@ -23,7 +23,7 @@
     "Document": 14,
     "Standard": 7,
     "Source Register": 8,
-    "Map Resource": 1,
+    "Map Resource": 5,
     "Actor Profile": 10,
     "Assessment": 17,
     "Matrix": 8,
@@ -34,13 +34,13 @@
     "Tracker": 17
   },
   "mostNeededMetadata": {
-    "missing-product-id": 41,
+    "missing-product-id": 40,
     "missing-safety-boundary": 36,
-    "missing-freshness-status": 184,
-    "missing-last-source-check": 184,
-    "missing-next-refresh": 184,
-    "missing-source-classes": 172,
-    "missing-caveats": 184,
-    "missing-primary-sources": 79
+    "missing-freshness-status": 183,
+    "missing-last-source-check": 183,
+    "missing-next-refresh": 183,
+    "missing-source-classes": 171,
+    "missing-caveats": 183,
+    "missing-primary-sources": 83
   }
 }
