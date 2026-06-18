@@ -4,13 +4,14 @@
 
 **Profile ID:** WI-ACTOR-IRAN-2026-0001
 
-**Prepared UTC:** 2026-06-12T23:33:32Z
+**Prepared UTC:** 2026-06-18T02:31:42Z
 
-**Information cutoff UTC:** 2026-06-12T23:33:32Z
+**Information cutoff UTC:** 2026-06-18T02:31:42Z
 
 **Source base:** Iran strategic actor classification; Iran WMD and
-missile-relevance source packet; existing Middle East, strategic-weapons,
-maritime, cyber, and official-source register lanes.
+missile-relevance source packet; U.S.-Iran MOU source-treatment note;
+existing Middle East, strategic-weapons, maritime, cyber, and official-source
+register lanes.
 
 **Analytic confidence:** Moderate for standing corpus classification and
 source routing. Lower for current capability, proxy-network condition, and
@@ -40,8 +41,12 @@ actor.**
   assesses regional power-projection and internal suppression capacity.
 - Iran's WMD-related file should be handled as a current uncertainty and
   compliance concern, not as a simple binary label.
+- Current reporting on a U.S.-Iran MOU should be treated as a source-treatment
+  issue until official text, sanctions instruments, IAEA records, and Iranian
+  issuer statements are captured.
 
 ## Linked Products
 
 - [2026-06-12T2333Z - Iran Strategic Actor Classification](../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 - [2026-06-13T2203Z - Iran WMD And Missile-Relevance Source Packet](../source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
+- [2026-06-18T0231Z - U.S.-Iran MOU Source-Treatment Note](../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)

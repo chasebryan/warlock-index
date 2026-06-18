@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-OFFICIAL-US-2026-0001
 
-**Prepared UTC:** 2026-06-17T22:51:55Z
+**Prepared UTC:** 2026-06-18T02:07:45Z
 
-**Information cutoff UTC:** 2026-06-17T22:51:55Z
+**Information cutoff UTC:** 2026-06-18T02:07:45Z
 
 **Source base:** Official U.S. executive-branch, congressional, legal,
 sanctions, diplomatic, cyber, maritime, map, and alliance source families
@@ -727,10 +727,26 @@ later dated refresh.
   South China Sea coercion, PRC cyber modernization, defense spending,
   defense industry, and DoD/DIA China military-power extraction-map, Taiwan
   pressure, South China Sea coercion/legal-source, and PRC cyber defensive
-  source-packet routing.
+  source-packet routing, plus PRC space/counterspace and
+  information-support source-packet routing.
 - **Reliability note:** Authoritative U.S. defense assessment for public use.
   It is focused on U.S. security concerns and is cross-read with allied,
   academic, and PRC primary sources where appropriate.
+
+## U.S. Space Force Source Family
+
+- **Source class:** A
+- **Publisher:** United States Space Force
+- **Publication status:** Public service-source family; page-level extraction
+  remains follow-on.
+- **Accessed UTC:** 2026-06-18T02:07:45Z
+- **URL:** https://www.spaceforce.mil/
+- **Use:** Official U.S. military-space source-family routing for space-domain
+  doctrine, service organization, space operations framing, domain awareness,
+  public posture statements, and PRC space/counterspace cross-check work.
+- **Reliability note:** Authoritative for U.S. Space Force public framing. It
+  should not be converted into PRC capability proof, orbital targeting,
+  sensor-performance analysis, or operational space guidance.
 
 ## State Department Limits In The Seas No. 150
 

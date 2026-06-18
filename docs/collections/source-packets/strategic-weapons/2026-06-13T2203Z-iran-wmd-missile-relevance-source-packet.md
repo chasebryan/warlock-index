@@ -4,9 +4,9 @@
 
 **Source Packet ID:** WI-SOURCEPACKET-IRAN-WMDMISSILE-2026-0001
 
-**Prepared UTC:** 2026-06-13T22:03:29Z
+**Prepared UTC:** 2026-06-18T02:31:42Z
 
-**Information cutoff UTC:** 2026-06-13T22:03:29Z
+**Information cutoff UTC:** 2026-06-18T02:31:42Z
 
 **Source base:** 2026 ODNI Annual Threat Assessment; 2026 National Defense
 Strategy; 2022 National Defense Strategy, Nuclear Posture Review, and Missile
@@ -14,9 +14,9 @@ Defense Review; DIA Iran Military Power; NATO Washington Summit Declaration;
 UN Security Council Resolution 2231 background and resolution text; existing
 WARLOCK-INDEX Iran profile, Iran strategic actor classification, strategic
 weapons official source baseline packet, arms-control erosion packet, arms
-control tracker, Red Sea products, Ukraine external support tracker, global
-cyber baseline, global space baseline, homeland baseline, and global
-assimilation matrix.
+control tracker, U.S.-Iran MOU source-treatment note, Red Sea products,
+Ukraine external support tracker, global cyber baseline, global space
+baseline, homeland baseline, and global assimilation matrix.
 
 **Analytic confidence:** High for official public source identity, Iran
 strategic-weapons relevance, missile and UAS relevance, UN Security Council
@@ -91,6 +91,9 @@ sanctions and snapback analysis.
    level only.
 7. Preserve absolute dates for JCPOA, snapback, military operations, source
    publication, and future monitoring updates.
+8. Treat the reported U.S.-Iran MOU as current-event source treatment until
+   official text, IAEA records, sanctions instruments, and Iranian issuer
+   statements are captured.
 
 ## Core Source Ledger
 
@@ -115,6 +118,7 @@ sanctions and snapback analysis.
 | Regional missile defense pressure | 2022 MDR | 2026 NDS; Middle East products; allied sources | Middle East partner exposure, missile/UAS defense burden, Gulf and Israel security relevance |
 | Russia-support and nonproliferation effects | NATO Washington | Ukraine external support tracker; ODNI | UAV support to Russia, possible missile-transfer escalation, sanctions and nonproliferation implications |
 | UN/JCPOA legal context | UNSCR 2231 background | State, IAEA, allied sources queued for future update | Resolution status, snapback, sanctions architecture, distinction between legal baseline and compliance evidence |
+| Reported U.S.-Iran MOU | U.S.-Iran MOU source-treatment note | Official U.S., Iranian, IAEA, UN, Treasury/OFAC, and mediator sources queued for future update | Reported ceasefire, Hormuz, sanctions, nuclear/IAEA, and negotiation-window source separation |
 | Space, cyber, and sanctions overlap | ODNI; DIA | Space baseline; cyber baseline; source registers | SLV relevance, cyber threat, sanctions resilience, procurement and finance at strategic level |
 
 ## Analytic Lanes
@@ -173,6 +177,15 @@ were terminated. WARLOCK-INDEX should treat this as legal-status evidence and
 separately source implementation, compliance, enforcement, and diplomatic
 claims.
 
+### Reported U.S.-Iran MOU
+
+Current reporting on a U.S.-Iran MOU should be handled as a source-treatment
+layer, not as confirmed implementation evidence. Reported terms involving
+ceasefire scope, Hormuz access, sanctions waivers or relief, frozen assets,
+oil exports, nuclear material, and IAEA supervision require official U.S.,
+Iranian, IAEA, UN, Treasury/OFAC, and mediator-source capture before this
+packet strengthens nuclear, sanctions, or maritime judgments.
+
 ### Source Discipline
 
 Iran analysis is unusually prone to compression: nuclear risk, missile force,
@@ -192,6 +205,7 @@ labels, date discipline, or safety boundaries.
 | Cyber and sanctions work | Connects Iran to cyber and sanctions-resilience lanes at strategic level | No cyber tactics, procurement methods, or evasion guidance |
 | Red Sea and Middle East products | Links Iran to UAS, proxy, maritime, and regional missile-defense pressure | No operational maritime disruption guidance |
 | Ukraine tracker updates | Adds an Iran-specific strategic source layer for Russia support and UAV effects | No battlefield targeting or weapons-effect analysis |
+| U.S.-Iran MOU follow-on work | Preserves reported MOU claims as source-treatment material pending official text and implementation records | No sanctions advice, route guidance, nuclear technical detail, or legal conclusion |
 | Future website navigation | Adds an Iran-specific packet under strategic weapons | No live operational tracking |
 
 ## Follow-On Source Packet Queue
@@ -199,6 +213,7 @@ labels, date discipline, or safety boundaries.
 | Packet | Purpose | Primary sources |
 | --- | --- | --- |
 | Iran Nuclear Verification And Safeguards Source Packet | Track IAEA access, safeguards reporting, material-accounting claims, and diplomatic status at source level | IAEA, UN, State, E3/EU, Iranian issuer-perspective sources |
+| U.S.-Iran MOU Official Text Capture | Track reported MOU text, signing status, sanctions instruments, IAEA role, Hormuz provisions, and negotiation window | White House, State, Treasury/OFAC, Iranian presidency, Iranian MFA, mediator, IAEA, UN |
 | Iran Missile And Space-Launch Source Packet | Track missile force, SLV activity, long-range pathway language, and missile-defense relevance | ODNI, DIA, DoD, MDA, Space Force, allied defense sources |
 | Iran UAS And Russia-Support Source Packet | Track UAV support, transfer claims, Russia integration, sanctions, and defense industrial effects | NATO, ODNI, Treasury, State, Ukraine, EU, UK |
 | Iran CBW Compliance Source Packet | Track CWC/BWC public claims, compliance reports, and WMD-norm concerns | ODNI, State compliance reports, OPCW/BWC sources, congressional reporting |
@@ -210,6 +225,8 @@ labels, date discipline, or safety boundaries.
 - Public sources do not reveal current nuclear-material status, full IAEA
   access condition, classified weaponization evidence, internal leadership
   intent, or recovery timelines.
+- Reported U.S.-Iran MOU terms require official text, sanctions-instrument,
+  IAEA, UN, Iranian, and mediator-source capture before implementation claims.
 - Public military operations language does not independently verify physical
   damage, future reconstitution, or technical facility condition.
 - Iranian missile and UAS production capacity, stockpile condition, and
@@ -230,6 +247,7 @@ labels, date discipline, or safety boundaries.
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
 - [DPRK Strategic Weapons Source Packet](2026-06-13T2151Z-dprk-strategic-weapons-source-packet.md)
 - [Arms-Control Erosion Source Packet](2026-06-13T0320Z-arms-control-erosion-source-packet.md)
+- [U.S.-Iran MOU Source-Treatment Note](../../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [Arms-Control Erosion Strategic Tracker](../../trackers/2026-06-13T0319Z-arms-control-erosion-strategic-tracker.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [Ukraine War External Support Tracker](../../trackers/2026-06-13T0120Z-ukraine-war-external-support-tracker.md)
@@ -259,3 +277,5 @@ labels, date discipline, or safety boundaries.
 - United Nations Security Council, *Resolution 2231 (2015) on Iran Nuclear
   Issue* background:
   `https://main.un.org/securitycouncil/en/content/2231/background`
+- U.S.-Iran MOU Source-Treatment Note:
+  `../../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md`

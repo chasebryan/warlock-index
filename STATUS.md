@@ -349,6 +349,43 @@
   added a browser-readable RSS feed at `/feed.xml`, refreshed favicon assets,
   retained recent-update discovery surfaces, and reduced image/cache weight on
   the main public pages.
+- Added the PRC space, counterspace, and information-support source packet
+  with DoD 2025, ODNI 2026, U.S. Space Force, PRC issuer, BeiDou, Aerospace
+  Force, Information Support Force, research-source-classing, official-U.S.
+  register, China/PLA tracker, source-packet README, docs-index, coverage-map,
+  and global matrix wiring while preserving no-orbital-targeting,
+  no-interference-methods, no-sensor-performance-analysis,
+  no-ground-segment-mapping, no-cyber-exploitation, and no-operational-guidance
+  boundaries.
+- Added the EU Readiness 2030 implementation source packet with Readiness
+  2030, SAFE, EDIP, EDIS, EDA, Council, Parliament, Official Journal, EU
+  budget, member-state uptake, military mobility, Ukraine-support,
+  allied/multilateral register, allied tracker, official allied matrix,
+  global matrix, coverage-map, NATO source-packet README, and docs-index
+  wiring while preserving no-readiness-scoring, no-procurement-advice,
+  no-route-guidance, no-sanctions-evasion, no-cyber-technical-detail, and
+  no-operational-guidance boundaries.
+- Added the Denmark Arctic and North Atlantic implementation source packet
+  with Danish MOD, Danish Defence, Joint Arctic Command, Greenland, Faroe
+  Islands, NATO, NORDEFCO, budget/parliamentary/procurement/audit follow-on
+  lanes, allied/multilateral register, allied tracker, official allied matrix,
+  global matrix, coverage-map, Arctic source-packet README, and docs-index
+  wiring while preserving no-Arctic-route-guidance, no-patrol-planning,
+  no-sensor-coverage-analysis, no-facility-mapping,
+  no-infrastructure-vulnerability-analysis, no-cyber-technical-detail, and
+  no-operational-guidance boundaries.
+- Added the U.S.-Iran MOU source-treatment note with current-event reporting
+  capture, official-source discovery caveats, Iran profile wiring, Iran
+  WMD/missile packet wiring, source-note README wiring, research/media
+  register wiring, docs-index wiring, and website-facing generated output
+  while preserving reported-not-official-source status, no-sanctions-advice,
+  no-sanctions-evasion, no-maritime-route-guidance, no-nuclear-technical-detail,
+  and no-operational-guidance boundaries.
+- Updated the U.S.-Iran MOU source-treatment lane to reflect Bloomberg as an
+  apparent publication route based on MarketWatch/JPMorgan reporting while
+  preserving a direct-Bloomberg-access caveat and keeping the MOU in
+  reported-source treatment pending official text or directly captured
+  Bloomberg text.
 
 ## Current Analytical Posture
 
@@ -365,14 +402,16 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
-- Add follow-on Denmark defense investment/delivery, Denmark Arctic/North
-  Atlantic implementation, Iceland NATO/air-policing, Iceland Coast
-  Guard/maritime-security, Iceland legal/budget/oversight, EU Readiness 2030
-  implementation, EU military mobility/infrastructure, EU defense-industrial
-  and Ukraine-support, EU cyber/resilience/hybrid-threat, and EU sanctions
-  source packets.
-- Add follow-on China/PLA source packets for PRC space/counterspace and
-  information support, PRC defense-industrial and emerging technology, PRC
+- Add follow-on Denmark defense investment/delivery, Greenland Arctic source
+  capture, Faroe North Atlantic source capture, Denmark maritime and
+  domain-awareness implementation refresh, Iceland NATO/air-policing, Iceland
+  Coast Guard/maritime-security, Iceland legal/budget/oversight, SAFE
+  legal/budget status refresh, EDIP legislative/program refresh, EU military
+  mobility/infrastructure, EU defense-industrial and Ukraine-support, EU
+  cyber/resilience/hybrid-threat, and EU sanctions source packets.
+- Add follow-on China/PLA source packets for PRC space/counterspace page-level
+  extraction, PRC Aerospace Force and Information Support Force issuer
+  capture, PRC defense-industrial and emerging technology, PRC
   defense white-paper deep extraction, Taiwan MND direct source capture,
   State/AIT Taiwan policy source refresh, PRC MND press conference archive
   capture, Philippine WPS page-level source refreshes where access remained

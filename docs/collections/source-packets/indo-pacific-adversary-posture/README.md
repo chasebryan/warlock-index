@@ -24,3 +24,4 @@ deployment schedules, or technical instructions.
 - [2026-06-14T1956Z - PRC Cyber And Critical Infrastructure Defensive Source Packet](2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [2026-06-17T2106Z - Salt Typhoon And Telecommunications Defensive Source Note](2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
 - [2026-06-17T2251Z - ASEAN And Claimant-State South China Sea Cross-Check Packet](2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
+- [2026-06-18T0207Z - PRC Space, Counterspace, And Information-Support Source Packet](2026-06-18T0207Z-prc-space-counterspace-information-support-source-packet.md)

@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-RESEARCH-MEDIA-2026-0001
 
-**Prepared UTC:** 2026-06-13T03:20:02Z
+**Prepared UTC:** 2026-06-18T02:38:51Z
 
-**Information cutoff UTC:** 2026-06-13T03:20:02Z
+**Information cutoff UTC:** 2026-06-18T02:38:51Z
 
 **Source base:** Research, media, industry, and specialist current-event
 source families listed in this register.
@@ -18,6 +18,32 @@ corroboration against official or primary-source material where available.
 Research and media sources are useful for current-event awareness, conflict
 timelines, and outside analytic perspectives. They should be separated from
 official-source baselines and graded explicitly.
+
+## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
+
+- **Source class:** C
+- **Publishers:** Bloomberg source family; The Guardian; MarketWatch;
+  Times of India; New York Post.
+- **Publication date:** 2026-06-17/18.
+- **Accessed UTC:** 2026-06-18T02:38:51Z
+- **URLs:**
+  - https://www.bloomberg.com/
+  - https://www.theguardian.com/world/2026/jun/17/us-iran-deal-trump
+  - https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated
+  - https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/the-market-is-still-betting-oil-supply-could-normalize-quickly-after-mou-leaked-says-jpmorgan-0D6iKX4fQJ0kxzy1VP0R
+  - https://timesofindia.indiatimes.com/world/middle-east/its-signed-us-iran-mou-officially-finalized-after-both-sides-digitally-sign-agreement/articleshow/131814879.cms
+  - https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/
+- **Use:** Current-event reporting source family for the reported U.S.-Iran
+  MOU, including reported ceasefire, Strait of Hormuz, sanctions waiver,
+  oil-export, frozen-asset, nuclear/IAEA, Lebanon/Hezbollah, and negotiation
+  window claims. MarketWatch/JPMorgan reporting says the MOU was published by
+  Bloomberg and other news outlets, making Bloomberg an apparent priority
+  capture target.
+- **Reliability note:** Use only as reported context until official U.S.,
+  Iranian, IAEA, UN, Treasury/OFAC, mediator, or directly captured Bloomberg
+  text is available. Bloomberg direct access was blocked in this environment;
+  live pages require timestamped or archived follow-on capture before precise
+  claims.
 
 ## Institute For The Study Of War
 

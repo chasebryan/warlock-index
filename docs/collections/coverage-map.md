@@ -4,9 +4,9 @@
 
 **Product ID:** WI-COVERAGE-MAP-2026-0001
 
-**Prepared UTC:** 2026-06-18T00:43:38Z
+**Prepared UTC:** 2026-06-18T02:07:45Z
 
-**Information cutoff UTC:** 2026-06-18T00:43:38Z
+**Information cutoff UTC:** 2026-06-18T02:07:45Z
 
 **Source base:** Existing WARLOCK-INDEX assessments, source registers,
 source packets, trackers, timelines, actor profiles, maps, and standards as
@@ -102,8 +102,9 @@ future open-source defense assessments.
   treatment, allied/regional defense white papers, cyber advisories, South
   China Sea legal sources, South China Sea coercion/legal-source treatment,
   PRC cyber and critical-infrastructure defensive source treatment, Salt
-  Typhoon telecommunications defensive source treatment, and China-specific
-  tracker/matrix products.
+  Typhoon telecommunications defensive source treatment, PRC
+  space/counterspace and information-support source treatment, and
+  China-specific tracker/matrix products.
 - ODNI declassified WMD, biosecurity, foreign-laboratory, and
   threat-reduction disclosures where handled as issuer-perspective source
   events with explicit no-methods and no-facility-detail boundaries.
@@ -128,8 +129,13 @@ future open-source defense assessments.
   inference.
 - Nordic and High North allied national source stacks, including Norway,
   Finland, Sweden, Denmark, and Iceland as dedicated Nordic/North Atlantic
-  baselines, with EU security-defense sources providing the adjacent
-  multilateral layer.
+  baselines, Denmark Arctic/North Atlantic implementation source treatment,
+  and EU security-defense sources providing the adjacent multilateral layer.
+- EU Readiness 2030 implementation source families, including SAFE, EDIP,
+  EDIS, EDA, Council, Parliament, Official Journal, EU budget, military
+  mobility, Ukraine-support, cyber/resilience, and member-state uptake lanes,
+  handled without readiness scoring, procurement advice, route guidance, or
+  operational planning.
 - India/Quad strategic-partner source stacks, including Quad ministerial and
   leader statements, India MEA source-family routing, U.S.-India iCET and
   INDUS-X sources, Indian PIB science/technology releases, and follow-on

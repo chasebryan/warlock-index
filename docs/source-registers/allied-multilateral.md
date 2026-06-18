@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-ALLIED-MULTILATERAL-2026-0001
 
-**Prepared UTC:** 2026-06-17T22:51:55Z
+**Prepared UTC:** 2026-06-18T02:07:45Z
 
-**Information cutoff UTC:** 2026-06-17T22:51:55Z
+**Information cutoff UTC:** 2026-06-18T02:07:45Z
 
 **Source base:** NATO, allied national, multilateral, Quad, EU, and partner
 official source families listed in this register and linked corpus source
@@ -203,6 +203,33 @@ later dated refresh.
   infer routes, facility vulnerabilities, sensor coverage, basing exposure, or
   operational posture.
 
+## Denmark Arctic And North Atlantic Implementation Source Families
+
+- **Source class:** A for official Danish, Greenlandic, Faroese, NATO, and
+  Nordic public source routes where directly accessible.
+- **Publisher:** Danish Ministry of Defence; Danish Defence; Joint Arctic
+  Command; Government of Greenland; Government of the Faroe Islands; NATO;
+  NORDEFCO.
+- **Publication status:** Source-family lane added for follow-on
+  implementation extraction.
+- **Accessed UTC:** 2026-06-18T02:07:45Z
+- **URLs:**
+  - https://www.fmn.dk/en/topics/national-tasks/arctic/
+  - https://www.forsvaret.dk/en/
+  - https://www.forsvaret.dk/en/organisation/joint-arctic-command/
+  - https://naalakkersuisut.gl/
+  - https://www.government.fo/
+  - https://www.nato.int/
+  - https://www.nordefco.org/
+- **Use:** Implementation-source routing for Denmark Arctic/North Atlantic,
+  Greenland/Faroe source separation, Joint Arctic Command, maritime and
+  domain-awareness source categories, naval/drone/infrastructure
+  implementation, NATO/Nordic cross-checks, and budget/procurement/audit
+  follow-on work.
+- **Reliability note:** Source-family routing only until exact pages and
+  documents are captured. Do not infer Arctic routes, patrol patterns, sensor
+  coverage, facility vulnerability, basing exposure, or operational posture.
+
 ## Danish NATO, EU, And NORDEFCO Source Families
 
 - **Source class:** A
@@ -306,6 +333,30 @@ later dated refresh.
   Implementation, disbursement, member-state uptake, production capacity,
   delivery, and readiness claims require follow-on legal, budget, EDA,
   Council, Parliament, and national-source evidence.
+
+## EU Readiness 2030 Implementation Source Families
+
+- **Source class:** A
+- **Publisher:** European Commission; Council of the European Union; European
+  Parliament; Official Journal of the European Union; European Defence Agency.
+- **Publication status:** Source-family lane added for follow-on legal,
+  budget, program, and member-state uptake extraction.
+- **Accessed UTC:** 2026-06-18T02:07:45Z
+- **URLs:**
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/white-paper-european-defence-readiness-2030_en
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/safe-security-action-europe_en
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/edip-forging-europes-defence_en
+  - https://defence-industry-space.ec.europa.eu/eu-defence-industry/edis-our-common-defence-industrial-strategy_en
+  - https://www.consilium.europa.eu/en/
+  - https://www.europarl.europa.eu/
+  - https://eur-lex.europa.eu/oj/direct-access.html
+  - https://eda.europa.eu/
+- **Use:** Implementation-source routing for Readiness 2030, SAFE, EDIP,
+  EDIS, EDA, legal status, EU budget, member-state plans, military mobility,
+  Ukraine support, and defense-industrial follow-on evidence.
+- **Reliability note:** Strong for EU institutional source identity.
+  Financing envelopes, program design, and policy ambition are not delivery,
+  production, stockpile, or NATO-readiness proof.
 
 ## EU CSDP, Cyber, Sanctions, And EDA Source Families
 
