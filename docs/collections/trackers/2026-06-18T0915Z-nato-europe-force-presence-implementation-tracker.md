@@ -12,6 +12,8 @@
 of War Rapid Response X posts dated 2026-06-18; AP current-event reporting on
 Secretary of War Pete Hegseth's NATO remarks; Allied Official Source
 Collection Tracker; NATO Allied Capacity Official Source Baseline Packet;
+NATO Europe force presence review source packet; NATO Europe force presence
+allied response capture packet;
 Official Allied Source Assimilation Matrix; Allied and Multilateral Source
 Register; NATO and national allied source families.
 
@@ -102,6 +104,10 @@ settlement, NATO consensus, or allied readiness.
 
 - NATO And U.S. Europe Force Posture Review Caveat:
   `../source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md`
+- NATO Europe Force Presence Review Source Packet:
+  `../source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.md`
+- NATO Europe Force Presence Allied Response Capture Packet:
+  `../source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.md`
 - Department of War Rapid Response X post, 2026-06-18:
   `https://x.com/DOWResponse/status/2067529203134648524?s=20`
 - Department of War Rapid Response X post, 2026-06-18:
@@ -115,6 +121,8 @@ settlement, NATO consensus, or allied readiness.
 ## Cross References
 
 - [NATO And U.S. Europe Force Posture Review Caveat](../source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md)
+- [NATO Europe Force Presence Review Source Packet](../source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.md)
+- [NATO Europe Force Presence Allied Response Capture Packet](../source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.md)
 - [Allied Official Source Collection Tracker](2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [Official Allied Source Assimilation Matrix](../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [NATO Allied Capacity Official Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)

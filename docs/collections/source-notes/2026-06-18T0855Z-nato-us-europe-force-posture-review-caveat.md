@@ -115,6 +115,8 @@ The remarks connect several WARLOCK-INDEX lanes:
 
 - [Allied Official Source Collection Tracker](../trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [NATO Europe Force Presence Implementation Tracker](../trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
+- [NATO Europe Force Presence Review Source Packet](../source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.md)
+- [NATO Europe Force Presence Allied Response Capture Packet](../source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.md)
 - [Official Allied Source Assimilation Matrix](../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [NATO Allied Capacity Official Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
 - [United Kingdom Defense Investment And Readiness Implementation Source Packet](../source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.md)

@@ -127,6 +127,8 @@ matrices.
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
 - [NATO Allied Capacity Source Packets](collections/source-packets/nato-allied-capacity)
 - [NATO Allied Capacity Official Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
+- [NATO Europe Force Presence Review Source Packet](collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.md)
+- [NATO Europe Force Presence Allied Response Capture Packet](collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.md)
 - [United Kingdom Official Defense And Security Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
 - [France Official Defense And Security Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)
 - [Germany Official Defense And Security Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.md)

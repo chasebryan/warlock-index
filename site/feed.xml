@@ -7,8 +7,28 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 09:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 09:45:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>NATO Europe Force Presence Allied Response Capture Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 09:45:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>No strong allied-response judgment should be made until official NATO or national sources are captured. Current reporting indicates that U.S. remarks created a live NATO burden-sharing and force-presence issue, but allied reaction must be separated by issuer: NATO institutional language, national government statements, parliamentary oversight, budget action, and later implementation evidence are different source types.</description>
+    </item>
+    <item>
+      <title>NATO Europe Force Presence Review Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 09:35:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The 2026-06-18 force-presence review signal currently rests on direct Department of War Rapid Response social-media URLs and current-event reporting. That is enough to preserve a dated source-treatment lane and trigger follow-on collection. It is not enough to treat the review as a completed force-posture decision, NATO consensus position, basing/access settlement, troop withdrawal, or allied readiness judgment.</description>
+    </item>
     <item>
       <title>NATO Europe Force Presence Implementation Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.html</link>
@@ -388,26 +408,6 @@
       <category>Global</category>
       <category>Sources</category>
       <description>Official U.S. source routing for defense industrial base strategy, munitions, energetics, shipbuilding, ship repair, submarine industrial base, workforce, acquisition demand signal, critical materials, microelectronics, software, and implementation oversight.</description>
-    </item>
-    <item>
-      <title>Research And Media Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/research-and-media.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/research-and-media.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Current-event awareness, live observation, institutional proceedings discovery, and follow-on source collection. LIVE-NEWS is a link-out navigation surface only; it does not host, rebroadcast, or embed streams.</description>
-    </item>
-    <item>
-      <title>U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Global</category>
-      <category>Source Packets</category>
-      <description>The U.S.-Iran MOU lane now has enough public reporting to warrant a dedicated implementation-capture packet, but not enough official-source evidence to treat the reported text as an implemented legal or operational settlement. Axios provides transcript-style text attributed to a senior administration official's readout and cautions that the print text had not been released. Guardian reporting describes the text, signing/status claims, Hormuz terms, sanctions-waiver claims, nuclear/IAEA provisions, and political reaction.</description>
     </item>
   </channel>
 </rss>

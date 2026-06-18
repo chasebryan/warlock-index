@@ -15,6 +15,8 @@ instructions.
 ## Products
 
 - [2026-06-13T0243Z - NATO Allied Capacity Official Source Baseline Packet](2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
+- [2026-06-18T0935Z - NATO Europe Force Presence Review Source Packet](2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.md)
+- [2026-06-18T0945Z - NATO Europe Force Presence Allied Response Capture Packet](2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.md)
 - [2026-06-14T0118Z - United Kingdom Official Defense And Security Source Baseline Packet](2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
 - [2026-06-18T0818Z - United Kingdom Defense Investment And Readiness Implementation Source Packet](2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.md)
 - [2026-06-14T0208Z - France Official Defense And Security Source Baseline Packet](2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)
