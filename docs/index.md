@@ -44,6 +44,9 @@ matrices.
 - [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [Europe, NATO, And Ukraine Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
+- [Arctic And High North Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1910Z-arctic-high-north-map-reference-source-packet.md)
+- [Middle East Maritime Chokepoint Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1911Z-middle-east-maritime-chokepoint-map-reference-source-packet.md)
+- [Africa Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.md)
 
 ## Assessments
 
@@ -169,6 +172,9 @@ matrices.
 - [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [Europe, NATO, And Ukraine Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
+- [Arctic And High North Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1910Z-arctic-high-north-map-reference-source-packet.md)
+- [Middle East Maritime Chokepoint Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1911Z-middle-east-maritime-chokepoint-map-reference-source-packet.md)
+- [Africa Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.md)
 - [Red Sea Maritime Economics Source Packets](collections/source-packets/red-sea-maritime-economics)
 - [Red Sea Maritime Economics And Insurance Source Packet](collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
 - [Maritime Chokepoints Source Packets](collections/source-packets/maritime-chokepoints)

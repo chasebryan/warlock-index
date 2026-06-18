@@ -7,8 +7,38 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 19:08:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 19:12:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Africa Map Reference Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:12:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Africa map work needs a dedicated lane because continent-level orientation can hide major subregional differences. Products should separate command-area framing, AU/UN multilateral context, national issuer perspectives, geographic-name questions, and historical/archival maps.</description>
+    </item>
+    <item>
+      <title>Middle East Maritime Chokepoint Map Reference Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1911Z-middle-east-maritime-chokepoint-map-reference-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1911Z-middle-east-maritime-chokepoint-map-reference-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:11:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Middle East maritime map work should support static chokepoint orientation and source routing, not live maritime analysis. Hormuz, Bab el-Mandeb, the Red Sea, Suez, and Eastern Mediterranean lanes require strong separation between map orientation, nautical chart source provenance, legal/diplomatic source claims, and commercial AIS leads.</description>
+    </item>
+    <item>
+      <title>Arctic And High North Map Reference Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1910Z-arctic-high-north-map-reference-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1910Z-arctic-high-north-map-reference-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:10:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Arctic map use should stay split into five lanes: static orientation, command-area framing, nautical/ocean source routing, issuer-perspective national maps, and multilateral or research context. No single public map should be treated as proof of access, mobility, infrastructure vulnerability, military readiness, or operational feasibility.</description>
+    </item>
     <item>
       <title>Maritime AIS Map Handling</title>
       <link>https://www.warlock-index.org/library/maps/maritime-ais-map-handling.html</link>
@@ -378,36 +408,6 @@
       <category>Collections</category>
       <category>Explainers</category>
       <description>The defense industrial base is the system that turns national strategy into usable military capacity over time. It includes companies, public depots, shipyards, laboratories, suppliers, workers, materials, budgets, contracts, software, repair networks, transport, and oversight institutions.</description>
-    </item>
-    <item>
-      <title>Drone And Counter-UAS Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-drone-counter-uas-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-drone-counter-uas-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Drones and counter-UAS are now a strategic industrial problem, not only a battlefield gadget category. Low-cost uncrewed systems can impose pressure on expensive platforms, logistics, air defense, public morale, and infrastructure. Counter-UAS systems then create their own demand for sensors, effectors, software, training, batteries, electronics, and rapid adaptation.</description>
-    </item>
-    <item>
-      <title>Explainer Standard</title>
-      <link>https://www.warlock-index.org/library/standards/explainer-standard.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/explainer-standard.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Standard</category>
-      <category>Global</category>
-      <category>Tradecraft</category>
-      <description>Explainers are reader-facing documentation products. They should answer the basic question a careful reader brings to the corpus: what is this topic, why does it matter, how does the system work, what claims are strong or weak, and what should be watched next?</description>
-    </item>
-    <item>
-      <title>Iran And Middle East Strategic Pressure Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-iran-middle-east-strategic-pressure-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-iran-middle-east-strategic-pressure-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Iran is a strategic pressure actor because it combines missiles, drones, proxy-aligned networks, maritime pressure, sanctions adaptation, information activity, and nuclear/WMD relevance. Its influence is not limited to Iran's territory. It appears through regional partners, proxy relationships, Red Sea and Gulf pressure, Russia support, and recurring crisis diplomacy.</description>
     </item>
   </channel>
 </rss>

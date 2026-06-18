@@ -1,20 +1,20 @@
 {
   "generatedUtc": "2026-06-18T18:50:00Z",
-  "recordCount": 198,
-  "averageMetadataCompleteness": 52,
+  "recordCount": 201,
+  "averageMetadataCompleteness": 53,
   "refreshDueCount": 0,
-  "watchCount": 5,
+  "watchCount": 8,
   "gapCount": 5,
   "needsMetadataCount": 176,
   "byHealthStatus": {
     "needs-metadata": 176,
-    "watch": 5,
+    "watch": 8,
     "ready": 12,
     "gap": 5
   },
   "byFreshnessStatus": {
     "Unstated": 183,
-    "Watch": 8,
+    "Watch": 11,
     "Current": 7
   },
   "byType": {
@@ -29,7 +29,7 @@
     "Matrix": 8,
     "Timeline": 5,
     "Explainer": 14,
-    "Source Packet": 66,
+    "Source Packet": 69,
     "Template": 2,
     "Tracker": 17
   },
@@ -41,6 +41,6 @@
     "missing-next-refresh": 183,
     "missing-source-classes": 171,
     "missing-caveats": 183,
-    "missing-primary-sources": 83
+    "missing-primary-sources": 86
   }
 }

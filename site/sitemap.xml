@@ -413,7 +413,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1910Z-arctic-high-north-map-reference-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -566,6 +574,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1911Z-middle-east-maritime-chokepoint-map-reference-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

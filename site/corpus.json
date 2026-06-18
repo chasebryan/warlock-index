@@ -34,7 +34,7 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "cab4cb8eec8c",
+    "sourceHash": "f9bf8120e49d",
     "metadataCompleteness": 8,
     "refreshDue": false,
     "daysUntilRefresh": null,
@@ -7878,6 +7878,103 @@
     ]
   },
   {
+    "title": "Africa Map Reference Source Packet",
+    "type": "Source Packet",
+    "path": "library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html",
+    "summary": "Africa map work needs a dedicated lane because continent-level orientation can hide major subregional differences. Products should separate command-area framing, AU/UN multilateral context, national issuer perspectives, geographic-name questions, and historical/archival maps.",
+    "productId": "WI-SP-MAPS-AFRICA-2026-0001",
+    "preparedUtc": "2026-06-18T19:12:00Z",
+    "cutoffUtc": "2026-06-18T19:12:00Z",
+    "confidence": "Moderate. Source-lane routing is stable, but country-level and subregional map anchors require product-level refresh.",
+    "theater": "Collections",
+    "domain": "Source Packets",
+    "topics": [],
+    "badges": [
+      "Source Packet",
+      "Collections",
+      "Source Packets",
+      "Official Source"
+    ],
+    "tags": [
+      "africa",
+      "map",
+      "reference",
+      "source",
+      "packet",
+      "collections",
+      "source-packets",
+      "theater-map-reference",
+      "2026-06-18t1912z-africa-map-reference-source-packet",
+      "source packet",
+      "source packets",
+      "wi-sp-maps-africa-2026-0001",
+      "2026-06-18t19:12:00z",
+      "moderate",
+      "source-lane",
+      "routing",
+      "is",
+      "stable",
+      "but",
+      "country-level",
+      "and",
+      "subregional",
+      "anchors",
+      "require",
+      "product-level",
+      "refresh"
+    ],
+    "sourceClasses": [
+      "Official U.S.",
+      "Multilateral",
+      "National mapping agency",
+      "Geographic names",
+      "Archival map",
+      "Research"
+    ],
+    "actors": [
+      "AFRICOM",
+      "African Union",
+      "United Nations",
+      "State Department",
+      "national mapping agencies",
+      "regional organizations"
+    ],
+    "topicTags": [
+      "maps",
+      "africa",
+      "AFRICOM",
+      "African Union",
+      "UN",
+      "national mapping agencies",
+      "source routing"
+    ],
+    "safetyBoundary": "Strategic orientation and source routing only. Excludes conflict-zone tactical maps, route analysis, sensitive facility overlays, infrastructure vulnerability mapping, domestic surveillance, targeting, or operational planning.",
+    "freshnessStatus": "Watch",
+    "lastSourceCheckUtc": "2026-06-18T19:12:00Z",
+    "nextRefreshUtc": "2026-06-25T19:12:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "current-watch",
+      "source-lag",
+      "translation-risk"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-MAPS-DASHBOARD-2026-0001",
+      "WI-SOURCE-REGISTER-MAPGEO-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "21e20e9aa4bd",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
+    ]
+  },
+  {
     "title": "Air And Missile Defense Industrial Capacity Source Packet",
     "type": "Source Packet",
     "path": "library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html",
@@ -7963,6 +8060,113 @@
       "missing-next-refresh",
       "missing-source-classes",
       "missing-caveats"
+    ]
+  },
+  {
+    "title": "Arctic And High North Map Reference Source Packet",
+    "type": "Source Packet",
+    "path": "library/collections/source-packets/theater-map-reference/2026-06-18T1910Z-arctic-high-north-map-reference-source-packet.html",
+    "summary": "Arctic map use should stay split into five lanes: static orientation, command-area framing, nautical/ocean source routing, issuer-perspective national maps, and multilateral or research context. No single public map should be treated as proof of access, mobility, infrastructure vulnerability, military readiness, or operational feasibility.",
+    "productId": "WI-SP-MAPS-ARCTIC-2026-0001",
+    "preparedUtc": "2026-06-18T19:10:00Z",
+    "cutoffUtc": "2026-06-18T19:10:00Z",
+    "confidence": "High for source-lane routing and safety boundaries; moderate for individual map currency pending product-level refresh.",
+    "theater": "Collections",
+    "domain": "Source Packets",
+    "topics": [
+      "arctic"
+    ],
+    "badges": [
+      "Source Packet",
+      "Collections",
+      "Source Packets",
+      "Official Source"
+    ],
+    "tags": [
+      "arctic",
+      "and",
+      "high",
+      "north",
+      "map",
+      "reference",
+      "source",
+      "packet",
+      "collections",
+      "source-packets",
+      "theater-map-reference",
+      "2026-06-18t1910z-arctic-high-north-map-reference-source-packet",
+      "source packet",
+      "source packets",
+      "wi-sp-maps-arctic-2026-0001",
+      "2026-06-18t19:10:00z",
+      "for",
+      "source-lane",
+      "routing",
+      "safety",
+      "boundaries",
+      "moderate",
+      "individual",
+      "currency",
+      "pending",
+      "product-level",
+      "refresh"
+    ],
+    "sourceClasses": [
+      "Official U.S.",
+      "Allied official",
+      "National mapping agency",
+      "Nautical chart",
+      "Geographic names",
+      "Multilateral",
+      "Research"
+    ],
+    "actors": [
+      "United States",
+      "Canada",
+      "Norway",
+      "Denmark",
+      "Greenland",
+      "Iceland",
+      "Finland",
+      "Sweden",
+      "NATO",
+      "Arctic Council",
+      "NORAD"
+    ],
+    "topicTags": [
+      "maps",
+      "arctic",
+      "high north",
+      "NORAD",
+      "NATO",
+      "maritime",
+      "source routing"
+    ],
+    "safetyBoundary": "Strategic orientation and source routing only. Excludes Arctic route guidance, ice-route advice, infrastructure vulnerability mapping, sensor coverage analysis, patrol inference, basing inference, targeting, or operational planning.",
+    "freshnessStatus": "Watch",
+    "lastSourceCheckUtc": "2026-06-18T19:10:00Z",
+    "nextRefreshUtc": "2026-06-25T19:10:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "current-watch",
+      "source-lag",
+      "commercial-data-limit"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-MAPS-DASHBOARD-2026-0001",
+      "WI-MAPS-TRIAGE-2026-0001",
+      "WI-SOURCE-REGISTER-MAPGEO-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "cd1e561d3656",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
     ]
   },
   {
@@ -11918,6 +12122,112 @@
     ]
   },
   {
+    "title": "Middle East Maritime Chokepoint Map Reference Source Packet",
+    "type": "Source Packet",
+    "path": "library/collections/source-packets/theater-map-reference/2026-06-18T1911Z-middle-east-maritime-chokepoint-map-reference-source-packet.html",
+    "summary": "Middle East maritime map work should support static chokepoint orientation and source routing, not live maritime analysis. Hormuz, Bab el-Mandeb, the Red Sea, Suez, and Eastern Mediterranean lanes require strong separation between map orientation, nautical chart source provenance, legal/diplomatic source claims, and commercial AIS leads.",
+    "productId": "WI-SP-MAPS-ME-MARITIME-2026-0001",
+    "preparedUtc": "2026-06-18T19:11:00Z",
+    "cutoffUtc": "2026-06-18T19:11:00Z",
+    "confidence": "High for source-lane routing and safety boundaries; moderate for individual map currency and commercial-data coverage.",
+    "theater": "Collections",
+    "domain": "Source Packets",
+    "topics": [
+      "middle-east"
+    ],
+    "badges": [
+      "Source Packet",
+      "Collections",
+      "Source Packets",
+      "Official Source"
+    ],
+    "tags": [
+      "middle",
+      "east",
+      "maritime",
+      "chokepoint",
+      "map",
+      "reference",
+      "source",
+      "packet",
+      "collections",
+      "source-packets",
+      "theater-map-reference",
+      "2026-06-18t1911z-middle-east-maritime-chokepoint-map-reference-source-packet",
+      "source packet",
+      "source packets",
+      "wi-sp-maps-me-maritime-2026-0001",
+      "2026-06-18t19:11:00z",
+      "high",
+      "for",
+      "source-lane",
+      "routing",
+      "and",
+      "safety",
+      "boundaries",
+      "moderate",
+      "individual",
+      "currency",
+      "commercial-data",
+      "coverage"
+    ],
+    "sourceClasses": [
+      "Official U.S.",
+      "Official maritime",
+      "Nautical chart",
+      "Commercial data",
+      "Port authority",
+      "Shipping and insurance",
+      "Multilateral"
+    ],
+    "actors": [
+      "CENTCOM",
+      "IMO",
+      "Iran",
+      "Houthis",
+      "Egypt",
+      "Gulf states",
+      "shipping and insurance source families",
+      "port authorities"
+    ],
+    "topicTags": [
+      "maps",
+      "middle east",
+      "red sea",
+      "strait of hormuz",
+      "bab el-mandeb",
+      "suez",
+      "maritime chokepoints",
+      "AIS"
+    ],
+    "safetyBoundary": "Strategic orientation and source routing only. Excludes vessel tracking, live AIS layers, route guidance, interdiction support, sanctions targeting, port approach detail, patrol-pattern inference, evasion, blockade mechanics, or operational maritime assessment.",
+    "freshnessStatus": "Watch",
+    "lastSourceCheckUtc": "2026-06-18T19:11:00Z",
+    "nextRefreshUtc": "2026-06-25T19:11:00Z",
+    "caveatTags": [
+      "map-reference-only",
+      "commercial-data-limit",
+      "current-watch",
+      "legal-status-uncertain"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-MAPS-AIS-2026-0001",
+      "WI-SOURCE-REGISTER-MARITIME-CHOKEPOINTS-2026-0001",
+      "WI-SOURCEPACKET-HORMUZ-CHOKEPOINT-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "add000b09eef",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 8,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
+    ]
+  },
+  {
     "title": "Multilateral Strategic Stability Source Packet",
     "type": "Source Packet",
     "path": "library/collections/source-packets/strategic-weapons/2026-06-13T2216Z-multilateral-strategic-stability-source-packet.html",
@@ -15465,7 +15775,7 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "5a7c163936d4",
+    "sourceHash": "4c56055fa00a",
     "metadataCompleteness": 8,
     "refreshDue": false,
     "daysUntilRefresh": null,

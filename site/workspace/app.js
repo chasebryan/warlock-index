@@ -22,6 +22,9 @@ const routes = [
   { id: "refresh-due", label: "Refresh due", match: (item) => item.refreshDue || item.sourceHealthStatus === "refresh-due" },
   { id: "needs-metadata", label: "Needs metadata", match: (item) => item.sourceHealthStatus === "needs-metadata" },
   { id: "defensive-cyber", label: "Defensive cyber", match: (item) => (item.caveatTags || []).some((tag) => normalize(tag) === "defensive cyber only") || itemHaystack(item).includes("defensive cyber") },
+  { id: "map-reference", label: "Map caveats", match: (item) => (item.caveatTags || []).some((tag) => normalize(tag) === "map reference only") || item.type === "Map Resource" || String(item.path || "").startsWith("library/maps/") },
+  { id: "commercial-data", label: "Commercial data", match: (item) => (item.caveatTags || []).some((tag) => normalize(tag) === "commercial data limit") },
+  { id: "legal-status", label: "Legal status", match: (item) => (item.caveatTags || []).some((tag) => normalize(tag) === "legal status uncertain") },
   { id: "assessments", label: "Assessments", match: (item) => item.type === "Assessment" },
   { id: "maps", label: "Maps", match: (item) => item.type === "Map Resource" || String(item.path || "").startsWith("library/maps/") },
   { id: "source-packets", label: "Source packets", match: (item) => item.type === "Source Packet" },
@@ -50,6 +53,9 @@ const quickRoutes = [
   "Refresh due",
   "Needs metadata",
   "Defensive cyber",
+  "Map caveats",
+  "Commercial data",
+  "Legal status",
   "Standards"
 ];
 
