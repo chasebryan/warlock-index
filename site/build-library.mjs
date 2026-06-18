@@ -699,6 +699,7 @@ function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latest
   const home = relativeUrl(currentDoc.outputRel, "index.html");
   const about = relativeUrl(currentDoc.outputRel, "about.html");
   const assessments = relativeUrl(currentDoc.outputRel, "library/assessments/index.html");
+  const topics = relativeUrl(currentDoc.outputRel, "topics/index.html");
   const collections = relativeUrl(currentDoc.outputRel, "library/collections/coverage-map.html");
   const maps = relativeUrl(currentDoc.outputRel, "library/maps/index.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
@@ -726,6 +727,7 @@ function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latest
       <a href="${escapeAttr(home)}">Home</a>
       <a href="${escapeAttr(about)}">About</a>
       <a${navAttrs("assessments")} href="${escapeAttr(assessments)}">Assessments</a>
+      <a href="${escapeAttr(topics)}">Topics</a>
       <a${navAttrs("collections")} href="${escapeAttr(collections)}">Collections</a>
       <a${navAttrs("maps")} href="${escapeAttr(maps)}">Maps</a>
       <a${navAttrs("standards")} href="${escapeAttr(standards)}">Standards</a>
@@ -927,7 +929,8 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
         <a href="../index.html">Home</a>
         <a href="../about.html">About</a>
         <a href="../library/assessments/">Assessments</a>
-        <a class="is-active" href="../library/collections/coverage-map.html" aria-current="page">Collections</a>
+        <a class="is-active" href="./" aria-current="page">Topics</a>
+        <a href="../library/collections/coverage-map.html">Collections</a>
         <a href="../library/maps/">Maps</a>
         <a href="../library/standards/product-standard.html">Standards</a>
         <a href="../feed.html">Feed</a>
@@ -991,6 +994,120 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
 `;
 }
 
+function renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso) {
+  const topicStats = topicHubs.map((topic) => {
+    const items = docsForTopic(docs, topic);
+    const lanes = [...new Set(items.map((doc) => doc.type).filter(Boolean))];
+    const latest = items[0]?.feedDate || null;
+    return { topic, items, lanes, latest };
+  });
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse WARLOCK-INDEX topic hubs by theater and domain.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="${escapeAttr(`${siteOrigin}/topics/`)}">
+    <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
+    <link rel="icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=${feedAssetVersion}" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#c0c0c0">
+    <meta property="og:title" content="Topic Hubs | ${escapeAttr(siteName)}">
+    <meta property="og:description" content="Browse WARLOCK-INDEX topic hubs by theater and domain.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="${escapeAttr(`${siteOrigin}/topics/`)}">
+    <meta property="og:site_name" content="${escapeAttr(siteName)}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Topic Hubs | ${escapeAttr(siteName)}">
+    <meta name="twitter:description" content="Browse WARLOCK-INDEX topic hubs by theater and domain.">
+    <title>Topic Hubs | ${siteName}</title>
+    <link rel="stylesheet" href="../styles.css?v=${feedAssetVersion}">
+  </head>
+  <body>
+    <a class="skip-link" href="#topics-index">Skip to topics</a>
+    <div class="page-shell" id="top">
+      <header class="site-header" data-elevated="false">
+        <a class="brand-panel" href="../index.html" aria-label="WARLOCK-INDEX home">
+          <span class="brand-copy">
+            <strong>WARLOCK-INDEX</strong>
+            <span>UNCLASSIFIED//OPEN SOURCE</span>
+            <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
+          </span>
+        </a>
+        <div class="status-terminal" aria-label="Local corpus terminal status">
+          <p>LOCAL CORPUS TERMINAL</p>
+          <p>STATUS: ONLINE</p>
+          <p>MODE: READ-ONLY</p>
+          <p>UPDATED: <time datetime="${escapeAttr(latestUpdateIso)}">${escapeHtml(latestUpdateStr)}</time></p>
+        </div>
+      </header>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../library/assessments/">Assessments</a>
+        <a class="is-active" href="./" aria-current="page">Topics</a>
+        <a href="../library/collections/coverage-map.html">Collections</a>
+        <a href="../library/maps/">Maps</a>
+        <a href="../library/standards/product-standard.html">Standards</a>
+        <a href="../feed.html">Feed</a>
+        <a href="../workspace/">Workspace</a>
+      </nav>
+      <main class="topics-index-shell" id="topics-index">
+        <section class="topic-page-head" aria-labelledby="topics-title">
+          <p class="feed-page-kicker">Topic hubs</p>
+          <h1 id="topics-title">Browse by theater or domain</h1>
+          <p>Use these hubs as stable entry points into the corpus. Each hub groups assessments, source packets, trackers, matrices, profiles, registers, and timelines by route.</p>
+          <div class="feed-page-meta">
+            <span>${topicHubs.length} hubs</span>
+            <span>${topicStats.reduce((sum, entry) => sum + entry.items.length, 0)} routed records</span>
+            <a href="../workspace/">Open Workspace</a>
+          </div>
+        </section>
+        <section class="topics-index-list" aria-label="Topic hubs">
+          ${topicStats.map(({ topic, items, lanes, latest }) => `
+            <article class="topics-index-row">
+              <div class="topics-index-metrics">
+                <strong>${items.length}</strong>
+                <span>records</span>
+                <span>${lanes.length} lanes</span>
+                ${latest ? `<time datetime="${escapeAttr(latest.toISOString())}">${escapeHtml(formatUpdateTime(latest))}</time>` : ""}
+              </div>
+              <div class="topics-index-main">
+                <h2><a href="${escapeAttr(`${topic.id}.html`)}">${escapeHtml(topic.title)}</a></h2>
+                <p>${escapeHtml(topic.summary)}</p>
+                <div class="doc-badges">
+                  ${lanes.slice(0, 5).map((lane) => `<span>${escapeHtml(lane)}</span>`).join("")}
+                </div>
+              </div>
+            </article>
+          `).join("")}
+        </section>
+      </main>
+      <footer class="site-footer">
+        <nav aria-label="Footer navigation">
+          <a href="../how-to-use.html">How to use</a>
+          <span>|</span>
+          <a href="../feed.html">Feed</a>
+          <span>|</span>
+          <a href="../workspace/">Workspace</a>
+        </nav>
+        <div class="footer-copy">
+          <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
+          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+`;
+}
+
 function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
   return `<!doctype html>
 <html lang="en">
@@ -1033,6 +1150,7 @@ function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="library/assessments/">Assessments</a>
+        <a href="topics/">Topics</a>
         <a href="library/collections/coverage-map.html">Collections</a>
         <a href="library/maps/">Maps</a>
         <a href="library/standards/product-standard.html">Standards</a>
@@ -1134,6 +1252,7 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="library/assessments/">Assessments</a>
+        <a href="topics/">Topics</a>
         <a href="library/collections/coverage-map.html">Collections</a>
         <a href="library/maps/">Maps</a>
         <a href="library/standards/product-standard.html">Standards</a>
@@ -1290,6 +1409,11 @@ async function build() {
   }
 
   await mkdir(path.join(siteRoot, "topics"), { recursive: true });
+  await writeFile(
+    path.join(siteRoot, "topics", "index.html"),
+    stripTrailingWhitespace(renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso)),
+    "utf8"
+  );
   for (const topic of topicHubs) {
     await writeFile(
       path.join(siteRoot, "topics", `${topic.id}.html`),
@@ -1343,6 +1467,7 @@ async function build() {
     { loc: absoluteUrl("index.html"), priority: "1.0" },
     { loc: absoluteUrl("about.html"), priority: "0.8" },
     { loc: absoluteUrl("how-to-use.html"), priority: "0.8" },
+    { loc: `${siteOrigin}/topics/`, priority: "0.86" },
     { loc: absoluteUrl("feed.html"), priority: "0.75" },
     { loc: `${siteOrigin}/workspace/`, priority: "0.85" },
     ...topicHubs.map((topic) => ({
