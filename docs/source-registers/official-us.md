@@ -43,6 +43,34 @@ later dated refresh.
   readiness scoring. Use the dedicated DIB source packet and capacity tracker
   for claim-strength discipline.
 
+## Munitions And Energetics Source Family
+
+- **Source class:** A/B depending on source lane
+- **Publishers:** U.S. Department of Defense; military departments;
+  Congress.gov; Congressional Research Service; Government Accountability
+  Office; Congressional Budget Office where applicable.
+- **Accessed UTC:** 2026-06-18T05:38:56Z
+- **URLs:**
+  - https://comptroller.defense.gov/Budget-Materials/
+  - https://www.businessdefense.gov/
+  - https://www.businessdefense.gov/NDIS.html
+  - https://www.congress.gov/
+  - https://crsreports.congress.gov/
+  - https://www.gao.gov/
+  - https://www.cbo.gov/
+- **Use:** Official U.S. source routing for munitions, energetics,
+  interceptors, artillery, conventional ammunition, guided munitions,
+  air-defense reloads, drone and counter-UAS effectors, rocket motors,
+  propellants, explosives, fuzes, warheads, budget demand signals, contract
+  source lanes, and implementation oversight.
+- **Reliability note:** Keep budget, authorization, appropriation, contract,
+  production-expansion, delivery, inventory, expenditure, and oversight
+  evidence separate. Do not infer classified stockpiles, operational
+  expenditure rates, reload timelines, supplier vulnerabilities, protected
+  facility details, or production-line weaknesses. Do not provide procurement
+  advice, weapons employment guidance, explosive-handling instructions, or
+  targeting support.
+
 ## Reported U.S.-Iran MOU Official-Source Capture Lane
 
 - **Source class:** A when directly retrieved; C for current transcript

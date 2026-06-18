@@ -22,8 +22,8 @@ shipment schedules, tactical vulnerabilities, or weapons employment guidance.
 
 **Source base:** NATO Washington Summit Declaration, NATO The Hague Summit
 Declaration, ODNI 2026 Annual Threat Assessment, current WARLOCK-INDEX Russia,
-China, Iran, North Korea, global, and defense industrial base products, and
-current WARLOCK-INDEX source registers.
+China, Iran, North Korea, global, defense industrial base, and munitions
+industrial capacity products, and current WARLOCK-INDEX source registers.
 
 **Analytic confidence:** High for broad categories identified in official NATO
 and ODNI public sources; moderate for quantities, timelines, technical details,
@@ -179,6 +179,7 @@ military end use.
 | Warlock Iran actor classification | Iran classified as selective adversary-alignment actor with Russia support relevance | Internal cross-reference |
 | Warlock North Korea actor classification | DPRK classified as Russia-war support partner | Internal cross-reference |
 | Warlock DIB baseline | Industrial capacity, munitions, interceptors, shipbuilding, drones, energetics, and allied production treated as strategic variables | Internal cross-reference |
+| Warlock munitions and energetics source packet | Munitions, energetics, interceptors, artillery, air-defense reloads, drone/counter-UAS effectors, and allied replenishment separated by source type and boundary | Internal cross-reference |
 
 ## Indicators To Monitor
 
@@ -228,6 +229,8 @@ military end use.
 - [North Korea Strategic Actor Classification](../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)
 - [Global Strategic Operating Picture](../../assessments/global/2026-06-13T0049Z-global-strategic-operating-picture.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
+- [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
+- [Munitions Industrial Capacity Tracker](2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
 
 ## Source Base
 

@@ -437,6 +437,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -606,6 +610,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

@@ -9,13 +9,14 @@
 **Information cutoff UTC:** 2026-06-18T05:25:03Z
 
 **Source base:** Defense industrial base, munitions, and shipbuilding source
-packet; U.S. defense industrial base strategic baseline; official U.S. source
-register; allied and multilateral source register; AUKUS industrial
-implementation source packet; ICE Pact Arctic warning implementation source
-packet; EU Readiness 2030 implementation source packet; NATO allied capacity
-source packet; allied official source tracker; official allied source
-assimilation matrix; DoD, Navy, CRS, GAO, Congress, NATO, EU, AUKUS, and
-national allied industrial source families.
+packet; munitions and energetics industrial capacity source packet; munitions
+industrial capacity tracker; U.S. defense industrial base strategic baseline;
+official U.S. source register; allied and multilateral source register; AUKUS
+industrial implementation source packet; ICE Pact Arctic warning
+implementation source packet; EU Readiness 2030 implementation source packet;
+NATO allied capacity source packet; allied official source tracker; official
+allied source assimilation matrix; DoD, Navy, CRS, GAO, Congress, NATO, EU,
+AUKUS, and national allied industrial source families.
 
 **Analytic confidence:** High for tracker structure and source-family routing.
 Moderate for current capacity, delivery, schedule, workforce, and supplier
@@ -50,7 +51,7 @@ oversight or audit source where available.
 | Lane | Current corpus status | Next source work | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
 | U.S. DIB strategy | Baseline complete; DIB source packet added | Refresh DoD Industrial Base Policy / NDIS pages and 2026 NDS references | High for routing; moderate for implementation | Strategy is not delivery proof |
-| Munitions and energetics | Present in DIB baseline; needs dedicated packet | Add munitions/energetics source packet using DoD budget, Army/Navy/Air Force, GAO, CRS, and congressional sources | Moderate pending dated capture | No stockpile exploitation, supplier vulnerability, or procurement advice |
+| Munitions and energetics | Dedicated munitions/energetics source packet and munitions capacity tracker added | Add dated source captures by artillery, interceptors, energetics, guided munitions, drone/counter-UAS effectors, and allied replenishment | High for routing; moderate for capacity and delivery evidence | No stockpile exploitation, supplier vulnerability, operational inventory, or procurement advice |
 | Air and missile defense industrial capacity | Present in DIB and strategic-weapons lanes | Add interceptor/air-defense capacity packet tied to Ukraine, Middle East, Indo-Pacific, and homeland demand | Moderate pending source refresh | No weapons employment, targeting, or operational inventory guidance |
 | Shipbuilding and repair | Present in DIB baseline, AUKUS, ICE Pact, maritime lanes | Add Navy shipbuilding/repair source packet using Navy budget/plans, CRS, GAO, NAVSEA, public shipyard, AUKUS, and ICE Pact sources | Moderate pending dated capture | No facility vulnerability, route, or operational maintenance detail |
 | Submarine industrial base | Strong AUKUS implementation source packet exists | Refresh U.S. Navy, CRS, GAO, UK, and Australian implementation evidence | High for source architecture; moderate for delivery | No submarine operations, nuclear technical detail, or basing analysis |
@@ -88,8 +89,9 @@ oversight or audit source where available.
 
 ## Information Gaps
 
-- No current WARLOCK-INDEX product yet isolates munitions and energetics as a
-  dedicated source packet.
+- The munitions lane now has a dedicated packet and tracker, but it still
+  needs dated source captures by program family, budget lane, contract lane,
+  implementation evidence, and oversight evidence.
 - Shipbuilding and repair are spread across DIB, AUKUS, Arctic, and maritime
   lanes and need a focused Navy/public-yard source packet.
 - Current allied industrial evidence is strong for routing but uneven for
@@ -103,6 +105,8 @@ oversight or audit source where available.
 ## Cross References
 
 - [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](../source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
+- [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
+- [Munitions Industrial Capacity Tracker](2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
 - [Defense Industrial Base Assimilation Matrix](../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)

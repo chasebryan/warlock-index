@@ -23,3 +23,4 @@ instructions.
 - [2026-06-13T2203Z - Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
 - [2026-06-18T0311Z - U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [2026-06-13T2216Z - Multilateral Strategic Stability Source Packet](2026-06-13T2216Z-multilateral-strategic-stability-source-packet.md)
+- [2026-06-18T0538Z - Munitions And Energetics Industrial Capacity Source Packet](../defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)

@@ -43,6 +43,27 @@ later dated refresh.
   procurement advice, readiness ranking, supplier vulnerability mapping,
   controlled technical-data workarounds, facility analysis, or route guidance.
 
+## Allied Munitions Replenishment Source Family
+
+- **Source class:** A/B depending on issuer and use
+- **Publishers:** NATO; European Commission; European Council; European
+  Parliament; European Defence Agency; allied national defense ministries,
+  finance ministries, parliaments, and audit bodies.
+- **Accessed UTC:** 2026-06-18T05:38:56Z
+- **URLs:**
+  - https://www.nato.int/cps/en/natohq/official_texts.htm
+  - https://defence-industry-space.ec.europa.eu/
+  - https://eda.europa.eu/
+- **Use:** Allied and multilateral source routing for munitions replenishment,
+  ammunition support, air-defense demand, Ukraine-support industrial effects,
+  defense-industrial cooperation, SAFE/EDIP/EDIS implementation, national
+  munitions budgets, national contracts, and audit/parliamentary cross-checks.
+- **Reliability note:** NATO and EU source language cannot substitute for
+  national budget, contract, delivery, or audit evidence. Do not aggregate
+  allied capacity into readiness scores. Do not provide procurement advice,
+  shipment routing, stockpile estimates, supplier vulnerability mapping,
+  weapons-employment guidance, or operational logistics guidance.
+
 ## ICE Pact And Canadian Polar Icebreaker Source Family
 
 - **Source class:** A

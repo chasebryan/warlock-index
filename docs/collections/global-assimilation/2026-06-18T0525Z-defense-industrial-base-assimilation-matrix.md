@@ -9,13 +9,15 @@
 **Information cutoff UTC:** 2026-06-18T05:25:03Z
 
 **Source base:** Defense industrial base, munitions, and shipbuilding source
-packet; defense industrial base capacity tracker; U.S. defense industrial
-base strategic baseline; official U.S. source register; allied and
-multilateral source register; AUKUS industrial implementation source packet;
-ICE Pact Arctic warning implementation source packet; EU Readiness 2030
-implementation source packet; NATO and allied official-source matrices and
-trackers; existing WARLOCK-INDEX strategic weapons, maritime chokepoint,
-Arctic, Indo-Pacific, Europe/Russia, cyber, space, and homeland products.
+packet; munitions and energetics industrial capacity source packet; munitions
+industrial capacity tracker; defense industrial base capacity tracker; U.S.
+defense industrial base strategic baseline; official U.S. source register;
+allied and multilateral source register; AUKUS industrial implementation
+source packet; ICE Pact Arctic warning implementation source packet; EU
+Readiness 2030 implementation source packet; NATO and allied official-source
+matrices and trackers; existing WARLOCK-INDEX strategic weapons, maritime
+chokepoint, Arctic, Indo-Pacific, Europe/Russia, cyber, space, and homeland
+products.
 
 **Analytic confidence:** High for corpus assimilation logic and cross-linking
 existing products. Moderate for production, delivery, workforce, supplier,
@@ -51,7 +53,7 @@ No single source type proves the entire capacity chain.
 | DIB lane | Primary source families | Connected theaters/domains | Linked WARLOCK-INDEX products | Required boundary |
 | --- | --- | --- | --- | --- |
 | U.S. DIB strategy | DoD Industrial Base Policy, NDIS, 2026 NDS | Homeland, global, Indo-Pacific, Europe/Russia | U.S. DIB baseline; DIB source packet; DIB tracker | Strategy is not production proof |
-| Munitions and energetics | DoD/service budgets, contracts, GAO, CRS, Congress | Ukraine, NATO, Middle East, Indo-Pacific, strategic weapons | Ukraine support tracker; strategic weapons packets; DIB tracker | No stockpile exploitation, supplier vulnerability, or procurement advice |
+| Munitions and energetics | DoD/service budgets, contracts, GAO, CRS, Congress, munitions source packet, munitions capacity tracker | Ukraine, NATO, Middle East, Indo-Pacific, strategic weapons | Ukraine support tracker; strategic weapons packets; DIB tracker; munitions source packet; munitions tracker | No stockpile exploitation, supplier vulnerability, operational inventory, weapons employment, or procurement advice |
 | Air and missile defense capacity | DoD/service budget books, missile defense source families, GAO/CRS | Homeland, Middle East, Indo-Pacific, Europe/Russia | Strategic weapons; Iran/DPRK profiles; DIB tracker | No weapons employment, sensor, or operational inventory guidance |
 | Shipbuilding and repair | Navy shipbuilding plans, Navy budget, NAVSEA, GAO, CRS | Indo-Pacific, Arctic, homeland, maritime chokepoints | DIB source packet; AUKUS packet; ICE Pact packet; maritime chokepoint matrix | No facility vulnerability, route, movement, or operational maintenance detail |
 | Submarine industrial base | AUKUS, Navy, CRS, GAO, UK MOD, ASA | Indo-Pacific, allied posture, strategic weapons | AUKUS industrial packet; allied matrix; DIB tracker | No submarine operations, basing analysis, or technical nuclear detail |
@@ -102,8 +104,9 @@ No single source type proves the entire capacity chain.
 - DIB products need recurring source refresh because budget, contract, and
   program status can change rapidly.
 - Existing corpus coverage is strongest for AUKUS, EU Readiness 2030, ICE
-  Pact, and broad U.S. DIB baseline; it is weaker for dedicated munitions,
-  energetics, Navy repair, workforce, and critical-materials packets.
+  Pact, broad U.S. DIB baseline, and munitions/energetics source routing; it
+  remains weaker for dated munitions source captures, Navy repair, workforce,
+  and critical-materials packets.
 - Public sources omit protected supplier data, classified stockpiles,
   nonpublic production rates, operational expenditure rates, surge timelines,
   and facility vulnerabilities.
@@ -113,6 +116,8 @@ No single source type proves the entire capacity chain.
 ## Cross References
 
 - [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](../source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
+- [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
+- [Munitions Industrial Capacity Tracker](../trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
 - [Defense Industrial Base Capacity Tracker](../trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)

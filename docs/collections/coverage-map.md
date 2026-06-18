@@ -129,6 +129,13 @@ future open-source defense assessments.
   Readiness 2030 defense-industrial implementation, NATO and allied
   industrial-capacity lanes, and the DIB capacity tracker and assimilation
   matrix.
+- Munitions and energetics source families, including DoD and service budget
+  source lanes, Congress.gov authorization and appropriation routes, CRS and
+  GAO oversight, CBO cost-analysis routing, NATO/EU/allied replenishment
+  lanes, Ukraine-support demand signals, artillery and conventional
+  ammunition, missiles and interceptors, air-defense reloads, rocket motors,
+  propellants, explosives, fuzes, warheads, guided munitions, and drone or
+  counter-UAS effector source queues.
 - NORAD modernization implementation source families, including Canada
   project-timeline and funding fact sheets, Our North Strong and Free Annex
   C, DND departmental planning, Canada budget chapters, Canada-U.S. joint

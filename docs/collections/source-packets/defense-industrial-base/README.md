@@ -15,3 +15,4 @@ methods, operational sustainment guidance, or readiness scoring.
 ## Current Products
 
 - [2026-06-18T0525Z - Defense Industrial Base, Munitions, And Shipbuilding Source Packet](2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
+- [2026-06-18T0538Z - Munitions And Energetics Industrial Capacity Source Packet](2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
