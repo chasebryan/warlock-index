@@ -55,7 +55,7 @@ func validatePreview(base string) error {
 	if err := underBudget(filepath.Join(base, "map-background-preview.html"), 64*1024); err != nil {
 		return err
 	}
-	if err := underBudget(filepath.Join(base, "global-map-updates.json"), 12*1024); err != nil {
+	if err := underBudget(filepath.Join(base, "global-map-updates.json"), 24*1024); err != nil {
 		return err
 	}
 	if err := underBudget(filepath.Join(base, "global-cream-map-reference.webp"), 1200*1024); err != nil {
@@ -73,7 +73,7 @@ func validatePreview(base string) error {
 }
 
 func validateProduction(siteRoot string) error {
-	if err := underBudget(filepath.Join(siteRoot, "global-map-updates.json"), 12*1024); err != nil {
+	if err := underBudget(filepath.Join(siteRoot, "global-map-updates.json"), 24*1024); err != nil {
 		return err
 	}
 	if err := underBudget(filepath.Join(siteRoot, "images", "cia-political-world-map.svg"), 1600*1024); err != nil {

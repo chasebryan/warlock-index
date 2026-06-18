@@ -11,6 +11,8 @@ const corpusPath = path.join(siteRoot, "corpus.js");
 const corpusJsonPath = path.join(siteRoot, "corpus.json");
 const corpusCsvPath = path.join(siteRoot, "corpus.csv");
 const corpusHealthPath = path.join(siteRoot, "corpus-health.json");
+const globalMapUpdatesPath = path.join(siteRoot, "global-map-updates.json");
+const previewGlobalMapUpdatesPath = path.join(siteRoot, "previews", "global-map-updates.json");
 const workspaceCorpusPath = path.join(siteRoot, "workspace", "corpus.js");
 const workspaceCorpusJsonPath = path.join(siteRoot, "workspace", "corpus.json");
 const workspaceCorpusHealthPath = path.join(siteRoot, "workspace", "corpus-health.json");
@@ -63,6 +65,8 @@ async function generatedSnapshot() {
     corpusJsonPath,
     corpusCsvPath,
     corpusHealthPath,
+    globalMapUpdatesPath,
+    previewGlobalMapUpdatesPath,
     workspaceCorpusPath,
     workspaceCorpusJsonPath,
     workspaceCorpusHealthPath,
