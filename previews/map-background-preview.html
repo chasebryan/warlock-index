@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>WARLOCK-INDEX Global Map Preview</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #eee5cf;
+        --paper-2: #e2d5b8;
+        --paper-3: #f7f0df;
+        --ink: #161711;
+        --muted: #5f604f;
+        --dim: #85816d;
+        --line: rgba(22, 23, 17, 0.16);
+        --line-strong: rgba(22, 23, 17, 0.34);
+        --green: #275f39;
+        --green-2: #143720;
+        --gold: #9a762c;
+        --red: #8a3e34;
+        --blue: #2f6970;
+        --panel: rgba(250, 246, 234, 0.88);
+        --panel-solid: #faf6ea;
+        --serif: Georgia, "Times New Roman", serif;
+        --mono: "Courier New", Courier, monospace;
+        --sans: Arial, Helvetica, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        min-width: 320px;
+        background: #d6c9ad;
+      }
+
+      body {
+        min-width: 320px;
+        margin: 0;
+        background:
+          linear-gradient(180deg, rgba(250, 246, 234, 0.94), rgba(221, 211, 185, 0.9)),
+          var(--paper);
+        color: var(--ink);
+        font-family: var(--sans);
+        line-height: 1.5;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      button,
+      input {
+        font: inherit;
+        letter-spacing: 0;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      .shell {
+        width: min(100% - 1.25rem, 1640px);
+        margin: 0 auto;
+        padding: 0.75rem 0 1.5rem;
+      }
+
+      .topbar {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 1rem;
+        align-items: end;
+        margin-bottom: 0.55rem;
+      }
+
+      .brand {
+        min-width: 0;
+      }
+
+      .brand strong {
+        display: block;
+        overflow: hidden;
+        font-family: var(--serif);
+        font-size: clamp(1.8rem, 3.6vw, 4.25rem);
+        font-weight: 400;
+        line-height: 0.92;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .brand span,
+      .meta-strip span,
+      .kicker,
+      .map-toolbar,
+      .legend,
+      .update-count {
+        font-family: var(--mono);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .brand span {
+        color: var(--green);
+        font-size: clamp(0.8rem, 1.2vw, 1rem);
+      }
+
+      .meta-strip {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.45rem;
+      }
+
+      .meta-strip span {
+        padding: 0.36rem 0.5rem;
+        border: 1px solid var(--line);
+        background: rgba(250, 246, 234, 0.62);
+        color: var(--muted);
+        font-size: 0.72rem;
+      }
+
+      .nav {
+        display: flex;
+        gap: 0.35rem;
+        overflow-x: auto;
+        margin-bottom: 0.75rem;
+        padding: 0.4rem;
+        border: 1px solid var(--line);
+        background: rgba(250, 246, 234, 0.6);
+      }
+
+      .nav a {
+        min-width: max-content;
+        padding: 0.48rem 0.68rem;
+        border: 1px solid transparent;
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 0.74rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .nav a.is-active,
+      .nav a:hover,
+      .nav a:focus {
+        border-color: var(--line-strong);
+        background: rgba(255, 255, 255, 0.42);
+        color: var(--ink);
+      }
+
+      .preview-note {
+        display: inline-flex;
+        margin-bottom: 0.65rem;
+        padding: 0.34rem 0.52rem;
+        border: 1px solid rgba(154, 118, 44, 0.32);
+        background: rgba(154, 118, 44, 0.08);
+        color: var(--gold);
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+        gap: 1rem;
+        align-items: start;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-rows: auto minmax(0, 1fr);
+        min-height: min(82vh, 900px);
+        border: 1px solid var(--line-strong);
+        background: var(--panel);
+        box-shadow: 0 24px 80px rgba(68, 57, 37, 0.14);
+        contain: layout paint style;
+      }
+
+      .hero-head {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) max-content;
+        gap: 1.25rem;
+        align-items: end;
+        padding: clamp(0.82rem, 1.8vw, 1.15rem) clamp(1rem, 2.6vw, 1.45rem);
+        border-bottom: 1px solid var(--line);
+        background: linear-gradient(180deg, rgba(250, 246, 234, 0.92), rgba(250, 246, 234, 0.78));
+      }
+
+      .kicker {
+        margin: 0 0 0.28rem;
+        color: var(--green);
+        font-size: 0.74rem;
+      }
+
+      h1 {
+        max-width: none;
+        margin: 0;
+        font-family: var(--serif);
+        font-size: clamp(1.45rem, 2.15vw, 2.5rem);
+        font-weight: 400;
+        line-height: 1;
+        white-space: nowrap;
+      }
+
+      .lede {
+        max-width: 860px;
+        margin: 0.45rem 0 0;
+        color: var(--muted);
+        font-family: var(--serif);
+        font-size: clamp(0.98rem, 1.35vw, 1.12rem);
+      }
+
+      .map-toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.42rem;
+        color: var(--muted);
+        font-size: 0.72rem;
+      }
+
+      .map-toolbar button {
+        padding: 0.42rem 0.54rem;
+        border: 1px solid var(--line-strong);
+        background: var(--panel-solid);
+        color: var(--green-2);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .filter-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        padding: 0.65rem clamp(1rem, 2.6vw, 1.45rem);
+        border-bottom: 1px solid var(--line);
+        background: rgba(250, 246, 234, 0.48);
+      }
+
+      .filter-row button {
+        padding: 0.4rem 0.52rem;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.34);
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .filter-row button:hover,
+      .filter-row button:focus,
+      .filter-row button[aria-pressed="true"] {
+        border-color: var(--line-strong);
+        background: var(--panel-solid);
+        color: var(--green-2);
+        outline: none;
+      }
+
+      .map-stage {
+        position: relative;
+        aspect-ratio: 1672 / 941;
+        overflow: hidden;
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(226, 213, 184, 0.38)),
+          var(--paper);
+        contain: layout paint style;
+      }
+
+      .map-stage::after {
+        position: absolute;
+        inset: 0;
+        border: 1px solid rgba(111, 101, 78, 0.24);
+        content: "";
+        pointer-events: none;
+      }
+
+      .world-map {
+        display: block;
+        width: 100%;
+        height: auto;
+        user-select: none;
+      }
+
+      .marker-layer {
+        position: absolute;
+        inset: 0;
+      }
+
+      .marker {
+        position: absolute;
+        width: 0.95rem;
+        height: 0.95rem;
+        margin: -0.475rem 0 0 -0.475rem;
+        border: 2px solid #fff8df;
+        background: var(--green);
+        box-shadow: 0 0 0 2px rgba(22, 23, 17, 0.18), 0 9px 22px rgba(22, 23, 17, 0.24);
+        color: transparent;
+        transform: translateZ(0);
+      }
+
+      .marker[data-shape="dot"] {
+        border-radius: 50%;
+        background: var(--blue);
+      }
+
+      .marker[data-status="active"] {
+        background: var(--red);
+      }
+
+      .marker:hover,
+      .marker:focus,
+      .marker.is-active {
+        outline: 3px solid rgba(154, 118, 44, 0.34);
+        outline-offset: 4px;
+        z-index: 2;
+      }
+
+      .marker::after {
+        position: absolute;
+        left: 50%;
+        bottom: calc(100% + 0.75rem);
+        min-width: 12rem;
+        max-width: 18rem;
+        padding: 0.55rem 0.62rem;
+        border: 1px solid var(--line-strong);
+        background: rgba(250, 246, 234, 0.96);
+        box-shadow: 0 14px 36px rgba(68, 57, 37, 0.18);
+        color: var(--ink);
+        content: attr(data-title);
+        font-family: var(--sans);
+        font-size: 0.82rem;
+        font-weight: 700;
+        line-height: 1.25;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(-50%) translateY(0.25rem);
+        transition: opacity 120ms ease, transform 120ms ease;
+      }
+
+      .marker:hover::after,
+      .marker:focus::after {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      .legend {
+        position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        max-width: calc(100% - 2rem);
+        padding: 0.5rem;
+        border: 1px solid var(--line);
+        background: rgba(250, 246, 234, 0.82);
+        color: var(--muted);
+        font-size: 0.68rem;
+      }
+
+      .legend span {
+        display: inline-flex;
+        gap: 0.3rem;
+        align-items: center;
+      }
+
+      .legend b {
+        display: inline-block;
+        width: 0.72rem;
+        height: 0.72rem;
+        background: var(--green);
+      }
+
+      .legend span:nth-child(2) b {
+        border-radius: 50%;
+        background: var(--blue);
+      }
+
+      .legend span:nth-child(3) b {
+        background: var(--red);
+      }
+
+      .side {
+        display: grid;
+        gap: 1rem;
+        position: sticky;
+        top: 0.75rem;
+      }
+
+      .panel {
+        border: 1px solid var(--line);
+        background: var(--panel);
+        contain: layout paint style;
+      }
+
+      .panel-inner {
+        padding: 0.95rem;
+      }
+
+      .panel h2 {
+        margin: 0 0 0.75rem;
+        color: var(--green);
+        font-family: var(--mono);
+        font-size: 0.74rem;
+        text-transform: uppercase;
+      }
+
+      .selected-title {
+        margin: 0;
+        font-family: var(--serif);
+        font-size: 1.36rem;
+        font-weight: 400;
+        line-height: 1.1;
+      }
+
+      .selected-meta,
+      .selected-summary {
+        color: var(--muted);
+      }
+
+      .selected-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin: 0.65rem 0;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        text-transform: uppercase;
+      }
+
+      .selected-summary {
+        margin: 0 0 0.9rem;
+      }
+
+      .selected-link {
+        display: inline-flex;
+        padding: 0.46rem 0.58rem;
+        border: 1px solid var(--line-strong);
+        color: var(--green-2);
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .update-list {
+        display: grid;
+        gap: 0.48rem;
+        max-height: 390px;
+        overflow: auto;
+      }
+
+      .update-item {
+        display: grid;
+        gap: 0.24rem;
+        width: 100%;
+        padding: 0.62rem;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.34);
+        color: var(--ink);
+        text-align: left;
+      }
+
+      .update-item:hover,
+      .update-item:focus,
+      .update-item.is-active {
+        border-color: var(--line-strong);
+        background: rgba(255, 255, 255, 0.58);
+        outline: none;
+      }
+
+      .update-item strong {
+        font-family: var(--serif);
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .update-item span,
+      .update-count {
+        color: var(--dim);
+        font-size: 0.7rem;
+      }
+
+      .empty-state {
+        margin: 0;
+        padding: 0.65rem;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.3);
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .performance-list {
+        display: grid;
+        gap: 0.45rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .performance-list li {
+        padding-bottom: 0.45rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .performance-list li:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .deferred {
+        content-visibility: auto;
+        contain-intrinsic-size: 1px 260px;
+      }
+
+      .context-note {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 1120px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+
+        .side {
+          position: static;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        .topbar,
+        .hero-head,
+        .side {
+          grid-template-columns: 1fr;
+        }
+
+        .brand strong {
+          white-space: normal;
+        }
+
+        h1 {
+          white-space: normal;
+        }
+
+        .meta-strip,
+        .map-toolbar {
+          justify-content: flex-start;
+        }
+
+        .marker::after {
+          display: none;
+        }
+
+        .side {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="WARLOCK-INDEX home">
+          <strong>WARLOCK-INDEX</strong>
+          <span>Global strategic corpus map</span>
+        </a>
+        <div class="meta-strip" aria-label="Preview status">
+          <span>Candidate</span>
+          <span>151 KB map</span>
+          <span>JSON markers</span>
+        </div>
+      </header>
+
+      <nav class="nav" aria-label="Preview navigation">
+        <a class="is-active" href="#top">Global Map</a>
+        <a href="../library/assessments/">Assessments</a>
+        <a href="../topics/">Theaters</a>
+        <a href="../library/maps/">Maps</a>
+        <a href="../library/collections/coverage-map.html">Collections</a>
+        <a href="legacy-painterly-study-preview.html">Historical Preview</a>
+      </nav>
+
+      <span class="preview-note">Global map study surface</span>
+
+      <main class="layout">
+        <section class="hero" aria-labelledby="map-title">
+          <div class="hero-head">
+            <div>
+              <p class="kicker">Current strategic picture</p>
+              <h1 id="map-title">Where the corpus is moving now.</h1>
+              <p class="lede">A world view of recent assessments, trackers, map packets, and source work across theaters and domains.</p>
+            </div>
+            <div class="map-toolbar" aria-label="Map controls">
+              <span class="update-count" id="update-count">Loading updates</span>
+              <button type="button" id="clear-map">Reset view</button>
+            </div>
+          </div>
+
+          <div class="filter-row" id="filter-row" aria-label="Map category filters"></div>
+
+          <div class="map-stage" id="map-stage">
+            <img
+              class="world-map"
+              src="global-cream-map-reference.webp"
+              width="1672"
+              height="941"
+              alt="Cream-toned world reference map"
+              decoding="async"
+              fetchpriority="high"
+            >
+            <div class="marker-layer" id="marker-layer" aria-label="Latest corpus update map markers"></div>
+            <div class="legend" aria-label="Map legend">
+              <span><b></b> tracker</span>
+              <span><b></b> map/source packet</span>
+              <span><b></b> active watch</span>
+            </div>
+          </div>
+        </section>
+
+        <aside class="side" aria-label="Map update details">
+          <section class="panel" aria-labelledby="selected-heading">
+            <div class="panel-inner">
+              <h2 id="selected-heading">Selected Record</h2>
+              <p class="selected-title" id="selected-title">No marker selected</p>
+              <div class="selected-meta" id="selected-meta">
+                <span>Choose a map point</span>
+              </div>
+              <p class="selected-summary" id="selected-summary">Select a point to see the record behind it and open the source-routed product.</p>
+              <a class="selected-link" id="selected-link" href="../library/" hidden>Open product</a>
+            </div>
+          </section>
+
+          <section class="panel" aria-labelledby="list-heading">
+            <div class="panel-inner">
+              <h2 id="list-heading">Mapped Updates</h2>
+              <div class="update-list" id="update-list"></div>
+            </div>
+          </section>
+
+          <section class="panel deferred" aria-labelledby="perf-heading">
+            <div class="panel-inner">
+              <h2 id="perf-heading">Design Notes</h2>
+              <p class="context-note">The map remains the visual anchor while the marker layer stays light enough to maintain as static site content.</p>
+              <ul class="performance-list">
+                <li>151 KB WebP reference map; no tile server, canvas engine, or third-party map library.</li>
+                <li>Marker maintenance is isolated to one small JSON file.</li>
+                <li>Delegated click handlers for markers, filters, and list items.</li>
+                <li>No animation loops; hover is CSS-only and mobile hides tooltips.</li>
+                <li>`contain` and `content-visibility` limit layout and paint cost.</li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <script>
+      const state = { updates: [], selectedId: "", category: "all" };
+      const markerLayer = document.querySelector("#marker-layer");
+      const updateList = document.querySelector("#update-list");
+      const filterRow = document.querySelector("#filter-row");
+      const countEl = document.querySelector("#update-count");
+      const titleEl = document.querySelector("#selected-title");
+      const metaEl = document.querySelector("#selected-meta");
+      const summaryEl = document.querySelector("#selected-summary");
+      const linkEl = document.querySelector("#selected-link");
+      const clearBtn = document.querySelector("#clear-map");
+
+      function escapeHtml(value) {
+        return String(value).replace(/[&<>"']/g, (char) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;"
+        })[char]);
+      }
+
+      function visibleUpdates() {
+        if (state.category === "all") return state.updates;
+        return state.updates.filter((item) => item.category === state.category);
+      }
+
+      function renderFilters(updates) {
+        const categories = ["all", ...new Set(updates.map((item) => item.category))];
+        filterRow.innerHTML = categories.map((category) => `
+          <button
+            type="button"
+            data-filter="${escapeHtml(category)}"
+            aria-pressed="${category === state.category ? "true" : "false"}"
+          >${escapeHtml(category)}</button>
+        `).join("");
+      }
+
+      function render(updates) {
+        markerLayer.innerHTML = updates.map((item) => `
+          <button
+            class="marker"
+            type="button"
+            data-id="${escapeHtml(item.id)}"
+            data-title="${escapeHtml(item.title)}"
+            data-shape="${escapeHtml(item.shape)}"
+            data-status="${escapeHtml(item.status)}"
+            style="left:${Number(item.x)}%;top:${Number(item.y)}%"
+            aria-label="${escapeHtml(item.title)}"
+          ></button>
+        `).join("");
+
+        updateList.innerHTML = updates.length
+          ? updates.map((item) => `
+            <button class="update-item" type="button" data-id="${escapeHtml(item.id)}">
+              <strong>${escapeHtml(item.title)}</strong>
+              <span>${escapeHtml(item.region)} / ${escapeHtml(item.date)}</span>
+            </button>
+          `).join("")
+          : '<p class="empty-state">No updates match this filter.</p>';
+
+        countEl.textContent = `${updates.length} updates`;
+      }
+
+      function renderAll() {
+        renderFilters(state.updates);
+        render(visibleUpdates());
+        if (state.selectedId && !visibleUpdates().some((item) => item.id === state.selectedId)) {
+          selectUpdate("");
+        } else if (state.selectedId) {
+          selectUpdate(state.selectedId);
+        }
+      }
+
+      function selectUpdate(id) {
+        state.selectedId = id;
+        const item = state.updates.find((update) => update.id === id);
+        document.querySelectorAll("[data-id]").forEach((el) => {
+          el.classList.toggle("is-active", el.dataset.id === id);
+        });
+
+        if (!item) {
+          titleEl.textContent = "No marker selected";
+          metaEl.innerHTML = "<span>Hover or click a square/dot</span>";
+          summaryEl.textContent = "The selected update will appear here with its theater, date, category, and source-routed link.";
+          linkEl.hidden = true;
+          return;
+        }
+
+        titleEl.textContent = item.title;
+        metaEl.innerHTML = `
+          <span>${escapeHtml(item.region)}</span>
+          <span>${escapeHtml(item.category)}</span>
+          <span>${escapeHtml(item.date)}</span>
+          <span>${escapeHtml(item.status)}</span>
+        `;
+        summaryEl.textContent = item.summary;
+        linkEl.href = item.url;
+        linkEl.hidden = false;
+
+        const activeListItem = [...updateList.querySelectorAll("[data-id]")]
+          .find((element) => element.dataset.id === id);
+        if (activeListItem) {
+          activeListItem.scrollIntoView({ block: "nearest" });
+        }
+      }
+
+      function handleSelection(event) {
+        const target = event.target.closest("[data-id]");
+        if (!target) return;
+        selectUpdate(target.dataset.id);
+      }
+
+      markerLayer.addEventListener("click", handleSelection);
+      updateList.addEventListener("click", handleSelection);
+      filterRow.addEventListener("click", (event) => {
+        const target = event.target.closest("[data-filter]");
+        if (!target) return;
+        state.category = target.dataset.filter;
+        renderAll();
+      });
+      clearBtn.addEventListener("click", () => {
+        state.category = "all";
+        renderAll();
+        selectUpdate("");
+      });
+
+      fetch("global-map-updates.json")
+        .then((response) => response.json())
+        .then((updates) => {
+          state.updates = updates;
+          renderAll();
+        })
+        .catch(() => {
+          countEl.textContent = "Updates unavailable";
+          updateList.innerHTML = "<p>Could not load marker data.</p>";
+        });
+    </script>
+  </body>
+</html>

@@ -1,27 +1,27 @@
 :root {
   color-scheme: light;
-  --black: #777;
-  --black-2: #c0c0c0;
-  --chrome: #c0c0c0;
-  --chrome-dark: #6f6f6f;
+  --black: #d6c9ad;
+  --black-2: #eee5cf;
+  --chrome: #d8ccb4;
+  --chrome-dark: #7d735d;
   --chrome-light: #ffffff;
-  --panel: #f7f7ef;
-  --panel-soft: #ebebe3;
+  --panel: #faf6ea;
+  --panel-soft: #eee5cf;
   --white: #090909;
-  --muted: #303030;
-  --dim: #5d5d55;
-  --green: #006b2b;
-  --green-soft: rgba(0, 107, 43, 0.11);
-  --purple: #551a8b;
-  --purple-soft: rgba(85, 26, 139, 0.26);
-  --line: rgba(0, 0, 0, 0.18);
-  --line-strong: rgba(0, 107, 43, 0.34);
+  --muted: #5f604f;
+  --dim: #85816d;
+  --green: #275f39;
+  --green-soft: rgba(39, 95, 57, 0.12);
+  --purple: #7c5f24;
+  --purple-soft: rgba(124, 95, 36, 0.24);
+  --line: rgba(22, 23, 17, 0.16);
+  --line-strong: rgba(22, 23, 17, 0.34);
   --radius: 2px;
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
   --mono: "Courier New", Courier, monospace;
   --page-pad: clamp(1rem, 3vw, 1.45rem);
-  --page-title: clamp(2.1rem, 5vw, 4rem);
+  --page-title: clamp(1.8rem, 3.4vw, 3.1rem);
   --section-title: clamp(1.2rem, 2.5vw, 1.55rem);
   --card-title: clamp(1.05rem, 2.2vw, 1.28rem);
   --lede: 1.05rem;
@@ -33,13 +33,15 @@
 
 html {
   min-width: 320px;
-  background: #777;
+  background: var(--black);
   scroll-behavior: auto;
 }
 
 body {
   margin: 0;
-  background: #777;
+  background:
+    linear-gradient(180deg, rgba(250, 246, 234, 0.88), rgba(216, 204, 180, 0.9)),
+    var(--black);
   color: var(--white);
   font-family: var(--sans);
   font-size: 16px;

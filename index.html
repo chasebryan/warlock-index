@@ -11,13 +11,13 @@
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://www.warlock-index.org/">
     <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
-    <link rel="icon" href="/favicon.png?v=20260617-green-press" type="image/png" sizes="180x180">
-    <link rel="icon" href="/favicon.svg?v=20260617-green-press" type="image/svg+xml">
-    <link rel="shortcut icon" href="/favicon.png?v=20260617-green-press" type="image/png">
+    <link rel="icon" href="/favicon.png?v=20260618-cream-map" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=20260618-cream-map" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=20260618-cream-map" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="mask-icon" href="/favicon.svg?v=20260617-green-press" color="#006b2b">
+    <link rel="mask-icon" href="/favicon.svg?v=20260618-cream-map" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#c0c0c0">
+    <meta name="theme-color" content="#d8ccb4">
     <meta property="og:title" content="WARLOCK-INDEX | Strategic assessment corpus">
     <meta
       property="og:description"
@@ -56,7 +56,7 @@
       }
     </script>
     <title>WARLOCK-INDEX</title>
-    <link rel="stylesheet" href="styles.css?v=20260617-green-press">
+    <link rel="stylesheet" href="styles.css?v=20260618-cream-map">
   </head>
   <body>
     <a class="skip-link" href="#search-input">Skip to search</a>
@@ -92,6 +92,46 @@
       </nav>
 
       <main>
+        <section class="global-map-panel" aria-labelledby="global-map-title">
+          <div class="global-map-head">
+            <div>
+              <p class="map-kicker">Current strategic picture</p>
+              <h1 id="global-map-title">Where the corpus is moving now.</h1>
+              <p>A world view of recent assessments, trackers, map packets, and source work across theaters and domains.</p>
+            </div>
+            <div class="global-map-tools" aria-label="Map controls">
+              <span id="global-map-count">Loading updates</span>
+              <button type="button" id="global-map-reset">Reset view</button>
+            </div>
+          </div>
+          <div class="global-map-filters" id="global-map-filters" aria-label="Map category filters"></div>
+          <div class="global-map-stage">
+            <img
+              class="global-map-image"
+              src="images/global-cream-map-reference.webp"
+              width="1672"
+              height="941"
+              alt="Cream-toned world reference map"
+              decoding="async"
+              fetchpriority="high"
+            >
+            <div class="global-map-markers" id="global-map-markers" aria-label="Latest corpus update map markers"></div>
+            <div class="global-map-legend" aria-label="Map legend">
+              <span><b></b> tracker</span>
+              <span><b></b> map/source packet</span>
+              <span><b></b> active watch</span>
+            </div>
+          </div>
+          <div class="global-map-drawer" aria-live="polite">
+            <div>
+              <span>Selected record</span>
+              <strong id="global-map-selected-title">Choose a map point</strong>
+              <p id="global-map-selected-summary">Select a marker to open the record behind it.</p>
+            </div>
+            <a id="global-map-selected-link" href="library/" hidden>Open product</a>
+          </div>
+        </section>
+
         <section class="route-search-panel" id="navigator" aria-labelledby="navigator-title">
           <nav class="route-list" aria-label="Core corpus routes">
             <h2>Core Corpus Routes</h2>
@@ -107,7 +147,7 @@
           </nav>
 
           <section class="search-console" aria-labelledby="navigator-title">
-            <h1 id="navigator-title">Search the corpus</h1>
+            <h2 id="navigator-title">Search the corpus</h2>
             <form class="terminal-form" id="search-form">
               <label class="visually-hidden" for="search-input">Search documents</label>
               <input
@@ -210,7 +250,7 @@
       </footer>
     </div>
 
-    <script src="corpus.js?v=20260617-green-press" defer></script>
-    <script src="script.js?v=20260617-green-press" defer></script>
+    <script src="corpus.js?v=20260618-cream-map" defer></script>
+    <script src="script.js?v=20260618-cream-map" defer></script>
   </body>
 </html>
