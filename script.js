@@ -439,6 +439,7 @@ function renderGlobalMapMarkers(updates) {
       data-map-id="${escapeHtml(item.id)}"
       data-title="${escapeHtml(`${item.title} / ${item.anchor || item.region}`)}"
       data-shape="${escapeHtml(item.shape)}"
+      data-category="${escapeHtml(item.category)}"
       data-status="${escapeHtml(item.status)}"
       style="left:${Number(item.x)}%;top:${Number(item.y)}%"
       aria-label="${escapeHtml(`${item.title}, ${item.anchor || item.region}`)}"
