@@ -84,6 +84,9 @@ collection requirements.
   official-source absence.
 - Keep Treasury/OFAC, Federal Register, IAEA, UN, IMO, Iranian official, and
   mediator routes in the follow-on queue.
+- Use the implementation watch tracker as the control product for future
+  official-text, legal-effect, sanctions, maritime, nuclear, UN, and market
+  implementation updates.
 - Do not upgrade sanctions, Hormuz, nuclear, or UN claims beyond reported
   current-event status.
 - Link this note from the official U.S. source register, maritime chokepoint
@@ -106,6 +109,7 @@ collection requirements.
 ## Cross References
 
 - [U.S.-Iran MOU Source-Treatment Note](2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Implementation Watch Tracker](../trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.md)
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [Strait Of Hormuz Strategic Chokepoint Source Packet](../source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - [Official U.S. Source Register](../../source-registers/official-us.md)
