@@ -11,7 +11,10 @@
 **Source base:** Critical materials and defense supply chain source packet;
 defense industrial base capacity tracker; defense industrial base
 assimilation matrix; munitions and energetics source packet; munitions
-industrial capacity tracker; AUKUS industrial implementation source packet;
+industrial capacity tracker; Navy shipbuilding and repair industrial capacity
+source packet; air and missile defense industrial capacity source packet;
+drone and counter-UAS industrial capacity source packet; AUKUS industrial
+implementation source packet; allied defense industrial base crosswalk;
 China/PLA official military and security source baseline packet; Ukraine war
 external support tracker; official U.S. source register; allied and
 multilateral source register; USGS, DOE, DLA, DoD, Commerce/BIS, Federal
@@ -56,8 +59,8 @@ identity to implementation and oversight evidence.
 | DoD DIB supply chains | DIB tracker and DIB matrix identify supply chains, microelectronics, critical materials | Refresh DoD Industrial Base Policy, NDIS, budget, and program evidence | High for routing; moderate for implementation | Strategy and budget are not delivery proof |
 | Munitions and energetics inputs | Munitions packet identifies energetics, propellants, explosives, motors, fuzes, electronics | Add source captures that link material categories to munitions without technical process detail | Moderate pending source refresh | No formulas, handling, production methods, or supplier vulnerability |
 | Microelectronics and semiconductors | China/PLA, cyber/space, DIB, and India/Quad lanes identify semiconductor relevance | Add CHIPS/BIS/Federal Register/GAO/CRS source captures | Moderate pending dated capture | No export-control evasion, replication, or technical workaround guidance |
-| Shipbuilding and submarine inputs | AUKUS and DIB lanes identify supplier, workforce, and industrial-base dependencies | Add Navy/AUKUS/UK/Australia/CRS/GAO source captures for supply-chain categories | Moderate pending source refresh | No facility vulnerability, nuclear technical detail, or operational routing |
-| Batteries, magnets, sensors, and drones | DIB and cyber/space lanes identify battery, rare earth, sensor, drone/counter-UAS relevance | Add source packet later for drone/counter-UAS and battery/sensor supply chains | Moderate pending source refresh | No tactical drone, jamming, targeting, or replication guidance |
+| Shipbuilding and submarine inputs | AUKUS, DIB, Navy shipbuilding, UK implementation, and allied DIB lanes identify supplier, workforce, and industrial-base dependencies | Add Navy/AUKUS/UK/Australia/CRS/GAO source captures for supply-chain categories | Moderate pending source refresh | No facility vulnerability, nuclear technical detail, dry-dock exploitation, supplier targeting, or operational routing |
+| Batteries, magnets, sensors, and drones | DIB, cyber/space, drone/C-UAS, and air-defense industrial lanes identify battery, rare earth, sensor, drone/counter-UAS relevance | Add dated drone/C-UAS and battery/sensor source captures tied to budget, oversight, and allied source families | Moderate pending source refresh | No tactical drone, jamming, targeting, evasion, protected-site vulnerability, or replication guidance |
 | China dependency and controls | China/PLA packet routes PRC industrial policy, Commerce/BIS, and allied cross-checks | Add PRC defense-industrial/emerging technology packet and BIS controls capture | Moderate pending source refresh | No sanctions/export-control evasion or supplier targeting |
 | Allied resilience | Allied matrix and DIB matrix route EU, AUKUS, NATO, and national allied sources | Add allied critical-materials crosswalk by source family and country | Moderate pending national document capture | No readiness ranking or forced equivalence |
 
@@ -112,8 +115,12 @@ identity to implementation and oversight evidence.
 - [Defense Industrial Base Capacity Tracker](2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [Defense Industrial Base Assimilation Matrix](../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
 - [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
+- [Navy Shipbuilding And Repair Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.md)
+- [Air And Missile Defense Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.md)
+- [Drone And Counter-UAS Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0818Z-drone-counter-uas-industrial-capacity-source-packet.md)
 - [Munitions Industrial Capacity Tracker](2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
 - [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
+- [Allied Defense Industrial Base Crosswalk](../global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.md)
 - [China/PLA Official Military And Security Source Baseline Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [Ukraine War External Support Tracker](2026-06-13T0120Z-ukraine-war-external-support-tracker.md)
 - [Official U.S. Source Register](../../source-registers/official-us.md)

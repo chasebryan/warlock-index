@@ -71,6 +71,85 @@ later dated refresh.
   advice, weapons employment guidance, explosive-handling instructions, or
   targeting support.
 
+## Navy Shipbuilding And Repair Industrial Capacity Source Family
+
+- **Source class:** A/B depending on source lane
+- **Publishers:** Department of the Navy; Naval Sea Systems Command;
+  Department of Defense Industrial Base Policy; Congress.gov; Congressional
+  Research Service; Government Accountability Office; Congressional Budget
+  Office where applicable.
+- **Accessed UTC:** 2026-06-18T08:18:00Z
+- **URLs:**
+  - https://www.secnav.navy.mil/fmc/fmb/Pages/Fiscal-Year-2026.aspx
+  - https://www.navsea.navy.mil/
+  - https://www.businessdefense.gov/
+  - https://www.businessdefense.gov/NDIS.html
+  - https://www.congress.gov/
+  - https://crsreports.congress.gov/
+  - https://www.gao.gov/
+  - https://www.cbo.gov/
+- **Use:** Official U.S. source routing for Navy shipbuilding plans, budget
+  demand signals, NAVSEA public shipbuilding and repair source families,
+  public shipyard and repair-capacity evidence, AUKUS submarine industrial-base
+  cross-links, ICE Pact/Arctic shipbuilding cross-links, workforce categories,
+  oversight evidence, and implementation refresh.
+- **Reliability note:** Keep budget, program, shipbuilding plan, repair,
+  workforce, oversight, and allied evidence separate. Do not infer protected
+  facility vulnerabilities, dry-dock constraints, operational maintenance
+  timelines, submarine operations, ship routes, supplier weaknesses,
+  procurement recommendations, or controlled technical data.
+
+## Air And Missile Defense Industrial Capacity Source Family
+
+- **Source class:** A/B depending on source lane
+- **Publishers:** Department of Defense; military departments; Missile
+  Defense Agency; Congress.gov; Congressional Research Service; Government
+  Accountability Office; Congressional Budget Office where applicable.
+- **Accessed UTC:** 2026-06-18T08:18:00Z
+- **URLs:**
+  - https://comptroller.defense.gov/Budget-Materials/
+  - https://www.mda.mil/
+  - https://www.businessdefense.gov/
+  - https://www.businessdefense.gov/NDIS.html
+  - https://www.congress.gov/
+  - https://crsreports.congress.gov/
+  - https://www.gao.gov/
+  - https://www.cbo.gov/
+- **Use:** Official U.S. source routing for missile-defense budget and
+  program-family evidence, interceptor and air-defense industrial demand,
+  strategic-weapons cross-links, Ukraine/Middle East/Red Sea/Indo-Pacific
+  demand signals, allied air-defense source cross-checks, and oversight
+  capture.
+- **Reliability note:** Do not convert industrial source routing into weapons
+  employment, sensor-coverage analysis, defended-asset assessment,
+  operational inventory estimates, reload timelines, targeting, interceptor
+  allocation, or procurement advice.
+
+## Drone And Counter-UAS Industrial Capacity Source Family
+
+- **Source class:** A/B depending on source lane
+- **Publishers:** Department of Defense; military departments; Joint C-sUAS
+  public source families where available; Congress.gov; Congressional Research
+  Service; Government Accountability Office; Congressional Budget Office where
+  applicable.
+- **Accessed UTC:** 2026-06-18T08:18:00Z
+- **URLs:**
+  - https://comptroller.defense.gov/Budget-Materials/
+  - https://www.businessdefense.gov/
+  - https://www.businessdefense.gov/NDIS.html
+  - https://www.congress.gov/
+  - https://crsreports.congress.gov/
+  - https://www.gao.gov/
+  - https://www.cbo.gov/
+- **Use:** Official U.S. source routing for UAS and counter-UAS industrial
+  capacity, budget demand signals, C-UAS program-family source capture,
+  Ukraine lessons as source context, batteries, sensors, microelectronics,
+  munitions, software, allied source cross-checks, and oversight evidence.
+- **Reliability note:** Do not provide tactical drone use, payload guidance,
+  targeting support, surveillance tradecraft, evasion, jamming, protected-site
+  vulnerability, operational deployment guidance, supplier targeting,
+  procurement recommendations, or technical build instructions.
+
 ## Reported U.S.-Iran MOU Official-Source Capture Lane
 
 - **Source class:** A when directly retrieved; C for current transcript

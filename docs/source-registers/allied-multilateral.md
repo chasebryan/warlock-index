@@ -34,14 +34,41 @@ later dated refresh.
 - **Use:** Allied and multilateral source routing for defense-industrial
   capacity, AUKUS submarine industrial implementation, EU Readiness 2030,
   SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry,
-  NATO industrial cooperation, allied workforce, shipbuilding, munitions,
-  critical materials, and implementation cross-checks.
+  NATO industrial cooperation, allied DIB country crosswalks, UK defense
+  investment/readiness implementation, Japan defense buildup implementation,
+  allied workforce, shipbuilding, munitions, air and missile defense,
+  drone/counter-UAS, critical materials, and implementation cross-checks.
 - **Reliability note:** NATO, EU, AUKUS, ICE Pact, and national sources are
   not interchangeable. Use official language for source identity and follow
   with budget, legal, contract, audit, parliamentary, or national
   implementation evidence before stronger delivery claims. Do not provide
   procurement advice, readiness ranking, supplier vulnerability mapping,
   controlled technical-data workarounds, facility analysis, or route guidance.
+
+## Allied Defense Industrial Base Crosswalk Source Family
+
+- **Source class:** A/B depending on issuer and use
+- **Publishers:** NATO; European Commission; European Defence Agency; UK
+  Ministry of Defence; Japan Ministry of Defense; ATLA; Australian Submarine
+  Agency; Canadian, Nordic, French, German, Korean, Philippine, Indian, and
+  other allied or partner public source families.
+- **Accessed UTC:** 2026-06-18T08:18:00Z
+- **URLs:**
+  - https://www.nato.int/cps/en/natohq/topics_49121.htm
+  - https://defence-industry-space.ec.europa.eu/
+  - https://eda.europa.eu/
+  - https://www.gov.uk/government/organisations/ministry-of-defence
+  - https://www.mod.go.jp/en/
+  - https://www.mod.go.jp/atla/en/
+- **Use:** Country and source-family crosswalk routing for allied defense
+  industrial base evidence, including NATO, EU, UK, Japan, ROK, Australia,
+  AUKUS, Canada/NORAD, ICE Pact, France, Germany, Nordic, India/Quad, and
+  Philippines source lanes.
+- **Reliability note:** Crosswalk identity is not comparative readiness or
+  production proof. Keep NATO, EU, national, parliamentary, audit, budget,
+  contract, and implementation evidence distinct. Do not provide procurement
+  advice, supplier targeting, facility vulnerability analysis, mobilization
+  procedures, route guidance, export-control evasion, or readiness rankings.
 
 ## Allied Munitions Replenishment Source Family
 
@@ -586,6 +613,30 @@ later dated refresh.
 - **Reliability note:** Authoritative for 2021 UK industrial-policy framing.
   Later SDR and budget/procurement sources are required for current execution
   judgments.
+
+## UK Defense Investment And Readiness Implementation Source Family
+
+- **Source class:** A/B depending on issuer and use
+- **Publishers:** UK Ministry of Defence; Defence Equipment and Support;
+  Defence Nuclear Enterprise; National Shipbuilding Office; UK Parliament;
+  National Audit Office; NATO where applicable.
+- **Accessed UTC:** 2026-06-18T08:18:00Z
+- **URLs:**
+  - https://www.gov.uk/government/organisations/ministry-of-defence
+  - https://www.gov.uk/government/organisations/defence-equipment-and-support
+  - https://www.gov.uk/government/groups/national-shipbuilding-office
+  - https://www.parliament.uk/
+  - https://www.nao.org.uk/
+  - https://www.nato.int/
+- **Use:** UK implementation routing for defense investment, readiness public
+  evidence, equipment delivery, industrial capacity, shipbuilding, nuclear
+  enterprise public source boundaries, Parliament/NAO oversight, NATO
+  cross-checks, and DIB matrix/crosswalk integration.
+- **Reliability note:** Implementation routing is not readiness scoring.
+  Separate MOD policy, budget, DE&S delivery, Parliament, NAO, NATO, and
+  industry evidence. Do not infer nuclear operations, targeting, basing
+  exposure, supplier vulnerabilities, procurement choices, ship routes,
+  mobilization procedures, or protected facility detail.
 
 ## UK Defence Space Strategy
 
@@ -1486,6 +1537,28 @@ later dated refresh.
 - **Reliability note:** Authoritative for budget-document routing. Budget
   authority and planned spending do not prove delivered capability, readiness,
   or project completion.
+
+## Japan Defense Buildup Implementation Source Family
+
+- **Source class:** A/B depending on issuer and use
+- **Publishers:** Japan Ministry of Defense; Acquisition, Technology &
+  Logistics Agency; Ministry of Foreign Affairs of Japan; Government of Japan;
+  Diet, audit, and alliance source families where available.
+- **Accessed UTC:** 2026-06-18T08:18:00Z
+- **URLs:**
+  - https://www.mod.go.jp/en/
+  - https://www.mod.go.jp/en/d_policy/
+  - https://www.mod.go.jp/atla/en/
+  - https://www.mofa.go.jp/
+- **Use:** Japanese implementation routing for the Defense Buildup Program,
+  budget execution, ATLA equipment and technology source families,
+  defense-production and technology-base evidence, alliance implementation,
+  U.S.-Japan-ROK cross-checks, and allied DIB matrix/crosswalk integration.
+- **Reliability note:** Strategy, buildup program, budget, ATLA, MOFA,
+  alliance, Diet, and audit evidence must remain distinct. Do not infer basing
+  exploitation, targeting, missile employment, sensor coverage, cyber
+  technical guidance, procurement advice, supplier vulnerabilities, facility
+  vulnerabilities, or readiness scoring.
 
 ## Japan-U.S. Security Arrangements
 

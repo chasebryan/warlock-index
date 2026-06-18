@@ -7,8 +7,68 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 06:30:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 08:18:12 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Air And Missile Defense Industrial Capacity Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Air and missile defense industrial capacity is a bridge lane between the munitions file, strategic-weapons file, homeland-defense file, Ukraine support file, Middle East/Red Sea file, Indo-Pacific deterrence file, and allied replenishment file. The public-source task is to identify source families and evidence types, not to infer defended coverage, stockpile depth, or operational employment.</description>
+    </item>
+    <item>
+      <title>Allied Defense Industrial Base Crosswalk</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>The allied DIB lane is now large enough that a crosswalk is more useful than another narrative baseline. The central rule is source separation: NATO, EU, AUKUS, ICE Pact, Quad, and national evidence all matter, but none is interchangeable. National strategy language must be checked against budgets, implementation pages, contracts, parliamentary/audit evidence, and oversight before stronger delivery claims.</description>
+    </item>
+    <item>
+      <title>Drone And Counter-UAS Industrial Capacity Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-drone-counter-uas-industrial-capacity-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-drone-counter-uas-industrial-capacity-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Drone and counter-UAS industrial capacity should be treated as a strategic production and source-routing lane, not as a tactical-methods file. The lane connects Ukraine lessons, Indo-Pacific deterrence, homeland protection, installation defense, Red Sea/Houthi disruption, critical infrastructure security, munitions demand, electronics, batteries, software, sensors, counter-UAS effectors, and rapid acquisition.</description>
+    </item>
+    <item>
+      <title>Japan Defense Buildup Implementation Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-18T0818Z-japan-defense-buildup-implementation-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-18T0818Z-japan-defense-buildup-implementation-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Japan has a mature official-source baseline in the corpus; the next useful step is implementation tracking. The Defense Buildup Program and budget source families should be treated as demand and policy evidence, then cross-checked against ATLA, MOD, Diet/budget, audit, alliance, and program-level evidence before claims about delivery or capability are strengthened.</description>
+    </item>
+    <item>
+      <title>Navy Shipbuilding And Repair Industrial Capacity Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>Shipbuilding and repair should now be a dedicated the corpus lane rather than a subsection inside the broad DIB packet. The source problem is an evidence-ladder problem: Navy plans and budget books show demand signal, NAVSEA and Navy pages show public program routing, CRS and CBO provide congressional context, GAO provides execution risk and oversight evidence, and AUKUS/ICE Pact source packets show allied submarine, icebreaker, and maritime-industrial implementation links.</description>
+    </item>
+    <item>
+      <title>United Kingdom Defense Investment And Readiness Implementation Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The United Kingdom lane has a strong baseline; the next useful step is implementation. UK strategy and spending announcements should be cross-checked against MOD, DE&amp;S, National Audit Office, Parliament, budget, procurement, industrial strategy, AUKUS, shipbuilding, and NATO source families before investment or readiness claims are strengthened.</description>
+    </item>
     <item>
       <title>Critical Materials And Defense Supply Chain Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.html</link>
@@ -157,7 +217,7 @@
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
-      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied workforce, shipbuilding, munitions, critical materials, and implementation cross-checks.</description>
+      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied DIB country crosswalks, UK defense investment/readiness implementation, Japan defense buildup implementation, allied workforce, shipbuilding, munitions, air and missile defense, drone/counter-UAS, critical materials, and implementation cross-checks.</description>
     </item>
     <item>
       <title>Allied Official Source Collection Tracker</title>
@@ -348,66 +408,6 @@
       <category>Homeland Hemisphere</category>
       <category>Homeland Hemisphere</category>
       <description>The U.S. law-enforcement source lane is now mature enough to support a distinct homeland threat-source assessment. The main corpus change is not a new threat claim; it is the separation of evidence families that are often collapsed in open-source work. Mission pages, complaint statistics, designation records, legal cases, sanctions, border statistics, maritime source streams, and annual assessments each answer different questions and must not be treated as interchangeable proof.</description>
-    </item>
-    <item>
-      <title>U.S. Law Enforcement Threat Source Capture Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 00:28:13 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The law-enforcement lane should not be treated as a single &quot;crime&quot; bucket. Public FBI, DHS, DOJ, DEA, ATF, CBP, Coast Guard, Treasury, and State sources support separate evidence families: terrorism and targeted violence, counterintelligence and espionage, cybercrime and cyber-enabled fraud, WMD and proliferation prevention, transnational organized crime, illicit finance, border and port-of-entry statistics, maritime security, sanctions/legal status, and national-security prosecutions.</description>
-    </item>
-    <item>
-      <title>ASEAN And Claimant-State South China Sea Cross-Check Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.html</guid>
-      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The South China Sea source lane now has a regional cross-check layer. The existing PRC, Philippine, PCA/State, and map packets are useful, but they are not enough by themselves for regional-source treatment. ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and U.S. legal-geographic source families must be kept separate because they represent different legal positions, diplomatic priorities, source terminology, and access constraints.</description>
-    </item>
-    <item>
-      <title>Foreign Government Reference Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</guid>
-      <pubDate>Wed, 17 Jun 2026 22:51:55 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Define source-routing rules for foreign government leadership, officeholder, diplomatic, country, and official-government reference material used inside the corpus.</description>
-    </item>
-    <item>
-      <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</guid>
-      <pubDate>Wed, 17 Jun 2026 21:06:51 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Organize official U.S. intelligence, homeland security, law enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for the corpus strategic threat analysis.</description>
-    </item>
-    <item>
-      <title>Salt Typhoon And Telecommunications Defensive Source Note</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.html</guid>
-      <pubDate>Wed, 17 Jun 2026 21:06:51 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Salt Typhoon now has a dedicated telecommunications defensive source lane in the corpus. The accessible official record in this pass supports three safe conclusions:</description>
-    </item>
-    <item>
-      <title>Philippines Official Defense And Maritime Source Capture Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.html</guid>
-      <pubDate>Wed, 17 Jun 2026 20:48:56 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The Philippines lane now has a first-pass direct-source capture packet that separates seven evidence families: Philippine legal instruments, national security and defense policy, maritime-domain-awareness governance, coast guard and fisheries incident sources, map and naming sources, alliance/access architecture, and U.S./allied/legal cross-checks. This matters because future products should not flatten &quot;Philippines&quot; into a single allied posture label or treat West Philippine Sea incident sources, EDCA material, maritime-zone law, NAMRIA maps, and U.S. defense assessments as interchangeable evidence.</description>
     </item>
   </channel>
 </rss>

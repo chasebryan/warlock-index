@@ -123,12 +123,15 @@ future open-source defense assessments.
 - Defense industrial base, munitions, and shipbuilding source families,
   including DoD Industrial Base Policy, National Defense Industrial Strategy,
   2026 National Defense Strategy, Navy shipbuilding budget and planning
-  source families, GAO weapon-system and shipbuilding oversight, CRS defense
-  industrial base and Navy source families, AUKUS submarine industrial-base
-  implementation, ICE Pact icebreaker and Arctic warning implementation, EU
-  Readiness 2030 defense-industrial implementation, NATO and allied
-  industrial-capacity lanes, and the DIB capacity tracker and assimilation
-  matrix.
+  source families, NAVSEA and public shipyard routing, the dedicated Navy
+  shipbuilding and repair industrial capacity packet, GAO weapon-system and
+  shipbuilding oversight, CRS defense industrial base and Navy source
+  families, AUKUS submarine industrial-base implementation, ICE Pact
+  icebreaker and Arctic warning implementation, EU Readiness 2030
+  defense-industrial implementation, the allied DIB country crosswalk, UK
+  defense investment/readiness implementation, Japan defense buildup
+  implementation, NATO and allied industrial-capacity lanes, and the DIB
+  capacity tracker and assimilation matrix.
 - Munitions and energetics source families, including DoD and service budget
   source lanes, Congress.gov authorization and appropriation routes, CRS and
   GAO oversight, CBO cost-analysis routing, NATO/EU/allied replenishment
@@ -136,6 +139,17 @@ future open-source defense assessments.
   ammunition, missiles and interceptors, air-defense reloads, rocket motors,
   propellants, explosives, fuzes, warheads, guided munitions, and drone or
   counter-UAS effector source queues.
+- Air and missile defense industrial capacity source families, including DoD,
+  service, MDA, Congress.gov, CRS, GAO, CBO, allied air-defense source lanes,
+  Ukraine, Middle East, Red Sea, Indo-Pacific, homeland, and strategic-weapons
+  cross-links, handled without weapons employment, sensor-coverage, defended
+  asset, inventory, reload-timeline, targeting, or allocation guidance.
+- Drone and counter-UAS industrial capacity source families, including DoD,
+  service, Joint C-sUAS public source families, Ukraine lessons, allied
+  source lanes, critical materials, batteries, microelectronics, software,
+  munitions, sensors, and air-defense cross-links, handled without tactical
+  employment, jamming, evasion, protected-site vulnerability, targeting,
+  deployment guidance, or technical build instructions.
 - Critical materials and defense supply-chain source families, including
   USGS critical minerals and commodity summaries, DOE critical materials,
   DLA Strategic Materials and National Defense Stockpile routing, DoD

@@ -12,3 +12,4 @@ through cross-cutting matrices and synthesis tools.
 - [2026-06-13T0601Z - Official U.S. Threat Source Assimilation Matrix](2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [2026-06-14T0118Z - Official Allied Source Assimilation Matrix](2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
 - [2026-06-18T0525Z - Defense Industrial Base Assimilation Matrix](2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
+- [2026-06-18T0818Z - Allied Defense Industrial Base Crosswalk](2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.md)

@@ -27,7 +27,12 @@ packet, NORAD modernization implementation source packet, Denmark Arctic and
 North Atlantic implementation source packet, ICE Pact Arctic warning
 implementation source packet, EU Readiness 2030 implementation source packet,
 defense industrial base source packet, defense industrial base capacity
-tracker, defense industrial base assimilation matrix, India/Quad
+tracker, defense industrial base assimilation matrix, Navy shipbuilding and
+repair industrial capacity source packet, air and missile defense industrial
+capacity source packet, drone and counter-UAS industrial capacity source
+packet, allied defense industrial base crosswalk, Japan defense buildup
+implementation source packet, UK defense investment and readiness
+implementation source packet, India/Quad
 strategic-partner source packet, Philippines official defense/maritime source
 capture packet, ASEAN/claimant-state South China Sea cross-check packet, and
 official public national strategy source families for major U.S. allies and
@@ -96,8 +101,8 @@ implementation lanes.
 | Ally or source lane | Current status | Next product | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
 | NATO institutional sources | Active in repo; official NATO baseline packet complete | NATO defense spending implementation packet | High for source identity; moderate for implementation | NATO declarations are not national readiness proof |
-| United Kingdom | Official defense/security source baseline packet complete; UK entries added to allied register | UK defense investment/readiness implementation packet | High for source identity; moderate for delivery evidence | No operational nuclear, basing, cyber, or mobilization detail |
-| Japan | Japan official defense/security source baseline packet complete; active in Indo-Pacific allied posture packet and Camp David trilateral implementation packet | Japan defense buildup implementation packet and Japan-U.S. alliance modernization packet | High for source identity; moderate for delivery and crisis-behavior evidence | Keep constitutional, budget, and posture claims source-bound; no basing, missile-employment, cyber, or operational planning detail |
+| United Kingdom | Official defense/security source baseline packet complete; UK defense investment and readiness implementation packet added; UK entries added to allied register and allied DIB crosswalk | Add dated MOD, DE&S, Parliament, NAO, National Shipbuilding Office, AUKUS, munitions, shipbuilding, air-defense, cyber, space, and critical-materials refreshes | High for source identity and implementation-source architecture; moderate for delivery evidence | No operational nuclear, basing, cyber, mobilization, readiness scoring, or procurement advice |
+| Japan | Japan official defense/security source baseline packet complete; Japan defense buildup implementation packet added; active in Indo-Pacific allied posture packet and Camp David trilateral implementation packet | Add dated MOD/ATLA budget, Diet/audit, U.S.-Japan alliance modernization, standoff defense, air/missile defense, drone, shipbuilding, cyber, space, and critical-materials refreshes | High for source identity and implementation-source architecture; moderate for delivery and crisis-behavior evidence | Keep constitutional, budget, and posture claims source-bound; no basing, missile-employment, cyber, targeting, or operational planning detail |
 | Republic of Korea | Official defense and extended-deterrence source packet complete; ROK MOFA, Washington Declaration, Camp David, and trilateral ministerial source lanes registered; MND/DAPA direct-document verification remains follow-on | ROK Defense White Paper/Budget Verification Packet and ROK-U.S. NCG implementation packet | High for MOFA, Washington, Camp David, and trilateral ministerial source identity; moderate for MND/DAPA implementation and defense delivery evidence | No peninsula targeting, escalation, nuclear planning, missile-defense sensor/network analysis, cyber technical detail, or operational planning |
 | Australia / AUKUS | Official defence/AUKUS source baseline packet complete; AUKUS industrial implementation packet complete; active in Japan-Philippines-Australia posture profile | Australia investment/delivery packet; future AUKUS industrial implementation refreshes | High for source identity and public implementation-source architecture; moderate for delivery evidence | No basing exploitation, submarine operational detail, infrastructure vulnerability mapping, AUKUS technical guidance, supplier-vulnerability mapping, or controlled-data workarounds |
 | Canada and NORAD | Canada/NORAD Arctic and continental defense source packet complete; NORAD modernization implementation source packet complete; ICE Pact Arctic warning implementation packet complete; Arctic and High North lane now has dedicated country/continental-defense, icebreaker industrial-base, warning, and implementation-source baselines | Canada defense investment/delivery packet, NORAD modernization oversight refresh, U.S. ICE Pact/Coast Guard icebreaker capture, and Finland ICE Pact industrial capture | High for source identity and public implementation-source architecture; moderate for modernization and icebreaker delivery evidence | No northern infrastructure vulnerability mapping, sensor coverage analysis, command procedures, military route guidance, readiness scoring, procurement advice, ship-routing guidance, or cyber technical detail |
@@ -147,6 +152,11 @@ implementation lanes.
 
 - Each national lane needs dated URL verification and source-register entries
   before strong comparative claims.
+- The UK and Japan implementation lanes now have dedicated packets but need
+  dated budget, program, parliamentary/audit, procurement, and oversight
+  source captures.
+- The allied DIB crosswalk now exists, but it needs recurring country-level
+  refreshes before comparative industrial claims are strengthened.
 - Strategy documents and summit declarations need implementation evidence from
   budgets, annual reports, procurement records, audit bodies, and NATO data.
 - Translation and terminology differences can distort comparison across
@@ -161,6 +171,7 @@ implementation lanes.
 ## Cross References
 
 - [United Kingdom Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
+- [UK Defense Investment And Readiness Implementation Source Packet](../source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.md)
 - [Australia Official Defence And AUKUS Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0129Z-australia-official-defence-aukus-source-baseline-packet.md)
 - [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 - [India/Quad Strategic-Partner Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0512Z-india-quad-strategic-partner-source-packet.md)
@@ -170,6 +181,7 @@ implementation lanes.
 - [NORAD Modernization Implementation Source Packet](../source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.md)
 - [ICE Pact And Arctic Warning Implementation Source Packet](../source-packets/arctic-infrastructure/2026-06-18T0311Z-ice-pact-arctic-warning-implementation-source-packet.md)
 - [Japan Official Defense And Security Source Baseline Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.md)
+- [Japan Defense Buildup Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-18T0818Z-japan-defense-buildup-implementation-source-packet.md)
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
 - [France Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)
 - [Germany Official Defense And Security Source Baseline Packet](../source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.md)
@@ -182,6 +194,10 @@ implementation lanes.
 - [EU Security And Defense Source Packet](../source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.md)
 - [EU Readiness 2030 Implementation Source Packet](../source-packets/nato-allied-capacity/2026-06-18T0207Z-eu-readiness-2030-implementation-source-packet.md)
 - [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](../source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
+- [Navy Shipbuilding And Repair Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.md)
+- [Air And Missile Defense Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.md)
+- [Drone And Counter-UAS Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0818Z-drone-counter-uas-industrial-capacity-source-packet.md)
+- [Allied Defense Industrial Base Crosswalk](../global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.md)
 - [Defense Industrial Base Capacity Tracker](2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [Defense Industrial Base Assimilation Matrix](../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
 - [Official Allied Source Assimilation Matrix](../global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
