@@ -14,6 +14,7 @@ analysis, deployment schedules, or technical instructions.
 
 - [Arctic Infrastructure Source Packets](arctic-infrastructure)
 - [Defense Industrial Base Source Packets](defense-industrial-base)
+- [Defensive Cyber And Space Source Packets](defensive-cyber-space)
 - [Indo-Pacific Adversary Posture Source Packets](indo-pacific-adversary-posture)
 - [Indo-Pacific Allied Posture Source Packets](indo-pacific-allied-posture)
 - [Maritime Chokepoints Source Packets](maritime-chokepoints)

@@ -17,3 +17,4 @@ source matters.
 - [2026-06-18T0441Z - Project Attribution And Maintainer Treatment Note](2026-06-18T0441Z-project-attribution-maintainer-treatment-note.md)
 - [2026-06-18T0855Z - NATO And U.S. Europe Force Posture Review Caveat](2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md)
 - [2026-06-18T1758Z - U.S.-Iran MOU Afternoon Source Check](2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
+- [2026-06-18T1837Z - Corpus Audit Trail Source Note](2026-06-18T1837Z-corpus-audit-trail-source-note.md)

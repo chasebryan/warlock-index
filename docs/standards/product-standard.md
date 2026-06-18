@@ -38,6 +38,23 @@ Every assessment must include:
 - `Source base`: Short source summary with full source list at the end.
 - `Analytic confidence`: High, moderate, or low.
 
+## Recommended Machine-Readable Fields
+
+Products should include these fields when they improve routing, export, or
+auditability:
+
+- `Topics`: Human-readable topical labels for search and crosswalks.
+- `Actors`: States, agencies, organizations, sectors, or institutions covered.
+- `Source classes`: Official, allied, vendor, vulnerability database,
+  academic, legal, media, geospatial, maritime, or other source classes.
+- `Safety boundary`: Short statement of what the product deliberately excludes.
+- `Freshness status`: Current, Watch, Gap, Reference, Superseded, or Stale.
+- `Last source check UTC`: Most recent source-sweep timestamp.
+- `Next refresh UTC`: Next required review timestamp.
+- `Caveat tags`: Standard caveat labels.
+- `Primary sources`: Semicolon-separated source families or URLs.
+- `Related products`: Product IDs for connected products.
+
 ## Analytic Confidence
 
 - `High`: Multiple reliable sources converge; core facts are official,

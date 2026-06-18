@@ -13,6 +13,8 @@ matrices.
 - [Assessment Style Guide](standards/assessment-style-guide.md)
 - [Datetime and Versioning Standard](standards/datetime-and-versioning.md)
 - [Explainer Standard](standards/explainer-standard.md)
+- [Structured Metadata And Export Standard](standards/structured-metadata-and-export-standard.md)
+- [Confidence And Caveat Taxonomy](standards/confidence-caveat-taxonomy.md)
 
 ## Templates
 
@@ -28,6 +30,7 @@ matrices.
 - [Official U.S. Intelligence And Law Enforcement Source Register](source-registers/us-intelligence-law-enforcement.md)
 - [Foreign Government Reference Source Register](source-registers/foreign-government-reference.md)
 - [Map And Geospatial Reference Source Register](source-registers/map-geospatial-reference.md)
+- [Defensive Cyber And Space Source Register](source-registers/defensive-cyber-space.md)
 
 ## Maps
 
@@ -82,6 +85,8 @@ matrices.
 - [Maritime Chokepoint Strategic Assimilation Matrix](collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
 - [Official U.S. Threat Source Assimilation Matrix](collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Official Allied Source Assimilation Matrix](collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
+- [Cyber And Critical Infrastructure Source Crosswalk](collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.md)
+- [Topic Source Lane Crosswalk](collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.md)
 - [Trackers](collections/trackers)
 - [Ukraine War External Support Tracker](collections/trackers/2026-06-13T0120Z-ukraine-war-external-support-tracker.md)
 - [Arms-Control Erosion Strategic Tracker](collections/trackers/2026-06-13T0319Z-arms-control-erosion-strategic-tracker.md)
@@ -90,6 +95,9 @@ matrices.
 - [Allied Official Source Collection Tracker](collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [China/PLA Source Collection Tracker](collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [All-Topic Current Source Sweep Tracker](collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.md)
+- [Source Freshness Dashboard Tracker](collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.md)
+- [Collection Gap Register](collections/trackers/2026-06-18T1835Z-collection-gap-register.md)
+- [Cyber And Space Refresh Queue Tracker](collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.md)
 - [Current Category Source Sweep Tracker](collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.md)
 - [U.S.-Iran MOU Implementation Watch Tracker](collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.md)
 - [LIVE-NEWS Source Audit Tracker](collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.md)
@@ -102,6 +110,7 @@ matrices.
 - [U.S.-Iran MOU Source-Treatment Note](collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [NATO And U.S. Europe Force Posture Review Caveat](collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md)
 - [U.S.-Iran MOU Afternoon Source Check](collections/source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
+- [Corpus Audit Trail Source Note](collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.md)
 - [Source Packets](collections/source-packets)
 - [Indo-Pacific Adversary Posture Source Packets](collections/source-packets/indo-pacific-adversary-posture)
 - [China/PLA Official Military And Security Source Baseline Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
@@ -170,6 +179,8 @@ matrices.
 - [Multilateral Strategic Stability Source Packet](collections/source-packets/strategic-weapons/2026-06-13T2216Z-multilateral-strategic-stability-source-packet.md)
 - [Strategy And Warfare Research Source Packets](collections/source-packets/strategy-and-warfare-research)
 - [Stratagems, Strategy, And Warfare Academic Research Source Packet](collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.md)
+- [Defensive Cyber And Space Source Packets](collections/source-packets/defensive-cyber-space)
+- [Defensive Cyber Source Lane Packet](collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.md)
 - [Event Timelines](collections/event-timelines)
 - [Ukraine War Strategic Event Timeline](collections/event-timelines/2026-06-13T0157Z-ukraine-war-strategic-event-timeline.md)
 - [Taiwan Strait Coercion Strategic Event Timeline](collections/event-timelines/2026-06-13T0203Z-taiwan-strait-coercion-strategic-event-timeline.md)

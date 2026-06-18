@@ -7,8 +7,108 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 18:07:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 18:39:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Topic Source Lane Crosswalk</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:39:00 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Cyber And Critical Infrastructure Source Crosswalk</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:38:00 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>When a row feeds another product, carry forward the source class, caveat tag, and freshness status. Do not carry over technical details that would reproduce exploitation or offensive procedure.</description>
+    </item>
+    <item>
+      <title>Corpus Audit Trail Source Note</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:37:00 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>The generator adds a sourceHash field to each exported corpus record. The hash is a short SHA-256 digest of the Markdown source text and is intended to help identify whether a product changed between generated exports.</description>
+    </item>
+    <item>
+      <title>Cyber And Space Refresh Queue Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:36:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Collection Gap Register</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:35:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>Each gap should be closed only by adding a dated source note, source packet, tracker update, or matrix row. Do not silently remove a gap because it is inconvenient or stale.</description>
+    </item>
+    <item>
+      <title>Source Freshness Dashboard Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:34:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Defensive Cyber Source Lane Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:33:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>the corpus should treat defensive cyber as a standing source lane rather than a one-off topic. The highest-value structure is a recurring watch that links official advisories, vulnerability metadata, vendor mitigations, sector context, and caveats into a searchable corpus.</description>
+    </item>
+    <item>
+      <title>Defensive Cyber And Space Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/defensive-cyber-space.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/defensive-cyber-space.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:32:00 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Use this register to route defensive cyber, critical infrastructure, telecommunications, and space resilience research into reliable open-source lanes. It is intended for evidence management, watchlist construction, and source freshness review.</description>
+    </item>
+    <item>
+      <title>Confidence And Caveat Taxonomy</title>
+      <link>https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:31:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>This taxonomy gives analysts a compact way to tag uncertainty, source limitations, and refresh needs across all topics. It supplements analytic confidence by making the reason for caution searchable.</description>
+    </item>
+    <item>
+      <title>Structured Metadata And Export Standard</title>
+      <link>https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:30:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>This standard makes the corpus products easier to use in analytic systems by giving each product a stable set of machine-readable fields. The static generator now exports the documentation corpus as browser JavaScript, JSON, and CSV.</description>
+    </item>
     <item>
       <title>All-Topic Current Source Sweep Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</link>
@@ -308,106 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>Japan has a mature official-source baseline in the corpus; the next useful step is implementation tracking. The Defense Buildup Program and budget source families should be treated as demand and policy evidence, then cross-checked against ATLA, MOD, Diet/budget, audit, alliance, and program-level evidence before claims about delivery or capability are strengthened.</description>
-    </item>
-    <item>
-      <title>Navy Shipbuilding And Repair Industrial Capacity Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Shipbuilding and repair should now be a dedicated the corpus lane rather than a subsection inside the broad DIB packet. The source problem is an evidence-ladder problem: Navy plans and budget books show demand signal, NAVSEA and Navy pages show public program routing, CRS and CBO provide congressional context, GAO provides execution risk and oversight evidence, and AUKUS/ICE Pact source packets show allied submarine, icebreaker, and maritime-industrial implementation links.</description>
-    </item>
-    <item>
-      <title>United Kingdom Defense Investment And Readiness Implementation Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The United Kingdom lane has a strong baseline; the next useful step is implementation. UK strategy and spending announcements should be cross-checked against MOD, DE&amp;S, National Audit Office, Parliament, budget, procurement, industrial strategy, AUKUS, shipbuilding, and NATO source families before investment or readiness claims are strengthened.</description>
-    </item>
-    <item>
-      <title>Critical Materials And Defense Supply Chain Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 06:30:55 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Critical materials and supply chains are now a defense-industrial lane, not a background economics topic. Munitions, energetics, missiles, shipbuilding, submarines, batteries, sensors, satellites, radar, secure communications, microelectronics, drones, counter-UAS systems, and cyber/space infrastructure all depend on materials, processing, manufacturing equipment, software, specialty chemicals, and qualified suppliers.</description>
-    </item>
-    <item>
-      <title>Critical Materials And Supply Chain Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 06:30:55 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>Critical materials should be tracked as a recurring source-evidence problem inside the defense industrial base lane. The issue is not only whether a material appears on an official list. The stronger question is whether dated sources show defense relevance, dependency, budget demand, industrial implementation, legal controls, allied coordination, and oversight findings.</description>
-    </item>
-    <item>
-      <title>Munitions And Energetics Industrial Capacity Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 05:38:56 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Munitions and energetics are the highest-pressure defense-industrial source lane because multiple theaters draw on overlapping production ecosystems: Ukraine support, NATO replenishment, Middle East air and missile defense, Indo-Pacific deterrence, Red Sea/Houthi disruption, Iran and DPRK missile relevance, drone and counter-UAS adaptation, and homeland defense.</description>
-    </item>
-    <item>
-      <title>Munitions Industrial Capacity Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 05:38:56 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>Munitions capacity should be tracked as a recurring industrial evidence problem. Ukraine support, NATO replenishment, Middle East air defense, Indo-Pacific deterrence, Red Sea disruption, Iran and DPRK missile relevance, and drone/counter-UAS adaptation all draw attention to overlapping production lanes. The tracker organizes those lanes without estimating classified stockpiles, identifying exploitable production weaknesses, or recommending procurement choices.</description>
-    </item>
-    <item>
-      <title>Defense Industrial Base Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 05:25:03 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Defense industrial base evidence now functions as a global assimilation layer. It connects the U.S. homeland industrial base, Indo-Pacific deterrence, submarine and shipbuilding capacity, NATO and EU industrial expansion, AUKUS implementation, Arctic icebreaker and warning capacity, Ukraine-support replenishment, munitions and interceptor demand, critical materials, microelectronics, software, cybersecure production, and allied burden-sharing.</description>
-    </item>
-    <item>
-      <title>Defense Industrial Base Capacity Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 05:25:03 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>Defense industrial base documentation should now move from broad baseline to recurring capacity tracking. The key lanes are munitions and energetics, interceptors and air defense, shipbuilding and repair, submarine industrial base, drones and counter-UAS, critical materials, microelectronics, software, workforce, acquisition demand signal, and allied industrial capacity.</description>
-    </item>
-    <item>
-      <title>Defense Industrial Base, Munitions, And Shipbuilding Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 05:25:03 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The defense industrial base should be treated as a cross-theater source lane, not as a single U.S. acquisition topic. Public evidence connects U.S. industrial-base strategy, Navy shipbuilding, munitions and interceptor demand, energetics, critical materials, AUKUS submarine industrial implementation, ICE Pact icebreaker and Arctic-warning capacity, EU defense-industrial readiness, NATO burden-sharing, and allied national industrial strategies.</description>
-    </item>
-    <item>
-      <title>Project Attribution And Maintainer Treatment Note</title>
-      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0441Z-project-attribution-maintainer-treatment-note.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0441Z-project-attribution-maintainer-treatment-note.html</guid>
-      <pubDate>Thu, 18 Jun 2026 04:41:47 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Source Notes</category>
-      <description>the corpus should use project-based attribution. The site should not use foundation-style maintainer wording because that phrase can imply a registered foundation or organization. The footer should use the exact wording &quot;Maintained by Chase Bryan.&quot; The About page can describe the corpus as an independent open-source research corpus maintained by Chase Bryan.</description>
     </item>
   </channel>
 </rss>
