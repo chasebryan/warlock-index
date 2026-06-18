@@ -430,8 +430,9 @@ function makeResolver(relToOutput, currentDoc) {
 
     const [targetPart, hashPart] = href.split("#");
     if (!targetPart) return hashPart ? `#${hashPart}` : href;
+    const [pathPart, queryPart] = targetPart.split("?");
 
-    let target = targetPart.replace(/\\/g, "/");
+    let target = pathPart.replace(/\\/g, "/");
     if (target.startsWith("/")) target = target.replace(/^\/+/, "");
     if (target.startsWith("docs/")) {
       target = target.slice("docs/".length);
@@ -440,11 +441,19 @@ function makeResolver(relToOutput, currentDoc) {
     }
     target = target.replace(/^\.\//, "");
 
-    const outputRel = relToOutput.get(target);
+    const candidates = [target];
+    if (target.endsWith("/")) {
+      candidates.push(`${target}README.md`);
+    } else if (!posix.extname(target)) {
+      candidates.push(`${target}/README.md`);
+    }
+
+    const outputRel = candidates.map((candidate) => relToOutput.get(candidate)).find(Boolean);
     if (!outputRel) return href;
 
+    const query = queryPart ? `?${queryPart}` : "";
     const hash = hashPart ? `#${hashPart}` : "";
-    return `${relativeUrl(currentDoc.outputRel, outputRel)}${hash}`;
+    return `${relativeUrl(currentDoc.outputRel, outputRel)}${query}${hash}`;
   };
 }
 
@@ -947,7 +956,7 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
           <div class="feed-page-meta">
             <span>${items.length} matched records</span>
             <span>${byType.length} active lanes</span>
-            <a href="../workspace/?q=${escapeAttr(encodeURIComponent(topic.title))}">Open in Workspace</a>
+            <a href="../workspace/index.html?q=${escapeAttr(encodeURIComponent(topic.title))}">Open in Workspace</a>
           </div>
         </section>
         <section class="topic-lane-index" aria-label="Topic lanes">
