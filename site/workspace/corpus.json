@@ -34,7 +34,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "c1899d8f03a3"
+    "sourceHash": "d37e09fc43d6",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Assessment Index",
@@ -70,7 +84,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "c812445f21bd"
+    "sourceHash": "c812445f21bd",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Coverage Map",
@@ -131,7 +159,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "097dc8b460a3"
+    "sourceHash": "097dc8b460a3",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Product Standard",
@@ -180,7 +221,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "82786c4f3481"
+    "sourceHash": "82786c4f3481",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Source Evaluation Standard",
@@ -229,7 +283,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "241a630ce972"
+    "sourceHash": "241a630ce972",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Official U.S. Source Register",
@@ -370,7 +437,18 @@
       "https://www.bis.gov/",
       "https://www.federalregister.gov/"
     ],
-    "sourceHash": "446c8f076a47"
+    "sourceHash": "446c8f076a47",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Allied And Multilateral Source Register",
@@ -700,7 +778,18 @@
       "https://www.gov.uk/government/collections/critical-minerals",
       "https://www.meti.go.jp/english/"
     ],
-    "sourceHash": "586126263f6e"
+    "sourceHash": "586126263f6e",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Research And Media Source Register",
@@ -820,7 +909,18 @@
       "https://www.axios.com/2026/02/05/new-start-arms-control-us-russia-extend",
       "https://www.theguardian.com/world/2026/jun/04/ukraine-war-briefing-russia-losing-on-the-ground-so-pivots-to-air-war-say-analysts"
     ],
-    "sourceHash": "4cac26fbbdc5"
+    "sourceHash": "4cac26fbbdc5",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Maps",
@@ -870,7 +970,19 @@
       "https://www.state.gov/countries-areas/",
       "https://www.namria.gov.ph/"
     ],
-    "sourceHash": "d863ebee2d9a"
+    "sourceHash": "d863ebee2d9a",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Actor Profiles",
@@ -909,7 +1021,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "609f222d5680"
+    "sourceHash": "609f222d5680",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "China Actor Profile",
@@ -972,7 +1098,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "03b76e054917"
+    "sourceHash": "03b76e054917",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Foreign Terrorist Organizations And Nonstate Armed Networks Actor Profile Lane",
@@ -1024,7 +1163,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "2872673c4a39"
+    "sourceHash": "2872673c4a39",
+    "metadataCompleteness": 33,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Foreign Terrorist Organizations And Nonstate Armed Networks Strategic Actor Classification",
@@ -1110,7 +1262,18 @@
       "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF"
     ],
-    "sourceHash": "dc944fe59153"
+    "sourceHash": "dc944fe59153",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Houthi Red Sea Maritime Disruption Profile",
@@ -1196,7 +1359,18 @@
       "https://www.suezcanal.gov.eg/English/Navigation/Pages/NavigationStatistics.aspx`",
       "https://commercial.allianz.com/news-and-insights/reports/shipping-safety.html`"
     ],
-    "sourceHash": "26fe8d3928b9"
+    "sourceHash": "26fe8d3928b9",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Indo-Pacific Allies And Partners",
@@ -1240,7 +1414,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "aa9112a02e3a"
+    "sourceHash": "aa9112a02e3a",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Iran Actor Profile",
@@ -1306,7 +1494,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "0d4fc551052e"
+    "sourceHash": "0d4fc551052e",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Japan-Philippines-Australia Allied Posture Profile",
@@ -1389,7 +1590,18 @@
       "https://www.asa.gov.au/aukus-agreement`",
       "https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/`"
     ],
-    "sourceHash": "ee3823a4840d"
+    "sourceHash": "ee3823a4840d",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "NATO Allied Capacity And Burden-Sharing Profile",
@@ -1475,7 +1687,18 @@
       "https://www.nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-defence-industry-production`",
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`"
     ],
-    "sourceHash": "a1906f8ef4f3"
+    "sourceHash": "a1906f8ef4f3",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "NATO And Major U.S. Allies",
@@ -1520,7 +1743,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "bef1aef59d11"
+    "sourceHash": "bef1aef59d11",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "North Korea Actor Profile",
@@ -1589,7 +1826,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "474191bba920"
+    "sourceHash": "474191bba920",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Republic Of Korea Allied Posture Profile",
@@ -1679,7 +1929,18 @@
       "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/08/18/camp-david-principles/`",
       "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/08/18/the-spirit-of-camp-david-joint-statement-of-japan-the-republic-of-korea-and-the-united-states/`"
     ],
-    "sourceHash": "33285f6b3fd0"
+    "sourceHash": "33285f6b3fd0",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Russia Actor Profile",
@@ -1747,7 +2008,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "0824ca043882"
+    "sourceHash": "0824ca043882",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Transnational Criminal Organizations Actor Profile Lane",
@@ -1793,7 +2067,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "9511bd4aefb8"
+    "sourceHash": "9511bd4aefb8",
+    "metadataCompleteness": 33,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Transnational Criminal Organizations Strategic Actor Classification",
@@ -1873,7 +2160,18 @@
       "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF"
     ],
-    "sourceHash": "7eae2c76f8e8"
+    "sourceHash": "7eae2c76f8e8",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Africa Security Environment Strategic Baseline",
@@ -1958,7 +2256,17 @@
       "https://www.africom.mil/document/35820/2025-sasc-posture-statementpdf",
       "https://www.africom.mil/about-the-command"
     ],
-    "sourceHash": "5f48583c6cc1"
+    "sourceHash": "5f48583c6cc1",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Arctic And High North Strategic Baseline",
@@ -2052,7 +2360,17 @@
       "https://media.defense.gov/2024/Jul/22/2003507411/-1/-1/0/DOD-ARCTIC-STRATEGY-2024.PDF",
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf"
     ],
-    "sourceHash": "41cc8bd0da12"
+    "sourceHash": "41cc8bd0da12",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "China Strategic Actor Classification",
@@ -2126,7 +2444,18 @@
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration"
     ],
-    "sourceHash": "ebe60030720f"
+    "sourceHash": "ebe60030720f",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Global Cyber And Critical Infrastructure Strategic Baseline",
@@ -2199,7 +2528,18 @@
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
       "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF"
     ],
-    "sourceHash": "c926827612ca"
+    "sourceHash": "c926827612ca",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Global Space And Counterspace Strategic Baseline",
@@ -2275,7 +2615,18 @@
       "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF",
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF"
     ],
-    "sourceHash": "da9dbd5f32bd"
+    "sourceHash": "da9dbd5f32bd",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Global Strategic Operating Picture",
@@ -2346,7 +2697,18 @@
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration"
     ],
-    "sourceHash": "4a9517692b6e"
+    "sourceHash": "4a9517692b6e",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Iran Strategic Actor Classification",
@@ -2428,7 +2790,18 @@
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
       "https://www.dia.mil/Portals/110/Images/News/Military_Powers_Publications/Iran_Military_Power_LR.pdf"
     ],
-    "sourceHash": "865ae2b3cb27"
+    "sourceHash": "865ae2b3cb27",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "North Korea Strategic Actor Classification",
@@ -2509,7 +2882,18 @@
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration"
     ],
-    "sourceHash": "523ec4664a20"
+    "sourceHash": "523ec4664a20",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "PRC Military Modernization And Indo-Pacific Balance",
@@ -2582,7 +2966,18 @@
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration"
     ],
-    "sourceHash": "52bdb67156e7"
+    "sourceHash": "52bdb67156e7",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Red Sea Maritime Disruption Strategic Baseline",
@@ -2673,7 +3068,18 @@
       "https://www.suezcanal.gov.eg/English/Navigation/Pages/NavigationStatistics.aspx`",
       "https://commercial.allianz.com/news-and-insights/reports/shipping-safety.html`"
     ],
-    "sourceHash": "e663715a013c"
+    "sourceHash": "e663715a013c",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Russia Strategic Actor Classification",
@@ -2753,7 +3159,18 @@
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
       "https://www.dia.mil/Portals/110/Images/News/Military_Powers_Publications/Russia_Military_Power_Report_2017.pdf"
     ],
-    "sourceHash": "2f177c61b461"
+    "sourceHash": "2f177c61b461",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Strategic Environment Baseline, 2026",
@@ -2820,7 +3237,18 @@
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
       "https://www.theguardian.com/world/2026/jun/04/ukraine-war-briefing-russia-losing-on-the-ground-so-pivots-to-air-war-say-analysts"
     ],
-    "sourceHash": "b81c3ce50c33"
+    "sourceHash": "b81c3ce50c33",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Taiwan Strait And First Island Chain Strategic Baseline",
@@ -2901,7 +3329,18 @@
       "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf",
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF"
     ],
-    "sourceHash": "5d6b8e9416bf"
+    "sourceHash": "5d6b8e9416bf",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "U.S. Defense Industrial Base Strategic Baseline",
@@ -2982,7 +3421,18 @@
       "https://www.businessdefense.gov/",
       "https://www.businessdefense.gov/ibr/index.html"
     ],
-    "sourceHash": "5cab1597181b"
+    "sourceHash": "5cab1597181b",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "U.S. Homeland And Western Hemisphere Strategic Baseline",
@@ -3060,7 +3510,18 @@
       "https://media.defense.gov/2026/Jan/23/2003864773/-1/-1/0/2026-NATIONAL-DEFENSE-STRATEGY.PDF",
       "https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf"
     ],
-    "sourceHash": "c68698273677"
+    "sourceHash": "c68698273677",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "U.S. Law Enforcement Threat Source Assessment",
@@ -3136,7 +3597,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "e4f6ed8282b3"
+    "sourceHash": "e4f6ed8282b3",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "U.S. Official Threat Source Operating Picture",
@@ -3208,7 +3681,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "d1eb6b1470dd"
+    "sourceHash": "d1eb6b1470dd",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Allied Defense Industrial Base Crosswalk",
@@ -3283,7 +3768,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "115b3c35006a"
+    "sourceHash": "115b3c35006a",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Corpus Audit Trail Source Note",
@@ -3348,7 +3845,97 @@
       "WI-STD-007"
     ],
     "sourceUrls": [],
-    "sourceHash": "4a1908d0ffa5"
+    "sourceHash": "4a1908d0ffa5",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-primary-sources"
+    ]
+  },
+  {
+    "title": "Corpus Health Signal Source Note",
+    "type": "Document",
+    "path": "library/collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.html",
+    "summary": "The generator now adds source-health fields to each corpus export record. These fields make it easier to find under-described, stale, gap-marked, watchlisted, or refresh-due records without manually reading every product.",
+    "productId": "WI-SN-HEALTH-2026-0001",
+    "preparedUtc": "2026-06-18T18:50:00Z",
+    "cutoffUtc": "2026-06-18T18:50:00Z",
+    "confidence": "High for generated-field behavior; moderate for interpretation because corpus health is a workflow aid, not an analytic judgment.",
+    "theater": "Collections",
+    "domain": "Source Notes",
+    "topics": [],
+    "badges": [
+      "Document",
+      "Collections",
+      "Source Notes",
+      "High Confidence"
+    ],
+    "tags": [
+      "corpus",
+      "health",
+      "signal",
+      "source",
+      "note",
+      "collections",
+      "source-notes",
+      "2026-06-18t1850z-corpus-health-signal-source-note",
+      "document",
+      "source notes",
+      "wi-sn-health-2026-0001",
+      "2026-06-18t18:50:00z",
+      "high",
+      "for",
+      "generated-field",
+      "behavior",
+      "moderate",
+      "interpretation",
+      "because",
+      "is",
+      "workflow",
+      "aid",
+      "not",
+      "an",
+      "analytic",
+      "judgment"
+    ],
+    "sourceClasses": [
+      "Internal source note",
+      "Generated metadata",
+      "Analytic workflow"
+    ],
+    "actors": [],
+    "topicTags": [
+      "corpus health",
+      "metadata",
+      "refresh due",
+      "audit",
+      "workspace"
+    ],
+    "safetyBoundary": "Corpus health signal only. Does not score operational value, policy priority, target value, or collection priority.",
+    "freshnessStatus": "Current",
+    "lastSourceCheckUtc": "2026-06-18T18:50:00Z",
+    "nextRefreshUtc": "2026-06-25T18:50:00Z",
+    "caveatTags": [
+      "current-watch",
+      "archival-reference"
+    ],
+    "primarySources": [],
+    "relatedProducts": [
+      "WI-STD-006",
+      "WI-STD-007",
+      "WI-SN-WORKSPACE-2026-0001"
+    ],
+    "sourceUrls": [],
+    "sourceHash": "3cb139aa99b3",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Cyber And Critical Infrastructure Source Crosswalk",
@@ -3438,7 +4025,16 @@
       "WI-TRK-CYBER-SPACE-2026-0001"
     ],
     "sourceUrls": [],
-    "sourceHash": "5a5e3ba89d0c"
+    "sourceHash": "5a5e3ba89d0c",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "gap",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch",
+      "gap"
+    ]
   },
   {
     "title": "Defense Industrial Base Assimilation Matrix",
@@ -3503,7 +4099,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "bf80c81b6bba"
+    "sourceHash": "bf80c81b6bba",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Global Actor-Domain Assimilation Matrix",
@@ -3566,7 +4174,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "b4c53369f8b0"
+    "sourceHash": "b4c53369f8b0",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Global Assimilation",
@@ -3605,7 +4225,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "e66e9ad5b78b"
+    "sourceHash": "e66e9ad5b78b",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Legacy Factbook Replacement Note",
@@ -3679,7 +4313,18 @@
       "https://crsreports.congress.gov/`",
       "https://www.gao.gov/reports-testimonies`"
     ],
-    "sourceHash": "fd8dade14041"
+    "sourceHash": "fd8dade14041",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "LIVE-NEWS Source-Treatment Note",
@@ -3782,7 +4427,18 @@
       "https://www.pbs.org/newshour/live`",
       "https://apnews.com/article/88d79b896ca6e5ecea33f3bf3e5c9278`"
     ],
-    "sourceHash": "4af0bf26b5da"
+    "sourceHash": "4af0bf26b5da",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Maritime Chokepoint Strategic Assimilation Matrix",
@@ -3865,7 +4521,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "a7164099bf6c"
+    "sourceHash": "a7164099bf6c",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "NATO And U.S. Europe Force Posture Review Caveat",
@@ -3977,7 +4645,18 @@
       "https://x.com/DOWResponse/status/2067528383588712496?s=20`",
       "https://x.com/DOWResponse/status/2067527392831135841?s=20`"
     ],
-    "sourceHash": "7919b77af171"
+    "sourceHash": "7919b77af171",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "ODNI Global Biolab Disclosure Source-Treatment Note",
@@ -4065,7 +4744,18 @@
       "https://www.dni.gov/index.php/newsroom/press-releases/press-releases-2026/4163-pr-10-26`",
       "https://www.dni.gov/files/BIOLAB_Slides.pdf`"
     ],
-    "sourceHash": "3f2d482a9559"
+    "sourceHash": "3f2d482a9559",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Official Allied Source Assimilation Matrix",
@@ -4160,7 +4850,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "8fac25dfe941"
+    "sourceHash": "8fac25dfe941",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Official U.S. Threat Source Assimilation Matrix",
@@ -4217,7 +4919,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "59366e58e034"
+    "sourceHash": "59366e58e034",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Project Attribution And Maintainer Treatment Note",
@@ -4284,7 +4998,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "2565bbf7e7cd"
+    "sourceHash": "2565bbf7e7cd",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Source Notes",
@@ -4323,7 +5049,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "698f2bb7e257"
+    "sourceHash": "fe5ca05074b8",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Theater Map Index",
@@ -4405,7 +5145,18 @@
       "https://www.usgs.gov/us-board-on-geographic-names`",
       "https://arctic-council.org/`"
     ],
-    "sourceHash": "ef61904dc3ff"
+    "sourceHash": "ef61904dc3ff",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Topic Source Lane Crosswalk",
@@ -4479,7 +5230,15 @@
       "WI-TRK-GAPS-2026-0001"
     ],
     "sourceUrls": [],
-    "sourceHash": "3498f0610d78"
+    "sourceHash": "3498f0610d78",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "gap",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "gap"
+    ]
   },
   {
     "title": "U.S.-Iran MOU Afternoon Source Check",
@@ -4580,7 +5339,18 @@
       "https://www.president.ir/`",
       "https://mfa.gov.ir/`"
     ],
-    "sourceHash": "77b0bb2f97ae"
+    "sourceHash": "77b0bb2f97ae",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "U.S.-Iran MOU Implementation Gap Capture",
@@ -4684,7 +5454,18 @@
       "https://mfa.gov.ir/`",
       "https://pakistan.gov.pk/`"
     ],
-    "sourceHash": "e948959d4caa"
+    "sourceHash": "e948959d4caa",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "U.S.-Iran MOU Source-Treatment Note",
@@ -4810,7 +5591,18 @@
       "https://timesofindia.indiatimes.com/world/middle-east/its-signed-us-iran-mou-officially-finalized-after-both-sides-digitally-sign-agreement/articleshow/131814879.cms`",
       "https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/`"
     ],
-    "sourceHash": "75b41b3af9c0"
+    "sourceHash": "75b41b3af9c0",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Ukraine Biolab Claim-Reconciliation Source Note",
@@ -4913,7 +5705,18 @@
       "https://www.un.org/press/en/2022/sc14827.doc.htm`",
       "https://treaties.unoda.org/t/bwc`"
     ],
-    "sourceHash": "fe60bc5a33b2"
+    "sourceHash": "fe60bc5a33b2",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Workspace Metadata Triage Source Note",
@@ -4991,7 +5794,14 @@
       "WI-TRK-GAPS-2026-0001"
     ],
     "sourceUrls": [],
-    "sourceHash": "d02a94e53f83"
+    "sourceHash": "d02a94e53f83",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Arctic Militarization Strategic Event Timeline",
@@ -5067,7 +5877,18 @@
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration`"
     ],
-    "sourceHash": "539ad060d8c5"
+    "sourceHash": "539ad060d8c5",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Event Timelines",
@@ -5106,7 +5927,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "6273cd7b3f06"
+    "sourceHash": "6273cd7b3f06",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Red Sea And Houthi Maritime Disruption Strategic Event Timeline",
@@ -5191,7 +6026,18 @@
       "https://undocs.org/S/RES/2722(2024",
       "https://www.consilium.europa.eu/en/press/press-releases/2024/02/19/security-and-freedom-of-navigation-in-the-red-sea-council-launches-eunavfor-aspides/`"
     ],
-    "sourceHash": "56b1b86b7696"
+    "sourceHash": "56b1b86b7696",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Strategic Weapons Modernization Strategic Event Timeline",
@@ -5269,7 +6115,18 @@
       "https://media.defense.gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.PDF`",
       "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF`"
     ],
-    "sourceHash": "c21331ce2a09"
+    "sourceHash": "c21331ce2a09",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Taiwan Strait Coercion Strategic Event Timeline",
@@ -5347,7 +6204,18 @@
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`",
       "https://uscode.house.gov/view.xhtml?path=/prelim@title22/chapter48&edition=prelim`"
     ],
-    "sourceHash": "5fdb366e6ed7"
+    "sourceHash": "5fdb366e6ed7",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Ukraine War Strategic Event Timeline",
@@ -5425,7 +6293,17 @@
       "https://undocs.org/A/RES/ES-11/5",
       "https://undocs.org/A/RES/ES-11/6"
     ],
-    "sourceHash": "9312c2fbbabb"
+    "sourceHash": "9312c2fbbabb",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Africa Security Environment Explainer",
@@ -5496,7 +6374,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "babccacf1b6b"
+    "sourceHash": "babccacf1b6b",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Air And Missile Defense Explainer",
@@ -5567,7 +6458,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "5e60471dced0"
+    "sourceHash": "5e60471dced0",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Allied Defense Industrial Base Explainer",
@@ -5635,7 +6539,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "fe56d2ae99af"
+    "sourceHash": "fe56d2ae99af",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Arctic And High North Explainer",
@@ -5711,7 +6628,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "ecb8a7df4dac"
+    "sourceHash": "ecb8a7df4dac",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "China And PLA Modernization Explainer",
@@ -5779,7 +6709,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "1913795191b8"
+    "sourceHash": "1913795191b8",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Cyber And Critical Infrastructure Explainer",
@@ -5856,7 +6799,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "6d6870ef2ef1"
+    "sourceHash": "6d6870ef2ef1",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Defense Industrial Base Explainer",
@@ -5926,7 +6882,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "81e6dc76b307"
+    "sourceHash": "81e6dc76b307",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Drone And Counter-UAS Explainer",
@@ -5997,7 +6966,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "a014e9bc3aae"
+    "sourceHash": "a014e9bc3aae",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Explainers",
@@ -6035,7 +7017,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "be12ed61c503"
+    "sourceHash": "be12ed61c503",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Homeland And Law Enforcement Threat Explainer",
@@ -6109,7 +7105,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "305fde102cd4"
+    "sourceHash": "305fde102cd4",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Iran And Middle East Strategic Pressure Explainer",
@@ -6180,7 +7189,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "11008c87f3ab"
+    "sourceHash": "11008c87f3ab",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Shipbuilding And Repair Explainer",
@@ -6247,7 +7269,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "d46a486c7cf2"
+    "sourceHash": "d46a486c7cf2",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Space And Counterspace Explainer",
@@ -6318,7 +7353,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "2fb926be92f2"
+    "sourceHash": "2fb926be92f2",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Stratagems, Strategy, And Warfare Research Explainer",
@@ -6380,7 +7428,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "d75460986174"
+    "sourceHash": "d75460986174",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Ukraine External Support Explainer",
@@ -6445,7 +7506,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "7709371b6a63"
+    "sourceHash": "7709371b6a63",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Air And Missile Defense Industrial Capacity Source Packet",
@@ -6522,7 +7596,18 @@
       "https://www.gao.gov/`",
       "https://www.cbo.gov/`"
     ],
-    "sourceHash": "582848272283"
+    "sourceHash": "582848272283",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Arctic Infrastructure And Domain Awareness Source Packet",
@@ -6618,7 +7703,18 @@
       "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/north-strong-free-2024.html`",
       "https://www.rcaanc-cirnac.gc.ca/eng/1560523306861/1560523330587`"
     ],
-    "sourceHash": "7a84304810a2"
+    "sourceHash": "7a84304810a2",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Arctic Infrastructure Source Packets",
@@ -6664,7 +7760,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "5a37149ce67c"
+    "sourceHash": "5a37149ce67c",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Arms-Control Erosion Source Packet",
@@ -6755,7 +7865,18 @@
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration`"
     ],
-    "sourceHash": "93fc445a76b9"
+    "sourceHash": "93fc445a76b9",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "ASEAN And Claimant-State South China Sea Cross-Check Packet",
@@ -6893,7 +8014,18 @@
       "https://pca-cpa.org/en/cases/7/`",
       "https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/`"
     ],
-    "sourceHash": "64e72a6d9434"
+    "sourceHash": "64e72a6d9434",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "AUKUS Industrial Implementation Source Packet",
@@ -6997,7 +8129,18 @@
       "https://www.gov.uk/government/news/4-billion-uk-contracts-progresses-aukus-submarine-design`",
       "https://www.congress.gov/crs-product/RL32418`"
     ],
-    "sourceHash": "774e69d729d1"
+    "sourceHash": "774e69d729d1",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Australia Official Defence And AUKUS Source Baseline Packet",
@@ -7100,7 +8243,18 @@
       "https://www.defence.gov.au/about/accessing-information/annual-reports`",
       "https://www.defence.gov.au/about/accessing-information/budgets`"
     ],
-    "sourceHash": "876838a6fbc1"
+    "sourceHash": "876838a6fbc1",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Canada/NORAD Arctic And Continental Defense Source Packet",
@@ -7195,7 +8349,18 @@
       "https://www.budget.canada.ca/2024/report-rapport/toc-tdm-en.html`",
       "https://www.budget.canada.ca/2025/report-rapport/toc-tdm-en.html`"
     ],
-    "sourceHash": "af8094881881"
+    "sourceHash": "af8094881881",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "China Nuclear And Missile Modernization Source Packet",
@@ -7287,7 +8452,18 @@
       "https://media.defense.gov/2022/Oct/27/2003103845/-1/-1/1/2022-NATIONAL-DEFENSE-STRATEGY-NPR-MDR.PDF`",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration`"
     ],
-    "sourceHash": "1d1d432d63aa"
+    "sourceHash": "1d1d432d63aa",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "China/PLA Official Military And Security Source Baseline Packet",
@@ -7417,7 +8593,18 @@
       "https://www.state.gov/limits-in-the-seas-no-150-peoples-republic-of-china-maritime-claims-in-the-south-china-sea/`",
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration`"
     ],
-    "sourceHash": "71852af57ba4"
+    "sourceHash": "71852af57ba4",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "CIA, State, And NGA Foreign Government And Map Reference Packet",
@@ -7503,7 +8690,18 @@
       "https://www.nga.mil/resources/Products_%26_Services.html`",
       "https://www.nga.mil/resources/NGA_Maps_for_Download.html`"
     ],
-    "sourceHash": "561b165d2165"
+    "sourceHash": "561b165d2165",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Critical Materials And Defense Supply Chain Source Packet",
@@ -7601,7 +8799,18 @@
       "https://www.gao.gov/`",
       "https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials_en`"
     ],
-    "sourceHash": "f32049518f53"
+    "sourceHash": "f32049518f53",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Defense Industrial Base Source Packets",
@@ -7645,7 +8854,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "afdb040b7639"
+    "sourceHash": "afdb040b7639",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Defense Industrial Base, Munitions, And Shipbuilding Source Packet",
@@ -7734,7 +8957,18 @@
       "https://defence-industry-space.ec.europa.eu/`",
       "https://www.nato.int/cps/en/natohq/topics_49121.htm`"
     ],
-    "sourceHash": "fdcb49a53225"
+    "sourceHash": "fdcb49a53225",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Defensive Cyber And Space Source Packets",
@@ -7781,7 +9015,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "0533f9644116"
+    "sourceHash": "0533f9644116",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Defensive Cyber Source Lane Packet",
@@ -7891,7 +9139,15 @@
       "https://attack.mitre.org/",
       "https://www.cisecurity.org/"
     ],
-    "sourceHash": "991960230b31"
+    "sourceHash": "991960230b31",
+    "metadataCompleteness": 100,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "gap",
+    "sourceHealthFlags": [
+      "watch",
+      "gap"
+    ]
   },
   {
     "title": "Denmark Arctic And North Atlantic Implementation Source Packet",
@@ -8003,7 +9259,18 @@
       "https://www.nato.int/`",
       "https://www.nordefco.org/`"
     ],
-    "sourceHash": "0b586a97b3ac"
+    "sourceHash": "0b586a97b3ac",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Denmark Official Defense, Security, And Arctic Source Packet",
@@ -8108,7 +9375,18 @@
       "https://www.fmn.dk/en/topics/national-tasks/danish-defence-home-guard-and-emergency-management/`",
       "https://www.fmn.dk/en/topics/equipment/equipment-and-industri/`"
     ],
-    "sourceHash": "9b0007eff3a5"
+    "sourceHash": "9b0007eff3a5",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "DoD 2025 To PRC Issuer-Language Claim Crosswalk",
@@ -8207,7 +9485,18 @@
       "https://english.news.cn/20240419/2b64c22c5e8742d4949e0a923f6dc68f/c.html`",
       "https://english.news.cn/20240419/58e7b3a4d1f043858a0d29fce5da4cf4/c.html`"
     ],
-    "sourceHash": "bcb7f89d0ee7"
+    "sourceHash": "bcb7f89d0ee7",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "DoD/DIA China Military Power Extraction Map",
@@ -8309,7 +9598,18 @@
       "https://media.defense.gov/2024/Dec/18/2003615520/-1/-1/0/MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2024.PDF`",
       "https://www.dia.mil/Portals/110/Images/News/Military_Powers_Publications/China_Military_Power_FINAL_5MB_20190103.pdf`"
     ],
-    "sourceHash": "96a9f98a06d6"
+    "sourceHash": "96a9f98a06d6",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "DPRK Strategic Weapons Source Packet",
@@ -8418,7 +9718,18 @@
       "https://undocs.org/S/RES/1718(2006",
       "https://undocs.org/S/RES/2397(2017"
     ],
-    "sourceHash": "79a55adc70ab"
+    "sourceHash": "79a55adc70ab",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Drone And Counter-UAS Industrial Capacity Source Packet",
@@ -8495,7 +9806,18 @@
       "https://www.gao.gov/`",
       "https://www.cbo.gov/`"
     ],
-    "sourceHash": "3b4864547a88"
+    "sourceHash": "3b4864547a88",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "EU Readiness 2030 Implementation Source Packet",
@@ -8599,7 +9921,18 @@
       "https://www.europarl.europa.eu/`",
       "https://eur-lex.europa.eu/oj/direct-access.html`"
     ],
-    "sourceHash": "040c5879e7ac"
+    "sourceHash": "040c5879e7ac",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "EU Security And Defense Source Packet",
@@ -8698,7 +10031,18 @@
       "https://www.enisa.europa.eu/`",
       "https://www.consilium.europa.eu/en/policies/sanctions/`"
     ],
-    "sourceHash": "62805c692019"
+    "sourceHash": "62805c692019",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Europe, NATO, And Ukraine Map Reference Source Packet",
@@ -8805,7 +10149,18 @@
       "https://www.state.gov/countries-areas/russia/`",
       "https://www.un.org/geospatial/`"
     ],
-    "sourceHash": "f42ee868793f"
+    "sourceHash": "f42ee868793f",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Finland Official Defense, Security, And NATO Integration Source Packet",
@@ -8926,7 +10281,18 @@
       "https://www.huoltovarmuuskeskus.fi/en`",
       "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-finland`"
     ],
-    "sourceHash": "7e19690e61cd"
+    "sourceHash": "7e19690e61cd",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "France Official Defense And Security Source Baseline Packet",
@@ -9034,7 +10400,18 @@
       "https://cyber.gouv.fr/nous-connaitre/publications/panoramas-de-la-cybermenace/panorama-de-la-cybermenace-2024/`",
       "https://www.diplomatie.gouv.fr/en/information-by-country`"
     ],
-    "sourceHash": "5796271530b6"
+    "sourceHash": "5796271530b6",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Germany Official Defense And Security Source Baseline Packet",
@@ -9136,7 +10513,18 @@
       "https://www.auswaertiges-amt.de/blob/2608578/810fdade376b1467f20bdb697b2acd58/china-strategie-data.pdf`",
       "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/2021/09/cybersicherheitsstrategie-2021.pdf?__blob=publicationFile&v=2`"
     ],
-    "sourceHash": "9240d32d182a"
+    "sourceHash": "9240d32d182a",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "ICE Pact And Arctic Warning Implementation Source Packet",
@@ -9234,7 +10622,18 @@
       "https://www.canada.ca/en/public-services-procurement/news/2025/03/government-of-canada-awards-contract-to-chantier-davie-canada-inc-for-construction-of-new-polar-icebreaker.html`",
       "https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/large-vessels/polar-icebreakers.html`"
     ],
-    "sourceHash": "c8ef8859712d"
+    "sourceHash": "c8ef8859712d",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Iceland Official Security, Defense, And NATO Source Packet",
@@ -9336,7 +10735,18 @@
       "https://ac.nato.int/missions/air-policing/iceland`",
       "https://www.nato.int/`"
     ],
-    "sourceHash": "5e5c8357919f"
+    "sourceHash": "5e5c8357919f",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "India/Quad Strategic-Partner Source Packet",
@@ -9445,7 +10855,18 @@
       "https://www.mea.gov.in/press-releases`",
       "https://www.mea.gov.in/annualreports`"
     ],
-    "sourceHash": "16050aeb913b"
+    "sourceHash": "16050aeb913b",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Indo-Pacific Adversary Posture Source Packets",
@@ -9491,7 +10912,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "3b31ad67a4d7"
+    "sourceHash": "3b31ad67a4d7",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Indo-Pacific Allied Posture Official Source Baseline Packet",
@@ -9580,7 +11015,18 @@
       "https://www.asa.gov.au/aukus-agreement`",
       "https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/`"
     ],
-    "sourceHash": "29597f83a28c"
+    "sourceHash": "29597f83a28c",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Indo-Pacific Allied Posture Source Packets",
@@ -9627,7 +11073,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "cf0f8fdc2269"
+    "sourceHash": "cf0f8fdc2269",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Indo-Pacific And Taiwan Map Reference Source Packet",
@@ -9710,7 +11170,18 @@
       "https://www.ait.org.tw/`",
       "https://uscode.house.gov/view.xhtml?path=/prelim@title22/chapter48&edition=prelim`"
     ],
-    "sourceHash": "6b50770a2145"
+    "sourceHash": "6b50770a2145",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Iran WMD And Missile-Relevance Source Packet",
@@ -9815,7 +11286,18 @@
       "https://undocs.org/S/RES/2231(2015",
       "https://main.un.org/securitycouncil/en/content/2231/background`"
     ],
-    "sourceHash": "1e3c1736e425"
+    "sourceHash": "1e3c1736e425",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Japan Defense Buildup Implementation Source Packet",
@@ -9893,7 +11375,18 @@
       "https://www.mod.go.jp/atla/en/`",
       "https://www.mofa.go.jp/`"
     ],
-    "sourceHash": "f02e3e92fb2a"
+    "sourceHash": "f02e3e92fb2a",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Japan Official Defense And Security Source Baseline Packet",
@@ -9996,7 +11489,18 @@
       "https://www.mofa.go.jp/policy/other/bluebook/index.html`",
       "https://www.cyber.go.jp/eng/index.html`"
     ],
-    "sourceHash": "ba75bf49dd29"
+    "sourceHash": "ba75bf49dd29",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Maritime Chokepoints Source Packets",
@@ -10041,7 +11545,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "73f1d0b077a7"
+    "sourceHash": "73f1d0b077a7",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Multilateral Strategic Stability Source Packet",
@@ -10128,7 +11646,18 @@
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/washington-summit-declaration`",
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`"
     ],
-    "sourceHash": "7befd2e4336e"
+    "sourceHash": "7befd2e4336e",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Munitions And Energetics Industrial Capacity Source Packet",
@@ -10212,7 +11741,18 @@
       "https://www.nato.int/cps/en/natohq/official_texts.htm`",
       "https://defence-industry-space.ec.europa.eu/`"
     ],
-    "sourceHash": "9bd6eacd30c8"
+    "sourceHash": "9bd6eacd30c8",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "NATO Allied Capacity Official Source Baseline Packet",
@@ -10305,7 +11845,18 @@
       "https://www.nato.int/en/what-we-do/deterrence-and-defence/cyber-defence`",
       "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/natos-support-for-ukraine`"
     ],
-    "sourceHash": "ff583a199fc7"
+    "sourceHash": "ff583a199fc7",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "NATO Allied Capacity Source Packets",
@@ -10351,7 +11902,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "f270e7eb110b"
+    "sourceHash": "f270e7eb110b",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "NATO Europe Force Presence Allied Response Capture Packet",
@@ -10438,7 +12003,18 @@
       "https://apnews.com/article/3a550c72f0470de26b619d22b17935b6`",
       "https://www.theguardian.com/world/live/2026/jun/18/ukraine-russia-moscow-strikes-nato-defence-ministers-hegseth-rutte-latest-news-updates`"
     ],
-    "sourceHash": "c2f13dd2bae8"
+    "sourceHash": "c2f13dd2bae8",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "NATO Europe Force Presence Review Source Packet",
@@ -10539,7 +12115,18 @@
       "https://apnews.com/article/3a550c72f0470de26b619d22b17935b6`",
       "https://www.theguardian.com/world/live/2026/jun/18/ukraine-russia-moscow-strikes-nato-defence-ministers-hegseth-rutte-latest-news-updates`"
     ],
-    "sourceHash": "d1641157d28d"
+    "sourceHash": "d1641157d28d",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Navy Shipbuilding And Repair Industrial Capacity Source Packet",
@@ -10624,7 +12211,18 @@
       "https://www.gao.gov/`",
       "https://www.cbo.gov/`"
     ],
-    "sourceHash": "ec2b425a6f50"
+    "sourceHash": "ec2b425a6f50",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "New START Post-Expiration Status Source Packet",
@@ -10725,7 +12323,18 @@
       "https://2009-2017.state.gov/t/avc/trty/126118.htm`",
       "https://www.axios.com/2026/02/05/new-start-arms-control-us-russia-extend`"
     ],
-    "sourceHash": "81fe4929c84a"
+    "sourceHash": "81fe4929c84a",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "NORAD Modernization Implementation Source Packet",
@@ -10827,7 +12436,18 @@
       "https://www.northcom.mil/Strategy/`",
       "https://media.defense.gov/2024/Jul/22/2003507411/-1/-1/0/DOD-ARCTIC-STRATEGY-2024.PDF`"
     ],
-    "sourceHash": "aa86c9f2a46d"
+    "sourceHash": "aa86c9f2a46d",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Norway Official Defense, Security, And High North Source Packet",
@@ -10934,7 +12554,18 @@
       "https://nsm.no/advice-and-guidance/publications/nsm-ict-security-principles`",
       "https://nsm.no/about-nsm/about-the-norwegian-national-security-authority/`"
     ],
-    "sourceHash": "390162ce9fed"
+    "sourceHash": "390162ce9fed",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Official U.S. Threat Source Baseline Packet",
@@ -11013,7 +12644,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "4ba5e1f0848c"
+    "sourceHash": "4ba5e1f0848c",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Official U.S. Threat Source Baseline Source Packets",
@@ -11057,7 +12700,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "08fb5cdb8b01"
+    "sourceHash": "08fb5cdb8b01",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Philippines And South China Sea Map Reference Source Packet",
@@ -11167,7 +12824,18 @@
       "https://www.state.gov/countries-areas/philippines/`",
       "https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/`"
     ],
-    "sourceHash": "3042e0620390"
+    "sourceHash": "3042e0620390",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Philippines Official Defense And Maritime Source Capture Packet",
@@ -11301,7 +12969,18 @@
       "https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/`",
       "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF`"
     ],
-    "sourceHash": "2b81db6f3f4c"
+    "sourceHash": "2b81db6f3f4c",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "PLA Services And Arms Source Packet",
@@ -11416,7 +13095,18 @@
       "https://eng.chinamil.com.cn/`",
       "https://english.www.gov.cn/archive/whitepaper/201907/24/content_WS5d3941ddc6d08408f502283d.html`"
     ],
-    "sourceHash": "c093ccb6665a"
+    "sourceHash": "c093ccb6665a",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "PRC Cyber And Critical Infrastructure Defensive Source Packet",
@@ -11549,7 +13239,18 @@
       "https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical`",
       "https://english.www.gov.cn/archive/whitepaper/202303/16/content_WS6489542ec6d0868f4e8dcd56.html`"
     ],
-    "sourceHash": "d22ee7fbafa5"
+    "sourceHash": "d22ee7fbafa5",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "PRC MND And PLA Official-Media Dated Capture Packet",
@@ -11667,7 +13368,18 @@
       "https://english.www.gov.cn/statecouncil/ministries/201907/24/content_WS5d37ca73c6d00d362f668c58.html`",
       "https://english.www.gov.cn/policies/policywatch/201907/24/content_WS5d384696c6d08408f5022800.html`"
     ],
-    "sourceHash": "8d08041f5a2b"
+    "sourceHash": "8d08041f5a2b",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "PRC Official Doctrine And Issuer-Language Source Packet",
@@ -11795,7 +13507,18 @@
       "http://eng.mod.gov.cn/`",
       "http://eng.chinamil.com.cn/`"
     ],
-    "sourceHash": "17c6feced03f"
+    "sourceHash": "17c6feced03f",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "PRC Space, Counterspace, And Information-Support Source Packet",
@@ -11904,7 +13627,18 @@
       "https://aerospace.csis.org/`",
       "https://english.www.gov.cn/`"
     ],
-    "sourceHash": "531b0d18b15c"
+    "sourceHash": "531b0d18b15c",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Red Sea Maritime Economics And Insurance Source Packet",
@@ -12003,7 +13737,18 @@
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`",
       "https://commercial.allianz.com/news-and-insights/reports/shipping-safety.html`"
     ],
-    "sourceHash": "7be6809995e6"
+    "sourceHash": "7be6809995e6",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Red Sea Maritime Economics Source Packets",
@@ -12051,7 +13796,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "81b22aeb16b0"
+    "sourceHash": "81b22aeb16b0",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Republic Of Korea Official Defense And Extended Deterrence Source Packet",
@@ -12158,7 +13917,18 @@
       "https://www.mnd.go.kr/mbshome/mbs/mndEN/`",
       "https://www.dapa.go.kr/dapa_en/main.do`"
     ],
-    "sourceHash": "4f5d5a912246"
+    "sourceHash": "4f5d5a912246",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Russia Strategic Weapons And Nuclear Signaling Source Packet",
@@ -12261,7 +14031,18 @@
       "https://www.armscontrol.org/factsheets/new-start-glance`",
       "https://www.dia.mil/Portals/110/Images/News/Military_Powers_Publications/Russia_Military_Power_Report_2017.pdf`"
     ],
-    "sourceHash": "a2bd9776e765"
+    "sourceHash": "a2bd9776e765",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Salt Typhoon And Telecommunications Defensive Source Note",
@@ -12388,7 +14169,18 @@
       "https://www.fcc.gov/`",
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf`"
     ],
-    "sourceHash": "4ceb851a67dd"
+    "sourceHash": "4ceb851a67dd",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Source Packets",
@@ -12428,7 +14220,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "99a2ad19458e"
+    "sourceHash": "99a2ad19458e",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "South China Sea Coercion And Legal-Source Packet",
@@ -12565,7 +14371,18 @@
       "https://eng.mod.gov.cn/`",
       "https://eng.chinamil.com.cn/`"
     ],
-    "sourceHash": "25bb26de79d7"
+    "sourceHash": "25bb26de79d7",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Strait Of Hormuz Strategic Chokepoint Source Packet",
@@ -12664,7 +14481,18 @@
       "https://www.axios.com/2026/06/17/read-full-us-iran-deal-memorandum-understanding`",
       "https://www.theguardian.com/world/2026/jun/17/us-iran-deal-trump`"
     ],
-    "sourceHash": "0143e76cd07b"
+    "sourceHash": "0143e76cd07b",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Stratagems, Strategy, And Warfare Academic Research Source Packet",
@@ -12750,7 +14578,18 @@
       "https://csbaonline.org/`",
       "https://digital-commons.usnwc.edu/nwc-review/`"
     ],
-    "sourceHash": "0bc63707d028"
+    "sourceHash": "0bc63707d028",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Strategic Weapons Official Source Baseline Packet",
@@ -12832,7 +14671,18 @@
       "https://media.defense.gov/2025/Dec/23/2003849070/-1/-1/1/ANNUAL-REPORT-TO-CONGRESS-MILITARY-AND-SECURITY-DEVELOPMENTS-INVOLVING-THE-PEOPLES-REPUBLIC-OF-CHINA-2025.PDF`",
       "https://2009-2017.state.gov/t/avc/trty/126118.htm`"
     ],
-    "sourceHash": "a7b36f5f9afb"
+    "sourceHash": "a7b36f5f9afb",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Strategic Weapons Source Packets",
@@ -12878,7 +14728,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "9701ce1929ce"
+    "sourceHash": "9701ce1929ce",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Strategy And Warfare Research Source Packets",
@@ -12923,7 +14787,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "d203fced4f27"
+    "sourceHash": "d203fced4f27",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Sweden Official Defense, Security, And NATO Integration Source Packet",
@@ -13048,7 +14926,18 @@
       "https://www.mcf.se/sv/publikationer/the-strategic-environment-and-planning-assumptions-for-swedish-total-defence-20252030-/`",
       "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-sweden`"
     ],
-    "sourceHash": "f566978351eb"
+    "sourceHash": "f566978351eb",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Taiwan Pressure And Cross-Strait Coercion Source Packet",
@@ -13165,7 +15054,18 @@
       "https://www.mnd.gov.tw/english/`",
       "https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html`"
     ],
-    "sourceHash": "befa26905f88"
+    "sourceHash": "befa26905f88",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Theater Map Reference Source Packets",
@@ -13209,7 +15109,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "5a7c163936d4"
+    "sourceHash": "5a7c163936d4",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "U.S. Law Enforcement Threat Source Capture Packet",
@@ -13290,7 +15204,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "96afd8ab8d25"
+    "sourceHash": "96afd8ab8d25",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture",
@@ -13403,7 +15329,18 @@
       "https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/`",
       "https://www.ft.com/content/d4f89b6b-c213-4550-924b-a9ae45e24c37`"
     ],
-    "sourceHash": "ec8b47e21192"
+    "sourceHash": "ec8b47e21192",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "U.S.-Japan-ROK Trilateral Implementation Source Packet",
@@ -13505,7 +15442,18 @@
       "https://www.defense.gov/News/Releases/Release/Article/3852146/japan-united-states-republic-of-korea-trilateral-ministerial-joint-press-statem/`",
       "https://www.defense.gov/News/Releases/Release/Article/3856333/secretary-of-defense-lloyd-j-austin-iii-concludes-eleventh-visit-to-the-indo-pa/`"
     ],
-    "sourceHash": "a43a235be1bd"
+    "sourceHash": "a43a235be1bd",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "United Kingdom Defense Investment And Readiness Implementation Source Packet",
@@ -13586,7 +15534,18 @@
       "https://www.nao.org.uk/`",
       "https://www.gov.uk/government/groups/national-shipbuilding-office`"
     ],
-    "sourceHash": "02ef84474a87"
+    "sourceHash": "02ef84474a87",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "United Kingdom Official Defense And Security Source Baseline Packet",
@@ -13691,7 +15650,18 @@
       "https://www.gov.uk/government/publications/counter-terrorism-strategy-contest-2023`",
       "https://www.gov.uk/government/publications/uk-biological-security-strategy`"
     ],
-    "sourceHash": "02c163f5c288"
+    "sourceHash": "02c163f5c288",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "WMD/Biosecurity Public Source Baseline Packet",
@@ -13785,7 +15755,18 @@
       "https://treaties.unoda.org/t/bwc`",
       "https://www.biotech.senate.gov/final-report/`"
     ],
-    "sourceHash": "0e88dce000de"
+    "sourceHash": "0e88dce000de",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Defensive Cyber And Space Source Register",
@@ -13863,7 +15844,15 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "3ee401d77a98"
+    "sourceHash": "3ee401d77a98",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
+    ]
   },
   {
     "title": "Foreign Government Reference Source Register",
@@ -13991,7 +15980,17 @@
       "https://www.officialgazette.gov.ph/2014/04/29/document-enhanced-defense-cooperation-agreement/`",
       "https://www.state.gov/countries-areas/`"
     ],
-    "sourceHash": "405b7e4c1b5c"
+    "sourceHash": "405b7e4c1b5c",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Map And Geospatial Reference Source Register",
@@ -14084,7 +16083,17 @@
       "https://www.africom.mil/area-of-responsibility`",
       "https://www.southcom.mil/About/Area-of-Responsibility/`"
     ],
-    "sourceHash": "fe2f2eb92749"
+    "sourceHash": "fe2f2eb92749",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Maritime Chokepoints Source Register",
@@ -14174,7 +16183,17 @@
       "https://www.federalregister.gov/documents/2025/01/31/2025-02103/designation-of-ansar-allah-as-a-foreign-terrorist-organization",
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf"
     ],
-    "sourceHash": "09444a74a208"
+    "sourceHash": "09444a74a208",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Official U.S. Intelligence And Law Enforcement Source Register",
@@ -14281,7 +16300,17 @@
       "https://www.justice.gov/nsd",
       "https://www.nga.mil/"
     ],
-    "sourceHash": "93d389d4d49b"
+    "sourceHash": "93d389d4d49b",
+    "metadataCompleteness": 67,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "ready",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Assessment Style Guide",
@@ -14332,7 +16361,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "e04d95b96b98"
+    "sourceHash": "e04d95b96b98",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Confidence And Caveat Taxonomy",
@@ -14388,7 +16430,18 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "a9e00e7054cc"
+    "sourceHash": "a9e00e7054cc",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Datetime And Versioning Standard",
@@ -14437,7 +16490,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "a5e8f453cfb7"
+    "sourceHash": "a5e8f453cfb7",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Explainer Standard",
@@ -14488,7 +16554,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "b0ebd5376ad7"
+    "sourceHash": "b0ebd5376ad7",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Structured Metadata And Export Standard",
@@ -14548,7 +16627,18 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "3614f36e1a54"
+    "sourceHash": "547831d3db3f",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Assessment Template",
@@ -14591,7 +16681,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "808548942546"
+    "sourceHash": "808548942546",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Explainer Template",
@@ -14643,7 +16745,20 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "4ec703cade70"
+    "sourceHash": "4ec703cade70",
+    "metadataCompleteness": 42,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "All-Topic Current Source Sweep Tracker",
@@ -14749,7 +16864,18 @@
       "https://crsreports.congress.gov/`",
       "https://www.gao.gov/`"
     ],
-    "sourceHash": "aeda4a6c6ad8"
+    "sourceHash": "aeda4a6c6ad8",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Allied Official Source Collection Tracker",
@@ -14881,7 +17007,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "5a8a6ad40f07"
+    "sourceHash": "5a8a6ad40f07",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Arms-Control Erosion Strategic Tracker",
@@ -14956,7 +17094,18 @@
       "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/01/03/p5-statement-on-preventing-nuclear-war-and-avoiding-arms-races/`",
       "https://legal.un.org/avl/ha/tnpt/tnpt.html`"
     ],
-    "sourceHash": "26a40ce643fa"
+    "sourceHash": "26a40ce643fa",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "China/PLA Source Collection Tracker",
@@ -15027,7 +17176,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "4a73bc399402"
+    "sourceHash": "4a73bc399402",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Collection Gap Register",
@@ -15102,7 +17263,16 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "257e269542c5"
+    "sourceHash": "257e269542c5",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "gap",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch",
+      "gap"
+    ]
   },
   {
     "title": "Critical Materials And Supply Chain Tracker",
@@ -15172,7 +17342,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "1f59b3eb7859"
+    "sourceHash": "1f59b3eb7859",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Current Category Source Sweep Tracker",
@@ -15277,7 +17459,18 @@
       "https://www.gao.gov/`",
       "https://crsreports.congress.gov/`"
     ],
-    "sourceHash": "42387aa3d2c4"
+    "sourceHash": "42387aa3d2c4",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Cyber And Space Refresh Queue Tracker",
@@ -15367,7 +17560,15 @@
       "WI-SP-CYBER-2026-0001"
     ],
     "sourceUrls": [],
-    "sourceHash": "058d9a66ed41"
+    "sourceHash": "058d9a66ed41",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "watch",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "watch"
+    ]
   },
   {
     "title": "Defense Industrial Base Capacity Tracker",
@@ -15437,7 +17638,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "bf8d13566128"
+    "sourceHash": "bf8d13566128",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "LIVE-NEWS Source Audit Tracker",
@@ -15538,7 +17751,18 @@
       "https://www.foxweather.com/live`",
       "https://www.senate.gov/committees/`"
     ],
-    "sourceHash": "044b8800e353"
+    "sourceHash": "044b8800e353",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Munitions Industrial Capacity Tracker",
@@ -15604,7 +17828,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "b1dfd1adf8d4"
+    "sourceHash": "b1dfd1adf8d4",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "NATO Europe Force Presence Implementation Tracker",
@@ -15704,7 +17940,18 @@
       "https://x.com/DOWResponse/status/2067527392831135841?s=20`",
       "https://apnews.com/article/3a550c72f0470de26b619d22b17935b6`"
     ],
-    "sourceHash": "91adbc2f7488"
+    "sourceHash": "91adbc2f7488",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Official Threat Source Collection Tracker",
@@ -15762,7 +18009,19 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "1b2ec4d7cb04"
+    "sourceHash": "1b2ec4d7cb04",
+    "metadataCompleteness": 50,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "Red Sea Maritime Disruption Strategic Tracker",
@@ -15843,7 +18102,18 @@
       "https://www.suezcanal.gov.eg/English/Navigation/Pages/NavigationStatistics.aspx`",
       "https://commercial.allianz.com/news-and-insights/reports/shipping-safety.html`"
     ],
-    "sourceHash": "fed5ff6d9cd9"
+    "sourceHash": "fed5ff6d9cd9",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Source Freshness Dashboard Tracker",
@@ -15911,7 +18181,15 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "a47c7213d9f6"
+    "sourceHash": "a47c7213d9f6",
+    "metadataCompleteness": 92,
+    "refreshDue": false,
+    "daysUntilRefresh": 7,
+    "sourceHealthStatus": "gap",
+    "sourceHealthFlags": [
+      "missing-primary-sources",
+      "gap"
+    ]
   },
   {
     "title": "Trackers",
@@ -15947,7 +18225,21 @@
     "primarySources": [],
     "relatedProducts": [],
     "sourceUrls": [],
-    "sourceHash": "6cf4aca9b4e9"
+    "sourceHash": "6cf4aca9b4e9",
+    "metadataCompleteness": 8,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-product-id",
+      "missing-safety-boundary",
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats",
+      "missing-primary-sources"
+    ]
   },
   {
     "title": "U.S.-Iran MOU Implementation Watch Tracker",
@@ -16039,7 +18331,18 @@
       "https://mfa.gov.ir/`",
       "https://pakistan.gov.pk/`"
     ],
-    "sourceHash": "36152787c18a"
+    "sourceHash": "36152787c18a",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   },
   {
     "title": "Ukraine War External Support Tracker",
@@ -16117,6 +18420,17 @@
       "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
       "https://www.dni.gov/files/ODNI/documents/assessments/ATA-2026-Unclassified-Report.pdf"
     ],
-    "sourceHash": "47872499576c"
+    "sourceHash": "47872499576c",
+    "metadataCompleteness": 58,
+    "refreshDue": false,
+    "daysUntilRefresh": null,
+    "sourceHealthStatus": "needs-metadata",
+    "sourceHealthFlags": [
+      "missing-freshness-status",
+      "missing-last-source-check",
+      "missing-next-refresh",
+      "missing-source-classes",
+      "missing-caveats"
+    ]
   }
 ]

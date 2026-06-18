@@ -41,7 +41,7 @@
         <p>LOCAL CORPUS TERMINAL</p>
         <p>STATUS: ONLINE</p>
         <p>MODE: READ-ONLY</p>
-        <p>UPDATED: <time datetime="2026-06-18T18:45:00Z">2026-06-18 18:45:00Z</time></p>
+        <p>UPDATED: <time datetime="2026-06-18T18:50:00Z">2026-06-18 18:50:00Z</time></p>
       </div>
     </header>
     <nav class="primary-nav" aria-label="Primary navigation">
@@ -211,7 +211,7 @@
       <h2>
         <button class="doc-group-toggle" type="button" aria-expanded="false" aria-controls="doc-group-collections-panel">
           <span>Collections</span>
-          <span class="doc-group-count">23</span>
+          <span class="doc-group-count">24</span>
         </button>
       </h2>
       <div class="doc-group-links" id="doc-group-collections-panel" hidden>
@@ -228,6 +228,11 @@
 
           <a class="doc-link" href="../collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html" data-filter="Corpus Audit Trail Source Note Document Collections Collections Source Notes The generator adds a sourceHash field to each exported corpus record. The hash is a short SHA-256 digest of the Markdown source text and is intended to help identify whether a product changed between generated exports. WI-SN-AUDIT-2026-0001 2026-06-18T18:37:00Z 2026-06-18T18:37:00Z High for repository behavior after local generation. collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.md library/collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html Document Collections Source Notes High Confidence corpus audit trail source note collections source-notes 2026-06-18t1837z-corpus-audit-trail-source-note document source notes wi-sn-audit-2026-0001 2026-06-18t18:37:00z high for repository behavior after local generation">
             <strong>Corpus Audit Trail Source Note</strong>
+            <span>Document Collections</span>
+          </a>
+
+          <a class="doc-link" href="../collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.html" data-filter="Corpus Health Signal Source Note Document Collections Collections Source Notes The generator now adds source-health fields to each corpus export record. These fields make it easier to find under-described, stale, gap-marked, watchlisted, or refresh-due records without manually reading every product. WI-SN-HEALTH-2026-0001 2026-06-18T18:50:00Z 2026-06-18T18:50:00Z High for generated-field behavior; moderate for interpretation because corpus health is a workflow aid, not an analytic judgment. collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.md library/collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.html Document Collections Source Notes High Confidence corpus health signal source note collections source-notes 2026-06-18t1850z-corpus-health-signal-source-note document source notes wi-sn-health-2026-0001 2026-06-18t18:50:00z high for generated-field behavior moderate interpretation because is workflow aid not an analytic judgment">
+            <strong>Corpus Health Signal Source Note</strong>
             <span>Document Collections</span>
           </a>
 
@@ -1234,15 +1239,15 @@
 <h2 id="purpose">Purpose</h2>
 <p>This standard makes WARLOCK-INDEX products easier to use in analytic systems by giving each product a stable set of machine-readable fields. The static generator now exports the documentation corpus as browser JavaScript, JSON, and CSV.</p>
 <h2 id="export-locations">Export Locations</h2>
-<ul><li><code>site/corpus.js</code> remains the browser and workspace corpus bundle.</li><li><code>site/workspace/corpus.js</code> remains the workspace copy.</li><li><code>site/corpus.json</code> is the machine-readable corpus export.</li><li><code>site/workspace/corpus.json</code> is the workspace-local JSON export.</li><li><code>site/corpus.csv</code> is the tabular export for spreadsheet and data pipeline review.</li></ul>
+<ul><li><code>site/corpus.js</code> remains the browser and workspace corpus bundle.</li><li><code>site/workspace/corpus.js</code> remains the workspace copy.</li><li><code>site/corpus.json</code> is the machine-readable corpus export.</li><li><code>site/workspace/corpus.json</code> is the workspace-local JSON export.</li><li><code>site/corpus-health.json</code> is the generated corpus-health summary.</li><li><code>site/workspace/corpus-health.json</code> is the workspace-local corpus-health summary.</li><li><code>site/corpus.csv</code> is the tabular export for spreadsheet and data pipeline review.</li></ul>
 <h2 id="recommended-metadata-fields">Recommended Metadata Fields</h2>
 <p>Products should include these fields when the information is available:</p>
 <ul><li><code>Topics</code>: Human-readable topical labels that can be more specific than generated topic hubs.</li><li><code>Actors</code>: States, organizations, networks, sectors, or institutions materially covered by the product.</li><li><code>Source classes</code>: Official, allied, vendor, vulnerability database, academic, legal, media, geospatial, maritime, or other source-class labels.</li><li><code>Safety boundary</code>: Short statement of what the product does not provide.</li><li><code>Freshness status</code>: Current, Watch, Stale, Gap, Superseded, or Reference.</li><li><code>Last source check UTC</code>: UTC timestamp for the most recent source sweep.</li><li><code>Next refresh UTC</code>: UTC timestamp or date for the next required review.</li><li><code>Caveat tags</code>: Standard caveat labels from the confidence and caveat taxonomy.</li><li><code>Primary sources</code>: Semicolon-separated source families or URLs.</li><li><code>Related products</code>: Stable product IDs for connected products.</li></ul>
 <h2 id="generated-fields">Generated Fields</h2>
 <p>The generator also derives:</p>
-<ul><li><code>sourceUrls</code>: HTTP and HTTPS URLs found in the Markdown source.</li><li><code>sourceHash</code>: Short SHA-256 hash of the Markdown source text.</li><li><code>topics</code>, <code>badges</code>, and <code>tags</code>: Generated routing, display, and search labels.</li><li><code>path</code>: Generated site path for the rendered product.</li></ul>
+<ul><li><code>sourceUrls</code>: HTTP and HTTPS URLs found in the Markdown source.</li><li><code>sourceHash</code>: Short SHA-256 hash of the Markdown source text.</li><li><code>metadataCompleteness</code>: Percentage score for presence of key metadata fields.</li><li><code>refreshDue</code>: Boolean derived from <code>Next refresh UTC</code>.</li><li><code>daysUntilRefresh</code>: Days until the next recorded refresh date.</li><li><code>sourceHealthStatus</code>: Derived status for triage: ready, watch, gap, refresh-due, stale, or needs-metadata.</li><li><code>sourceHealthFlags</code>: Searchable flags explaining missing fields, watch/gap status, or refresh due state.</li><li><code>topics</code>, <code>badges</code>, and <code>tags</code>: Generated routing, display, and search labels.</li><li><code>path</code>: Generated site path for the rendered product.</li></ul>
 <h2 id="export-rules">Export Rules</h2>
-<ol><li>Do not put classified, leaked, personal, or improperly obtained material into metadata fields.</li><li>Use source-class labels instead of long prose when possible.</li><li>Use <code>Freshness status: Gap</code> when the product identifies a source requirement but lacks a current capture.</li><li>Use <code>Freshness status: Watch</code> for rapidly changing topics that need repeated source checks.</li><li>Use <code>Caveat tags</code> to make uncertainty searchable across the corpus.</li><li>Use related product IDs for internal routing and avoid ambiguous prose-only references.</li></ol>
+<ol><li>Do not put classified, leaked, personal, or improperly obtained material into metadata fields.</li><li>Use source-class labels instead of long prose when possible.</li><li>Use <code>Freshness status: Gap</code> when the product identifies a source requirement but lacks a current capture.</li><li>Use <code>Freshness status: Watch</code> for rapidly changing topics that need repeated source checks.</li><li>Use <code>Caveat tags</code> to make uncertainty searchable across the corpus.</li><li>Use related product IDs for internal routing and avoid ambiguous prose-only references.</li><li>Treat generated health fields as workflow aids; they do not measure policy priority, operational value, or source truth.</li></ol>
           </div>
         </article>
       </main>

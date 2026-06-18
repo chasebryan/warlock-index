@@ -28,6 +28,8 @@ This standard makes WARLOCK-INDEX products easier to use in analytic systems by 
 - `site/workspace/corpus.js` remains the workspace copy.
 - `site/corpus.json` is the machine-readable corpus export.
 - `site/workspace/corpus.json` is the workspace-local JSON export.
+- `site/corpus-health.json` is the generated corpus-health summary.
+- `site/workspace/corpus-health.json` is the workspace-local corpus-health summary.
 - `site/corpus.csv` is the tabular export for spreadsheet and data pipeline review.
 
 ## Recommended Metadata Fields
@@ -51,6 +53,11 @@ The generator also derives:
 
 - `sourceUrls`: HTTP and HTTPS URLs found in the Markdown source.
 - `sourceHash`: Short SHA-256 hash of the Markdown source text.
+- `metadataCompleteness`: Percentage score for presence of key metadata fields.
+- `refreshDue`: Boolean derived from `Next refresh UTC`.
+- `daysUntilRefresh`: Days until the next recorded refresh date.
+- `sourceHealthStatus`: Derived status for triage: ready, watch, gap, refresh-due, stale, or needs-metadata.
+- `sourceHealthFlags`: Searchable flags explaining missing fields, watch/gap status, or refresh due state.
 - `topics`, `badges`, and `tags`: Generated routing, display, and search labels.
 - `path`: Generated site path for the rendered product.
 
@@ -62,4 +69,4 @@ The generator also derives:
 4. Use `Freshness status: Watch` for rapidly changing topics that need repeated source checks.
 5. Use `Caveat tags` to make uncertainty searchable across the corpus.
 6. Use related product IDs for internal routing and avoid ambiguous prose-only references.
-
+7. Treat generated health fields as workflow aids; they do not measure policy priority, operational value, or source truth.

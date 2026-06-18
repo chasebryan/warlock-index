@@ -19,6 +19,8 @@ const routes = [
   { id: "topic-middle-east", label: "Middle East", match: (item) => (item.topics || []).includes("middle-east") },
   { id: "watch", label: "Watch queue", match: (item) => normalize(item.freshnessStatus).includes("watch") },
   { id: "gaps", label: "Gap register", match: (item) => normalize(item.freshnessStatus).includes("gap") || (item.caveatTags || []).some((tag) => normalize(tag).includes("gap")) },
+  { id: "refresh-due", label: "Refresh due", match: (item) => item.refreshDue || item.sourceHealthStatus === "refresh-due" },
+  { id: "needs-metadata", label: "Needs metadata", match: (item) => item.sourceHealthStatus === "needs-metadata" },
   { id: "defensive-cyber", label: "Defensive cyber", match: (item) => (item.caveatTags || []).some((tag) => normalize(tag) === "defensive cyber only") || itemHaystack(item).includes("defensive cyber") },
   { id: "assessments", label: "Assessments", match: (item) => item.type === "Assessment" },
   { id: "maps", label: "Maps", match: (item) => item.type === "Map Resource" || String(item.path || "").startsWith("library/maps/") },
@@ -45,6 +47,8 @@ const quickRoutes = [
   "Cyber",
   "Watch",
   "Gap",
+  "Refresh due",
+  "Needs metadata",
   "Defensive cyber",
   "Standards"
 ];
@@ -138,6 +142,10 @@ function itemHaystack(item) {
     item.nextRefreshUtc,
     item.safetyBoundary,
     item.sourceHash,
+    item.metadataCompleteness,
+    item.sourceHealthStatus,
+    item.daysUntilRefresh,
+    ...(item.sourceHealthFlags || []),
     ...(item.sourceClasses || []),
     ...(item.actors || []),
     ...(item.topicTags || []),
@@ -209,6 +217,11 @@ function metadataLines(item) {
     ["Next refresh", formatUtc(item.nextRefreshUtc)],
     ["Product ID", item.productId || "Unstated"],
     ["Source hash", item.sourceHash || "Unstated"],
+    ["Health status", item.sourceHealthStatus || "Unstated"],
+    ["Metadata completeness", typeof item.metadataCompleteness === "number" ? `${item.metadataCompleteness}%` : "Unstated"],
+    ["Refresh due", item.refreshDue ? "Yes" : "No"],
+    ["Days until refresh", typeof item.daysUntilRefresh === "number" ? String(item.daysUntilRefresh) : "Unstated"],
+    ["Health flags", asArray(item.sourceHealthFlags).join("; ") || "Unstated"],
     ["Source classes", asArray(item.sourceClasses).join("; ") || "Unstated"],
     ["Actors", asArray(item.actors).join("; ") || "Unstated"],
     ["Caveats", asArray(item.caveatTags).join("; ") || "Unstated"],
@@ -235,6 +248,9 @@ function renderMetadataList(item) {
     ["Caveats", asArray(item.caveatTags).join("; ")],
     ["Related", asArray(item.relatedProducts).join("; ")],
     ["Source hash", item.sourceHash],
+    ["Health", item.sourceHealthStatus],
+    ["Completeness", typeof item.metadataCompleteness === "number" ? `${item.metadataCompleteness}%` : ""],
+    ["Health flags", asArray(item.sourceHealthFlags).join("; ")],
     ["Safety", item.safetyBoundary]
   ].filter(([, value]) => value && value !== "Unstated");
 
@@ -1251,6 +1267,8 @@ function renderResults(results) {
         item.preparedUtc ? `Prepared ${formatUtc(item.preparedUtc)}` : "",
         item.confidence ? `Confidence ${confidenceLabel(item.confidence)}` : "",
         ...metadataFacts(item),
+        item.sourceHealthStatus ? `Health ${item.sourceHealthStatus}` : "",
+        typeof item.metadataCompleteness === "number" ? `Metadata ${item.metadataCompleteness}%` : "",
         item.productId || ""
       ].filter(Boolean);
       return `

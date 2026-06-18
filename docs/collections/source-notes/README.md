@@ -19,3 +19,4 @@ source matters.
 - [2026-06-18T1758Z - U.S.-Iran MOU Afternoon Source Check](2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
 - [2026-06-18T1837Z - Corpus Audit Trail Source Note](2026-06-18T1837Z-corpus-audit-trail-source-note.md)
 - [2026-06-18T1845Z - Workspace Metadata Triage Source Note](2026-06-18T1845Z-workspace-metadata-triage-source-note.md)
+- [2026-06-18T1850Z - Corpus Health Signal Source Note](2026-06-18T1850Z-corpus-health-signal-source-note.md)

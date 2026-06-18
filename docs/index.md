@@ -112,6 +112,7 @@ matrices.
 - [U.S.-Iran MOU Afternoon Source Check](collections/source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
 - [Corpus Audit Trail Source Note](collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.md)
 - [Workspace Metadata Triage Source Note](collections/source-notes/2026-06-18T1845Z-workspace-metadata-triage-source-note.md)
+- [Corpus Health Signal Source Note](collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.md)
 - [Source Packets](collections/source-packets)
 - [Indo-Pacific Adversary Posture Source Packets](collections/source-packets/indo-pacific-adversary-posture)
 - [China/PLA Official Military And Security Source Baseline Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
