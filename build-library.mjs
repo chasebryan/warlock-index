@@ -293,6 +293,7 @@ function extractProductId(markdown) {
     "Tracker ID",
     "Timeline ID",
     "Matrix ID",
+    "Map Resource ID",
     "Source Note ID",
     "Source Packet ID",
     "Source Register ID",

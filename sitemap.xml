@@ -397,6 +397,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/maps/geospatial-triage-guide.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/maps/map-source-caveat-playbook.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/maps/maritime-ais-map-handling.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/maps/theater-map-dashboard.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</loc>
     <priority>0.7</priority>
   </url>

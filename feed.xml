@@ -7,8 +7,48 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 18:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 19:08:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Maritime AIS Map Handling</title>
+      <link>https://www.warlock-index.org/library/maps/maritime-ais-map-handling.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/maps/maritime-ais-map-handling.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:08:00 GMT</pubDate>
+      <category>Map Resource</category>
+      <category>Global</category>
+      <category>Maps</category>
+      <description>MarineTraffic and similar public AIS tools can help discover a maritime question, but they should not become a the corpus map layer or operational product. Use AIS sources to cue follow-on research into official maritime notices, port authorities, NOAA chart families, IMO records, shipping/insurance reporting, and dated source packets.</description>
+    </item>
+    <item>
+      <title>Map Source Caveat Playbook</title>
+      <link>https://www.warlock-index.org/library/maps/map-source-caveat-playbook.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/maps/map-source-caveat-playbook.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:07:00 GMT</pubDate>
+      <category>Map Resource</category>
+      <category>Global</category>
+      <category>Maps</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Theater Map Dashboard</title>
+      <link>https://www.warlock-index.org/library/maps/theater-map-dashboard.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/maps/theater-map-dashboard.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:06:00 GMT</pubDate>
+      <category>Map Resource</category>
+      <category>Global</category>
+      <category>Maps</category>
+      <description>If a map lane is used in an assessment, source packet, or tracker, carry forward its caveat tag: map-reference-only, commercial-data-limit, source-lag, or current-watch.</description>
+    </item>
+    <item>
+      <title>Geospatial Triage Guide</title>
+      <link>https://www.warlock-index.org/library/maps/geospatial-triage-guide.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/maps/geospatial-triage-guide.html</guid>
+      <pubDate>Thu, 18 Jun 2026 19:05:00 GMT</pubDate>
+      <category>Map Resource</category>
+      <category>Global</category>
+      <category>Maps</category>
+      <description>Use this guide when a product needs a map source but the right map lane is not obvious. The goal is to choose the least risky public source family that answers the orientation question without drifting into operational use.</description>
+    </item>
     <item>
       <title>Corpus Health Signal Source Note</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.html</link>
@@ -368,46 +408,6 @@
       <category>Collections</category>
       <category>Explainers</category>
       <description>Iran is a strategic pressure actor because it combines missiles, drones, proxy-aligned networks, maritime pressure, sanctions adaptation, information activity, and nuclear/WMD relevance. Its influence is not limited to Iran's territory. It appears through regional partners, proxy relationships, Red Sea and Gulf pressure, Russia support, and recurring crisis diplomacy.</description>
-    </item>
-    <item>
-      <title>Shipbuilding And Repair Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-shipbuilding-repair-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-shipbuilding-repair-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Shipbuilding and repair are strategic capacity problems. They determine how fast a navy can add ships, keep existing ships available, repair battle or wear-and-tear damage, sustain undersea forces, support Arctic and sealift requirements, and absorb allied commitments such as AUKUS and ICE Pact.</description>
-    </item>
-    <item>
-      <title>Ukraine External Support Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-ukraine-external-support-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-ukraine-external-support-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Russia's war against Ukraine is also an external-support system. Ukraine depends on a NATO-centered but wider support network. Russia depends on its own domestic wartime system plus external enabling from actors such as China, Iran, North Korea, Belarus, and sanctions-evasion networks.</description>
-    </item>
-    <item>
-      <title>Air And Missile Defense Industrial Capacity Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Air and missile defense industrial capacity is a bridge lane between the munitions file, strategic-weapons file, homeland-defense file, Ukraine support file, Middle East/Red Sea file, Indo-Pacific deterrence file, and allied replenishment file. The public-source task is to identify source families and evidence types, not to infer defended coverage, stockpile depth, or operational employment.</description>
-    </item>
-    <item>
-      <title>Allied Defense Industrial Base Crosswalk</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>The allied DIB lane is now large enough that a crosswalk is more useful than another narrative baseline. The central rule is source separation: NATO, EU, AUKUS, ICE Pact, Quad, and national evidence all matter, but none is interchangeable. National strategy language must be checked against budgets, implementation pages, contracts, parliamentary/audit evidence, and oversight before stronger delivery claims.</description>
     </item>
   </channel>
 </rss>
