@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 10:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 10:25:19 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>U.S.-Iran MOU Implementation Gap Capture</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.html</guid>
+      <pubDate>Thu, 18 Jun 2026 10:25:19 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>The 2026-06-18T10:25Z follow-up still did not locate the official implementation records needed to upgrade the reported U.S.-Iran MOU lane. Current public reporting can support a reported signed-and-publicized MOU status, but the corpus should continue to treat sanctions waivers, oil exports, frozen assets, Hormuz reopening, toll treatment, nuclear/IAEA measures, and UN action as unimplemented in the corpus until primary records are captured.</description>
+    </item>
     <item>
       <title>LIVE-NEWS Source Audit Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.html</link>
@@ -398,16 +408,6 @@
       <category>Global</category>
       <category>Source Packets</category>
       <description>New START should now be treated in the corpus as an expired legal treaty with a separate reported informal-observance lane. The treaty entered into force on February 5, 2011, was extended in 2021 to February 5, 2026, and expired after Russia suspended implementation in 2023 and no formal successor entered into force. Arms Control Association's April 2026 fact sheet records the expiration and key limits; Axios reported that U.S. and Russian officials were discussing or had reached an informal understanding to observe the spirit or terms of New START after expiration, while also noting that no formal legal extension was signed.</description>
-    </item>
-    <item>
-      <title>Official Allied Source Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Allied official-source coverage requires both multilateral and national layers. NATO sources establish consensus Alliance language, but national sources are needed for country-level defense policy, budgets, procurement, industrial capacity, cyber, space, resilience, and political implementation. The UK, Australia, Canada/NORAD, Japan, ROK, France, Germany, Norway, Finland, Sweden, Denmark, and Iceland lanes are now full national or continental-defense allied baselines, while the EU source packet provides the adjacent multilateral security-defense layer and the India/Quad packet creates the first explicitly partner-labeled Indo-Pacific strategic-partner lane. The Philippines packet now adds treaty-ally routing for defense, maritime, West Philippine Sea, coast guard, fisheries, legal-source, map, EDCA, and U.S. cross-check evidence while preserving current access caveats. The ASEAN/claimant-state cross-check packet adds regional source-provenance for ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State legal-geographic routes without treating the regional lane as treaty-allied evidence. The AUKUS industrial, NORAD modernization, ICE Pact Arctic warning, Denmark Arctic/North Atlantic implementation, and EU Readiness 2030 implementation packets are the first follow-on implementation source packets in the allied lane. Future country, partner, and implementation packets should follow the same model: source ledger, extraction matrix, domain treatment, information gaps, source register entries, tracker wiring, and matrix wiring.</description>
     </item>
   </channel>
 </rss>
