@@ -25,6 +25,7 @@ const links = [...document.querySelectorAll(".doc-link")];
 const groups = [...document.querySelectorAll(".doc-group")];
 const groupToggles = [...document.querySelectorAll(".doc-group-toggle")];
 let wasFiltering = false;
+let userAdjustedGroups = false;
 
 function normalize(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -42,12 +43,35 @@ function setGroupExpanded(group, isExpanded) {
   if (panel) panel.hidden = !isExpanded;
 }
 
-function initGroups() {
-  groups.forEach((group) => {
-    const shouldOpen = group.dataset.defaultOpen === "true"
-      || !!group.querySelector(".doc-link.is-active, .doc-link[aria-current='page']");
-    setGroupExpanded(group, shouldOpen);
+function isPageDefaultGroup(group) {
+  return group.dataset.defaultOpen === "true"
+    || group.classList.contains("site-routes")
+    || !!group.querySelector(".doc-link.is-active, .doc-link[aria-current='page']");
+}
+
+function resetLinksForUnfilteredView() {
+  links.forEach((link) => {
+    link.hidden = false;
   });
+
+  groups.forEach((group) => {
+    group.hidden = !group.querySelector(".doc-link");
+  });
+}
+
+function resetToPageDefaults() {
+  wasFiltering = false;
+  userAdjustedGroups = false;
+
+  if (filterInput) filterInput.value = "";
+  resetLinksForUnfilteredView();
+
+  groups.forEach((group) => {
+    delete group.dataset.preFilterOpen;
+    setGroupExpanded(group, isPageDefaultGroup(group));
+  });
+
+  sidebar?.classList.remove("is-empty");
 }
 
 function applyFilter() {
@@ -76,6 +100,8 @@ function applyFilter() {
     } else if (wasFiltering) {
       setGroupExpanded(group, group.dataset.preFilterOpen === "true");
       delete group.dataset.preFilterOpen;
+    } else if (!userAdjustedGroups) {
+      setGroupExpanded(group, isPageDefaultGroup(group));
     } else {
       setGroupExpanded(group, group.classList.contains("is-open"));
     }
@@ -89,13 +115,19 @@ groupToggles.forEach((toggle) => {
   toggle.addEventListener("click", () => {
     const group = toggle.closest(".doc-group");
     if (!group) return;
+    userAdjustedGroups = true;
     setGroupExpanded(group, !group.classList.contains("is-open"));
   });
 });
 
 filterInput?.addEventListener("input", applyFilter);
-initGroups();
+resetToPageDefaults();
 applyFilter();
+
+window.addEventListener("pageshow", (event) => {
+  const navigation = performance.getEntriesByType?.("navigation")?.[0];
+  if (event.persisted || navigation?.type === "back_forward") resetToPageDefaults();
+});
 
 // Cite this support
 (function initCite() {
