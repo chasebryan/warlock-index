@@ -641,31 +641,50 @@ function navGroups(docs) {
 function renderDocNav(currentDoc, docs) {
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
   const feedUrl = relativeUrl(currentDoc.outputRel, "feed.html");
+  const sitePanelId = "doc-group-site-panel";
   const siteRoutes = `
-    <section class="doc-group site-routes">
-      <h2>Site</h2>
-      <a class="doc-link site-route-link" href="${escapeAttr(workspaceApp)}" data-site-route="workspace" data-filter="workspace wi browse records download application pwa android apple ios ipad macos windows linux">
-        <strong>Workspace</strong>
-        <span>Browse / download</span>
-      </a>
-      <a class="doc-link site-route-link" href="${escapeAttr(feedUrl)}" data-site-route="feed" data-filter="feed rss latest updates new recent source packets assessments trackers">
-        <strong>Updates Feed</strong>
-        <span>Recent updates</span>
-      </a>
+    <section class="doc-group site-routes is-open" data-default-open="true">
+      <h2>
+        <button class="doc-group-toggle" type="button" aria-expanded="true" aria-controls="${sitePanelId}">
+          <span>Site</span>
+          <span class="doc-group-count">2</span>
+        </button>
+      </h2>
+      <div class="doc-group-links" id="${sitePanelId}">
+        <a class="doc-link site-route-link" href="${escapeAttr(workspaceApp)}" data-site-route="workspace" data-filter="workspace wi browse records download application pwa android apple ios ipad macos windows linux">
+          <strong>Workspace</strong>
+          <span>Browse / download</span>
+        </a>
+        <a class="doc-link site-route-link" href="${escapeAttr(feedUrl)}" data-site-route="feed" data-filter="feed rss latest updates new recent source packets assessments trackers">
+          <strong>Updates Feed</strong>
+          <span>Recent updates</span>
+        </a>
+      </div>
     </section>
   `;
 
-  return siteRoutes + navGroups(docs).map(([group, entries]) => `
-    <section class="doc-group">
-      <h2>${escapeHtml(group)}</h2>
-      ${entries.map((doc) => `
-        <a class="doc-link${doc.rel === currentDoc.rel ? " is-active" : ""}" href="${escapeAttr(relativeUrl(currentDoc.outputRel, doc.outputRel))}" data-filter="${escapeAttr(filterTextForDoc(doc))}"${doc.rel === currentDoc.rel ? ' aria-current="page"' : ""}>
-          <strong>${escapeHtml(doc.title)}</strong>
-          <span>${escapeHtml(doc.type)} ${escapeHtml(doc.theater)}</span>
-        </a>
-      `).join("")}
+  return siteRoutes + navGroups(docs).map(([group, entries]) => {
+    const isActiveGroup = entries.some((doc) => doc.rel === currentDoc.rel);
+    const panelId = `doc-group-${slugify(group)}-panel`;
+    return `
+    <section class="doc-group${isActiveGroup ? " is-open" : ""}" data-default-open="${isActiveGroup ? "true" : "false"}">
+      <h2>
+        <button class="doc-group-toggle" type="button" aria-expanded="${isActiveGroup ? "true" : "false"}" aria-controls="${escapeAttr(panelId)}">
+          <span>${escapeHtml(group)}</span>
+          <span class="doc-group-count">${entries.length}</span>
+        </button>
+      </h2>
+      <div class="doc-group-links" id="${escapeAttr(panelId)}"${isActiveGroup ? "" : " hidden"}>
+        ${entries.map((doc) => `
+          <a class="doc-link${doc.rel === currentDoc.rel ? " is-active" : ""}" href="${escapeAttr(relativeUrl(currentDoc.outputRel, doc.outputRel))}" data-filter="${escapeAttr(filterTextForDoc(doc))}"${doc.rel === currentDoc.rel ? ' aria-current="page"' : ""}>
+            <strong>${escapeHtml(doc.title)}</strong>
+            <span>${escapeHtml(doc.type)} ${escapeHtml(doc.theater)}</span>
+          </a>
+        `).join("")}
+      </div>
     </section>
-  `).join("");
+  `;
+  }).join("");
 }
 
 function filterTextForDoc(doc) {

@@ -317,13 +317,72 @@ svg {
 
 .doc-group h2 {
   margin: 0;
-  padding: 0.6rem 0.85rem 0.36rem;
+  padding: 0;
   color: var(--green);
   font-family: var(--mono);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.doc-group-toggle {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  width: 100%;
+  min-height: 36px;
+  padding: 0.58rem 0.85rem;
+  border: 0;
+  border-left: 3px solid transparent;
+  background: transparent;
+  color: var(--green);
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.doc-group-toggle::before {
+  content: "+";
+  width: 1.1rem;
+  color: var(--dim);
+}
+
+.doc-group.is-open .doc-group-toggle::before {
+  content: "-";
+}
+
+.doc-group-toggle span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.doc-group-count {
+  min-width: 1.7rem;
+  justify-self: end;
+  padding-left: 0.45rem;
+  color: var(--dim);
+  font-size: 0.62rem;
+  text-align: right;
+}
+
+.doc-group-toggle:hover,
+.doc-group-toggle:focus-visible,
+.doc-group.is-open .doc-group-toggle {
+  border-left-color: var(--green);
+  background: rgba(0, 107, 43, 0.07);
+  color: var(--white);
+  outline: none;
+}
+
+.doc-group-links {
+  display: grid;
 }
 
 .doc-link {
