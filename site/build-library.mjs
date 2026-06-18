@@ -10,8 +10,10 @@ const libraryRoot = path.join(siteRoot, "library");
 const posix = path.posix;
 const siteOrigin = "https://www.warlock-index.org";
 const siteName = "WARLOCK-INDEX";
-const libraryAssetVersion = "20260618-library-queue";
-const feedAssetVersion = "20260617-green-press";
+const libraryAssetVersion = "20260618-cream-map";
+const feedAssetVersion = "20260618-cream-map";
+const faviconAssetVersion = "20260618-cream-map";
+const siteThemeColor = "#d8ccb4";
 const feedItemLimit = 40;
 const corpusHealthDate = new Date(Date.UTC(2026, 5, 18, 18, 50, 0));
 
@@ -874,13 +876,13 @@ function renderPage(currentDoc, docs, relToOutput, latestUpdateStr = "2026-06-16
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="${escapeAttr(canonicalUrl)}">
     <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
-    <link rel="icon" href="/favicon.png?v=20260617-green-press" type="image/png" sizes="180x180">
-    <link rel="icon" href="/favicon.svg?v=20260617-green-press" type="image/svg+xml">
-    <link rel="shortcut icon" href="/favicon.png?v=20260617-green-press" type="image/png">
+    <link rel="icon" href="/favicon.png?v=${faviconAssetVersion}" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=${faviconAssetVersion}" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=${faviconAssetVersion}" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="mask-icon" href="/favicon.svg?v=20260617-green-press" color="#006b2b">
+    <link rel="mask-icon" href="/favicon.svg?v=${faviconAssetVersion}" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#c0c0c0">
+    <meta name="theme-color" content="${siteThemeColor}">
     <meta property="og:title" content="${escapeAttr(`${currentDoc.title} | ${siteName}`)}">
     <meta property="og:description" content="${escapeAttr(currentDoc.summary)}">
     <meta property="og:type" content="article">
@@ -1013,7 +1015,7 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#c0c0c0">
+    <meta name="theme-color" content="${siteThemeColor}">
     <meta property="og:title" content="${escapeAttr(`${topic.title} | ${siteName}`)}">
     <meta property="og:description" content="${escapeAttr(topic.summary)}">
     <meta property="og:type" content="website">
@@ -1138,7 +1140,7 @@ function renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso) {
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#c0c0c0">
+    <meta name="theme-color" content="${siteThemeColor}">
     <meta property="og:title" content="Topic Hubs | ${escapeAttr(siteName)}">
     <meta property="og:description" content="Browse WARLOCK-INDEX topic hubs by theater and domain.">
     <meta property="og:type" content="website">
@@ -1273,7 +1275,7 @@ function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#c0c0c0">
+    <meta name="theme-color" content="${siteThemeColor}">
     <title>How to use | ${siteName}</title>
     <link rel="stylesheet" href="styles.css?v=${feedAssetVersion}">
   </head>
@@ -1368,7 +1370,7 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#c0c0c0">
+    <meta name="theme-color" content="${siteThemeColor}">
     <meta property="og:title" content="Recent Updates | ${escapeAttr(siteName)}">
     <meta property="og:description" content="Recent entries from the open-source strategic research corpus.">
     <meta property="og:type" content="website">

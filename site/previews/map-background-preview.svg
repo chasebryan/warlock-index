@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200" role="img" aria-label="Stylized strategic terrain background">
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#062922"/>
+      <stop offset="0.46" stop-color="#0a645c"/>
+      <stop offset="0.78" stop-color="#0c7380"/>
+      <stop offset="1" stop-color="#071c17"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0d7a2"/>
+      <stop offset="0.25" stop-color="#89a360"/>
+      <stop offset="0.62" stop-color="#2e6839"/>
+      <stop offset="1" stop-color="#0d3020"/>
+    </linearGradient>
+    <radialGradient id="mapLight" cx="32%" cy="16%" r="72%">
+      <stop offset="0" stop-color="#fff1bd" stop-opacity="0.48"/>
+      <stop offset="0.42" stop-color="#74a765" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#04150f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="deepWater" cx="76%" cy="72%" r="54%">
+      <stop offset="0" stop-color="#07251d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#03100b" stop-opacity="0.46"/>
+    </radialGradient>
+    <pattern id="fineGrid" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120 0H0v120" fill="none" stroke="#eef0c7" stroke-opacity="0.12" stroke-width="1"/>
+      <path d="M60 0v120M0 60h120" fill="none" stroke="#eef0c7" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1800" height="1200" fill="url(#water)"/>
+  <rect width="1800" height="1200" fill="url(#mapLight)"/>
+  <rect width="1800" height="1200" fill="url(#deepWater)"/>
+
+  <g opacity="0.98">
+    <path fill="url(#land)" d="M-90 30C72 8 151 78 280 60c112-16 139-90 278-52 94 27 133 97 239 103 116 7 177-68 287-29 100 36 105 112 205 136 155 38 242-106 363-33 95 56 81 175 186 219 81 35 155-3 262-1v-505H-90z"/>
+    <path fill="url(#land)" d="M-72 768c142-70 266-72 371-22 108 51 143 142 258 163 137 25 195-82 342-56 107 19 124 86 242 84 143-2 177-99 318-93 145 6 203 113 341 133v330H-72z"/>
+    <path fill="url(#land)" d="M692 300c70-26 151-14 224 30 83 50 96 121 185 144 91 24 145-28 232 9 67 29 101 87 159 114 91 43 197-2 308 27v219c-146-14-197 42-316 15-111-26-140-95-242-104-110-10-154 61-260 33-84-22-95-79-178-110-88-34-167-5-251-44-65-30-100-85-102-145-3-79 48-151 241-188z"/>
+    <path fill="#9dbc82" opacity="0.68" d="M180 494c105-45 197-24 276 25 82 51 122 128 214 128 88 0 142-72 232-55 72 14 106 72 191 77 86 5 128-47 208-29 75 17 114 80 218 90 92 9 156-30 281-2v78c-151-23-212 24-320 4-113-20-151-89-239-88-92 1-126 75-220 60-80-13-108-76-199-86-91-10-139 47-225 29-100-20-137-111-247-147-93-31-177-8-350 60v-97c67-4 119-21 180-47z"/>
+  </g>
+
+  <g fill="none" stroke="#f0e5b5" stroke-linecap="round" opacity="0.3">
+    <path stroke-width="5" d="M-20 276c148 29 247 7 328-51 100-71 203-90 315-25 118 69 161 174 289 169 92-4 145-63 239-41 85 20 128 92 226 95 99 3 145-67 263-48 58 9 103 33 160 64"/>
+    <path stroke-width="4" d="M52 868c112-74 213-77 303-17 88 59 147 153 274 139 91-10 126-70 221-59 99 11 132 84 238 81 96-2 142-64 237-50 96 15 139 91 245 109 76 13 142 0 230-36"/>
+    <path stroke-width="3" d="M430 399c87-43 178-37 270 17 91 54 129 134 224 136 92 2 135-72 230-57 78 13 122 75 209 72 78-2 131-54 213-42 73 11 133 59 224 60"/>
+  </g>
+
+  <g fill="none" stroke="#071b11" stroke-opacity="0.24" stroke-width="1.5">
+    <path d="M122 94c141 16 243 42 310 79 103 57 146 136 251 157 87 18 166-11 252 23"/>
+    <path d="M107 160c132 7 220 35 293 85 84 58 124 132 230 153 91 18 167-13 258 21"/>
+    <path d="M750 351c72-2 140 21 203 69 80 61 134 95 231 79 83-14 142-7 216 33"/>
+    <path d="M232 814c113-32 207-5 282 72 73 74 165 99 268 73 90-23 166-2 230 62"/>
+  </g>
+
+  <rect width="1800" height="1200" fill="url(#fineGrid)" opacity="0.82"/>
+  <rect width="1800" height="1200" fill="#03190f" opacity="0.24"/>
+</svg>

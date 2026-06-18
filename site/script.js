@@ -397,3 +397,114 @@ if (initialQuery) {
 }
 renderResults(initialQuery, searchCorpus(initialQuery));
 setActiveRoute(initialQuery);
+
+const globalMap = {
+  markers: document.querySelector("#global-map-markers"),
+  filters: document.querySelector("#global-map-filters"),
+  count: document.querySelector("#global-map-count"),
+  reset: document.querySelector("#global-map-reset"),
+  title: document.querySelector("#global-map-selected-title"),
+  summary: document.querySelector("#global-map-selected-summary"),
+  link: document.querySelector("#global-map-selected-link"),
+  updates: [],
+  selectedId: "",
+  category: "all"
+};
+
+function visibleMapUpdates() {
+  if (globalMap.category === "all") return globalMap.updates;
+  return globalMap.updates.filter((item) => item.category === globalMap.category);
+}
+
+function renderGlobalMapFilters() {
+  const categories = ["all", ...new Set(globalMap.updates.map((item) => item.category))];
+  globalMap.filters.innerHTML = categories.map((category) => `
+    <button
+      type="button"
+      data-map-filter="${escapeHtml(category)}"
+      aria-pressed="${category === globalMap.category ? "true" : "false"}"
+    >${escapeHtml(category)}</button>
+  `).join("");
+}
+
+function renderGlobalMapMarkers(updates) {
+  globalMap.markers.innerHTML = updates.map((item) => `
+    <button
+      class="global-map-marker"
+      type="button"
+      data-map-id="${escapeHtml(item.id)}"
+      data-title="${escapeHtml(item.title)}"
+      data-shape="${escapeHtml(item.shape)}"
+      data-status="${escapeHtml(item.status)}"
+      style="left:${Number(item.x)}%;top:${Number(item.y)}%"
+      aria-label="${escapeHtml(item.title)}"
+    ></button>
+  `).join("");
+  globalMap.count.textContent = `${updates.length} update${updates.length === 1 ? "" : "s"}`;
+}
+
+function selectGlobalMapUpdate(id) {
+  globalMap.selectedId = id;
+  const item = globalMap.updates.find((update) => update.id === id);
+  document.querySelectorAll("[data-map-id]").forEach((element) => {
+    element.classList.toggle("is-active", element.dataset.mapId === id);
+  });
+
+  if (!item) {
+    globalMap.title.textContent = "Choose a map point";
+    globalMap.summary.textContent = "Select a marker to open the record behind it.";
+    globalMap.link.hidden = true;
+    return;
+  }
+
+  globalMap.title.textContent = item.title;
+  globalMap.summary.textContent = `${item.region} / ${item.category} / ${item.date}. ${item.summary}`;
+  globalMap.link.href = item.url;
+  globalMap.link.hidden = false;
+}
+
+function renderGlobalMap() {
+  const updates = visibleMapUpdates();
+  renderGlobalMapFilters();
+  renderGlobalMapMarkers(updates);
+
+  if (globalMap.selectedId && !updates.some((item) => item.id === globalMap.selectedId)) {
+    selectGlobalMapUpdate("");
+  } else if (globalMap.selectedId) {
+    selectGlobalMapUpdate(globalMap.selectedId);
+  }
+}
+
+async function initGlobalMap() {
+  if (!globalMap.markers || !globalMap.filters) return;
+
+  try {
+    const response = await fetch("global-map-updates.json");
+    if (!response.ok) throw new Error(`Map update request failed: ${response.status}`);
+    globalMap.updates = await response.json();
+    renderGlobalMap();
+  } catch (error) {
+    globalMap.count.textContent = "Map updates unavailable";
+  }
+
+  globalMap.markers.addEventListener("click", (event) => {
+    const target = event.target.closest("[data-map-id]");
+    if (!target) return;
+    selectGlobalMapUpdate(target.dataset.mapId);
+  });
+
+  globalMap.filters.addEventListener("click", (event) => {
+    const target = event.target.closest("[data-map-filter]");
+    if (!target) return;
+    globalMap.category = target.dataset.mapFilter;
+    renderGlobalMap();
+  });
+
+  globalMap.reset.addEventListener("click", () => {
+    globalMap.category = "all";
+    renderGlobalMap();
+    selectGlobalMapUpdate("");
+  });
+}
+
+initGlobalMap();
