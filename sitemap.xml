@@ -405,6 +405,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/strategic-weapons/2026-06-13T2216Z-multilateral-strategic-stability-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -490,6 +494,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
