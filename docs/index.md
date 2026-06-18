@@ -89,6 +89,7 @@ matrices.
 - [ODNI Global Biolab Disclosure Source-Treatment Note](collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)
 - [Ukraine Biolab Claim-Reconciliation Source Note](collections/source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.md)
 - [U.S.-Iran MOU Source-Treatment Note](collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [NATO And U.S. Europe Force Posture Review Caveat](collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md)
 - [Source Packets](collections/source-packets)
 - [Indo-Pacific Adversary Posture Source Packets](collections/source-packets/indo-pacific-adversary-posture)
 - [China/PLA Official Military And Security Source Baseline Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)

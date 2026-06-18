@@ -130,6 +130,11 @@ future open-source defense assessments.
 - NATO and allied government strategy documents, including national security
   strategies, defense reviews, cyber/space strategies, resilience frameworks,
   industrial strategies, budgets, and audit sources.
+- U.S.-NATO Europe force posture review sources, including Department of War
+  speech/transcript routes, official social-media archive routes, NATO meeting
+  records, congressional oversight, allied national responses, and current
+  reporting used only as a caveated source-treatment lane until official review
+  terms or implementation documents are captured.
 - AUKUS industrial implementation source families, including Australian
   Submarine Agency program, industry, build, sustainment, workforce,
   security, Henderson, Osborne, SRF-West, and SRF-West infrastructure pages;

@@ -15,3 +15,4 @@ source matters.
 - [2026-06-18T0231Z - U.S.-Iran MOU Source-Treatment Note](2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [2026-06-18T0352Z - LIVE-NEWS Source-Treatment Note](2026-06-18T0352Z-live-news-source-treatment-note.md)
 - [2026-06-18T0441Z - Project Attribution And Maintainer Treatment Note](2026-06-18T0441Z-project-attribution-maintainer-treatment-note.md)
+- [2026-06-18T0855Z - NATO And U.S. Europe Force Posture Review Caveat](2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md)
