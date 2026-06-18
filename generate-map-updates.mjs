@@ -24,7 +24,14 @@ const locationProfiles = [
     region: "Ukraine / Black Sea",
     x: 55.7,
     y: 37.4,
-    terms: ["ukraine", "black sea", "russia strategic", "europe-russia"]
+    terms: ["ukraine", "black sea", "europe-russia"]
+  },
+  {
+    id: "russia-strategic",
+    region: "Russia / strategic forces",
+    x: 61.6,
+    y: 30.8,
+    terms: ["russia strategic weapons", "russian strategic weapons", "russia nuclear", "russian nuclear", "russia strategic forces"]
   },
   {
     id: "nato-eastern-europe",
@@ -43,8 +50,8 @@ const locationProfiles = [
   {
     id: "south-china-sea",
     region: "South China Sea / Philippines",
-    x: 75.1,
-    y: 53.3,
+    x: 76.2,
+    y: 52.2,
     terms: ["south china sea", "philippines", "asean", "maritime", "indo-pacific allied"]
   },
   {
@@ -106,30 +113,37 @@ const locationProfiles = [
   {
     id: "global-maritime",
     region: "Global maritime chokepoints",
-    x: 44.8,
-    y: 53.5,
-    terms: ["maritime chokepoint", "shipping", "ais", "marinetracker", "chokepoint"]
+    x: 66.6,
+    y: 62.1,
+    terms: ["shipping", "ais", "marinetracker"]
+  },
+  {
+    id: "middle-east-maritime",
+    region: "Middle East maritime chokepoints",
+    x: 60.4,
+    y: 51.8,
+    terms: ["middle east maritime", "maritime chokepoint", "hormuz", "bab el-mandeb", "red sea", "suez", "eastern mediterranean"]
   },
   {
     id: "global-dib",
     region: "Global defense industrial base",
-    x: 34.2,
-    y: 42.5,
+    x: 39.4,
+    y: 39.6,
     terms: ["defense industrial base", "defense-industrial-base", "industrial capacity", "munitions", "shipbuilding", "critical materials", "supply chain", "counter-uas"]
   },
   {
     id: "global-cyber-space",
     region: "Global cyber / space",
-    x: 66.5,
-    y: 28.8,
+    x: 87.0,
+    y: 31.8,
     terms: ["cyber", "space", "counterspace", "critical infrastructure", "telecommunications", "salt typhoon"]
   },
   {
     id: "global-strategy-research",
     region: "Global strategy and warfare research",
-    x: 50.0,
-    y: 49.0,
-    terms: ["stratagems", "strategy and warfare", "academic research", "research source"]
+    x: 40.5,
+    y: 47.4,
+    terms: ["all topic", "current source sweep", "refresh queue", "new start", "arms control", "arms-control", "strategic stability", "stratagems", "strategy and warfare", "academic research", "research source"]
   }
 ];
 
@@ -256,6 +270,24 @@ function rankRecord(record, newestTime) {
   return typeWeight + healthWeight + recencyWeight + (record.metadataCompleteness || 0) / 20;
 }
 
+function isMarkerEligible(record) {
+  const pathValue = String(record.path || "");
+  const titleValue = String(record.title || "");
+  const joined = normalizeText(`${titleValue} ${pathValue} ${record.productId || ""}`);
+
+  if (/collection gap register|source freshness dashboard|all topic current source sweep|map source caveat playbook/.test(joined)) {
+    return false;
+  }
+  if (/\/maps\/index\.html$/.test(pathValue)) {
+    return false;
+  }
+  if (record.theater === "Collections" && !/theater-map-reference|maritime-ais-map-handling/.test(pathValue)) {
+    return false;
+  }
+
+  return true;
+}
+
 function markerFromRecord(record, profile, newestTime, usedIds) {
   const fallbackSummary = `${record.type || "Corpus"} update covering ${profile.region}.`;
   const summary = !record.summary || record.summary === "WARLOCK-INDEX documentation product."
@@ -308,7 +340,7 @@ function spreadSharedCoordinates(markers) {
 function selectMarkerRecords(corpus, limit = 18) {
   const newestTime = Math.max(...corpus.map((record) => parseDate(record.preparedUtc) || parseDate(record.cutoffUtc)).filter(Boolean));
   const candidates = corpus
-    .filter((record) => record.path && record.title)
+    .filter((record) => record.path && record.title && isMarkerEligible(record))
     .map((record) => ({ record, profile: chooseProfile(record) }))
     .filter((entry) => entry.profile)
     .map((entry) => ({ ...entry, score: rankRecord(entry.record, newestTime) }))
