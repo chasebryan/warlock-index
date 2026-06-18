@@ -23,9 +23,9 @@ official-source baselines and graded explicitly.
 
 - **Source class:** B/C depending on issuer and use.
 - **Publishers:** NHK World-Japan; DW; France 24; TRT World; CNA; ABC News
-  Australia; UN Web TV; Europe by Satellite; CPAC Canada; NASA; UK Parliament
-  Live.
-- **Accessed UTC:** 2026-06-18T03:52:19Z
+  Australia; CGTN English; Arirang TV; UN Web TV; Europe by Satellite; CPAC
+  Canada; NASA; UK Parliament Live; White House Live.
+- **Accessed UTC:** 2026-06-18T03:59:26Z
 - **URLs:**
   - https://www3.nhk.or.jp/nhkworld/en/live/
   - https://www.dw.com/en/live-tv/s-100825
@@ -34,11 +34,14 @@ official-source baselines and graded explicitly.
   - https://www.trtworld.com/live
   - https://www.channelnewsasia.com/watch/live
   - https://www.abc.net.au/news/newschannel
+  - https://www.cgtn.com/tv
+  - https://www.arirang.com/live
   - https://webtv.un.org/en
   - https://audiovisual.ec.europa.eu/en/ebs/live
   - https://www.cpac.ca/live
   - https://www.nasa.gov/nasatv/
   - https://www.parliamentlive.tv/
+  - https://www.whitehouse.gov/live/
 - **Use:** Current-event awareness, live observation, institutional
   proceedings discovery, and follow-on source collection. LIVE-NEWS is a
   link-out navigation surface only; it does not host, rebroadcast, or embed
@@ -47,7 +50,10 @@ official-source baselines and graded explicitly.
   Preserve provider, program/body, UTC timestamp, and observed claim, then
   corroborate with a stable archive, transcript, meeting record, official
   release, legal text, or dated article before treating the observation as a
-  durable corpus claim.
+  durable corpus claim. Treat state-backed channels as issuer-perspective
+  media. Treat executive-office live pages as official but volatile; verify
+  event title and follow with archived White House video, remarks, transcript,
+  fact sheet, or release before citing.
 
 ## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
 

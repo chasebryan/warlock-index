@@ -6,14 +6,14 @@
 
 **Prepared UTC:** 2026-06-18T03:52:19Z
 
-**Information cutoff UTC:** 2026-06-18T03:52:19Z
+**Information cutoff UTC:** 2026-06-18T03:59:26Z
 
 **Source base:** WARLOCK-INDEX LIVE-NEWS page; official live pages for
 international public broadcasters, state-backed news services, institutional
 video services, and parliamentary or public-affairs broadcasters; current
 official-page checks for NHK World-Japan, DW, France 24, TRT World, CNA, ABC
-News Australia, UN Web TV, Europe by Satellite, CPAC Canada, NASA, and UK
-Parliament Live.
+News Australia, CGTN English, Arirang TV, UN Web TV, Europe by Satellite,
+CPAC Canada, NASA, UK Parliament Live, and White House Live.
 
 **Analytic confidence:** Moderate for link routing and inclusion rules. Low
 for any claim derived only from a live stream unless timestamped, archived,
@@ -57,6 +57,8 @@ filing, public notice, or dated article.
    coverage surges, and cookie/ad-wall changes.
 7. Remove links that become materially ad-heavy, misleading, or unavailable
    as a free official live page.
+8. For executive-office live pages, verify the event title, date, and source
+   channel before citing because live-page content can be replaced quickly.
 
 ## Citation Rules
 
@@ -78,11 +80,14 @@ filing, public notice, or dated article.
 | TRT World | Turkiye / Global | Official English live page |
 | CNA Live | Singapore / Asia | Official broadcaster live page |
 | ABC News Australia | Australia / Indo-Pacific | Public broadcaster live page |
+| CGTN English | China / Global | Chinese state-media live TV page |
+| Arirang TV | Republic of Korea / Global | Korean international broadcaster live page |
 | UN Web TV | United Nations | Institutional live and recorded proceedings |
 | Europe by Satellite | European Union | EU institutional live video |
 | CPAC Canada | Canada | Public-affairs and parliamentary coverage |
 | NASA Live | United States / Space | Official agency live coverage |
 | UK Parliament Live | United Kingdom | Official parliamentary live and archive service |
+| White House Live | United States / Executive Office of the President | Official live page for remarks, briefings, and events |
 
 ## Current Exclusions And Cautions
 
@@ -93,6 +98,10 @@ filing, public notice, or dated article.
   paywall overlays should be excluded or removed.
 - Social-video-only channels should be avoided when an official website page
   exists; use social video only as a fallback and label it accordingly.
+- White House live-page observations should be cross-checked with the event
+  title, video-library record, remarks page, transcript, fact sheet, or other
+  official release before reuse; public reporting has documented at least one
+  prior anomalous stream on the official live route.
 
 ## Source List
 
@@ -103,11 +112,16 @@ filing, public notice, or dated article.
 - TRT World live: `https://www.trtworld.com/live`
 - CNA Live: `https://www.channelnewsasia.com/watch/live`
 - ABC News Australia live channel: `https://www.abc.net.au/news/newschannel`
+- CGTN English live TV: `https://www.cgtn.com/tv`
+- Arirang TV live: `https://www.arirang.com/live`
 - UN Web TV: `https://webtv.un.org/en`
 - Europe by Satellite live: `https://audiovisual.ec.europa.eu/en/ebs/live`
 - CPAC Canada live: `https://www.cpac.ca/live`
 - NASA Live: `https://www.nasa.gov/nasatv/`
 - UK Parliament Live: `https://www.parliamentlive.tv/`
+- White House Live: `https://www.whitehouse.gov/live/`
+- Associated Press, White House live-page anomaly report:
+  `https://apnews.com/article/88d79b896ca6e5ecea33f3bf3e5c9278`
 
 ## Cross References
 
