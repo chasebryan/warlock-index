@@ -705,6 +705,7 @@ function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latest
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
   const feedUrl = relativeUrl(currentDoc.outputRel, "feed.html");
+  const liveNewsUrl = relativeUrl(currentDoc.outputRel, "live-news.html");
   const activeSection = primaryNavSection(currentDoc.outputRel);
   const navAttrs = (section) => section === activeSection ? ' class="is-active" aria-current="page"' : "";
   return `
@@ -732,6 +733,7 @@ function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latest
       <a${navAttrs("maps")} href="${escapeAttr(maps)}">Maps</a>
       <a${navAttrs("standards")} href="${escapeAttr(standards)}">Standards</a>
       <a href="${escapeAttr(feedUrl)}">Feed</a>
+      <a href="${escapeAttr(liveNewsUrl)}">LIVE-NEWS</a>
       <a href="${escapeAttr(workspaceApp)}">Workspace</a>
     </nav>
   `;
@@ -934,6 +936,7 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
         <a href="../library/maps/">Maps</a>
         <a href="../library/standards/product-standard.html">Standards</a>
         <a href="../feed.html">Feed</a>
+        <a href="../live-news.html">LIVE-NEWS</a>
         <a href="../workspace/">Workspace</a>
       </nav>
       <main class="topic-page-shell" id="topic-records">
@@ -980,6 +983,8 @@ function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
           <a href="../how-to-use.html">How to use</a>
           <span>|</span>
           <a href="../feed.html">Feed</a>
+          <span>|</span>
+          <a href="../live-news.html">LIVE-NEWS</a>
           <span>|</span>
           <a href="../workspace/">Workspace</a>
         </nav>
@@ -1056,6 +1061,7 @@ function renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso) {
         <a href="../library/maps/">Maps</a>
         <a href="../library/standards/product-standard.html">Standards</a>
         <a href="../feed.html">Feed</a>
+        <a href="../live-news.html">LIVE-NEWS</a>
         <a href="../workspace/">Workspace</a>
       </nav>
       <main id="topics-index">
@@ -1120,6 +1126,8 @@ function renderTopicsIndexPage(docs, latestUpdateStr, latestUpdateIso) {
           <span>|</span>
           <a href="../feed.html">Feed</a>
           <span>|</span>
+          <a href="../live-news.html">LIVE-NEWS</a>
+          <span>|</span>
           <a href="../workspace/">Workspace</a>
         </nav>
         <div class="footer-copy">
@@ -1180,6 +1188,7 @@ function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
         <a href="library/maps/">Maps</a>
         <a href="library/standards/product-standard.html">Standards</a>
         <a href="feed.html">Feed</a>
+        <a href="live-news.html">LIVE-NEWS</a>
         <a href="workspace/">Workspace</a>
       </nav>
       <main class="use-page-shell" id="use-guide">
@@ -1200,6 +1209,8 @@ function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
       <footer class="site-footer">
         <nav aria-label="Footer navigation">
           <a href="feed.html">Feed</a>
+          <span>|</span>
+          <a href="live-news.html">LIVE-NEWS</a>
           <span>|</span>
           <a href="workspace/">Workspace</a>
           <span>|</span>
@@ -1282,6 +1293,7 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
         <a href="library/maps/">Maps</a>
         <a href="library/standards/product-standard.html">Standards</a>
         <a class="is-active" href="feed.html" aria-current="page">Feed</a>
+        <a href="live-news.html">LIVE-NEWS</a>
         <a href="workspace/">Workspace</a>
       </nav>
 
@@ -1492,6 +1504,7 @@ async function build() {
     { loc: absoluteUrl("index.html"), priority: "1.0" },
     { loc: absoluteUrl("about.html"), priority: "0.8" },
     { loc: absoluteUrl("how-to-use.html"), priority: "0.8" },
+    { loc: absoluteUrl("live-news.html"), priority: "0.82" },
     { loc: `${siteOrigin}/topics/`, priority: "0.86" },
     { loc: absoluteUrl("feed.html"), priority: "0.75" },
     { loc: `${siteOrigin}/workspace/`, priority: "0.85" },
