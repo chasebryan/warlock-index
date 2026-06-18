@@ -128,7 +128,7 @@ filing, public notice, or dated article.
 ## Source List
 
 - NHK World-Japan live: `https://www3.nhk.or.jp/nhkworld/en/live/`
-- DW News live TV: `https://www.dw.com/en/live-tv/s-100825`
+- DW News live TV: `https://www.dw.com/en/live-tv/channel-english`
 - France 24 English live: `https://www.france24.com/en/live`
 - France 24 Francais direct: `https://www.france24.com/fr/direct`
 - TRT World live: `https://www.trtworld.com/live`

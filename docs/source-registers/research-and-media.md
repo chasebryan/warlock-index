@@ -30,7 +30,7 @@ official-source baselines and graded explicitly.
 - **Accessed UTC:** 2026-06-18T05:05:04Z
 - **URLs:**
   - https://www3.nhk.or.jp/nhkworld/en/live/
-  - https://www.dw.com/en/live-tv/s-100825
+  - https://www.dw.com/en/live-tv/channel-english
   - https://www.france24.com/en/live
   - https://www.france24.com/fr/direct
   - https://www.trtworld.com/live
