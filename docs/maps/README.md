@@ -38,6 +38,7 @@ feasibility.
 | NGA Products and Services | National Geospatial-Intelligence Agency | Routing for public GEOINT product families, declassified or historical products, maritime safety products, topographic material, and geographic-name tools | Product-family routing does not imply public access to all data or suitability for operational use |
 | USGS The National Map | U.S. Geological Survey | U.S. topographic, hydrographic, elevation, boundary, land-cover, orthoimagery, and US Topo source routing | No infrastructure vulnerability mapping or surveillance products |
 | NOAA Office of Coast Survey | National Oceanic and Atmospheric Administration | U.S. nautical chart and chart-source reference | Navigation-source reference only; WARLOCK-INDEX does not provide voyage planning |
+| MarineTraffic / public AIS ship-tracking map | MarineTraffic / Kpler source family | Commercial public AIS map source for maritime source discovery, broad traffic-awareness leads, vessel identity cross-checks, and chokepoint reporting context | Link-out/source-discovery only; no live movement layer, route guidance, vessel monitoring, interdiction support, or operational maritime assessment |
 | U.S. Board on Geographic Names | U.S. Geological Survey / U.S. Board on Geographic Names | Geographic-name source routing and naming-caveat support | Naming standards are not sovereignty, recognition, or control evidence by themselves |
 | U.S. combatant command AOR pages | U.S. combatant commands | Public command-area and theater-geography framing | Do not infer current operations, basing, access, patrol patterns, or force posture from AOR pages |
 | NATO on the Map | North Atlantic Treaty Organization | Alliance geography, member/partner orientation, and NATO public map routing | NATO source perspective; not a readiness, basing, or operational implementation source |
@@ -71,6 +72,9 @@ feasibility.
    basing, legal, control, or capability claims.
 6. Keep generated images and decorative graphics out of the map-resource lane
    unless they are clearly labeled as illustrations and not source evidence.
+7. Treat public AIS ship-tracking maps as volatile commercial source-discovery
+   tools. Do not embed live vessel layers, track individual vessels, infer
+   patrol patterns, publish routes, or use AIS map gaps as proof of absence.
 
 ## Prohibited Uses
 
@@ -90,6 +94,7 @@ feasibility.
 - [National Geospatial-Intelligence Agency, Products and Services](https://www.nga.mil/resources/Products_%26_Services.html)
 - [U.S. Geological Survey, The National Map](https://www.usgs.gov/programs/national-geospatial-program/national-map)
 - [NOAA Office of Coast Survey](https://nauticalcharts.noaa.gov/)
+- [MarineTraffic, live ship-tracking map](https://www.marinetraffic.com/)
 - [U.S. Board on Geographic Names](https://www.usgs.gov/us-board-on-geographic-names)
 - [U.S. Indo-Pacific Command, Area of Responsibility](https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/)
 - [NATO, NATO on the Map](https://www.nato.int/en/about-us/organization/nato-on-the-map)

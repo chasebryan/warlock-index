@@ -14,7 +14,7 @@ implementation-gap capture; Strait of Hormuz strategic chokepoint source
 packet; official U.S., maritime chokepoint, and research/media source
 registers; current official-route search across White House, State,
 Treasury/OFAC, Federal Register, IAEA, UN, IMO, Iranian official, and mediator
-source families.
+source families; 2026-06-18T17:58Z afternoon source check.
 
 **Analytic confidence:** High that the WARLOCK-INDEX corpus should preserve
 the reported MOU as a current-event and implementation-watch lane until
@@ -46,6 +46,12 @@ The next useful work is not another broad restatement of the reported clauses.
 It is evidence separation: capture the text if it appears, capture each
 implementation record independently, and preserve gaps where official records
 are absent.
+
+**Latest check:** The 2026-06-18T17:58Z afternoon source check found
+additional current-event reporting about the reported signed MOU, but did not
+locate primary official records sufficient to upgrade sanctions, oil-export,
+banking, frozen-asset, Hormuz, IAEA/nuclear, or UN claims from reported status
+to implemented status in the corpus.
 
 ## Implementation Evidence Ladder
 
@@ -105,6 +111,7 @@ are absent.
 
 - [U.S.-Iran MOU Source-Treatment Note](../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [U.S.-Iran MOU Implementation Gap Capture](../source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
+- [U.S.-Iran MOU Afternoon Source Check](../source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [Strait Of Hormuz Strategic Chokepoint Source Packet](../source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - [Official U.S. Source Register](../../source-registers/official-us.md)

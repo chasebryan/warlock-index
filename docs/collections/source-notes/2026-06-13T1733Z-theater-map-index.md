@@ -69,6 +69,7 @@ used to do.
 | Homeland / Western Hemisphere | USGS The National Map; NOAA Office of Coast Survey; SOUTHCOM AOR; NGA USA Map 2025; NGA Latin America 2025; BGN | U.S. topographic, maritime, hemisphere, and naming context | No domestic surveillance, protest mapping, vulnerability mapping, or route selection |
 | Arctic / High North | NGA World Map 2025; NOAA chart and ocean-source families; USGS; BGN; Arctic Council and allied Arctic sources | Strategic geography, maritime context, and naming caveats | No route advisories, infrastructure vulnerability mapping, patrol inference, or ice-route operational guidance |
 | Cross-theater maritime chokepoints | NOAA Office of Coast Survey; NGA maritime source families; UN/IMO and canal authority maps where public | Broad maritime orientation and source routing | No voyage planning, live movement, evasion, interdiction, or insurance advice |
+| Maritime traffic-awareness leads | MarineTraffic / public AIS ship-tracking map source family; NOAA chart source families; IMO; port authorities; shipping and insurance sources | Commercial AIS source discovery for chokepoint, port, and traffic-reporting context | No live vessel monitoring, embedded AIS layers, patrol-pattern inference, route guidance, interdiction support, or AIS-only claims |
 
 ## Named Public Map Anchors
 
@@ -93,6 +94,7 @@ used to do.
 | SOUTHCOM Area of Responsibility | U.S. Southern Command | Homeland / Western Hemisphere | U.S. command-area framing |
 | The National Map | USGS | Homeland / U.S. reference | U.S. topographic reference |
 | Office of Coast Survey | NOAA | Maritime and U.S. waters | Nautical and hydrographic-source routing |
+| MarineTraffic public AIS map | MarineTraffic / Kpler source family | Maritime chokepoints, ports, and commercial traffic context | Commercial AIS source-discovery lead only |
 | U.S. Board on Geographic Names | USGS / BGN | All lanes | Naming-source basis |
 | NATO on the Map | NATO | Europe / NATO / partner geography | Alliance map reference |
 
@@ -129,6 +131,16 @@ operational priorities from AOR maps alone.
 Use USGS and NOAA for U.S. topographic, nautical, hydrographic, and coastal
 source routing. Do not convert public datasets into domestic surveillance,
 facility vulnerability, route-selection, or exploitation products.
+
+### MarineTraffic And Public AIS Maps
+
+Use MarineTraffic and similar public AIS maps only as commercial
+traffic-awareness lead sources. They can help identify a source-discovery
+question for a chokepoint, port, or maritime disruption lane, but they are not
+authoritative legal, safety, sanctions, military, or operational records. Do
+not embed live AIS layers, track individual vessels, infer patrol patterns,
+publish routes, provide interdiction support, or treat missing AIS as proof of
+absence.
 
 ### NATO And Allied Maps
 
@@ -180,6 +192,7 @@ targeting, or vulnerability products.
 - U.S. Southern Command, Area Of Responsibility: `https://www.southcom.mil/About/Area-of-Responsibility/`
 - U.S. Geological Survey, The National Map: `https://www.usgs.gov/programs/national-geospatial-program/national-map`
 - NOAA Office of Coast Survey: `https://nauticalcharts.noaa.gov/`
+- MarineTraffic, live ship-tracking map: `https://www.marinetraffic.com/`
 - U.S. Board on Geographic Names: `https://www.usgs.gov/us-board-on-geographic-names`
 - NATO, NATO on the Map: `https://www.nato.int/en/about-us/organization/nato-on-the-map`
 - NATO, NATO Member Countries: `https://www.nato.int/en/about-us/organization/nato-member-countries`

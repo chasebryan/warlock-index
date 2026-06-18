@@ -9,8 +9,9 @@
 **Information cutoff UTC:** 2026-06-14T19:46:19Z
 
 **Source base:** NGA, USGS, NOAA, BGN, combatant-command area-of-responsibility
-pages, NATO, State, UN, allied, and foreign-government public map and
-geospatial source families.
+pages, NATO, State, UN, allied, foreign-government public map and geospatial
+source families, and commercial public AIS map source families used for source
+discovery only.
 
 **Analytic confidence:** High for map-source routing and safety boundaries.
 Moderate for individual map currency pending dated access refreshes.
@@ -55,6 +56,7 @@ WARLOCK-INDEX products should keep these evidence types separate:
 | Geographic names | U.S. Board on Geographic Names and NGA geographic-name tools | USGS GNIS, State, foreign official sources, UN or allied sources | Naming-source basis |
 | Combatant command geography | Official combatant command area-of-responsibility pages | DoD posture statements, State country pages, NGA public maps | U.S. command-area framing |
 | Historical map or imagery reference | Library of Congress, National Archives, NGA declassified or historical product pages | USGS, NOAA historical products, academic collections | Historical or archival snapshot |
+| Public maritime traffic awareness lead | MarineTraffic / Kpler public AIS map source family | NOAA charts, IMO, port authorities, shipping/insurance sources, official maritime notices | Commercial AIS source-discovery lead only |
 | Foreign or allied map source | Official foreign government, allied defense, national mapping agency, or multilateral source | NGA, State, USGS, NOAA, UN | Issuer perspective and access date |
 
 ## Core Source Families
@@ -125,6 +127,27 @@ WARLOCK-INDEX products should keep these evidence types separate:
   convert safety-of-navigation material into WARLOCK-INDEX route-selection or
   interdiction guidance.
 
+### MarineTraffic / Public AIS Ship-Tracking Map
+
+- **Source class:** C
+- **Publisher:** MarineTraffic / Kpler source family
+- **Accessed UTC:** 2026-06-18T17:58:03Z
+- **URL:** https://www.marinetraffic.com/
+- **Use:** Commercial public AIS map source family for broad maritime
+  traffic-awareness leads, vessel identity cross-checks, chokepoint reporting
+  context, port-congestion discovery, and follow-on source collection.
+- **Reliability note:** The live site returned access restrictions in this
+  environment, so product-level use requires a fresh browser/manual access
+  check. AIS data is self-broadcast, coverage-dependent, delayed or filtered
+  in some contexts, vulnerable to spoofing or gaps, and not authoritative for
+  naval, sanctions, safety, legal, or operational claims. Use MarineTraffic as
+  a lead source only and corroborate with official maritime notices, port
+  authorities, IMO, NOAA chart/source families, shipping/insurance sources,
+  commercial market data, or direct reporting before assimilating claims.
+  WARLOCK-INDEX must not embed live AIS layers, monitor individual vessels,
+  infer patrol patterns, publish routes, provide interdiction support, or use
+  missing AIS as proof that no vessel or activity exists.
+
 ### U.S. Board On Geographic Names
 
 - **Source class:** A
@@ -178,6 +201,7 @@ WARLOCK-INDEX products should keep these evidence types separate:
 | Indo-Pacific / Taiwan / first island chain | NGA public maps, DoD command maps, allied government maps, BGN | Regional orientation and boundary/naming caveats | No basing, route, or movement inference |
 | Philippines / South China Sea / West Philippine Sea | NGA public maps, USINDOPACOM AOR, NAMRIA, Philippine Official Gazette source family, PCA legal-source record, State Limits in the Seas, BFAR/Philippine incident-source families | Broad orientation, issuer-language caveats, legal-source routing, coercion/legal-source packet support, and allied-posture context | No vessel routing, interdiction, basing inference, access-route analysis, legal advice, or maritime operational guidance |
 | Middle East / Red Sea / Hormuz | NGA public maps, CENTCOM AOR pages, NOAA maritime chart families, State | Chokepoint and command-area context | No vessel routing, interdiction, or live maritime layer |
+| Cross-theater maritime traffic awareness | MarineTraffic public AIS map source family, NOAA chart source families, IMO, port authorities, shipping/insurance sources | Source discovery for chokepoint, port, and traffic-reporting leads | No live tracking products, vessel monitoring, patrol inference, route guidance, interdiction support, or AIS-only claims |
 | Africa | AFRICOM AOR pages, NGA public maps, State, UN/AU maps | Theater and subregion orientation | Avoid sensitive facility, route, or conflict-zone tactical detail |
 | Homeland / Western Hemisphere | USGS The National Map, NOAA charts, SOUTHCOM/NORTHCOM public pages, State | U.S. and hemisphere orientation | No domestic surveillance or vulnerability mapping |
 | Arctic / High North | NGA, NOAA, USGS, Canada, Norway, NATO, Arctic Council sources | Strategic geography and maritime context | No route advisories or infrastructure vulnerability mapping |
@@ -193,12 +217,14 @@ WARLOCK-INDEX products should keep these evidence types separate:
    operations, control, basing, or access.
 4. Treat NOAA nautical charts and chart tools as navigation-source material,
    not WARLOCK-INDEX route-selection or operational-planning sources.
-5. Treat USGS topographic and built-environment layers as public U.S.
+5. Treat public AIS ship-tracking maps as volatile commercial lead sources,
+   not authoritative operational or legal records.
+6. Treat USGS topographic and built-environment layers as public U.S.
    geospatial reference. Do not convert them into vulnerability maps or
    targetable infrastructure inventories.
-6. Use geographic-name sources to preserve source language. Do not silently
+7. Use geographic-name sources to preserve source language. Do not silently
    normalize contested names or statuses.
-7. Do not combine public maps with live movement, sensitive facility,
+8. Do not combine public maps with live movement, sensitive facility,
    collection, readiness, or exploitation layers inside WARLOCK-INDEX.
 
 ## Prohibited Product Patterns
@@ -207,7 +233,8 @@ WARLOCK-INDEX products should keep these evidence types separate:
 - Sensitive facility overlays, access-point mapping, or infrastructure
   vulnerability labels.
 - Route-selection, interdiction, patrol-pattern, or evasion guidance.
-- Live vessel, aircraft, ground-force, or convoy tracking.
+- Live vessel, aircraft, ground-force, or convoy tracking, including embedded
+  AIS map layers or vessel-monitoring products.
 - Collection geometry, sensor coverage, watch zones, or surveillance tasking.
 - Domestic political, protest, immigration, or community surveillance maps.
 - Claims that a public map proves legal sovereignty, military control, threat
@@ -257,6 +284,7 @@ When a WARLOCK-INDEX product uses this register, include:
 - U.S. Geological Survey, The National Map: `https://www.usgs.gov/programs/national-geospatial-program/national-map`
 - NOAA Office of Coast Survey: `https://nauticalcharts.noaa.gov/`
 - NOAA National Ocean Service, What Is A Nautical Chart?: `https://oceanservice.noaa.gov/facts/nautical_chart.html`
+- MarineTraffic, live ship-tracking map: `https://www.marinetraffic.com/`
 - U.S. Board on Geographic Names: `https://www.usgs.gov/us-board-on-geographic-names`
 - U.S. Indo-Pacific Command, Area of Responsibility: `https://www.pacom.mil/About-USINDOPACOM/USPACOM-Area-of-Responsibility/`
 - National Mapping and Resource Information Authority: `https://www.namria.gov.ph/`

@@ -7,8 +7,28 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 17:50:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 18:07:57 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>All-Topic Current Source Sweep Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:07:57 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The current sweep supports a refresh queue, not a wholesale rewrite of every assessment. The highest-priority active lanes remain Iran MOU implementation, NATO and European force-posture/allied response, homeland and official threat source refresh, Indo-Pacific PRC/Taiwan/South China Sea official-source updates, Middle East maritime and sanctions implementation, cyber/space advisory refresh, defense industrial-base budget and oversight updates, Africa official-source depth, and map/maritime source routing.</description>
+    </item>
+    <item>
+      <title>U.S.-Iran MOU Afternoon Source Check</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.html</guid>
+      <pubDate>Thu, 18 Jun 2026 17:58:03 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>This afternoon check does not change the corpus status. The U.S.-Iran MOU remains a reported signed-and-publicized current-event lane with active implementation-watch requirements. Current reporting continues to describe a signed MOU, Hormuz reopening or traffic-restoration provisions, oil-sanctions waiver claims, frozen-asset conditions, nuclear/IAEA-related language, and a 60-day negotiation window.</description>
+    </item>
     <item>
       <title>Stratagems, Strategy, And Warfare Academic Research Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.html</link>
@@ -388,26 +408,6 @@
       <category>Collections</category>
       <category>Source Notes</category>
       <description>the corpus should use project-based attribution. The site should not use foundation-style maintainer wording because that phrase can imply a registered foundation or organization. The footer should use the exact wording &quot;Maintained by Chase Bryan.&quot; The About page can describe the corpus as an independent open-source research corpus maintained by Chase Bryan.</description>
-    </item>
-    <item>
-      <title>LIVE-NEWS Source-Treatment Note</title>
-      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0352Z-live-news-source-treatment-note.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0352Z-live-news-source-treatment-note.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:52:19 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Source Notes</category>
-      <description>LIVE-NEWS is a navigation page, not a streaming platform. the corpus should link out only to official provider pages and should not host, rebroadcast, frame, scrape, or embed live players. The page may include public broadcasters, state-backed international news services, institutional video services, and public-affairs broadcasters when the linked page is free to reach and not paywall-first or ad-heavy at the time of review.</description>
-    </item>
-    <item>
-      <title>Coverage Map</title>
-      <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Coverage Map</category>
-      <description>source packets, explainers, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
     </item>
   </channel>
 </rss>
