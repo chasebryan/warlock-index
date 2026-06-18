@@ -877,8 +877,6 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
           <a href="feed.xml">RSS</a>
           <span>|</span>
           <a href="https://github.com/chasebryan/warlock-index">GitHub</a>
-          <span>|</span>
-          <a href="library/standards/product-standard.html">Disclaimer</a>
         </nav>
         <div class="footer-copy">
           <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
