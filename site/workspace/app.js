@@ -17,6 +17,9 @@ const routes = [
   { id: "topic-cyber-space", label: "Cyber / Space", match: (item) => (item.topics || []).includes("cyber-space") },
   { id: "topic-arctic", label: "Arctic", match: (item) => (item.topics || []).includes("arctic") },
   { id: "topic-middle-east", label: "Middle East", match: (item) => (item.topics || []).includes("middle-east") },
+  { id: "watch", label: "Watch queue", match: (item) => normalize(item.freshnessStatus).includes("watch") },
+  { id: "gaps", label: "Gap register", match: (item) => normalize(item.freshnessStatus).includes("gap") || (item.caveatTags || []).some((tag) => normalize(tag).includes("gap")) },
+  { id: "defensive-cyber", label: "Defensive cyber", match: (item) => (item.caveatTags || []).some((tag) => normalize(tag) === "defensive cyber only") || itemHaystack(item).includes("defensive cyber") },
   { id: "assessments", label: "Assessments", match: (item) => item.type === "Assessment" },
   { id: "maps", label: "Maps", match: (item) => item.type === "Map Resource" || String(item.path || "").startsWith("library/maps/") },
   { id: "source-packets", label: "Source packets", match: (item) => item.type === "Source Packet" },
@@ -40,6 +43,9 @@ const quickRoutes = [
   "Indo-Pacific",
   "Taiwan",
   "Cyber",
+  "Watch",
+  "Gap",
+  "Defensive cyber",
   "Standards"
 ];
 
@@ -127,6 +133,18 @@ function itemHaystack(item) {
     item.preparedUtc,
     item.cutoffUtc,
     item.confidence,
+    item.freshnessStatus,
+    item.lastSourceCheckUtc,
+    item.nextRefreshUtc,
+    item.safetyBoundary,
+    item.sourceHash,
+    ...(item.sourceClasses || []),
+    ...(item.actors || []),
+    ...(item.topicTags || []),
+    ...(item.caveatTags || []),
+    ...(item.primarySources || []),
+    ...(item.relatedProducts || []),
+    ...(item.sourceUrls || []),
     ...(item.tags || [])
   ].join(" "));
 }
@@ -162,6 +180,70 @@ function renderBadges(item, className = "doc-badges") {
     <span class="${escapeHtml(className)}">
       ${itemBadges(item).map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}
     </span>
+  `;
+}
+
+function asArray(value) {
+  return Array.isArray(value) ? value.filter(Boolean) : [];
+}
+
+function metadataFacts(item) {
+  return [
+    item.freshnessStatus ? `Freshness ${item.freshnessStatus}` : "",
+    item.lastSourceCheckUtc ? `Checked ${formatUtc(item.lastSourceCheckUtc)}` : "",
+    item.nextRefreshUtc ? `Refresh ${formatUtc(item.nextRefreshUtc)}` : "",
+    item.sourceHash ? `Hash ${item.sourceHash}` : ""
+  ].filter(Boolean);
+}
+
+function metadataLines(item) {
+  const lines = [
+    ["Type", item.type || "Document"],
+    ["Theater", item.theater || "Global"],
+    ["Domain", item.domain || "Corpus"],
+    ["Prepared", formatUtc(item.preparedUtc)],
+    ["Cutoff", formatUtc(item.cutoffUtc)],
+    ["Confidence", confidenceLabel(item.confidence)],
+    ["Freshness", item.freshnessStatus || "Unstated"],
+    ["Last source check", formatUtc(item.lastSourceCheckUtc)],
+    ["Next refresh", formatUtc(item.nextRefreshUtc)],
+    ["Product ID", item.productId || "Unstated"],
+    ["Source hash", item.sourceHash || "Unstated"],
+    ["Source classes", asArray(item.sourceClasses).join("; ") || "Unstated"],
+    ["Actors", asArray(item.actors).join("; ") || "Unstated"],
+    ["Caveats", asArray(item.caveatTags).join("; ") || "Unstated"],
+    ["Related products", asArray(item.relatedProducts).join("; ") || "Unstated"],
+    ["Path", item.path || ""]
+  ];
+  if (item.safetyBoundary) lines.splice(12, 0, ["Safety boundary", item.safetyBoundary]);
+  return lines;
+}
+
+function metadataText(item) {
+  return metadataLines(item)
+    .map(([label, value]) => `${label}: ${value}`)
+    .join("\n");
+}
+
+function renderMetadataList(item) {
+  const entries = [
+    ["Freshness", item.freshnessStatus],
+    ["Last check", formatUtc(item.lastSourceCheckUtc)],
+    ["Next refresh", formatUtc(item.nextRefreshUtc)],
+    ["Source classes", asArray(item.sourceClasses).join("; ")],
+    ["Actors", asArray(item.actors).join("; ")],
+    ["Caveats", asArray(item.caveatTags).join("; ")],
+    ["Related", asArray(item.relatedProducts).join("; ")],
+    ["Source hash", item.sourceHash],
+    ["Safety", item.safetyBoundary]
+  ].filter(([, value]) => value && value !== "Unstated");
+
+  if (!entries.length) return "";
+
+  return `
+    <div class="metadata-panel" aria-label="Structured metadata">
+      ${entries.map(([label, value]) => detail(label, value)).join("")}
+    </div>
   `;
 }
 
@@ -710,6 +792,22 @@ function readerPacketStyles() {
       text-transform: none;
     }
 
+    .doc-metadata {
+      overflow: auto;
+      max-height: 260px;
+      margin: 0.15rem 0 0;
+      padding: 0.75rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--code);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      line-height: 1.45;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+
     .doc-body {
       padding: clamp(1rem, 3vw, 1.7rem);
     }
@@ -892,7 +990,7 @@ function renderReaderPacket(documents) {
   const toc = documents.map((document, index) => `
     <li>
       <a href="#${escapeAttr(document.id)}">${escapeHtml(document.title)}</a>
-      <span>${escapeHtml(document.item.type || "Document")} / ${escapeHtml(document.item.theater || "Global")}</span>
+        <span>${escapeHtml(document.item.type || "Document")} / ${escapeHtml(document.item.theater || "Global")}${document.item.freshnessStatus ? ` / ${escapeHtml(document.item.freshnessStatus)}` : ""}</span>
     </li>
   `).join("");
 
@@ -904,9 +1002,12 @@ function renderReaderPacket(documents) {
           <span>${escapeHtml(document.item.theater || "Global")}</span>
           <span>${escapeHtml(document.item.domain || "Corpus")}</span>
           <span>${escapeHtml(document.item.preparedUtc ? `Prepared ${formatUtc(document.item.preparedUtc)}` : "Prepared unstated")}</span>
+          ${document.item.freshnessStatus ? `<span>${escapeHtml(`Freshness ${document.item.freshnessStatus}`)}</span>` : ""}
+          ${document.item.sourceHash ? `<span>${escapeHtml(`Hash ${document.item.sourceHash}`)}</span>` : ""}
         </div>
         <h2>${escapeHtml(document.title)}</h2>
         <p class="doc-summary">${escapeHtml(document.summary || "WARLOCK-INDEX documentation product.")}</p>
+        <pre class="doc-metadata">${escapeHtml(metadataText(document.item))}</pre>
         <a class="source-path" href="${escapeAttr(pathUrl(document.item.path))}" target="_blank" rel="noreferrer">${escapeHtml(document.item.path)}</a>
       </header>
       <div class="doc-body markdown-body">
@@ -1007,9 +1108,9 @@ async function exportTextBundle(paths) {
       const fetched = await fetchDocumentForExport(item).catch(() => null);
       if (fetched && fetched.body) {
         const plain = fetched.body.textContent || fetched.body.innerText || "";
-        return `${fetched.title}\n${fetched.item.preparedUtc ? "Prepared: " + fetched.item.preparedUtc : ""}\nSource: ${fetched.sourceUrl}\n\n${plain.trim()}\n\n---\n\n`;
+        return `${fetched.title}\n${metadataText(fetched.item)}\nSource: ${fetched.sourceUrl}\n\n${plain.trim()}\n\n---\n\n`;
       }
-      return `${item.title}\n${item.preparedUtc ? "Prepared: " + item.preparedUtc : ""}\nPath: ${item.path}\n\n(See full HTML on site for formatted content.)\n\n---\n\n`;
+      return `${item.title}\n${metadataText(item)}\nPath: ${item.path}\n\n(See full HTML on site for formatted content.)\n\n---\n\n`;
     }));
 
     const header = `WARLOCK-INDEX Text Bundle\nGenerated: ${new Date().toISOString()}\nRecords: ${items.length}\nUNCLASSIFIED//OPEN SOURCE\n\n`;
@@ -1149,6 +1250,7 @@ function renderResults(results) {
       const facts = [
         item.preparedUtc ? `Prepared ${formatUtc(item.preparedUtc)}` : "",
         item.confidence ? `Confidence ${confidenceLabel(item.confidence)}` : "",
+        ...metadataFacts(item),
         item.productId || ""
       ].filter(Boolean);
       return `
@@ -1203,6 +1305,7 @@ function renderPreview(item) {
         ${detail("Product ID", item.productId || "Unstated")}
         ${detail("Path", item.path || "")}
       </div>
+      ${renderMetadataList(item)}
       <div class="tag-list" aria-label="Tags">
         ${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}
       </div>

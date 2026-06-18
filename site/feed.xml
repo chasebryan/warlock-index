@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 18:39:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 18:45:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Workspace Metadata Triage Source Note</title>
+      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1845Z-workspace-metadata-triage-source-note.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1845Z-workspace-metadata-triage-source-note.html</guid>
+      <pubDate>Thu, 18 Jun 2026 18:45:00 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Source Notes</category>
+      <description>The workspace should function as a triage surface for the enriched corpus, not only as a document browser. Metadata-aware routes make it possible to quickly isolate records that need refresh, carry caveats, or belong to defensive cyber source lanes.</description>
+    </item>
     <item>
       <title>Topic Source Lane Crosswalk</title>
       <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</link>
@@ -398,16 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>Drone and counter-UAS industrial capacity should be treated as a strategic production and source-routing lane, not as a tactical-methods file. The lane connects Ukraine lessons, Indo-Pacific deterrence, homeland protection, installation defense, Red Sea/Houthi disruption, critical infrastructure security, munitions demand, electronics, batteries, software, sensors, counter-UAS effectors, and rapid acquisition.</description>
-    </item>
-    <item>
-      <title>Japan Defense Buildup Implementation Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-18T0818Z-japan-defense-buildup-implementation-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-18T0818Z-japan-defense-buildup-implementation-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:18:12 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>Japan has a mature official-source baseline in the corpus; the next useful step is implementation tracking. The Defense Buildup Program and budget source families should be treated as demand and policy evidence, then cross-checked against ATLA, MOD, Diet/budget, audit, alliance, and program-level evidence before claims about delivery or capability are strengthened.</description>
     </item>
   </channel>
 </rss>
