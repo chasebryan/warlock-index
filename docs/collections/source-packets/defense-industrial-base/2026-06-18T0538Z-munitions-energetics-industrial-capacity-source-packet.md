@@ -9,7 +9,8 @@
 **Information cutoff UTC:** 2026-06-18T05:38:56Z
 
 **Source base:** Defense industrial base, munitions, and shipbuilding source
-packet; defense industrial base capacity tracker; defense industrial base
+packet; critical materials and defense supply chain source packet; critical
+materials and supply chain tracker; defense industrial base capacity tracker; defense industrial base
 assimilation matrix; U.S. defense industrial base strategic baseline; Ukraine
 war external support tracker; strategic weapons source-packet lane; official
 U.S. source register; allied and multilateral source register; DoD Industrial
@@ -104,7 +105,7 @@ recommendations about what should be produced, bought, withheld, or shipped.
 | Research question | Primary source family | Cross-check source family | Corpus linkage |
 | --- | --- | --- | --- |
 | What public munitions demand signal exists? | DoD/service budgets; Congress.gov | CRS/GAO/CBO | DIB tracker; munitions tracker |
-| What energetics source lanes need monitoring? | DoD Industrial Base Policy / NDIS | Service budgets; GAO/CRS | DIB tracker; critical materials queue |
+| What energetics source lanes need monitoring? | DoD Industrial Base Policy / NDIS; critical materials packet/tracker | Service budgets; USGS/DOE/DLA; GAO/CRS | DIB tracker; critical materials tracker |
 | How is Ukraine support stressing munitions capacity? | NATO declarations; Ukraine support tracker | National support pages; CRS/GAO | Ukraine tracker; DIB matrix |
 | Which air-defense reload lanes are strategic? | DoD/service budgets; strategic weapons lane | CRS/GAO; allied support sources | Strategic weapons; Middle East; Indo-Pacific |
 | How should drone/counter-UAS effectors be treated? | DoD/service source families | Ukraine lessons; allied sources | Drones/counter-UAS future packet |
@@ -198,6 +199,8 @@ contract evidence remain necessary for stronger claims.
 ## Cross References
 
 - [Munitions Industrial Capacity Tracker](../../trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
+- [Critical Materials And Defense Supply Chain Source Packet](2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](../../trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 - [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
 - [Defense Industrial Base Capacity Tracker](../../trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [Defense Industrial Base Assimilation Matrix](../../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)

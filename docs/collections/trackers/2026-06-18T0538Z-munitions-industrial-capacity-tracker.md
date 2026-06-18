@@ -9,7 +9,9 @@
 **Information cutoff UTC:** 2026-06-18T05:38:56Z
 
 **Source base:** Munitions and energetics industrial capacity source packet;
-defense industrial base source packet; defense industrial base capacity
+critical materials and defense supply chain source packet; critical materials
+and supply chain tracker; defense industrial base source packet; defense
+industrial base capacity
 tracker; defense industrial base assimilation matrix; Ukraine war external
 support tracker; strategic weapons source-packet lane; official U.S. source
 register; allied and multilateral source register; DoD, service, Congress,
@@ -50,8 +52,8 @@ national budget or audit sources.
 | --- | --- | --- | --- | --- |
 | Artillery and conventional ammunition | Ukraine tracker and DIB lane identify artillery and ammunition endurance as strategic variables | Add dated DoD/service, NATO, EU, national, CRS, and GAO source captures | Moderate pending dated capture | No stockpile, route, depot, shipment, or tactical employment guidance |
 | Missiles and interceptors | Present in strategic weapons, Iran/DPRK, Middle East, homeland, and DIB lanes | Build interceptor/air-defense industrial packet using budget, CRS/GAO, and allied demand sources | Moderate pending source refresh | No engagement guidance, inventory estimates, target sets, or reload timelines |
-| Energetics and rocket motors | Identified in DIB baseline and DIB packet as a foundational input lane | Add energetics source note using DoD industrial-base, budget, oversight, and safety-boundary sources | Moderate pending source refresh | No formulas, handling instructions, process detail, or facility vulnerability |
-| Propellants, explosives, fuzes, and warheads | Identified as component/source-family lanes in munitions packet | Route to budget, industrial-base, and oversight sources only | Moderate pending source refresh | No technical production, handling, or exploitation detail |
+| Energetics and rocket motors | Identified in DIB baseline, munitions packet, and critical-materials source lane as a foundational input lane | Add energetics source note using DoD industrial-base, budget, critical-materials, oversight, and safety-boundary sources | Moderate pending source refresh | No formulas, handling instructions, process detail, supplier vulnerability, or facility vulnerability |
+| Propellants, explosives, fuzes, and warheads | Identified as component/source-family lanes in munitions packet and critical-materials tracker | Route to budget, industrial-base, critical-materials, and oversight sources only | Moderate pending source refresh | No technical production, handling, export-control evasion, supplier targeting, or exploitation detail |
 | Guided munitions and seekers | Present across strategic weapons and DIB lanes | Add guided-munitions source capture tied to service budgets and GAO/CRS oversight | Moderate pending source refresh | No seeker exploitation, technical performance, or weapons employment guidance |
 | Air defense reloads | Ukraine, Middle East, homeland, and strategic-weapons lanes show demand relevance | Add reload-demand source treatment with explicit no-inventory and no-tactical-use boundaries | Moderate pending source refresh | No operational inventory, reload timing, or engagement advice |
 | Drone and counter-UAS effectors | Present in DIB baseline and Ukraine support effects | Queue separate drone/counter-UAS industrial capacity packet | Moderate pending source refresh | No jamming, tactical drone use, targeting, or countermeasure procedures |
@@ -89,8 +91,10 @@ national budget or audit sources.
 - Stockpile levels, expenditure rates, reload timelines, and protected
   production capacities are generally not publicly verifiable and should not
   be inferred.
-- Energetics source work needs careful boundaries because public strategic
-  categories can sit near technical production and handling detail.
+- Energetics and component source work now routes through the critical
+  materials packet/tracker, but needs careful boundaries because public
+  strategic categories can sit near technical production, handling, supplier,
+  and export-control detail.
 - Allied replenishment requires country-level budget, contract, and audit
   evidence before stronger comparative claims.
 - Drone and counter-UAS effectors need a separate packet because the lane
@@ -102,6 +106,8 @@ national budget or audit sources.
 ## Cross References
 
 - [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
+- [Critical Materials And Defense Supply Chain Source Packet](../source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 - [Defense Industrial Base Capacity Tracker](2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [Defense Industrial Base Assimilation Matrix](../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
 - [Ukraine War External Support Tracker](2026-06-13T0120Z-ukraine-war-external-support-tracker.md)

@@ -10,7 +10,9 @@
 
 **Source base:** Defense industrial base, munitions, and shipbuilding source
 packet; munitions and energetics industrial capacity source packet; munitions
-industrial capacity tracker; defense industrial base capacity tracker; U.S.
+industrial capacity tracker; critical materials and defense supply chain
+source packet; critical materials and supply chain tracker; defense
+industrial base capacity tracker; U.S.
 defense industrial base strategic baseline; official U.S. source register;
 allied and multilateral source register; AUKUS industrial implementation
 source packet; ICE Pact Arctic warning implementation source packet; EU
@@ -60,7 +62,7 @@ No single source type proves the entire capacity chain.
 | Icebreakers and Arctic industry | ICE Pact, Canada, U.S., Finland, Coast Guard source families | Arctic and High North, homeland, allied capacity | ICE Pact packet; Canada/NORAD; Arctic baseline | No ship-routing, sensor-performance, procurement, or infrastructure vulnerability analysis |
 | EU defense industry | European Commission, Council, Parliament, EDA, SAFE, EDIP, EDIS | Europe/Russia, Ukraine support, NATO interface | EU Readiness 2030 packet; allied matrix | EU documents are not national readiness proof |
 | Allied national industrial policy | UK, France, Germany, Nordics, Australia, Japan, ROK, Canada, Philippines, India/Quad source lanes | NATO, Indo-Pacific, Arctic, global | Allied tracker; allied matrix; national source packets | No readiness ranking or forced equivalence |
-| Critical materials and microelectronics | DoD, Commerce, USGS, CHIPS, allied sources, India/Quad technology lanes | Global, Indo-Pacific, cyber/space, DIB | DIB tracker; India/Quad packet; cyber/space baselines | No export-control evasion or controlled-data workarounds |
+| Critical materials and microelectronics | Critical materials packet/tracker, DoD, DLA, Commerce/BIS, USGS, DOE, CHIPS, Federal Register, EU/allied sources, India/Quad technology lanes | Global, Indo-Pacific, cyber/space, DIB, munitions, AUKUS, Ukraine support | DIB tracker; critical materials packet/tracker; India/Quad packet; China/PLA; cyber/space baselines | No export-control evasion, supplier targeting, stockpile exploitation, or controlled-data workarounds |
 | Workforce and skills | DoD/Navy workforce, ASA, allied workforce pages, GAO/CRS/audit sources | DIB, shipbuilding, AUKUS, Arctic, EU | AUKUS packet; DIB tracker; allied matrix | No individual personnel tracking or readiness scoring |
 | Software and cybersecure production | DoD software, CISA/NSA/FBI where relevant, cyber agency source families | Cyber, critical infrastructure, DIB, space | Cyber baseline; Salt Typhoon source note; DIB tracker | No exploit steps, vulnerabilities, or cyber playbooks |
 | Drones and counter-UAS | DoD/service pages, Ukraine lessons, allied sources, industry-source families | Ukraine, Middle East, Indo-Pacific, homeland | DIB tracker; FTO/nonstate profiles; strategic baseline | No tactical employment, jamming guidance, or targeting |
@@ -92,8 +94,8 @@ No single source type proves the entire capacity chain.
 ## Product Queue
 
 1. Munitions and energetics source packet.
-2. Navy shipbuilding and repair source packet.
-3. Critical materials and microelectronics source packet.
+2. Critical materials and defense supply chain source packet.
+3. Navy shipbuilding and repair source packet.
 4. Allied defense-industrial crosswalk.
 5. Drone and counter-UAS industrial capacity packet.
 6. DIB workforce and skills source packet.
@@ -104,9 +106,10 @@ No single source type proves the entire capacity chain.
 - DIB products need recurring source refresh because budget, contract, and
   program status can change rapidly.
 - Existing corpus coverage is strongest for AUKUS, EU Readiness 2030, ICE
-  Pact, broad U.S. DIB baseline, and munitions/energetics source routing; it
-  remains weaker for dated munitions source captures, Navy repair, workforce,
-  and critical-materials packets.
+  Pact, broad U.S. DIB baseline, munitions/energetics source routing, and
+  critical-materials/supply-chain source routing; it remains weaker for dated
+  munitions source captures, critical-materials implementation captures, Navy
+  repair, and workforce packets.
 - Public sources omit protected supplier data, classified stockpiles,
   nonpublic production rates, operational expenditure rates, surge timelines,
   and facility vulnerabilities.
@@ -118,6 +121,8 @@ No single source type proves the entire capacity chain.
 - [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](../source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
 - [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
 - [Munitions Industrial Capacity Tracker](../trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
+- [Critical Materials And Defense Supply Chain Source Packet](../source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](../trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 - [Defense Industrial Base Capacity Tracker](../trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [AUKUS Industrial Implementation Source Packet](../source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)

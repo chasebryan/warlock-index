@@ -22,6 +22,9 @@ source family; Philippines/South China Sea legal and map-reference source
 families; NATO Washington declaration; existing WARLOCK-INDEX China, Taiwan,
 strategic-weapons, cyber, space, map-reference, and global assimilation
 products.
+Critical materials and defense supply-chain source routing has been added
+through the DIB critical-materials packet/tracker for semiconductor,
+strategic-materials, export-control, and allied resilience cross-links.
 
 **Analytic confidence:** High for official source identity, DoD PRC report
 scope, ODNI threat-framing source identity, PRC white paper source identity,
@@ -146,6 +149,7 @@ internal WARLOCK-INDEX crosswalks.
 | Nuclear/missile/Rocket Force | China strategic-weapons packet; DoD PRC report; ODNI | NATO, arms-control sources, strategic-weapons timeline | Reuse dedicated strategic-weapons packet |
 | Defense spending and budget | DoD PRC report; PRC budget statements where directly captured | SIPRI/IISS/research as non-official follow-on, PRC white paper | Fiscal context; not readiness or output proof |
 | Defense industry and emerging technology | DoD PRC report; Commerce/Treasury/DOJ source families where added | Allied industrial strategies, research institutions | No procurement evasion, replication, or sensitive supplier-vulnerability mapping |
+| Critical materials and semiconductor supply chains | Critical materials packet/tracker; Commerce/BIS; USGS/DOE/DLA; DoD PRC report | Allied critical-materials, CHIPS, CRS/GAO, EU, Japan, Australia, Canada sources | No export-control evasion, supplier targeting, stockpile exploitation, or technical workarounds |
 | Military diplomacy and crisis communications | DoD PRC report; PRC MND; State/DoD releases | Regional defense ministries | Strategic contact/source routing; no negotiation advice |
 | Information operations and influence | ODNI; DoD PRC report; State where accessible | NATO, allied foreign ministries, platform transparency where source-classed | Narrative/source-family treatment only |
 
@@ -199,6 +203,7 @@ prove readiness, output quality, schedule, or wartime sustainment.
 | --- | --- | --- |
 | PRC Space, Counterspace, And Information-Support Packet | Connect space/counterspace, aerospace force, missile warning, C4ISR, and information support source lanes | DoD, ODNI, Space Force, PRC issuer sources, NATO/allied sources |
 | PRC Defense-Industrial And Emerging-Technology Packet | Organize defense industry, military-civil fusion, AI, biotechnology, semiconductors, hypersonics, shipbuilding, talent, espionage, and export-control evidence | DoD, Commerce, Treasury, DOJ, CRS/GAO where added, allied sources |
+| Critical Materials And China Supply-Chain Crosswalk | Connect PRC industrial policy, material dependencies, semiconductor controls, allied resilience, and export-control source lanes | Critical materials packet/tracker, DoD, Commerce/BIS, USGS, DOE, DLA, Treasury, State, EU/allied sources |
 | PRC-Russia Defense-Industrial Support Packet | Track public evidence of PRC support to Russia's defense industrial base and cross-theater implications | NATO, ODNI, Treasury, State, Commerce, allied sanctions sources |
 
 ## Information Gaps
@@ -243,6 +248,8 @@ prove readiness, output quality, schedule, or wartime sustainment.
 - [Official U.S. Threat Source Assimilation Matrix](../../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Global Actor-Domain Assimilation Matrix](../../global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
 - [Official U.S. Sources](../../../source-registers/official-us.md)
+- [Critical Materials And Defense Supply Chain Source Packet](../defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](../../trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../../source-registers/us-intelligence-law-enforcement.md)
 - [Foreign Government Reference Source Register](../../../source-registers/foreign-government-reference.md)
 - [Allied And Multilateral Source Register](../../../source-registers/allied-multilateral.md)

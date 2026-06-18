@@ -180,6 +180,7 @@ military end use.
 | Warlock North Korea actor classification | DPRK classified as Russia-war support partner | Internal cross-reference |
 | Warlock DIB baseline | Industrial capacity, munitions, interceptors, shipbuilding, drones, energetics, and allied production treated as strategic variables | Internal cross-reference |
 | Warlock munitions and energetics source packet | Munitions, energetics, interceptors, artillery, air-defense reloads, drone/counter-UAS effectors, and allied replenishment separated by source type and boundary | Internal cross-reference |
+| Warlock critical materials and supply-chain packet/tracker | Critical materials, microelectronics, export controls, strategic-materials, munitions inputs, and allied resilience separated by source type and boundary | Internal cross-reference |
 
 ## Indicators To Monitor
 
@@ -198,6 +199,9 @@ military end use.
   investment announcements.
 - Air defense, artillery, drone, missile, EW, repair, and ammunition demand
   signals in public official reporting.
+- Critical materials, microelectronics, strategic-materials, export-control,
+  and allied supply-chain source changes affecting munitions, drones, repair,
+  energetics, and replenishment.
 - Changes in U.S., NATO, EU, or allied domestic politics affecting support
   continuity.
 - Battlefield adaptation claims that have implications for production,
@@ -220,6 +224,8 @@ military end use.
   public evidence remains incomplete.
 - Effect of battlefield consumption on U.S. and allied stockpiles and
   replacement timelines.
+- Effect of critical-materials, microelectronics, and export-control
+  constraints on munitions, drone, repair, and replenishment source lanes.
 
 ## Cross-References
 
@@ -231,6 +237,8 @@ military end use.
 - [U.S. Defense Industrial Base Strategic Baseline](../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [Munitions And Energetics Industrial Capacity Source Packet](../source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
 - [Munitions Industrial Capacity Tracker](2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
+- [Critical Materials And Defense Supply Chain Source Packet](../source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 
 ## Source Base
 

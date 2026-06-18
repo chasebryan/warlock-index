@@ -2928,3 +2928,29 @@ later dated refresh.
 - **Reliability note:** Authoritative for NATO public framing. It cannot
   replace Swedish national budget, capability, legal, or implementation
   evidence.
+
+## Allied Critical Materials And Supply Chain Source Family
+
+- **Source class:** A
+- **Publisher:** European Commission, EU institutions, NATO, and allied
+  national governments
+- **Publication date:** Dynamic source family
+- **Accessed UTC:** 2026-06-18T06:30:55Z
+- **URLs:**
+  - https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials_en
+  - https://defence-industry-space.ec.europa.eu/
+  - https://eda.europa.eu/
+  - https://www.nato.int/cps/en/natohq/official_texts.htm
+  - https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals
+  - https://www.canada.ca/en/campaign/critical-minerals-in-canada.html
+  - https://www.gov.uk/government/collections/critical-minerals
+  - https://www.meti.go.jp/english/
+- **Use:** Allied and multilateral source-family routing for critical raw
+  materials, defense-industrial resilience, strategic projects, mining and
+  processing strategies, AUKUS and allied supply-chain dependencies,
+  semiconductor/source-chain resilience, and national implementation evidence.
+- **Reliability note:** Authoritative for each issuer's public framing and
+  source routing. EU, NATO, and national evidence must remain distinct; do not
+  convert into supplier targeting, readiness rankings, stockpile claims,
+  export-control evasion, procurement advice, or operational logistics
+  guidance.

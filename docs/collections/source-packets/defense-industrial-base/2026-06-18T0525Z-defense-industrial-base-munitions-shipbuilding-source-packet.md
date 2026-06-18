@@ -158,10 +158,12 @@ classified readiness.
 
 Critical minerals, energetics inputs, microelectronics, trusted manufacturing,
 software, cloud, and cybersecure industrial systems connect the DIB to wider
-economic-security lanes. Products should route these topics through official
-strategy, budget, CHIPS/microelectronics, CFIUS/export-control, supply-chain,
-and cyber-resilience source families without producing evasion guidance,
-technical exploitation guidance, or controlled-data workarounds.
+economic-security lanes. The dedicated critical-materials packet and tracker
+now route these topics through USGS, DOE, DLA, DoD, Commerce/BIS, CHIPS,
+Federal Register, allied critical raw materials, budget, oversight, and
+supply-chain source families without producing evasion guidance, supplier
+targeting, stockpile exploitation, technical exploitation guidance, or
+controlled-data workarounds.
 
 ### Allied And Multilateral Industrial Capacity
 
@@ -181,6 +183,7 @@ be assumed from summit language alone.
 | Contract and program updates | DoD releases, service releases, official contract notices | Public award and program identity | Supplier health or exact throughput |
 | Oversight reports | GAO, CRS, CBO, inspectors general, national audit bodies | Cost/schedule/risk and implementation questions | Classified performance |
 | Munitions and energetics | DoD budget, service releases, congressional reporting, GAO/CRS | Public capacity-expansion and bottleneck categories | Stockpile exploitation or targeting |
+| Critical materials and supply chains | USGS, DOE, DLA, DoD, Commerce/BIS, CHIPS, Federal Register, CRS/GAO, allied critical raw materials | List identity, demand signal, export-control routing, and supply-chain implementation evidence | Supplier targeting, stockpile exploitation, export-control evasion, or controlled-data workarounds |
 | Shipbuilding and repair | Navy plans, budget books, NAVSEA, GAO, CRS, AUKUS/ICE Pact | Public construction, repair, and industrial-source routing | Facility vulnerability or operational maintenance |
 | Workforce | DoD, Navy, ASA, allied workforce pages, audits | Training and hiring source lanes | Individual personnel or readiness claims |
 | Allied capacity | NATO, EU, AUKUS, ICE Pact, national packets | Multilateral and national implementation evidence | Interchangeable readiness proof |
@@ -193,6 +196,10 @@ be assumed from summit language alone.
   program, and oversight evidence can change quickly.
 - Munitions, interceptor, and energetics claims need careful separation among
   budget, contract, capacity expansion, delivery, inventory, and expenditure.
+- Critical-materials and microelectronics claims now have a dedicated source
+  lane but still require dated list, strategy, budget, implementation,
+  export-control, allied, and oversight refresh before stronger dependency
+  judgments.
 - Allied capacity cannot be aggregated without source-specific caveats about
   legal authorities, funding, standardization, export controls, industrial
   specialization, and political release decisions.
@@ -204,6 +211,8 @@ be assumed from summit language alone.
 - [U.S. Defense Industrial Base Strategic Baseline](../../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
 - [Defense Industrial Base Capacity Tracker](../../trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [Defense Industrial Base Assimilation Matrix](../../global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
+- [Critical Materials And Defense Supply Chain Source Packet](2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](../../trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 - [AUKUS Industrial Implementation Source Packet](../indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.md)
 - [ICE Pact And Arctic Warning Implementation Source Packet](../arctic-infrastructure/2026-06-18T0311Z-ice-pact-arctic-warning-implementation-source-packet.md)
 - [EU Readiness 2030 Implementation Source Packet](../nato-allied-capacity/2026-06-18T0207Z-eu-readiness-2030-implementation-source-packet.md)

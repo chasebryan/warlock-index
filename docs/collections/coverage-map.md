@@ -136,6 +136,16 @@ future open-source defense assessments.
   ammunition, missiles and interceptors, air-defense reloads, rocket motors,
   propellants, explosives, fuzes, warheads, guided munitions, and drone or
   counter-UAS effector source queues.
+- Critical materials and defense supply-chain source families, including
+  USGS critical minerals and commodity summaries, DOE critical materials,
+  DLA Strategic Materials and National Defense Stockpile routing, DoD
+  industrial-base supply-chain sources, Commerce CHIPS, Commerce/BIS export
+  controls, Federal Register legal notices, Congress.gov, CRS, GAO, CBO, EU
+  critical raw materials, NATO/allied resilience, AUKUS supply-chain
+  dependencies, China/PLA semiconductor and material dependency cross-checks,
+  and Ukraine support demand signals, handled without supplier targeting,
+  stockpile exploitation, export-control evasion, or controlled technical-data
+  workarounds.
 - NORAD modernization implementation source families, including Canada
   project-timeline and funding fact sheets, Our North Strong and Free Annex
   C, DND departmental planning, Canada budget chapters, Canada-U.S. joint

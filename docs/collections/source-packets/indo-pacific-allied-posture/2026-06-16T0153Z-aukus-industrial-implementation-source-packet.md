@@ -18,8 +18,9 @@ Paper; UK MOD AUKUS detailed-design and long-lead contract release;
 Congressional Research Service RL32418; existing WARLOCK-INDEX Australia
 official defence/AUKUS source baseline packet, UK official defense/security
 source packet, Indo-Pacific allied posture source packet, U.S. defense
-industrial base baseline, allied tracker, official allied source matrix, and
-global actor-domain matrix.
+industrial base baseline, critical materials and defense supply chain source
+packet, critical materials and supply chain tracker, allied tracker, official
+allied source matrix, and global actor-domain matrix.
 
 **Analytic confidence:** High for official source identity and declared
 public program architecture. Moderate for implementation status because
@@ -197,6 +198,7 @@ enterprise capacity, and trilateral supply-chain resilience.
 | Budget and annual reporting | Australian Defence budgets, annual reports, ASA planning/reporting | Turns strategy into public resource and performance evidence | Budget authority is not delivery proof |
 | Parliamentary/audit evidence | ANAO, Australian Parliament, UK Parliament, NAO, U.S. CRS/GAO/CBO | Identifies cost, schedule, workforce, governance, and execution risk | No procurement advice or classified inference |
 | Supplier qualification | DIVQ, AUSSQ, industry pages, aggregate official releases | Tracks industrial-base depth and supply-chain integration | No supplier vulnerability or controlled technical-data extraction |
+| Critical materials and supply chains | Critical materials packet/tracker; ASA industry pages; CRS RL32418; allied source families | Tracks material, supplier, semiconductor, workforce, and industrial dependency source routing | No supplier targeting, export-control evasion, or controlled technical-data workarounds |
 | Workforce pipeline | ASA workforce, Defence training, UK/US shipyard placement sources | Shows training scale, skills development, and bottleneck risk | No personnel tracking or operational readiness claims |
 | Infrastructure projects | Henderson, Osborne, SRF-West infrastructure, environmental/planning sources | Tracks strategic conversion and public approval source families | No facility mapping, route guidance, or vulnerability analysis |
 | U.S. submarine production | CRS RL32418, Navy budget, shipbuilding plans, GAO/CBO | Determines Virginia-class transfer and replacement-boat feasibility | No tactical submarine capability extraction |
@@ -219,6 +221,10 @@ enterprise capacity, and trilateral supply-chain resilience.
 - Australian official sources need future cross-reading with ANAO,
   parliamentary, budget, annual-report, regulator, environmental/planning, and
   industry evidence before stronger implementation claims.
+- Critical materials, semiconductors, specialty inputs, and supplier
+  qualification now route through the critical-materials packet/tracker, but
+  AUKUS-specific implementation still requires dated Australian, U.S., UK,
+  audit, parliamentary, and program-source refresh.
 
 ## Cross References
 
@@ -231,6 +237,8 @@ enterprise capacity, and trilateral supply-chain resilience.
 - [Allied And Multilateral Source Register](../../../source-registers/allied-multilateral.md)
 - [Official U.S. Source Register](../../../source-registers/official-us.md)
 - [U.S. Defense Industrial Base Strategic Baseline](../../../assessments/defense-industrial-base/2026-06-13T0117Z-us-defense-industrial-base-strategic-baseline.md)
+- [Critical Materials And Defense Supply Chain Source Packet](../defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Critical Materials And Supply Chain Tracker](../../trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
 
 ## Source Base
 

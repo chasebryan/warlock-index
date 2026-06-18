@@ -919,3 +919,35 @@ later dated refresh.
   public use. Because the report predates Russia's 2022 full-scale invasion of
   Ukraine, current capability claims are refreshed with newer ODNI, DoD,
   NATO, congressional, allied, or reputable research sources.
+
+## Critical Materials And Supply Chain Source Family
+
+- **Source class:** A
+- **Publisher:** USGS, DOE, DLA, DoD, Commerce/BIS, Federal Register,
+  Congress, CRS, GAO, CBO
+- **Publication date:** Dynamic source family
+- **Accessed UTC:** 2026-06-18T06:30:55Z
+- **URLs:**
+  - https://www.usgs.gov/centers/national-minerals-information-center/critical-minerals
+  - https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries
+  - https://www.energy.gov/cmm/critical-materials-assessment
+  - https://www.dla.mil/Strategic-Materials/
+  - https://www.businessdefense.gov/
+  - https://www.businessdefense.gov/NDIS.html
+  - https://www.chips.gov/
+  - https://www.bis.gov/
+  - https://www.federalregister.gov/
+  - https://www.congress.gov/
+  - https://crsreports.congress.gov/
+  - https://www.gao.gov/
+  - https://www.cbo.gov/
+- **Use:** Official U.S. source-family routing for critical minerals,
+  critical materials, strategic materials, National Defense Stockpile,
+  defense-industrial supply chains, semiconductor/CHIPS implementation,
+  export controls, legal notices, congressional authorities, oversight, and
+  budget/cost analysis.
+- **Reliability note:** Authoritative for public U.S. source identity and
+  official/legal/oversight routing. Do not convert into procurement advice,
+  supplier targeting, stockpile adequacy claims, export-control evasion,
+  sanctions evasion, controlled technical-data workarounds, facility
+  vulnerability analysis, or operational logistics guidance.
