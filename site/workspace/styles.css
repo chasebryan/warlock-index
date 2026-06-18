@@ -18,6 +18,11 @@
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
   --mono: "Courier New", Courier, monospace;
+  --page-pad: clamp(1rem, 3vw, 1.45rem);
+  --page-title: clamp(2.1rem, 5vw, 4rem);
+  --section-title: clamp(1.2rem, 2.5vw, 1.55rem);
+  --card-title: clamp(1.05rem, 2.2vw, 1.28rem);
+  --lede: 1.05rem;
 }
 
 * {
@@ -263,7 +268,7 @@ svg {
   overflow: hidden;
   color: var(--text);
   font-family: var(--serif);
-  font-size: clamp(1.45rem, 2.5vw, 2rem);
+  font-size: var(--section-title);
   font-weight: 700;
   line-height: 1;
   text-overflow: ellipsis;
@@ -583,7 +588,7 @@ svg {
 .pane-head h1 {
   margin: 0.18rem 0 0;
   font-family: var(--serif);
-  font-size: 1.7rem;
+  font-size: var(--section-title);
   font-weight: 700;
   line-height: 1.05;
 }
@@ -938,8 +943,10 @@ svg {
   gap: 0.35rem;
   margin: 0;
   color: var(--purple);
-  font-family: var(--mono);
-  font-size: 0.86rem;
+  font-family: var(--serif);
+  font-size: var(--section-title);
+  font-weight: 700;
+  line-height: 1.05;
   text-transform: uppercase;
 }
 

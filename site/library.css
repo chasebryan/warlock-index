@@ -20,6 +20,11 @@
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
   --mono: "Courier New", Courier, monospace;
+  --page-pad: clamp(1rem, 3vw, 1.45rem);
+  --page-title: clamp(2.1rem, 5vw, 4rem);
+  --section-title: clamp(1.2rem, 2.5vw, 1.55rem);
+  --card-title: clamp(1.05rem, 2.2vw, 1.28rem);
+  --lede: 1.05rem;
 }
 
 * {
@@ -421,7 +426,7 @@ svg {
   margin: 0;
   color: var(--white);
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 3.65rem);
+  font-size: var(--page-title);
   font-weight: 700;
   line-height: 1.04;
   text-wrap: balance;
@@ -432,7 +437,7 @@ svg {
   margin: 0;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--lede);
 }
 
 .article-actions {
@@ -494,7 +499,7 @@ svg {
 .markdown-body h1 {
   margin: 0 0 1.1rem;
   font-family: var(--serif);
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: var(--page-title);
 }
 
 .markdown-body h2 {
@@ -503,7 +508,7 @@ svg {
   border-top: 1px solid var(--purple-soft);
   color: var(--green);
   font-family: var(--mono);
-  font-size: 1rem;
+  font-size: var(--section-title);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -511,7 +516,7 @@ svg {
 .markdown-body h3 {
   margin: 1.6rem 0 0.55rem;
   font-family: var(--serif);
-  font-size: 1.35rem;
+  font-size: var(--card-title);
 }
 
 .markdown-body h4 {

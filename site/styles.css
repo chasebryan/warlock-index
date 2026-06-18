@@ -19,6 +19,11 @@
   --serif: Georgia, "Times New Roman", serif;
   --mono: "Courier New", Courier, monospace;
   --sans: Arial, Helvetica, sans-serif;
+  --page-pad: clamp(1rem, 3vw, 1.45rem);
+  --page-title: clamp(2.1rem, 5vw, 4rem);
+  --section-title: clamp(1.2rem, 2.5vw, 1.55rem);
+  --card-title: clamp(1.05rem, 2.2vw, 1.28rem);
+  --lede: 1.05rem;
 }
 
 * {
@@ -233,7 +238,7 @@ button {
   display: grid;
   gap: 1rem;
   max-width: 940px;
-  padding: clamp(1rem, 3vw, 1.45rem);
+  padding: var(--page-pad);
   border-bottom: 2px solid var(--chrome-dark);
   background: var(--panel);
 }
@@ -250,7 +255,7 @@ button {
 .about-panel h1 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2.1rem, 5vw, 4rem);
+  font-size: var(--page-title);
   line-height: 1;
 }
 
@@ -259,7 +264,7 @@ button {
   margin: 0;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--lede);
 }
 
 .about-terse-list {
@@ -342,7 +347,7 @@ button {
 .live-news-panel {
   display: grid;
   gap: 0.85rem;
-  padding: 1rem 0;
+  padding: var(--page-pad) 0;
   border: 0;
   border-bottom: 2px groove var(--chrome);
   background: var(--panel);
@@ -356,7 +361,7 @@ button {
   margin: 0;
   color: var(--chrome-text);
   font-family: var(--serif);
-  font-size: clamp(2.1rem, 5vw, 4rem);
+  font-size: var(--page-title);
   line-height: 1;
 }
 
@@ -367,7 +372,7 @@ button {
   margin: 0;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 0.98rem;
+  font-size: var(--lede);
 }
 
 .live-news-rules {
@@ -396,7 +401,7 @@ button {
   margin: 0;
   color: var(--purple);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--section-title);
   letter-spacing: 0.04em;
   line-height: 1.1;
   text-transform: uppercase;
@@ -429,7 +434,7 @@ button {
 
 .live-news-card strong {
   font-family: var(--serif);
-  font-size: 1.02rem;
+  font-size: var(--card-title);
   line-height: 1.1;
   text-decoration: underline;
   text-underline-offset: 0.18em;
@@ -472,7 +477,7 @@ button {
   margin: 0;
   color: var(--purple);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--section-title);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -480,7 +485,7 @@ button {
 .route-list a {
   color: var(--green);
   font-family: var(--serif);
-  font-size: 0.98rem;
+  font-size: var(--lede);
   text-decoration: underline;
   text-underline-offset: 0.18em;
 }
@@ -512,7 +517,7 @@ button {
   margin: 0 0 0.85rem;
   color: var(--green);
   font-family: var(--serif);
-  font-size: clamp(1.25rem, 1.7vw, 1.6rem);
+  font-size: var(--section-title);
   font-weight: 700;
 }
 
@@ -531,7 +536,7 @@ button {
   padding: 0 0.85rem;
   background: #fff;
   color: var(--white);
-  font-size: 0.98rem;
+  font-size: var(--lede);
 }
 
 .terminal-form input:focus {
@@ -871,7 +876,7 @@ button {
 .feed-page-head {
   display: grid;
   gap: 0.75rem;
-  padding: clamp(1rem, 3vw, 1.4rem);
+  padding: var(--page-pad);
   border: 2px groove var(--chrome);
   background: var(--panel);
 }
@@ -893,7 +898,7 @@ button {
 .feed-page-head h1 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2.1rem, 5vw, 4rem);
+  font-size: var(--page-title);
   line-height: 1;
 }
 
@@ -902,7 +907,7 @@ button {
   margin: 0;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--lede);
 }
 
 .feed-page-head a {
@@ -992,7 +997,7 @@ button {
 .feed-page-item h2 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(1.15rem, 3vw, 1.45rem);
+  font-size: var(--card-title);
   line-height: 1.2;
 }
 
@@ -1032,7 +1037,7 @@ button {
   margin: 0;
   color: var(--purple);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--section-title);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -1084,7 +1089,7 @@ button {
 .topic-lane h3 {
   margin: 0;
   font-family: var(--serif);
-  font-size: 1.08rem;
+  font-size: var(--card-title);
   line-height: 1.2;
 }
 
@@ -1098,7 +1103,7 @@ button {
 .topic-page-head {
   display: grid;
   gap: 0.75rem;
-  padding: clamp(1rem, 3vw, 1.4rem);
+  padding: var(--page-pad);
   border: 2px groove var(--chrome);
   background: var(--panel);
 }
@@ -1106,7 +1111,7 @@ button {
 .topic-page-head h1 {
   margin: 0;
   font-family: var(--serif);
-  font-size: clamp(2.1rem, 5vw, 4rem);
+  font-size: var(--page-title);
   line-height: 1;
 }
 
@@ -1115,7 +1120,7 @@ button {
   margin: 0;
   color: var(--muted);
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: var(--lede);
 }
 
 .topic-lane {
@@ -1313,11 +1318,11 @@ button {
 
   .route-search-panel {
     gap: 1rem;
-    padding: 1rem 0;
+    padding: var(--page-pad) 0;
   }
 
   .about-shell {
-    padding: 1rem 0;
+    padding: var(--page-pad) 0;
   }
 
   .about-terse-list div {
