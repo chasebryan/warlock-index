@@ -304,6 +304,22 @@ function extractConfidence(markdown) {
   return confidence;
 }
 
+function splitMetadataList(value) {
+  return [...new Set(String(value || "")
+    .split(/\s*(?:;|,|\|)\s*/)
+    .map((entry) => cleanMetadataValue(entry))
+    .filter(Boolean))];
+}
+
+function extractListField(markdown, labels) {
+  return splitMetadataList(extractField(markdown, labels));
+}
+
+function extractUrls(markdown) {
+  const urls = markdown.match(/https?:\/\/[^\s<>)\]]+/g) || [];
+  return [...new Set(urls.map((url) => url.replace(/[.,;:]+$/g, "")))];
+}
+
 function inferType(rel) {
   if (rel === "index.md") return "Navigation";
   if (rel.startsWith("maps/")) return "Map Resource";
@@ -1452,6 +1468,18 @@ async function build() {
       preparedUtc: extractField(markdown, ["Prepared UTC"]),
       cutoffUtc: extractField(markdown, ["Information cutoff UTC"]),
       confidence: extractConfidence(markdown),
+      sourceClasses: extractListField(markdown, ["Source classes", "Source class"]),
+      actors: extractListField(markdown, ["Actors", "Actor"]),
+      topicTags: extractListField(markdown, ["Topics", "Topic tags", "Topic"]),
+      safetyBoundary: extractField(markdown, ["Safety boundary", "Boundary", "Exclusions"]),
+      freshnessStatus: extractField(markdown, ["Freshness status", "Refresh status", "Status"]),
+      lastSourceCheckUtc: extractField(markdown, ["Last source check UTC", "Last checked UTC", "Source check UTC"]),
+      nextRefreshUtc: extractField(markdown, ["Next refresh UTC", "Refresh by UTC", "Next check UTC"]),
+      caveatTags: extractListField(markdown, ["Caveat tags", "Caveats", "Caveat"]),
+      primarySources: extractListField(markdown, ["Primary sources", "Primary source URLs", "Source URLs"]),
+      relatedProducts: extractListField(markdown, ["Related products", "Related product IDs"]),
+      sourceUrls: extractUrls(markdown),
+      sourceHash: shortHash(markdown),
       type,
       group: inferGroup(rel, type),
       theater: inferTheater(rel),
@@ -1514,12 +1542,27 @@ async function build() {
     domain: doc.domain,
     topics: doc.topics,
     badges: doc.badges,
-    tags: doc.tags
+    tags: doc.tags,
+    sourceClasses: doc.sourceClasses,
+    actors: doc.actors,
+    topicTags: doc.topicTags,
+    safetyBoundary: doc.safetyBoundary,
+    freshnessStatus: doc.freshnessStatus,
+    lastSourceCheckUtc: doc.lastSourceCheckUtc,
+    nextRefreshUtc: doc.nextRefreshUtc,
+    caveatTags: doc.caveatTags,
+    primarySources: doc.primarySources,
+    relatedProducts: doc.relatedProducts,
+    sourceUrls: doc.sourceUrls,
+    sourceHash: doc.sourceHash
   }));
 
   const corpusScript = `window.WARLOCK_INDEX_CORPUS=${JSON.stringify(corpus)};\n`;
   await writeFile(path.join(siteRoot, "corpus.js"), corpusScript, "utf8");
   await writeFile(path.join(siteRoot, "workspace", "corpus.js"), corpusScript, "utf8");
+  await writeFile(path.join(siteRoot, "corpus.json"), `${JSON.stringify(corpus, null, 2)}\n`, "utf8");
+  await writeFile(path.join(siteRoot, "workspace", "corpus.json"), `${JSON.stringify(corpus, null, 2)}\n`, "utf8");
+  await writeFile(path.join(siteRoot, "corpus.csv"), renderCorpusCsv(corpus), "utf8");
 
   const workspaceShellHashSource = [
     corpusScript,
@@ -1581,7 +1624,47 @@ async function build() {
   await writeFile(path.join(siteRoot, "feed.xml"), renderFeed(docs), "utf8");
   await writeFile(path.join(siteRoot, "feed.html"), stripTrailingWhitespace(renderFeedPage(docs, latestUpdateStr, latestUpdateIso)), "utf8");
 
-  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, how-to-use.html, corpus.js, feed.html, feed.xml, sitemap.xml, and robots.txt`);
+  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, how-to-use.html, corpus.js, corpus.json, corpus.csv, feed.html, feed.xml, sitemap.xml, and robots.txt`);
+}
+
+function csvCell(value) {
+  const serialized = Array.isArray(value) ? value.join("; ") : String(value ?? "");
+  return `"${serialized.replace(/"/g, '""')}"`;
+}
+
+function renderCorpusCsv(corpus) {
+  const columns = [
+    "title",
+    "type",
+    "path",
+    "productId",
+    "preparedUtc",
+    "cutoffUtc",
+    "confidence",
+    "theater",
+    "domain",
+    "topics",
+    "badges",
+    "tags",
+    "sourceClasses",
+    "actors",
+    "topicTags",
+    "freshnessStatus",
+    "lastSourceCheckUtc",
+    "nextRefreshUtc",
+    "caveatTags",
+    "primarySources",
+    "relatedProducts",
+    "sourceUrls",
+    "sourceHash",
+    "summary",
+    "safetyBoundary"
+  ];
+
+  return [
+    columns.join(","),
+    ...corpus.map((doc) => columns.map((column) => csvCell(doc[column])).join(","))
+  ].join("\n") + "\n";
 }
 
 await build();

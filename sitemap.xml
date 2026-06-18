@@ -225,6 +225,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.html</loc>
     <priority>0.7</priority>
   </url>
@@ -274,6 +282,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-notes/2026-06-13T1733Z-theater-map-index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -430,6 +442,14 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -685,6 +705,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/source-registers/defensive-cyber-space.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/source-registers/foreign-government-reference.html</loc>
     <priority>0.7</priority>
   </url>
@@ -705,11 +729,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/standards/datetime-and-versioning.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/standards/explainer-standard.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -737,11 +769,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -766,6 +806,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0518Z-red-sea-maritime-disruption-strategic-tracker.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
