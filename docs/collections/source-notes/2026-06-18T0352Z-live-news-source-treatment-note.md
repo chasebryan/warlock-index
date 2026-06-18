@@ -98,6 +98,11 @@ filing, public notice, or dated article.
   paywall overlays should be excluded or removed.
 - Social-video-only channels should be avoided when an official website page
   exists; use social video only as a fallback and label it accordingly.
+- Al Jazeera English Live is an official free live page and should remain a
+  reviewed candidate, but the 2026-06-18 check found an explicit
+  "Advertisement" marker on the live page. Do not place it on the public
+  LIVE-NEWS card grid unless a later check confirms a clean official
+  no-paywall, low-ad live route.
 - White House live-page observations should be cross-checked with the event
   title, video-library record, remarks page, transcript, fact sheet, or other
   official release before reuse; public reporting has documented at least one
@@ -120,6 +125,8 @@ filing, public notice, or dated article.
 - NASA Live: `https://www.nasa.gov/nasatv/`
 - UK Parliament Live: `https://www.parliamentlive.tv/`
 - White House Live: `https://www.whitehouse.gov/live/`
+- Al Jazeera English Live reviewed candidate:
+  `https://www.aljazeera.com/video/live`
 - Associated Press, White House live-page anomaly report:
   `https://apnews.com/article/88d79b896ca6e5ecea33f3bf3e5c9278`
 
