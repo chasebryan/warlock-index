@@ -13,9 +13,9 @@ Authority annual navigation reports; UN Security Council Resolution 2722;
 Council of the European Union EUNAVFOR ASPIDES launch statement; Federal
 Register Executive Order 14175 on Ansar Allah; 2026 ODNI Annual Threat
 Assessment; Allianz Commercial Safety and Shipping Review 2025; U.S.-Iran MOU
-source-treatment note and current-event reporting; existing WARLOCK-INDEX Red
-Sea, Arctic, Africa, Iran, China, Russia, homeland, global operating picture,
-and source-register products.
+source-treatment note and implementation capture; current-event reporting;
+existing WARLOCK-INDEX Red Sea, Arctic, Africa, Iran, China, Russia,
+homeland, global operating picture, and source-register products.
 
 **Analytic confidence:** High for source organization and Red Sea/Suez source
 base. Moderate for comparative judgments across other chokepoints and the
@@ -60,7 +60,7 @@ uses them for high-confidence comparative judgments.
 | Chokepoint lane | Primary strategic exposure | Actor pressure | Commercial and economic coupling | Allied and multilateral lane | Current WARLOCK-INDEX source maturity | Boundary |
 | --- | --- | --- | --- | --- | --- | --- |
 | Red Sea / Bab al-Mandeb / Suez | Europe-Asia commerce, Suez traffic, energy and container flows, East Africa and Yemen humanitarian logistics | Houthi maritime disruption; Iran-linked support context; regional conflict spillover | Freight rates, ton-mile demand, insurance, canal revenue, port calls, emissions, vulnerable economies | UN Security Council Resolution 2722; EU ASPIDES; U.S. and partner maritime-security framing | High for current repository: source packet, timeline, baseline, tracker, actor profile | No route guidance, escort detail, or vessel movement analysis |
-| Strait of Hormuz | Energy transit, Gulf security, Iran escalation, U.S. and partner interests | Iran state pressure; IRGC maritime activity; proxy and missile/UAS context; reported U.S.-Iran MOU access/toll/free-passage dispute | Oil and LNG market confidence, insurance, shipping risk, Gulf port continuity; reported oil-export waiver and market-reaction lane | U.S., Gulf, allied, Iranian, Omani, IMO, IAEA/UN where relevant, and international maritime security frameworks | Moderate in repository through Iran assessment and U.S.-Iran MOU source-treatment note; needs dedicated source packet | No operational maritime-security, tanker-route, sanctions, or toll-avoidance guidance |
+| Strait of Hormuz | Energy transit, Gulf security, Iran escalation, U.S. and partner interests | Iran state pressure; IRGC maritime activity; proxy and missile/UAS context; reported U.S.-Iran MOU access/toll/free-passage dispute | Oil and LNG market confidence, insurance, shipping risk, Gulf port continuity; reported oil-export waiver and market-reaction lane | U.S., Gulf, allied, Iranian, Omani, IMO, IAEA/UN where relevant, and international maritime security frameworks | Moderate in repository through Iran assessment, U.S.-Iran MOU source-treatment note, and U.S.-Iran MOU implementation capture; needs dedicated Hormuz source packet | No operational maritime-security, tanker-route, sanctions, or toll-avoidance guidance |
 | Malacca / Singapore approaches | Indo-Pacific trade, energy flows to East Asia, Singapore logistics, PRC and U.S. allied-access context | State competition, gray-zone pressure, piracy/crime in wider region, infrastructure stress | Container trade, energy import dependency, port throughput, supply-chain concentration | ASEAN, Singapore, Malaysia, Indonesia, Japan, Australia, U.S. and partner lanes | Low to moderate; China and Indo-Pacific products provide context but not packet depth | No shipper or route decision support |
 | Panama Canal | Americas logistics, U.S. economic exposure, climate and water stress, interoceanic transit | Infrastructure, climate, political, commercial, and revenue pressure more than direct armed coercion | Canal capacity, drought effects, queueing, commodity and container timing, global shipping alternatives | Panama, U.S., regional trade, multilateral transport and climate sources | Low; needs climate-infrastructure and canal source packet | No commercial routing, queue exploitation, or port-planning guidance |
 | Black Sea | Russia-Ukraine war, grain exports, energy infrastructure, NATO eastern flank, Turkey and Montreux Convention context | Russian military pressure, Ukrainian defense, mines and maritime risk, infrastructure strikes | Grain, fertilizer, energy, insurance, port access, food security | Turkey, NATO, EU, UN-brokered or successor food-security lanes | Moderate through Ukraine/Russia products; needs Black Sea maritime source packet | No mine, shipping, strike, or route detail |
@@ -73,7 +73,7 @@ uses them for high-confidence comparative judgments.
 | Maritime security | Threat perception can change commercial behavior even without corridor-wide denial | Houthi activity affects Red Sea shipping and allied response | Harmonized public incident and advisory source ledger |
 | Insurance | Risk pricing can transmit security pressure into commercial decisions | Allianz and UNCTAD identify insurance as part of Red Sea cost structure | War-risk and P&I source packet |
 | Energy and commodities | Chokepoints affect oil, LNG, grain, fertilizer, and fuel confidence | Red Sea/Suez disruption intersects energy and food security | EIA, IEA, UNCTAD, SCA, commodity source packet |
-| Diplomatic current-event shocks | Reported agreements can shift market expectations before official legal texts and implementation notices are released | Reported U.S.-Iran MOU triggered Hormuz and oil-export reporting while official text remained unretrieved | Timestamped transcript reporting, official U.S./Iranian/mediator text, Treasury/OFAC, IMO, energy and insurance follow-on packet |
+| Diplomatic current-event shocks | Reported agreements can shift market expectations before official legal texts and implementation notices are released | Reported U.S.-Iran MOU triggered Hormuz and oil-export reporting while official text remained unretrieved | U.S.-Iran MOU implementation capture, timestamped transcript reporting, official U.S./Iranian/mediator text, Treasury/OFAC, IMO, energy and insurance follow-on packet |
 | Infrastructure | Canals, ports, undersea cables, navigation systems, and logistics hubs shape vulnerability | Suez Canal traffic and regional port exposure | Port and canal revenue packet |
 | Allied capacity | Response often requires multinational legal and naval architecture | UN 2722 and EU ASPIDES establish legal-diplomatic and allied response lanes | Allied maritime capacity packet |
 | Humanitarian logistics | Disruption can affect aid timing and food security in adjacent regions | Yemen, Sudan, Djibouti, East Africa, and vulnerable economies | UN OCHA, WFP, IMO, NGO packet |
@@ -106,9 +106,10 @@ uses them for high-confidence comparative judgments.
 
 ## Information Gaps
 
-- The repository does not yet have dedicated source packets for Hormuz,
-  Malacca/Singapore, Panama, Black Sea maritime security, or Arctic maritime
-  transit.
+- The repository now has a U.S.-Iran MOU implementation-capture packet, but
+  does not yet have a dedicated Hormuz strategic chokepoint source packet or
+  dedicated Malacca/Singapore, Panama, Black Sea maritime security, or Arctic
+  maritime transit packets.
 - The reported U.S.-Iran MOU has transcript-quality reporting but not a
   directly retrieved official published text in this pass; Hormuz access,
   toll, oil-waiver, and blockade-removal claims require official and
@@ -132,6 +133,7 @@ uses them for high-confidence comparative judgments.
 - [Arctic And High North Strategic Baseline](../../assessments/arctic-high-north/2026-06-13T0148Z-arctic-high-north-strategic-baseline.md)
 - [Iran Strategic Actor Classification](../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 - [U.S.-Iran MOU Source-Treatment Note](../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [Russia Strategic Actor Classification](../../assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)
 - [China Strategic Actor Classification](../../assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.md)
 - [Maritime Chokepoints Source Register](../../source-registers/maritime-chokepoints.md)

@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-OFFICIAL-US-2026-0001
 
-**Prepared UTC:** 2026-06-18T02:07:45Z
+**Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T02:07:45Z
+**Information cutoff UTC:** 2026-06-18T03:11:36Z
 
 **Source base:** Official U.S. executive-branch, congressional, legal,
 sanctions, diplomatic, cyber, maritime, map, and alliance source families
@@ -15,6 +15,41 @@ listed in this register and linked corpus source packets.
 **Analytic confidence:** High for source-family routing and issuer identity.
 Moderate for page-level currency where individual official pages require
 later dated refresh.
+
+## Reported U.S.-Iran MOU Official-Source Capture Lane
+
+- **Source class:** A when directly retrieved; C for current transcript
+  reporting carried in the linked source packet
+- **Publishers:** White House; Department of State; Treasury/OFAC; Federal
+  Register; Department of Defense where public maritime statements exist
+- **Accessed UTC:** 2026-06-18T03:11:36Z
+- **URLs:** Dynamic official-source discovery required; no official published
+  MOU text or Treasury/OFAC waiver was located in this pass.
+- **Use:** Official U.S. routing lane for the reported U.S.-Iran MOU,
+  including official text, signing status, sanctions waivers, oil-export
+  permissions, banking/insurance/transport notices, frozen-assets treatment,
+  Hormuz/blockade public statements, and final-deal/UN implementation.
+- **Reliability note:** Do not use Axios/Guardian reporting as official U.S.
+  text. Until official pages are captured, keep the MOU in reported or
+  transcript-source treatment and do not provide sanctions compliance advice,
+  sanctions evasion, maritime routing, or nuclear technical detail.
+
+## New START Post-Expiration Official-Source Capture Lane
+
+- **Source class:** A when directly retrieved
+- **Publishers:** Department of State; White House; Department of Defense;
+  Congress/CRS; Russian official sources as issuer-perspective cross-checks
+- **Accessed UTC:** 2026-06-18T03:11:36Z
+- **URLs:**
+  - https://2009-2017.state.gov/t/avc/trty/126118.htm
+- **Use:** Official U.S. source routing for New START treaty text, archived
+  treaty materials, post-expiration U.S. statements, transparency substitutes,
+  successor-framework positions, and China/multilateral arms-control framing.
+- **Reliability note:** The archived State page is authoritative for treaty
+  identity and historical materials, not for current 2026 post-expiration
+  policy. Current official State/White House/DoD/Congress pages require
+  direct capture before claims about U.S. post-expiration position are
+  strengthened.
 
 ## Treasury, State, And Congressional Salt Typhoon Telecommunications Source Family
 

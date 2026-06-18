@@ -64,6 +64,11 @@ separation: reported text, official confirmation, legal instrument, sanctions
 waiver, IAEA role, maritime implementation, and regional actor compliance are
 different evidence layers.
 
+WARLOCK-INDEX now carries a dedicated implementation-capture packet for this
+lane. This note remains the source-treatment baseline; the packet is the
+working collection frame for official text, sanctions, Hormuz, IAEA, UN,
+Iranian, mediator, and market follow-on evidence.
+
 ## Source Ledger
 
 | Source | Class | Access status | Corpus use | Reliability note |
@@ -147,7 +152,7 @@ reported MOU to three assimilation lanes:
 
 | Follow-on product | Purpose | Source families |
 | --- | --- | --- |
-| U.S.-Iran MOU Official Text Capture | Capture released text, signing statements, mediator statements, and legal status | White House, State, Treasury, Iranian presidency, Iranian MFA, mediator sources |
+| U.S.-Iran MOU Implementation Capture | Active packet for official text, signing statements, sanctions implementation, Hormuz evidence, IAEA/UN records, Iranian/mediator views, and market reaction | White House, State, Treasury, Iranian presidency, Iranian MFA, mediator, IAEA, UN, IMO, energy, insurance, shipping sources |
 | Iran Nuclear Verification And Safeguards Refresh | Track IAEA and official safeguards claims connected to the reported MOU | IAEA, State, UN, Iran, E3/EU |
 | Hormuz Maritime Access Source Packet | Separate reported Hormuz provisions from shipping, insurance, IMO, Gulf, and Iranian official evidence | Iran, State, Treasury, IMO, EIA/IEA, shipping/insurance sources |
 | Iran Sanctions Waiver And Relief Source Note | Track reported waivers, sanctions relief sequencing, frozen assets, and oil-export implementation | Treasury/OFAC, State, Federal Register, bank/shipping notices |
@@ -178,6 +183,10 @@ reported MOU to three assimilation lanes:
 - The Guardian, *US-Iran deal takeaways: reopening the strait of Hormuz, waived oil sanctions and Lebanon*: `https://www.theguardian.com/world/2026/jun/17/us-iran-deal-trump`
 - The Guardian, Middle East crisis live report, 2026-06-17/18: `https://www.theguardian.com/world/live/2026/jun/17/middle-east-war-iran-israel-us-donald-trump-hezbollah-lebanon-peace-deal-netanyahu-latest-news-updated`
 - MarketWatch, *The market is still betting oil supply could normalize quickly after MOU leaked, says JPMorgan*: `https://www.marketwatch.com/livecoverage/stock-market-today-s-p-500-nasdaq-dow-federal-reserve-meeting-interest-rate-decision-14-point-plan/card/the-market-is-still-betting-oil-supply-could-normalize-quickly-after-mou-leaked-says-jpmorgan-0D6iKX4fQJ0kxzy1VP0R`
+
+## Cross References
+
+- [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - Times of India, *'It's signed': US-Iran MoU officially finalized after both sides digitally sign agreement*: `https://timesofindia.indiatimes.com/world/middle-east/its-signed-us-iran-mou-officially-finalized-after-both-sides-digitally-sign-agreement/articleshow/131814879.cms`
 - New York Post, *Complete 14-point US-Iran peace deal finally revealed*: `https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/`
 

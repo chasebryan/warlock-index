@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-RESEARCH-MEDIA-2026-0001
 
-**Prepared UTC:** 2026-06-18T03:03:44Z
+**Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T03:03:44Z
+**Information cutoff UTC:** 2026-06-18T03:11:36Z
 
 **Source base:** Research, media, industry, and specialist current-event
 source families listed in this register.
@@ -97,6 +97,20 @@ official-source baselines and graded explicitly.
   sourcing and useful synthesis. It is not an official government source and
   should be cross-read with treaty texts, State, DoD, NATO, UN, CRS, and
   other official materials for major judgments.
+
+## Axios New START Post-Expiration Reporting, 2026-02-05
+
+- **Source class:** C
+- **Publisher:** Axios
+- **Publication date:** 2026-02-05
+- **Accessed UTC:** 2026-06-18T03:11:36Z
+- **URL:** https://www.axios.com/2026/02/05/new-start-arms-control-us-russia-extend
+- **Use:** Current-event reporting source for informal U.S.-Russia
+  post-expiration New START observance talks, reported good-faith or
+  spirit-of-New-START restraint, and China/successor-framework framing.
+- **Reliability note:** Use as reported context only. It is not a formal legal
+  extension, not official treaty text, and not direct evidence of current
+  force levels, inspections, data exchanges, or verification continuity.
 
 ## The Guardian Ukraine War Briefing, 2026-06-04
 

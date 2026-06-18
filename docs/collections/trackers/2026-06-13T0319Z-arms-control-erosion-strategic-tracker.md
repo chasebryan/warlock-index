@@ -6,9 +6,9 @@
 
 **Tracker ID:** WI-TRACKER-ARMSCONTROL-2026-0001
 
-**Prepared UTC:** 2026-06-13T03:19:18Z
+**Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-13T03:16:36Z
+**Information cutoff UTC:** 2026-06-18T03:11:36Z
 
 **Purpose:** Track public-source arms-control erosion, treaty-status changes,
 verification loss, transparency gaps, and strategic-stability implications
@@ -26,7 +26,8 @@ Department of State New START archive; 2022 National Defense Strategy, Nuclear
 Posture Review, and Missile Defense Review; 2026 ODNI Annual Threat
 Assessment; NATO Washington Summit Declaration; current WARLOCK-INDEX
 strategic weapons, Russia, China, North Korea, Iran, NATO, and allied posture
-products; multilateral strategic stability source packet.
+products; multilateral strategic stability source packet; New START
+post-expiration status source packet.
 
 **Analytic confidence:** High for broad treaty-status categories where
 official or well-established research sources converge. Moderate for current
@@ -65,7 +66,7 @@ supports assessment continuity without recommending a policy response.
 
 | Instrument or lane | Main parties | Current public status | Verification or transparency function | Strategic effect | Confidence | Follow-on product |
 | --- | --- | --- | --- | --- | --- | --- |
-| New START | United States, Russia | Entered into force 2011-02-05; extended to 2026-02-05; Russia suspended implementation in 2023; expired 2026-02-05 without a successor in force | Strategic nuclear limits, data exchanges, notifications, on-site inspections, treaty-accountable force transparency | Loss of legally binding bilateral strategic nuclear limits and treaty verification; raises reliance on national technical means and public restraint claims | High for status; moderate for post-expiration behavior | New START post-expiration status packet |
+| New START | United States, Russia | Entered into force 2011-02-05; extended to 2026-02-05; Russia suspended implementation in 2023; expired 2026-02-05 without a successor in force; post-expiration status packet now separates reported informal observance from legal extension | Strategic nuclear limits, data exchanges, notifications, on-site inspections, treaty-accountable force transparency | Loss of legally binding bilateral strategic nuclear limits and treaty verification; raises reliance on national technical means, public restraint claims, and successor-framework source tracking | High for status; moderate for post-expiration behavior | New START post-expiration status packet complete |
 | U.S.-Russia strategic stability dialogue | United States, Russia | Intermittent and politically constrained after Russia's 2022 full-scale invasion of Ukraine and New START suspension | Diplomatic venue for risk reduction, future arms-control concepts, transparency, and crisis communication | Weak dialogue compounds treaty erosion and complicates successor framework development | Moderate | Strategic stability dialogue source note |
 | Intermediate-range systems lane | United States, Russia, China, NATO Allies, Indo-Pacific Allies | INF Treaty no longer constrains U.S.-Russia intermediate-range missiles; China was not a party to INF | Previously eliminated a class of U.S.-Soviet/Russian ground-launched intermediate-range missiles | Intermediate-range systems affect Europe, Indo-Pacific, allied assurance, and crisis stability | High for INF end; moderate for current deployment implications | INF and intermediate-range systems packet |
 | Open Skies and conventional transparency lane | Former Open Skies parties, NATO, Russia, OSCE states | U.S. and Russian participation ended earlier; remaining parties continue without both major parties | Aerial observation, military transparency, confidence building | Loss of U.S.-Russia participation reduces cooperative military transparency in Europe | High for broad status; moderate for current practical effects | Open Skies and conventional transparency packet |
@@ -139,6 +140,7 @@ recommendations from it.
 | Source | Relevant public claim or value | Use in tracker |
 | --- | --- | --- |
 | Arms Control Association, New START at a Glance, last reviewed April 2026 | New START was signed in 2010, entered into force in 2011, extended to 2026, Russia suspended implementation in 2023, and the treaty expired after 15 years in force | Anchor for current New START status and key provisions |
+| Axios New START post-expiration reporting, 2026-02-05 | Reported informal U.S.-Russia good-faith or spirit-of-New-START observance talks while noting no formal legal extension | Class C current-event source for informal-observance lane |
 | U.S. Department of State New START archive | Official treaty text and U.S. public materials on New START | Anchor for treaty identity, terms, and verification structure |
 | 2022 NDS/NPR/MDR | U.S. policy baseline for nuclear deterrence, missile defense, two-major-power stress, and strategic stability | Anchor for strategic-weapons policy context |
 | ODNI Annual Threat Assessment 2026 | Public IC frame for major actors, WMD, advanced delivery systems, and threat convergence | Anchor for actor-domain relevance |
@@ -179,6 +181,7 @@ recommendations from it.
 ## Cross References
 
 - [Arms-Control Erosion Source Packet](../source-packets/strategic-weapons/2026-06-13T0320Z-arms-control-erosion-source-packet.md)
+- [New START Post-Expiration Status Source Packet](../source-packets/strategic-weapons/2026-06-18T0311Z-new-start-post-expiration-status-source-packet.md)
 - [Strategic Weapons Official Source Baseline Packet](../source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)
 - [China Nuclear And Missile Modernization Source Packet](../source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
 - [Russia Strategic Weapons And Nuclear Signaling Source Packet](../source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.md)
@@ -194,6 +197,8 @@ recommendations from it.
 
 - Arms Control Association, *New START at a Glance*:
   `https://www.armscontrol.org/factsheets/new-start-glance`
+- Axios, *U.S. and Russia negotiate extension to New START nuclear pact*:
+  `https://www.axios.com/2026/02/05/new-start-arms-control-us-russia-extend`
 - U.S. Department of State, *New Strategic Arms Reduction Treaty (New START)*:
   `https://2009-2017.state.gov/t/avc/trty/126118.htm`
 - U.S. Department of Defense, *2022 National Defense Strategy, Nuclear Posture

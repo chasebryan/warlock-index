@@ -394,6 +394,29 @@
   maritime chokepoint matrix, strategic-weapons timeline, global actor-domain
   matrix, official U.S. threat-source matrix, maritime source register, and
   research/media register while preserving reported/transcript-source status.
+- Added the ICE Pact and Arctic warning implementation source packet with
+  Canadian ICE Pact MOU, Canadian polar icebreaker contract, Coast Guard,
+  Finnish follow-on, northern operational support hub, airborne early warning,
+  maritime sensor, Arctic satellite ground-station, NORAD modernization,
+  allied tracker, official allied matrix, allied/multilateral register,
+  coverage-map, global matrix, Arctic README, and docs-index wiring while
+  preserving no-route-guidance, no-sensor-performance-analysis,
+  no-facility-vulnerability-analysis, no-procurement-advice, and
+  no-operational-guidance boundaries.
+- Added the U.S.-Iran MOU official text, Hormuz, and sanctions implementation
+  capture packet with Axios/Guardian transcript/reporting lanes,
+  White House/State/Treasury/OFAC/Federal Register/IAEA/UN/Iranian/mediator
+  follow-on lanes, strategic-weapons README, docs-index, official U.S.
+  register, research/media register, and global matrix wiring while preserving
+  reported/transcript-source treatment, no-sanctions-advice,
+  no-sanctions-evasion, no-maritime-route-guidance, no-nuclear-technical-detail,
+  and no-operational-guidance boundaries.
+- Added the New START post-expiration status source packet with Arms Control
+  Association, State archive, Axios informal-observance reporting,
+  arms-control tracker, official U.S. register, research/media register,
+  strategic-weapons README, docs-index, and global matrix wiring while
+  preserving the distinction between legal expiration, informal restraint,
+  transparency substitutes, and successor-framework claims.
 
 ## Current Analytical Posture
 
@@ -410,9 +433,13 @@ The repository is in baseline-building mode. Products prioritize:
 
 - Add allied posture profiles for other major U.S. allies, including Europe,
   Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
-- Capture official published U.S.-Iran MOU text if released, plus Treasury/OFAC
-  waiver records, IAEA/UN records, Iranian official interpretation, mediator
-  statements, and a dedicated Hormuz strategic chokepoint source packet.
+- Add ROK-U.S. NCG implementation and defense white paper verification,
+  Australia investment/delivery, Canada defense investment/delivery, U.S. ICE
+  Pact/Coast Guard icebreaker capture, Finland ICE Pact industrial capture,
+  and Hormuz strategic chokepoint source packets.
+- Continue watching for official published U.S.-Iran MOU text if released,
+  plus Treasury/OFAC waiver records, IAEA/UN records, Iranian official
+  interpretation, and mediator statements.
 - Add follow-on Denmark defense investment/delivery, Greenland Arctic source
   capture, Faroe North Atlantic source capture, Denmark maritime and
   domain-awareness implementation refresh, Iceland NATO/air-policing, Iceland

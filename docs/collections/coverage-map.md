@@ -4,9 +4,9 @@
 
 **Product ID:** WI-COVERAGE-MAP-2026-0001
 
-**Prepared UTC:** 2026-06-18T02:07:45Z
+**Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T02:07:45Z
+**Information cutoff UTC:** 2026-06-18T03:11:36Z
 
 **Source base:** Existing WARLOCK-INDEX assessments, source registers,
 source packets, trackers, timelines, actor profiles, maps, and standards as
@@ -127,6 +127,14 @@ future open-source defense assessments.
   DoD Arctic Strategy sources, handled without sensor-performance,
   command-procedure, facility-vulnerability, route-guidance, or readiness
   inference.
+- ICE Pact and Arctic warning implementation source families, including
+  Canada-U.S.-Finland icebreaker cooperation, Canadian polar icebreaker
+  contracts, U.S. and Finnish official follow-on capture, Coast Guard and
+  shipbuilding lanes, northern support hubs, airborne early warning, maritime
+  sensors, Arctic satellite ground-station routing, and NORAD modernization
+  cross-links, handled without route guidance, sensor-performance inference,
+  facility-vulnerability analysis, procurement advice, or operational
+  planning.
 - Nordic and High North allied national source stacks, including Norway,
   Finland, Sweden, Denmark, and Iceland as dedicated Nordic/North Atlantic
   baselines, Denmark Arctic/North Atlantic implementation source treatment,
@@ -157,6 +165,10 @@ future open-source defense assessments.
 - Congressional Research Service and Government Accountability Office reports.
 - Reputable research institutions with transparent methods.
 - Professional media reporting used for current-event context.
+- Post-New START arms-control status sources, including treaty archives,
+  research synthesis, reported informal-observance lanes, public restraint
+  statements, transparency substitutes, and successor-framework source
+  families.
 
 ## Quality Gate For New Products
 

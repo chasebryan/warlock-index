@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-ALLIED-MULTILATERAL-2026-0001
 
-**Prepared UTC:** 2026-06-18T02:07:45Z
+**Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T02:07:45Z
+**Information cutoff UTC:** 2026-06-18T03:11:36Z
 
 **Source base:** NATO, allied national, multilateral, Quad, EU, and partner
 official source families listed in this register and linked corpus source
@@ -15,6 +15,25 @@ packets.
 **Analytic confidence:** High for source-family routing and issuer identity.
 Moderate for page-level currency where individual official pages require
 later dated refresh.
+
+## ICE Pact And Canadian Polar Icebreaker Source Family
+
+- **Source class:** A
+- **Publisher:** Government of Canada / Public Services and Procurement Canada
+- **Accessed UTC:** 2026-06-18T03:11:36Z
+- **URLs:**
+  - https://www.canada.ca/en/public-services-procurement/news/2024/11/canada-signs-new-partnership-agreement-with-united-states-and-finland-to-produce-arctic-and-polar-icebreakers.html
+  - https://www.canada.ca/en/public-services-procurement/news/2025/03/government-of-canada-awards-contract-to-seaspans-vancouver-shipyards-for-construction-of-new-polar-icebreaker.html
+  - https://www.canada.ca/en/public-services-procurement/news/2025/03/government-of-canada-awards-contract-to-chantier-davie-canada-inc-for-construction-of-new-polar-icebreaker.html
+  - https://www.canada.ca/en/public-services-procurement/services/acquisitions/defence-marine/national-shipbuilding-strategy/projects/large-vessels/polar-icebreakers.html
+- **Use:** Official Canadian source-family routing for ICE Pact MOU,
+  Canada-U.S.-Finland icebreaker cooperation, Canadian polar icebreaker
+  contracts, Finnish shipyard expertise, workforce development, Arctic
+  industrial-base capacity, and Arctic warning/domain-awareness cross-links.
+- **Reliability note:** Authoritative for Canadian issuer claims and Canadian
+  contract announcements. U.S. DHS/Coast Guard and Finnish official companion
+  pages require follow-on direct capture before U.S. or Finnish
+  implementation claims are strengthened.
 
 ## Australian DFAT Quad Source Hub
 

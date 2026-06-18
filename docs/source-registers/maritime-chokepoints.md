@@ -51,7 +51,9 @@ instructions.
 - **Use:** Current-event source-treatment lane for reported Strait of Hormuz
   access terms, U.S. blockade-removal language, oil-export waiver claims,
   possible toll/free-passage disputes, commercial-market reaction, and the
-  need for a dedicated Hormuz source packet.
+  need for a dedicated Hormuz source packet. WARLOCK-INDEX now routes these
+  claims through the U.S.-Iran MOU implementation-capture packet before any
+  dedicated Hormuz packet is built.
 - **Reliability note:** Axios provides transcript reporting attributed to a
   senior administration official, not a released official text. Guardian
   reporting says the White House still had not published a copy online.
@@ -163,7 +165,7 @@ instructions.
 | --- | --- | --- | --- |
 | Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current WARLOCK-INDEX lane |
 | South China Sea / West Philippine Sea | DoD 2025, PCA, State Limits in the Seas, Philippines official sources, PRC issuer sources, NAMRIA, NGA/USINDOPACOM, allied statements, shipping/economic sources for later trade context | Active map packet and coercion/legal-source packet exist | Legal/coercion source lane is active; trade, energy, fisheries, and insurance context remains follow-on |
-| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue, with active source-treatment note | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
+| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue, with active source-treatment note and U.S.-Iran MOU implementation-capture packet | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
 | Malacca / Singapore | Singapore, Malaysia, Indonesia, ASEAN, UNCTAD, EIA/IEA, port authorities, insurance industry | Queue | Needed for Indo-Pacific trade, energy, and logistics concentration |
 | Panama Canal | Panama Canal Authority, UNCTAD, climate agencies, trade datasets, insurance industry | Queue | Needed for climate-infrastructure and canal-capacity analysis |
 | Black Sea | UN, Turkey, Ukraine, Russia, NATO, EU, grain and insurance sources | Queue | Needed for Russia-Ukraine maritime and food-security analysis |
@@ -190,6 +192,7 @@ instructions.
 - [Philippines And South China Sea Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [South China Sea Coercion And Legal-Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
 - [U.S.-Iran MOU Source-Treatment Note](../collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../collections/source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [Allied And Multilateral Source Register](allied-multilateral.md)
 - [Official U.S. Sources](official-us.md)
 - [Research And Media Source Register](research-and-media.md)
