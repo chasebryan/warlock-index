@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:52:19Z
 
-**Information cutoff UTC:** 2026-06-18T05:05:04Z
+**Information cutoff UTC:** 2026-06-18T10:05:00Z
 
 **Source base:** WARLOCK-INDEX LIVE-NEWS page; official live pages for
 international public broadcasters, state-backed news services, institutional
@@ -15,7 +15,7 @@ official-page checks for NHK World-Japan, DW, France 24, TRT World, CNA, ABC
 News Australia, CGTN English, Arirang TV, UN Web TV, Europe by Satellite,
 CPAC Canada, NASA, UK Parliament Live, White House Live, U.S. House
 FloorCast, European Parliament Streaming, U.S. defense live events, World
-Bank Live, and IMF Live.
+Bank Live, IMF Live, and LiveNOW from FOX.
 
 **Analytic confidence:** Moderate for link routing and inclusion rules. Low
 for any claim derived only from a live stream unless timestamped, archived,
@@ -95,12 +95,17 @@ filing, public notice, or dated article.
 | U.S. Defense Live Events | United States / Defense | Official live-events page for briefings, remarks, and defense public affairs |
 | World Bank Live | Multilateral / Development | Institutional live and archived development-policy events |
 | IMF Live | Multilateral / Finance | Official IMF live and archived economic-policy events |
+| LiveNOW from FOX | United States / Breaking news | Official free commercial live-news page; current-event awareness and follow-on source discovery |
 
 ## Current Exclusions And Cautions
 
 - Third-party live-stream directories and restream aggregators stay out.
 - Commercial channels stay out unless a clean official no-paywall live page is
   available and remains low-friction.
+- LiveNOW from FOX is included because the official LiveNOW page provides a
+  free live route and official YouTube destination. Treat it as a commercial
+  current-event source, not an official government or public-broadcaster
+  source; capture timestamps and corroborate before assimilation.
 - Live pages that display prominent advertising, autoplay ad surfaces, or
   paywall overlays should be excluded or removed.
 - Social-video-only channels should be avoided when an official website page
@@ -148,6 +153,8 @@ filing, public notice, or dated article.
 - U.S. Defense Live Events: `https://www.war.gov/News/Live-Events/`
 - World Bank Live: `https://live.worldbank.org/en/home`
 - IMF Live: `https://www.imf.org/en/live`
+- LiveNOW from FOX: `https://www.livenowfox.com/`
+- LiveNOW from FOX YouTube: `https://www.youtube.com/@livenowfox`
 - Al Jazeera English Live reviewed candidate:
   `https://www.aljazeera.com/video/live`
 - PBS News live reviewed candidate: `https://www.pbs.org/newshour/live`

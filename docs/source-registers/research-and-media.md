@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T05:05:04Z
+**Information cutoff UTC:** 2026-06-18T10:05:00Z
 
 **Source base:** Research, media, industry, and specialist current-event
 source families listed in this register.
@@ -26,8 +26,8 @@ official-source baselines and graded explicitly.
   Australia; CGTN English; Arirang TV; UN Web TV; Europe by Satellite; CPAC
   Canada; NASA; UK Parliament Live; White House Live; U.S. House FloorCast;
   European Parliament Streaming; U.S. defense live events; World Bank Live;
-  IMF Live.
-- **Accessed UTC:** 2026-06-18T05:05:04Z
+  IMF Live; LiveNOW from FOX.
+- **Accessed UTC:** 2026-06-18T10:05:00Z
 - **URLs:**
   - https://www3.nhk.or.jp/nhkworld/en/live/
   - https://www.dw.com/en/live-tv/channel-english
@@ -49,6 +49,8 @@ official-source baselines and graded explicitly.
   - https://www.war.gov/News/Live-Events/
   - https://live.worldbank.org/en/home
   - https://www.imf.org/en/live
+  - https://www.livenowfox.com/
+  - https://www.youtube.com/@livenowfox
 - **Use:** Current-event awareness, live observation, institutional
   proceedings discovery, and follow-on source collection. LIVE-NEWS is a
   link-out navigation surface only; it does not host, rebroadcast, or embed
@@ -63,7 +65,10 @@ official-source baselines and graded explicitly.
   fact sheet, or release before citing. PBS News live and C-SPAN remain useful
   candidate or event-level sources but are not on the public card grid because
   current checks found sponsor/support surfaces or provider-authentication
-  friction.
+  friction. Treat LiveNOW from FOX as a commercial current-event awareness
+  lane, not an official government or public-broadcaster source; preserve
+  timestamp, segment title, URL, and follow with official documents or stable
+  reporting before assimilating claims.
 
 ## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
 
