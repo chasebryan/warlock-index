@@ -14,6 +14,51 @@ const libraryAssetVersion = "20260617-green-press";
 const feedAssetVersion = "20260617-green-press";
 const feedItemLimit = 40;
 
+const topicHubs = [
+  {
+    id: "indo-pacific",
+    title: "Indo-Pacific",
+    summary: "China, Taiwan, South China Sea, allied posture, partner source packets, and regional cross-checks.",
+    terms: ["indo-pacific", "china", "prc", "pla", "taiwan", "south china sea", "philippines", "japan", "korea", "quad", "aukus", "asean"]
+  },
+  {
+    id: "europe-russia",
+    title: "Russia / Europe",
+    summary: "Russia, NATO, Ukraine, European allied capacity, and continental defense-source lanes.",
+    terms: ["russia", "europe", "ukraine", "nato", "allied", "france", "germany", "uk", "norway", "finland", "sweden", "denmark", "iceland", "eu"]
+  },
+  {
+    id: "homeland",
+    title: "Homeland",
+    summary: "U.S. homeland, law-enforcement, border, sanctions, terrorism, cybercrime, and threat-source material.",
+    terms: ["homeland", "law enforcement", "fbi", "dhs", "doj", "dea", "atf", "cbp", "coast guard", "treasury", "state", "terrorism", "border"]
+  },
+  {
+    id: "strategic-weapons",
+    title: "Strategic Weapons",
+    summary: "Nuclear, missile, WMD, arms-control, strategic stability, and proliferation source packets.",
+    terms: ["strategic weapons", "nuclear", "missile", "wmd", "arms control", "strategic stability", "proliferation", "dprk", "iran"]
+  },
+  {
+    id: "cyber-space",
+    title: "Cyber / Space",
+    summary: "Cyber, critical infrastructure, telecommunications, counterspace, space, and resilience records.",
+    terms: ["cyber", "space", "counterspace", "critical infrastructure", "telecommunications", "salt typhoon", "cisa", "nsa", "resilience"]
+  },
+  {
+    id: "arctic",
+    title: "Arctic",
+    summary: "Arctic and High North security, NORAD, Nordic defense, infrastructure, and domain-awareness sources.",
+    terms: ["arctic", "high north", "norad", "canada", "norway", "finland", "sweden", "denmark", "iceland", "nordic"]
+  },
+  {
+    id: "middle-east",
+    title: "Middle East",
+    summary: "Iran, Red Sea, Houthi maritime disruption, WMD relevance, and regional source lanes.",
+    terms: ["middle east", "iran", "red sea", "houthi", "maritime", "wmd", "missile", "gaza"]
+  }
+];
+
 const preferredOrder = [
   "index.md",
   "assessments/README.md",
@@ -333,6 +378,40 @@ function tagsFor(doc) {
   ].filter((tag) => tag.length > 1))];
 }
 
+function topicHaystack(doc) {
+  return [
+    doc.title,
+    doc.type,
+    doc.group,
+    doc.theater,
+    doc.domain,
+    doc.productId,
+    doc.rel,
+    ...(doc.tags || [])
+  ].join(" ").toLowerCase();
+}
+
+function topicsForDoc(doc) {
+  const haystack = topicHaystack(doc);
+  return topicHubs
+    .filter((topic) => topic.terms.some((term) => haystack.includes(term)))
+    .map((topic) => topic.id);
+}
+
+function shortDisplaySummary(value, maxLength = 260) {
+  const summary = displaySummary(value).replace(/\s+/g, " ").trim();
+  if (summary.length <= maxLength) return summary;
+  return `${summary.slice(0, maxLength - 1).trim()}…`;
+}
+
+function badgesForDoc(doc) {
+  const badges = [doc.type, doc.theater, doc.domain].filter(Boolean);
+  if (/official|source register|source packet/i.test(`${doc.title} ${doc.type} ${doc.domain}`)) badges.push("Official Source");
+  if (/high/i.test(doc.confidence)) badges.push("High Confidence");
+  if (feedDateForDoc(doc)) badges.push("Dated");
+  return [...new Set(badges)].slice(0, 4);
+}
+
 function priorityIndex(rel) {
   const index = preferredOrder.indexOf(rel);
   return index === -1 ? Number.MAX_SAFE_INTEGER : index;
@@ -594,8 +673,26 @@ function filterTextForDoc(doc) {
     doc.confidence,
     doc.rel,
     doc.outputRel,
+    ...(doc.topics || []),
+    ...(doc.badges || []),
     ...(doc.tags || [])
   ].filter(Boolean).join(" ");
+}
+
+function docsForTopic(docs, topic) {
+  return docs
+    .filter((doc) => doc.topics?.includes(topic.id) && doc.type !== "Directory" && doc.type !== "Navigation")
+    .map((doc) => ({ ...doc, feedDate: feedDateForDoc(doc) }))
+    .sort((a, b) => {
+      const bd = b.feedDate?.getTime() || 0;
+      const ad = a.feedDate?.getTime() || 0;
+      if (bd !== ad) return bd - ad;
+      return a.title.localeCompare(b.title);
+    });
+}
+
+function renderBadgeList(badges, className = "doc-badges") {
+  return `<div class="${className}">${badges.map((badge) => `<span>${escapeHtml(badge)}</span>`).join("")}</div>`;
 }
 
 function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latestUpdateIso = "2026-06-16T05:12:39Z") {
@@ -708,6 +805,7 @@ function renderPage(currentDoc, docs, relToOutput, latestUpdateStr = "2026-06-16
               <span>${escapeHtml(currentDoc.domain)}</span>
               <span class="source-path">docs/${escapeHtml(currentDoc.rel)}</span>
             </div>
+            ${renderBadgeList(currentDoc.badges || [], "doc-badges article-badges")}
             <h1>${escapeHtml(currentDoc.title)}</h1>
             <p class="article-summary">${escapeHtml(displaySummary(currentDoc.summary))}</p>
             <div class="article-actions">
@@ -774,9 +872,213 @@ function renderFeed(docs) {
   ].join("\n");
 }
 
+function renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso) {
+  const items = docsForTopic(docs, topic);
+  const byType = ["Assessment", "Source Packet", "Tracker", "Matrix", "Actor Profile", "Source Register", "Timeline", "Map Resource"]
+    .map((type) => ({ type, items: items.filter((doc) => doc.type === type).slice(0, 6) }))
+    .filter((group) => group.items.length);
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="${escapeAttr(topic.summary)}">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="${escapeAttr(`${siteOrigin}/topics/${topic.id}.html`)}">
+    <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
+    <link rel="icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=${feedAssetVersion}" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#c0c0c0">
+    <meta property="og:title" content="${escapeAttr(`${topic.title} | ${siteName}`)}">
+    <meta property="og:description" content="${escapeAttr(topic.summary)}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="${escapeAttr(`${siteOrigin}/topics/${topic.id}.html`)}">
+    <meta property="og:site_name" content="${escapeAttr(siteName)}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="${escapeAttr(`${topic.title} | ${siteName}`)}">
+    <meta name="twitter:description" content="${escapeAttr(topic.summary)}">
+    <title>${escapeHtml(topic.title)} | ${siteName}</title>
+    <link rel="stylesheet" href="../styles.css?v=${feedAssetVersion}">
+  </head>
+  <body>
+    <a class="skip-link" href="#topic-records">Skip to topic records</a>
+    <div class="page-shell" id="top">
+      <header class="site-header" data-elevated="false">
+        <a class="brand-panel" href="../index.html" aria-label="WARLOCK-INDEX home">
+          <span class="brand-copy">
+            <strong>WARLOCK-INDEX</strong>
+            <span>UNCLASSIFIED//OPEN SOURCE</span>
+            <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
+          </span>
+        </a>
+        <div class="status-terminal" aria-label="Local corpus terminal status">
+          <p>LOCAL CORPUS TERMINAL</p>
+          <p>STATUS: ONLINE</p>
+          <p>MODE: READ-ONLY</p>
+          <p>UPDATED: <time datetime="${escapeAttr(latestUpdateIso)}">${escapeHtml(latestUpdateStr)}</time></p>
+        </div>
+      </header>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../library/assessments/">Assessments</a>
+        <a class="is-active" href="../library/collections/coverage-map.html" aria-current="page">Collections</a>
+        <a href="../library/maps/">Maps</a>
+        <a href="../library/standards/product-standard.html">Standards</a>
+        <a href="../feed.html">Feed</a>
+        <a href="../workspace/">Workspace</a>
+      </nav>
+      <main class="topic-page-shell" id="topic-records">
+        <section class="topic-page-head" aria-labelledby="topic-title">
+          <p class="feed-page-kicker">Topic hub</p>
+          <h1 id="topic-title">${escapeHtml(topic.title)}</h1>
+          <p>${escapeHtml(topic.summary)}</p>
+          <div class="feed-page-meta">
+            <span>${items.length} matched records</span>
+            <span>${byType.length} active lanes</span>
+            <a href="../workspace/?q=${escapeAttr(encodeURIComponent(topic.title))}">Open in Workspace</a>
+          </div>
+        </section>
+        <section class="topic-lane-index" aria-label="Topic lanes">
+          ${byType.map((group) => `
+            <a href="#${escapeAttr(`${topic.id}-${slugify(group.type)}`)}">
+              <strong>${escapeHtml(group.type)}</strong>
+              <span>${group.items.length}</span>
+            </a>
+          `).join("")}
+        </section>
+        ${byType.map((group) => `
+          <section class="topic-lane" aria-labelledby="${escapeAttr(`${topic.id}-${slugify(group.type)}`)}">
+            <h2 id="${escapeAttr(`${topic.id}-${slugify(group.type)}`)}">${escapeHtml(group.type)}</h2>
+            <div class="feed-page-list">
+              ${group.items.map((doc) => `
+                <article class="feed-page-item">
+                  <div class="feed-page-item-meta">
+                    <time datetime="${escapeAttr(doc.feedDate?.toISOString() || "")}">${escapeHtml(formatUpdateTime(doc.feedDate))}</time>
+                    <span>${escapeHtml(doc.type)}</span>
+                    <span>${escapeHtml(doc.theater)}</span>
+                  </div>
+                  ${renderBadgeList(doc.badges || [], "doc-badges")}
+                  <h3><a href="../${escapeAttr(doc.outputRel)}">${escapeHtml(doc.title)}</a></h3>
+                  <p>${escapeHtml(shortDisplaySummary(doc.summary, 320))}</p>
+                </article>
+              `).join("")}
+            </div>
+          </section>
+        `).join("")}
+      </main>
+      <footer class="site-footer">
+        <nav aria-label="Footer navigation">
+          <a href="../how-to-use.html">How to use</a>
+          <span>|</span>
+          <a href="../feed.html">Feed</a>
+          <span>|</span>
+          <a href="../workspace/">Workspace</a>
+        </nav>
+        <div class="footer-copy">
+          <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
+          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+`;
+}
+
+function renderHowToUsePage(latestUpdateStr, latestUpdateIso) {
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="How to search, browse, cite, queue, and export WARLOCK-INDEX corpus records.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="${escapeAttr(`${siteOrigin}/how-to-use.html`)}">
+    <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
+    <link rel="icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=${feedAssetVersion}" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#c0c0c0">
+    <title>How to use | ${siteName}</title>
+    <link rel="stylesheet" href="styles.css?v=${feedAssetVersion}">
+  </head>
+  <body>
+    <a class="skip-link" href="#use-guide">Skip to guide</a>
+    <div class="page-shell" id="top">
+      <header class="site-header" data-elevated="false">
+        <a class="brand-panel" href="index.html" aria-label="WARLOCK-INDEX home">
+          <span class="brand-copy">
+            <strong>WARLOCK-INDEX</strong>
+            <span>UNCLASSIFIED//OPEN SOURCE</span>
+            <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
+          </span>
+        </a>
+        <div class="status-terminal" aria-label="Local corpus terminal status">
+          <p>LOCAL CORPUS TERMINAL</p>
+          <p>STATUS: ONLINE</p>
+          <p>MODE: READ-ONLY</p>
+          <p>UPDATED: <time datetime="${escapeAttr(latestUpdateIso)}">${escapeHtml(latestUpdateStr)}</time></p>
+        </div>
+      </header>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="library/assessments/">Assessments</a>
+        <a href="library/collections/coverage-map.html">Collections</a>
+        <a href="library/maps/">Maps</a>
+        <a href="library/standards/product-standard.html">Standards</a>
+        <a href="feed.html">Feed</a>
+        <a href="workspace/">Workspace</a>
+      </nav>
+      <main class="use-page-shell" id="use-guide">
+        <section class="feed-page-head">
+          <p class="feed-page-kicker">Operator guide</p>
+          <h1>How to use WARLOCK-INDEX</h1>
+          <p>Use the site as a source-routed research corpus: start broad, follow dated products, then queue records in Workspace for export.</p>
+        </section>
+        <section class="use-step-grid" aria-label="Workflow">
+          <article><h2>1. Browse by topic</h2><p>Use topic hubs to enter by theater or domain, then move into assessments, packets, trackers, matrices, and registers.</p></article>
+          <article><h2>2. Search the corpus</h2><p>Search names, agencies, domains, product IDs, and source families. Result badges show record type, domain, source lane, and confidence cues.</p></article>
+          <article><h2>3. Read source packets first</h2><p>Packets explain evidence families and limits. Use them before treating an assessment or tracker as a finished view.</p></article>
+          <article><h2>4. Check trackers</h2><p>Trackers show what has been captured, what is queued, and where source gaps remain.</p></article>
+          <article><h2>5. Cite records</h2><p>Document pages include stable titles, product metadata, source paths, and canonical URLs for references.</p></article>
+          <article><h2>6. Use Workspace</h2><p>Open Workspace to filter, queue, compare, and export selected records as reader packets or text bundles.</p></article>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <nav aria-label="Footer navigation">
+          <a href="feed.html">Feed</a>
+          <span>|</span>
+          <a href="workspace/">Workspace</a>
+          <span>|</span>
+          <a href="https://github.com/chasebryan/warlock-index">GitHub</a>
+        </nav>
+        <div class="footer-copy">
+          <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
+          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+`;
+}
+
 function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
   const items = latestFeedDocs(docs);
   const updated = items[0]?.feedDate || parseUtcDate(latestUpdateIso) || new Date(Date.UTC(2026, 5, 13, 0, 0, 0));
+  const weekStart = new Date(updated.getTime() - (7 * 24 * 60 * 60 * 1000));
+  const typeFilters = [...new Set(items.map((doc) => doc.type).filter(Boolean))].sort();
+  const domainFilters = [...new Set(items.map((doc) => doc.domain).filter(Boolean))].sort();
 
   return `<!doctype html>
 <html lang="en">
@@ -850,17 +1152,40 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
           <div class="feed-page-meta">
             <span>${items.length} entries</span>
             <span>Updated <time datetime="${escapeAttr(updated.toISOString())}">${escapeHtml(formatUpdateTime(updated))}</time></span>
+            <span>${items.filter((doc) => doc.feedDate >= weekStart).length} new this week</span>
           </div>
+          <form class="feed-filter-bar" id="feed-filters" aria-label="Filter recent updates">
+            <label>
+              <span>Type</span>
+              <select id="feed-type-filter">
+                <option value="">All types</option>
+                ${typeFilters.map((type) => `<option value="${escapeAttr(type)}">${escapeHtml(type)}</option>`).join("")}
+              </select>
+            </label>
+            <label>
+              <span>Domain</span>
+              <select id="feed-domain-filter">
+                <option value="">All domains</option>
+                ${domainFilters.map((domain) => `<option value="${escapeAttr(domain)}">${escapeHtml(domain)}</option>`).join("")}
+              </select>
+            </label>
+            <label class="feed-week-toggle">
+              <input type="checkbox" id="feed-week-filter">
+              <span>New this week</span>
+            </label>
+            <output id="feed-filter-count">${items.length} visible</output>
+          </form>
         </section>
 
-        <section class="feed-page-list" aria-label="Latest corpus entries">
+        <section class="feed-page-list" id="feed-page-list" aria-label="Latest corpus entries" data-week-start="${escapeAttr(weekStart.toISOString())}">
           ${items.map((doc) => `
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="${escapeAttr(doc.type)}" data-domain="${escapeAttr(doc.domain)}" data-date="${escapeAttr(doc.feedDate.toISOString())}">
               <div class="feed-page-item-meta">
                 <time datetime="${escapeAttr(doc.feedDate.toISOString())}">${escapeHtml(formatUpdateTime(doc.feedDate))}</time>
                 <span>${escapeHtml(doc.type)}</span>
                 <span>${escapeHtml(doc.theater)}</span>
               </div>
+              ${renderBadgeList(doc.badges || [], "doc-badges")}
               <h2><a href="${escapeAttr(doc.outputRel)}">${escapeHtml(doc.title)}</a></h2>
               <p>${escapeHtml(displaySummary(doc.summary))}</p>
             </article>
@@ -884,6 +1209,32 @@ function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
         </div>
       </footer>
     </div>
+    <script>
+      (() => {
+        const list = document.querySelector("#feed-page-list");
+        const type = document.querySelector("#feed-type-filter");
+        const domain = document.querySelector("#feed-domain-filter");
+        const week = document.querySelector("#feed-week-filter");
+        const count = document.querySelector("#feed-filter-count");
+        if (!list || !type || !domain || !week || !count) return;
+        const items = Array.from(list.querySelectorAll(".feed-page-item"));
+        const weekStart = Date.parse(list.dataset.weekStart || "");
+        const apply = () => {
+          let visible = 0;
+          items.forEach((item) => {
+            const typeOk = !type.value || item.dataset.type === type.value;
+            const domainOk = !domain.value || item.dataset.domain === domain.value;
+            const weekOk = !week.checked || Date.parse(item.dataset.date || "") >= weekStart;
+            const show = typeOk && domainOk && weekOk;
+            item.hidden = !show;
+            if (show) visible += 1;
+          });
+          count.textContent = visible + " visible";
+        };
+        [type, domain, week].forEach((control) => control.addEventListener("change", apply));
+        apply();
+      })();
+    </script>
   </body>
 </html>
 `;
@@ -913,6 +1264,8 @@ async function build() {
       theater: inferTheater(rel),
       domain: inferDomain(rel, type)
     };
+    doc.topics = topicsForDoc(doc);
+    doc.badges = badgesForDoc(doc);
     doc.tags = tagsFor(doc);
     docs.push(doc);
   }
@@ -936,6 +1289,20 @@ async function build() {
     await writeFile(outputPath, stripTrailingWhitespace(renderPage(doc, docs, relToOutput, latestUpdateStr, latestUpdateIso)), "utf8");
   }
 
+  await mkdir(path.join(siteRoot, "topics"), { recursive: true });
+  for (const topic of topicHubs) {
+    await writeFile(
+      path.join(siteRoot, "topics", `${topic.id}.html`),
+      stripTrailingWhitespace(renderTopicPage(topic, docs, latestUpdateStr, latestUpdateIso)),
+      "utf8"
+    );
+  }
+  await writeFile(
+    path.join(siteRoot, "how-to-use.html"),
+    stripTrailingWhitespace(renderHowToUsePage(latestUpdateStr, latestUpdateIso)),
+    "utf8"
+  );
+
   const corpus = docs.map((doc) => ({
     title: doc.title,
     type: doc.type,
@@ -947,6 +1314,8 @@ async function build() {
     confidence: doc.confidence,
     theater: doc.theater,
     domain: doc.domain,
+    topics: doc.topics,
+    badges: doc.badges,
     tags: doc.tags
   }));
 
@@ -973,8 +1342,13 @@ async function build() {
   const sitemapUrls = [
     { loc: absoluteUrl("index.html"), priority: "1.0" },
     { loc: absoluteUrl("about.html"), priority: "0.8" },
+    { loc: absoluteUrl("how-to-use.html"), priority: "0.8" },
     { loc: absoluteUrl("feed.html"), priority: "0.75" },
     { loc: `${siteOrigin}/workspace/`, priority: "0.85" },
+    ...topicHubs.map((topic) => ({
+      loc: `${siteOrigin}/topics/${topic.id}.html`,
+      priority: "0.82"
+    })),
     ...docs.map((doc) => ({
       loc: absoluteUrl(doc.outputRel),
       priority: doc.rel === "index.md" ? "0.9" : "0.7"
@@ -1007,7 +1381,7 @@ async function build() {
   await writeFile(path.join(siteRoot, "feed.xml"), renderFeed(docs), "utf8");
   await writeFile(path.join(siteRoot, "feed.html"), stripTrailingWhitespace(renderFeedPage(docs, latestUpdateStr, latestUpdateIso)), "utf8");
 
-  console.log(`Generated ${docs.length} documentation pages, corpus.js, feed.html, feed.xml, sitemap.xml, and robots.txt`);
+  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, how-to-use.html, corpus.js, feed.html, feed.xml, sitemap.xml, and robots.txt`);
 }
 
 await build();

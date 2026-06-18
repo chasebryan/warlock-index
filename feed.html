@@ -70,407 +70,469 @@
           <div class="feed-page-meta">
             <span>40 entries</span>
             <span>Updated <time datetime="2026-06-18T00:43:38.000Z">2026-06-18 00:43:38Z</time></span>
+            <span>40 new this week</span>
           </div>
+          <form class="feed-filter-bar" id="feed-filters" aria-label="Filter recent updates">
+            <label>
+              <span>Type</span>
+              <select id="feed-type-filter">
+                <option value="">All types</option>
+                <option value="Assessment">Assessment</option><option value="Document">Document</option><option value="Map Resource">Map Resource</option><option value="Matrix">Matrix</option><option value="Source Packet">Source Packet</option><option value="Source Register">Source Register</option><option value="Tracker">Tracker</option>
+              </select>
+            </label>
+            <label>
+              <span>Domain</span>
+              <select id="feed-domain-filter">
+                <option value="">All domains</option>
+                <option value="Coverage Map">Coverage Map</option><option value="Global Assimilation">Global Assimilation</option><option value="Homeland Hemisphere">Homeland Hemisphere</option><option value="Maps">Maps</option><option value="Source Notes">Source Notes</option><option value="Source Packets">Source Packets</option><option value="Sources">Sources</option><option value="Trackers">Trackers</option>
+              </select>
+            </label>
+            <label class="feed-week-toggle">
+              <input type="checkbox" id="feed-week-filter">
+              <span>New this week</span>
+            </label>
+            <output id="feed-filter-count">40 visible</output>
+          </form>
         </section>
 
-        <section class="feed-page-list" aria-label="Latest corpus entries">
+        <section class="feed-page-list" id="feed-page-list" aria-label="Latest corpus entries" data-week-start="2026-06-11T00:43:38.000Z">
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Document" data-domain="Coverage Map" data-date="2026-06-18T00:43:38.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-18T00:43:38.000Z">2026-06-18 00:43:38Z</time>
                 <span>Document</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Document</span><span>Collections</span><span>Coverage Map</span><span>High Confidence</span></div>
               <h2><a href="library/collections/coverage-map.html">Coverage Map</a></h2>
               <p>source packets, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Matrix" data-domain="Global Assimilation" data-date="2026-06-18T00:43:38.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-18T00:43:38.000Z">2026-06-18 00:43:38Z</time>
                 <span>Matrix</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Matrix</span><span>Collections</span><span>Global Assimilation</span><span>High Confidence</span></div>
               <h2><a href="library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html">Global Actor-Domain Assimilation Matrix</a></h2>
               <p>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Tracker" data-domain="Trackers" data-date="2026-06-18T00:43:38.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-18T00:43:38.000Z">2026-06-18 00:43:38Z</time>
                 <span>Tracker</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Tracker</span><span>Collections</span><span>Trackers</span><span>Official Source</span></div>
               <h2><a href="library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html">Official Threat Source Collection Tracker</a></h2>
               <p>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Matrix" data-domain="Global Assimilation" data-date="2026-06-18T00:43:38.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-18T00:43:38.000Z">2026-06-18 00:43:38Z</time>
                 <span>Matrix</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Matrix</span><span>Collections</span><span>Global Assimilation</span><span>Official Source</span></div>
               <h2><a href="library/collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.html">Official U.S. Threat Source Assimilation Matrix</a></h2>
               <p>Official U.S. threat coverage belongs in a matrix because no single agency source family is sufficient. ODNI provides the IC-wide frame; CIA provides foreign reference material; FBI and DHS provide domestic and homeland law-enforcement framing; CISA/NSA/FBI provide cyber advisory streams; State and Treasury provide designations, sanctions, and terrorism finance; DEA, ATF, CBP, Coast Guard, and DOJ provide transnational crime, border, maritime, firearms, narcotics, and legal-case source streams; NGA and CIA maps provide geospatial reference at strategic level only.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Assessment" data-domain="Homeland Hemisphere" data-date="2026-06-18T00:43:38.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-18T00:43:38.000Z">2026-06-18 00:43:38Z</time>
                 <span>Assessment</span>
                 <span>Homeland Hemisphere</span>
               </div>
+              <div class="doc-badges"><span>Assessment</span><span>Homeland Hemisphere</span><span>High Confidence</span><span>Dated</span></div>
               <h2><a href="library/assessments/homeland-hemisphere/2026-06-18T0043Z-us-law-enforcement-threat-source-assessment.html">U.S. Law Enforcement Threat Source Assessment</a></h2>
               <p>The U.S. law-enforcement source lane is now mature enough to support a distinct homeland threat-source assessment. The main corpus change is not a new threat claim; it is the separation of evidence families that are often collapsed in open-source work. Mission pages, complaint statistics, designation records, legal cases, sanctions, border statistics, maritime source streams, and annual assessments each answer different questions and must not be treated as interchangeable proof.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-18T00:28:13.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-18T00:28:13.000Z">2026-06-18 00:28:13Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.html">U.S. Law Enforcement Threat Source Capture Packet</a></h2>
               <p>The law-enforcement lane should not be treated as a single "crime" bucket. Public FBI, DHS, DOJ, DEA, ATF, CBP, Coast Guard, Treasury, and State sources support separate evidence families: terrorism and targeted violence, counterintelligence and espionage, cybercrime and cyber-enabled fraud, WMD and proliferation prevention, transnational organized crime, illicit finance, border and port-of-entry statistics, maritime security, sanctions/legal status, and national-security prosecutions.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Register" data-domain="Sources" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Source Register</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Source Register</span><span>Global</span><span>Sources</span><span>Official Source</span></div>
               <h2><a href="library/source-registers/allied-multilateral.html">Allied And Multilateral Source Register</a></h2>
               <p>Official Quad source-family routing for partner terminology, meeting architecture, key publications, priority areas, ASEAN/Pacific/Indian Ocean coordination, and India/Quad strategic-partner source work.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Tracker" data-domain="Trackers" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Tracker</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Tracker</span><span>Collections</span><span>Trackers</span><span>Official Source</span></div>
               <h2><a href="library/collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.html">Allied Official Source Collection Tracker</a></h2>
               <p>The allied-source lane should expand through national, multilateral, and clearly labeled strategic-partner official-source stacks. The United Kingdom, Australia, Canada/NORAD, Japan, the Republic of Korea, France, Germany, Norway, Finland, and Sweden are now the first country or continental-defense lanes to receive U.S.-style official source baselines. Denmark, Iceland, and the EU now extend that architecture across the remaining Nordic/North Atlantic country-source lanes and the EU-level security-defense layer. India/Quad now adds the first partner-lane source packet and preserves the distinction between treaty-allied evidence and Quad strategic-partner evidence. The Philippines lane now adds a treaty-ally source-capture packet for defense, maritime, West Philippine Sea, EDCA, maritime-zone, coast guard, fisheries, map, and U.S. cross-check source families while preserving source-access caveats. The ASEAN/claimant-state cross-check packet adds a regional source-provenance layer for ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State source families without classifying those lanes as treaty-allied evidence. NATO provides the shared Alliance frame, while country lanes should capture national strategy, defense review, budget/procurement evidence, industrial policy, nuclear or extended-deterrence sources where applicable, cyber agencies, space agencies, resilience systems, coast guard or maritime agencies where relevant, and parliamentary/audit evidence.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.html">ASEAN And Claimant-State South China Sea Cross-Check Packet</a></h2>
               <p>The South China Sea source lane now has a regional cross-check layer. The existing PRC, Philippine, PCA/State, and map packets are useful, but they are not enough by themselves for regional-source treatment. ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and U.S. legal-geographic source families must be kept separate because they represent different legal positions, diplomatic priorities, source terminology, and access constraints.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Tracker" data-domain="Trackers" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Tracker</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Tracker</span><span>Collections</span><span>Trackers</span><span>High Confidence</span></div>
               <h2><a href="library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html">China/PLA Source Collection Tracker</a></h2>
               <p>Track China and PLA source-family collection across official U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial, technology, and the corpus derived products.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Register" data-domain="Sources" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Source Register</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Source Register</span><span>Global</span><span>Sources</span><span>Official Source</span></div>
               <h2><a href="library/source-registers/foreign-government-reference.html">Foreign Government Reference Source Register</a></h2>
               <p>Define source-routing rules for foreign government leadership, officeholder, diplomatic, country, and official-government reference material used inside the corpus.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Matrix" data-domain="Global Assimilation" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Matrix</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Matrix</span><span>Collections</span><span>Global Assimilation</span><span>Official Source</span></div>
               <h2><a href="library/collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.html">Official Allied Source Assimilation Matrix</a></h2>
               <p>Allied official-source coverage requires both multilateral and national layers. NATO sources establish consensus Alliance language, but national sources are needed for country-level defense policy, budgets, procurement, industrial capacity, cyber, space, resilience, and political implementation. The UK, Australia, Canada/NORAD, Japan, ROK, France, Germany, Norway, Finland, Sweden, Denmark, and Iceland lanes are now full national or continental-defense allied baselines, while the EU source packet provides the adjacent multilateral security-defense layer and the India/Quad packet creates the first explicitly partner-labeled Indo-Pacific strategic-partner lane. The Philippines packet now adds treaty-ally routing for defense, maritime, West Philippine Sea, coast guard, fisheries, legal-source, map, EDCA, and U.S. cross-check evidence while preserving current access caveats. The ASEAN/claimant-state cross-check packet adds regional source-provenance for ASEAN, Vietnam, Malaysia, Indonesia, Brunei, Taiwan, Japan, Australia, UN/UNCLOS, PCA, and State legal-geographic routes without treating the regional lane as treaty-allied evidence. The AUKUS industrial and NORAD modernization packets are the first follow-on implementation source packets in the allied lane. Future country, partner, and implementation packets should follow the same model: source ledger, extraction matrix, domain treatment, information gaps, source register entries, tracker wiring, and matrix wiring.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Register" data-domain="Sources" data-date="2026-06-17T22:51:55.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T22:51:55.000Z">2026-06-17 22:51:55Z</time>
                 <span>Source Register</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Source Register</span><span>Global</span><span>Sources</span><span>Official Source</span></div>
               <h2><a href="library/source-registers/official-us.html">Official U.S. Source Register</a></h2>
               <p>Official U.S. source routing for Salt Typhoon sanctions, foreign malicious cyber activity reward routing, telecommunications network-security oversight, FCC/CISA/FBI/NSA follow-on page refresh, and PRC cyber source treatment.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Register" data-domain="Sources" data-date="2026-06-17T21:06:51.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T21:06:51.000Z">2026-06-17 21:06:51Z</time>
                 <span>Source Register</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Source Register</span><span>Global</span><span>Sources</span><span>Official Source</span></div>
               <h2><a href="library/source-registers/us-intelligence-law-enforcement.html">Official U.S. Intelligence And Law Enforcement Source Register</a></h2>
               <p>Organize official U.S. intelligence, homeland security, law enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for the corpus strategic threat analysis.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-17T21:06:51.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T21:06:51.000Z">2026-06-17 21:06:51Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.html">Salt Typhoon And Telecommunications Defensive Source Note</a></h2>
               <p>Salt Typhoon now has a dedicated telecommunications defensive source lane in the corpus. The accessible official record in this pass supports three safe conclusions:</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-17T20:48:56.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-17T20:48:56.000Z">2026-06-17 20:48:56Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.html">Philippines Official Defense And Maritime Source Capture Packet</a></h2>
               <p>The Philippines lane now has a first-pass direct-source capture packet that separates seven evidence families: Philippine legal instruments, national security and defense policy, maritime-domain-awareness governance, coast guard and fisheries incident sources, map and naming sources, alliance/access architecture, and U.S./allied/legal cross-checks. This matters because future products should not flatten "Philippines" into a single allied posture label or treat West Philippine Sea incident sources, EDCA material, maritime-zone law, NAMRIA maps, and U.S. defense assessments as interchangeable evidence.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-16T05:12:39.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-16T05:12:39.000Z">2026-06-16 05:12:39Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0512Z-india-quad-strategic-partner-source-packet.html">India/Quad Strategic-Partner Source Packet</a></h2>
               <p>The India/Quad lane belongs in the corpus as a strategic-partner source stack, not as a treaty-allied source stack. The Quad sources identify Australia, India, Japan, and the United States as partners working through diplomatic, maritime, economic-security, technology, health, and emergency response initiatives across the Indo-Pacific. They do not create NATO-style collective-defense evidence, automatic crisis behavior, basing rights, readiness proof, or operational commitments.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-16T03:30:00.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-16T03:30:00.000Z">2026-06-16 03:30:00Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.html">EU Security And Defense Source Packet</a></h2>
               <p>EU security-defense sources are essential for European allied analysis, but they are not interchangeable with NATO or national force evidence. The Strategic Compass provides an EU-level security and defense framework; EDIS and Readiness 2030 provide defense-industrial, capability-gap, procurement, and investment-source routing; EDIP and SAFE provide implementation/funding lanes; CSDP pages route missions and operations; and EU cyber, sanctions, and resilience source families support cross-domain analysis. Country-level force generation, readiness, delivery, and political implementation still require national sources.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-16T03:29:00.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-16T03:29:00.000Z">2026-06-16 03:29:00Z</time>
                 <span>Source Packet</span>
                 <span>Arctic / High North</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Arctic / High North</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/arctic-infrastructure/2026-06-16T0329Z-iceland-official-security-defense-nato-source-packet.html">Iceland Official Security, Defense, And NATO Source Packet</a></h2>
               <p>Iceland is a small but strategically important North Atlantic allied source lane. Its public source treatment should not be forced into a conventional standing-military template. The Ministry for Foreign Affairs is the primary government source family for national security and defense policy, while the Icelandic Coast Guard, NATO, and allied air-policing sources carry much of the public operational-context routing. This creates an unusual source stack: foreign-ministry policy, Coast Guard security/defense functions, NATO air-policing and integrated air/missile defense context, and Arctic/North Atlantic geography.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-16T03:28:00.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-16T03:28:00.000Z">2026-06-16 03:28:00Z</time>
                 <span>Source Packet</span>
                 <span>Arctic / High North</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Arctic / High North</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/arctic-infrastructure/2026-06-16T0328Z-denmark-official-defense-security-arctic-source-packet.html">Denmark Official Defense, Security, And Arctic Source Packet</a></h2>
               <p>Denmark's official source lane should be treated as both a NATO/EU allied capacity lane and a High North/North Atlantic lane. The 2024-2033 Danish Defence Agreement provides the public planning spine: a ten-year framework, NATO spending commitment, force-development ambitions, conscription and personnel changes, and a reorientation toward the Kingdom of Denmark, neighboring regions, and international hotspots. That source is strong for issuer policy framing, but it is not delivery proof.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-16T02:21:36.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-16T02:21:36.000Z">2026-06-16 02:21:36Z</time>
                 <span>Source Packet</span>
                 <span>Arctic / High North</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Arctic / High North</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/arctic-infrastructure/2026-06-16T0221Z-norad-modernization-implementation-source-packet.html">NORAD Modernization Implementation Source Packet</a></h2>
               <p>NORAD modernization is now mature enough in public official sources to support a dedicated implementation-source lane. Canada has published a project-timeline fact sheet, a funding fact sheet, departmental planning language, and budget chapters that separate modernization into surveillance, command/control and communications, air weapons, infrastructure/support, and science/technology investment areas. NORAD and USNORTHCOM sources provide the binational mission and strategy frame; the 2024 DoD Arctic Strategy provides the U.S. Arctic and domain-awareness cross-check.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-16T01:53:21.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-16T01:53:21.000Z">2026-06-16 01:53:21Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-allied-posture/2026-06-16T0153Z-aukus-industrial-implementation-source-packet.html">AUKUS Industrial Implementation Source Packet</a></h2>
               <p>AUKUS industrial implementation should be treated as a multi-lane source problem rather than a single submarine-acquisition milestone. The official Australian source stack now separates program pathway, industrial strategy, build partner structure, sustainment partner structure, supplier qualification, workforce development, infrastructure projects, SRF-West preparation, and security/stewardship requirements. That separation is useful because each lane can move at a different speed and require different corroborating evidence.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Map Resource" data-domain="Maps" data-date="2026-06-14T20:37:05.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T20:37:05.000Z">2026-06-14 20:37:05Z</time>
                 <span>Map Resource</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Map Resource</span><span>Global</span><span>Maps</span><span>Dated</span></div>
               <h2><a href="library/maps/index.html">Maps</a></h2>
               <p>Maps is the the corpus hub for public map and geospatial references: official map portals, charting sources, geographic-name references, and theater map packets.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T19:56:06.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:56:06.000Z">2026-06-14 19:56:06Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html">PRC Cyber And Critical Infrastructure Defensive Source Packet</a></h2>
               <p>PRC cyber is now a dedicated defensive source lane rather than a broad "future cyber packet" queue item. ODNI 2026 provides the current public IC strategic frame: China is described as the most active and persistent cyber threat to U.S. government, private-sector, and critical-infrastructure networks, while multiple state and nonstate actors can pre-position or carry out disruptive activity against critical infrastructure. DoD 2025 provides the military-power frame: PLA cyber activity is tied to crisis and conflict relevance, defense and civilian critical-infrastructure disruption, and allied interoperability concerns.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Register" data-domain="Sources" data-date="2026-06-14T19:46:19.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:46:19.000Z">2026-06-14 19:46:19Z</time>
                 <span>Source Register</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Source Register</span><span>Global</span><span>Sources</span><span>Official Source</span></div>
               <h2><a href="library/source-registers/map-geospatial-reference.html">Map And Geospatial Reference Source Register</a></h2>
               <p>Define source-routing rules for public map, geographic-name, topographic, nautical, command-area, and geospatial reference material used inside the corpus.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Register" data-domain="Sources" data-date="2026-06-14T19:46:19.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:46:19.000Z">2026-06-14 19:46:19Z</time>
                 <span>Source Register</span>
                 <span>Global</span>
               </div>
+              <div class="doc-badges"><span>Source Register</span><span>Global</span><span>Sources</span><span>Official Source</span></div>
               <h2><a href="library/source-registers/maritime-chokepoints.html">Maritime Chokepoints Source Register</a></h2>
               <p>Organize source families for maritime chokepoint analysis across Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T19:46:19.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:46:19.000Z">2026-06-14 19:46:19Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html">South China Sea Coercion And Legal-Source Packet</a></h2>
               <p>The South China Sea lane now needs three source layers kept separate at all times: coercion evidence, legal-source provenance, and map/issuer-language orientation. DoD 2025 provides the public U.S. defense assessment spine for China Coast Guard, China Maritime Militia, PLA Navy overwatch, lawfare, Philippines-focused pressure, contested outpost support, and coercive maritime tactics. PCA and State Limits in the Seas source families provide legal/procedural source routing, not the corpus legal advice or navigation authority. Philippine official source families, including BFAR, provide issuer-perspective incident and maritime-rights material that must be dated and cross-read before analytic strengthening.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T19:38:22.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:38:22.000Z">2026-06-14 19:38:22Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.html">Taiwan Pressure And Cross-Strait Coercion Source Packet</a></h2>
               <p>Taiwan pressure is now a standing source lane rather than a single event file. DoD 2025 provides the current public U.S. defense assessment spine for PLA pressure, Taiwan Strait and South China Sea context, force-employment categories, and coercion-special-topic routing. ODNI 2026 provides the public intelligence caveat that Beijing probably still seeks conditions for unification short of conflict and does not have a fixed publicly assessed invasion timeline, while continuing to build coercive and military options. The Taiwan Relations Act provides U.S. statutory policy language around peace, stability, coercion, and defensive capacity.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T19:33:34.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:33:34.000Z">2026-06-14 19:33:34Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1933Z-pla-services-and-arms-source-packet.html">PLA Services And Arms Source Packet</a></h2>
               <p>China/PLA analysis now needs a stable service-and-arm routing layer. DoD 2025 is the current public U.S. defense anchor for PLA strategy, capability lanes, C4ISR, cyber, space, nuclear, Taiwan, South China Sea, paramilitary forces, and defense-industrial topics. DIA 2019 remains useful as a historical baseline, but it predates the 2024 reorganization that PRC official-media sources describe through a four-service and four-arm taxonomy.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T19:27:19.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:27:19.000Z">2026-06-14 19:27:19Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-dod-2025-prc-issuer-language-claim-crosswalk.html">DoD 2025 To PRC Issuer-Language Claim Crosswalk</a></h2>
               <p>The DoD 2025 report and PRC issuer-language sources should be read against one another, not blended. DoD 2025 is the current public U.S. defense assessment spine for China and the PLA. PRC State Council, MND, China Military Online, and Xinhua military-publication sources are issuer-perspective evidence for how Beijing publicly frames defense policy, sovereignty, military reform, cyber, space, information support, international security, and military diplomacy.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T19:27:19.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T19:27:19.000Z">2026-06-14 19:27:19Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1927Z-prc-mnd-pla-official-media-dated-capture-packet.html">PRC MND And PLA Official-Media Dated Capture Packet</a></h2>
               <p>The PRC MND and PLA official-media lane is now usable as a dated issuer-source capture, but with explicit access caveats. The most reliable direct content in this pass is the April 19, 2024 Xinhua publication set: one item carries a PRC defense spokesperson's description of the Information Support Force and the PLA's revised service/arm taxonomy, and the other records the establishment ceremony, party-command language, direct CMC leadership, and cancellation of the Strategic Support Force designation.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T06:05:33.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T06:05:33.000Z">2026-06-14 06:05:33Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.html">DoD/DIA China Military Power Extraction Map</a></h2>
               <p>The DoD 2025 PRC military-power report is the current primary public U.S. defense source for China/PLA strategic and military modernization questions. It is strongest as a sectioned evidence router: national strategy, PLA strategy and capabilities, force employment, Taiwan pressure, South China Sea coercion, global influence, spending, industry, and emerging technology. The DoD 2024 report is the prior-year comparator for changes in emphasis, and DIA 2019 remains valuable as a historical baseline for older PLA modernization framing, but its force-structure and capability claims must be refreshed against newer sources.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T05:37:41.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T05:37:41.000Z">2026-06-14 05:37:41Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.html">PRC Official Doctrine And Issuer-Language Source Packet</a></h2>
               <p>PRC official doctrine and issuer-language sources are necessary for China/PLA research, but they are a different evidence class from U.S., Taiwan, allied, legal, cyber-advisory, audit, or independent research sources. The State Council/SCIO white-paper lane is useful for identifying Beijing's public language around national defense, sovereignty, "defensive" posture, expenditure, military reform, cyberspace governance, BeiDou, counterterrorism, and global-order narratives. Those pages are authoritative for what the PRC publicly claims or releases; they are not independent verification that those claims are complete, neutral, lawful, transparent, peaceful, or accurate.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T05:23:13.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T05:23:13.000Z">2026-06-14 05:23:13Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.html">China/PLA Official Military And Security Source Baseline Packet</a></h2>
               <p>The China/PLA lane now needs a broad official-source spine in addition to the existing China assessments and China strategic-weapons packet. The DoD PRC military power report remains the main public U.S. defense source for PLA strategy, capability modernization, Taiwan pressure, South China Sea activity, defense spending, defense-industrial modernization, technology acquisition, and military-to-military contacts. ODNI provides the current public IC threat frame across China, Taiwan, cyber, space, WMD, South China Sea, and regional coercion. PRC official sources provide issuer-position evidence for how Beijing describes its defense policy, sovereignty claims, military reform, and national defense posture, but they should not be treated as independent verification of capability, intent, transparency, or restraint.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T05:02:58.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T05:02:58.000Z">2026-06-14 05:02:58Z</time>
                 <span>Source Packet</span>
                 <span>Arctic / High North</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Arctic / High North</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/arctic-infrastructure/2026-06-14T0502Z-sweden-official-defense-security-nato-integration-source-packet.html">Sweden Official Defense, Security, And NATO Integration Source Packet</a></h2>
               <p>Sweden's official source lane should be treated as both a new NATO ally integration file and a total-defence rebuilding file. Government Offices of Sweden pages frame the 2025-2030 defence resolution as a major reinforcement of both military and civil defence, with Sweden's national capability presented as part of NATO collective defence. Swedish Armed Forces pages preserve the institutional mission frame: defending Sweden, defending allies, reinforcing NATO, maintaining national defence as the primary task, and integrating into NATO deterrence, defence, civil preparedness, and host-nation-support work.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T04:27:32.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T04:27:32.000Z">2026-06-14 04:27:32Z</time>
                 <span>Source Packet</span>
                 <span>Arctic / High North</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Arctic / High North</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/arctic-infrastructure/2026-06-14T0427Z-finland-official-defense-security-nato-integration-source-packet.html">Finland Official Defense, Security, And NATO Integration Source Packet</a></h2>
               <p>Finland's official source lane is a high-value Nordic and High North allied baseline because Finnish sources pair a strong national-defense frame with a new NATO collective-defense integration frame. Ministry of Defence and Finnish Defence Forces pages establish that Finland is a NATO member, that national defense remains central, and that integration into NATO planning, exercises, capability development, command structures, and common defense continues after formal membership milestones. the corpus should preserve that dual framing rather than treating NATO membership as a substitute for national Finnish defense evidence.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Document" data-domain="Source Notes" data-date="2026-06-14T04:12:00.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T04:12:00.000Z">2026-06-14 04:12:00Z</time>
                 <span>Document</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Document</span><span>Collections</span><span>Source Notes</span><span>High Confidence</span></div>
               <h2><a href="library/collections/source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.html">Ukraine Biolab Claim-Reconciliation Source Note</a></h2>
               <p>The Ukraine biolab lane contains at least five separable source layers: ODNI's 2026 disclosure, earlier DoD/U.S. Embassy public threat-reduction framing, State Department and BWC treaty/diplomatic framing, Ukrainian government public statements, and Russian/PRC/information-environment claims. the corpus should not collapse those layers into a single resolved finding.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T03:58:59.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T03:58:59.000Z">2026-06-14 03:58:59Z</time>
                 <span>Source Packet</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Collections</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/official-threat-source-baseline/2026-06-14T0358Z-wmd-biosecurity-public-source-baseline-packet.html">WMD/Biosecurity Public Source Baseline Packet</a></h2>
               <p>the corpus should treat WMD/biosecurity as a source-discipline problem before it treats it as an analytic-judgment problem. The public source lane is fragmented across intelligence disclosure, biodefense strategy, defense threat reduction, law-enforcement prevention, select-agent oversight, arms-control/treaty governance, congressional biotechnology-security review, and allied or multilateral biological-security sources.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Document" data-domain="Source Notes" data-date="2026-06-14T03:47:22.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T03:47:22.000Z">2026-06-14 03:47:22Z</time>
                 <span>Document</span>
                 <span>Collections</span>
               </div>
+              <div class="doc-badges"><span>Document</span><span>Collections</span><span>Source Notes</span><span>High Confidence</span></div>
               <h2><a href="library/collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.html">ODNI Global Biolab Disclosure Source-Treatment Note</a></h2>
               <p>ODNI released a June 12, 2026 public statement and linked declassified slides asserting longstanding U.S. Government funding for more than 120 foreign biolabs in more than 30 countries, including Ukraine. The ODNI statement also asserted that some laboratories may present oversight, compromise, hazardous research, and national-security concerns.</p>
             </article>
 
-            <article class="feed-page-item">
+            <article class="feed-page-item" data-type="Source Packet" data-domain="Source Packets" data-date="2026-06-14T03:19:09.000Z">
               <div class="feed-page-item-meta">
                 <time datetime="2026-06-14T03:19:09.000Z">2026-06-14 03:19:09Z</time>
                 <span>Source Packet</span>
                 <span>Arctic / High North</span>
               </div>
+              <div class="doc-badges"><span>Source Packet</span><span>Arctic / High North</span><span>Source Packets</span><span>Official Source</span></div>
               <h2><a href="library/collections/source-packets/arctic-infrastructure/2026-06-14T0319Z-norway-official-defense-security-high-north-source-packet.html">Norway Official Defense, Security, And High North Source Packet</a></h2>
               <p>Norway's official source lane should be treated as both a High North allied defense file and a whole-of-society security/resilience file. The long-term defense plan establishes the public modernization frame through 2036 and links maritime, land, air, home guard, personnel, and alliance obligations. The 2026 acquisition plan and industrial-capacity roadmap create follow-on source lanes for procurement, defense industry, supply security, and implementation, but they remain planning and routing evidence until checked against budgets, contracts, Storting decisions, audit material, and delivery records.</p>
             </article>
@@ -494,5 +556,31 @@
         </div>
       </footer>
     </div>
+    <script>
+      (() => {
+        const list = document.querySelector("#feed-page-list");
+        const type = document.querySelector("#feed-type-filter");
+        const domain = document.querySelector("#feed-domain-filter");
+        const week = document.querySelector("#feed-week-filter");
+        const count = document.querySelector("#feed-filter-count");
+        if (!list || !type || !domain || !week || !count) return;
+        const items = Array.from(list.querySelectorAll(".feed-page-item"));
+        const weekStart = Date.parse(list.dataset.weekStart || "");
+        const apply = () => {
+          let visible = 0;
+          items.forEach((item) => {
+            const typeOk = !type.value || item.dataset.type === type.value;
+            const domainOk = !domain.value || item.dataset.domain === domain.value;
+            const weekOk = !week.checked || Date.parse(item.dataset.date || "") >= weekStart;
+            const show = typeOk && domainOk && weekOk;
+            item.hidden = !show;
+            if (show) visible += 1;
+          });
+          count.textContent = visible + " visible";
+        };
+        [type, domain, week].forEach((control) => control.addEventListener("change", apply));
+        apply();
+      })();
+    </script>
   </body>
 </html>

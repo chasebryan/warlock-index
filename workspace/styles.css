@@ -712,7 +712,8 @@ svg {
 
 .row-meta,
 .row-facts,
-.tag-list {
+.tag-list,
+.doc-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.34rem;
@@ -729,6 +730,32 @@ svg {
 .row-meta strong {
   color: var(--purple);
   font-weight: 700;
+}
+
+.doc-badges {
+  gap: 0.18rem 0.5rem;
+  margin: 0.05rem 0;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.doc-badges span {
+  display: inline;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  line-height: 1.1;
+}
+
+.doc-badges span + span::before {
+  content: "/";
+  margin-right: 0.5rem;
+  color: var(--purple);
 }
 
 .row-title {

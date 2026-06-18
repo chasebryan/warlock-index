@@ -612,6 +612,34 @@ button {
   line-height: 1.42;
 }
 
+.doc-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.18rem 0.5rem;
+  margin-top: 0.22rem;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.doc-badges span {
+  display: inline;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  line-height: 1.1;
+}
+
+.doc-badges span + span::before {
+  content: "/";
+  margin-right: 0.5rem;
+  color: var(--purple);
+}
+
 .result-table td:nth-child(2),
 .result-table td:nth-child(3),
 .result-table td:nth-child(5) {
@@ -761,6 +789,50 @@ button {
   background: var(--panel);
 }
 
+.feed-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.7rem;
+  padding-top: 0.35rem;
+}
+
+.feed-filter-bar label {
+  display: grid;
+  gap: 0.25rem;
+  color: var(--dim);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feed-filter-bar select {
+  min-height: 34px;
+  border: 2px solid var(--chrome);
+  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+  background: #fff;
+  color: var(--white);
+}
+
+.feed-week-toggle {
+  grid-auto-flow: column;
+  align-items: center;
+  min-height: 34px;
+}
+
+.feed-filter-bar output {
+  min-height: 34px;
+  padding: 0.42rem 0.55rem;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .feed-page-item {
   display: grid;
   gap: 0.45rem;
@@ -787,6 +859,199 @@ button {
   max-width: 920px;
   margin: 0;
   color: var(--muted);
+}
+
+.topic-browse-panel,
+.topic-page-shell,
+.use-page-shell {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--chrome);
+}
+
+.topic-browse-panel {
+  border-bottom: 2px solid var(--chrome-dark);
+}
+
+.topic-browse-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.topic-browse-head h2,
+.topic-lane h2,
+.use-step-grid h2 {
+  margin: 0;
+  color: var(--purple);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.topic-browse-head a {
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.topic-browse-grid,
+.use-step-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.75rem;
+}
+
+.topic-browse-grid a,
+.use-step-grid article {
+  display: grid;
+  gap: 0.38rem;
+  min-height: 100%;
+  padding: 0.85rem;
+  border: 2px solid var(--chrome);
+  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+  background: var(--panel-2);
+}
+
+.topic-browse-grid a:hover,
+.topic-browse-grid a:focus-visible,
+.topic-lane-index a:hover,
+.topic-lane-index a:focus-visible {
+  border-color: var(--chrome-light) var(--chrome-dark) var(--chrome-dark) var(--chrome-light);
+  background: var(--panel);
+  outline: none;
+}
+
+.topic-browse-grid strong,
+.topic-lane h3,
+.use-step-grid h2 {
+  color: var(--green);
+}
+
+.topic-browse-grid strong,
+.topic-lane h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+.topic-browse-grid span,
+.use-step-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.topic-page-head {
+  display: grid;
+  gap: 0.75rem;
+  padding: clamp(1rem, 3vw, 1.4rem);
+  border: 2px groove var(--chrome);
+  background: var(--panel);
+}
+
+.topic-page-head h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(2.1rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.topic-page-head p {
+  max-width: 800px;
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+}
+
+.topic-lane {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.topic-lane-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.55rem;
+  border: 2px groove var(--chrome);
+  background: var(--panel);
+}
+
+.topic-lane-index a {
+  display: inline-grid;
+  grid-template-columns: minmax(0, auto) auto;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 30px;
+  padding: 0.28rem 0.52rem;
+  border: 2px solid var(--chrome);
+  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+  background: var(--panel-2);
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.topic-lane-index span {
+  min-width: 1.8rem;
+  color: var(--dim);
+  text-align: right;
+}
+
+.topic-page-shell .feed-page-list {
+  border: 2px solid var(--chrome);
+  border-color: var(--chrome-dark) var(--chrome-light) var(--chrome-light) var(--chrome-dark);
+}
+
+.topic-page-shell .feed-page-item {
+  grid-template-columns: minmax(11rem, 16rem) minmax(0, 1fr);
+  gap: 0.35rem 1rem;
+  padding: 0.82rem 0.9rem;
+  background: var(--panel);
+}
+
+.topic-page-shell .feed-page-item:nth-child(even) {
+  background: var(--panel-2);
+}
+
+.topic-page-shell .feed-page-item-meta,
+.topic-page-shell .feed-page-item .doc-badges {
+  grid-column: 1;
+  align-content: start;
+}
+
+.topic-page-shell .feed-page-item h3,
+.topic-page-shell .feed-page-item p {
+  grid-column: 2;
+}
+
+.topic-page-shell .feed-page-item h3 {
+  margin: 0;
+}
+
+.topic-page-shell .feed-page-item p {
+  max-width: 980px;
+  font-size: 0.9rem;
+}
+
+.topic-page-shell .feed-page-item-meta span,
+.topic-page-shell .feed-page-item-meta time,
+.topic-page-shell .feed-page-meta span {
+  border: 0;
+  background: transparent;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -923,6 +1188,17 @@ button {
   .site-footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .topic-page-shell .feed-page-item {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-page-shell .feed-page-item-meta,
+  .topic-page-shell .feed-page-item .doc-badges,
+  .topic-page-shell .feed-page-item h3,
+  .topic-page-shell .feed-page-item p {
+    grid-column: 1;
   }
 
   .site-footer p {
