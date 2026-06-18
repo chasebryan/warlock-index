@@ -13,6 +13,7 @@ const siteName = "WARLOCK-INDEX";
 const libraryAssetVersion = "20260618-library-queue";
 const feedAssetVersion = "20260617-green-press";
 const feedItemLimit = 40;
+const corpusHealthDate = new Date(Date.UTC(2026, 5, 18, 18, 50, 0));
 
 const topicHubs = [
   {
@@ -318,6 +319,67 @@ function extractListField(markdown, labels) {
 function extractUrls(markdown) {
   const urls = markdown.match(/https?:\/\/[^\s<>)\]]+/g) || [];
   return [...new Set(urls.map((url) => url.replace(/[.,;:]+$/g, "")))];
+}
+
+function daysBetween(start, end) {
+  if (!start || !end) return null;
+  return Math.ceil((end.getTime() - start.getTime()) / (24 * 60 * 60 * 1000));
+}
+
+function metadataCompleteness(doc) {
+  const checks = [
+    Boolean(doc.productId),
+    Boolean(doc.preparedUtc),
+    Boolean(doc.cutoffUtc),
+    Boolean(doc.confidence),
+    Boolean(doc.summary),
+    Boolean(doc.safetyBoundary),
+    Boolean(doc.freshnessStatus),
+    Boolean(doc.lastSourceCheckUtc),
+    Boolean(doc.nextRefreshUtc),
+    Boolean(doc.sourceClasses?.length),
+    Boolean(doc.caveatTags?.length),
+    Boolean(doc.primarySources?.length || doc.sourceUrls?.length)
+  ];
+  const present = checks.filter(Boolean).length;
+  return Math.round((present / checks.length) * 100);
+}
+
+function sourceHealthForDoc(doc) {
+  const freshness = String(doc.freshnessStatus || "").toLowerCase();
+  const nextRefresh = parseUtcDate(doc.nextRefreshUtc);
+  const daysUntilRefresh = daysBetween(corpusHealthDate, nextRefresh);
+  const refreshDue = nextRefresh ? nextRefresh.getTime() < corpusHealthDate.getTime() : false;
+  const score = metadataCompleteness(doc);
+  const flags = [];
+
+  if (!doc.productId) flags.push("missing-product-id");
+  if (!doc.safetyBoundary) flags.push("missing-safety-boundary");
+  if (!doc.freshnessStatus) flags.push("missing-freshness-status");
+  if (!doc.lastSourceCheckUtc) flags.push("missing-last-source-check");
+  if (!doc.nextRefreshUtc) flags.push("missing-next-refresh");
+  if (!doc.sourceClasses?.length) flags.push("missing-source-classes");
+  if (!doc.caveatTags?.length) flags.push("missing-caveats");
+  if (!doc.primarySources?.length && !doc.sourceUrls?.length) flags.push("missing-primary-sources");
+  if (refreshDue) flags.push("refresh-due");
+  if (freshness.includes("watch")) flags.push("watch");
+  if (freshness.includes("gap") || doc.caveatTags?.some((tag) => /gap/i.test(tag))) flags.push("gap");
+  if (freshness.includes("superseded") || freshness.includes("stale")) flags.push("stale");
+
+  let status = "ready";
+  if (flags.includes("stale")) status = "stale";
+  else if (refreshDue) status = "refresh-due";
+  else if (flags.includes("gap")) status = "gap";
+  else if (flags.includes("watch")) status = "watch";
+  else if (score < 60) status = "needs-metadata";
+
+  return {
+    metadataCompleteness: score,
+    refreshDue,
+    daysUntilRefresh,
+    sourceHealthStatus: status,
+    sourceHealthFlags: [...new Set(flags)]
+  };
 }
 
 function inferType(rel) {
@@ -1488,6 +1550,7 @@ async function build() {
     doc.topics = topicsForDoc(doc);
     doc.badges = badgesForDoc(doc);
     doc.tags = tagsFor(doc);
+    Object.assign(doc, sourceHealthForDoc(doc));
     docs.push(doc);
   }
 
@@ -1554,14 +1617,22 @@ async function build() {
     primarySources: doc.primarySources,
     relatedProducts: doc.relatedProducts,
     sourceUrls: doc.sourceUrls,
-    sourceHash: doc.sourceHash
+    sourceHash: doc.sourceHash,
+    metadataCompleteness: doc.metadataCompleteness,
+    refreshDue: doc.refreshDue,
+    daysUntilRefresh: doc.daysUntilRefresh,
+    sourceHealthStatus: doc.sourceHealthStatus,
+    sourceHealthFlags: doc.sourceHealthFlags
   }));
 
+  const corpusHealth = summarizeCorpusHealth(corpus);
   const corpusScript = `window.WARLOCK_INDEX_CORPUS=${JSON.stringify(corpus)};\n`;
   await writeFile(path.join(siteRoot, "corpus.js"), corpusScript, "utf8");
   await writeFile(path.join(siteRoot, "workspace", "corpus.js"), corpusScript, "utf8");
   await writeFile(path.join(siteRoot, "corpus.json"), `${JSON.stringify(corpus, null, 2)}\n`, "utf8");
   await writeFile(path.join(siteRoot, "workspace", "corpus.json"), `${JSON.stringify(corpus, null, 2)}\n`, "utf8");
+  await writeFile(path.join(siteRoot, "corpus-health.json"), `${JSON.stringify(corpusHealth, null, 2)}\n`, "utf8");
+  await writeFile(path.join(siteRoot, "workspace", "corpus-health.json"), `${JSON.stringify(corpusHealth, null, 2)}\n`, "utf8");
   await writeFile(path.join(siteRoot, "corpus.csv"), renderCorpusCsv(corpus), "utf8");
 
   const workspaceShellHashSource = [
@@ -1624,7 +1695,40 @@ async function build() {
   await writeFile(path.join(siteRoot, "feed.xml"), renderFeed(docs), "utf8");
   await writeFile(path.join(siteRoot, "feed.html"), stripTrailingWhitespace(renderFeedPage(docs, latestUpdateStr, latestUpdateIso)), "utf8");
 
-  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, how-to-use.html, corpus.js, corpus.json, corpus.csv, feed.html, feed.xml, sitemap.xml, and robots.txt`);
+  console.log(`Generated ${docs.length} documentation pages, ${topicHubs.length} topic hubs, how-to-use.html, corpus.js, corpus.json, corpus-health.json, corpus.csv, feed.html, feed.xml, sitemap.xml, and robots.txt`);
+}
+
+function countBy(items, getter) {
+  return items.reduce((acc, item) => {
+    const key = getter(item) || "Unstated";
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+}
+
+function summarizeCorpusHealth(corpus) {
+  const averageMetadataCompleteness = corpus.length
+    ? Math.round(corpus.reduce((sum, doc) => sum + (doc.metadataCompleteness || 0), 0) / corpus.length)
+    : 0;
+
+  const mostNeededMetadata = countBy(
+    corpus.flatMap((doc) => doc.sourceHealthFlags || []).filter((flag) => /^missing-/.test(flag)),
+    (flag) => flag
+  );
+
+  return {
+    generatedUtc: corpusHealthDate.toISOString().replace(/\.000Z$/, "Z"),
+    recordCount: corpus.length,
+    averageMetadataCompleteness,
+    refreshDueCount: corpus.filter((doc) => doc.refreshDue).length,
+    watchCount: corpus.filter((doc) => doc.sourceHealthStatus === "watch").length,
+    gapCount: corpus.filter((doc) => doc.sourceHealthStatus === "gap").length,
+    needsMetadataCount: corpus.filter((doc) => doc.sourceHealthStatus === "needs-metadata").length,
+    byHealthStatus: countBy(corpus, (doc) => doc.sourceHealthStatus),
+    byFreshnessStatus: countBy(corpus, (doc) => doc.freshnessStatus),
+    byType: countBy(corpus, (doc) => doc.type),
+    mostNeededMetadata
+  };
 }
 
 function csvCell(value) {
@@ -1657,6 +1761,11 @@ function renderCorpusCsv(corpus) {
     "relatedProducts",
     "sourceUrls",
     "sourceHash",
+    "metadataCompleteness",
+    "refreshDue",
+    "daysUntilRefresh",
+    "sourceHealthStatus",
+    "sourceHealthFlags",
     "summary",
     "safetyBoundary"
   ];
