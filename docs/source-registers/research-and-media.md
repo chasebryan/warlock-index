@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T10:09:45Z
+**Information cutoff UTC:** 2026-06-18T10:25:19Z
 
 **Source base:** Research, media, industry, and specialist current-event
 source families listed in this register; LIVE-NEWS source audit tracker.
@@ -123,10 +123,12 @@ official-source baselines and graded explicitly.
 - **Reliability note:** Use only as reported or transcript-reporting context
   until official U.S., Iranian, IAEA, UN, Treasury/OFAC, mediator, or directly
   captured Bloomberg text is available. Bloomberg direct access was blocked in
-  this environment; this pass did not locate official White House, State,
-  Treasury/OFAC, IAEA, UN, or directly captured Iranian-government text; live
-  pages require timestamped or archived follow-on capture before precise
-  claims.
+  this environment; the 2026-06-18T10:25Z implementation-gap capture did not
+  locate official White House, State, Treasury/OFAC, Federal Register,
+  IAEA/UN, IMO, directly captured Iranian-government, or directly captured
+  mediator text; live pages require timestamped or archived follow-on capture
+  before precise claims.
+- **Cross reference:** [U.S.-Iran MOU Implementation Gap Capture](../collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
 
 ## Institute For The Study Of War
 

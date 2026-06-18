@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:03:44Z
 
-**Information cutoff UTC:** 2026-06-18T10:09:45Z
+**Information cutoff UTC:** 2026-06-18T10:25:19Z
 
 **Source base:** Current news reporting on a reported U.S.-Iran memorandum of
 understanding; Axios transcript reporting that says a senior administration
@@ -25,7 +25,8 @@ IAEA, UN, and Iranian government source families; existing WARLOCK-INDEX Iran
 actor profile, Iran WMD and missile-relevance source packet, Red Sea and
 maritime chokepoint lanes, official U.S. source register, foreign-government
 reference register, research and media source register, and global
-actor-domain matrix.
+actor-domain matrix; 2026-06-18T10:25Z U.S.-Iran MOU implementation-gap
+capture.
 
 **Analytic confidence:** Moderate for the existence of current public
 reporting about a U.S.-Iran MOU, for a transcript-quality public version
@@ -37,6 +38,13 @@ provisions, Lebanon/Hezbollah scope, nuclear/IAEA obligations, and exact
 operative force because this pass did not locate a directly accessible
 official White House, State, Treasury, Iranian presidency, Iranian
 foreign-ministry, UN, IAEA, or direct Bloomberg text.
+
+**Latest implementation-gap update:** The 2026-06-18T10:25Z follow-up did
+not locate official U.S. MOU text, Treasury/OFAC waiver text, Federal
+Register notice, IAEA statement, UN Security Council record, IMO notice, or
+directly captured Iranian/Pakistani official text. This keeps the MOU in a
+reported signed-and-publicized source-treatment lane rather than an official
+implementation lane.
 
 **Purpose:** Preserve a safe source-treatment lane for the reported U.S.-Iran
 MOU so WARLOCK-INDEX can surface the issue on the public site without treating
@@ -88,6 +96,7 @@ Iranian, mediator, and market follow-on evidence.
 | The Guardian live Middle East crisis report | C | Public live reporting found 2026-06-18 | Timeline source for reported presidential signatures, Iranian-state text release, Pakistan mediator immediate-effect claim, and disputed implementation points | Live reporting can change; capture exact timestamp in follow-on work |
 | Bloomberg MOU publication route | C | Bloomberg direct text not accessible in this environment; MarketWatch/JPMorgan reporting found 2026-06-18 says the MOU was published by Bloomberg and other outlets | Apparent original or early publication route for the leaked/published MOU and market reaction source lane | Requires direct Bloomberg capture or licensed access before quotation or exact text reliance |
 | Financial Times signing/concessions report | C | Public reporting found 2026-06-18 | Current-event source for reported electronic signing, concessions, frozen funds, sanctions, and mediator statement | Secondary reporting; paywall/licensing and official-source limits apply |
+| WARLOCK-INDEX MOU implementation-gap capture | Internal derived | Complete 2026-06-18T10:25:19Z | Dated official-source absence check for MOU text, Treasury/OFAC, IAEA/UN, IMO, Iranian, and mediator routes | Internal source-status note; not external evidence |
 | MarketWatch/JPMorgan oil-market item | C | Public reporting found 2026-06-18 | Corroborates that market participants were reacting to a MOU published by Bloomberg and other outlets; useful for oil-market expectation context | Secondary market reporting; not official text and not legal, sanctions, or energy-policy evidence |
 | Times of India report on U.S.-Iran MOU signing | C | Public reporting found 2026-06-18 | Secondary source for reported signing/finalization framing | Needs official corroboration and text capture |
 | New York Post report on reported 14-point deal | C | Public reporting found 2026-06-18 | Secondary source for reported terms and controversy framing | Use cautiously and only as reported context |
@@ -177,6 +186,10 @@ reported MOU to three assimilation lanes:
   official's briefing readout, Guardian live reporting says Iranian state
   media released a text largely tracking the U.S. readout, and Guardian also
   says Washington still had not formally published a copy online.
+- A 2026-06-18T10:25Z follow-up again found no directly retrieved official
+  U.S. MOU text, Treasury/OFAC waiver, Federal Register notice, IAEA
+  statement, UN Security Council record, IMO notice, or directly captured
+  Iranian/Pakistani official text.
 - Bloomberg appears to be an important publication route, but direct Bloomberg
   text was not accessible in this environment and needs licensed/direct
   capture before exact text reliance.
@@ -201,12 +214,10 @@ reported MOU to three assimilation lanes:
 ## Cross References
 
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
+- [U.S.-Iran MOU Implementation Gap Capture](2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
 - [Strait Of Hormuz Strategic Chokepoint Source Packet](../source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - Times of India, *'It's signed': US-Iran MoU officially finalized after both sides digitally sign agreement*: `https://timesofindia.indiatimes.com/world/middle-east/its-signed-us-iran-mou-officially-finalized-after-both-sides-digitally-sign-agreement/articleshow/131814879.cms`
 - New York Post, *Complete 14-point US-Iran peace deal finally revealed*: `https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/`
-
-## Cross References
-
 - [Iran Actor Profile](../actor-profiles/iran.md)
 - [Iran WMD And Missile-Relevance Source Packet](../source-packets/strategic-weapons/2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
 - [Red Sea Maritime Disruption Strategic Baseline](../../assessments/middle-east/2026-06-13T0516Z-red-sea-maritime-disruption-strategic-baseline.md)

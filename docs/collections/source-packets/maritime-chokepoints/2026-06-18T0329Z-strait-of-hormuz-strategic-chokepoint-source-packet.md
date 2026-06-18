@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:29:19Z
 
-**Information cutoff UTC:** 2026-06-18T03:29:19Z
+**Information cutoff UTC:** 2026-06-18T10:25:19Z
 
 **Source base:** U.S. Energy Information Administration Strait of Hormuz and
 world oil transit chokepoint source family; United Nations Convention on the
@@ -14,8 +14,9 @@ Law of the Sea Part II and Part III text; UNCTAD Review of Maritime Transport
 2024 source family; Allianz Commercial Safety and Shipping Review 2025 source
 family; 2026 ODNI Annual Threat Assessment; U.S.-Iran MOU source-treatment
 note and implementation-capture packet; Axios, Guardian, MarketWatch/JPMorgan,
-and Bloomberg-attributed current-event reporting lanes; existing
-WARLOCK-INDEX maritime chokepoint matrix and maritime source register.
+and Bloomberg-attributed current-event reporting lanes; 2026-06-18T10:25Z
+U.S.-Iran MOU implementation-gap capture; existing WARLOCK-INDEX maritime
+chokepoint matrix and maritime source register.
 
 **Analytic confidence:** High for the source-family structure, EIA historical
 energy-chokepoint baseline, UNCLOS legal-source identity, and the need to
@@ -23,6 +24,13 @@ separate official, commercial, legal, insurance, and reported-MOU evidence.
 Moderate for current Hormuz conditions because traffic, insurance, Gulf-state
 positions, Iranian interpretation, sanctions-waiver effects, and official MOU
 implementation require dated follow-on source capture.
+
+**Latest implementation-gap update:** The 2026-06-18T10:25Z follow-up did
+not locate official U.S. MOU text, Treasury/OFAC waiver text, Federal
+Register notice, IAEA statement, UN Security Council record, IMO notice, or
+directly captured Iranian/Pakistani official text. Hormuz reopening, toll,
+blockade, oil-waiver, shipping, and insurance claims remain reported or
+follow-on source lanes until primary records are captured.
 
 **Purpose:** Convert the queued Hormuz lane into a dedicated strategic
 chokepoint source packet that separates reported U.S.-Iran MOU maritime
@@ -92,6 +100,7 @@ separate evidence layers that need to stay separate:
 | ODNI Annual Threat Assessment 2026 | A | Existing register source | Iran, regional, Houthi, and broader threat context relevant to maritime pressure | Public IC framing; omits sensitive detail |
 | U.S.-Iran MOU source-treatment note | Internal derived / Class C lane | Complete | Preserves reported MOU source discipline | Derived repository product |
 | U.S.-Iran MOU implementation-capture packet | Internal derived / Class C lane | Complete | Routes official text, sanctions, Hormuz, IAEA, UN, Iranian, mediator, and market follow-on evidence | Derived repository product; no official text captured yet |
+| U.S.-Iran MOU implementation-gap capture | Internal derived / Class C lane | Complete 2026-06-18T10:25:19Z | Preserves dated official-source absence for MOU text, Treasury/OFAC, IAEA/UN, IMO, Iranian, and mediator routes | Derived repository product; not external implementation evidence |
 | Axios, Guardian, MarketWatch/JPMorgan, Bloomberg-attributed reporting | C current-event | Captured in prior MOU products | Reported access, toll, waiver, blockade-removal, and market-reaction claims | Not official legal, sanctions, traffic, or maritime-implementation evidence |
 
 ## Claim Separation Matrix
@@ -143,6 +152,10 @@ separate evidence layers that need to stay separate:
 
 - No directly retrieved official published U.S.-Iran MOU text was located in
   the prior pass.
+- A 2026-06-18T10:25Z follow-up again found no directly retrieved official
+  U.S. MOU text, Treasury/OFAC waiver, Federal Register notice, IAEA
+  statement, UN Security Council record, IMO notice, or directly captured
+  Iranian/Pakistani official text.
 - No official Treasury/OFAC waiver, Federal Register notice, IMO notice,
   Iranian official Hormuz text, or Gulf-state implementation notice is
   captured in this packet.
@@ -159,6 +172,7 @@ separate evidence layers that need to stay separate:
 - [Maritime Chokepoint Strategic Assimilation Matrix](../../global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
 - [Maritime Chokepoints Source Register](../../../source-registers/maritime-chokepoints.md)
 - [U.S.-Iran MOU Source-Treatment Note](../../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Implementation Gap Capture](../../source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [Iran Strategic Actor Classification](../../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 - [Red Sea Maritime Economics And Insurance Source Packet](../red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)

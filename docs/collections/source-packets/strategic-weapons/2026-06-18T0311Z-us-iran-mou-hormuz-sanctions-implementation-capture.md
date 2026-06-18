@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T10:09:45Z
+**Information cutoff UTC:** 2026-06-18T10:25:19Z
 
 **Source base:** Axios transcript reporting; Guardian current-event
 reporting, including signed-status, Iranian-state text-release, and Pakistan
@@ -14,9 +14,9 @@ mediator immediate-effect claims; New York Post reported 14-point text;
 Financial Times signing and concessions reporting; prior WARLOCK-INDEX
 U.S.-Iran MOU source-treatment note; attempted official-source discovery for
 White House, State Department, Treasury/OFAC, IAEA, UN, Iranian official, and
-mediator source families; existing Iran WMD, maritime chokepoint,
-strategic-weapons timeline, official U.S. source, and research/media register
-products.
+mediator source families; 2026-06-18T10:25Z implementation-gap capture;
+existing Iran WMD, maritime chokepoint, strategic-weapons timeline, official
+U.S. source, and research/media register products.
 
 **Analytic confidence:** Moderate for transcript/reporting existence,
 reported MOU topic layers, and current public reporting that the MOU has been
@@ -26,6 +26,13 @@ implementation, IAEA safeguards implementation, UN action, Iranian official
 interpretation, Hormuz execution, sanctions effect, and frozen-asset
 implementation because no directly retrieved official U.S., Treasury, IAEA,
 UN, or Iranian government text was located in this pass.
+
+**Latest implementation-gap update:** The 2026-06-18T10:25Z follow-up did
+not locate official U.S. MOU text, Treasury/OFAC waiver text, Federal
+Register notice, IAEA statement, UN Security Council record, IMO notice, or
+directly captured Iranian/Pakistani official text. Keep sanctions, Hormuz,
+nuclear, UN, and frozen-asset claims in reported status until primary records
+are captured.
 
 **Purpose:** Convert the Iran MOU watch item into an implementation-capture
 packet that separates reported/transcript text from official text, legal
@@ -91,6 +98,7 @@ mediator statements are distinct source families.
 | Guardian MOU takeaways | C | Public reporting found 2026-06-18 | Claim-layer parsing for ceasefire, uranium down-blending, sanctions, oil waiver, Hormuz, frozen assets, negotiation window | Secondary reporting; useful for source separation |
 | New York Post reported 14-point text | C | Public reporting found 2026-06-18 | Reported text and explanation of changes from earlier draft to signed text | Secondary reporting; useful for current-event capture but not official text |
 | Financial Times signing/concessions report | C | Public reporting found 2026-06-18 | Reported electronic signing, frozen-funds, sanctions, Hormuz, and mediator-statement context | Secondary reporting; paywall/licensing and official-source limits apply |
+| WARLOCK-INDEX MOU implementation-gap capture | Internal derived | Complete 2026-06-18T10:25:19Z | Dated record that official text, Treasury/OFAC waiver, IAEA/UN, IMO, and directly captured Iranian/Pakistani official records were not located in follow-up search | Internal source-status note; not external evidence |
 | White House / State source family | A when retrieved | No official text located in this pass | Required for official U.S. text, signing statements, diplomatic status | Do not infer from absence |
 | Treasury / OFAC / Federal Register source family | A when retrieved | No waiver/legal implementation text located in this pass | Required for sanctions waiver, oil-export, banking, insurance, transport, asset claims | No compliance guidance or evasion analysis |
 | IAEA / UN source family | A when retrieved | No confirming record located in this pass | Required for safeguards, enriched-material disposition, UNSC endorsement | No technical inspection or material-handling detail |
@@ -146,6 +154,10 @@ mediator statements are distinct source families.
 - No official published U.S. text was located in this pass; current reporting
   says Iranian state media released a text largely tracking the U.S. readout,
   but that route was not captured directly here.
+- A 2026-06-18T10:25Z follow-up again found no directly retrieved official
+  U.S. MOU text, Treasury/OFAC waiver, Federal Register notice, IAEA
+  statement, UN Security Council record, IMO notice, or directly captured
+  Iranian/Pakistani official text.
 - No Treasury/OFAC or Federal Register waiver was located in this pass.
 - No IAEA or UN record confirming reported nuclear/UN provisions was located
   in this pass.
@@ -157,6 +169,7 @@ mediator statements are distinct source families.
 ## Cross References
 
 - [U.S.-Iran MOU Source-Treatment Note](../../source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Implementation Gap Capture](../../source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
 - [Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [Maritime Chokepoint Strategic Assimilation Matrix](../../global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)

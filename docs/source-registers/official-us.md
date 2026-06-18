@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:11:36Z
 
-**Information cutoff UTC:** 2026-06-18T05:25:03Z
+**Information cutoff UTC:** 2026-06-18T10:25:19Z
 
 **Source base:** Official U.S. executive-branch, congressional, legal,
 sanctions, diplomatic, cyber, maritime, map, defense-industrial, and alliance
@@ -156,9 +156,12 @@ later dated refresh.
   reporting carried in the linked source packet
 - **Publishers:** White House; Department of State; Treasury/OFAC; Federal
   Register; Department of Defense where public maritime statements exist
-- **Accessed UTC:** 2026-06-18T03:11:36Z
+- **Accessed UTC:** 2026-06-18T10:25:19Z
 - **URLs:** Dynamic official-source discovery required; no official published
-  MOU text or Treasury/OFAC waiver was located in this pass.
+  MOU text, Treasury/OFAC waiver, Federal Register notice, IAEA statement, UN
+  Security Council record, IMO notice, or directly captured
+  Iranian/Pakistani official text was located in the 2026-06-18T10:25Z
+  follow-up.
 - **Use:** Official U.S. routing lane for the reported U.S.-Iran MOU,
   including official text, signing status, sanctions waivers, oil-export
   permissions, banking/insurance/transport notices, frozen-assets treatment,
@@ -167,6 +170,7 @@ later dated refresh.
   text. Until official pages are captured, keep the MOU in reported or
   transcript-source treatment and do not provide sanctions compliance advice,
   sanctions evasion, maritime routing, or nuclear technical detail.
+- **Cross reference:** [U.S.-Iran MOU Implementation Gap Capture](../collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
 
 ## New START Post-Expiration Official-Source Capture Lane
 

@@ -6,7 +6,7 @@
 
 **Prepared UTC:** 2026-06-18T03:29:19Z
 
-**Information cutoff UTC:** 2026-06-18T10:09:45Z
+**Information cutoff UTC:** 2026-06-18T10:25:19Z
 
 **Source base:** Official canal, port, maritime, commercial shipping,
 insurance, multilateral, research, and media source families for Red
@@ -63,9 +63,12 @@ instructions.
   reporting says both presidents signed the MOU, Iranian state media released
   text largely tracking the U.S. readout, and Pakistan said the agreement took
   immediate effect, but Washington still had not formally released a copy
-  online. Treasury/OFAC, State, Iranian official, mediator, IMO, Gulf-state,
-  energy, insurance, and shipping evidence are required before implementation
-  or legal claims are strengthened.
+  online. The 2026-06-18T10:25Z implementation-gap capture again found no
+  official U.S. text, Treasury/OFAC waiver, Federal Register notice, IAEA/UN
+  record, IMO notice, or directly captured Iranian/Pakistani official text.
+  Treasury/OFAC, State, Iranian official, mediator, IMO, Gulf-state, energy,
+  insurance, and shipping evidence are required before implementation or legal
+  claims are strengthened.
 
 ## Strait Of Hormuz Strategic Chokepoint Source Family
 
@@ -196,7 +199,7 @@ instructions.
 | --- | --- | --- | --- |
 | Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current WARLOCK-INDEX lane |
 | South China Sea / West Philippine Sea | DoD 2025, PCA, State Limits in the Seas, Philippines official sources, PRC issuer sources, NAMRIA, NGA/USINDOPACOM, allied statements, shipping/economic sources for later trade context | Active map packet and coercion/legal-source packet exist | Legal/coercion source lane is active; trade, energy, fisheries, and insurance context remains follow-on |
-| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Active source-treatment note, U.S.-Iran MOU implementation-capture packet, and Strait of Hormuz strategic chokepoint source packet | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
+| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Active source-treatment note, U.S.-Iran MOU implementation-capture packet, U.S.-Iran MOU implementation-gap capture, and Strait of Hormuz strategic chokepoint source packet | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
 | Malacca / Singapore | Singapore, Malaysia, Indonesia, ASEAN, UNCTAD, EIA/IEA, port authorities, insurance industry | Queue | Needed for Indo-Pacific trade, energy, and logistics concentration |
 | Panama Canal | Panama Canal Authority, UNCTAD, climate agencies, trade datasets, insurance industry | Queue | Needed for climate-infrastructure and canal-capacity analysis |
 | Black Sea | UN, Turkey, Ukraine, Russia, NATO, EU, grain and insurance sources | Queue | Needed for Russia-Ukraine maritime and food-security analysis |
@@ -223,6 +226,7 @@ instructions.
 - [Philippines And South China Sea Map Reference Source Packet](../collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)
 - [South China Sea Coercion And Legal-Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
 - [U.S.-Iran MOU Source-Treatment Note](../collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Implementation Gap Capture](../collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../collections/source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
 - [Strait Of Hormuz Strategic Chokepoint Source Packet](../collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - [Allied And Multilateral Source Register](allied-multilateral.md)
