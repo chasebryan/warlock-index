@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 22:51:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:28:13 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>U.S. Law Enforcement Threat Source Capture Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 00:28:13 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The law-enforcement lane should not be treated as a single &quot;crime&quot; bucket. Public FBI, DHS, DOJ, DEA, ATF, CBP, Coast Guard, Treasury, and State sources support separate evidence families: terrorism and targeted violence, counterintelligence and espionage, cybercrime and cyber-enabled fraud, WMD and proliferation prevention, transnational organized crime, illicit finance, border and port-of-entry statistics, maritime security, sanctions/legal status, and national-security prosecutions.</description>
+    </item>
     <item>
       <title>Allied And Multilateral Source Register</title>
       <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
@@ -398,16 +408,6 @@
       <category>Collections</category>
       <category>Source Packets</category>
       <description>Germany's official-source lane should be treated as a Euro-Atlantic allied capacity file, a NATO/EU burden-sharing file, a defense-investment and industrial-capacity file, and an integrated-security/resilience file. The National Security Strategy provides the whole-of-government frame: Germany describes security as robust, resilient, and sustainable; identifies Russia as the most significant threat to peace and security in the Euro-Atlantic area; treats China as partner, competitor, and systemic rival; and ties NATO, EU, Bundeswehr, critical infrastructure, cyber, civil protection, energy, raw materials, and supply-chain resilience into one integrated-security concept.</description>
-    </item>
-    <item>
-      <title>France Official Defense And Security Source Baseline Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 02:08:02 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>France's official-source lane should be treated as a nuclear-armed European ally file, a Euro-Atlantic defense file, and a sovereignty/industrial-base file. The current top-level source is the 2025 update to the National Strategic Review, which SGDSN says was commanded by the President and complements the 2022 review. The English courtesy translation frames the updated 2030 ambition around nuclear deterrence, national resilience, an economy prepared for war, cyber resilience, France as a reliable Euro-Atlantic ally, European strategic autonomy, sovereignty partnerships, hybrid fields, military operations, and science/technology.</description>
     </item>
   </channel>
 </rss>

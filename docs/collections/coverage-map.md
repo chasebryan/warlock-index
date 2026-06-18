@@ -80,7 +80,9 @@ future open-source defense assessments.
 
 - U.S. statutory and strategy documents.
 - U.S. intelligence, homeland security, law-enforcement, sanctions, border,
-  maritime, cyber, and geospatial public source families.
+  maritime, cyber, and geospatial public source families, including the U.S.
+  law-enforcement threat source capture packet for FBI, DHS, DOJ, DEA, ATF,
+  CBP, Coast Guard, Treasury, State, and IC3 routing.
 - Public map source families, including NGA maps, USGS topographic
   sources, NOAA nautical-chart sources, BGN geographic-name sources,
   combatant-command AOR pages, NATO public maps, Library of Congress maps,

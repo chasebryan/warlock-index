@@ -466,6 +466,7 @@ identity, journalism, protest, or association as an intelligence target.
 
 - [U.S. Official Threat Source Operating Picture](../assessments/homeland-hemisphere/2026-06-13T0558Z-us-official-threat-source-operating-picture.md)
 - [Official U.S. Threat Source Baseline Packet](../collections/source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
+- [U.S. Law Enforcement Threat Source Capture Packet](../collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Official Threat Source Collection Tracker](../collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Official U.S. Threat Source Assimilation Matrix](../collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Legacy Factbook Replacement Note](../collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)

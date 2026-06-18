@@ -116,6 +116,7 @@ actor profiles, source packets, timelines, trackers, and synthesis matrices.
 - [Official U.S. Threat Source Baseline Packet](collections/source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
 - [CIA, State, And NGA Foreign Government And Map Reference Packet](collections/source-packets/official-threat-source-baseline/2026-06-13T0831Z-cia-foreign-government-map-reference-packet.md)
 - [WMD/Biosecurity Public Source Baseline Packet](collections/source-packets/official-threat-source-baseline/2026-06-14T0358Z-wmd-biosecurity-public-source-baseline-packet.md)
+- [U.S. Law Enforcement Threat Source Capture Packet](collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Theater Map Reference Source Packets](collections/source-packets/theater-map-reference)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)
 - [Philippines And South China Sea Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.md)

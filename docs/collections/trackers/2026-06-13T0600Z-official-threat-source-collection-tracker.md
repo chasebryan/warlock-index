@@ -40,25 +40,25 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, China/PLA source tracker, PRC cyber defensive packet, and Salt Typhoon telecommunications source note added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, cyber advisory page-level refresh, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, telecom network diagrams, lawful-intercept detail, issuer-claim laundering, or export-control evasion |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
 | CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
-| FBI terrorism | Registered | FBI/DHS terrorism source packet | High | No political profiling or tactics |
-| FBI cyber / IC3 | Registered; Salt Typhoon telecommunications source note added with FBI source-family access caveat | CISA/NSA/FBI cyber advisory page-level refresh and broader defensive cyber source packet | High for source family; moderate for current Salt Typhoon FBI text pending direct access | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, or telecom network diagrams |
-| FBI counterintelligence | Registered | Foreign intelligence source packet | Moderate | No identification of private persons absent official legal source |
-| FBI WMD | Registered; WMD/biosecurity source packet added | Maintain WMD public-source packet | Moderate | No materials, methods, or vulnerability detail |
+| FBI terrorism | Law-enforcement source capture packet added; FBI page verified | FBI/DHS terrorism and targeted-violence source packet with current DHS HTA and State designation refresh | High for FBI source-family framing; moderate pending DHS/State annual refresh | No political profiling, tactics, recruitment, attack-method detail, or protected-speech labeling |
+| FBI cyber / IC3 | Law-enforcement source capture packet added; IC3 2024 report verified; Salt Typhoon telecommunications source note added with FBI source-family access caveat | CISA/NSA/FBI cyber advisory page-level refresh and broader defensive cyber source packet | High for FBI/IC3 source identity; moderate for current advisory page-level extraction | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, or telecom network diagrams |
+| FBI counterintelligence | Law-enforcement source capture packet added; FBI page verified | FBI/DOJ counterintelligence and national-security legal-action source packet | High for FBI source-family framing; moderate for case-specific current state | No identification of private persons absent official legal source |
+| FBI WMD | Law-enforcement source capture packet added; WMD/biosecurity source packet already added | Maintain WMD public-source packet and add FBI/FSAP/DTRA/State BWC refresh as needed | Moderate to high by source family | No materials, methods, device, facility, site-map, or vulnerability detail |
 | ODNI global biolab disclosure | Source-treatment note, WMD/biosecurity source packet, and Ukraine claim-reconciliation note added | Declassification and information-resilience source note | High for ODNI release; moderate to low for uncorroborated underlying claims | No biological methods, facility table, site mapping, or vulnerability detail |
 | DTRA / Cooperative Threat Reduction | DTRA mission, fact sheet, and DoD BTRP Ukraine fact sheet registered; document-level CTR work still needed | DoD Cooperative Threat Reduction source packet | Moderate | No foreign facility inference from general mission pages |
 | Federal Select Agent Program | Registered; WMD/biosecurity source packet added | Select Agent oversight source packet | High for source family | No controlled lists, quantities, facility-sensitive detail, or compliance workarounds |
 | State / UNODA BWC sources | Source families registered with access caveats | BWC treaty and compliance source packet | Moderate pending access refresh | No legal conclusion without current text/status verification |
 | NCTC groups | Registered as historical | Terrorism group source refresh | Moderate to low for current status | Do not reproduce tactics |
-| DHS Homeland Threat Assessment | Registered as product family | DHS HTA packet with dated URL verification | Moderate | No domestic political enemies framing |
+| DHS Homeland Threat Assessment | Registered and routed through law-enforcement source capture packet | DHS HTA packet with dated URL verification | Moderate | No domestic political enemies framing |
 | CISA KEV/advisories | Registered | Defensive cyber advisory packet | High | No offensive cyber instruction |
 | NSA cyber advisories | Registered | Defensive cyber advisory packet | High | No exploit chains |
 | State FTO and terrorism reports | Registered | Terrorism designation packet | High | Designation status only; no targeting |
 | Treasury OFAC and risk assessments | Active in repo | Sanctions and illicit finance source packet | High | No evasion guidance |
-| DEA threat sources | Registered | TCO and narcotics source packet | Moderate | No trafficking methods |
-| ATF data/statistics | Registered | Firearms trafficking source packet | Moderate | No procurement or explosives guidance |
-| CBP statistics | Registered | Border threat vector source packet | Moderate | No route or evasion guidance |
-| Coast Guard sources | Registered | Maritime homeland source packet | Moderate | No patrol or interdiction detail |
-| DOJ NSD | Registered | National security legal-action tracker | Moderate | Case-specific evidence only |
+| DEA threat sources | Registered and routed through law-enforcement source capture packet | TCO and narcotics source packet | Moderate | No trafficking methods |
+| ATF data/statistics | Registered and routed through law-enforcement source capture packet | Firearms commerce, tracing, trafficking, and explosives statistics source packet | Moderate | No procurement or explosives guidance |
+| CBP statistics | Registered and routed through law-enforcement source capture packet | Border and port-of-entry statistics source packet | Moderate | No route or evasion guidance |
+| Coast Guard sources | Registered and routed through law-enforcement source capture packet | Maritime homeland source packet | Moderate | No patrol or interdiction detail |
+| DOJ NSD | Registered and routed through law-enforcement source capture packet | National security legal-action tracker | Moderate | Case-specific evidence only |
 | NGA public sources | Map/geospatial register, theater map index, Indo-Pacific/Taiwan map packet, Philippines/South China Sea map packet, and Europe/NATO/Ukraine map packet added | Additional map-heavy theater packets as needed | Moderate | No targeting or vulnerability maps |
 
 ## Update Triggers
@@ -105,6 +105,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 
 - [U.S. Official Threat Source Operating Picture](../../assessments/homeland-hemisphere/2026-06-13T0558Z-us-official-threat-source-operating-picture.md)
 - [Official U.S. Threat Source Baseline Packet](../source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
+- [U.S. Law Enforcement Threat Source Capture Packet](../source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../source-registers/us-intelligence-law-enforcement.md)
 - [Legacy Factbook Replacement Note](../source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
