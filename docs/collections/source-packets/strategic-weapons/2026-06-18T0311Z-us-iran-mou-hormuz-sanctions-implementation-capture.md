@@ -116,7 +116,7 @@ mediator statements are distinct source families.
 | --- | --- |
 | Iran WMD and missile relevance | Add reported MOU as safeguards/nonproliferation source lane, not verified implementation |
 | Strategic weapons timeline | Keep 2026-06-17/18 as reported diplomatic framework event |
-| Maritime chokepoints | Use Hormuz claims to prioritize a dedicated strategic source packet |
+| Maritime chokepoints | Use Hormuz claims through the dedicated strategic chokepoint packet while keeping implementation claims separate |
 | Sanctions and illicit finance | Route to Treasury/OFAC official capture; no compliance or evasion guidance |
 | Official U.S. source matrix | Add reported-diplomatic-framework row requiring White House/State/Treasury separation |
 | Research and media register | Preserve Axios/Guardian/Bloomberg/MarketWatch as Class C current-event source family |
@@ -127,7 +127,7 @@ mediator statements are distinct source families.
 | --- | --- | --- |
 | Official U.S.-Iran MOU Text Capture | Replace or validate transcript text with official text | White House, State, Iranian official, mediator |
 | Iran Sanctions Waiver Source Note | Track OFAC, Federal Register, State, banking, shipping, insurance notices | Treasury/OFAC, Federal Register, State, banks/shipping/insurance notices |
-| Hormuz Strategic Chokepoint Source Packet | Separate maritime access, commercial, legal, insurance, Gulf, and Iranian claims | Iran, Oman, Gulf states, IMO, EIA/IEA, UNCTAD, insurers |
+| Official Hormuz Reopening And Maritime Notice Capture | Separate reported reopening/access clauses from official notices, Gulf/Iranian issuer positions, IMO, shipping, insurance, and energy evidence | Iran, Oman, Gulf states, IMO, EIA/IEA, UNCTAD, insurers |
 | Iran Nuclear Verification And IAEA Refresh | Track safeguards, enriched-material disposition, final-deal, and UN action | IAEA, UN, State, Iran, E3/EU |
 
 ## Information Gaps
@@ -147,6 +147,7 @@ mediator statements are distinct source families.
 - [Iran WMD And Missile-Relevance Source Packet](2026-06-13T2203Z-iran-wmd-missile-relevance-source-packet.md)
 - [Strategic Weapons Modernization Strategic Event Timeline](../../event-timelines/2026-06-13T0215Z-strategic-weapons-modernization-strategic-event-timeline.md)
 - [Maritime Chokepoint Strategic Assimilation Matrix](../../global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
+- [Strait Of Hormuz Strategic Chokepoint Source Packet](../maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../../global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Research And Media Source Register](../../../source-registers/research-and-media.md)
 

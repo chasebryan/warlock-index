@@ -417,6 +417,12 @@
   strategic-weapons README, docs-index, and global matrix wiring while
   preserving the distinction between legal expiration, informal restraint,
   transparency substitutes, and successor-framework claims.
+- Added the Strait of Hormuz strategic chokepoint source packet with EIA,
+  UNCLOS, UNCTAD, Allianz, ODNI, U.S.-Iran MOU, Guardian/Axios, maritime
+  source-register, maritime matrix, global matrix, docs-index, and source
+  packet series wiring while preserving no-route-guidance, no-escort-advice,
+  no-toll-avoidance, no-sanctions-advice, no-live-movement-analysis, and
+  no-operational-guidance boundaries.
 
 ## Current Analytical Posture
 
@@ -436,7 +442,8 @@ The repository is in baseline-building mode. Products prioritize:
 - Add ROK-U.S. NCG implementation and defense white paper verification,
   Australia investment/delivery, Canada defense investment/delivery, U.S. ICE
   Pact/Coast Guard icebreaker capture, Finland ICE Pact industrial capture,
-  and Hormuz strategic chokepoint source packets.
+  official Hormuz reopening/maritime-notice capture, and Hormuz
+  energy-flow/bypass-capacity refresh packets.
 - Continue watching for official published U.S.-Iran MOU text if released,
   plus Treasury/OFAC waiver records, IAEA/UN records, Iranian official
   interpretation, and mediator statements.

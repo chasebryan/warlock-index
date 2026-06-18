@@ -4,9 +4,9 @@
 
 **Product ID:** WI-COVERAGE-MAP-2026-0001
 
-**Prepared UTC:** 2026-06-18T03:11:36Z
+**Prepared UTC:** 2026-06-18T03:29:19Z
 
-**Information cutoff UTC:** 2026-06-18T03:11:36Z
+**Information cutoff UTC:** 2026-06-18T03:29:19Z
 
 **Source base:** Existing WARLOCK-INDEX assessments, source registers,
 source packets, trackers, timelines, actor profiles, maps, and standards as

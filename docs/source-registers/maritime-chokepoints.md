@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-MARITIME-2026-0001
 
-**Prepared UTC:** 2026-06-18T03:03:44Z
+**Prepared UTC:** 2026-06-18T03:29:19Z
 
-**Information cutoff UTC:** 2026-06-18T03:03:44Z
+**Information cutoff UTC:** 2026-06-18T03:29:19Z
 
 **Source base:** Official canal, port, maritime, commercial shipping,
 insurance, multilateral, research, and media source families for Red
@@ -51,15 +51,40 @@ instructions.
 - **Use:** Current-event source-treatment lane for reported Strait of Hormuz
   access terms, U.S. blockade-removal language, oil-export waiver claims,
   possible toll/free-passage disputes, commercial-market reaction, and the
-  need for a dedicated Hormuz source packet. WARLOCK-INDEX now routes these
-  claims through the U.S.-Iran MOU implementation-capture packet before any
-  dedicated Hormuz packet is built.
+  need for official implementation capture. WARLOCK-INDEX now routes these
+  claims through both the U.S.-Iran MOU implementation-capture packet and the
+  Strait of Hormuz strategic chokepoint packet.
 - **Reliability note:** Axios provides transcript reporting attributed to a
   senior administration official, not a released official text. Guardian
   reporting says the White House still had not published a copy online.
   Treasury/OFAC, State, Iranian official, IMO, Gulf-state, energy, insurance,
   and shipping evidence are required before implementation or legal claims are
   strengthened.
+
+## Strait Of Hormuz Strategic Chokepoint Source Family
+
+- **Source class:** Mixed A/B/C source family
+- **Publishers:** EIA; UN/UNCLOS; UNCTAD; Allianz Commercial; ODNI;
+  Axios/Guardian/MarketWatch current-event reporting; Gulf, Iranian, Omani,
+  IMO, Treasury/OFAC, State, shipping, and insurance source families queued
+- **Accessed UTC:** 2026-06-18T03:29:19Z
+- **URLs:**
+  - https://www.eia.gov/todayinenergy/detail.php?id=4430
+  - https://www.eia.gov/international/analysis/special-topics/World_Oil_Transit_Chokepoints
+  - https://www.un.org/depts/los/convention_agreements/texts/unclos/part3.htm
+  - https://www.un.org/depts/los/convention_agreements/texts/unclos/part2.htm
+  - https://unctad.org/publication/review-maritime-transport-2024
+  - https://commercial.allianz.com/news-and-insights/reports/shipping-safety.html
+- **Use:** Strategic source family for Hormuz energy-flow exposure, legal
+  source routing, traffic-separation and transit-passage source questions,
+  insurance/commercial risk, reported MOU access/toll/blockade-removal
+  claims, Gulf and Iranian issuer positions, and official implementation
+  follow-on.
+- **Reliability note:** EIA and UNCLOS provide strong structural and legal
+  source anchors, but EIA's captured Today in Energy page is historical.
+  Current traffic, insurance, toll, reopening, sanctions-waiver, and maritime
+  administration claims require dated official, multilateral, industry, and
+  Gulf/Iranian issuer-source capture.
 
 ## Core Red Sea / Suez Sources
 
@@ -165,7 +190,7 @@ instructions.
 | --- | --- | --- | --- |
 | Red Sea / Suez | UN, EU, ODNI, Federal Register, UNCTAD, Suez Canal Authority, insurance industry | Active source packet exists | Strongest current WARLOCK-INDEX lane |
 | South China Sea / West Philippine Sea | DoD 2025, PCA, State Limits in the Seas, Philippines official sources, PRC issuer sources, NAMRIA, NGA/USINDOPACOM, allied statements, shipping/economic sources for later trade context | Active map packet and coercion/legal-source packet exist | Legal/coercion source lane is active; trade, energy, fisheries, and insurance context remains follow-on |
-| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Queue, with active source-treatment note and U.S.-Iran MOU implementation-capture packet | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
+| Strait of Hormuz | Axios/Guardian/MarketWatch current-event reporting for reported MOU lane; EIA, IEA, ODNI, State, Treasury, Gulf official sources, IMO, insurance industry | Active source-treatment note, U.S.-Iran MOU implementation-capture packet, and Strait of Hormuz strategic chokepoint source packet | Needed for Iran maritime, energy exposure, oil waiver, sanctions, and Hormuz access analysis |
 | Malacca / Singapore | Singapore, Malaysia, Indonesia, ASEAN, UNCTAD, EIA/IEA, port authorities, insurance industry | Queue | Needed for Indo-Pacific trade, energy, and logistics concentration |
 | Panama Canal | Panama Canal Authority, UNCTAD, climate agencies, trade datasets, insurance industry | Queue | Needed for climate-infrastructure and canal-capacity analysis |
 | Black Sea | UN, Turkey, Ukraine, Russia, NATO, EU, grain and insurance sources | Queue | Needed for Russia-Ukraine maritime and food-security analysis |
@@ -193,6 +218,7 @@ instructions.
 - [South China Sea Coercion And Legal-Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
 - [U.S.-Iran MOU Source-Treatment Note](../collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../collections/source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
+- [Strait Of Hormuz Strategic Chokepoint Source Packet](../collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - [Allied And Multilateral Source Register](allied-multilateral.md)
 - [Official U.S. Sources](official-us.md)
 - [Research And Media Source Register](research-and-media.md)

@@ -7,8 +7,58 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 03:11:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 03:29:19 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Coverage Map</title>
+      <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Coverage Map</category>
+      <description>source packets, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
+    </item>
+    <item>
+      <title>Global Actor-Domain Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
+    </item>
+    <item>
+      <title>Maritime Chokepoint Strategic Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Maritime chokepoints should be treated as strategic integration nodes rather than as isolated geography. Each chokepoint links actors, legal regimes, commercial flows, energy or commodity exposure, insurance confidence, allied response, infrastructure resilience, and escalation risk. The Red Sea/Suez lane now has the strongest the corpus source packet. The remaining lanes should be expanded through separate dated source packets before the repository uses them for high-confidence comparative judgments. The Hormuz lane now has a dedicated source packet for strategic evidence separation, but not yet a current traffic, insurance, or legal-implementation update.</description>
+    </item>
+    <item>
+      <title>Maritime Chokepoints Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Organize source families for maritime chokepoint analysis across Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</description>
+    </item>
+    <item>
+      <title>Strait Of Hormuz Strategic Chokepoint Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The Strait of Hormuz should now be treated as an active the corpus source packet lane rather than only a queue item. The current corpus has three separate evidence layers that need to stay separate:</description>
+    </item>
     <item>
       <title>Allied And Multilateral Source Register</title>
       <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
@@ -38,26 +88,6 @@
       <category>Collections</category>
       <category>Trackers</category>
       <description>Arms-control erosion is a strategic-stability tracker because it changes the information environment around nuclear and strategic weapons competition. New START's expiration on February 5, 2026, after Russian suspension in 2023, marks the loss of the last legally binding bilateral U.S.-Russia strategic nuclear arms limit. That loss does not automatically prove immediate force expansion, but it does reduce treaty-based verification, data exchange, inspection rights, and predictability.</description>
-    </item>
-    <item>
-      <title>Coverage Map</title>
-      <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Coverage Map</category>
-      <description>source packets, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
-    </item>
-    <item>
-      <title>Global Actor-Domain Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:11:36 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
     </item>
     <item>
       <title>ICE Pact And Arctic Warning Implementation Source Packet</title>
@@ -118,26 +148,6 @@
       <category>Global</category>
       <category>Source Packets</category>
       <description>The U.S.-Iran MOU lane now has enough public reporting to warrant a dedicated implementation-capture packet, but not enough official-source evidence to treat the reported text as an implemented legal or operational settlement. Axios provides transcript-style text attributed to a senior administration official's readout and cautions that the print text had not been released. Guardian reporting describes the text, signing/status claims, Hormuz terms, sanctions-waiver claims, nuclear/IAEA provisions, and political reaction.</description>
-    </item>
-    <item>
-      <title>Maritime Chokepoint Strategic Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Maritime chokepoints should be treated as strategic integration nodes rather than as isolated geography. Each chokepoint links actors, legal regimes, commercial flows, energy or commodity exposure, insurance confidence, allied response, infrastructure resilience, and escalation risk. The Red Sea/Suez lane now has the strongest the corpus source packet. The remaining lanes should be expanded through separate dated source packets before the repository uses them for high-confidence comparative judgments.</description>
-    </item>
-    <item>
-      <title>Maritime Chokepoints Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/maritime-chokepoints.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:03:44 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Organize source families for maritime chokepoint analysis across Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.</description>
     </item>
     <item>
       <title>Official U.S. Threat Source Assimilation Matrix</title>
@@ -398,16 +408,6 @@
       <category>Global</category>
       <category>Sources</category>
       <description>Define source-routing rules for public map, geographic-name, topographic, nautical, command-area, and geospatial reference material used inside the corpus.</description>
-    </item>
-    <item>
-      <title>South China Sea Coercion And Legal-Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.html</guid>
-      <pubDate>Sun, 14 Jun 2026 19:46:19 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The South China Sea lane now needs three source layers kept separate at all times: coercion evidence, legal-source provenance, and map/issuer-language orientation. DoD 2025 provides the public U.S. defense assessment spine for China Coast Guard, China Maritime Militia, PLA Navy overwatch, lawfare, Philippines-focused pressure, contested outpost support, and coercive maritime tactics. PCA and State Limits in the Seas source families provide legal/procedural source routing, not the corpus legal advice or navigation authority. Philippine official source families, including BFAR, provide issuer-perspective incident and maritime-rights material that must be dated and cross-read before analytic strengthening.</description>
     </item>
   </channel>
 </rss>

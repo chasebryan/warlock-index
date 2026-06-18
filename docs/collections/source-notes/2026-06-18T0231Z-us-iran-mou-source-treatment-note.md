@@ -130,7 +130,7 @@ available. The corpus should preserve that distinction.
 
 ## Assimilation Update
 
-As of the 2026-06-18T03:03:44Z refresh, WARLOCK-INDEX should connect this
+As of the 2026-06-18T03:29:19Z refresh, WARLOCK-INDEX should connect this
 reported MOU to three assimilation lanes:
 
 - **Strategic weapons and nonproliferation:** The reported language on
@@ -141,7 +141,10 @@ reported MOU to three assimilation lanes:
 - **Maritime chokepoints:** Reported Strait of Hormuz access, no-charge
   passage for a limited period, U.S. blockade-removal language, Iranian toll
   claims, oil-export waivers, and commercial-market reaction belong in the
-  Hormuz lane at strategic level only.
+  Hormuz lane at strategic level only. The Strait of Hormuz strategic
+  chokepoint packet is now the active source packet for separating reported
+  clauses from official, energy, legal, Gulf, Iranian, shipping, and
+  insurance evidence.
 - **Sanctions and official-source routing:** Reported sanctions waivers,
   frozen-asset access, and oil-export permission require Treasury/OFAC,
   State, Federal Register, banking/shipping notice, and official Iranian
@@ -154,7 +157,7 @@ reported MOU to three assimilation lanes:
 | --- | --- | --- |
 | U.S.-Iran MOU Implementation Capture | Active packet for official text, signing statements, sanctions implementation, Hormuz evidence, IAEA/UN records, Iranian/mediator views, and market reaction | White House, State, Treasury, Iranian presidency, Iranian MFA, mediator, IAEA, UN, IMO, energy, insurance, shipping sources |
 | Iran Nuclear Verification And Safeguards Refresh | Track IAEA and official safeguards claims connected to the reported MOU | IAEA, State, UN, Iran, E3/EU |
-| Hormuz Maritime Access Source Packet | Separate reported Hormuz provisions from shipping, insurance, IMO, Gulf, and Iranian official evidence | Iran, State, Treasury, IMO, EIA/IEA, shipping/insurance sources |
+| Official Hormuz Reopening And Maritime Notice Capture | Separate reported Hormuz provisions from official reopening, notice, shipping, insurance, IMO, Gulf, and Iranian evidence | Iran, State, Treasury, IMO, EIA/IEA, shipping/insurance sources |
 | Iran Sanctions Waiver And Relief Source Note | Track reported waivers, sanctions relief sequencing, frozen assets, and oil-export implementation | Treasury/OFAC, State, Federal Register, bank/shipping notices |
 | Lebanon/Hezbollah Ceasefire Scope Note | Preserve source separation for regional actor scope and disputed ceasefire interpretation | U.S., Iran, Israel, Lebanon, UN, current-event reporting |
 
@@ -187,6 +190,7 @@ reported MOU to three assimilation lanes:
 ## Cross References
 
 - [U.S.-Iran MOU Official Text, Hormuz, And Sanctions Implementation Capture](../source-packets/strategic-weapons/2026-06-18T0311Z-us-iran-mou-hormuz-sanctions-implementation-capture.md)
+- [Strait Of Hormuz Strategic Chokepoint Source Packet](../source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - Times of India, *'It's signed': US-Iran MoU officially finalized after both sides digitally sign agreement*: `https://timesofindia.indiatimes.com/world/middle-east/its-signed-us-iran-mou-officially-finalized-after-both-sides-digitally-sign-agreement/articleshow/131814879.cms`
 - New York Post, *Complete 14-point US-Iran peace deal finally revealed*: `https://nypost.com/2026/06/17/us-news/complete-14-point-us-iran-peace-deal-finally-revealed-by-trump-administration-read-text-in-full/`
 

@@ -129,6 +129,8 @@ actor profiles, source packets, timelines, trackers, and synthesis matrices.
 - [Europe, NATO, And Ukraine Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.md)
 - [Red Sea Maritime Economics Source Packets](collections/source-packets/red-sea-maritime-economics)
 - [Red Sea Maritime Economics And Insurance Source Packet](collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
+- [Maritime Chokepoints Source Packets](collections/source-packets/maritime-chokepoints)
+- [Strait Of Hormuz Strategic Chokepoint Source Packet](collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
 - [Strategic Weapons Source Packets](collections/source-packets/strategic-weapons)
 - [Strategic Weapons Official Source Baseline Packet](collections/source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)
 - [China Nuclear And Missile Modernization Source Packet](collections/source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
