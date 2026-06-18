@@ -7,8 +7,28 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 10:56:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 17:50:58 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Stratagems, Strategy, And Warfare Academic Research Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 17:50:58 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>the corpus needs a distinct research lane for stratagems and warfare studies because strategic concepts often sit between official doctrine, academic theory, historical case work, professional military journals, and think-tank analysis. Without a separate lane, the corpus can over-rely on official strategy documents for concepts that are debated in scholarly and professional literature.</description>
+    </item>
+    <item>
+      <title>Stratagems, Strategy, And Warfare Research Explainer</title>
+      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1750Z-stratagems-strategy-warfare-research-explainer.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1750Z-stratagems-strategy-warfare-research-explainer.html</guid>
+      <pubDate>Thu, 18 Jun 2026 17:50:58 GMT</pubDate>
+      <category>Explainer</category>
+      <category>Collections</category>
+      <category>Explainers</category>
+      <description>Stratagems and warfare research belong in the corpus as a conceptual and academic source lane. The purpose is to explain how scholars and professional military writers define strategy, deception, deterrence, coercion, innovation, mobilization, and warfare change, not to turn those concepts into instructions.</description>
+    </item>
     <item>
       <title>Africa Security Environment Explainer</title>
       <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</link>
@@ -388,26 +408,6 @@
       <category>Collections</category>
       <category>Coverage Map</category>
       <description>source packets, explainers, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
-    </item>
-    <item>
-      <title>Global Actor-Domain Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
-    </item>
-    <item>
-      <title>Maritime Chokepoint Strategic Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 03:29:19 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Maritime chokepoints should be treated as strategic integration nodes rather than as isolated geography. Each chokepoint links actors, legal regimes, commercial flows, energy or commodity exposure, insurance confidence, allied response, infrastructure resilience, and escalation risk. The Red Sea/Suez lane now has the strongest the corpus source packet. The remaining lanes should be expanded through separate dated source packets before the repository uses them for high-confidence comparative judgments. The Hormuz lane now has a dedicated source packet for strategic evidence separation, but not yet a current traffic, insurance, or legal-implementation update.</description>
     </item>
   </channel>
 </rss>
