@@ -173,6 +173,7 @@ svg {
   min-height: 42px;
   overflow-x: auto;
   padding: 0.25rem;
+  border: 0;
   border-bottom: 2px solid var(--chrome-dark);
   background: var(--chrome);
   color: var(--text);
