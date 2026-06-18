@@ -14,6 +14,7 @@ and do not provide operational guidance.
 - [2026-06-13T0600Z - Official Threat Source Collection Tracker](2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [2026-06-14T0118Z - Allied Official Source Collection Tracker](2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [2026-06-14T0523Z - China/PLA Source Collection Tracker](2026-06-14T0523Z-china-pla-source-collection-tracker.md)
+- [2026-06-18T0915Z - NATO Europe Force Presence Implementation Tracker](2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
 - [2026-06-18T0525Z - Defense Industrial Base Capacity Tracker](2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
 - [2026-06-18T0538Z - Munitions Industrial Capacity Tracker](2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
 - [2026-06-18T0630Z - Critical Materials And Supply Chain Tracker](2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)

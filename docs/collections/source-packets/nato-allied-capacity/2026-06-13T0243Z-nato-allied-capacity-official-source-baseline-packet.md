@@ -13,10 +13,11 @@ Declaration; NATO The Hague Summit Declaration; NATO Defence Expenditures and
 5 Percent Commitment public page; NATO Funding public page; NATO role in
 defence industry production public page; NATO Resilience, Civil Preparedness
 and Article 3 public page; NATO Cyber Defence public page; NATO support for
-Ukraine public page; existing WARLOCK-INDEX NATO profile, Ukraine support
-tracker, strategic weapons official source baseline packet, defense industrial
-base baseline, cyber baseline, space baseline, Arctic baseline, Russia
-profile, and global assimilation matrix.
+Ukraine public page; NATO and U.S. Europe force posture review caveat; NATO
+Europe force presence implementation tracker; existing WARLOCK-INDEX NATO
+profile, Ukraine support tracker, strategic weapons official source baseline
+packet, defense industrial base baseline, cyber baseline, space baseline,
+Arctic baseline, Russia profile, and global assimilation matrix.
 
 **Analytic confidence:** High for official NATO source identity, declared
 summit commitments, public institutional framing, and source relevance.
@@ -67,6 +68,10 @@ themselves.
    ministry releases before making country-level implementation judgments.
 6. Keep cyber, infrastructure, and logistics analysis at strategic dependency
    level and outside technical or operational detail.
+7. Treat the 2026-06-18 U.S. Europe force-presence review signal as a caveated
+   implementation-tracking lane until official transcript, review terms,
+   NATO/allied responses, congressional oversight, and posture documents are
+   captured.
 
 ## Core NATO Source Ledger
 
@@ -163,6 +168,7 @@ assurance.
 | NATO Industrial Capacity Packet | Track munitions, stockpile replenishment, procurement aggregation, and supply-chain resilience | NATO industry pages, national ministries, industry filings, GAO/CRS |
 | NATO Resilience And Civil Preparedness Packet | Track Article 3 resilience, continuity, essential services, commercial dependencies, and civil support to military operations | NATO resilience page, national resilience strategies, EU/NATO materials |
 | NATO Ukraine Support Packet | Track PURL, NSATU, long-term pledges, training, aid categories, and replenishment | NATO Ukraine page, national releases, EU, UDCG, Ukraine sources |
+| NATO Europe Force Presence Implementation Tracker | Track whether the 2026-06-18 review signal becomes documented policy, oversight, allied response, or implementation evidence | DOW/DoD transcript and review terms, NATO records, allied statements, Congress, budget/posture documents |
 | NATO Cyber And Space Resilience Packet | Track cyber defence, space support, network protection, situational awareness, and dependency on commercial infrastructure | NATO cyber page, NATO space materials, allied cyber agencies |
 | NATO Country-Lane Packets | Separate evidence for major Allies and subregional clusters | National ministries, NATO data, parliamentary records |
 
@@ -184,6 +190,7 @@ assurance.
 ## Cross References
 
 - [NATO Allied Capacity And Burden-Sharing Profile](../../actor-profiles/nato-and-major-us-allies/2026-06-13T0233Z-nato-allied-capacity-burden-sharing-profile.md)
+- [NATO Europe Force Presence Implementation Tracker](../../trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
 - [Global Actor-Domain Assimilation Matrix](../../global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
 - [Ukraine War External Support Tracker](../../trackers/2026-06-13T0120Z-ukraine-war-external-support-tracker.md)
 - [Strategic Weapons Official Source Baseline Packet](../strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)

@@ -13,7 +13,8 @@ Declaration; NATO 2025 The Hague Summit Declaration; NATO Defence
 Expenditures and 5 Percent Commitment public page; NATO role in defence
 industry production public page; 2026 ODNI Annual Threat Assessment; existing
 WARLOCK-INDEX Russia, Ukraine, Arctic, defense industrial base, strategic
-weapons, cyber, space, and global assimilation products.
+weapons, cyber, space, NATO Europe force presence implementation tracker, and
+global assimilation products.
 
 **Analytic confidence:** High for NATO public doctrine, summit commitments,
 declared burden-sharing framework, and official threat framing. Moderate for
@@ -87,6 +88,12 @@ civil-preparedness, and political-cohesion lane.
    the importance of mobility, air and missile defense, maritime awareness,
    undersea infrastructure, logistics, and civil resilience across northern
    Europe.
+
+6. The 2026-06-18 U.S. Europe force-presence review signal should be treated as
+   an implementation-tracking caveat, not as a completed posture decision.
+   Follow-on analysis requires official transcript or video capture, review
+   terms, NATO and allied responses, congressional oversight, and posture,
+   basing, or budget documents.
 
 6. NATO's nuclear role is central to assurance and strategic stability, but
    public WARLOCK-INDEX treatment remains strategic and non-operational. The
@@ -282,6 +289,8 @@ U.S. defense decision-making because it clarifies:
 - Public NATO, U.S., and allied statements on PRC support to Russia, DPRK
   support to Russia, Iranian military support to Russia, and sanctions-evasion
   networks.
+- Department of War, NATO, congressional, and allied national documents tied
+  to the 2026-06-18 U.S. Europe force-presence review signal.
 - Public opinion, election outcomes, coalition politics, and fiscal stress
   indicators that affect alliance cohesion.
 
@@ -297,12 +306,16 @@ U.S. defense decision-making because it clarifies:
   country and are not always comparable.
 - NATO statements represent consensus language and may understate internal
   disagreements, implementation delays, or national political constraints.
+- U.S. review announcements do not establish NATO consensus, completed
+  withdrawals, basing changes, or allied readiness without implementation
+  evidence.
 - Ukraine-related aid data can differ across NATO, EU, national, and research
   institution datasets.
 
 ## Cross References
 
 - [Global Actor-Domain Assimilation Matrix](../../global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
+- [NATO Europe Force Presence Implementation Tracker](../../trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
 - [Russia Strategic Actor Classification](../../../assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)
 - [Ukraine War Strategic Event Timeline](../../event-timelines/2026-06-13T0157Z-ukraine-war-strategic-event-timeline.md)
 - [Ukraine War External Support Tracker](../../trackers/2026-06-13T0120Z-ukraine-war-external-support-tracker.md)

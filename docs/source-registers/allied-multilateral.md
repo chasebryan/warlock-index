@@ -1883,7 +1883,9 @@ later dated refresh.
 - **Use:** Source-treatment lane for the Secretary of War's reported NATO
   remarks announcing a six-month review of U.S. forces in Europe, Europe
   burden-sharing language, basing/access and overflight criticism, and
-  follow-on force-presence implementation evidence.
+  follow-on force-presence implementation evidence. Routed to the NATO Europe
+  Force Presence Implementation Tracker for transcript, review-term,
+  congressional, NATO, allied-response, and implementation follow-up.
 - **Reliability note:** Treat the remarks as a posture-review signal until
   official transcript, durable social-media archive, review terms, congressional
   testimony, NATO text, allied national responses, and implementation documents

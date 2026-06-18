@@ -123,6 +123,14 @@ that the Ukraine war has reshaped European defense planning, munitions demand,
 air and missile defense requirements, force posture, and defense industrial
 mobilization.
 
+The 2026-06-18 U.S. Europe force-presence review signal adds a caveat to this
+lane. Public reporting and Department of War Rapid Response social-media
+amplification indicate that U.S. force presence in Europe is under review, but
+that signal is not itself a completed posture decision, NATO consensus
+position, basing change, or readiness assessment. Europe-Russia products should
+route follow-on evidence through the NATO Europe force presence implementation
+tracker before making stronger claims.
+
 Russia's threat to Europe is not limited to tanks crossing borders. It includes
 long-range strike, nuclear coercion, hybrid activity, energy leverage,
 disinformation, sabotage, cyber operations, and political influence.
@@ -380,4 +388,3 @@ narrowing this broader classification for a specific product scope.
 - Defense Intelligence Agency, `Russia Military Power: Building a Military to
   Support Great Power Aspirations`, 2017,
   https://www.dia.mil/Portals/110/Images/News/Military_Powers_Publications/Russia_Military_Power_Report_2017.pdf
-
