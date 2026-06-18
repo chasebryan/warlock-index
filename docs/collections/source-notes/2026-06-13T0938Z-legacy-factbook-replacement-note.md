@@ -8,6 +8,15 @@
 
 **Information cutoff UTC:** 2026-06-13T09:38:00Z
 
+**Source base:** CIA World Factbook sunset notice; CIA World Leaders; State
+country and area source family; World Bank, IMF, UNdata, CRS, GAO, BGN, map,
+and official foreign-government source families identified in the access
+ledger.
+
+**Analytic confidence:** High for the Factbook sunset source-treatment rule
+and replacement-source routing. Moderate for individual replacement pages
+where access status requires future dated refresh.
+
 **Purpose:** Define replacement-source routing for country, government,
 geographic, demographic, economic, and policy-reference fields that older
 WARLOCK-INDEX products might otherwise have sourced to the CIA World

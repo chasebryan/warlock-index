@@ -8,6 +8,14 @@
 
 **Information cutoff UTC:** 2026-06-17T22:51:55Z
 
+**Source base:** CIA World Leaders, State country and area pages, official
+foreign-government pages, parliaments, ministries, embassies, international
+organization references, and map/geospatial source families used for foreign
+government reference routing.
+
+**Analytic confidence:** High for source-family routing and issuer-separation
+rules. Moderate for individual page currency pending dated access refreshes.
+
 **Purpose:** Define source-routing rules for foreign government leadership,
 officeholder, diplomatic, country, and official-government reference material
 used inside WARLOCK-INDEX.

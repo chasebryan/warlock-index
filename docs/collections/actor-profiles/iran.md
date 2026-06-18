@@ -8,6 +8,14 @@
 
 **Information cutoff UTC:** 2026-06-12T23:33:32Z
 
+**Source base:** Iran strategic actor classification; Iran WMD and
+missile-relevance source packet; existing Middle East, strategic-weapons,
+maritime, cyber, and official-source register lanes.
+
+**Analytic confidence:** Moderate for standing corpus classification and
+source routing. Lower for current capability, proxy-network condition, and
+WMD-related details pending later dated official-source refreshes.
+
 **Primary assessment:** [Iran Strategic Actor Classification](../../assessments/middle-east/2026-06-12T2333Z-iran-strategic-actor-classification.md)
 
 ## Standing Classification

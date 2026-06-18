@@ -10,6 +10,7 @@ const libraryRoot = path.join(siteRoot, "library");
 const corpusPath = path.join(siteRoot, "corpus.js");
 const workspaceCorpusPath = path.join(siteRoot, "workspace", "corpus.js");
 const workspaceServiceWorkerPath = path.join(siteRoot, "workspace", "service-worker.js");
+const feedHtmlPath = path.join(siteRoot, "feed.html");
 const feedPath = path.join(siteRoot, "feed.xml");
 const robotsPath = path.join(siteRoot, "robots.txt");
 const sitemapPath = path.join(siteRoot, "sitemap.xml");
@@ -52,7 +53,7 @@ async function hashFile(filePath) {
 
 async function generatedSnapshot() {
   const generatedRootFiles = [];
-  for (const filePath of [corpusPath, workspaceCorpusPath, workspaceServiceWorkerPath, feedPath, robotsPath, sitemapPath]) {
+  for (const filePath of [corpusPath, workspaceCorpusPath, workspaceServiceWorkerPath, feedHtmlPath, feedPath, robotsPath, sitemapPath]) {
     if (await fileExists(filePath)) generatedRootFiles.push(filePath);
   }
 

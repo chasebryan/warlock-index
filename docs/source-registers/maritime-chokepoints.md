@@ -8,6 +8,14 @@
 
 **Information cutoff UTC:** 2026-06-14T19:46:19Z
 
+**Source base:** Official canal, port, maritime, commercial shipping,
+insurance, multilateral, research, and media source families for Red
+Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.
+
+**Analytic confidence:** High for source-family routing and boundary rules.
+Moderate for current chokepoint conditions because live movement, market
+pricing, and incident data require dated product-level refreshes.
+
 **Purpose:** Organize source families for maritime chokepoint analysis across
 Red Sea/Suez, Hormuz, Malacca/Singapore, Panama, Black Sea, and Arctic lanes.
 

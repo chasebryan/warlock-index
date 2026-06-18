@@ -6,6 +6,15 @@
 
 **Prepared UTC:** 2026-06-12T23:20:35Z
 
+**Information cutoff UTC:** 2026-06-12T23:20:35Z
+
+**Source base:** WARLOCK-INDEX operating boundary, source evaluation
+standard, datetime/versioning standard, assessment style guide, and initial
+corpus product requirements.
+
+**Analytic confidence:** High for internal repository product requirements
+and safety boundaries.
+
 ## Purpose
 
 This standard defines the minimum structure for WARLOCK-INDEX analytical
@@ -83,4 +92,3 @@ WARLOCK-INDEX products must not include:
 Do not silently overwrite major judgments. If a product changes materially,
 create a new dated product or add a clearly labeled revision note explaining
 what changed, why it changed, and what source base caused the change.
-

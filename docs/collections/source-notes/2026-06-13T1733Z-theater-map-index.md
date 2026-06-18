@@ -8,6 +8,15 @@
 
 **Information cutoff UTC:** 2026-06-13T17:33:00Z
 
+**Source base:** WARLOCK-INDEX map/geospatial reference register; NGA, USGS,
+NOAA, BGN, combatant-command area-of-responsibility pages, NATO public maps,
+State, foreign-government, UN, and allied map-source families listed in this
+index.
+
+**Analytic confidence:** High for safe source-family routing and map-use
+boundaries. Moderate for page-level currency pending future dated refresh of
+individual map products and access status.
+
 **Purpose:** Link WARLOCK-INDEX theater lanes to safe public map,
 geospatial, command-area, nautical, topographic, and naming-source families.
 

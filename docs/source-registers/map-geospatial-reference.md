@@ -8,6 +8,13 @@
 
 **Information cutoff UTC:** 2026-06-14T19:46:19Z
 
+**Source base:** NGA, USGS, NOAA, BGN, combatant-command area-of-responsibility
+pages, NATO, State, UN, allied, and foreign-government public map and
+geospatial source families.
+
+**Analytic confidence:** High for map-source routing and safety boundaries.
+Moderate for individual map currency pending dated access refreshes.
+
 **Purpose:** Define source-routing rules for public map, geographic-name,
 topographic, nautical, command-area, and geospatial reference material used
 inside WARLOCK-INDEX.

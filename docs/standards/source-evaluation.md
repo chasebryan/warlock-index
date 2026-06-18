@@ -6,6 +6,14 @@
 
 **Prepared UTC:** 2026-06-12T23:20:35Z
 
+**Information cutoff UTC:** 2026-06-12T23:20:35Z
+
+**Source base:** WARLOCK-INDEX product standard, source-register structure,
+and initial corpus source-classification requirements.
+
+**Analytic confidence:** High for internal source-classification and
+source-treatment requirements.
+
 ## Source Classes
 
 WARLOCK-INDEX uses four source classes:
@@ -51,4 +59,3 @@ exist.
 
 Do not copy long passages. Summarize in original language, cite the source, and
 quote only short phrases when exact wording is analytically necessary.
-

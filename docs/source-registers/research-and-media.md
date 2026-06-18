@@ -2,7 +2,18 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+**Source Register ID:** WI-SOURCE-REGISTER-RESEARCH-MEDIA-2026-0001
+
 **Prepared UTC:** 2026-06-13T03:20:02Z
+
+**Information cutoff UTC:** 2026-06-13T03:20:02Z
+
+**Source base:** Research, media, industry, and specialist current-event
+source families listed in this register.
+
+**Analytic confidence:** Moderate for source-family routing. Individual
+claims require product-level date, attribution, source grading, and
+corroboration against official or primary-source material where available.
 
 Research and media sources are useful for current-event awareness, conflict
 timelines, and outside analytic perspectives. They should be separated from

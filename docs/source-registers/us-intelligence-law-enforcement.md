@@ -8,6 +8,15 @@
 
 **Information cutoff UTC:** 2026-06-17T21:06:51Z
 
+**Source base:** ODNI, CIA, FBI, DHS, CISA, NSA, State, Treasury, DOJ, DEA,
+ATF, CBP, Coast Guard, NGA, congressional, sanctions, border, cyber,
+counterterrorism, counternarcotics, law-enforcement, and geospatial official
+public source families.
+
+**Analytic confidence:** High for source-family routing and issuer identity.
+Moderate for individual page currency and case-level completeness pending
+dated source refreshes.
+
 **Purpose:** Organize official U.S. intelligence, homeland security, law
 enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and
 geospatial source families for WARLOCK-INDEX strategic threat analysis.

@@ -8,6 +8,15 @@
 
 **Information cutoff UTC:** 2026-06-12T23:38:27Z
 
+**Source base:** China strategic actor classification; PRC military
+modernization strategic baseline; China/PLA source collection tracker; linked
+China/PLA official military, doctrine, Taiwan, South China Sea, cyber, and
+strategic-weapons source packets.
+
+**Analytic confidence:** High for corpus routing and standing source-family
+classification. Moderate for current capability, intent, and cross-domain
+weighting pending later dated source refreshes.
+
 **Primary assessment:** [China Strategic Actor Classification](../../assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.md)
 
 ## Standing Classification

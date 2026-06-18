@@ -8,6 +8,18 @@
 
 **Information cutoff UTC:** 2026-06-17T22:51:55Z
 
+**Source base:** China/PLA official military and security source baseline
+packet; PRC official doctrine packet; DoD/DIA extraction map; PRC MND and PLA
+official-media capture packet; DoD-to-PRC issuer-language crosswalk; PLA
+services and arms packet; Taiwan, South China Sea, cyber, Salt Typhoon,
+allied/regional, official U.S., and foreign-government source lanes listed in
+the tracker.
+
+**Analytic confidence:** High for current corpus collection status and
+source-family routing. Moderate for page-level completeness because several
+PRC, Taiwan, Philippine, ASEAN, cyber, space, and defense-industrial lanes
+remain queued for later dated refresh.
+
 **Purpose:** Track China and PLA source-family collection across official
 U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial,
 technology, and WARLOCK-INDEX derived products.

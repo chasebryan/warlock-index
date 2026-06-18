@@ -6,6 +6,15 @@
 
 **Prepared UTC:** 2026-06-12T23:20:35Z
 
+**Information cutoff UTC:** 2026-06-12T23:20:35Z
+
+**Source base:** WARLOCK-INDEX product standard, source evaluation standard,
+datetime and versioning standard, and initial assessment corpus style
+requirements.
+
+**Analytic confidence:** High for internal style guidance and repository
+writing requirements.
+
 ## Voice
 
 Write in clear, disciplined prose. The tone should be sober, direct, and human:
@@ -48,4 +57,3 @@ emotional language.
 Use UTC timestamps for product metadata. Use absolute dates in the body when
 describing events. Avoid unsupported phrases such as "recently" unless the date
 is also provided.
-

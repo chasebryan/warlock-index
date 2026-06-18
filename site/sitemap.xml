@@ -9,6 +9,10 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/feed.html</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/workspace/</loc>
     <priority>0.85</priority>
   </url>

@@ -8,6 +8,16 @@
 
 **Information cutoff UTC:** 2026-06-12T23:42:12Z
 
+**Source base:** Russia strategic actor classification; Russia strategic
+weapons and nuclear-signaling source packet; Ukraine-war tracker and timeline
+lanes; existing Euro-Atlantic, Arctic, cyber, strategic-weapons, sanctions,
+and official-source register lanes.
+
+**Analytic confidence:** Moderate for standing corpus classification and
+source routing. Lower for current wartime force condition, industrial
+adaptation, nuclear signaling, and hybrid-activity detail pending later dated
+official-source refreshes.
+
 **Primary assessment:** [Russia Strategic Actor Classification](../../assessments/europe-russia/2026-06-12T2342Z-russia-strategic-actor-classification.md)
 
 ## Standing Classification

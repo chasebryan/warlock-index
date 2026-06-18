@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/feed.xsl?v=20260617-green-press"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WARLOCK-INDEX Recent Corpus Updates</title>
@@ -57,7 +57,7 @@
       <category>Document</category>
       <category>Collections</category>
       <category>Coverage Map</category>
-      <description>This map defines the initial archive architecture for the corpus. It is not a list of recommendations. It is a research coverage model for organizing future open-source defense assessments.</description>
+      <description>source packets, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
     </item>
     <item>
       <title>Foreign Government Reference Source Register</title>

@@ -2,7 +2,19 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+**Source Register ID:** WI-SOURCE-REGISTER-OFFICIAL-US-2026-0001
+
 **Prepared UTC:** 2026-06-17T22:51:55Z
+
+**Information cutoff UTC:** 2026-06-17T22:51:55Z
+
+**Source base:** Official U.S. executive-branch, congressional, legal,
+sanctions, diplomatic, cyber, maritime, map, and alliance source families
+listed in this register and linked corpus source packets.
+
+**Analytic confidence:** High for source-family routing and issuer identity.
+Moderate for page-level currency where individual official pages require
+later dated refresh.
 
 ## Treasury, State, And Congressional Salt Typhoon Telecommunications Source Family
 

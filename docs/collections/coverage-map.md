@@ -2,7 +2,19 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+**Product ID:** WI-COVERAGE-MAP-2026-0001
+
 **Prepared UTC:** 2026-06-17T22:51:55Z
+
+**Information cutoff UTC:** 2026-06-17T22:51:55Z
+
+**Source base:** Existing WARLOCK-INDEX assessments, source registers,
+source packets, trackers, timelines, actor profiles, maps, and standards as
+of the information cutoff.
+
+**Analytic confidence:** High for repository coverage state and planned
+corpus organization. Moderate for prioritization because future source
+availability and public-event cadence can change build order.
 
 This map defines the initial archive architecture for WARLOCK-INDEX. It is not
 a list of recommendations. It is a research coverage model for organizing

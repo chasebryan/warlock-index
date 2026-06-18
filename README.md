@@ -48,7 +48,8 @@ public website output under `site/`.
 - `site/index.html` is the public homepage and search entry point.
 - `site/library/` is generated from the canonical Markdown corpus.
 - `site/corpus.js` powers client-side search and route suggestions.
-- `site/feed.xml` provides an Atom feed of recent dated products.
+- `site/feed.html` provides a browser-readable recent-updates page.
+- `site/feed.xml` provides the RSS feed of recent dated products.
 - `site/workspace/` publishes the installable Workspace app for browsing and
   downloading selected corpus records (HTML packets or plain text bundles).
 - Homepage shows recent updates and improved date-aware search. Document pages include "Cite" support.

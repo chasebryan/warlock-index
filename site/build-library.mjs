@@ -246,6 +246,7 @@ function extractProductId(markdown) {
     "Tracker ID",
     "Timeline ID",
     "Matrix ID",
+    "Source Note ID",
     "Source Packet ID",
     "Source Register ID",
     "Standard ID"
@@ -551,7 +552,7 @@ function navGroups(docs) {
 
 function renderDocNav(currentDoc, docs) {
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
-  const feedUrl = relativeUrl(currentDoc.outputRel, "feed.xml");
+  const feedUrl = relativeUrl(currentDoc.outputRel, "feed.html");
   const siteRoutes = `
     <section class="doc-group site-routes">
       <h2>Site</h2>
@@ -605,7 +606,7 @@ function headerHtml(currentDoc, latestUpdateStr = "2026-06-16 05:12:39Z", latest
   const maps = relativeUrl(currentDoc.outputRel, "library/maps/index.html");
   const standards = relativeUrl(currentDoc.outputRel, "library/standards/product-standard.html");
   const workspaceApp = relativeUrl(currentDoc.outputRel, "workspace/index.html");
-  const feedUrl = relativeUrl(currentDoc.outputRel, "feed.xml");
+  const feedUrl = relativeUrl(currentDoc.outputRel, "feed.html");
   const activeSection = primaryNavSection(currentDoc.outputRel);
   const navAttrs = (section) => section === activeSection ? ' class="is-active" aria-current="page"' : "";
   return `
@@ -742,7 +743,7 @@ function renderFeed(docs) {
 
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
-    `<?xml-stylesheet type="text/xsl" href="/feed.xsl?v=${feedAssetVersion}"?>`,
+    '<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>',
     '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
     "  <channel>",
     `    <title>${escapeXml(siteName)} Recent Corpus Updates</title>`,
@@ -771,6 +772,123 @@ function renderFeed(docs) {
     "</rss>",
     ""
   ].join("\n");
+}
+
+function renderFeedPage(docs, latestUpdateStr, latestUpdateIso) {
+  const items = latestFeedDocs(docs);
+  const updated = items[0]?.feedDate || parseUtcDate(latestUpdateIso) || new Date(Date.UTC(2026, 5, 13, 0, 0, 0));
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Recent WARLOCK-INDEX corpus updates, with links to the RSS feed and generated documentation pages."
+    >
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="${escapeAttr(`${siteOrigin}/feed.html`)}">
+    <link rel="alternate" type="application/rss+xml" title="WARLOCK-INDEX recent updates feed" href="/feed.xml">
+    <link rel="icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png" sizes="180x180">
+    <link rel="icon" href="/favicon.svg?v=${feedAssetVersion}" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon.png?v=${feedAssetVersion}" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="mask-icon" href="/favicon.svg?v=${feedAssetVersion}" color="#006b2b">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#c0c0c0">
+    <meta property="og:title" content="Recent Updates | ${escapeAttr(siteName)}">
+    <meta property="og:description" content="Recent entries from the open-source strategic research corpus.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="${escapeAttr(`${siteOrigin}/feed.html`)}">
+    <meta property="og:site_name" content="${escapeAttr(siteName)}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Recent Updates | ${escapeAttr(siteName)}">
+    <meta name="twitter:description" content="Recent entries from the open-source strategic research corpus.">
+    <title>Recent Updates | ${siteName}</title>
+    <link rel="stylesheet" href="styles.css?v=${feedAssetVersion}">
+  </head>
+  <body>
+    <a class="skip-link" href="#updates">Skip to updates</a>
+
+    <div class="page-shell" id="top">
+      <header class="site-header" data-elevated="false">
+        <a class="brand-panel" href="index.html" aria-label="WARLOCK-INDEX home">
+          <span class="brand-copy">
+            <strong>WARLOCK-INDEX</strong>
+            <span>UNCLASSIFIED//OPEN SOURCE</span>
+            <em>Strategic Research Corpus &amp; Knowledge Arsenal</em>
+          </span>
+        </a>
+        <div class="status-terminal" aria-label="Local corpus terminal status">
+          <p>LOCAL CORPUS TERMINAL</p>
+          <p>STATUS: ONLINE</p>
+          <p>MODE: READ-ONLY</p>
+          <p>UPDATED: <time datetime="${escapeAttr(latestUpdateIso)}">${escapeHtml(latestUpdateStr)}</time></p>
+        </div>
+      </header>
+
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="library/assessments/">Assessments</a>
+        <a href="library/collections/coverage-map.html">Collections</a>
+        <a href="library/maps/">Maps</a>
+        <a href="library/standards/product-standard.html">Standards</a>
+        <a class="is-active" href="feed.html" aria-current="page">Feed</a>
+        <a href="workspace/">Workspace</a>
+      </nav>
+
+      <main class="feed-page-shell" id="updates">
+        <section class="feed-page-head" aria-labelledby="feed-title">
+          <p class="feed-page-kicker">Recent updates</p>
+          <h1 id="feed-title">Latest corpus entries</h1>
+          <p>
+            This page is the browser-readable update feed. The machine-readable RSS endpoint remains available at
+            <a href="feed.xml">feed.xml</a>.
+          </p>
+          <div class="feed-page-meta">
+            <span>${items.length} entries</span>
+            <span>Updated <time datetime="${escapeAttr(updated.toISOString())}">${escapeHtml(formatUpdateTime(updated))}</time></span>
+          </div>
+        </section>
+
+        <section class="feed-page-list" aria-label="Latest corpus entries">
+          ${items.map((doc) => `
+            <article class="feed-page-item">
+              <div class="feed-page-item-meta">
+                <time datetime="${escapeAttr(doc.feedDate.toISOString())}">${escapeHtml(formatUpdateTime(doc.feedDate))}</time>
+                <span>${escapeHtml(doc.type)}</span>
+                <span>${escapeHtml(doc.theater)}</span>
+              </div>
+              <h2><a href="${escapeAttr(doc.outputRel)}">${escapeHtml(doc.title)}</a></h2>
+              <p>${escapeHtml(displaySummary(doc.summary))}</p>
+            </article>
+          `).join("")}
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <nav aria-label="Footer navigation">
+          <a href="about.html">About</a>
+          <span>|</span>
+          <a href="library/standards/source-evaluation.html">Method</a>
+          <span>|</span>
+          <a href="feed.xml">RSS</a>
+          <span>|</span>
+          <a href="https://github.com/chasebryan/warlock-index">GitHub</a>
+          <span>|</span>
+          <a href="library/standards/product-standard.html">Disclaimer</a>
+        </nav>
+        <div class="footer-copy">
+          <p>This open-source research project publishes unclassified, source-routed corpus material.</p>
+          <p class="site-maintainer">Maintained by The Better Science Foundation</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+`;
 }
 
 async function build() {
@@ -857,6 +975,7 @@ async function build() {
   const sitemapUrls = [
     { loc: absoluteUrl("index.html"), priority: "1.0" },
     { loc: absoluteUrl("about.html"), priority: "0.8" },
+    { loc: absoluteUrl("feed.html"), priority: "0.75" },
     { loc: `${siteOrigin}/workspace/`, priority: "0.85" },
     ...docs.map((doc) => ({
       loc: absoluteUrl(doc.outputRel),
@@ -888,8 +1007,9 @@ async function build() {
   await writeFile(path.join(siteRoot, "sitemap.xml"), sitemap, "utf8");
   await writeFile(path.join(siteRoot, "robots.txt"), robots, "utf8");
   await writeFile(path.join(siteRoot, "feed.xml"), renderFeed(docs), "utf8");
+  await writeFile(path.join(siteRoot, "feed.html"), stripTrailingWhitespace(renderFeedPage(docs, latestUpdateStr, latestUpdateIso)), "utf8");
 
-  console.log(`Generated ${docs.length} documentation pages, corpus.js, feed.xml, sitemap.xml, and robots.txt`);
+  console.log(`Generated ${docs.length} documentation pages, corpus.js, feed.html, feed.xml, sitemap.xml, and robots.txt`);
 }
 
 await build();

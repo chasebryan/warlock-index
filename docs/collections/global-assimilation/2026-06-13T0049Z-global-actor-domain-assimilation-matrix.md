@@ -8,6 +8,14 @@
 
 **Information cutoff UTC:** 2026-06-17T22:51:55Z
 
+**Source base:** Existing WARLOCK-INDEX actor profiles, assessments, source
+packets, source notes, trackers, event timelines, source registers, coverage
+map, and standards as of the information cutoff.
+
+**Analytic confidence:** High for internal corpus linkage and repository
+coverage status. Moderate for actor-domain weighting because several lanes
+remain queued for later dated source refreshes.
+
 **Purpose:** Provide a reusable integration model for connecting actor
 profiles, theater assessments, source notes, event timelines, and domain files
 inside WARLOCK-INDEX.

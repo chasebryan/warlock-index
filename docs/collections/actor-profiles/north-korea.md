@@ -8,6 +8,15 @@
 
 **Information cutoff UTC:** 2026-06-13T00:09:21Z
 
+**Source base:** North Korea strategic actor classification; DPRK strategic
+weapons source packet; existing Indo-Pacific, strategic-weapons, sanctions,
+cyber, and official-source register lanes.
+
+**Analytic confidence:** Moderate for standing corpus classification and
+source routing. Lower for current force readiness, weapons reliability,
+sanctions-evasion scale, and cyber-finance detail pending later dated
+official-source refreshes.
+
 **Primary assessment:** [North Korea Strategic Actor Classification](../../assessments/indo-pacific/2026-06-13T0009Z-north-korea-strategic-actor-classification.md)
 
 ## Standing Classification

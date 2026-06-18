@@ -6,6 +6,14 @@
 
 **Prepared UTC:** 2026-06-12T23:20:35Z
 
+**Information cutoff UTC:** 2026-06-12T23:20:35Z
+
+**Source base:** ISO 8601 UTC timestamp convention and WARLOCK-INDEX product
+versioning requirements.
+
+**Analytic confidence:** High for internal timestamp and version-control
+requirements.
+
 ## Timestamp Format
 
 Use ISO 8601 UTC timestamps:
@@ -42,4 +50,3 @@ Examples:
 For minor corrections, update the file and add a short revision note. For major
 analytic changes, create a new dated assessment and link the older product as a
 previous baseline.
-
