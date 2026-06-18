@@ -15,7 +15,7 @@ official-page checks for NHK World-Japan, DW, France 24, TRT World, CNA, ABC
 News Australia, CGTN English, Arirang TV, UN Web TV, Europe by Satellite,
 CPAC Canada, NASA, UK Parliament Live, White House Live, U.S. House
 FloorCast, European Parliament Streaming, U.S. defense live events, World
-Bank Live, IMF Live, and LiveNOW from FOX.
+Bank Live, IMF Live, LiveNOW from FOX, and LIVE-NEWS source audit tracker.
 
 **Analytic confidence:** Moderate for link routing and inclusion rules. Low
 for any claim derived only from a live stream unless timestamped, archived,
@@ -130,6 +130,15 @@ filing, public notice, or dated article.
   for the public card grid unless a specific C-SPAN live event is freely
   available without authentication.
 
+## Reviewed Candidate Queue
+
+Keep reviewed candidates in documentation until a later check confirms a clean
+official route, low-friction access, and appropriate source-treatment label.
+The current candidate queue is maintained in the LIVE-NEWS source audit tracker
+and includes Reuters video/live routes, AP video/live routes, Sky News Live,
+BBC News live routes, PBS NewsHour Live, C-SPAN event-level pages, Al Jazeera
+English Live, Fox Weather, and Senate live routes.
+
 ## Source List
 
 - NHK World-Japan live: `https://www3.nhk.or.jp/nhkworld/en/live/`
@@ -163,5 +172,6 @@ filing, public notice, or dated article.
 
 ## Cross References
 
+- [LIVE-NEWS Source Audit Tracker](../trackers/2026-06-18T1015Z-live-news-source-audit-tracker.md)
 - [Research And Media Source Register](../../source-registers/research-and-media.md)
 - [Source Evaluation Standard](../../standards/source-evaluation.md)

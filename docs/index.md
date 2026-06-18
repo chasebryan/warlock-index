@@ -83,6 +83,7 @@ matrices.
 - [Official Threat Source Collection Tracker](collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Allied Official Source Collection Tracker](collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [China/PLA Source Collection Tracker](collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
+- [LIVE-NEWS Source Audit Tracker](collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.md)
 - [NATO Europe Force Presence Implementation Tracker](collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
 - [Source Notes](collections/source-notes)
 - [Legacy Factbook Replacement Note](collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)

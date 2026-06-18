@@ -9,7 +9,7 @@
 **Information cutoff UTC:** 2026-06-18T10:05:00Z
 
 **Source base:** Research, media, industry, and specialist current-event
-source families listed in this register.
+source families listed in this register; LIVE-NEWS source audit tracker.
 
 **Analytic confidence:** Moderate for source-family routing. Individual
 claims require product-level date, attribution, source grading, and
@@ -68,7 +68,25 @@ official-source baselines and graded explicitly.
   friction. Treat LiveNOW from FOX as a commercial current-event awareness
   lane, not an official government or public-broadcaster source; preserve
   timestamp, segment title, URL, and follow with official documents or stable
-  reporting before assimilating claims.
+  reporting before assimilating claims. Use the LIVE-NEWS Source Audit Tracker
+  to maintain public-card status, reviewed candidates, and future live-source
+  additions.
+
+## LIVE-NEWS Reviewed Candidate Queue, 2026-06-18
+
+- **Source class:** Candidate B/C depending on issuer, access route, and use.
+- **Candidate publishers/routes:** Reuters video/live routes; AP video/live
+  routes; Sky News Live; BBC News live route; PBS NewsHour Live; C-SPAN
+  event-level pages; Al Jazeera English Live; Fox Weather; Senate live routes.
+- **Use:** Future live-source review queue. These sources can support
+  current-event awareness, public-affairs discovery, or follow-on source
+  collection only after official route, free access, ad/paywall friction, and
+  source-treatment status are checked.
+- **Reliability note:** Candidate status is not public-card approval. Keep
+  candidates in documentation until a clean official route is verified. Do not
+  assimilate claims from a live candidate without timestamp, provider, event
+  title, URL, and stable corroboration.
+- **Cross reference:** [LIVE-NEWS Source Audit Tracker](../collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.md)
 
 ## Reported U.S.-Iran MOU Current-Event Reporting, 2026-06-17/18
 
