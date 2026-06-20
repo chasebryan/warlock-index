@@ -7,8 +7,18 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 19:12:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 00:35:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>Russia State Cyber Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-20T0035Z-russia-state-cyber-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-20T0035Z-russia-state-cyber-source-packet.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:35:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The Russia cyber lane should not be treated as one undifferentiated APT list. Public records mix GRU military-intelligence cases, FSB-linked political interference and espionage warnings, possible SVR lanes that require separate source capture, Ukraine-war disruptive activity, legal actions, sanctions, reward notices, and allied cyber-center warnings.</description>
+    </item>
     <item>
       <title>Africa Map Reference Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html</link>
@@ -240,6 +250,96 @@
       <description>Stratagems and warfare research belong in the corpus as a conceptual and academic source lane. The purpose is to explain how scholars and professional military writers define strategy, deception, deterrence, coercion, innovation, mobilization, and warfare change, not to turn those concepts into instructions.</description>
     </item>
     <item>
+      <title>PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.html</guid>
+      <pubDate>Thu, 18 Jun 2026 12:13:59 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>PRC cyber labels should be treated as dated source labels, not as a single normalized alias encyclopedia. The accessible official record in this pass supports a controlled crosswalk across several label families:</description>
+    </item>
+    <item>
+      <title>Allied And Multilateral Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/allied-multilateral.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied DIB country crosswalks, UK defense investment/readiness implementation, Japan defense buildup implementation, allied workforce, shipbuilding, munitions, air and missile defense, drone/counter-UAS, critical materials, and implementation cross-checks.</description>
+    </item>
+    <item>
+      <title>China/PLA Source Collection Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>Track China and PLA source-family collection across official U.S., PRC issuer, Taiwan, allied/regional, cyber, legal, map, industrial, technology, and the corpus derived products.</description>
+    </item>
+    <item>
+      <title>Coverage Map</title>
+      <link>https://www.warlock-index.org/library/collections/coverage-map.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/coverage-map.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Document</category>
+      <category>Collections</category>
+      <category>Coverage Map</category>
+      <description>source packets, explainers, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
+    </item>
+    <item>
+      <title>Current Category Source Sweep Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The corpus has strong source-packet coverage, but the next value is a dated refresh cycle across every category. The sweep should prioritize official updates first, then multilateral/institutional data, then controlled current-event sources that point to primary records.</description>
+    </item>
+    <item>
+      <title>Cyber Nation-State Actor And APT Source Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>the corpus already has a strong PRC cyber and critical-infrastructure lane, including a Salt Typhoon telecommunications note and a PRC APT/Typhoon label crosswalk. The Russia lane now has its first dedicated state-cyber source packet, which separates GRU, FSB, queued SVR, Ukraine-war, legal-action, sanctions/reward, advisory, and allied-warning source classes. The remaining gap is to build out Iranian, DPRK, allied cyber-center, and state-crime overlap cyber coverage without turning APT coverage into a technical playbook or unsourced alias encyclopedia.</description>
+    </item>
+    <item>
+      <title>Global Actor-Domain Assimilation Matrix</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
+    </item>
+    <item>
+      <title>Official Threat Source Collection Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
+    </item>
+    <item>
+      <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</guid>
+      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Organize official U.S. intelligence, homeland security, law enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for the corpus strategic threat analysis.</description>
+    </item>
+    <item>
       <title>Africa Security Environment Explainer</title>
       <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</guid>
@@ -290,16 +390,6 @@
       <description>Space matters because communications, navigation, missile warning, weather, intelligence, timing, military command, disaster response, commercial connectivity, and financial systems depend on space-enabled services. Counterspace matters because adversaries may try to degrade, deny, disrupt, or destroy those services in crisis or conflict.</description>
     </item>
     <item>
-      <title>Current Category Source Sweep Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:49:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The corpus has strong source-packet coverage, but the next value is a dated refresh cycle across every category. The sweep should prioritize official updates first, then multilateral/institutional data, then controlled current-event sources that point to primary records.</description>
-    </item>
-    <item>
       <title>U.S.-Iran MOU Implementation Watch Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.html</guid>
@@ -310,104 +400,14 @@
       <description>The Iran MOU lane remains active but unimplemented in the corpus. Current reporting can support a reported signed-and-publicized MOU status, but the corpus should not treat sanctions waivers, oil-export permissions, frozen-asset movement, Strait of Hormuz access, toll treatment, IAEA/nuclear measures, or UN Security Council action as implemented until primary records are captured.</description>
     </item>
     <item>
-      <title>U.S.-Iran MOU Implementation Gap Capture</title>
-      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.html</guid>
+      <title>Official U.S. Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/official-us.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/official-us.html</guid>
       <pubDate>Thu, 18 Jun 2026 10:25:19 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Source Notes</category>
-      <description>The 2026-06-18T10:25Z follow-up still did not locate the official implementation records needed to upgrade the reported U.S.-Iran MOU lane. Current public reporting can support a reported signed-and-publicized MOU status, but the corpus should continue to treat sanctions waivers, oil exports, frozen assets, Hormuz reopening, toll treatment, nuclear/IAEA measures, and UN action as unimplemented in the corpus until primary records are captured.</description>
-    </item>
-    <item>
-      <title>LIVE-NEWS Source Audit Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:15:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>LIVE-NEWS should keep a small public card grid and a larger docs-only audit queue. Public-card sources need an official free route, low-friction access, and clear source treatment. Candidate sources can be useful for monitoring or future source work, but they should stay out of the public LIVE-NEWS grid until their route is checked and the ad/paywall/authentication friction is acceptable.</description>
-    </item>
-    <item>
-      <title>NATO Europe Force Presence Allied Response Capture Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 09:45:00 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>No strong allied-response judgment should be made until official NATO or national sources are captured. Current reporting indicates that U.S. remarks created a live NATO burden-sharing and force-presence issue, but allied reaction must be separated by issuer: NATO institutional language, national government statements, parliamentary oversight, budget action, and later implementation evidence are different source types.</description>
-    </item>
-    <item>
-      <title>NATO Europe Force Presence Review Source Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 09:35:00 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>The 2026-06-18 force-presence review signal currently rests on direct Department of War Rapid Response social-media URLs and current-event reporting. That is enough to preserve a dated source-treatment lane and trigger follow-on collection. It is not enough to treat the review as a completed force-posture decision, NATO consensus position, basing/access settlement, troop withdrawal, or allied readiness judgment.</description>
-    </item>
-    <item>
-      <title>NATO Europe Force Presence Implementation Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 09:15:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The 2026-06-18 remarks are a review signal, not a completed force-posture decision. the corpus should now track the review as an implementation question: what did the Department of War formally say, what review terms are issued, what NATO or allied governments say in response, what Congress asks, and whether later documents change U.S. force presence, basing, access, funding, or posture language.</description>
-    </item>
-    <item>
-      <title>NATO And U.S. Europe Force Posture Review Caveat</title>
-      <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:55:00 GMT</pubDate>
-      <category>Document</category>
-      <category>Collections</category>
-      <category>Source Notes</category>
-      <description>The Secretary of War's 2026-06-18 NATO remarks should be added to the corpus as a live posture-review caveat. AP reports that Hegseth announced a six-month review of U.S. forces in Europe and framed the review around whether NATO is moving toward Europe taking primary responsibility for European defense.</description>
-    </item>
-    <item>
-      <title>Air And Missile Defense Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-air-missile-defense-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-air-missile-defense-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Air and missile defense is the public shorthand for detecting, tracking, and defeating air and missile threats, but the strategic problem is bigger than the interceptor fired at the end. It includes sensors, command systems, interceptors, launchers, radars, software, training, maintenance, stocks, industrial capacity, allied demand, and political choices about what is most important to defend.</description>
-    </item>
-    <item>
-      <title>Allied Defense Industrial Base Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-allied-defense-industrial-base-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-allied-defense-industrial-base-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>The allied defense industrial base is not one factory system. It is a network of national industrial bases connected by NATO, EU instruments, AUKUS, ICE Pact, bilateral agreements, technology controls, co-production efforts, budgets, suppliers, workforces, and political commitments.</description>
-    </item>
-    <item>
-      <title>China And PLA Modernization Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-china-pla-modernization-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-china-pla-modernization-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>China and the PLA matter because military modernization, industrial scale, political ambition, Taiwan pressure, maritime claims, cyber activity, space competition, nuclear expansion, and information operations reinforce each other. The issue is not one weapons program. It is the way a party-state, industrial base, military, and regional strategy combine over time.</description>
-    </item>
-    <item>
-      <title>Defense Industrial Base Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-defense-industrial-base-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T0842Z-defense-industrial-base-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 08:42:00 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>The defense industrial base is the system that turns national strategy into usable military capacity over time. It includes companies, public depots, shipyards, laboratories, suppliers, workers, materials, budgets, contracts, software, repair networks, transport, and oversight institutions.</description>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Official U.S. source routing for defense industrial base strategy, munitions, energetics, shipbuilding, ship repair, submarine industrial base, workforce, acquisition demand signal, critical materials, microelectronics, software, and implementation oversight.</description>
     </item>
   </channel>
 </rss>
