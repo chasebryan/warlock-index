@@ -66,12 +66,16 @@ const topicHubs = [
 const preferredOrder = [
   "index.md",
   "assessments/README.md",
+  "collections/README.md",
   "collections/coverage-map.md",
+  "standards/README.md",
   "standards/product-standard.md",
   "standards/source-evaluation.md",
+  "source-registers/README.md",
   "source-registers/official-us.md",
   "source-registers/allied-multilateral.md",
   "source-registers/research-and-media.md",
+  "templates/README.md",
   "maps/README.md"
 ];
 

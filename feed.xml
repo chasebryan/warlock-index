@@ -20,6 +20,126 @@
       <description>The Russia cyber lane should not be treated as one undifferentiated APT list. Public records mix GRU military-intelligence cases, FSB-linked political interference and espionage warnings, possible SVR lanes that require separate source capture, Ukraine-war disruptive activity, legal actions, sanctions, reward notices, and allied cyber-center warnings.</description>
     </item>
     <item>
+      <title>Collections</title>
+      <link>https://www.warlock-index.org/library/collections/index.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/index.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Directory</category>
+      <category>Collections</category>
+      <category>Collections</category>
+      <description>Collections hold the supporting infrastructure of the the corpus corpus. They organize reusable evidence (source packets), collection workflow tools (trackers), explanatory context (explainers), synthesis products (matrices and crosswalks), dated event sequences (timelines), actor framing (profiles), and provenance records (source notes).</description>
+    </item>
+    <item>
+      <title>Confidence And Caveat Taxonomy</title>
+      <link>https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>This taxonomy gives analysts a compact way to tag uncertainty, source limitations, and refresh needs across all topics. It supplements analytic confidence by making the reason for caution searchable.</description>
+    </item>
+    <item>
+      <title>Standards</title>
+      <link>https://www.warlock-index.org/library/standards/index.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/index.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Directory</category>
+      <category>Global</category>
+      <category>Standards</category>
+      <description>These standards govern product structure, source handling, style, timestamps, metadata, confidence labeling, and explainer content across the the corpus corpus.</description>
+    </item>
+    <item>
+      <title>Structured Metadata And Export Standard</title>
+      <link>https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>This standard makes the corpus products easier to use in analytic systems by giving each product a stable set of machine-readable fields. The static generator now exports the documentation corpus as browser JavaScript, JSON, and CSV.</description>
+    </item>
+    <item>
+      <title>Assessment Index</title>
+      <link>https://www.warlock-index.org/library/assessments/index.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/assessments/index.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Directory</category>
+      <category>Assessments</category>
+      <category>Assessments</category>
+      <description>Assessments are dated analytical products. They are written for strategic understanding and research continuity, not for operational direction.</description>
+    </item>
+    <item>
+      <title>Assessment Style Guide</title>
+      <link>https://www.warlock-index.org/library/standards/assessment-style-guide.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/assessment-style-guide.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>datetime and versioning standard, structured metadata standard, explainer standard, and accumulated practice across the assessment corpus.</description>
+    </item>
+    <item>
+      <title>Datetime And Versioning Standard</title>
+      <link>https://www.warlock-index.org/library/standards/datetime-and-versioning.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/datetime-and-versioning.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>versioning requirements.</description>
+    </item>
+    <item>
+      <title>Explainer Standard</title>
+      <link>https://www.warlock-index.org/library/standards/explainer-standard.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/explainer-standard.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>Explainers are reader-facing documentation products. They should answer the basic question a careful reader brings to the corpus: what is this topic, why does it matter, how does the system work, what claims are strong or weak, and what should be watched next?</description>
+    </item>
+    <item>
+      <title>Product Standard</title>
+      <link>https://www.warlock-index.org/library/standards/product-standard.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/product-standard.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>standard, datetime/versioning standard, assessment style guide, structured metadata standard, and initial corpus product requirements.</description>
+    </item>
+    <item>
+      <title>Source Evaluation Standard</title>
+      <link>https://www.warlock-index.org/library/standards/source-evaluation.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/source-evaluation.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Standard</category>
+      <category>Global</category>
+      <category>Tradecraft</category>
+      <description>structured metadata standard, and initial corpus source-classification requirements.</description>
+    </item>
+    <item>
+      <title>Source Registers</title>
+      <link>https://www.warlock-index.org/library/source-registers/index.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/index.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Directory</category>
+      <category>Global</category>
+      <category>Source Registers</category>
+      <description>Source Registers provide the vetted, classified lists of source families used across the corpus. They record publisher, access patterns, source class, known limitations, and recommended use for each family or lane.</description>
+    </item>
+    <item>
+      <title>Templates</title>
+      <link>https://www.warlock-index.org/library/templates/index.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/templates/index.html</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Directory</category>
+      <category>Templates</category>
+      <category>Templates</category>
+      <description>Templates provide the canonical starting structure for new products. Always begin from the template that matches the product type and then adapt content while preserving required header fields and sections.</description>
+    </item>
+    <item>
       <title>Africa Map Reference Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.html</guid>
@@ -187,27 +307,7 @@
       <category>Source Register</category>
       <category>Global</category>
       <category>Sources</category>
-      <description>Use this register to route defensive cyber, critical infrastructure, telecommunications, and space resilience research into reliable open-source lanes. It is intended for evidence management, watchlist construction, and source freshness review.</description>
-    </item>
-    <item>
-      <title>Confidence And Caveat Taxonomy</title>
-      <link>https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/confidence-caveat-taxonomy.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:31:00 GMT</pubDate>
-      <category>Standard</category>
-      <category>Global</category>
-      <category>Tradecraft</category>
-      <description>This taxonomy gives analysts a compact way to tag uncertainty, source limitations, and refresh needs across all topics. It supplements analytic confidence by making the reason for caution searchable.</description>
-    </item>
-    <item>
-      <title>Structured Metadata And Export Standard</title>
-      <link>https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/standards/structured-metadata-and-export-standard.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:30:00 GMT</pubDate>
-      <category>Standard</category>
-      <category>Global</category>
-      <category>Tradecraft</category>
-      <description>This standard makes the corpus products easier to use in analytic systems by giving each product a stable set of machine-readable fields. The static generator now exports the documentation corpus as browser JavaScript, JSON, and CSV.</description>
+      <description>See [Source Registers hub](README.md) and [Documentation Index](../index.md).</description>
     </item>
     <item>
       <title>All-Topic Current Source Sweep Tracker</title>
@@ -308,106 +408,6 @@
       <category>Collections</category>
       <category>Trackers</category>
       <description>the corpus already has a strong PRC cyber and critical-infrastructure lane, including a Salt Typhoon telecommunications note and a PRC APT/Typhoon label crosswalk. The Russia lane now has its first dedicated state-cyber source packet, which separates GRU, FSB, queued SVR, Ukraine-war, legal-action, sanctions/reward, advisory, and allied-warning source classes. The remaining gap is to build out Iranian, DPRK, allied cyber-center, and state-crime overlap cyber coverage without turning APT coverage into a technical playbook or unsourced alias encyclopedia.</description>
-    </item>
-    <item>
-      <title>Global Actor-Domain Assimilation Matrix</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.html</guid>
-      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>Provide a reusable integration model for connecting actor profiles, theater assessments, source notes, event timelines, and domain files inside the corpus.</description>
-    </item>
-    <item>
-      <title>Official Threat Source Collection Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The official-source lane should expand through dated source packets, not a single sprawling enemies document. This tracker identifies which agency source families are already usable, which need dedicated packets, and which safety boundaries must be preserved before the corpus makes stronger judgments.</description>
-    </item>
-    <item>
-      <title>Official U.S. Intelligence And Law Enforcement Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/us-intelligence-law-enforcement.html</guid>
-      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Organize official U.S. intelligence, homeland security, law enforcement, sanctions, border, cyber, counterterrorism, counternarcotics, and geospatial source families for the corpus strategic threat analysis.</description>
-    </item>
-    <item>
-      <title>Africa Security Environment Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-africa-security-environment-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Africa's security environment is not one conflict system. It includes Sahel instability, coups and military transitions, terrorism, Russian and other foreign influence, Red Sea and Horn of Africa exposure, Gulf of Guinea maritime risk, transnational crime, migration pressure, humanitarian crises, and resource and infrastructure competition.</description>
-    </item>
-    <item>
-      <title>Arctic And High North Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-arctic-high-north-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-arctic-high-north-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>The Arctic and High North matter because geography, climate, warning systems, maritime access, air and missile defense, undersea infrastructure, Russia, NATO enlargement, and allied industrial capacity meet in the same region. The issue is not only melting ice or northern bases. It is continental defense, allied access, early warning, logistics, sovereignty, and industrial delivery over long timelines.</description>
-    </item>
-    <item>
-      <title>Cyber And Critical Infrastructure Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-cyber-critical-infrastructure-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-cyber-critical-infrastructure-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Cyber and critical infrastructure risk matters because digital systems, physical services, private networks, public agencies, telecommunications, finance, energy, water, transport, health care, and defense supply chains are interdependent. A cyber incident can become a public-safety, economic, intelligence, criminal, or geopolitical issue.</description>
-    </item>
-    <item>
-      <title>Homeland And Law Enforcement Threat Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-homeland-law-enforcement-threat-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-homeland-law-enforcement-threat-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>The homeland file is not one threat category. It combines terrorism, transnational criminal organizations, cybercrime, narcotics, border and migration pressure, critical infrastructure risk, disaster response, foreign influence, and public-safety stress. These issues overlap, but each source family measures something different.</description>
-    </item>
-    <item>
-      <title>Space And Counterspace Explainer</title>
-      <link>https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-space-counterspace-explainer.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/explainers/2026-06-18T1056Z-space-counterspace-explainer.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:56:51 GMT</pubDate>
-      <category>Explainer</category>
-      <category>Collections</category>
-      <category>Explainers</category>
-      <description>Space matters because communications, navigation, missile warning, weather, intelligence, timing, military command, disaster response, commercial connectivity, and financial systems depend on space-enabled services. Counterspace matters because adversaries may try to degrade, deny, disrupt, or destroy those services in crisis or conflict.</description>
-    </item>
-    <item>
-      <title>U.S.-Iran MOU Implementation Watch Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:49:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The Iran MOU lane remains active but unimplemented in the corpus. Current reporting can support a reported signed-and-publicized MOU status, but the corpus should not treat sanctions waivers, oil-export permissions, frozen-asset movement, Strait of Hormuz access, toll treatment, IAEA/nuclear measures, or UN Security Council action as implemented until primary records are captured.</description>
-    </item>
-    <item>
-      <title>Official U.S. Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/official-us.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/official-us.html</guid>
-      <pubDate>Thu, 18 Jun 2026 10:25:19 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Official U.S. source routing for defense industrial base strategy, munitions, energetics, shipbuilding, ship repair, submarine industrial base, workforce, acquisition demand signal, critical materials, microelectronics, software, and implementation oversight.</description>
     </item>
   </channel>
 </rss>
