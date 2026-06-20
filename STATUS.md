@@ -1,11 +1,12 @@
 # WARLOCK-INDEX Status
 
-**Current status:** Documentation corpus and routing surfaces are active.
+**Current status:** Documentation corpus and routing surfaces are active. Meta-documentation (standards, indices, hubs, templates, contributing guidance) continues to be polished for consistency and navigability.
 
-**Prepared UTC:** 2026-06-18T11:54:34Z (cyber/APT continuation lane)
+**Prepared UTC:** 2026-06-19T00:00:00Z (documentation infrastructure and index completeness work)
 
 ## Completed
 
+- Created top-level hubs for collections, standards, source registers, and templates plus wired cross-references from docs/index.md, README.md, CONTRIBUTING.md, and sub-collection READMEs. Expanded assessment style guide and harmonized standard headers with Topics/Source classes/Safety boundary fields and updated dates. Fixed multiple gaps in docs/index.md (DIB packets + trackers + global assimilation + source notes). Added upward "See hub" links + cross-ref sections everywhere. Updated build preferredOrder and various meta docs. All verified with working node build + check (in sync, 0 link issues).
 - Created the repository documentation spine.
 - Added product, source, style, and timestamp standards.
 - Added official and allied source registers.
@@ -499,6 +500,8 @@ The repository is in baseline-building mode. Products prioritize:
 - Global assimilation across actors, theaters, domains, and source families.
 
 ## Next Work Queue
+
+Documentation infrastructure (hubs, standards consistency, index completeness, cross-links) is now actively maintained alongside content lanes. Continued with additional examples in core standards (product, explainer, source-eval, datetime), hub polish (usage guidance, cross-refs, tables, examples), more index cleanup (section descriptions), duplicate cleanup, repeated build+check + go-validate verification loops, date bumps on active meta-hubs (including confidence and structured), cross-ref additions across many sub-READMEs, scannability improvements to docs/index.md, main README polish, and style guide navigation note. Documentation infrastructure work ongoing.
 
 - Use the cyber nation-state actor and APT source tracker as the active control
   lane. The PRC APT/Typhoon label crosswalk and Russia state cyber packet are

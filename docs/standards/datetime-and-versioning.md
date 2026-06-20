@@ -4,15 +4,20 @@
 
 **Standard ID:** WI-STD-004
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-19T00:00:00Z
 
-**Information cutoff UTC:** 2026-06-12T23:20:35Z
+**Information cutoff UTC:** 2026-06-19T00:00:00Z
 
 **Source base:** ISO 8601 UTC timestamp convention and WARLOCK-INDEX product
 versioning requirements.
 
 **Analytic confidence:** High for internal timestamp and version-control
 requirements.
+
+**Topics:** tradecraft; datetime; versioning; filenames
+**Source classes:** Internal standard
+**Safety boundary:** Timestamp and versioning conventions for documentation
+corpus only.
 
 ## Timestamp Format
 
@@ -45,8 +50,16 @@ Examples:
 - `WI-ASMT-GLOBAL-2026-0001`
 - `WI-ASMT-INDOPAC-2026-0001`
 
+Non-assessment products use typed IDs (e.g. WI-EXPLAINER-..., WI-SOURCEPACKET-... ). See the relevant product standard or template.
+
 ## Revisions
 
 For minor corrections, update the file and add a short revision note. For major
 analytic changes, create a new dated assessment and link the older product as a
 previous baseline.
+
+## Cross References
+
+- [Standards hub](README.md)
+- [Product Standard](product-standard.md)
+- [Assessment Style Guide](assessment-style-guide.md)

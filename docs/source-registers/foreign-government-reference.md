@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Registers hub](README.md) and [Documentation Index](../index.md).
+
 **Source Register ID:** WI-SOURCE-REGISTER-FGOV-2026-0001
 
 **Prepared UTC:** 2026-06-17T22:51:55Z

@@ -4,9 +4,9 @@
 
 **Standard ID:** WI-STD-005
 
-**Prepared UTC:** 2026-06-18T08:42:00Z
+**Prepared UTC:** 2026-06-19T00:00:00Z
 
-**Information cutoff UTC:** 2026-06-18T08:42:00Z
+**Information cutoff UTC:** 2026-06-19T00:00:00Z
 
 **Purpose:** Define how WARLOCK-INDEX explanatory documentation should teach a
 topic without becoming a policy recommendation, operational guide, or source
@@ -14,6 +14,11 @@ packet duplicate.
 
 **Analytic confidence:** High for internal product requirements and corpus
 structure.
+
+**Topics:** tradecraft; explainers; documentation products
+**Source classes:** Internal standard
+**Safety boundary:** Explainer structure and boundaries for reader-facing
+explanation only.
 
 ## Bottom Line
 
@@ -69,3 +74,22 @@ An explainer is not complete until it:
 - Separates strong public evidence from uncertain inference.
 - Links back to at least one source packet or source register.
 - Links sideways to any relevant tracker, matrix, actor profile, or assessment.
+
+## Minimal Header Example
+
+```
+**UNCLASSIFIED//OPEN SOURCE**
+**Explainer ID:** WI-EXPLAINER-DIB-2026-0001
+**Prepared UTC:** 2026-06-18T08:42:00Z
+**Information cutoff UTC:** 2026-06-18T08:42:00Z
+**Source base:** ...
+**Analytic confidence:** ...
+**Boundary:** ...
+```
+
+## Cross References
+
+- [Standards hub](README.md)
+- [Product Standard](product-standard.md)
+- [Assessment Style Guide](assessment-style-guide.md)
+- [Templates](../templates/README.md)

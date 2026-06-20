@@ -6,7 +6,18 @@ Use this index to move through standards, source registers, maps, assessments,
 explainers, actor profiles, source packets, timelines, trackers, and synthesis
 matrices.
 
+**Main Documentation Hubs** (start here for overviews):
+- [Collections hub](collections/README.md) — explainers, assimilation, trackers, packets, timelines, profiles, source notes
+- [Standards hub](standards/README.md) — all tradecraft and product rules
+- [Source Registers hub](source-registers/README.md) — vetted source families by class
+- [Templates hub](templates/README.md) — starting structures for new products
+- [Maps hub](maps/README.md) — geospatial resources and triage
+
+Other key entries:
+
 ## Standards
+
+Core rules for product structure, source handling, style, timestamps, metadata, and confidence (see the [Standards hub](standards/README.md)).
 
 - [Product Standard](standards/product-standard.md)
 - [Source Evaluation Standard](standards/source-evaluation.md)
@@ -18,10 +29,14 @@ matrices.
 
 ## Templates
 
+See the [Templates hub](templates/README.md).
+
 - [Assessment Template](templates/assessment-template.md)
 - [Explainer Template](templates/explainer-template.md)
 
 ## Source Registers
+
+Vetted source families by class and lane (see the [Source Registers hub](source-registers/README.md)).
 
 - [Official U.S. Sources](source-registers/official-us.md)
 - [Allied and Multilateral Sources](source-registers/allied-multilateral.md)
@@ -33,6 +48,8 @@ matrices.
 - [Defensive Cyber And Space Source Register](source-registers/defensive-cyber-space.md)
 
 ## Maps
+
+See the [Maps hub](maps/README.md) and [Source Registers hub](source-registers/README.md) (map-geospatial lane).
 
 - [Maps](maps/README.md)
 - [Geospatial Triage Guide](maps/geospatial-triage-guide.md)
@@ -49,6 +66,8 @@ matrices.
 - [Africa Map Reference Source Packet](collections/source-packets/theater-map-reference/2026-06-18T1912Z-africa-map-reference-source-packet.md)
 
 ## Assessments
+
+Dated analytical products (see the [Assessment Index](assessments/README.md) and [Standards](standards/README.md) for rules).
 
 - [Assessment Index](assessments/README.md)
 - [Global Strategic Environment Baseline](assessments/global/2026-06-12T2320Z-strategic-environment-baseline.md)
@@ -71,6 +90,8 @@ matrices.
 
 ## Collections
 
+See the [Collections hub](collections/README.md) for an overview of explainers, assimilation products, trackers, source packets, timelines, actor profiles, and source notes.
+
 - [Coverage Map](collections/coverage-map.md)
 - [Explainers](collections/explainers)
 - [Defense Industrial Base Explainer](collections/explainers/2026-06-18T0842Z-defense-industrial-base-explainer.md)
@@ -87,14 +108,16 @@ matrices.
 - [Cyber And Critical Infrastructure Explainer](collections/explainers/2026-06-18T1056Z-cyber-critical-infrastructure-explainer.md)
 - [Space And Counterspace Explainer](collections/explainers/2026-06-18T1056Z-space-counterspace-explainer.md)
 - [Stratagems, Strategy, And Warfare Research Explainer](collections/explainers/2026-06-18T1750Z-stratagems-strategy-warfare-research-explainer.md)
-- [Global Assimilation](collections/global-assimilation)
+- [Global Assimilation](collections/global-assimilation) — cross-cutting matrices and synthesis
 - [Global Actor-Domain Assimilation Matrix](collections/global-assimilation/2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)
 - [Maritime Chokepoint Strategic Assimilation Matrix](collections/global-assimilation/2026-06-13T0519Z-maritime-chokepoint-strategic-assimilation-matrix.md)
 - [Official U.S. Threat Source Assimilation Matrix](collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Official Allied Source Assimilation Matrix](collections/global-assimilation/2026-06-14T0118Z-official-allied-source-assimilation-matrix.md)
+- [Defense Industrial Base Assimilation Matrix](collections/global-assimilation/2026-06-18T0525Z-defense-industrial-base-assimilation-matrix.md)
+- [Allied Defense Industrial Base Crosswalk](collections/global-assimilation/2026-06-18T0818Z-allied-defense-industrial-base-crosswalk.md)
 - [Cyber And Critical Infrastructure Source Crosswalk](collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.md)
 - [Topic Source Lane Crosswalk](collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.md)
-- [Trackers](collections/trackers)
+- [Trackers](collections/trackers) — source collection queues and gap registers
 - [Ukraine War External Support Tracker](collections/trackers/2026-06-13T0120Z-ukraine-war-external-support-tracker.md)
 - [Arms-Control Erosion Strategic Tracker](collections/trackers/2026-06-13T0319Z-arms-control-erosion-strategic-tracker.md)
 - [Red Sea Maritime Disruption Strategic Tracker](collections/trackers/2026-06-13T0518Z-red-sea-maritime-disruption-strategic-tracker.md)
@@ -110,18 +133,24 @@ matrices.
 - [U.S.-Iran MOU Implementation Watch Tracker](collections/trackers/2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.md)
 - [LIVE-NEWS Source Audit Tracker](collections/trackers/2026-06-18T1015Z-live-news-source-audit-tracker.md)
 - [NATO Europe Force Presence Implementation Tracker](collections/trackers/2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
-- [Source Notes](collections/source-notes)
+- [Defense Industrial Base Capacity Tracker](collections/trackers/2026-06-18T0525Z-defense-industrial-base-capacity-tracker.md)
+- [Munitions Industrial Capacity Tracker](collections/trackers/2026-06-18T0538Z-munitions-industrial-capacity-tracker.md)
+- [Critical Materials And Supply Chain Tracker](collections/trackers/2026-06-18T0630Z-critical-materials-supply-chain-tracker.md)
+- [Source Notes](collections/source-notes) — provenance and treatment notes
 - [Legacy Factbook Replacement Note](collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
 - [Theater Map Index](collections/source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [ODNI Global Biolab Disclosure Source-Treatment Note](collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)
 - [Ukraine Biolab Claim-Reconciliation Source Note](collections/source-notes/2026-06-14T0412Z-ukraine-biolab-claim-reconciliation-source-note.md)
 - [U.S.-Iran MOU Source-Treatment Note](collections/source-notes/2026-06-18T0231Z-us-iran-mou-source-treatment-note.md)
+- [U.S.-Iran MOU Implementation Gap Capture](collections/source-notes/2026-06-18T1025Z-us-iran-mou-implementation-gap-capture.md)
+- [LIVE-NEWS Source-Treatment Note](collections/source-notes/2026-06-18T0352Z-live-news-source-treatment-note.md)
+- [Project Attribution And Maintainer Treatment Note](collections/source-notes/2026-06-18T0441Z-project-attribution-maintainer-treatment-note.md)
 - [NATO And U.S. Europe Force Posture Review Caveat](collections/source-notes/2026-06-18T0855Z-nato-us-europe-force-posture-review-caveat.md)
 - [U.S.-Iran MOU Afternoon Source Check](collections/source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
 - [Corpus Audit Trail Source Note](collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.md)
 - [Workspace Metadata Triage Source Note](collections/source-notes/2026-06-18T1845Z-workspace-metadata-triage-source-note.md)
 - [Corpus Health Signal Source Note](collections/source-notes/2026-06-18T1850Z-corpus-health-signal-source-note.md)
-- [Source Packets](collections/source-packets)
+- [Source Packets](collections/source-packets) — organized evidence bundles
 - [Indo-Pacific Adversary Posture Source Packets](collections/source-packets/indo-pacific-adversary-posture)
 - [China/PLA Official Military And Security Source Baseline Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0523Z-china-pla-official-military-security-source-baseline-packet.md)
 - [PRC Official Doctrine And Issuer-Language Source Packet](collections/source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
@@ -156,11 +185,13 @@ matrices.
 - [Philippines Official Defense And Maritime Source Capture Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-17T2048Z-philippines-official-defense-maritime-source-capture-packet.md)
 - [Japan Official Defense And Security Source Baseline Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0147Z-japan-official-defense-security-source-baseline-packet.md)
 - [Republic Of Korea Official Defense And Extended Deterrence Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.md)
+- [Japan Defense Buildup Implementation Source Packet](collections/source-packets/indo-pacific-allied-posture/2026-06-18T0818Z-japan-defense-buildup-implementation-source-packet.md)
 - [NATO Allied Capacity Source Packets](collections/source-packets/nato-allied-capacity)
 - [NATO Allied Capacity Official Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-13T0243Z-nato-allied-capacity-official-source-baseline-packet.md)
 - [NATO Europe Force Presence Review Source Packet](collections/source-packets/nato-allied-capacity/2026-06-18T0935Z-nato-europe-force-presence-review-source-packet.md)
 - [NATO Europe Force Presence Allied Response Capture Packet](collections/source-packets/nato-allied-capacity/2026-06-18T0945Z-nato-europe-force-presence-allied-response-capture-packet.md)
 - [United Kingdom Official Defense And Security Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-14T0118Z-uk-official-defense-security-source-baseline-packet.md)
+- [United Kingdom Defense Investment And Readiness Implementation Source Packet](collections/source-packets/nato-allied-capacity/2026-06-18T0818Z-uk-defense-investment-readiness-implementation-source-packet.md)
 - [France Official Defense And Security Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-14T0208Z-france-official-defense-security-source-baseline-packet.md)
 - [Germany Official Defense And Security Source Baseline Packet](collections/source-packets/nato-allied-capacity/2026-06-14T0219Z-germany-official-defense-security-source-baseline-packet.md)
 - [EU Security And Defense Source Packet](collections/source-packets/nato-allied-capacity/2026-06-16T0330Z-eu-security-defense-source-packet.md)
@@ -181,6 +212,13 @@ matrices.
 - [Red Sea Maritime Economics And Insurance Source Packet](collections/source-packets/red-sea-maritime-economics/2026-06-13T0258Z-red-sea-maritime-economics-insurance-source-packet.md)
 - [Maritime Chokepoints Source Packets](collections/source-packets/maritime-chokepoints)
 - [Strait Of Hormuz Strategic Chokepoint Source Packet](collections/source-packets/maritime-chokepoints/2026-06-18T0329Z-strait-of-hormuz-strategic-chokepoint-source-packet.md)
+- [Defense Industrial Base Source Packets](collections/source-packets/defense-industrial-base)
+- [Defense Industrial Base, Munitions, And Shipbuilding Source Packet](collections/source-packets/defense-industrial-base/2026-06-18T0525Z-defense-industrial-base-munitions-shipbuilding-source-packet.md)
+- [Munitions And Energetics Industrial Capacity Source Packet](collections/source-packets/defense-industrial-base/2026-06-18T0538Z-munitions-energetics-industrial-capacity-source-packet.md)
+- [Critical Materials And Supply Chain Source Packet](collections/source-packets/defense-industrial-base/2026-06-18T0630Z-critical-materials-supply-chain-source-packet.md)
+- [Air And Missile Defense Industrial Capacity Source Packet](collections/source-packets/defense-industrial-base/2026-06-18T0818Z-air-missile-defense-industrial-capacity-source-packet.md)
+- [Drone And Counter-UAS Industrial Capacity Source Packet](collections/source-packets/defense-industrial-base/2026-06-18T0818Z-drone-counter-uas-industrial-capacity-source-packet.md)
+- [Navy Shipbuilding And Repair Industrial Capacity Source Packet](collections/source-packets/defense-industrial-base/2026-06-18T0818Z-navy-shipbuilding-repair-industrial-capacity-source-packet.md)
 - [Strategic Weapons Source Packets](collections/source-packets/strategic-weapons)
 - [Strategic Weapons Official Source Baseline Packet](collections/source-packets/strategic-weapons/2026-06-13T0239Z-strategic-weapons-official-source-baseline-packet.md)
 - [China Nuclear And Missile Modernization Source Packet](collections/source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.md)
@@ -196,7 +234,7 @@ matrices.
 - [Defensive Cyber And Space Source Packets](collections/source-packets/defensive-cyber-space)
 - [Russia State Cyber Source Packet](collections/source-packets/defensive-cyber-space/2026-06-20T0035Z-russia-state-cyber-source-packet.md)
 - [Defensive Cyber Source Lane Packet](collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.md)
-- [Event Timelines](collections/event-timelines)
+- [Event Timelines](collections/event-timelines) — dated sequences with sources
 - [Ukraine War Strategic Event Timeline](collections/event-timelines/2026-06-13T0157Z-ukraine-war-strategic-event-timeline.md)
 - [Taiwan Strait Coercion Strategic Event Timeline](collections/event-timelines/2026-06-13T0203Z-taiwan-strait-coercion-strategic-event-timeline.md)
 - [Red Sea And Houthi Maritime Disruption Strategic Event Timeline](collections/event-timelines/2026-06-13T0208Z-red-sea-houthi-maritime-disruption-strategic-event-timeline.md)

@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Arctic Infrastructure Source Packets organize public evidence on northern
 infrastructure, domain awareness, communications, icebreaking, and resilience.
 

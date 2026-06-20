@@ -5,10 +5,15 @@
 Source Packets are reusable evidence packages that preserve official sources,
 source-class notes, extraction rules, cross-links, and information gaps.
 
+See the [Collections hub](../README.md) for the broader context of collection
+products.
+
 These products support research organization only. They do not provide
 recommendations, targeting support, collection tasking, operational planning,
 tactical guidance, weapons employment guidance, infrastructure vulnerability
 analysis, deployment schedules, or technical instructions.
+
+Follow the safety boundaries stated in each packet and in the product standard.
 
 ## Current Source Packet Series
 

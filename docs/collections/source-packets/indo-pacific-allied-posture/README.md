@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Indo-Pacific Allied Posture Source Packets organize official public sources
 on regional allies and partners for later assessments.
 

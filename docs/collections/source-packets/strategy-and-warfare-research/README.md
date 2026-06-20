@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Strategy and warfare research source packets organize public academic,
 professional-military, think-tank, and official research source families for
 strategic theory, deterrence, coercion, deception-as-a-concept, military

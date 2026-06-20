@@ -4,9 +4,9 @@
 
 **Standard ID:** WI-STD-007
 
-**Prepared UTC:** 2026-06-18T18:31:00Z
+**Prepared UTC:** 2026-06-20T00:00:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:31:00Z
+**Information cutoff UTC:** 2026-06-20T00:00:00Z
 
 **Source base:** WARLOCK-INDEX product standard, source evaluation standard, and current source-sweep practice.
 
@@ -49,4 +49,10 @@ This taxonomy gives analysts a compact way to tag uncertainty, source limitation
 3. Pair `current-watch` with a `Next refresh UTC` field.
 4. Pair `implementation-gap` with a source requirement or tracker row.
 5. Pair `defensive-cyber-only` with an explicit exclusion of exploit steps, targeting, evasion, and vulnerability reproduction.
+
+## Cross References
+
+- [Standards hub](README.md)
+- [Product Standard](product-standard.md)
+- [Structured Metadata And Export Standard](structured-metadata-and-export-standard.md)
 

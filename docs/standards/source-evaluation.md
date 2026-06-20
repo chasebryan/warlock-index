@@ -4,15 +4,21 @@
 
 **Standard ID:** WI-STD-002
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-19T00:00:00Z
 
-**Information cutoff UTC:** 2026-06-12T23:20:35Z
+**Information cutoff UTC:** 2026-06-19T00:00:00Z
 
 **Source base:** WARLOCK-INDEX product standard, source-register structure,
-and initial corpus source-classification requirements.
+structured metadata standard, and initial corpus source-classification
+requirements.
 
 **Analytic confidence:** High for internal source-classification and
 source-treatment requirements.
+
+**Topics:** tradecraft; source evaluation; source classes
+**Source classes:** Internal standard
+**Safety boundary:** Source evaluation and handling rules for open-source
+research products only.
 
 ## Source Classes
 
@@ -59,3 +65,17 @@ exist.
 
 Do not copy long passages. Summarize in original language, cite the source, and
 quote only short phrases when exact wording is analytically necessary.
+
+Example source entry (in registers or packets):
+- Publisher: Office of the Director of National Intelligence
+- Publication date: 2026
+- Accessed UTC: 2026-06-19T...
+- Class: A (Official U.S.)
+- Note: Annual threat framing; use for high-level judgments only.
+
+## Cross References
+
+- [Standards hub](README.md)
+- [Product Standard](product-standard.md)
+- [Assessment Style Guide](assessment-style-guide.md)
+- [Source Registers](../source-registers/README.md)

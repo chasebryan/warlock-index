@@ -18,9 +18,9 @@
 
 **Freshness status:** Watch
 
-**Last source check UTC:** 2026-06-18T19:06:00Z
+**Last source check UTC:** 2026-06-19T00:00:00Z
 
-**Next refresh UTC:** 2026-06-25T19:06:00Z
+**Next refresh UTC:** 2026-06-26T00:00:00Z
 
 **Caveat tags:** map-reference-only; current-watch; source-lag
 
@@ -56,4 +56,10 @@
 ## Review Rule
 
 If a map lane is used in an assessment, source packet, or tracker, carry forward its caveat tag: `map-reference-only`, `commercial-data-limit`, `source-lag`, or `current-watch`.
+
+## Cross References
+
+- [Maps hub](README.md)
+- [Documentation Index](../index.md)
+- [Collections](../collections/README.md)
 

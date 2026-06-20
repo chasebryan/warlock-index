@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 These packets organize defensive cyber, critical infrastructure, telecommunications, and space resilience source lanes. They support source evaluation and refresh workflows only.
 
 ## Current Products

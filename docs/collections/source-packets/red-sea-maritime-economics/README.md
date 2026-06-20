@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Red Sea Maritime Economics Source Packets organize public evidence on Suez
 exposure, freight rates, ports, marine insurance, commercial risk, energy
 transit, and humanitarian logistics.

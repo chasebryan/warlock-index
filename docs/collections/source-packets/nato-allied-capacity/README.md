@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 NATO Allied Capacity Source Packets organize public evidence on allied
 capacity, burden-sharing, investment, resilience, Ukraine support, cyber
 defence, and implementation signals.

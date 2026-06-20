@@ -1,5 +1,8 @@
 # Explainer Template
 
+See [docs/standards/explainer-standard.md](../standards/explainer-standard.md)
+and [docs/standards/product-standard.md](../standards/product-standard.md).
+
 **UNCLASSIFIED//OPEN SOURCE**
 
 **Explainer ID:** WI-EXPLAINER-[TOPIC]-YYYY-0001
@@ -18,6 +21,11 @@ is strong and what remains uncertain.]
 procurement advice, targeting, operational planning, cyber exploitation,
 evasion methods, facility vulnerability analysis, route guidance, or tactical
 procedures.
+
+**Topics:** (recommended)
+**Actors:** (recommended)
+**Source classes:** (recommended)
+**Related products:** (recommended)
 
 ## Bottom Line
 

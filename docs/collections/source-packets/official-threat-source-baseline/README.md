@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Official U.S. Threat Source Baseline packets organize public intelligence,
 homeland-security, law-enforcement, sanctions, border, maritime, cyber, and
 geospatial reference sources.

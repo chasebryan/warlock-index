@@ -5,6 +5,12 @@
 Global Assimilation connects actors, theaters, domains, and source streams
 through cross-cutting matrices and synthesis tools.
 
+See the [Collections hub](../README.md) and [Standards](../../standards/README.md) for overview.
+
+Assimilation products synthesize across lanes to show interactions that single-theater products cannot capture.
+
+They are key for the "global operating picture" approach of the corpus.
+
 ## Current Products
 
 - [2026-06-13T0049Z - Global Actor-Domain Assimilation Matrix](2026-06-13T0049Z-global-actor-domain-assimilation-matrix.md)

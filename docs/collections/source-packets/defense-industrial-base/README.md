@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md), [Collections](../../README.md), and [Standards](../../../standards/README.md).
+
 Defense Industrial Base source packets organize public source families for
 munitions, shipbuilding, sustainment, energetics, critical materials,
 workforce, acquisition demand signals, supplier depth, and allied industrial

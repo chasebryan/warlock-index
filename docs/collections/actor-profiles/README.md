@@ -5,6 +5,12 @@
 Actor Profiles compares strategic actors by objectives, capabilities,
 constraints, behavior patterns, leadership signals, and source confidence.
 
+See the [Collections hub](../README.md) for overview.
+
+Actor profiles provide standing classifications and framing used by assessments, packets, and trackers.
+
+Use these for consistent actor language across the corpus. Update when major new source packets or assessments change the classification.
+
 ## Profiles
 
 - [China](china.md)

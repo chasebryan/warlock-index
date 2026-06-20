@@ -1,5 +1,10 @@
 # Assessment Template
 
+See [docs/standards/product-standard.md](../standards/product-standard.md),
+[docs/standards/assessment-style-guide.md](../standards/assessment-style-guide.md),
+[docs/standards/datetime-and-versioning.md](../standards/datetime-and-versioning.md),
+and the [Standards hub](../standards/README.md). Start here or from the [Documentation Index](../index.md).
+
 **Classification:** UNCLASSIFIED//OPEN SOURCE
 
 **Handling:** Public open-source research
@@ -12,11 +17,17 @@
 
 **Scope:** Define the geographic, actor, or domain boundary.
 
-**Exclusions:** State what the product does not cover.
+**Exclusions:** State what the product does not cover. Include explicit safety
+boundary language (no recommendations, no targeting, no operational guidance).
 
 **Source base:** Summarize source classes used.
 
 **Analytic confidence:** High / Moderate / Low
+
+**Topics:** (recommended)
+**Actors:** (recommended)
+**Caveat tags:** (recommended)
+**Related products:** (recommended)
 
 # Title
 

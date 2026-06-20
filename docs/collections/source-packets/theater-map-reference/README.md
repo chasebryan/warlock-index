@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Theater Map Reference Source Packets organize public map and geospatial
 sources with anchors, source-class notes, extraction rules, cross-links, and
 gaps.

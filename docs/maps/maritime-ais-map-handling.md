@@ -18,9 +18,9 @@
 
 **Freshness status:** Watch
 
-**Last source check UTC:** 2026-06-18T19:08:00Z
+**Last source check UTC:** 2026-06-19T00:00:00Z
 
-**Next refresh UTC:** 2026-06-25T19:08:00Z
+**Next refresh UTC:** 2026-06-26T00:00:00Z
 
 **Caveat tags:** commercial-data-limit; map-reference-only; current-watch
 
@@ -69,4 +69,11 @@ When AIS is used as a lead source, include:
 - Which official or non-AIS sources corroborated the claim.
 - Caveat tags: `commercial-data-limit`, `map-reference-only`, and `current-watch`.
 - Safety boundary: no live tracking, no route guidance, no vessel monitoring, no interdiction support.
+
+## Cross References
+
+- [Maps hub](README.md)
+- [Documentation Index](../index.md)
+- [Maritime Chokepoints Source Register](../source-registers/maritime-chokepoints.md)
+- [Collections](../collections/README.md)
 

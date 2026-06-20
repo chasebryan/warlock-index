@@ -18,9 +18,9 @@
 
 **Freshness status:** Current
 
-**Last source check UTC:** 2026-06-18T19:07:00Z
+**Last source check UTC:** 2026-06-19T00:00:00Z
 
-**Next refresh UTC:** 2026-06-25T19:07:00Z
+**Next refresh UTC:** 2026-06-26T00:00:00Z
 
 **Caveat tags:** map-reference-only; legal-status-uncertain; commercial-data-limit; translation-risk; archival-reference
 
@@ -58,4 +58,11 @@
 - Map plus dated source packet for theater orientation in contested areas.
 - AIS lead plus official maritime, port, IMO, or shipping source before claim-level reuse.
 - Historical map plus date, publisher, and archival context.
+
+## Cross References
+
+- [Maps hub](README.md)
+- [Documentation Index](../index.md)
+- [Source Registers](../source-registers/README.md)
+- [Collections](../collections/README.md)
 

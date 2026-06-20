@@ -6,6 +6,16 @@ Trackers are structured collection products that connect actors, events,
 domains, sources, and strategic effects. They are not policy recommendations
 and do not provide operational guidance.
 
+See the [Collections hub](../README.md) for overview.
+
+Trackers are working documents for source collection discipline. They record
+what has been captured, what needs refresh, and explicit gaps. They do not
+constitute assessments. Use them to drive the next source packet or assessment
+update.
+
+Follow the [Product Standard](../../standards/product-standard.md) and include
+clear boundaries.
+
 ## Current Trackers
 
 - [2026-06-13T0120Z - Ukraine War External Support Tracker](2026-06-13T0120Z-ukraine-war-external-support-tracker.md)

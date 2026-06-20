@@ -4,16 +4,22 @@
 
 **Standard ID:** WI-STD-001
 
-**Prepared UTC:** 2026-06-12T23:20:35Z
+**Prepared UTC:** 2026-06-19T00:00:00Z
 
-**Information cutoff UTC:** 2026-06-12T23:20:35Z
+**Information cutoff UTC:** 2026-06-19T00:00:00Z
 
 **Source base:** WARLOCK-INDEX operating boundary, source evaluation
-standard, datetime/versioning standard, assessment style guide, and initial
-corpus product requirements.
+standard, datetime/versioning standard, assessment style guide, structured
+metadata standard, and initial corpus product requirements.
 
 **Analytic confidence:** High for internal repository product requirements
 and safety boundaries.
+
+**Topics:** tradecraft; product requirements; standards
+**Source classes:** Internal standard
+**Safety boundary:** Defines required structure and prohibited content for
+open-source research products only. Does not authorize operational, targeting,
+or policy content.
 
 ## Purpose
 
@@ -23,6 +29,11 @@ and decision-support readers while preventing drift into unsupported claims,
 policy advocacy, or operational instruction.
 
 ## Required Header Fields
+
+Assessments use the Classification-style header documented in the assessment
+style guide. Other products use typed-ID headers (Explainer ID, Source Packet
+ID, etc.). See assessment-style-guide.md and the specific standard for the
+product type.
 
 Every assessment must include:
 
@@ -38,10 +49,14 @@ Every assessment must include:
 - `Source base`: Short source summary with full source list at the end.
 - `Analytic confidence`: High, moderate, or low.
 
+Non-assessment products document equivalent fields using their typed ID format
+and must still carry Prepared UTC, Information cutoff UTC, Source base, and
+Analytic confidence.
+
 ## Recommended Machine-Readable Fields
 
-Products should include these fields when they improve routing, export, or
-auditability:
+See the Structured Metadata And Export Standard for the current recommended and
+generated fields. The list below is retained for continuity:
 
 - `Topics`: Human-readable topical labels for search and crosswalks.
 - `Actors`: States, agencies, organizations, sectors, or institutions covered.
@@ -109,3 +124,28 @@ WARLOCK-INDEX products must not include:
 Do not silently overwrite major judgments. If a product changes materially,
 create a new dated product or add a clearly labeled revision note explaining
 what changed, why it changed, and what source base caused the change.
+
+## Cross References
+
+- [Standards hub](README.md)
+- [Assessment Style Guide](assessment-style-guide.md)
+- [Datetime and Versioning Standard](datetime-and-versioning.md)
+- [Source Evaluation Standard](source-evaluation.md)
+- [Structured Metadata And Export Standard](structured-metadata-and-export-standard.md)
+- [Explainer Standard](explainer-standard.md)
+- [Confidence And Caveat Taxonomy](confidence-caveat-taxonomy.md)
+- [Templates](../templates/README.md)
+
+## Minimal Header Example (Assessment)
+
+```
+**Classification:** UNCLASSIFIED//OPEN SOURCE
+**Handling:** Public open-source research
+**Product ID:** WI-ASMT-GLOBAL-2026-0002
+**Prepared UTC:** 2026-06-13T00:49:30Z
+**Information cutoff UTC:** 2026-06-13T00:49:30Z
+**Scope:** ...
+**Exclusions:** ...
+**Source base:** ...
+**Analytic confidence:** ...
+```

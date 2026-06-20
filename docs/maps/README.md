@@ -17,15 +17,17 @@ by WARLOCK-INDEX.
 
 **Freshness status:** Watch
 
-**Last source check UTC:** 2026-06-18T19:09:00Z
+**Last source check UTC:** 2026-06-19T00:00:00Z
 
-**Next refresh UTC:** 2026-06-25T19:09:00Z
+**Next refresh UTC:** 2026-06-26T00:00:00Z
 
 **Caveat tags:** map-reference-only; commercial-data-limit; source-lag; current-watch
 
 **Related products:** WI-MAPS-TRIAGE-2026-0001; WI-MAPS-DASHBOARD-2026-0001; WI-MAPS-CAVEATS-2026-0001; WI-MAPS-AIS-2026-0001
 
 **Boundary:** Maps supports strategic orientation and source provenance only.
+
+See [Collections hub](../collections/README.md) for how maps fit into the broader corpus.
 It does not provide targeting maps, sensitive facility
 overlays, infrastructure vulnerability maps, live movement layers,
 route-selection tools, collection geometry, patrol-pattern analysis,
@@ -167,6 +169,9 @@ Use these four products as the operating surface for map work:
 ## Cross References
 
 - [Documentation Index](../index.md)
+- [Standards](../standards/README.md)
+- [Source Registers](../source-registers/README.md)
+- [Collections](../collections/README.md)
 - [Coverage Map](../collections/coverage-map.md)
 - [Geospatial Triage Guide](geospatial-triage-guide.md)
 - [Theater Map Dashboard](theater-map-dashboard.md)

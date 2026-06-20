@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 Indo-Pacific Adversary Posture Source Packets organize official and
 high-reliability public sources on adversary and competitor posture across
 the regional research lane.

@@ -6,6 +6,8 @@ Explainers are reader-facing documentation products. They explain major
 WARLOCK-INDEX topics in plain strategic language, then point back to source
 packets, trackers, matrices, assessments, and source registers.
 
+See the [Collections hub](../README.md) for overview and the [Explainer Standard](../../standards/explainer-standard.md).
+
 Source packets answer "where does the evidence come from?" Explainers answer
 "what does this topic mean and how should it be understood?"
 

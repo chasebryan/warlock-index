@@ -24,10 +24,11 @@ Describe scope, primary source families, information cutoff, and any boundary co
 
 ### 2. Use the templates and standards
 
-- Start from `docs/templates/assessment-template.md` (or appropriate pattern for trackers, packets, matrices, etc.).
-- Follow datetime/versioning, style, and source evaluation rules exactly.
-- Use consistent Product IDs (see product-standard).
+- Start from `docs/templates/assessment-template.md` or `docs/templates/explainer-template.md` (or appropriate pattern for trackers, packets, matrices, notes, etc.).
+- Follow datetime/versioning, style, source evaluation, and product-type rules exactly.
+- Use consistent IDs (see product-standard.md and relevant product standard).
 - Mark every product `UNCLASSIFIED//OPEN SOURCE`.
+- Update the relevant collection README (under `docs/collections/`) and the Documentation Index when adding new material.
 
 ### 3. Local workflow
 
@@ -43,7 +44,7 @@ Describe scope, primary source families, information cutoff, and any boundary co
 ### 4. Pull requests
 
 - Keep PRs focused (one assessment or a small coherent set of updates).
-- Update or add cross-references in the Documentation Index and relevant READMEs when appropriate.
+- Update or add cross-references in the Documentation Index, the collection/standards/source-registers/templates hubs, and relevant READMEs when appropriate.
 - Do not add tracking, server components, or external dependencies to the static site layer without strong justification that preserves the "local corpus terminal" design.
 
 ## What Gets Accepted

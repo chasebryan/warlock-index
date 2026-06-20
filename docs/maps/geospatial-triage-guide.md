@@ -18,9 +18,9 @@
 
 **Freshness status:** Current
 
-**Last source check UTC:** 2026-06-18T19:05:00Z
+**Last source check UTC:** 2026-06-19T00:00:00Z
 
-**Next refresh UTC:** 2026-06-25T19:05:00Z
+**Next refresh UTC:** 2026-06-26T00:00:00Z
 
 **Caveat tags:** map-reference-only; commercial-data-limit; source-lag
 
@@ -76,4 +76,11 @@ Every map-dependent product should preserve:
 - Treating AIS visibility as proof that a vessel is or is not present.
 - Combining public layers into a sensitive facility, logistics, route, or vulnerability product.
 - Flattening disputed names into one normalized label without issuer caveats.
+
+## Cross References
+
+- [Maps hub](README.md)
+- [Documentation Index](../index.md)
+- [Collections](../collections/README.md)
+- [Standards](../standards/README.md)
 

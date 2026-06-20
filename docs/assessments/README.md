@@ -2,8 +2,22 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+**Product ID:** WI-DOCS-ASSESSMENTS-INDEX-2026-0001
+
+**Prepared UTC:** 2026-06-19T00:00:00Z
+
+**Information cutoff UTC:** 2026-06-19T00:00:00Z
+
+**Source base:** Current assessments listed under docs/assessments/.
+
+**Analytic confidence:** High.
+
 Assessments are dated analytical products. They are written for strategic
 understanding and research continuity, not for operational direction.
+
+See the main [Documentation Index](../index.md) and [Collections hub](../collections/README.md) for source packets, trackers, explainers, timelines, and supporting material.
+
+Follow the [Product Standard](../standards/product-standard.md) and [Assessment Style Guide](../standards/assessment-style-guide.md). Start from the [Assessment Template](../templates/assessment-template.md).
 
 ## Global
 

@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md) and [Collections](../../README.md).
+
 This directory contains source packets for maritime chokepoints, strategic
 shipping exposure, energy-flow concentration, legal/public-source routing,
 insurance and commercial effects, and allied or multilateral maritime

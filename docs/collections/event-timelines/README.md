@@ -5,6 +5,12 @@
 Event Timelines records dated sequences, source references, uncertainty notes,
 and links to the assessments that use each timeline.
 
+See the [Collections hub](../README.md) and [Standards](../../standards/README.md) for overview.
+
+Timelines provide dated sequences with source references for use by assessments and trackers.
+
+They are tools for maintaining research continuity across updates.
+
 ## Current Timelines
 
 - [2026-06-13T0157Z - Ukraine War Strategic Event Timeline](2026-06-13T0157Z-ukraine-war-strategic-event-timeline.md)

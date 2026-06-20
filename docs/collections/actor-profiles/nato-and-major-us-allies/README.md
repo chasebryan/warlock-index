@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Actor Profiles](../README.md) and [Collections](../../README.md).
+
 NATO And Major U.S. Allies tracks alliance architecture, burden-sharing,
 industrial capacity, resilience, geography, and implementation signals.
 

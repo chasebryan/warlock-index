@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Source Packets](../README.md), [Collections](../../README.md), and [Standards](../../../standards/README.md).
+
 Strategic Weapons Source Packets organize public evidence on modernization,
 deterrence, missile defense, arms control, counterspace, WMD concerns, and
 warning.

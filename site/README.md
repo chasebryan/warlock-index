@@ -13,11 +13,12 @@ Run the document-library build after changing files under `docs/`:
 
 ```sh
 node site/build-library.mjs
+node site/check-library.mjs
 ```
 
-The build renders Markdown products into `site/library/`, refreshes
-`site/corpus.js` for the homepage navigator, and updates search-discovery
-files:
+The check fails if the generated output would be stale. The build renders
+Markdown products into `site/library/`, refreshes `site/corpus.js` for the
+homepage navigator, and updates search-discovery files:
 
 - `site/robots.txt` permits crawler access and points to the sitemap.
 - `site/sitemap.xml` lists the homepage and generated documentation pages.
@@ -91,6 +92,7 @@ the live sitemap URLs to the IndexNow endpoint for Bing-family discovery.
 Current site requirements:
 
 - Browse by theater, actor, domain, and product date.
+- Include navigation hubs under collections/, standards/, source-registers/, templates/, and maps/.
 - Provide a human-readable recent-updates page at `/feed.html` without
   breaking RSS-reader compatibility at `/feed.xml`.
 - Show information cutoff and confidence at the top of each product.

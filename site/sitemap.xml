@@ -65,7 +65,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/index.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/coverage-map.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/standards/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -74,6 +82,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/standards/source-evaluation.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/source-registers/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -86,6 +98,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/source-registers/research-and-media.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/templates/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

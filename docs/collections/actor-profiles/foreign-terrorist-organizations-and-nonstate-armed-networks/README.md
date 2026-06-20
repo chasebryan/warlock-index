@@ -2,6 +2,8 @@
 
 **Classification:** UNCLASSIFIED//OPEN SOURCE
 
+See [Actor Profiles](../README.md) and [Collections](../../README.md).
+
 **Prepared UTC:** 2026-06-13T01:35:35Z
 
 **Information cutoff UTC:** 2026-06-13T01:35:35Z

@@ -4,9 +4,9 @@
 
 **Standard ID:** WI-STD-006
 
-**Prepared UTC:** 2026-06-18T18:30:00Z
+**Prepared UTC:** 2026-06-20T00:00:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:30:00Z
+**Information cutoff UTC:** 2026-06-20T00:00:00Z
 
 **Source base:** WARLOCK-INDEX product standard, source evaluation standard, generated corpus export requirements, and current documentation structure.
 
@@ -70,3 +70,9 @@ The generator also derives:
 5. Use `Caveat tags` to make uncertainty searchable across the corpus.
 6. Use related product IDs for internal routing and avoid ambiguous prose-only references.
 7. Treat generated health fields as workflow aids; they do not measure policy priority, operational value, or source truth.
+
+## Cross References
+
+- [Standards hub](README.md)
+- [Product Standard](product-standard.md)
+- [Confidence And Caveat Taxonomy](confidence-caveat-taxonomy.md)

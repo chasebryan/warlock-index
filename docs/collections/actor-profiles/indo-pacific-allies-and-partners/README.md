@@ -2,6 +2,8 @@
 
 **UNCLASSIFIED//OPEN SOURCE**
 
+See [Actor Profiles](../README.md), [Collections](../../README.md), and [Standards](../../../standards/README.md).
+
 Indo-Pacific Allies And Partners tracks public posture, capacity, constraints,
 and source confidence for regional allies and partners.
 

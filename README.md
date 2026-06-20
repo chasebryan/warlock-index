@@ -28,12 +28,13 @@ Every product in this repository must remain within the following lane:
 
 ## Repository Map
 
-- [docs/index.md](docs/index.md) - navigation hub for the documentation corpus.
+- [docs/index.md](docs/index.md) - main navigation hub for the documentation corpus (with links to specialized hubs).
+- [docs/collections/README.md](docs/collections/README.md), [docs/standards/README.md](docs/standards/README.md), [docs/source-registers/README.md](docs/source-registers/README.md), [docs/templates/README.md](docs/templates/README.md) - primary specialized hubs for collections, rules, sources, and templates.
 - [docs/standards](docs/standards) - product standards, source rules, style, and
-  tradecraft guidance.
+  tradecraft guidance (see standards/README.md).
 - [docs/templates](docs/templates) - repeatable product templates, including
-  assessment and explainer templates.
-- [docs/source-registers](docs/source-registers) - vetted source registries.
+  assessment and explainer templates (see templates/README.md).
+- [docs/source-registers](docs/source-registers) - vetted source registries (see source-registers/README.md).
 - [docs/collections/explainers](docs/collections/explainers) - reader-facing
   explanations for major topics.
 - [docs/collections](docs/collections) - source notes, timelines, trackers,
@@ -76,6 +77,7 @@ same project.
 
 The baseline standard is documented in
 [docs/standards/product-standard.md](docs/standards/product-standard.md).
+See also the full [Standards hub](docs/standards/README.md).
 All assessment and explainer products should include:
 
 - Classification/handling label: `UNCLASSIFIED//OPEN SOURCE`.
