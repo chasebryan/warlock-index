@@ -4,7 +4,7 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-OFFICIAL-US-2026-0001
 
-**Prepared UTC:** 2026-06-18T03:11:36Z
+**Prepared UTC:** 2026-06-18T10:25:19Z
 
 **Information cutoff UTC:** 2026-06-18T10:25:19Z
 
@@ -203,12 +203,14 @@ later dated refresh.
 - **Use:** Official U.S. source routing for Salt Typhoon sanctions, foreign
   malicious cyber activity reward routing, telecommunications network-security
   oversight, FCC/CISA/FBI/NSA follow-on page refresh, and PRC cyber source
-  treatment.
+  treatment, with the PRC APT/Typhoon label crosswalk used for adjacent PRC
+  cyber label separation.
 - **Reliability note:** Treasury and Rewards for Justice are executive-branch
   source routes. Senate Commerce is an official congressional oversight
   source and should not be used as a substitute for direct FBI, FCC, CISA, or
   NSA page text when those primary pages become accessible. Use the dedicated
-  Salt Typhoon source note for claim separation and safety boundaries.
+  Salt Typhoon source note and PRC APT/Typhoon label crosswalk for claim
+  separation and safety boundaries.
 
 ## State Department U.S.-Philippines Alliance, South China Sea, And Maritime Source Family
 

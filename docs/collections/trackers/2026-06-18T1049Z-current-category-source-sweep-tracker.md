@@ -4,12 +4,13 @@
 
 **Tracker ID:** WI-TRACKER-CATEGORY-SOURCE-SWEEP-2026-0001
 
-**Prepared UTC:** 2026-06-18T10:49:00Z
+**Prepared UTC:** 2026-06-18T11:54:34Z
 
-**Information cutoff UTC:** 2026-06-18T10:49:00Z
+**Information cutoff UTC:** 2026-06-18T11:54:34Z
 
 **Source base:** WARLOCK-INDEX assessment categories, coverage map, source
-registers, existing trackers, official source packets, and a current
+registers, existing trackers, official source packets, cyber nation-state
+actor/APT source tracker, PRC APT/Typhoon label crosswalk, and a current
 internet-route sweep across official U.S., allied, multilateral,
 foreign-government, institutional, live-news, and controlled current-event
 source families.
@@ -36,12 +37,16 @@ refresh cycle across every category. The sweep should prioritize official
 updates first, then multilateral/institutional data, then controlled
 current-event sources that point to primary records.
 
-The highest-priority updates are: Iran MOU implementation watch, NATO Europe
-force-presence review follow-up, current U.S. official threat/law-enforcement
-data refresh, Indo-Pacific PRC/Taiwan/South China Sea update checks,
-Middle East maritime and sanctions implementation checks, Africa official
-posture/source-family refresh, cyber/space advisory refresh, and defense
-industrial base budget/shipbuilding/munitions/critical-materials updates.
+The active operator-directed lane is now cyber/APT and nation-state actor
+coverage. The PRC APT/Typhoon label crosswalk is complete as a source-classed
+label-control packet. The Iran MOU implementation watch remains a parked
+control product until primary records appear or the lane is explicitly
+resumed. Near-term updates should prioritize Russia, Iran, and DPRK cyber
+packets from the cyber nation-state actor/APT tracker, then NATO Europe
+follow-up, current U.S. official threat/law-enforcement data refresh,
+Indo-Pacific PRC/Taiwan/South China Sea update checks, Africa official-source
+depth, space advisory/posture refresh, and defense industrial base
+budget/shipbuilding/munitions/critical-materials updates.
 
 ## Category Sweep Matrix
 
@@ -52,9 +57,9 @@ industrial base budget/shipbuilding/munitions/critical-materials updates.
 | Arctic/High North | DoD Arctic Strategy route; NORAD modernization routes; Canada/Denmark/Greenland/Nordic official implementation routes; ICE Pact routes; NATO High North statements | Existing source packets are strong, but implementation updates remain open | Add an Arctic implementation refresh focused on NORAD, ICE Pact, Greenland/Denmark, Nordic NATO integration, and allied infrastructure funding |
 | Europe/Russia | NATO defense-expenditure and summit routes; NATO force-presence review tracker; Ukraine support and battlefield aid routes; EU Readiness 2030; national allied defense-budget routes; Russia official issuer routes | Active follow-up lane, especially after the 2026-06-18 U.S. Europe force-presence review signal | Refresh Europe/Russia products with NATO institutional responses, allied national responses, Ukraine support changes, and Russia issuer-language updates |
 | Indo-Pacific | DoD China Military Power Report route; DIA/ODNI threat routes; Taiwan MND routes; Japan, ROK, Australia, Philippines, India, Quad, ASEAN, and South China Sea legal/official routes; PRC MND and PLA official-media routes | Strong baseline packets exist; current check should focus on dated official updates and claimant-state cross-checks | Create a PRC/Taiwan/South China Sea refresh queue that separates U.S. assessments, PRC issuer language, Taiwan official records, and allied/claimant responses |
-| Middle East | Iran MOU watch routes; Treasury/OFAC/Federal Register sanctions routes; IAEA/UN routes; IMO/Gulf/Hormuz routes; Red Sea, Houthi, and maritime-insurance routes; Israel/Gulf/Iran official routes | Highest immediate priority because reported MOU clauses can be misread as implemented | Use the Iran MOU implementation watch as the control product; refresh Hormuz, sanctions, IAEA/UN, and Red Sea maritime lanes only when primary records appear |
+| Middle East | Iran MOU watch routes; Treasury/OFAC/Federal Register sanctions routes; IAEA/UN routes; IMO/Gulf/Hormuz routes; Red Sea, Houthi, and maritime-insurance routes; Israel/Gulf/Iran official routes | MOU watch is parked at operator direction; primary-record capture remains the only upgrade path | Keep the Iran MOU implementation watch dormant until primary records appear or the lane is resumed; refresh Hormuz, sanctions, IAEA/UN, and Red Sea maritime lanes only from primary records |
 | Africa | AFRICOM posture route; State terrorism/country-report routes; UN/OCHA/UNHCR humanitarian routes; AU/ECOWAS/SADC/IGAD institutional routes; UN sanctions and peacekeeping routes | Baseline exists but official source depth is lighter than other categories | Build an Africa official-source refresh packet covering Sahel, Red Sea/Horn, Gulf of Guinea, terrorism, coups, peacekeeping, and humanitarian spillover |
-| Technology/Cyber/Space | CISA Known Exploited Vulnerabilities catalog; CISA/NSA/FBI joint advisories; ODNI threat route; Space Force and DoD space strategy routes; NASA/NOAA/commerce space routes; allied cyber-center routes | Cyber/space needs a standing dated-refresh habit because advisories and launch/counterspace signals move quickly | Add a cyber/space source-refresh tracker that separates defensive advisories, strategic threat assessments, space posture, commercial space, and allied cyber sources |
+| Technology/Cyber/Space | CISA Known Exploited Vulnerabilities catalog; CISA/NSA/FBI joint advisories; FBI cyber and country cyber overviews; IC3; DOJ; Treasury/OFAC; State/RFJ; ODNI threat route; allied cyber-center routes; Space Force and DoD space strategy routes; NASA/NOAA/commerce space routes | Cyber now has a dedicated nation-state actor/APT source tracker and PRC APT/Typhoon label crosswalk; space still needs a separate posture refresh | Use the cyber nation-state actor/APT tracker as the control product for Russia, Iran, DPRK, state-crime overlap, remaining PRC advisory metadata, APT labels, and allied cyber-center cross-checks; split space into a later posture tracker |
 | Defense Industrial Base | FY 2026 DoD budget routes; National Defense Industrial Strategy route; Navy shipbuilding and repair routes; munitions and missile-defense budget routes; critical minerals and supply-chain routes; GAO/CRS oversight routes | Existing DIB trackers are active; next pass should tie budget, capacity, and oversight into one refresh queue | Refresh DIB matrices with FY 2026 budget documents, shipbuilding/repair updates, munitions capacity, missile defense, critical materials, and GAO/CRS oversight |
 
 ## Source-Family Queue
@@ -72,23 +77,28 @@ industrial base budget/shipbuilding/munitions/critical-materials updates.
 | Treasury/OFAC/Federal Register | `https://home.treasury.gov/`, `https://ofac.treasury.gov/`, `https://www.federalregister.gov/` | Iran MOU, sanctions, DIB export-control context | Capture actual legal notices before upgrading reported sanctions claims |
 | IAEA/UN/IMO | `https://www.iaea.org/`, `https://www.un.org/`, `https://www.imo.org/` | Iran nuclear, UN process, maritime chokepoints, Red Sea/Hormuz | Use primary records for implementation upgrades |
 | AFRICOM/State/UN Africa routes | `https://www.africom.mil/`, `https://www.state.gov/`, `https://www.un.org/` | Africa security baseline, terrorism, humanitarian and peacekeeping lanes | Build dated Africa official-source refresh packet |
-| CISA/NSA/FBI cyber advisories | `https://www.cisa.gov/`, `https://www.nsa.gov/`, `https://www.fbi.gov/` | Cyber and critical infrastructure | Preserve defensive, non-procedural source treatment |
+| CISA/NSA/FBI cyber advisories | `https://www.cisa.gov/`, `https://www.nsa.gov/`, `https://www.fbi.gov/` | Cyber and critical infrastructure, nation-state actors, APT labels, and defensive advisory source treatment | Preserve defensive, non-procedural source treatment and route through the cyber nation-state actor/APT tracker |
+| Cyber sanctions and rewards | `https://ofac.treasury.gov/`, `https://rewardsforjustice.net/`, `https://www.justice.gov/nsd` | Cyber legal actions, sanctions, rewards, and state-crime overlap | Separate allegations, designations, rewards, legal status, and attribution; no sanctions evasion or financial procedure |
 | Space Force/DoD/NASA space routes | `https://www.spaceforce.mil/`, `https://www.defense.gov/`, `https://www.nasa.gov/` | Space, counterspace, launch, civil/institutional space | Separate military posture, civil space, and commercial space records |
 | DoD budget and industrial-base routes | `https://comptroller.defense.gov/`, `https://www.businessdefense.gov/`, `https://www.gao.gov/`, `https://crsreports.congress.gov/` | DIB, shipbuilding, munitions, critical materials, oversight | Tie budget and oversight products to DIB trackers |
 
 ## Assimilation Priority Order
 
-1. Iran MOU official-text and implementation watch.
-2. NATO Europe force-presence review and allied response follow-up.
-3. Current official threat/law-enforcement refresh for homeland and global
+1. Russia, Iran, and DPRK cyber source packets, sequenced by available official
+   source capture.
+2. PRC advisory page-level metadata refreshes using the completed PRC
+   APT/Typhoon label crosswalk as label control.
+3. Allied cyber-center crosswalk and commercial/research source-class rule.
+4. NATO Europe force-presence review and allied response follow-up.
+5. Current official threat/law-enforcement refresh for homeland and global
    lanes.
-4. Indo-Pacific PRC/Taiwan/South China Sea dated official-source refresh.
-5. Middle East Hormuz, sanctions, IAEA/UN, Red Sea, and maritime-insurance
-   refresh.
-6. Africa official-source depth build-out.
-7. Cyber/space advisory and posture refresh.
-8. Defense industrial base budget, oversight, shipbuilding, munitions, and
-   critical-materials refresh.
+6. Indo-Pacific PRC/Taiwan/South China Sea dated official-source refresh.
+7. Africa official-source depth build-out.
+8. Space advisory and posture refresh.
+9. Defense industrial base budget, oversight, shipbuilding, munitions, and
+    critical-materials refresh.
+10. Parked Iran MOU official-text and implementation watch; resume only when
+    primary records appear or the lane is explicitly reopened.
 
 ## Cross References
 
@@ -100,5 +110,7 @@ industrial base budget/shipbuilding/munitions/critical-materials updates.
 - [Foreign Government Reference Source Register](../../source-registers/foreign-government-reference.md)
 - [Research And Media Source Register](../../source-registers/research-and-media.md)
 - [U.S.-Iran MOU Implementation Watch Tracker](2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.md)
+- [Cyber Nation-State Actor And APT Source Tracker](2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
 - [NATO Europe Force Presence Implementation Tracker](2026-06-18T0915Z-nato-europe-force-presence-implementation-tracker.md)
 - [LIVE-NEWS Source Audit Tracker](2026-06-18T1015Z-live-news-source-audit-tracker.md)

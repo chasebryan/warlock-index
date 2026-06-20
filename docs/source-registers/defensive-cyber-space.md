@@ -38,6 +38,7 @@ Use this register to route defensive cyber, critical infrastructure, telecommuni
 | CISA Cybersecurity Advisories | U.S. government alerting and mitigations | Prefer advisory text and linked vendor guidance over secondary summaries. |
 | NSA Cybersecurity Advisories | Hardening, secure configuration, and joint advisory context | Use as defensive guidance source; do not transform into offensive procedures. |
 | FBI Internet Crime Complaint Center | Cybercrime trend reporting | Useful for fraud, ransomware, BEC, and victimization trends. |
+| FBI, DOJ, Treasury/OFAC, and State/RFJ cyber legal/status routes | Nation-state cyber source events, legal actions, sanctions/designations, and reward notices | Preserve source class and actor wording; do not provide sanctions advice, evasion guidance, tip-channel mechanics, or technical cyber detail. |
 | NIST National Vulnerability Database | CVE metadata and CVSS context | Treat publication dates and enrichment lag as caveats. |
 | MITRE ATT&CK and CWE | Technique and weakness taxonomy | Use for classification and defensive mapping, not procedure reproduction. |
 | CIS Controls and MS-ISAC | Baseline controls and state/local/tribal/territorial context | Useful for defensive maturity and priority framing. |
@@ -52,6 +53,7 @@ Use this register to route defensive cyber, critical infrastructure, telecommuni
 | Canadian Centre for Cyber Security | Allied advisories and baseline controls | Useful for Five Eyes and critical infrastructure cross-checking. |
 | ENISA | EU threat landscape and policy context | Good for annual trend framing and sector risk categories. |
 | CERT-EU | EU institutional cybersecurity advisories | Use for European institutional source routing. |
+| NATO and EU cyber routes | Multilateral cyber policy, resilience, and allied-warning context | Use for source routing and strategic context; do not infer national attribution beyond the cited source language. |
 
 ## Space And Counterspace Public Sources
 
@@ -70,4 +72,3 @@ Every cyber product that draws from this register should include:
 - `Safety boundary: Defensive cyber source routing only. Excludes exploit steps, targeting, evasion, credential abuse, or operational tasking.`
 - `Caveat tags: defensive-cyber-only` when cyber advisories, CVEs, or TTP taxonomies appear.
 - `Freshness status: Watch` when vulnerability, incident, or advisory status is changing.
-

@@ -150,6 +150,21 @@
     "url": "library/assessments/africa/2026-06-13T0152Z-africa-security-environment-strategic-baseline.html"
   },
   {
+    "id": "china-taiwan-wi-sourcepacket-china-stratweapons-2026-0001",
+    "title": "China Nuclear And Missile Modernization Source Packet",
+    "region": "China / Taiwan Strait",
+    "anchor": "Taiwan Strait / first island chain",
+    "placement": "Placed at the Taiwan Strait and first-island-chain problem set, which is the corpus anchor for China, PLA, and Taiwan records.",
+    "category": "source collection",
+    "date": "2026-06-13",
+    "x": 76.8,
+    "y": 45.8,
+    "shape": "dot",
+    "status": "updated",
+    "summary": "The open-source official record supports treating PRC nuclear and missile modernization as a central strategic-weapons lane, not a narrow regional military issue. ODNI frames Beijing's nuclear modernization as tied to strategic competition with the United States and places China…",
+    "url": "library/collections/source-packets/strategic-weapons/2026-06-13T0250Z-china-nuclear-missile-modernization-source-packet.html"
+  },
+  {
     "id": "china-taiwan-wi-sourcepacket-map-indopac-2026-0001",
     "title": "Indo-Pacific And Taiwan Map Reference Source Packet",
     "region": "China / Taiwan Strait",
@@ -157,8 +172,8 @@
     "placement": "Placed at the Taiwan Strait and first-island-chain problem set, which is the corpus anchor for China, PLA, and Taiwan records.",
     "category": "map reference",
     "date": "2026-06-13",
-    "x": 76.8,
-    "y": 45.8,
+    "x": 77.5,
+    "y": 45.25,
     "shape": "dot",
     "status": "updated",
     "summary": "The Indo-Pacific/Taiwan map lane should use public maps as orientation anchors, not as planning tools. NGA's public Taiwan 2024 map can anchor a static map reference. USINDOPACOM's Area of Responsibility page can anchor U.S. command-area framing. The Taiwan Relations Act can anc…",
@@ -180,8 +195,23 @@
     "url": "library/assessments/technology-cyber-space/2026-06-13T0129Z-global-cyber-critical-infrastructure-strategic-baseline.html"
   },
   {
-    "id": "global-strategy-research-wi-sourcepacket-multistability-2026-0001",
-    "title": "Multilateral Strategic Stability Source Packet",
+    "id": "global-cyber-space-wi-asmt-tcs-2026-0002",
+    "title": "Global Space And Counterspace Strategic Baseline",
+    "region": "Global cyber / space",
+    "anchor": "North Pacific cyber-space lane",
+    "placement": "Placed in open Pacific space as a non-territorial anchor for global cyber, space, counterspace, telecommunications, and critical-infrastructure records.",
+    "category": "assessment",
+    "date": "2026-06-13",
+    "x": 87.7,
+    "y": 31.25,
+    "shape": "dot",
+    "status": "updated",
+    "summary": "Space is now a strategic dependency layer for the United States, its allies, commercial society, and adversary military systems. Public U.S. intelligence reporting describes space as increasingly contested, with China and Russia developing counterspace capabilities and a wider r…",
+    "url": "library/assessments/technology-cyber-space/2026-06-13T0132Z-global-space-counterspace-strategic-baseline.html"
+  },
+  {
+    "id": "global-strategy-research-wi-sourcepacket-armscontrol-2026-0001",
+    "title": "Arms-Control Erosion Source Packet",
     "region": "Global strategy and warfare research",
     "anchor": "Atlantic strategic-research lane",
     "placement": "Placed in open Atlantic space as a non-territorial anchor for arms control, strategic stability, academic research, and cross-theater strategy records.",
@@ -191,8 +221,8 @@
     "y": 46.85,
     "shape": "dot",
     "status": "updated",
-    "summary": "Multilateral strategic stability is now a format problem as much as a weapons problem. The New START framework was bilateral, but the public strategic environment is increasingly shaped by Russia, China, the United States, NATO, DPRK, Iran-related WMD and missile concerns, advan…",
-    "url": "library/collections/source-packets/strategic-weapons/2026-06-13T2216Z-multilateral-strategic-stability-source-packet.html"
+    "summary": "Arms-control erosion is now a central strategic-weapons research lane. The New START treaty entered into force in 2011, was extended to February 5, 2026, and expired after Russia suspended implementation in 2023 and no successor agreement entered into force. Its expiration remov…",
+    "url": "library/collections/source-packets/strategic-weapons/2026-06-13T0320Z-arms-control-erosion-source-packet.html"
   },
   {
     "id": "korean-peninsula-wi-sourcepacket-dprk-stratweapons-2026-0001",
@@ -225,21 +255,6 @@
     "url": "library/collections/source-packets/theater-map-reference/2026-06-13T1938Z-europe-nato-ukraine-map-reference-source-packet.html"
   },
   {
-    "id": "russia-strategic-wi-sourcepacket-russia-stratweapons-2026-0001",
-    "title": "Russia Strategic Weapons And Nuclear Signaling Source Packet",
-    "region": "Russia / strategic forces",
-    "anchor": "Western Russia strategic-forces lane",
-    "placement": "Placed in western Russia as a strategic-weapons anchor for Russia nuclear-signaling and strategic-forces records, separate from the Ukraine war marker.",
-    "category": "source collection",
-    "date": "2026-06-13",
-    "x": 61.6,
-    "y": 30.8,
-    "shape": "dot",
-    "status": "updated",
-    "summary": "Russia is the most mature Russia-specific strategic-weapons lane in the current WARLOCK-INDEX corpus because it connects nuclear peer status, active war in Ukraine, NATO deterrence and assurance, nonstrategic nuclear concern, arms-control erosion, advanced delivery systems, coun…",
-    "url": "library/collections/source-packets/strategic-weapons/2026-06-13T2051Z-russia-strategic-weapons-and-nuclear-signaling-source-packet.html"
-  },
-  {
     "id": "south-china-sea-wi-sourcepacket-map-scs-2026-0001",
     "title": "Philippines And South China Sea Map Reference Source Packet",
     "region": "South China Sea / Philippines",
@@ -253,20 +268,5 @@
     "status": "updated",
     "summary": "The Philippines and South China Sea map lane needs four separate layers: map orientation, issuer language, legal-source provenance, and threat or posture evidence. Public maps can orient the reader to the region and record publisher language, but they cannot prove sovereignty, c…",
     "url": "library/collections/source-packets/theater-map-reference/2026-06-13T1856Z-philippines-south-china-sea-map-reference-source-packet.html"
-  },
-  {
-    "id": "china-taiwan-wi-asmt-indopac-2026-0002",
-    "title": "China Strategic Actor Classification",
-    "region": "China / Taiwan Strait",
-    "anchor": "Taiwan Strait / first island chain",
-    "placement": "Placed at the Taiwan Strait and first-island-chain problem set, which is the corpus anchor for China, PLA, and Taiwan records.",
-    "category": "assessment",
-    "date": "2026-06-12",
-    "x": 77.5,
-    "y": 45.25,
-    "shape": "dot",
-    "status": "updated",
-    "summary": "China should be classified in WARLOCK-INDEX as the United States' principal long-range peer competitor: a party-state great power with global economic and technological reach, a rapidly modernizing military, expanding nuclear and space capabilities, persistent cyber access ambit…",
-    "url": "library/assessments/indo-pacific/2026-06-12T2338Z-china-strategic-actor-classification.html"
   }
 ]

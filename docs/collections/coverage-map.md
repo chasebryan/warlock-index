@@ -4,9 +4,9 @@
 
 **Product ID:** WI-COVERAGE-MAP-2026-0001
 
-**Prepared UTC:** 2026-06-18T03:29:19Z
+**Prepared UTC:** 2026-06-18T11:54:34Z
 
-**Information cutoff UTC:** 2026-06-18T03:29:19Z
+**Information cutoff UTC:** 2026-06-18T11:54:34Z
 
 **Source base:** Existing WARLOCK-INDEX assessments, source registers,
 source packets, explainers, trackers, timelines, actor profiles, maps, and
@@ -119,9 +119,19 @@ future open-source defense assessments.
   treatment, allied/regional defense white papers, cyber advisories, South
   China Sea legal sources, South China Sea coercion/legal-source treatment,
   PRC cyber and critical-infrastructure defensive source treatment, Salt
-  Typhoon telecommunications defensive source treatment, PRC
+  Typhoon telecommunications defensive source treatment, PRC APT/Typhoon
+  label crosswalk and advisory-refresh source treatment, PRC
   space/counterspace and information-support source treatment, and
   China-specific tracker/matrix products.
+- Cyber nation-state actor and APT source families, including PRC, Russian,
+  Iranian, DPRK, and state-crime overlap lanes; FBI cyber and country-overview
+  source routing; CISA/NSA/FBI defensive advisories; IC3 complaint-source
+  context; DOJ legal actions; Treasury/OFAC cyber sanctions; State Rewards for
+  Justice cyber routes; allied cyber-center cross-checks; PRC APT/Typhoon
+  label control; the Russia state cyber source packet; and source-classed APT
+  label treatment, handled without exploit steps, IOCs, malware procedures,
+  provider vulnerability mapping, sanctions-evasion guidance, or operational
+  cyber guidance.
 - ODNI declassified WMD, biosecurity, foreign-laboratory, and
   threat-reduction disclosures where handled as issuer-perspective source
   events with explicit no-methods and no-facility-detail boundaries.

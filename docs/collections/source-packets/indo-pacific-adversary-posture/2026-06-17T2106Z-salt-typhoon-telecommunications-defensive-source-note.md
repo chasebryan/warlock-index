@@ -83,6 +83,7 @@ where those claims should be sourced and what must remain out of the corpus.
 | FCC Salt Typhoon / telecommunications cybersecurity route | Federal Communications Commission | Search route produced HTTP/2 error and HTTP/1.1 timeout on 2026-06-17 | Telecom-regulatory and CALEA/network-protection policy source family | Not verified in this pass; use Senate page only for current congressional oversight references |
 | ODNI 2026 Annual Threat Assessment | Office of the Director of National Intelligence | Repository source family already active | Strategic IC framing for PRC cyber threat and critical-infrastructure risk | Summary public IC assessment; no technical or provider-specific extraction |
 | PRC cyber defensive source packet | WARLOCK-INDEX | Existing dated packet | Parent source-treatment lane for PRC cyber, critical infrastructure, CISA/NSA/FBI source routing, DOJ events, and PRC issuer-source separation | Internal derived source organization; later direct official pages supersede it |
+| PRC APT/Typhoon label crosswalk | WARLOCK-INDEX | Existing dated packet | Source-classed label control for Salt Typhoon, Volt Typhoon, APT40, APT27, Flax Typhoon, APT31, and related PRC cyber labels | Internal derived source organization; does not replace direct advisory/legal/sanctions pages |
 
 ## Source Separation Matrix
 
@@ -130,6 +131,7 @@ where those claims should be sourced and what must remain out of the corpus.
 
 | Product | Purpose | Primary source families |
 | --- | --- | --- |
+| PRC APT/Typhoon Label Crosswalk | Completed in the 2026-06-18 PRC APT/Typhoon packet; use it to keep Salt Typhoon label treatment separated from Volt Typhoon, APT40, APT27, Flax Typhoon, and APT31 | FBI, DOJ, Treasury/OFAC, CISA, NSA, FBI, State/RFJ, FCC/Senate, allied cyber centers |
 | Salt Typhoon Advisory Page-Level Refresh | Capture exact CISA, NSA, FBI, and allied advisory titles, dates, co-seal agency lists, and access notes without technical detail | CISA, NSA, FBI, allied cyber agencies |
 | FCC Telecommunications Cybersecurity Source Refresh | Capture FCC orders, declaratory rulings, NPRM, rescission, and Federal Register routes tied to Salt Typhoon and CALEA/network-security policy | FCC, Federal Register, Senate Commerce |
 | OFAC Salt Typhoon Designation Refresh | Capture current OFAC recent-action and SDN status for designated individuals/entities | Treasury, OFAC |
@@ -154,6 +156,7 @@ where those claims should be sourced and what must remain out of the corpus.
 ## Cross References
 
 - [PRC Cyber And Critical Infrastructure Defensive Source Packet](2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
 - [China/PLA Source Collection Tracker](../../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../../source-registers/us-intelligence-law-enforcement.md)
 - [Official U.S. Source Register](../../../source-registers/official-us.md)

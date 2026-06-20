@@ -1,8 +1,8 @@
 # WARLOCK-INDEX Status
 
-**Current status:** Initial documentation architecture established.
+**Current status:** Documentation corpus and routing surfaces are active.
 
-**Prepared UTC:** 2026-06-17 (tool-assisted docs continuation)
+**Prepared UTC:** 2026-06-18T11:54:34Z (cyber/APT continuation lane)
 
 ## Completed
 
@@ -423,6 +423,69 @@
   packet series wiring while preserving no-route-guidance, no-escort-advice,
   no-toll-avoidance, no-sanctions-advice, no-live-movement-analysis, and
   no-operational-guidance boundaries.
+- Added the defense industrial base, munitions, and shipbuilding source packet,
+  defense industrial base capacity tracker, and defense industrial base
+  assimilation matrix with DoD, Navy, NATO, EU, AUKUS, ICE Pact, CRS, GAO,
+  congressional, allied, and critical-input source-family routing while
+  preserving no-procurement-advice, no-supplier-targeting, no-readiness-scoring,
+  no-infrastructure-vulnerability-analysis, and no-operational-guidance
+  boundaries.
+- Added the munitions and energetics industrial capacity source packet,
+  munitions industrial capacity tracker, critical materials and defense supply
+  chain source packet, and critical materials and supply chain tracker with
+  budget, oversight, strategic-materials, Commerce/BIS, USGS, DOE, DLA,
+  allied, and Ukraine-support source lanes while preserving no-technical
+  production detail, no-stockpile exploitation, no-export-control evasion, and
+  no-operational-guidance boundaries.
+- Added the Navy shipbuilding and repair, air and missile defense industrial
+  capacity, and drone/counter-UAS industrial capacity source packets with DIB
+  tracker/matrix, munitions, critical-materials, Ukraine-support, AUKUS, ICE
+  Pact, allied, and oversight-source cross-links while preserving no-facility
+  vulnerability, no-weapons-employment, no-sensor-coverage,
+  no-operational-inventory, no-jamming/evasion, and no-protected-site
+  vulnerability guidance.
+- Added the allied defense industrial base crosswalk plus United Kingdom defense
+  investment/readiness and Japan defense buildup implementation source packets,
+  separating strategy, budget, program, delivery, parliamentary/audit, NATO/EU,
+  and national-source evidence without readiness rankings, procurement advice,
+  supplier targeting, or forced country equivalence.
+- Added the NATO and U.S. Europe force posture review caveat, NATO Europe force
+  presence implementation tracker, NATO Europe force presence review source
+  packet, and NATO Europe force presence allied response capture packet while
+  preserving the distinction between a review signal, official transcript,
+  review terms, NATO position, allied national responses, congressional
+  oversight, and actual posture implementation.
+- Added the LIVE-NEWS source-treatment note and LIVE-NEWS source audit tracker
+  to separate public-card approved live sources, reviewed candidate sources,
+  institutional proceedings, commercial current-event awareness, and required
+  follow-on corroboration.
+- Added the current category source sweep tracker to create a dated cross-category
+  refresh queue across global, homeland, Arctic, Europe/Russia, Indo-Pacific,
+  Middle East, Africa, cyber/space, and defense-industrial-base lanes.
+- Added the cyber nation-state actor and APT source tracker, updated the U.S.
+  and allied cyber source-register lanes, and rewired the category sweep,
+  official-threat tracker, coverage map, global matrix, docs index, and tracker
+  index so PRC, Russia, Iran, DPRK, state-crime overlap, APT labels, cyber
+  sanctions, rewards, and allied cyber-center cross-checks have a safe control
+  surface.
+- Added the U.S.-Iran MOU implementation-gap capture and U.S.-Iran MOU
+  implementation watch tracker, preserving evidence separation across reported
+  text, official text, sanctions/legal implementation, Hormuz/maritime
+  implementation, IAEA/nuclear measures, UN process, and market/shipping
+  interpretation.
+- Added the PRC APT/Typhoon label crosswalk and advisory refresh source
+  packet, tying FBI, DOJ, Treasury/OFAC, CISA/NSA/FBI, State/RFJ, FCC/Senate,
+  and allied cyber-center source lanes to source-classed PRC cyber labels
+  without technical extraction or alias laundering.
+- Added the Russia state cyber source packet, separating GRU, FSB, queued SVR,
+  Ukraine-war, legal-action, sanctions/reward, defensive advisory, and allied
+  warning source classes without IOCs, malware procedures, vulnerability lists,
+  target mapping, or operational cyber guidance.
+- Added priority explainers for defense industrial base, air and missile
+  defense, drone/counter-UAS, shipbuilding and repair, allied defense industrial
+  base, China/PLA modernization, Iran/Middle East strategic pressure, Ukraine
+  external support, homeland/law-enforcement threats, Arctic/High North, Africa,
+  cyber/critical infrastructure, and space/counterspace.
 
 ## Current Analytical Posture
 
@@ -437,63 +500,53 @@ The repository is in baseline-building mode. Products prioritize:
 
 ## Next Work Queue
 
-- Add allied posture profiles for other major U.S. allies, including Europe,
-  Canada, India/Quad-related lanes, and additional Nordic/High North lanes.
-- Add ROK-U.S. NCG implementation and defense white paper verification,
-  Australia investment/delivery, Canada defense investment/delivery, U.S. ICE
-  Pact/Coast Guard icebreaker capture, Finland ICE Pact industrial capture,
-  official Hormuz reopening/maritime-notice capture, and Hormuz
-  energy-flow/bypass-capacity refresh packets.
-- Continue watching for official published U.S.-Iran MOU text if released,
-  plus Treasury/OFAC waiver records, IAEA/UN records, Iranian official
-  interpretation, and mediator statements.
-- Add follow-on Denmark defense investment/delivery, Greenland Arctic source
-  capture, Faroe North Atlantic source capture, Denmark maritime and
-  domain-awareness implementation refresh, Iceland NATO/air-policing, Iceland
-  Coast Guard/maritime-security, Iceland legal/budget/oversight, SAFE
-  legal/budget status refresh, EDIP legislative/program refresh, EU military
-  mobility/infrastructure, EU defense-industrial and Ukraine-support, EU
-  cyber/resilience/hybrid-threat, and EU sanctions source packets.
-- Add follow-on China/PLA source packets for PRC space/counterspace page-level
-  extraction, PRC Aerospace Force and Information Support Force issuer
-  capture, PRC defense-industrial and emerging technology, PRC
-  defense white-paper deep extraction, Taiwan MND direct source capture,
-  State/AIT Taiwan policy source refresh, PRC MND press conference archive
-  capture, Philippine WPS page-level source refreshes where access remained
-  incomplete, PRC Coast Guard and
-  maritime lawfare source capture, ASEAN/claimant-state South China Sea
-  page-level refreshes, PRC cyber advisory page-level refresh, Salt Typhoon
-  advisory page-level refresh, FCC telecommunications cybersecurity source
-  refresh, OFAC Salt Typhoon designation refresh, PRC cyber-governance
-  issuer-language refresh, critical-infrastructure sector source crosswalk,
-  allied PRC cyber cross-checks, and PRC-Russia defense-industrial support.
-- Add follow-on DoD Cooperative Threat Reduction, BWC treaty/compliance,
-  Ukraine official-source, select-agent oversight, emerging biotechnology
-  security, and declassification/information-resilience source packets from
-  the WMD/biosecurity source baseline and Ukraine claim-reconciliation queues.
-- Add follow-on implementation packets for Republic of Korea extended
-  deterrence/NCG and defense white-paper verification, AUKUS industrial
-  implementation refreshes, Australia investment/delivery, India defense
-  policy/budget verification, Quad critical-minerals/energy implementation,
-  U.S.-India iCET/INDUS-X implementation, France LPM
-  implementation and nuclear/cyber/Indo-Pacific
-  follow-on lanes, Germany defense investment/budget implementation,
-  Bundeswehr force-design/readiness evidence, defense-industrial/procurement,
-  cyber/resilience, and China/economic-security follow-on lanes, Norway
-  defense investment/budget implementation, High North/Nordic NATO
-  integration, defense-industrial/acquisition, cyber/protective-security/total
-  defense follow-on lanes, Finland defense investment/budget implementation,
-  NATO FLF/MCLCC and host-nation-support, total-defense/cyber/resilience,
-  and defense-industrial/capability-delivery follow-on lanes, Sweden
-  defence-resolution implementation, NATO FLF/host-nation-support,
-  total-defence/civil-defence/resilience, and defense-industrial/capability
-  delivery follow-on lanes, Philippines defense policy/budget verification,
-  PCG WPS incident refresh, Official Gazette legal-source refresh,
-  U.S.-Philippines alliance/EDCA implementation source packet, ICE Pact
-  implementation, New START
-  post-expiration status, and Red Sea follow-on economics sublanes.
+- Use the cyber nation-state actor and APT source tracker as the active control
+  lane. The PRC APT/Typhoon label crosswalk and Russia state cyber packet are
+  now packetized; next add Iran and DPRK cyber source packets from official and
+  allied defensive sources, sequenced by source availability. Keep queued
+  SVR/APT29, IRGC-linked, DPRK cyber-finance/IT-worker, ransomware-enabling,
+  election/influence, sanctions, and legal-action evidence separated by source
+  class.
+- Follow the remaining PRC advisory page-level refresh queue only as a
+  controlled metadata pass: exact CISA, NSA, FBI, FCC, and allied titles,
+  dates, issuing agencies, and access notes without IOCs, CVEs, commands,
+  malware procedures, provider details, or remediation playbooks.
+- Add an allied cyber-center crosswalk and commercial/research source-class rule
+  before normalizing APT aliases across products.
+- Keep the U.S.-Iran MOU implementation watch parked until primary records appear
+  or the lane is explicitly reopened; do not search for first-to-publish updates
+  in routine continuation.
+- Follow the NATO Europe force-presence review lane for official transcript,
+  durable social archive, review terms, NATO institutional response, allied
+  national responses, congressional oversight, and any later posture, basing,
+  budget, or implementation document.
+- Refresh current official threat and law-enforcement source lanes for homeland
+  and global products, including ODNI, DHS, FBI/IC3, DEA, CBP, NCTC, DOJ, and
+  related official records.
+- Create the Indo-Pacific PRC/Taiwan/South China Sea dated official-source
+  refresh queue, separating U.S. assessments, PRC issuer language, Taiwan
+  official records, allied responses, claimant-state records, and legal-source
+  updates.
+- Build the Africa official-source refresh packet for Sahel, Red Sea/Horn, Gulf
+  of Guinea, terrorism, coups, peacekeeping, humanitarian spillover, sanctions,
+  and regional institutional source families.
+- Split space into a later source-refresh tracker that separates space posture,
+  launch/counterspace, civil/commercial space, and allied space source families.
+- Refresh DIB matrices and trackers with FY 2026 budget documents,
+  shipbuilding/repair updates, munitions capacity, missile defense,
+  critical-materials implementation, GAO/CRS/CBO oversight, and allied
+  country-level delivery evidence.
+- Continue allied and partner implementation packets after the higher-priority
+  refresh lanes, including ROK NCG/defense white paper verification, Australia
+  investment/delivery, Canada defense investment/delivery, U.S. ICE Pact/Coast
+  Guard icebreaker capture, Finland ICE Pact industrial capture, India defense
+  policy/budget, Quad critical minerals/energy, U.S.-India iCET/INDUS-X, France
+  LPM, Germany defense investment, Nordic implementation, Philippines
+  defense/budget and EDCA, EU SAFE/EDIP/military mobility, and Red Sea
+  economics sublanes.
 - Add country and subregion source packets for Sudan, Somalia, Sahel/coastal
-  West Africa, DRC critical minerals, and Libya.
-- Add additional map-heavy theater source packets as needed.
-- Add a website information architecture once the document corpus is large
-  enough to justify navigation design.
+  West Africa, DRC critical minerals, and Libya after the category source-sweep
+  priorities above.
+- Keep routine continuation docs-only in canonical Markdown and avoid generated
+  `site/` output unless public website or Workspace behavior is explicitly
+  reopened.

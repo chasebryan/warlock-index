@@ -4,9 +4,9 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-USILE-2026-0001
 
-**Prepared UTC:** 2026-06-17T21:06:51Z
+**Prepared UTC:** 2026-06-18T11:54:34Z
 
-**Information cutoff UTC:** 2026-06-17T21:06:51Z
+**Information cutoff UTC:** 2026-06-18T11:54:34Z
 
 **Source base:** ODNI, CIA, FBI, DHS, CISA, NSA, State, Treasury, DOJ, DEA,
 ATF, CBP, Coast Guard, NGA, congressional, sanctions, border, cyber,
@@ -293,7 +293,8 @@ identity, journalism, protest, or association as an intelligence target.
   activity, critical-infrastructure risk, espionage, actor naming, sector
   exposure, allied advisory coordination, and DOJ/FBI disruption-source event
   routing. The China/PLA source baseline and PRC cyber defensive packet use
-  this as the main defensive source-family lane.
+  this as the main defensive source-family lane, with the PRC APT/Typhoon
+  label crosswalk controlling broader actor-label use.
 - **Reliability note:** Authoritative for public defensive advisory framing.
   Individual advisories require dated extraction before claim-level use.
   WARLOCK-INDEX should summarize actor, sector, and defensive themes only.
@@ -334,17 +335,42 @@ identity, journalism, protest, or association as an intelligence target.
   telecommunications and communications-infrastructure source treatment,
   Treasury sanctions, critical-infrastructure reward routing, congressional
   oversight, CISA/NSA/FBI advisory refresh, FCC telecom-regulatory refresh,
-  and allied cyber-agency cross-checks.
+  PRC APT/Typhoon label separation, and allied cyber-agency cross-checks.
 - **Reliability note:** Treasury, Rewards for Justice, and Senate Commerce
   routes were directly accessible in the 2026-06-17 pass. CISA, NSA, FBI,
   and FCC routes returned access barriers, generic challenge pages, transport
   errors, or timeouts and require later page-level refresh before direct
   advisory, FBI, or FCC claims are carried. Use the dedicated Salt Typhoon
-  source note for claim separation.
+  source note and PRC APT/Typhoon label crosswalk for claim separation.
 - **Boundary:** No exploit steps, commands, IOCs, vulnerability lists, router
   configuration guidance, lawful-intercept system detail, provider-specific
   vulnerability mapping, victim identification, incident-response playbooks,
   sanctions-evasion guidance, or operational cyber guidance.
+
+### Cyber Nation-State Actor And APT Source Family
+
+- **Source class:** A/B by source lane.
+- **Publishers:** FBI, CISA, NSA, IC3, DOJ, Treasury/OFAC, State Rewards for
+  Justice, FCC/Senate where relevant, and allied cyber centers where directly
+  captured.
+- **Accessed UTC:** 2026-06-18T11:54:34Z
+- **URLs:** https://www.fbi.gov/investigate/cyber ; https://www.fbi.gov/investigate/cyber/cyber-threat-overview-china ; https://www.fbi.gov/investigate/cyber/cyber-threat-overview-iran ; https://www.cisa.gov/news-events/cybersecurity-advisories ; https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/ ; https://www.ic3.gov/ ; https://www.justice.gov/nsd ; https://ofac.treasury.gov/ ; https://rewardsforjustice.net/rewards/foreign-malicious-cyber-activity-against-u-s-critical-infrastructure/
+- **Use:** Official U.S. source-family routing for PRC, Russian, Iranian, DPRK,
+  and state-crime overlap cyber coverage; APT/actor-label source treatment;
+  defensive advisories; law-enforcement source events; cyber sanctions; reward
+  notices; IC3 complaint-source context; telecom and critical-infrastructure
+  source separation; PRC APT/Typhoon label control; and allied cyber-center
+  cross-checks.
+- **Reliability note:** Authoritative for each issuer's public framing and
+  source identity. APT labels, vendor aliases, service-level attribution, and
+  law-enforcement allegations require source-class notes before use in broader
+  assessments. Use the dedicated cyber nation-state actor tracker for alias and
+  extraction rules and the PRC APT/Typhoon label crosswalk for PRC label
+  source-classing.
+- **Boundary:** No exploit steps, commands, IOCs, vulnerability lists, malware
+  procedures, credential theft workflows, victim lists, provider vulnerability
+  maps, lawful-intercept detail, sanctions-evasion guidance, cryptocurrency
+  laundering detail, or operational cyber guidance.
 
 ### State Department Foreign Terrorist Organizations
 
@@ -456,7 +482,7 @@ identity, journalism, protest, or association as an intelligence target.
 | Foreign intelligence activity | FBI, ODNI/NCSC, DOJ NSD, Treasury | Counterintelligence source lane | No investigative guidance or identification of private persons |
 | International terrorism | FBI, NCTC, State, Treasury, DHS, ODNI | Designation and group profile source lane | No tactics, recruitment, financing, or attack method detail |
 | Domestic terrorism and violent extremism | FBI, DHS, DOJ, Treasury | Legal/security category source lane | No political enemies list or protected-speech profiling |
-| Cyber threats | CISA, FBI, NSA, ODNI, Treasury, DOJ, State/RFJ, Senate/FCC source lanes where relevant | Defensive strategic cyber source lane, including PRC cyber and Salt Typhoon telecommunications source treatment | No exploit steps, scanning, evasion, indicators-for-misuse, telecom network diagrams, lawful-intercept detail, provider vulnerability mapping, or targeting |
+| Cyber threats | CISA, FBI, NSA, ODNI, Treasury, DOJ, State/RFJ, Senate/FCC source lanes where relevant | Defensive strategic cyber source lane, including PRC cyber, Salt Typhoon telecommunications, cyber nation-state actor, and APT label source treatment | No exploit steps, scanning, evasion, indicators-for-misuse, telecom network diagrams, lawful-intercept detail, provider vulnerability mapping, or targeting |
 | Transnational criminal organizations | DEA, Treasury, FBI, DHS/HSI, CBP, Coast Guard, ATF | TCO, narcotics, firearms, border, maritime, finance source lane | No trafficking, concealment, procurement, or enforcement tactics |
 | WMD and proliferation | FBI WMD, State, Treasury, ODNI, DoD/DTRA, DHS, FSAP, IAEA/UN sources | Proliferation, terrorism risk, biosecurity, Ukraine biolab claim reconciliation, and official disclosure source lane | No materials, methods, facility tables, device, site mapping, or vulnerability detail |
 | Border and maritime threat vectors | DHS, CBP, Coast Guard, DEA, FBI, Treasury | Aggregate strategic source lane | No route selection, evasion, or live movement analysis |
@@ -468,6 +494,8 @@ identity, journalism, protest, or association as an intelligence target.
 - [Official U.S. Threat Source Baseline Packet](../collections/source-packets/official-threat-source-baseline/2026-06-13T0559Z-official-us-threat-source-baseline-packet.md)
 - [U.S. Law Enforcement Threat Source Capture Packet](../collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Official Threat Source Collection Tracker](../collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
+- [Cyber Nation-State Actor And APT Source Tracker](../collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Legacy Factbook Replacement Note](../collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
 - [ODNI Global Biolab Disclosure Source-Treatment Note](../collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)

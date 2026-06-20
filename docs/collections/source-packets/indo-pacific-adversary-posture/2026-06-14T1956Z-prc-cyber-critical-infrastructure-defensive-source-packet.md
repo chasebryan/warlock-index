@@ -24,7 +24,7 @@ packet, Taiwan pressure packet, South China Sea packet, official U.S.
 register, U.S. intelligence and law-enforcement register, foreign-government
 register, China actor profile, China/PLA tracker, coverage map, and global
 assimilation matrix; Salt Typhoon and telecommunications defensive source
-note.
+note; PRC APT/Typhoon label crosswalk and advisory refresh source packet.
 
 **Analytic confidence:** High for ODNI 2026 cyber threat framing, DoD 2025
 PLA cyber section identity, DOJ January 31, 2024 disruption source identity,
@@ -174,6 +174,7 @@ restraint, legality, or attribution.
 
 | Packet | Purpose | Primary source families |
 | --- | --- | --- |
+| PRC APT/Typhoon Label Crosswalk | Completed in the 2026-06-18 PRC APT/Typhoon packet; use it as the source-classed label control before broader alias use | FBI, DOJ, Treasury/OFAC, CISA, NSA, FBI, State/RFJ, FCC/Senate, allied cyber centers |
 | PRC Cyber Advisory Page-Level Refresh | Capture exact CISA, NSA, FBI, DOJ, and allied PRC advisory pages with dates and access notes | CISA, NSA, FBI, DOJ, NCSC/GCHQ, ASD/ACSC, Cyber Centre/CSE |
 | Salt Typhoon Advisory Page-Level Refresh | Follow the 2026-06-17 Salt Typhoon source note by capturing exact CISA, NSA, FBI, and allied advisory titles, dates, agency lists, and access notes without technical detail | CISA, NSA, FBI, allied advisories |
 | FCC Telecommunications Cybersecurity Source Refresh | Separate telecom-regulatory, CALEA/network-security, FCC order, NPRM, rescission, and Federal Register source routes from technical advisory material | FCC, Federal Register, Senate Commerce |
@@ -208,6 +209,7 @@ restraint, legality, or attribution.
 - [Taiwan Pressure And Cross-Strait Coercion Source Packet](2026-06-14T1938Z-taiwan-pressure-cross-strait-coercion-source-packet.md)
 - [South China Sea Coercion And Legal-Source Packet](2026-06-14T1946Z-south-china-sea-coercion-legal-source-packet.md)
 - [Salt Typhoon And Telecommunications Defensive Source Note](2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
 - [China/PLA Source Collection Tracker](../../trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [Official U.S. Intelligence And Law Enforcement Source Register](../../../source-registers/us-intelligence-law-enforcement.md)
 - [Official U.S. Source Register](../../../source-registers/official-us.md)

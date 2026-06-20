@@ -641,6 +641,10 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
@@ -666,6 +670,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/source-packets/indo-pacific-allied-posture/2026-06-14T0158Z-republic-of-korea-official-defense-extended-deterrence-source-packet.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-20T0035Z-russia-state-cyber-source-packet.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -818,6 +826,10 @@
   </url>
   <url>
     <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.html</loc>
     <priority>0.7</priority>
   </url>
   <url>

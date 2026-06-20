@@ -4,12 +4,12 @@
 
 **Source Register ID:** WI-SOURCE-REGISTER-ALLIED-MULTILATERAL-2026-0001
 
-**Prepared UTC:** 2026-06-18T03:11:36Z
+**Prepared UTC:** 2026-06-18T11:54:34Z
 
-**Information cutoff UTC:** 2026-06-18T05:25:03Z
+**Information cutoff UTC:** 2026-06-18T11:54:34Z
 
 **Source base:** NATO, allied national, multilateral, Quad, EU, partner, and
-allied defense-industrial official source families listed in this register
+allied cyber and defense-industrial official source families listed in this register
 and linked corpus source packets.
 
 **Analytic confidence:** High for source-family routing and issuer identity.
@@ -3057,3 +3057,34 @@ later dated refresh.
   convert into supplier targeting, readiness rankings, stockpile claims,
   export-control evasion, procurement advice, or operational logistics
   guidance.
+
+## Allied Cyber Advisory And State-Actor Source Family
+
+- **Source class:** A/B depending on issuer and use
+- **Publishers:** UK National Cyber Security Centre; Canadian Centre for Cyber
+  Security; Australian Signals Directorate / Australian Cyber Security Centre;
+  New Zealand National Cyber Security Centre; Japanese national cyber routes;
+  NATO and EU cyber source families where directly captured.
+- **Accessed UTC:** 2026-06-18T11:54:34Z
+- **URLs:**
+  - https://www.ncsc.gov.uk/section/keep-up-to-date/advisories
+  - https://www.cyber.gov.au/about-us/view-all-content/advisories
+  - https://www.cyber.gc.ca/en/alerts-advisories
+  - https://www.ncsc.govt.nz/news/
+  - https://www.nato.int/
+  - https://www.enisa.europa.eu/
+- **Use:** Allied and multilateral source routing for state-actor cyber
+  advisories, APT label cross-checks, critical-infrastructure warnings,
+  telecommunications and cloud-risk source treatment, national cyber threat
+  reports, Five Eyes or allied joint advisory coordination, and PRC label
+  cross-checks against the PRC APT/Typhoon label packet.
+- **Reliability note:** Allied cyber-center advisories are authoritative for the
+  issuing government's public defensive framing, but they are not interchangeable
+  with U.S. FBI/CISA/NSA, DOJ, Treasury, or State/RFJ records. Actor labels and
+  aliases require dated source capture before being used as cross-country
+  attribution.
+- **Boundary:** No exploit steps, commands, IOCs, vulnerability lists,
+  signatures, malware procedures, victim mapping, provider vulnerability
+  analysis, incident-response playbooks, or operational cyber guidance.
+- **Cross reference:** [Cyber Nation-State Actor And APT Source Tracker](../collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
+- **Cross reference:** [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)

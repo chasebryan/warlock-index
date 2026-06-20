@@ -4,16 +4,17 @@
 
 **Tracker ID:** WI-TRACKER-US-THREAT-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-18T00:43:38Z
+**Prepared UTC:** 2026-06-18T11:54:34Z
 
-**Information cutoff UTC:** 2026-06-18T00:43:38Z
+**Information cutoff UTC:** 2026-06-18T11:54:34Z
 
 **Source base:** U.S. intelligence and law-enforcement source register; ODNI,
 CIA, FBI, NCTC, DHS, CISA, NSA, State, Treasury, DEA, ATF, CBP, Coast Guard,
 DOJ, and NGA public source families; existing WARLOCK-INDEX source registers
-and assessments; Salt Typhoon and telecommunications defensive source note.
+and assessments; Salt Typhoon and telecommunications defensive source note;
+PRC APT/Typhoon label crosswalk and advisory refresh source packet.
 The tracker now also includes the U.S. law-enforcement threat source capture
-packet and assessment.
+packet and assessment plus the cyber nation-state actor/APT source tracker.
 
 **Analytic confidence:** High for collection architecture. Moderate for
 source recency because dynamic agency pages and annual reports require dated
@@ -39,11 +40,11 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | Source family | Current status | Next product | Confidence | Boundary |
 | --- | --- | --- | --- | --- |
 | ODNI Annual Threat Assessment | Active in repo; used in Russia, DPRK, and Iran strategic-weapons packets | Keep annual comparison packet current | High | No classified inference |
-| DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, China/PLA source tracker, PRC cyber defensive packet, and Salt Typhoon telecommunications source note added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, cyber advisory page-level refresh, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, telecom network diagrams, lawful-intercept detail, issuer-claim laundering, or export-control evasion |
+| DoD/DIA/PRC issuer China military-source lane | DoD 2025 PRC report, DoD 2024 comparator, DIA 2019 China baseline, China/PLA source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, China/PLA source tracker, PRC cyber defensive packet, Salt Typhoon telecommunications source note, and PRC APT/Typhoon label crosswalk added | PRC MND/PLA dated capture, PLA services/arms, Taiwan pressure, South China Sea, PRC cyber advisory page-level refresh, space, defense-industrial, DoD-to-PRC-issuer crosswalk, and PRC-Russia support packets | High for source identity; moderate for public completeness and current implementation evidence | No operational detail, targeting, live tracking, contingency planning, cyber exploitation, telecom network diagrams, lawful-intercept detail, issuer-claim laundering, or export-control evasion |
 | CIA World Leaders | Registered | Foreign government reference packet | High | No personal dossiers or targeting |
 | CIA Factbook / CIA maps legacy | Replacement note added; maps split into map/geospatial register; theater map index added | Map-heavy theater source packets as needed | High for sunset status; moderate for archived access | No current claims without refresh |
 | FBI terrorism | Law-enforcement source capture packet and assessment added; FBI page verified | FBI/DHS terrorism and targeted-violence source packet with current DHS HTA and State designation refresh | High for FBI source-family framing; moderate pending DHS/State annual refresh | No political profiling, tactics, recruitment, attack-method detail, or protected-speech labeling |
-| FBI cyber / IC3 | Law-enforcement source capture packet and assessment added; IC3 2024 report verified; Salt Typhoon telecommunications source note added with FBI source-family access caveat | CISA/NSA/FBI cyber advisory page-level refresh, IC3 data extraction map, and broader defensive cyber source packet | High for FBI/IC3 source identity; moderate for current advisory page-level extraction | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, or telecom network diagrams |
+| FBI cyber / IC3 | Law-enforcement source capture packet and assessment added; IC3 2024 report verified; Salt Typhoon telecommunications source note, PRC APT/Typhoon label crosswalk, and cyber nation-state actor/APT tracker added | Russia cyber source packet, Iran cyber source packet, DPRK cyber-finance/IT-worker packet, IC3 data extraction map, PRC advisory page-level refresh, and allied cyber-center crosswalk | High for FBI/IC3 source identity; moderate for current advisory page-level extraction | No exploit or evasion detail, indicators-for-misuse, provider vulnerability mapping, telecom network diagrams, APT alias laundering, or sanctions/finance procedure |
 | FBI counterintelligence | Law-enforcement source capture packet and assessment added; FBI page verified | FBI/DOJ counterintelligence and national-security legal-action source packet | High for FBI source-family framing; moderate for case-specific current state | No identification of private persons absent official legal source |
 | FBI WMD | Law-enforcement source capture packet and assessment added; WMD/biosecurity source packet already added | Maintain WMD public-source packet and add FBI/FSAP/DTRA/State BWC refresh as needed | Moderate to high by source family | No materials, methods, device, facility, site-map, or vulnerability detail |
 | ODNI global biolab disclosure | Source-treatment note, WMD/biosecurity source packet, and Ukraine claim-reconciliation note added | Declassification and information-resilience source note | High for ODNI release; moderate to low for uncorroborated underlying claims | No biological methods, facility table, site mapping, or vulnerability detail |
@@ -52,8 +53,8 @@ boundaries must be preserved before the corpus makes stronger judgments.
 | State / UNODA BWC sources | Source families registered with access caveats | BWC treaty and compliance source packet | Moderate pending access refresh | No legal conclusion without current text/status verification |
 | NCTC groups | Registered as historical | Terrorism group source refresh | Moderate to low for current status | Do not reproduce tactics |
 | DHS Homeland Threat Assessment | Registered and routed through law-enforcement source capture packet | DHS HTA packet with dated URL verification | Moderate | No domestic political enemies framing |
-| CISA KEV/advisories | Registered | Defensive cyber advisory packet | High | No offensive cyber instruction |
-| NSA cyber advisories | Registered | Defensive cyber advisory packet | High | No exploit chains |
+| CISA KEV/advisories | Registered; cyber nation-state actor/APT tracker added as the advisory-control surface; PRC APT/Typhoon label crosswalk added | PRC advisory page-level refresh and Russia/Iran/DPRK source packets | High | No offensive cyber instruction, IOCs-for-misuse, or exploit chains |
+| NSA cyber advisories | Registered; cyber nation-state actor/APT tracker added as the advisory-control surface; PRC APT/Typhoon label crosswalk added | PRC advisory page-level refresh and Russia/Iran/DPRK source packets | High | No exploit chains, commands, malware procedures, or operational guidance |
 | State FTO and terrorism reports | Registered | Terrorism designation packet | High | Designation status only; no targeting |
 | Treasury OFAC and risk assessments | Active in repo | Sanctions and illicit finance source packet | High | No evasion guidance |
 | DEA threat sources | Registered and routed through law-enforcement source capture packet | TCO and narcotics source packet | Moderate | No trafficking methods |
@@ -74,7 +75,7 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - FBI releases a new IC3 annual report or strategic terrorism/cyber/WMD
   assessment.
 - CISA or NSA publishes a major joint cyber advisory series affecting tracked
-  state actors, ransomware, or critical infrastructure.
+  state actors, APT labels, ransomware, or critical infrastructure.
 - State updates FTO, State Sponsors of Terrorism, or Country Reports on
   Terrorism material.
 - Treasury updates national risk assessments, sanctions programs, or OFAC
@@ -94,6 +95,8 @@ boundaries must be preserved before the corpus makes stronger judgments.
   dated page-level extraction remains incomplete for DHS, DEA, ATF, CBP,
   Coast Guard, Treasury/State status records, and DOJ legal-action lanes.
 - Cyber advisories can include technical detail that must be summarized safely.
+- APT labels can be unstable across official, allied, and private research
+  sources; source-class labels are required before broader use.
 - Domestic threat products require explicit civil liberties boundary review.
 - The Ukraine biolab claim-reconciliation note reduces the immediate
   issuer-layering gap, but DoD Cooperative Threat Reduction, State Department
@@ -122,6 +125,8 @@ boundaries must be preserved before the corpus makes stronger judgments.
 - [PRC Official Doctrine And Issuer-Language Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T0537Z-prc-official-doctrine-issuer-language-source-packet.md)
 - [DoD/DIA China Military Power Extraction Map](../source-packets/indo-pacific-adversary-posture/2026-06-14T0605Z-dod-dia-china-military-power-extraction-map.md)
 - [Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
+- [Cyber Nation-State Actor And APT Source Tracker](2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
 - [China/PLA Source Collection Tracker](2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [Theater Map Index](../source-notes/2026-06-13T1733Z-theater-map-index.md)
 - [Indo-Pacific And Taiwan Map Reference Source Packet](../source-packets/theater-map-reference/2026-06-13T1810Z-indo-pacific-taiwan-map-reference-source-packet.md)

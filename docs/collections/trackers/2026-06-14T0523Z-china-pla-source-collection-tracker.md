@@ -4,16 +4,17 @@
 
 **Tracker ID:** WI-TRACKER-CHINA-PLA-SOURCES-2026-0001
 
-**Prepared UTC:** 2026-06-18T02:07:45Z
+**Prepared UTC:** 2026-06-18T11:54:34Z
 
-**Information cutoff UTC:** 2026-06-18T02:07:45Z
+**Information cutoff UTC:** 2026-06-18T11:54:34Z
 
 **Source base:** China/PLA official military and security source baseline
 packet; PRC official doctrine packet; DoD/DIA extraction map; PRC MND and PLA
 official-media capture packet; DoD-to-PRC issuer-language crosswalk; PLA
 services and arms packet; Taiwan, South China Sea, cyber, Salt Typhoon,
-space/counterspace, allied/regional, official U.S., and foreign-government
-source lanes listed in the tracker.
+cyber nation-state actor/APT tracker, space/counterspace, allied/regional,
+official U.S., and foreign-government source lanes listed in the tracker;
+PRC APT/Typhoon label crosswalk and advisory refresh source packet.
 
 **Analytic confidence:** High for current corpus collection status and
 source-family routing. Moderate for page-level completeness because several
@@ -42,7 +43,7 @@ guidance.
 | Taiwan source family | Taiwan pressure packet added with direct-source access caveats | China/PLA packet; map-reference packet; Taiwan pressure and cross-Strait coercion source packet | Taiwan MND direct source capture with no live tracking | High for source-family need; moderate pending direct document capture | No target, route, live tracking, or unit-level extraction |
 | Japan/Australia allied China cross-checks | Partial through country packets | Japan and Australia source packets; allied matrix | China-specific allied regional cross-check packet | Moderate to high | No basing, route, or operational inference |
 | Philippines/South China Sea legal/map lane | Packetized through map packet, coercion/legal-source packet, Philippines official defense/maritime source capture packet, and ASEAN/claimant-state South China Sea cross-check packet | Philippines/South China Sea map packet; South China Sea coercion and legal-source packet; Philippines official defense/maritime source capture packet; ASEAN and claimant-state South China Sea cross-check packet | PRC Coast Guard and maritime lawfare source capture; ASEAN/claimant-state page-level refreshes; Philippine page-level refreshes where access was challenged | High for source-family routing; moderate for current page-level extraction | No legal advice, navigation, interdiction, patrol analysis, basing inference, route guidance, or live tracking |
-| PRC cyber lane | Packetized as defensive source lane; Salt Typhoon telecommunications source note added | USILE register; cyber baseline; China/PLA packet; PRC cyber and critical infrastructure defensive source packet; Salt Typhoon and telecommunications defensive source note | Advisory page-level refresh; FCC telecom cybersecurity source refresh; OFAC designation refresh; allied PRC cyber cross-check packet | High for source family; moderate pending page-level advisory, FBI, FCC, and allied extraction | No exploit chains, scanning, evasion, malware steps, IOCs for misuse, telecom network diagrams, lawful-intercept system detail, or victim-specific guidance |
+| PRC cyber lane | Packetized as defensive source lane; Salt Typhoon telecommunications source note, cyber nation-state actor/APT tracker, and PRC APT/Typhoon label crosswalk added | USILE register; cyber baseline; China/PLA packet; PRC cyber and critical infrastructure defensive source packet; Salt Typhoon and telecommunications defensive source note; PRC APT/Typhoon label crosswalk; cyber nation-state actor/APT tracker | PRC advisory page-level refresh; FCC telecom cybersecurity source refresh; OFAC designation refresh; allied PRC cyber cross-check packet | High for source family; moderate pending page-level advisory, FBI, FCC, and allied extraction | No exploit chains, scanning, evasion, malware steps, IOCs for misuse, telecom network diagrams, lawful-intercept system detail, APT alias laundering, or victim-specific guidance |
 | PRC space/counterspace lane | Packetized as strategic source-treatment lane | China strategic-weapons packet; space baseline; PRC space, counterspace, and information-support source packet | Page-level DoD/ODNI/Space Force extraction; PRC Aerospace Force and Information Support Force issuer capture | High for source family; moderate pending page-level extraction and issuer-language refresh | No orbital targeting, orbital vulnerability extraction, interference methods, sensor performance analysis, or ground-segment mapping |
 | PRC nuclear/missile/Rocket Force lane | Packetized | China strategic-weapons packet | Annual strategic-weapons refresh | Moderate to high | No targeting, posture inference, or weapons employment |
 | PRC defense-industrial/technology lane | Queued | DoD PRC report; DIB baseline; China/PLA packet | Defense-industrial and emerging-technology packet | Moderate | No procurement evasion or replication detail |
@@ -73,7 +74,8 @@ guidance.
   DFA, PCG, BFAR, NAMRIA, or State access remains incomplete.
 - PRC Coast Guard and maritime lawfare source capture.
 - ASEAN and claimant-state South China Sea page-level refreshes.
-- PRC cyber advisory page-level refresh.
+- PRC advisory page-level refresh using the completed PRC APT/Typhoon label
+  crosswalk as the label-control anchor.
 - Salt Typhoon advisory page-level refresh and telecom regulatory-source
   refresh.
 - Allied PRC cyber cross-check packet.
@@ -93,6 +95,8 @@ guidance.
 - [ASEAN And Claimant-State South China Sea Cross-Check Packet](../source-packets/indo-pacific-adversary-posture/2026-06-17T2251Z-asean-claimant-state-south-china-sea-cross-check-packet.md)
 - [PRC Cyber And Critical Infrastructure Defensive Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-14T1956Z-prc-cyber-critical-infrastructure-defensive-source-packet.md)
 - [Salt Typhoon And Telecommunications Defensive Source Note](../source-packets/indo-pacific-adversary-posture/2026-06-17T2106Z-salt-typhoon-telecommunications-defensive-source-note.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
+- [Cyber Nation-State Actor And APT Source Tracker](2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
 - [PRC Space, Counterspace, And Information-Support Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-18T0207Z-prc-space-counterspace-information-support-source-packet.md)
 - [China Actor Profile](../actor-profiles/china.md)
 - [PRC Military Modernization Strategic Baseline](../../assessments/indo-pacific/2026-06-12T2320Z-prc-military-modernization-strategic-baseline.md)

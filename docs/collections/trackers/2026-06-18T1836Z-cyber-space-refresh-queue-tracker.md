@@ -34,6 +34,7 @@
 
 | Priority | Lane | Action | Output |
 | --- | --- | --- | --- |
+| Done | Russia state cyber source packet | Convert official Russia cyber legal, reward, sanctions, advisory, and allied-warning routes into a source packet | Russia actor-source packet with technical material excluded. |
 | 1 | CISA KEV and advisories | Weekly source check and metadata extraction | Defensive cyber tracker row or source note. |
 | 1 | NSA cybersecurity advisories | Capture new guidance and joint advisories | Source packet update with defensive caveat. |
 | 2 | NIST NVD and MITRE | Refresh CVE/CWE/ATT&CK taxonomy references | Taxonomy crosswalk row without procedure reproduction. |
@@ -48,4 +49,3 @@
 - Cyber entries carry `defensive-cyber-only`.
 - Space and map reference entries carry precision and non-targeting caveats when applicable.
 - The generated JSON and CSV exports include freshness and caveat fields for the product.
-
