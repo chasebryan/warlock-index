@@ -29,7 +29,7 @@ operations, or diplomatic action.
 | Actor | Standing classification | Primary strategic relevance | Current repository status |
 | --- | --- | --- | --- |
 | China / PRC | Principal U.S. peer competitor; CCP party-state; whole-of-nation PLA modernization challenge | Global-scale military, economic, industrial, cyber, space, nuclear, maritime, and technology competitor | Actor profile, strategic classification, strategic-weapons source packet, China/PLA official military-security source baseline, PRC official doctrine/issuer-language packet, DoD/DIA China military-power extraction map, PRC MND/PLA official-media dated capture packet, DoD 2025 to PRC issuer-language claim crosswalk, PLA services and arms source packet, Taiwan pressure and cross-Strait coercion source packet, South China Sea coercion and legal-source packet, ASEAN/claimant-state South China Sea cross-check packet, PRC cyber and critical-infrastructure defensive source packet, Salt Typhoon telecommunications defensive source note, PRC APT/Typhoon label crosswalk, PRC space/counterspace/information-support source packet, China/PLA source tracker, and cyber nation-state actor/APT tracker complete |
-| Russia | Revisionist nuclear peer adversary; principal Euro-Atlantic military threat; active Ukraine war belligerent | Nuclear peer, active warfighting state, NATO threat, hybrid pressure actor, selective alignment hub | Actor profile, strategic classification, Russia strategic-weapons source packet, New START post-expiration status packet, cyber nation-state actor/APT tracker control lane, and Russia state cyber source packet complete |
+| Russia | Revisionist nuclear peer adversary; principal Euro-Atlantic military threat; active Ukraine war belligerent | Nuclear peer, active warfighting state, NATO threat, hybrid pressure actor, selective alignment hub | Actor profile, strategic classification, Russia strategic-weapons source packet, New START post-expiration status packet, cyber nation-state actor/APT tracker control lane, Russia state cyber source packets, and weekly current source sweep tracker complete |
 | Iran | Adversarial regional power; regime-survival security state; asymmetric hybrid threat | Middle East missile, UAS, maritime, proxy, cyber, sanctions, and WMD-related risk actor | Actor profile, strategic classification, Iran WMD/missile source packet, U.S.-Iran MOU source-treatment note, U.S.-Iran MOU implementation capture, Hormuz strategic chokepoint packet, and cyber nation-state actor/APT tracker control lane complete |
 | North Korea / DPRK | Nuclear-armed regional adversary; Korean Peninsula flashpoint actor; cyber-finance and sanctions-evasion actor | Homeland-relevant missile and WMD threat, peninsula crisis actor, Russia-war support partner | Actor profile, strategic classification, DPRK strategic-weapons source packet, and cyber nation-state actor/APT tracker control lane complete |
 | Transnational criminal organizations | Homeland-coupled criminal pressure networks | Drug flows, financial crime, human smuggling, money laundering, corruption, violence, cyber overlap | Strategic actor classification complete |
@@ -85,6 +85,7 @@ operations, or diplomatic action.
 | --- | --- | --- |
 | Done | PRC APT/Typhoon Label Crosswalk And Advisory Refresh | Source-classed label control added for tying existing PRC cyber and Salt Typhoon products to FBI, CISA, NSA, DOJ, Treasury, State/RFJ, FCC/Senate, and allied source labels without technical extraction |
 | Done | Russia State Cyber Source Packet | Source depth added for separating Russian intelligence-service, Ukraine-war, espionage, disruption, sanctions, legal-action, and allied-warning evidence |
+| Done | Weekly Current Source Sweep Tracker | Dated 2026-06-28 source-gathering and assimilation tracker added for the Russia state-cyber continuation lane and next cyber packet queue |
 | 1 | Iran Cyber Source Packet | Required source depth for separating Iranian government-sponsored, IRGC-linked, hacktivist, ransomware-enabling, election/influence, and ICS/critical-infrastructure lanes |
 | 2 | DPRK Cyber-Finance And IT-Worker Source Packet | Required source depth for tying DPRK cyber-finance, IT-worker, sanctions, legal case, and weapons-funding context without financial or technical procedure |
 | 3 | Allied Cyber-Center Crosswalk | Required source depth for UK, Canada, Australia, New Zealand, Japan, NATO, EU, and other allied cyber-center source routes before cross-country APT labels are normalized |
@@ -168,6 +169,7 @@ operations, or diplomatic action.
 - `PRC APT Typhoon Label Crosswalk Source Packet`
 - `Cyber Nation-State Actor APT Source Tracker`
 - `Russia State Cyber Source Packet`
+- `Weekly Current Source Sweep Tracker`
 - `PRC Space Counterspace Information Support Source Packet`
 - `China PLA Source Tracker`
 - `Russia Strategic Weapons And Nuclear Signaling`

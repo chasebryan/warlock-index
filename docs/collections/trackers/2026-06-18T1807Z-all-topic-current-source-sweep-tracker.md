@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRACKER-ALL-TOPIC-SOURCE-SWEEP-2026-0001
 
-**Prepared UTC:** 2026-06-18T18:07:57Z
+**Prepared UTC:** 2026-06-28T08:22:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:07:57Z
+**Information cutoff UTC:** 2026-06-28T08:22:00Z
 
 **Source base:** WARLOCK-INDEX coverage map; assessment index; source
 registers; topic hubs; current category source sweep tracker; Iran MOU
@@ -36,12 +36,16 @@ recommendations.
 ## Bottom Line
 
 The current sweep supports a refresh queue, not a wholesale rewrite of every
-assessment. The highest-priority active lanes remain Iran MOU implementation,
-NATO and European force-posture/allied response, homeland and official threat
-source refresh, Indo-Pacific PRC/Taiwan/South China Sea official-source
-updates, Middle East maritime and sanctions implementation, cyber/space
-advisory refresh, defense industrial-base budget and oversight updates,
-Africa official-source depth, and map/maritime source routing.
+assessment. The active control lane is now cyber/APT and nation-state actor
+coverage. The PRC APT/Typhoon label crosswalk is complete as a source-classed
+label-control packet, and the Iran MOU implementation watch remains parked
+until primary records appear or the lane is explicitly reopened. Near-term
+priority should stay on Iran and DPRK cyber source packets after the completed
+Russia state-cyber source packet, then NATO and allied force-posture follow-up,
+homeland and official threat-source
+refresh, Indo-Pacific PRC/Taiwan/South China Sea official-source updates,
+Africa official-source depth, space posture refresh, defense industrial-base
+budget and oversight updates, and map/maritime source routing.
 
 The corpus should continue using an evidence ladder: official primary records
 first, then congressional/oversight and multilateral institutional sources,
@@ -57,10 +61,10 @@ maritime, nuclear, or operational claims without primary records.
 | Homeland / Western Hemisphere | DHS threat-assessment route; FBI IC3 reports; DEA drug-threat route; CBP statistics; DOJ/FBI terrorism and TCO routes | Official homeland refresh lane remains open; media/current reporting should not substitute for DHS/FBI/DEA/CBP primary products. | Create a dated homeland official-source refresh packet separating cybercrime, terrorism, TCO/narcotics, border, critical infrastructure, and law-enforcement data. |
 | Europe / Russia | NATO summit, defense-expenditure, ministerial, and force-posture routes; EU Readiness 2030; allied national defense routes; Ukraine support routes; Russian issuer routes | Active follow-up lane. NATO/allied posture and spending routes remain priority source families; do not treat press summaries as implementation proof. | Refresh NATO/Europe trackers with official NATO records, allied national statements, budget materials, and Ukraine-support source captures. |
 | Indo-Pacific | DoD China Military Power route; ODNI/DIA China threat routes; PRC MND/PLA issuer routes; Taiwan MND; USINDOPACOM; Japan, ROK, Australia, Philippines, India, Quad, ASEAN, and South China Sea legal-source routes | Strong source-packet baseline exists; current need is dated official-source refresh and claimant-state cross-checking. | Build a PRC/Taiwan/South China Sea refresh packet separating U.S. assessments, PRC issuer language, Taiwan records, allied/partner responses, and legal-source material. |
-| Middle East | Iran MOU watch routes; Treasury/OFAC/Federal Register; IAEA; UN; IMO; Iranian official routes; Gulf/Hormuz; Red Sea/Houthi; maritime insurance and AIS lead sources | Iran MOU remains reported/not implemented in the corpus. No primary official records were captured in the afternoon check to upgrade sanctions, Hormuz, IAEA/nuclear, UN, or frozen-asset claims. | Use the Iran MOU implementation tracker and afternoon source check as the control products. Refresh only when primary legal, maritime, sanctions, nuclear, UN, or official national records appear. |
+| Middle East | Iran MOU watch routes; Treasury/OFAC/Federal Register; IAEA; UN; IMO; Iranian official routes; Gulf/Hormuz; Red Sea/Houthi; maritime insurance and AIS lead sources | Iran MOU remains a parked control lane. No primary official records were captured to upgrade sanctions, Hormuz, IAEA/nuclear, UN, or frozen-asset claims. | Keep the Iran MOU implementation tracker and source checks as parked control products. Refresh only when primary legal, maritime, sanctions, nuclear, UN, or official national records appear or the lane is explicitly resumed. |
 | Arctic / High North | DoD Arctic Strategy; NORAD/NORTHCOM; Canada/NORAD modernization; ICE Pact; Denmark/Greenland; Nordic NATO integration; NATO High North routes | Existing packets are strong, but implementation evidence still needs refresh by country and program. | Add an Arctic implementation refresh focused on NORAD modernization, ICE Pact, Greenland/Denmark, Nordic NATO integration, and Arctic industrial/infrastructure funding. |
 | Africa | AFRICOM posture and statements; State terrorism/country-report routes; UN/OCHA/UNHCR; AU/ECOWAS/SADC/IGAD; UN sanctions and peacekeeping routes | Africa remains lighter than other lanes and needs official-source depth before stronger regional judgments. | Build an Africa official-source refresh packet covering Sahel, Horn/Red Sea, Gulf of Guinea, terrorism, coups, peacekeeping, and humanitarian spillover. |
-| Cyber / critical infrastructure | CISA Known Exploited Vulnerabilities catalog; CISA/NSA/FBI advisories; ODNI threat route; FBI IC3; allied cyber-center routes | Needs standing dated refresh because advisories and vulnerability catalogs update frequently. | Create a cyber/space source-refresh tracker separating defensive advisories, strategic threat assessments, cybercrime reporting, and allied cyber-center sources. |
+| Cyber / critical infrastructure | CISA Known Exploited Vulnerabilities catalog; CISA/NSA/FBI advisories; ODNI threat route; FBI cyber and country-overview pages; FBI IC3; DOJ; Treasury/OFAC; State/RFJ; allied cyber-center routes; June 2026 FBI/CISA Russian Intelligence Services PSA route | Cyber now has a dedicated nation-state actor/APT control lane. PRC and Russia have source-class anchors; Iran, DPRK, allied cyber-center, and commercial/research intake lanes remain incomplete. | Use the cyber nation-state actor/APT tracker as the control product for Iran, DPRK, state-crime overlap, remaining PRC/Russia advisory metadata, and allied cyber-center cross-checks. |
 | Space / counterspace | Space Force, DoD, ODNI, NASA, NOAA, Commerce space routes, allied space commands | Needs separation between military posture, civil space, commercial space, launch activity, and counterspace threat evidence. | Add a space/counterspace refresh lane tied to official U.S., civil, commercial, and allied source routes. |
 | Defense industrial base | DoD Comptroller and FY budget materials; Industrial Base Policy/NDIS; service budgets; Navy shipbuilding; MDA; Congress.gov; CRS; GAO; CBO; USGS/DOE/DLA critical materials | Existing DIB trackers are active. Next pass should link budget, contract, oversight, and industrial-capacity claims in one queue. | Refresh DIB matrices with FY budget documents, Navy shipbuilding/repair, munitions, missile defense, critical materials, and GAO/CRS oversight. |
 | Strategic weapons / arms control | State treaty archives; DoD nuclear posture and missile routes; arms-control research; IAEA/UN; Russia/PRC/DPRK/Iran issuer routes | New START/post-expiration and Iran WMD/MOU lanes remain high priority; official-source capture determines upgrades. | Maintain separate source treatment for treaty text, official statements, research synthesis, and current-event reporting. |
@@ -69,26 +73,34 @@ maritime, nuclear, or operational claims without primary records.
 
 ## Immediate Priority Queue
 
-1. **Iran MOU implementation:** Keep the 2026-06-18T17:58Z afternoon source
-   check as current corpus status. Upgrade only with White House, State,
-   Treasury/OFAC, Federal Register, IAEA, UN, IMO, Iranian official, mediator,
-   Gulf-state, port, insurance, shipping, or energy-source records.
-2. **NATO / Europe force posture:** Refresh NATO and allied official records
+1. **Iran and DPRK cyber packets:** Use the cyber nation-state actor/APT
+   tracker to sequence remaining actor-specific source packets from official,
+   legal, sanctions, reward, and allied defensive sources.
+2. **Russia advisory metadata refresh:** Follow the Russia state-cyber source
+   packet with exact CISA/NSA/FBI, Treasury/OFAC, State/RFJ, and allied
+   metadata capture where access allows, without technical extraction.
+3. **PRC advisory metadata refresh:** Continue only the page-level PRC
+   advisory refresh queue using the completed APT/Typhoon label crosswalk as
+   label control.
+4. **Allied cyber-center crosswalk:** Add the allied cyber-center and
+   commercial/research source-class rule before normalizing APT aliases across
+   products.
+5. **NATO / Europe force posture:** Refresh NATO and allied official records
    before changing Europe/Russia posture assessments.
-3. **Homeland official threat sources:** Capture latest DHS, FBI IC3, DEA,
+6. **Homeland official threat sources:** Capture latest DHS, FBI IC3, DEA,
    CBP, DOJ/FBI, and critical-infrastructure source products as primary
    sources.
-4. **Indo-Pacific official update:** Refresh PRC/Taiwan/South China Sea
+7. **Indo-Pacific official update:** Refresh PRC/Taiwan/South China Sea
    source lanes from U.S., PRC, Taiwan, allied, ASEAN, and legal-source
    records.
-5. **Cyber/space cadence:** Establish a dated refresh tracker because CISA
-   and other advisory routes update more frequently than annual assessments.
-6. **DIB budget and oversight:** Tie budget, contract, program, industrial,
-   and oversight evidence into a single refresh cycle.
-7. **Africa official-source depth:** Build an official-source packet before
+8. **Africa official-source depth:** Build an official-source packet before
    broadening Africa assessments.
-8. **Maps and AIS discipline:** Keep MarineTraffic/public AIS as a lead
-   source only; no live tracking or route products.
+9. **Space posture cadence:** Split space into a separate later refresh lane
+   rather than coupling it to the current cyber/APT queue.
+10. **DIB budget and oversight:** Tie budget, contract, program, industrial,
+   and oversight evidence into a single refresh cycle.
+11. **Iran MOU watch:** Keep this lane parked until primary records appear or
+    the lane is explicitly reopened.
 
 ## Source-Handling Rules From This Sweep
 
@@ -142,6 +154,10 @@ maritime, nuclear, or operational claims without primary records.
 ## Cross References
 
 - [Current Category Source Sweep Tracker](2026-06-18T1049Z-current-category-source-sweep-tracker.md)
+- [Cyber Nation-State Actor And APT Source Tracker](2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
+- [Weekly Current Source Sweep Tracker](2026-06-28T0822Z-weekly-current-source-sweep-tracker.md)
+- [Russia State Cyber Source Packet](../source-packets/defensive-cyber-space/2026-06-28T0822Z-russia-state-cyber-source-packet.md)
+- [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
 - [U.S.-Iran MOU Implementation Watch Tracker](2026-06-18T1049Z-us-iran-mou-implementation-watch-tracker.md)
 - [U.S.-Iran MOU Afternoon Source Check](../source-notes/2026-06-18T1758Z-us-iran-mou-afternoon-source-check.md)
 - [Theater Map Index](../source-notes/2026-06-13T1733Z-theater-map-index.md)

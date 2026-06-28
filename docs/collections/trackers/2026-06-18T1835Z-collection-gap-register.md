@@ -4,11 +4,11 @@
 
 **Tracker ID:** WI-TRK-GAPS-2026-0001
 
-**Prepared UTC:** 2026-06-18T18:35:00Z
+**Prepared UTC:** 2026-06-28T08:22:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:35:00Z
+**Information cutoff UTC:** 2026-06-28T08:22:00Z
 
-**Source base:** Current source registers, source packets, trackers, and identified topic gaps.
+**Source base:** Current source registers, source packets, weekly source sweep tracker, Russia state-cyber source packet, trackers, and identified topic gaps.
 
 **Analytic confidence:** Moderate. The register is complete enough for queue management but will change as new source lanes are added.
 
@@ -18,9 +18,9 @@
 
 **Freshness status:** Watch
 
-**Last source check UTC:** 2026-06-18T18:35:00Z
+**Last source check UTC:** 2026-06-28T08:22:00Z
 
-**Next refresh UTC:** 2026-06-25T18:35:00Z
+**Next refresh UTC:** 2026-07-05T08:22:00Z
 
 **Caveat tags:** implementation-gap; source-lag; current-watch
 
@@ -32,6 +32,7 @@
 | --- | --- | --- | --- |
 | Iran MOU implementation evidence | Iran MOU source packet, Hormuz tracker, afternoon source check | Official text continuity, signing parties, implementation statements, sanctions status, maritime advisories | implementation-gap; legal-status-uncertain |
 | Defensive cyber advisory churn | Cyber source lane packet, cyber/critical infrastructure assessment | Weekly CISA KEV, CISA/NSA advisories, NVD enrichment, vendor advisories, allied advisories | defensive-cyber-only; source-lag |
+| Russia state-cyber metadata refresh | Russia state-cyber source packet, cyber nation-state actor/APT tracker, cyber source lane packet | Exact CISA/NSA/FBI advisory titles, co-seal lists, Treasury/OFAC status routes, State/RFJ reward records, and allied advisory metadata | defensive-cyber-only; source-lag; access-caveat |
 | Space posture updates | Space/counterspace assessment and future space source packet | USSF, USSPACECOM, NASA/NOAA, public catalog reference, research cross-checks | current-watch; map-reference-only |
 | AIS and maritime map handling | Map register, maritime chokepoint products | MarineTraffic public handling, AIS caveats, non-targeting map references | commercial-data-limit; map-reference-only |
 | Allied implementation claims | NATO/EU/UK/Japan/Australia products | Official budget, procurement, force posture, and delivery updates | implementation-gap; source-lag |
@@ -40,4 +41,3 @@
 ## Review Rule
 
 Each gap should be closed only by adding a dated source note, source packet, tracker update, or matrix row. Do not silently remove a gap because it is inconvenient or stale.
-

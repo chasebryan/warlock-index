@@ -4,11 +4,11 @@
 
 **Source Packet ID:** WI-SP-CYBER-2026-0001
 
-**Prepared UTC:** 2026-06-18T18:33:00Z
+**Prepared UTC:** 2026-06-28T08:22:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:33:00Z
+**Information cutoff UTC:** 2026-06-28T08:22:00Z
 
-**Source base:** CISA, NSA, FBI IC3, NIST NVD, MITRE, CIS/MS-ISAC, NCSC-UK, ACSC, Canadian Centre for Cyber Security, ENISA, CERT-EU, and vendor security advisories.
+**Source base:** CISA, NSA, FBI IC3, IC3/FBI/CISA state-actor public warnings, NIST NVD, MITRE, CIS/MS-ISAC, NCSC-UK, ACSC, Canadian Centre for Cyber Security, ENISA, CERT-EU, and vendor security advisories.
 
 **Analytic confidence:** High for source-family selection; moderate for completeness because advisory and vulnerability status changes continuously.
 
@@ -20,9 +20,9 @@
 
 **Freshness status:** Watch
 
-**Last source check UTC:** 2026-06-18T18:33:00Z
+**Last source check UTC:** 2026-06-28T08:22:00Z
 
-**Next refresh UTC:** 2026-06-25T18:33:00Z
+**Next refresh UTC:** 2026-07-05T08:22:00Z
 
 **Caveat tags:** current-watch; defensive-cyber-only; source-lag; implementation-gap
 
@@ -42,6 +42,7 @@ WARLOCK-INDEX should treat defensive cyber as a standing source lane rather than
 | --- | --- | --- | --- |
 | Exploited vulnerability signal | CISA KEV | Vendor advisory and NVD | Prioritize defensive watch rows and stale-product review. |
 | Government advisory | CISA or NSA advisory | Allied cyber centers | Capture issuer language, affected sectors, and mitigation source of record. |
+| State-actor public warning | FBI, IC3, CISA, DOJ, Treasury/OFAC, State/RFJ | Allied cyber centers | Route PRC and Russia source-class anchors, then Iran and DPRK actor packets, without technical extraction. |
 | Cybercrime trend | FBI IC3 | DOJ releases and sector reports | Track threat pattern and victimization trend without operational details. |
 | Technical taxonomy | MITRE ATT&CK, CWE, NVD | Vendor and CISA | Normalize categories without reproducing procedures. |
 | Baseline control | CIS Controls, MS-ISAC, NIST | Sector agencies | Support defensive gap language and maturity framing. |
@@ -65,4 +66,3 @@ Do not capture:
 - Weekly: CISA KEV, CISA advisories, NSA advisories, NIST NVD recent CVE enrichment, and major vendor security advisories.
 - Monthly: FBI IC3 trend materials, CIS/MS-ISAC controls guidance, NCSC-UK, ACSC, Canadian Centre for Cyber Security, ENISA, and CERT-EU.
 - Event-driven: Joint advisories, emergency directives, critical infrastructure disruptions, telecom compromise reporting, or major vendor out-of-band advisories.
-

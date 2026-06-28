@@ -4,9 +4,9 @@
 
 **Tracker ID:** WI-TRK-CYBER-SPACE-2026-0001
 
-**Prepared UTC:** 2026-06-18T18:36:00Z
+**Prepared UTC:** 2026-06-28T08:22:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:36:00Z
+**Information cutoff UTC:** 2026-06-28T08:22:00Z
 
 **Source base:** Defensive cyber and space source register, current technology/cyber/space assessments, existing PRC cyber and space packets, and public advisory source lanes.
 
@@ -20,9 +20,9 @@
 
 **Freshness status:** Watch
 
-**Last source check UTC:** 2026-06-18T18:36:00Z
+**Last source check UTC:** 2026-06-28T08:22:00Z
 
-**Next refresh UTC:** 2026-06-25T18:36:00Z
+**Next refresh UTC:** 2026-07-05T08:22:00Z
 
 **Caveat tags:** current-watch; defensive-cyber-only; source-lag; commercial-data-limit
 
@@ -40,6 +40,8 @@
 | 2 | NIST NVD and MITRE | Refresh CVE/CWE/ATT&CK taxonomy references | Taxonomy crosswalk row without procedure reproduction. |
 | 2 | Vendor advisories | Link mitigation source of record for high-profile public advisories | Source note with vendor-source caveat. |
 | 2 | Telecom resilience | Track public Salt Typhoon and telecom advisory updates | Cyber/telecom source packet update. |
+| 2 | Russia state-cyber metadata | Refresh CISA/NSA/FBI, Treasury/OFAC, State/RFJ, and allied metadata behind the Russia state-cyber packet | Advisory metadata refresh without IOCs, CVEs, commands, or playbooks. |
+| 2 | Iran and DPRK actor packets | Build remaining cyber nation-state source packets from official and allied routes | Actor-source packets with sanctions, reward, legal, finance, and advisory evidence separated. |
 | 3 | Space posture | Refresh USSF, USSPACECOM, NASA/NOAA, SWF, and CSIS source lanes | Space source packet or caveat note. |
 | 3 | Allied cyber centers | Monthly NCSC-UK, ACSC, Canadian Centre, ENISA, CERT-EU sweep | Allied cyber source cross-check. |
 

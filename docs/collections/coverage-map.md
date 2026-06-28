@@ -128,10 +128,10 @@ future open-source defense assessments.
   source routing; CISA/NSA/FBI defensive advisories; IC3 complaint-source
   context; DOJ legal actions; Treasury/OFAC cyber sanctions; State Rewards for
   Justice cyber routes; allied cyber-center cross-checks; PRC APT/Typhoon
-  label control; the Russia state cyber source packet; and source-classed APT
-  label treatment, handled without exploit steps, IOCs, malware procedures,
-  provider vulnerability mapping, sanctions-evasion guidance, or operational
-  cyber guidance.
+  label control; the Russia state cyber source packets; the weekly current
+  source sweep tracker; and source-classed APT label treatment, handled
+  without exploit steps, IOCs, malware procedures, provider vulnerability
+  mapping, sanctions-evasion guidance, or operational cyber guidance.
 - ODNI declassified WMD, biosecurity, foreign-laboratory, and
   threat-reduction disclosures where handled as issuer-perspective source
   events with explicit no-methods and no-facility-detail boundaries.

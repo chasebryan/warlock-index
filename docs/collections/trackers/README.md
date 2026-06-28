@@ -25,6 +25,7 @@ clear boundaries.
 - [2026-06-14T0118Z - Allied Official Source Collection Tracker](2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [2026-06-14T0523Z - China/PLA Source Collection Tracker](2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [2026-06-18T1807Z - All-Topic Current Source Sweep Tracker](2026-06-18T1807Z-all-topic-current-source-sweep-tracker.md)
+- [2026-06-28T0822Z - Weekly Current Source Sweep Tracker](2026-06-28T0822Z-weekly-current-source-sweep-tracker.md)
 - [2026-06-18T1834Z - Source Freshness Dashboard Tracker](2026-06-18T1834Z-source-freshness-dashboard-tracker.md)
 - [2026-06-18T1835Z - Collection Gap Register](2026-06-18T1835Z-collection-gap-register.md)
 - [2026-06-18T1836Z - Cyber And Space Refresh Queue Tracker](2026-06-18T1836Z-cyber-space-refresh-queue-tracker.md)

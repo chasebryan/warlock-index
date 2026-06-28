@@ -6,9 +6,9 @@ See [Source Registers hub](README.md) and [Documentation Index](../index.md).
 
 **Source Register ID:** WI-SOURCE-REGISTER-ALLIED-MULTILATERAL-2026-0001
 
-**Prepared UTC:** 2026-06-18T11:54:34Z
+**Prepared UTC:** 2026-06-28T08:22:00Z
 
-**Information cutoff UTC:** 2026-06-18T11:54:34Z
+**Information cutoff UTC:** 2026-06-28T08:22:00Z
 
 **Source base:** NATO, allied national, multilateral, Quad, EU, partner, and
 allied cyber and defense-industrial official source families listed in this register
@@ -3079,7 +3079,8 @@ later dated refresh.
   advisories, APT label cross-checks, critical-infrastructure warnings,
   telecommunications and cloud-risk source treatment, national cyber threat
   reports, Five Eyes or allied joint advisory coordination, and PRC label
-  cross-checks against the PRC APT/Typhoon label packet.
+  cross-checks against the PRC APT/Typhoon label packet, and Russia
+  state-cyber allied-warning capture such as the UK NCSC Star Blizzard route.
 - **Reliability note:** Allied cyber-center advisories are authoritative for the
   issuing government's public defensive framing, but they are not interchangeable
   with U.S. FBI/CISA/NSA, DOJ, Treasury, or State/RFJ records. Actor labels and
@@ -3090,3 +3091,5 @@ later dated refresh.
   analysis, incident-response playbooks, or operational cyber guidance.
 - **Cross reference:** [Cyber Nation-State Actor And APT Source Tracker](../collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
 - **Cross reference:** [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
+- **Cross reference:** [Weekly Current Source Sweep Tracker](../collections/trackers/2026-06-28T0822Z-weekly-current-source-sweep-tracker.md)
+- **Cross reference:** [Russia State Cyber Source Packet Weekly Sweep Continuation](../collections/source-packets/defensive-cyber-space/2026-06-28T0822Z-russia-state-cyber-source-packet.md)

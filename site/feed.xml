@@ -7,8 +7,108 @@
     <atom:link href="https://www.warlock-index.org/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Recent entries from the open-source strategic research corpus: explainers, source packets, trackers, matrices, assessments, and registers.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2026 00:35:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 08:22:00 GMT</lastBuildDate>
     <generator>WARLOCK-INDEX static site generator</generator>
+    <item>
+      <title>All-Topic Current Source Sweep Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The current sweep supports a refresh queue, not a wholesale rewrite of every assessment. The active control lane is now cyber/APT and nation-state actor coverage. The PRC APT/Typhoon label crosswalk is complete as a source-classed label-control packet, and the Iran MOU implementation watch remains parked until primary records appear or the lane is explicitly reopened. Near-term priority should stay on Iran and DPRK cyber source packets after the completed Russia state-cyber source packet, then NATO and allied force-posture follow-up, homeland and official threat-source refresh, Indo-Pacific PRC/Taiwan/South China Sea official-source updates, Africa official-source depth, space posture refresh, defense industrial-base budget and oversight updates, and map/maritime source routing.</description>
+    </item>
+    <item>
+      <title>Allied And Multilateral Source Register</title>
+      <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/allied-multilateral.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Source Register</category>
+      <category>Global</category>
+      <category>Sources</category>
+      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied DIB country crosswalks, UK defense investment/readiness implementation, Japan defense buildup implementation, allied workforce, shipbuilding, munitions, air and missile defense, drone/counter-UAS, critical materials, and implementation cross-checks.</description>
+    </item>
+    <item>
+      <title>Collection Gap Register</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>Each gap should be closed only by adding a dated source note, source packet, tracker update, or matrix row. Do not silently remove a gap because it is inconvenient or stale.</description>
+    </item>
+    <item>
+      <title>Cyber And Critical Infrastructure Source Crosswalk</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>When a row feeds another product, carry forward the source class, caveat tag, and freshness status. Do not carry over technical details that would reproduce exploitation or offensive procedure.</description>
+    </item>
+    <item>
+      <title>Cyber And Space Refresh Queue Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Defensive Cyber Source Lane Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>the corpus should treat defensive cyber as a standing source lane rather than a one-off topic. The highest-value structure is a recurring watch that links official advisories, vulnerability metadata, vendor mitigations, sector context, and caveats into a searchable corpus.</description>
+    </item>
+    <item>
+      <title>Russia State Cyber Source Packet</title>
+      <link>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-28T0822Z-russia-state-cyber-source-packet.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-28T0822Z-russia-state-cyber-source-packet.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Source Packet</category>
+      <category>Collections</category>
+      <category>Source Packets</category>
+      <description>The Russia state-cyber lane is now packetized. The current official-source record supports four safe extraction lanes:</description>
+    </item>
+    <item>
+      <title>Source Freshness Dashboard Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Topic Source Lane Crosswalk</title>
+      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Matrix</category>
+      <category>Collections</category>
+      <category>Global Assimilation</category>
+      <description>the corpus documentation product.</description>
+    </item>
+    <item>
+      <title>Weekly Current Source Sweep Tracker</title>
+      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-28T0822Z-weekly-current-source-sweep-tracker.html</link>
+      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-28T0822Z-weekly-current-source-sweep-tracker.html</guid>
+      <pubDate>Sun, 28 Jun 2026 08:22:00 GMT</pubDate>
+      <category>Tracker</category>
+      <category>Collections</category>
+      <category>Trackers</category>
+      <description>The weekly sweep supports a focused documentation update rather than a whole-corpus rewrite. The live queue already identified cyber/APT/state actors as the active control lane. The current source pass found a fresh FBI/CISA Russia source update dated June 26, 2026 and enough official/allied source coverage to packetize the Russia state-cyber lane.</description>
+    </item>
     <item>
       <title>Russia State Cyber Source Packet</title>
       <link>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-20T0035Z-russia-state-cyber-source-packet.html</link>
@@ -230,26 +330,6 @@
       <description>The workspace should function as a triage surface for the enriched corpus, not only as a document browser. Metadata-aware routes make it possible to quickly isolate records that need refresh, carry caveats, or belong to defensive cyber source lanes.</description>
     </item>
     <item>
-      <title>Topic Source Lane Crosswalk</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1839Z-topic-source-lane-crosswalk.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:39:00 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>the corpus documentation product.</description>
-    </item>
-    <item>
-      <title>Cyber And Critical Infrastructure Source Crosswalk</title>
-      <link>https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/global-assimilation/2026-06-18T1838Z-cyber-critical-infrastructure-source-crosswalk.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:38:00 GMT</pubDate>
-      <category>Matrix</category>
-      <category>Collections</category>
-      <category>Global Assimilation</category>
-      <description>When a row feeds another product, carry forward the source class, caveat tag, and freshness status. Do not carry over technical details that would reproduce exploitation or offensive procedure.</description>
-    </item>
-    <item>
       <title>Corpus Audit Trail Source Note</title>
       <link>https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-notes/2026-06-18T1837Z-corpus-audit-trail-source-note.html</guid>
@@ -260,46 +340,6 @@
       <description>The generator adds a sourceHash field to each exported corpus record. The hash is a short SHA-256 digest of the Markdown source text and is intended to help identify whether a product changed between generated exports.</description>
     </item>
     <item>
-      <title>Cyber And Space Refresh Queue Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:36:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>the corpus documentation product.</description>
-    </item>
-    <item>
-      <title>Collection Gap Register</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1835Z-collection-gap-register.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:35:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>Each gap should be closed only by adding a dated source note, source packet, tracker update, or matrix row. Do not silently remove a gap because it is inconvenient or stale.</description>
-    </item>
-    <item>
-      <title>Source Freshness Dashboard Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:34:00 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>the corpus documentation product.</description>
-    </item>
-    <item>
-      <title>Defensive Cyber Source Lane Packet</title>
-      <link>https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:33:00 GMT</pubDate>
-      <category>Source Packet</category>
-      <category>Collections</category>
-      <category>Source Packets</category>
-      <description>the corpus should treat defensive cyber as a standing source lane rather than a one-off topic. The highest-value structure is a recurring watch that links official advisories, vulnerability metadata, vendor mitigations, sector context, and caveats into a searchable corpus.</description>
-    </item>
-    <item>
       <title>Defensive Cyber And Space Source Register</title>
       <link>https://www.warlock-index.org/library/source-registers/defensive-cyber-space.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/defensive-cyber-space.html</guid>
@@ -308,16 +348,6 @@
       <category>Global</category>
       <category>Sources</category>
       <description>See [Source Registers hub](README.md) and [Documentation Index](../index.md).</description>
-    </item>
-    <item>
-      <title>All-Topic Current Source Sweep Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 18:07:57 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The current sweep supports a refresh queue, not a wholesale rewrite of every assessment. The highest-priority active lanes remain Iran MOU implementation, NATO and European force-posture/allied response, homeland and official threat source refresh, Indo-Pacific PRC/Taiwan/South China Sea official-source updates, Middle East maritime and sanctions implementation, cyber/space advisory refresh, defense industrial-base budget and oversight updates, Africa official-source depth, and map/maritime source routing.</description>
     </item>
     <item>
       <title>U.S.-Iran MOU Afternoon Source Check</title>
@@ -360,16 +390,6 @@
       <description>PRC cyber labels should be treated as dated source labels, not as a single normalized alias encyclopedia. The accessible official record in this pass supports a controlled crosswalk across several label families:</description>
     </item>
     <item>
-      <title>Allied And Multilateral Source Register</title>
-      <link>https://www.warlock-index.org/library/source-registers/allied-multilateral.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/source-registers/allied-multilateral.html</guid>
-      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
-      <category>Source Register</category>
-      <category>Global</category>
-      <category>Sources</category>
-      <description>Allied and multilateral source routing for defense-industrial capacity, AUKUS submarine industrial implementation, EU Readiness 2030, SAFE/EDIP/EDIS lanes, ICE Pact icebreaker and Arctic-warning industry, NATO industrial cooperation, allied DIB country crosswalks, UK defense investment/readiness implementation, Japan defense buildup implementation, allied workforce, shipbuilding, munitions, air and missile defense, drone/counter-UAS, critical materials, and implementation cross-checks.</description>
-    </item>
-    <item>
       <title>China/PLA Source Collection Tracker</title>
       <link>https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</link>
       <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.html</guid>
@@ -388,26 +408,6 @@
       <category>Collections</category>
       <category>Coverage Map</category>
       <description>source packets, explainers, trackers, timelines, actor profiles, maps, and standards as of the information cutoff.</description>
-    </item>
-    <item>
-      <title>Current Category Source Sweep Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1049Z-current-category-source-sweep-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>The corpus has strong source-packet coverage, but the next value is a dated refresh cycle across every category. The sweep should prioritize official updates first, then multilateral/institutional data, then controlled current-event sources that point to primary records.</description>
-    </item>
-    <item>
-      <title>Cyber Nation-State Actor And APT Source Tracker</title>
-      <link>https://www.warlock-index.org/library/collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.html</link>
-      <guid isPermaLink="true">https://www.warlock-index.org/library/collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.html</guid>
-      <pubDate>Thu, 18 Jun 2026 11:54:34 GMT</pubDate>
-      <category>Tracker</category>
-      <category>Collections</category>
-      <category>Trackers</category>
-      <description>the corpus already has a strong PRC cyber and critical-infrastructure lane, including a Salt Typhoon telecommunications note and a PRC APT/Typhoon label crosswalk. The Russia lane now has its first dedicated state-cyber source packet, which separates GRU, FSB, queued SVR, Ukraine-war, legal-action, sanctions/reward, advisory, and allied-warning source classes. The remaining gap is to build out Iranian, DPRK, allied cyber-center, and state-crime overlap cyber coverage without turning APT coverage into a technical playbook or unsourced alias encyclopedia.</description>
     </item>
   </channel>
 </rss>

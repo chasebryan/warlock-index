@@ -4,11 +4,11 @@
 
 **Matrix ID:** WI-MAT-SOURCE-LANES-2026-0001
 
-**Prepared UTC:** 2026-06-18T18:39:00Z
+**Prepared UTC:** 2026-06-28T08:22:00Z
 
-**Information cutoff UTC:** 2026-06-18T18:39:00Z
+**Information cutoff UTC:** 2026-06-28T08:22:00Z
 
-**Source base:** Current WARLOCK-INDEX topic hubs, source registers, source packets, and source freshness tracker.
+**Source base:** Current WARLOCK-INDEX topic hubs, source registers, source packets, weekly source sweep tracker, Russia state-cyber source packet, and source freshness tracker.
 
 **Analytic confidence:** Moderate. Current lanes are representative and require recurring refresh.
 
@@ -18,13 +18,13 @@
 
 **Freshness status:** Current
 
-**Last source check UTC:** 2026-06-18T18:39:00Z
+**Last source check UTC:** 2026-06-28T08:22:00Z
 
-**Next refresh UTC:** 2026-06-25T18:39:00Z
+**Next refresh UTC:** 2026-07-05T08:22:00Z
 
 **Caveat tags:** current-watch; source-lag; implementation-gap
 
-**Related products:** WI-TRK-FRESHNESS-2026-0001; WI-TRK-GAPS-2026-0001
+**Related products:** WI-TRK-FRESHNESS-2026-0001; WI-TRK-GAPS-2026-0001; WI-TRACKER-WEEKLY-SOURCE-SWEEP-2026-0001; WI-SOURCEPACKET-RUSSIA-CYBER-2026-0001
 
 **Safety boundary:** Source-routing crosswalk only. Does not create operational, collection, targeting, or policy recommendations.
 
@@ -36,8 +36,7 @@
 | Russia / Europe | NATO, EU, allied ministries, Ukrainian official releases | OSCE, think tanks, media cueing | source-lag; media-reporting-unverified |
 | Homeland | DHS, FBI, DOJ, Treasury, CBP, Coast Guard | State/local public releases and court records | legal-status-uncertain |
 | Strategic Weapons | State, DoD, IAEA, arms-control repositories | SIPRI, CSIS, FAS, official adversary releases | source-lag; translation-risk |
-| Cyber / Space | CISA, NSA, NIST, MITRE, USSF, USSPACECOM | Vendor advisories, allied cyber centers, SWF, CSIS | defensive-cyber-only; current-watch |
+| Cyber / Space | CISA, NSA, FBI/IC3, DOJ, Treasury/OFAC, State/RFJ, NIST, MITRE, USSF, USSPACECOM | Russia state-cyber packet, PRC APT/Typhoon crosswalk, vendor advisories, allied cyber centers, SWF, CSIS | defensive-cyber-only; current-watch; source-classed-actor-labels |
 | Arctic | NORAD, Canada, Nordic ministries, NATO | Coast guard, infrastructure, shipping, and research sources | implementation-gap; map-reference-only |
 | Middle East | State, Treasury, CENTCOM, IAEA, IMO, maritime sources | Regional official releases and shipping data | legal-status-uncertain; commercial-data-limit |
 | Defense Industrial Base | DoD, budget documents, service acquisition releases | Company releases, industrial reports, CRS/GAO | implementation-gap; source-lag |
-

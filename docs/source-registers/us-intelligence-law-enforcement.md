@@ -355,20 +355,23 @@ identity, journalism, protest, or association as an intelligence target.
 - **Publishers:** FBI, CISA, NSA, IC3, DOJ, Treasury/OFAC, State Rewards for
   Justice, FCC/Senate where relevant, and allied cyber centers where directly
   captured.
-- **Accessed UTC:** 2026-06-18T11:54:34Z
+- **Accessed UTC:** 2026-06-28T08:22:00Z
 - **URLs:** https://www.fbi.gov/investigate/cyber ; https://www.fbi.gov/investigate/cyber/cyber-threat-overview-china ; https://www.fbi.gov/investigate/cyber/cyber-threat-overview-iran ; https://www.cisa.gov/news-events/cybersecurity-advisories ; https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/ ; https://www.ic3.gov/ ; https://www.justice.gov/nsd ; https://ofac.treasury.gov/ ; https://rewardsforjustice.net/rewards/foreign-malicious-cyber-activity-against-u-s-critical-infrastructure/
 - **Use:** Official U.S. source-family routing for PRC, Russian, Iranian, DPRK,
   and state-crime overlap cyber coverage; APT/actor-label source treatment;
   defensive advisories; law-enforcement source events; cyber sanctions; reward
   notices; IC3 complaint-source context; telecom and critical-infrastructure
-  source separation; PRC APT/Typhoon label control; and allied cyber-center
+  source separation; PRC APT/Typhoon label control; Russia state-cyber
+  source-packet routing; weekly source-sweep control; and allied cyber-center
   cross-checks.
 - **Reliability note:** Authoritative for each issuer's public framing and
   source identity. APT labels, vendor aliases, service-level attribution, and
   law-enforcement allegations require source-class notes before use in broader
   assessments. Use the dedicated cyber nation-state actor tracker for alias and
-  extraction rules and the PRC APT/Typhoon label crosswalk for PRC label
-  source-classing.
+  extraction rules, the PRC APT/Typhoon label crosswalk for PRC label
+  source-classing, and the Russia state-cyber packet for GRU/FSB/Russian
+  Intelligence Services legal, advisory, reward, and allied-warning source
+  separation.
 - **Boundary:** No exploit steps, commands, IOCs, vulnerability lists, malware
   procedures, credential theft workflows, victim lists, provider vulnerability
   maps, lawful-intercept detail, sanctions-evasion guidance, cryptocurrency
@@ -497,7 +500,9 @@ identity, journalism, protest, or association as an intelligence target.
 - [U.S. Law Enforcement Threat Source Capture Packet](../collections/source-packets/official-threat-source-baseline/2026-06-18T0028Z-us-law-enforcement-threat-source-capture-packet.md)
 - [Official Threat Source Collection Tracker](../collections/trackers/2026-06-13T0600Z-official-threat-source-collection-tracker.md)
 - [Cyber Nation-State Actor And APT Source Tracker](../collections/trackers/2026-06-18T1154Z-cyber-nation-state-actor-source-tracker.md)
+- [Weekly Current Source Sweep Tracker](../collections/trackers/2026-06-28T0822Z-weekly-current-source-sweep-tracker.md)
 - [PRC APT/Typhoon Label Crosswalk And Advisory Refresh Source Packet](../collections/source-packets/indo-pacific-adversary-posture/2026-06-18T1213Z-prc-apt-typhoon-label-crosswalk-source-packet.md)
+- [Russia State Cyber Source Packet Weekly Sweep Continuation](../collections/source-packets/defensive-cyber-space/2026-06-28T0822Z-russia-state-cyber-source-packet.md)
 - [Official U.S. Threat Source Assimilation Matrix](../collections/global-assimilation/2026-06-13T0601Z-official-us-threat-source-assimilation-matrix.md)
 - [Legacy Factbook Replacement Note](../collections/source-notes/2026-06-13T0938Z-legacy-factbook-replacement-note.md)
 - [ODNI Global Biolab Disclosure Source-Treatment Note](../collections/source-notes/2026-06-14T0347Z-odni-global-biolab-disclosure-source-treatment-note.md)

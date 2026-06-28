@@ -40,6 +40,7 @@ Use this register to route defensive cyber, critical infrastructure, telecommuni
 | CISA Cybersecurity Advisories | U.S. government alerting and mitigations | Prefer advisory text and linked vendor guidance over secondary summaries. |
 | NSA Cybersecurity Advisories | Hardening, secure configuration, and joint advisory context | Use as defensive guidance source; do not transform into offensive procedures. |
 | FBI Internet Crime Complaint Center | Cybercrime trend reporting | Useful for fraud, ransomware, BEC, and victimization trends. |
+| IC3/FBI/CISA Russian Intelligence Services PSA route | State-actor warning source lane | Use issuer, title, date, actor wording, and broad source class only; no phishing, account-takeover, or technical detail. |
 | FBI, DOJ, Treasury/OFAC, and State/RFJ cyber legal/status routes | Nation-state cyber source events, legal actions, sanctions/designations, and reward notices | Preserve source class and actor wording; do not provide sanctions advice, evasion guidance, tip-channel mechanics, or technical cyber detail. |
 | NIST National Vulnerability Database | CVE metadata and CVSS context | Treat publication dates and enrichment lag as caveats. |
 | MITRE ATT&CK and CWE | Technique and weakness taxonomy | Use for classification and defensive mapping, not procedure reproduction. |

@@ -2,7 +2,7 @@
 
 **Current status:** Documentation corpus and routing surfaces are active. Meta-documentation (standards, indices, hubs, templates, contributing guidance) continues to be polished for consistency and navigability.
 
-**Prepared UTC:** 2026-06-19T00:00:00Z (documentation infrastructure and index completeness work)
+**Prepared UTC:** 2026-06-28T08:22:00Z (weekly source sweep and documentation infrastructure carry-forward)
 
 ## Completed
 
@@ -482,6 +482,15 @@
   Ukraine-war, legal-action, sanctions/reward, defensive advisory, and allied
   warning source classes without IOCs, malware procedures, vulnerability lists,
   target mapping, or operational cyber guidance.
+- Added the weekly current source sweep tracker and 2026-06-28 Russia
+  state-cyber continuation packet, tying the June 26, 2026 FBI/CISA Russian
+  Intelligence Services PSA, March 20, 2026 baseline PSA, FBI GRU 29155
+  wanted/reward routing, DOJ Operation MEDUSA / Snake disruption source
+  treatment, UK NCSC Star Blizzard allied-warning source treatment, and
+  CISA/NSA/Treasury/State route queues to the cyber tracker, defensive cyber
+  register, coverage map, global matrix, and documentation index without
+  phishing templates, malware procedures, IOCs, targeting support, sanctions
+  advice, or operational cyber guidance.
 - Added priority explainers for defense industrial base, air and missile
   defense, drone/counter-UAS, shipbuilding and repair, allied defense industrial
   base, China/PLA modernization, Iran/Middle East strategic pressure, Ukraine
@@ -504,12 +513,12 @@ The repository is in baseline-building mode. Products prioritize:
 Documentation infrastructure (hubs, standards consistency, index completeness, cross-links) is now actively maintained alongside content lanes. Continued with additional examples in core standards (product, explainer, source-eval, datetime), hub polish (usage guidance, cross-refs, tables, examples), more index cleanup (section descriptions), duplicate cleanup, repeated build+check + go-validate verification loops, date bumps on active meta-hubs (including confidence and structured), cross-ref additions across many sub-READMEs, scannability improvements to docs/index.md, main README polish, and style guide navigation note. Documentation infrastructure work ongoing.
 
 - Use the cyber nation-state actor and APT source tracker as the active control
-  lane. The PRC APT/Typhoon label crosswalk and Russia state cyber packet are
+  lane. The PRC APT/Typhoon label crosswalk and Russia state-cyber packets are
   now packetized; next add Iran and DPRK cyber source packets from official and
   allied defensive sources, sequenced by source availability. Keep queued
-  SVR/APT29, IRGC-linked, DPRK cyber-finance/IT-worker, ransomware-enabling,
-  election/influence, sanctions, and legal-action evidence separated by source
-  class.
+  SVR/APT29, GRU/FSB advisory metadata, IRGC-linked, DPRK cyber-finance/
+  IT-worker, ransomware-enabling, election/influence, sanctions, reward,
+  legal-action, and allied-warning evidence separated by source class.
 - Follow the remaining PRC advisory page-level refresh queue only as a
   controlled metadata pass: exact CISA, NSA, FBI, FCC, and allied titles,
   dates, issuing agencies, and access notes without IOCs, CVEs, commands,

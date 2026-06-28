@@ -125,6 +125,7 @@ See the [Collections hub](collections/README.md) for an overview of explainers, 
 - [Allied Official Source Collection Tracker](collections/trackers/2026-06-14T0118Z-allied-official-source-collection-tracker.md)
 - [China/PLA Source Collection Tracker](collections/trackers/2026-06-14T0523Z-china-pla-source-collection-tracker.md)
 - [All-Topic Current Source Sweep Tracker](collections/trackers/2026-06-18T1807Z-all-topic-current-source-sweep-tracker.md)
+- [Weekly Current Source Sweep Tracker](collections/trackers/2026-06-28T0822Z-weekly-current-source-sweep-tracker.md)
 - [Source Freshness Dashboard Tracker](collections/trackers/2026-06-18T1834Z-source-freshness-dashboard-tracker.md)
 - [Collection Gap Register](collections/trackers/2026-06-18T1835Z-collection-gap-register.md)
 - [Cyber And Space Refresh Queue Tracker](collections/trackers/2026-06-18T1836Z-cyber-space-refresh-queue-tracker.md)
@@ -232,6 +233,7 @@ See the [Collections hub](collections/README.md) for an overview of explainers, 
 - [Strategy And Warfare Research Source Packets](collections/source-packets/strategy-and-warfare-research)
 - [Stratagems, Strategy, And Warfare Academic Research Source Packet](collections/source-packets/strategy-and-warfare-research/2026-06-18T1750Z-stratagems-strategy-warfare-academic-research-source-packet.md)
 - [Defensive Cyber And Space Source Packets](collections/source-packets/defensive-cyber-space)
+- [Russia State Cyber Source Packet Weekly Sweep Continuation](collections/source-packets/defensive-cyber-space/2026-06-28T0822Z-russia-state-cyber-source-packet.md)
 - [Russia State Cyber Source Packet](collections/source-packets/defensive-cyber-space/2026-06-20T0035Z-russia-state-cyber-source-packet.md)
 - [Defensive Cyber Source Lane Packet](collections/source-packets/defensive-cyber-space/2026-06-18T1833Z-defensive-cyber-source-lane-packet.md)
 - [Event Timelines](collections/event-timelines) — dated sequences with sources
